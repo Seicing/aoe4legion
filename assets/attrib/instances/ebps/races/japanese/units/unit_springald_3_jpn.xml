@@ -1,0 +1,56 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="811590333" List.ParentItemID="811590333">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\chinese\units\unit_scorpion_3_chi" overrideParent="True" />
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="814318428" List.ParentItemID="814318428">
+			<instance_reference name="hit_material" value="hit_material\wood" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-927567073" List.ParentItemID="-927567073">
+			<float name="personnel_pop" value="2" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1224301896" List.ParentItemID="1224301896">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\japanese" overrideParent="True" List.ItemID="91545670" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="-587241534" List.ParentItemID="-587241534">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="-1624532552" List.ParentItemID="-1624532552">
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="-746170489" List.ParentItemID="-746170489">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_springald_3" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="" overrideParent="True" />
+								<string name="marker_name_parent" value="" overrideParent="True" />
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-1763078206" List.ParentItemID="-1763078206">
+			<instance_reference name="pass_type" value="pass_types\infantry" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="273517794" List.ParentItemID="273517794">
+			<string name="default_animation" value="setup\idle_teardown" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-464370243" List.ParentItemID="-464370243">
+			<instance_reference name="schema" value="statemodel_schema\units\siege_weapon" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-766205460" List.ParentItemID="-766205460">
+			<list name="tier_group_list">
+				<list name="tier_group" List.ItemID="1058977672" List.ParentItemID="1058977672">
+					<group name="tier" List.ItemID="-617385585" List.ParentItemID="-617385585">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\japanese\units\tier3_scorpion_jpn" overrideParent="True" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="3947566" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_springald_3" />
+</instance>

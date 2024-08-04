@@ -1,0 +1,79 @@
+<instance version="4" description="Chinese Imperial Age Knight" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-458796721" List.ParentItemID="-458796721">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="1896534723" List.ParentItemID="1896534723">
+					<group name="info">
+						<locstring name="screen_name" value="424" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<file name="icon_name" value="shogun_jpn" overrideParent="True" />
+						<locstring name="help_text" value="423" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<string name="selection_group" value="abbey_kingchinese" overrideParent="True" />
+						<bool name="is_unique" value="True" overrideParent="True" />
+						<float name="minimap_texture_scale" value="1" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="116620937" List.ParentItemID="116620937">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1858632065" List.ParentItemID="1858632065">
+					<instance_reference name="type" value="ebps\races\japanese\units\unit_shogun_jpn" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-1190222385" List.ParentItemID="-1190222385">
+			<list name="requirement_table" overrideParent="True">
+				<template_reference name="required" value="requirements\required_squad" List.ItemID="1665462715">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="567" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<float name="max_squad_cap" value="1" />
+					<instance_reference name="squad_name" value="sbps\races\japanese\unit_shogun_jpn" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1041318924">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+					<bool name="include_completed" value="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-2075529061" List.ParentItemID="-2075529061">
+			<list name="abilities">
+				<instance_reference name="ability" value="abilities\always_on_abilities\japanese\samurai_shield_jpn" List.ItemID="-730314113" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-528484734" List.ParentItemID="-528484734">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\japanese" overrideParent="True" List.ItemID="633230262" />
+			</list>
+			<list name="squad_type_list" removedIds="1643737965">
+				<enum name="squad_type" value="audio_abbey_crown_a_king" List.ItemID="-1058279044" List.ListAction="Append" />
+				<enum name="squad_type" value="leader" List.ItemID="-1861802449" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="1990237064" List.ParentItemID="1990237064">
+			<list name="age_mapping">
+				<int name="age_number" value="3" overrideParent="True" List.ItemID="-1314067329" List.ParentItemID="-1314067329" />
+				<int name="age_number" value="3" overrideParent="True" List.ItemID="-945922741" List.ParentItemID="-945922741" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-993571294" List.ParentItemID="-993571294">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742090" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_knight_4" />
+</instance>

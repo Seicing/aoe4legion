@@ -1,0 +1,207 @@
+<instance version="4" description="Bannerman Samurai" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="71247335" List.ParentItemID="71247335">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="1131010880" List.ParentItemID="1131010880">
+					<group name="info">
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<file name="icon_name" value="bannermen_gun" overrideParent="True" />
+						<bool name="is_unique" value="False" overrideParent="True" />
+						<locstring name="help_text" value="11232565" overrideParent="True" />
+						<locstring name="screen_name" value="710" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<string name="selection_group" value="ranged_bannermangun" overrideParent="True" />
+						<locstring name="extra_text" value="11215016" overrideParent="True" />
+						<string name="hotkey_name" value="Q" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-1479400647" List.ParentItemID="-1479400647">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-850271175" List.ParentItemID="-850271175">
+					<instance_reference name="type" value="ebps\races\japanese\units\bannerman_samurai\unit_banner_samurai_gun_4_jpn" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1598045404" List.ParentItemID="1598045404">
+			<list name="requirement_table" overrideParent="True">
+				<template_reference name="required" value="requirements\required_player_resources" overrideParent="True" List.ItemID="-736154797">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="11252407" />
+					<enum_table name="resource">
+						<float name="action" value="1" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+				</template_reference>
+				<template_reference name="required" value="requirements\required_structure" List.ItemID="-1181742580">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="729" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="structure_name" value="ebps\races\japanese\buildings\building_landmark_age1_shinobi_jpn" mod="67987bbc33214c57b0617d9356614825" />
+					<int name="required_structure_count" value="1" />
+					<bool name="check_team" value="False" />
+					<bool name="require_construction_complete" value="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
+				<template_reference name="required" value="requirements\required_structure" List.ItemID="-808538449">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="730" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="structure_name" value="ebps\races\japanese\buildings\building_landmark_age3_ozutsu_jpn" overrideParent="True" />
+					<int name="required_structure_count" value="1" />
+					<bool name="check_team" value="False" />
+					<bool name="require_construction_complete" value="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-2098523511" List.ParentItemID="-2098523511">
+			<list name="abilities" overrideParent="True">
+				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="754808016" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="188901648" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="-900303661" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="-433648504" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\core\military_charge" List.ItemID="-1561612760" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\japanese\bannerman_aura_range_jpn" List.ItemID="1789679761" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\japanese\samurai_shield_jpn" List.ItemID="377296437" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-1816252207" List.ParentItemID="-1816252207">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\japanese" overrideParent="True" List.ItemID="-1785982139" />
+			</list>
+			<list name="squad_type_list" removedIds="194262671, 863629909, 937506913, -728295013, 337556032">
+				<enum name="squad_type" value="ranged" overrideParent="True" List.ItemID="-68103652" List.ListAction="Append" />
+				<enum name="squad_type" value="gunpowder" List.ItemID="352709364" List.ListAction="Append" />
+				<enum name="squad_type" value="handcannon" List.ItemID="799467479" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="984874715" List.ParentItemID="984874715">
+			<string name="squad_speaker_code" value="handcannon" overrideParent="True" />
+			<group name="squad_speech_parameters">
+				<string name="squad_name_code" value="hatamotoSamurai" overrideParent="True" />
+				<string name="squad_class_code" value="military" overrideParent="True" />
+			</group>
+			<int name="importance" value="5" overrideParent="True" />
+			<list name="age_mapping" overrideParent="True">
+				<int name="age_number" value="4" overrideParent="True" List.ItemID="1902000284" />
+				<int name="age_number" value="4" overrideParent="True" List.ItemID="1356038707" />
+				<int name="age_number" value="4" overrideParent="True" List.ItemID="996438055" />
+				<int name="age_number" value="4" List.ItemID="1532783445" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" List.ItemID="591179255" List.ParentItemID="591179255">
+			<list name="construction_groups">
+				<group name="construction_group" List.ItemID="-1589856796" List.ParentItemID="-1589856796">
+					<list name="construction_items">
+						<group name="construction_item" List.ItemID="1181774605" List.ParentItemID="1181774605">
+							<instance_reference name="ebp" value="ebps\races\japanese\units\unit_ram_3_jpn" overrideParent="True" />
+							<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+								<template_reference name="command_card_info" value="ui_command_card_info">
+									<group name="ui_position">
+										<int name="ui_position_row" value="1" />
+										<int name="ui_position_column" value="1" />
+									</group>
+									<int name="command_card_priority" value="1" />
+								</template_reference>
+								<template_reference name="quick_abilities_info" value="ui_quick_abilities_info">
+									<enum name="dpad_position" value="dpad_up" />
+									<int name="quick_abilities_page_num" value="1" />
+									<int name="quick_abilities_priority" value="1" />
+								</template_reference>
+								<template_reference name="quick_commands_info" value="">
+								</template_reference>
+								<template_reference name="quick_formation_info" value="">
+								</template_reference>
+								<template_reference name="ping_menu_info" value="">
+								</template_reference>
+								<enum name="category" value="Military" />
+								<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+									<enum name="quick_commands_hotkey" value="" />
+									<int name="quick_commands_priority" value="-1" />
+									<int name="quick_commands_slot_index" value="-1" />
+									<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+								</template_reference>
+								<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+									<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\field_upgrades" />
+									<int name="nominal_index" value="12" />
+									<int name="priority" value="0" />
+									<instance_reference name="linked" value="" />
+								</template_reference>
+								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
+							</template_reference>
+						</group>
+						<group name="construction_item" List.ItemID="223408977" List.ParentItemID="223408977">
+							<instance_reference name="ebp" value="ebps\races\japanese\units\unit_siege_tower_3_jpn" overrideParent="True" />
+							<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+								<template_reference name="command_card_info" value="ui_command_card_info">
+									<group name="ui_position">
+										<int name="ui_position_row" value="1" />
+										<int name="ui_position_column" value="2" />
+									</group>
+									<int name="command_card_priority" value="1" />
+								</template_reference>
+								<template_reference name="quick_abilities_info" value="ui_quick_abilities_info">
+									<enum name="dpad_position" value="dpad_right" />
+									<int name="quick_abilities_page_num" value="1" />
+									<int name="quick_abilities_priority" value="1" />
+								</template_reference>
+								<template_reference name="quick_commands_info" value="">
+								</template_reference>
+								<template_reference name="quick_formation_info" value="">
+								</template_reference>
+								<template_reference name="ping_menu_info" value="">
+								</template_reference>
+								<enum name="category" value="Military" />
+								<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+									<enum name="quick_commands_hotkey" value="" />
+									<int name="quick_commands_priority" value="-1" />
+									<int name="quick_commands_slot_index" value="-1" />
+									<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+								</template_reference>
+								<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+									<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\field_upgrades" />
+									<int name="nominal_index" value="4" />
+									<int name="priority" value="0" />
+									<instance_reference name="linked" value="" />
+								</template_reference>
+								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="172878768" List.ParentItemID="172878768">
+			<enum name="unit_type" value="maa_guandao" overrideParent="True" />
+			<int name="importance" value="5" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="-152756763" List.ParentItemID="-152756763">
+			<instance_reference name="schema" value="statemodel_schema\units\manatarms" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1225302154" List.ParentItemID="-1225302154">
+			<float name="desired_protection_level_in_formation" value="3" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742323" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_archer_4" />
+</instance>

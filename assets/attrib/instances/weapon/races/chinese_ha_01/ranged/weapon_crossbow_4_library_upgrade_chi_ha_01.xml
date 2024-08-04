@@ -1,0 +1,47 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="15" overrideParent="True" />
+			<float name="min" value="15" overrideParent="True" />
+			<list name="on_penetrated_state_trees">
+				<group name="container" overrideParent="True" List.ItemID="106810874" List.ListAction="Append">
+					<string name="state_tree" value="" overrideParent="True" />
+				</group>
+			</list>
+		</group>
+		<string name="name" value="Heavy Crossbow Weapon" overrideParent="True" />
+		<group name="range">
+			<group name="distance">
+				<float name="near" value="-1" overrideParent="True" />
+				<float name="far" value="-1" overrideParent="True" />
+				<float name="mid" value="-1" overrideParent="True" />
+			</group>
+			<float name="max_animation_angle_distance" value="22" overrideParent="True" />
+		</group>
+		<group name="scatter">
+			<float name="angle_scatter" value="6" overrideParent="True" />
+			<float name="distance_scatter_ratio" value="0.0833" overrideParent="True" />
+		</group>
+		<list name="target_type_table">
+			<group name="target_unit_type_multipliers" List.ItemID="349900250" List.ParentItemID="349900250">
+				<float name="base_damage_modifier" value="11" overrideParent="True" />
+			</group>
+		</list>
+		<group name="burst">
+			<bool name="can_burst" value="True" overrideParent="True" />
+			<group name="duration">
+				<float name="max" value="0.5" overrideParent="True" />
+				<float name="min" value="0.5" overrideParent="True" />
+			</group>
+			<group name="rate_of_fire">
+				<float name="max" value="3" overrideParent="True" />
+				<float name="min" value="3" overrideParent="True" />
+			</group>
+		</group>
+		<group name="fire">
+			<float name="wind_down" value="0" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="2135962" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_crossbow_3" />
+</instance>

@@ -1,0 +1,74 @@
+<instance version="4" description="French Imperial Age Handcannon" template="sbps">
+	<list name="extensions" removedIds="513088722">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="1985189745" List.ParentItemID="1985189745">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="-636411081" List.ParentItemID="-636411081">
+					<group name="info">
+						<locstring name="screen_name" value="745" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="extra_text" value="743" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="help_text" value="744" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<string name="selection_group" value="cannoneermaster" overrideParent="True" />
+						<float name="minimap_texture_scale" value="1" overrideParent="True" />
+						<bool name="is_unique" value="True" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<file name="icon_name" value="shogun2fre" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-945597977" List.ParentItemID="-945597977">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1286505320">
+					<float name="num" value="1" />
+					<instance_reference name="type" value="ebps\races\french\units\unit_shogun_ordnance_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<list name="unit_attachments">
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-493400043" List.ParentItemID="-493400043">
+			<list name="requirement_table" comment="requires tech army, imperial age, chemistry upgrade">
+				<template_reference name="required" value="requirements\required_squad" List.ItemID="-531755307" List.ListAction="Append">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="567" mod="67987bbc33214c57b0617d9356614825" />
+					<float name="max_squad_cap" value="1" />
+					<instance_reference name="squad_name" value="sbps\races\french\unit_shogun_ordnance_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-1020570626" List.ParentItemID="-1020570626">
+			<list name="abilities">
+				<instance_reference name="ability" value="abilities\modal_abilities\core\infantry_repair" List.ItemID="1833089015" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="1784032153" List.ParentItemID="1784032153">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\french" List.ItemID="-758728292" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="901158809" List.ParentItemID="901158809">
+			<list name="age_mapping">
+				<int name="age_number" value="4" overrideParent="True" List.ItemID="908298935" List.ParentItemID="908298935" />
+				<int name="age_number" value="4" overrideParent="True" List.ItemID="-1986767257" List.ParentItemID="-1986767257" />
+				<int name="age_number" value="4" overrideParent="True" List.ItemID="1237883316" List.ParentItemID="1237883316" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="-357793383" List.ParentItemID="-357793383">
+			<enum name="unit_type" value="gunman" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1053081250" List.ParentItemID="-1053081250">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742368" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_handcannon_4" />
+</instance>

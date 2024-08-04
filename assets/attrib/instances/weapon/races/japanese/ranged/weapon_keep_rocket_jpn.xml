@@ -1,0 +1,31 @@
+<instance version="4" description="" template="weapon">
+	<uniqueid name="pbgid" value="2136388" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_naval_warship_cannon" />
+	<group name="weapon_bag">
+		<group name="projectile">
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_rocket_jpn" overrideParent="True" />
+		</group>
+		<group name="tracking">
+			<float name="fire_cone_angle" value="360" overrideParent="True" />
+		</group>
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\point_area_option" overrideParent="True">
+			</template_reference>
+		</group>
+		<group name="damage">
+			<float name="max" value="88" overrideParent="True" />
+			<float name="min" value="88" overrideParent="True" />
+			<enum name="damage_type" value="Ranged" overrideParent="True" />
+		</group>
+		<group name="reload">
+			<group name="duration">
+				<float name="max" value="1.8" overrideParent="True" />
+				<float name="min" value="1.8" overrideParent="True" />
+			</group>
+		</group>
+		<list name="target_type_table" removedIds="-377644455">
+		</list>
+		<string name="name" value="Keep Weapon - Rocket" overrideParent="True" />
+		<locstring name="ui_name" value="11252442" overrideParent="True" />
+	</group>
+</instance>

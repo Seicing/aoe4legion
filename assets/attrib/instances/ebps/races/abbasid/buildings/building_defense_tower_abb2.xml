@@ -1,0 +1,118 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1212808348" List.ParentItemID="-1212808348">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\civilizations\campaign\crusader\buildings\building_defense_wall_acre_tower_cru" overrideParent="True" />
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="998092536" List.ParentItemID="998092536">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="stone" value="325" overrideParent="True" />
+				</enum_table>
+				<float name="time_seconds" value="45" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="2028962899" List.ParentItemID="2028962899">
+			<float name="hitpoints" value="7500" overrideParent="True" />
+			<enum_table name="armor_scaler_by_damage_type">
+				<float name="True Damage" value="5" overrideParent="True" />
+				<float name="Fire" value="10" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-923485527" List.ParentItemID="-923485527">
+			<list name="unit_type_list" overrideParent="True">
+				<enum name="unit_type" value="military" List.ItemID="1155113887" />
+				<enum name="unit_type" value="building" List.ItemID="-295574635" />
+				<enum name="unit_type" value="tower" List.ItemID="49316958" />
+				<enum name="unit_type" value="defensive_structure" List.ItemID="1419750857" />
+				<enum name="unit_type" value="siegeable" List.ItemID="-1276127799" />
+				<enum name="unit_type" value="has_default_building_weapons" List.ItemID="2061159443" />
+				<enum name="unit_type" value="stone_wall_tower" List.ItemID="583316044" />
+				<enum name="unit_type" value="golden_age_tier_1_building_abb" List.ItemID="-414557062" />
+			</list>
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\abbasid" List.ItemID="-480049091" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="172807975" List.ParentItemID="172807975">
+			<locstring name="help_text" value="566" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+			<locstring name="screen_name" value="565" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+			<file name="icon_name" value="races\campaign\buildings\acre_tower" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="-2115950863" List.ParentItemID="-2115950863">
+			<list name="hardpoints">
+				<group name="hardpoint" comment="Springald Slot" overrideParent="True" List.ItemID="1443531073" List.ParentItemID="1443531073">
+					<float name="parent_hardpoint" value="-1" />
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="-694178313" List.ParentItemID="-694178313">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="7" />
+								<float name="z" value="2" />
+							</group>
+							<enum name="type" value="default" />
+							<template_reference name="weapon_entity_attachment" value="options\attachment_types\entity_create_attachment">
+								<template_reference name="entity_attach_data" value="attachments\attach_data_entity">
+									<template_reference name="attach_data" value="attachments\attach_data">
+										<string name="marker_name_parent" value="" />
+										<string name="parent_rigidbody_target_name" value="" />
+										<enum name="game_object_attachment_type" value="scenegraph" />
+									</template_reference>
+									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_siege_walltower_cannon" />
+									<group name="attachment_flags">
+										<bool name="sim_only" value="False" />
+										<bool name="no_pathfinding" value="True" />
+										<bool name="not_snappable" value="False" />
+										<bool name="restore_snap_to_ground_on_detach" value="False" />
+										<bool name="no_sim_update" value="True" />
+										<bool name="join_parent_squad" value="False" />
+										<bool name="redirect_damage_to_parent_entity" value="True" />
+										<bool name="assign_as_attachment_combat_leader" value="False" />
+										<bool name="assign_as_attachment_movement_leader" value="False" />
+										<bool name="receive_parent_animations" value="False" />
+										<bool name="receive_parent_death" value="False" />
+									</group>
+								</template_reference>
+								<list name="possible_blueprint_updates">
+								</list>
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="">
+							</template_reference>
+						</group>
+					</list>
+					<bool name="receives_attack_commands" value="True" />
+					<string name="base_marker" value="" />
+					<list name="preferred_inventory_item_categories">
+					</list>
+					<list name="firing_offset_markers" overrideParent="True">
+						<string name="marker" value="fx_muz_cannon_00" List.ItemID="1272101314" List.ParentItemID="1272101314" />
+						<string name="marker" value="fx_muz_cannon_01" List.ItemID="-1740292105" List.ParentItemID="-1740292105" />
+						<string name="marker" value="fx_muz_cannon_02" List.ItemID="-1400167628" List.ParentItemID="-1400167628" />
+						<string name="marker" value="fx_muz_cannon_03" List.ItemID="979154297" List.ParentItemID="979154297" />
+					</list>
+					<bool name="initialize_weapons_on_creation" value="False" />
+					<string name="offhand_marker" value="" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-730002550" List.ParentItemID="-730002550">
+			<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary_fence_dependent">
+				<instance_reference name="depends_on_blueprint" value="ebps\races\abbasid\buildings\building_defense_wall_abb" overrideParent="True" />
+			</template_reference>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-349461896" List.ParentItemID="-349461896">
+			<list name="abilities" overrideParent="True">
+				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_building_scuttle_no_enemies" overrideParent="True" List.ItemID="-1744875555" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\abbasid\passives\golden_age_bonus_1_abb" List.ItemID="-286857356" />
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742206" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\buildings\building_defense_tower" />
+</instance>

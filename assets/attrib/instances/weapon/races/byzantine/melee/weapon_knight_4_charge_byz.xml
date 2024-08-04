@@ -1,0 +1,10 @@
+<instance version="4" description="" template="weapon">
+	<uniqueid name="pbgid" value="2121960" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_4_charge" />
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="32" overrideParent="True" />
+			<float name="min" value="32" overrideParent="True" />
+		</group>
+	</group>
+</instance>
