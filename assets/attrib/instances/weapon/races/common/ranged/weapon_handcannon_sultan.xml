@@ -1,0 +1,42 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<string name="fx_munition_name" value="common\grenade_explode" overrideParent="True" />
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\circle_area_option" overrideParent="True">
+				<float name="outer_radius" value="2" overrideParent="True" />
+				<float name="inner_radius" value="0" />
+				<bool name="is_two_dimensional" value="True" />
+				<enum name="dynamic_radius_type" value="fixed" />
+			</template_reference>
+			<template_reference name="aoe_penetration" value="tables\range_table" overrideParent="True">
+				<float name="far" value="0" />
+				<float name="mid" value="0" />
+				<float name="near" value="0" />
+			</template_reference>
+		</group>
+		<group name="burst">
+			<bool name="can_burst" value="True" overrideParent="True" />
+			<group name="duration">
+				<float name="max" value="0.25" overrideParent="True" />
+				<float name="min" value="0.25" overrideParent="True" />
+			</group>
+			<group name="rate_of_fire">
+				<float name="max" value="12" overrideParent="True" />
+				<float name="min" value="12" overrideParent="True" />
+			</group>
+		</group>
+		<group name="damage">
+			<float name="max" value="13" overrideParent="True" />
+			<float name="min" value="13" overrideParent="True" />
+		</group>
+		<group name="fire">
+			<float name="wind_down" value="1.25" overrideParent="True" />
+		</group>
+		<group name="range">
+			<float name="max" value="20" overrideParent="True" />
+		</group>
+		<string name="fx_piercing_munition_name" value="common\grenade_explode" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="1073741942" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_handcannon_4" />
+</instance>

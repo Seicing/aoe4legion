@@ -1,0 +1,85 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="35" overrideParent="True" />
+			<float name="min" value="35" overrideParent="True" />
+			<enum name="damage_type" value="Ranged" overrideParent="True" />
+		</group>
+		<group name="range">
+			<float name="max" value="26" overrideParent="True" />
+			<float name="min" value="0" overrideParent="True" />
+			<float name="max_animation_angle_distance" value="18" overrideParent="True" />
+		</group>
+		<group name="reload">
+			<group name="duration">
+				<float name="max" value="3.5" overrideParent="True" />
+				<float name="min" value="3.5" overrideParent="True" />
+			</group>
+		</group>
+		<group name="teardown">
+			<float name="duration" value="0.5" overrideParent="True" />
+		</group>
+		<group name="tracking">
+			<group name="normal">
+				<float name="max_down" value="-90" overrideParent="True" />
+				<float name="max_left" value="-45" overrideParent="True" />
+				<float name="max_right" value="45" overrideParent="True" />
+				<float name="max_up" value="90" overrideParent="True" />
+			</group>
+		</group>
+		<enum name="weapon_class" value="cdn_handcannon" overrideParent="True" />
+		<list name="target_type_table" removedIds="841167743, -2093468216">
+			<group name="target_unit_type_multipliers" List.ItemID="-1622376575" List.ListAction="Append">
+				<enum name="unit_type" value="building" overrideParent="True" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+				<float name="base_damage_modifier" value="130" overrideParent="True" />
+			</group>
+			<group name="target_unit_type_multipliers" List.ItemID="-663094623" List.ListAction="Append">
+				<enum name="unit_type" value="siege" overrideParent="True" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+				<float name="base_damage_modifier" value="25" overrideParent="True" />
+			</group>
+		</list>
+		<group name="fire">
+			<float name="wind_down" value="0.5" overrideParent="True" />
+			<float name="wind_up" value="0.125" overrideParent="True" />
+			<float name="animation_impact_frame_time" value="0.125" overrideParent="True" />
+		</group>
+		<group name="setup">
+			<float name="duration" value="0" overrideParent="True" />
+		</group>
+		<string name="fx_munition_name" value="common\ozutsu" overrideParent="True" />
+		<string name="name" value="Ozutsu Siege Weapon" overrideParent="True" />
+		<group name="projectile">
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_shot_ozutsu" overrideParent="True" />
+		</group>
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\circle_area_option" overrideParent="True">
+				<float name="outer_radius" value="2" overrideParent="True" />
+				<float name="inner_radius" value="0" overrideParent="True" />
+				<bool name="is_two_dimensional" value="True" />
+				<enum name="dynamic_radius_type" value="fixed" />
+			</template_reference>
+			<group name="damage">
+				<float name="far" value="0.1" overrideParent="True" />
+				<float name="mid" value="0.1" overrideParent="True" />
+			</group>
+			<group name="distance">
+				<float name="far" value="2" overrideParent="True" />
+				<float name="near" value="0.1" overrideParent="True" />
+			</group>
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="2127413" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_bombard_4" />
+</instance>

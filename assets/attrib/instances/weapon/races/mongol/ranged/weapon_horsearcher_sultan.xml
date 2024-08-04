@@ -1,0 +1,63 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="aim">
+			<group name="aim_time_multiplier">
+				<float name="near" value="1.5" overrideParent="True" />
+				<float name="mid" value="1.25" overrideParent="True" />
+			</group>
+		</group>
+		<group name="damage">
+			<float name="max" value="15" overrideParent="True" />
+			<float name="min" value="15" overrideParent="True" />
+			<list name="on_penetrated_state_trees" overrideParent="True">
+			</list>
+			<enum name="damage_type" value="Melee" overrideParent="True" />
+		</group>
+		<group name="range">
+			<float name="max" value="20" overrideParent="True" />
+			<float name="max_animation_angle_distance" value="20" overrideParent="True" />
+		</group>
+		<group name="reload">
+			<group name="duration">
+				<float name="max" value="0.75" overrideParent="True" />
+				<float name="min" value="0.75" overrideParent="True" />
+			</group>
+		</group>
+		<group name="scatter">
+			<float name="angle_scatter" value="4" overrideParent="True" />
+			<float name="distance_scatter_max" value="4" overrideParent="True" />
+		</group>
+		<list name="target_type_table">
+			<group name="target_unit_type_multipliers" List.ItemID="1765186372" List.ParentItemID="1765186372">
+				<enum name="unit_type" value="cavalry" overrideParent="True" />
+				<float name="base_damage_modifier" value="12" overrideParent="True" />
+			</group>
+			<group name="target_unit_type_multipliers" overrideParent="True" List.ItemID="831096205" List.ListAction="Append">
+				<enum name="unit_type" value="siege" overrideParent="True" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" overrideParent="True" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+				<float name="base_damage_modifier" value="20" overrideParent="True" />
+			</group>
+		</list>
+		<group name="burst">
+			<bool name="can_burst" value="True" overrideParent="True" />
+			<group name="duration">
+				<float name="max" value="0.5" overrideParent="True" />
+				<float name="min" value="0.5" overrideParent="True" />
+			</group>
+			<group name="rate_of_fire">
+				<float name="max" value="4" overrideParent="True" />
+				<float name="min" value="4" overrideParent="True" />
+			</group>
+		</group>
+		<group name="projectile">
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_arrow_incendiary" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="1073742041" />
+	<instance_reference name="parent_pbg" value="weapon\races\mongol\ranged\weapon_khan_2_mon" />
+</instance>

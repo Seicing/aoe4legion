@@ -1,0 +1,67 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\pie_area_option" overrideParent="True">
+				<float name="outer_radius" value="3" overrideParent="True" />
+				<float name="angle_left" value="-150" overrideParent="True" />
+				<float name="angle_right" value="150" overrideParent="True" />
+				<float name="inner_radius" value="0" />
+				<enum name="dynamic_radius_type" value="fixed" />
+			</template_reference>
+			<group name="damage" overrideParent="True">
+				<float name="far" value="0.75" overrideParent="True" />
+				<float name="near" value="1" />
+				<float name="mid" value="0.8" overrideParent="True" />
+			</group>
+		</group>
+		<group name="cooldown">
+			<group name="duration">
+				<float name="max" value="0" overrideParent="True" />
+				<float name="min" value="0" overrideParent="True" />
+			</group>
+		</group>
+		<group name="damage">
+			<float name="max" value="15" overrideParent="True" />
+			<float name="min" value="15" overrideParent="True" />
+			<enum name="damage_type" value="True Damage" overrideParent="True" />
+		</group>
+		<group name="fire">
+			<float name="wind_down" value="0.5" overrideParent="True" />
+			<float name="wind_up" value="0.5" overrideParent="True" />
+		</group>
+		<string name="fx_munition_name" value="common\elephant_melee" overrideParent="True" />
+		<string name="name" value="War Elephant Melee" overrideParent="True" />
+		<group name="range">
+			<float name="max" value="4" overrideParent="True" />
+			<float name="max_height" value="5" overrideParent="True" />
+		</group>
+		<group name="tracking">
+			<group name="normal">
+				<float name="max_left" value="-90" overrideParent="True" />
+				<float name="max_right" value="90" overrideParent="True" />
+			</group>
+		</group>
+		<enum name="weapon_class" value="cdn_2h_poleaxe" overrideParent="True" />
+		<list name="target_type_table">
+			<group name="target_unit_type_multipliers" List.ItemID="-1096245647" List.ListAction="Append">
+				<enum name="unit_type" value="building" overrideParent="True" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+				<float name="base_damage_modifier" value="45" overrideParent="True" />
+			</group>
+		</list>
+		<template_reference name="siege_option" value="options\weapon\siege_option" overrideParent="True">
+			<bool name="is_siege_only" value="False" />
+		</template_reference>
+		<group name="moving">
+			<bool name="can_fire_while_moving" value="True" overrideParent="True" />
+		</group>
+		<locstring name="ui_name" value="98" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="184643" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_manatarms_3" />
+</instance>

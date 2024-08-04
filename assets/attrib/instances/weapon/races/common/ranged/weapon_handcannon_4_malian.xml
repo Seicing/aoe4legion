@@ -1,0 +1,34 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="aim">
+			<group name="aim_time_multiplier">
+				<float name="far" value="1" overrideParent="True" />
+			</group>
+		</group>
+		<group name="burst">
+			<bool name="can_burst" value="False" overrideParent="True" />
+		</group>
+		<group name="damage">
+			<float name="max" value="50" overrideParent="True" />
+			<float name="min" value="50" overrideParent="True" />
+		</group>
+		<group name="fire">
+			<float name="wind_up" value="0" overrideParent="True" />
+		</group>
+		<group name="range">
+			<group name="distance">
+				<float name="near" value="-1" overrideParent="True" />
+				<float name="far" value="-1" overrideParent="True" />
+				<float name="mid" value="-1" overrideParent="True" />
+			</group>
+		</group>
+		<group name="reload">
+			<group name="duration">
+				<float name="max" value="0.75" overrideParent="True" />
+				<float name="min" value="0.75" overrideParent="True" />
+			</group>
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="1073742274" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_handcannon_3" />
+</instance>

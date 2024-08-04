@@ -1,0 +1,28 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-1210690469" List.ParentItemID="-1210690469">
+			<float name="hitpoints" value="190" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-927567073" List.ParentItemID="-927567073">
+			<float name="personnel_pop" value="2" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="-587241534" List.ParentItemID="-587241534">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="-1624532552" List.ParentItemID="-1624532552">
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="-746170489" List.ParentItemID="-746170489">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_springald_3" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-1763078206" List.ParentItemID="-1763078206">
+			<instance_reference name="pass_type" value="pass_types\infantry" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="206824" />
+	<instance_reference name="parent_pbg" value="ebps\races\chinese\units\unit_springald_3_chi" mod="67987bbc33214c57b0617d9356614825" />
+</instance>

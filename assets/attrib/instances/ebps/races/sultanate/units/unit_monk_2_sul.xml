@@ -1,0 +1,129 @@
+<instance version="4" description="Rus Castle Age Monk" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-276819776" List.ParentItemID="-276819776">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-226814690" List.ParentItemID="-226814690">
+			<list name="action_state_trees" overrideParent="True">
+				<group name="container" List.ItemID="2052614569">
+					<string name="state_tree" value="unit_action_apply\units\monk" />
+				</group>
+				<group name="container" List.ItemID="-446799724">
+					<string name="state_tree" value="unit_action_apply\units\monk\audio\sul" overrideParent="True" />
+				</group>
+				<group name="container" List.ItemID="1373908861">
+					<string name="state_tree" value="total_scholar_count_sul\add" overrideParent="True" />
+				</group>
+				<group name="container" List.ItemID="2114201852">
+					<string name="state_tree" value="unit_action_apply\units\monk\holy_site_capture" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-287598437" List.ParentItemID="-287598437">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="gold" value="130" overrideParent="True" />
+				</enum_table>
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-293080404" List.ParentItemID="-293080404">
+			<state_tree_node name="death_action_tree" value="scholar_death_action_sul\subtract" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="429434060" List.ParentItemID="429434060">
+			<float name="personnel_pop" value="0" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1376601539" List.ParentItemID="1376601539">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\sultanate" List.ItemID="1443566694" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="1398300294" List.ListAction="Append">
+			<list name="tier_group_list" overrideParent="True">
+				<list name="tier_group" overrideParent="True" List.ItemID="1090395383">
+					<group name="tier" List.ItemID="-731340372">
+						<list name="tier_requirements" overrideParent="True">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\sultanate\units\tier1_monk_sul" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+					<group name="tier" List.ItemID="1422056440">
+						<list name="tier_requirements" overrideParent="True">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\sultanate\units\tier2_monk_sul" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\feudal_age" overrideParent="True" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+					<group name="tier" List.ItemID="-301109704">
+						<list name="tier_requirements" overrideParent="True">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\sultanate\units\tier3_monk_sul" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\castle_age" overrideParent="True" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+					<group name="tier" List.ItemID="-413441352">
+						<list name="tier_requirements" overrideParent="True">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\sultanate\units\tier4_monk_sul" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="135938" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_monk_3" />
+</instance>
