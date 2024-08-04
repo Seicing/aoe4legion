@@ -1,0 +1,56 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="5" overrideParent="True" />
+			<float name="min" value="5" overrideParent="True" />
+			<list name="on_penetrated_state_trees" overrideParent="True">
+			</list>
+			<enum name="damage_type" value="Fire" overrideParent="True" />
+		</group>
+		<string name="fx_munition_name" value="common\arrow_incendiary" overrideParent="True" />
+		<group name="cooldown">
+			<group name="duration">
+				<float name="max" value="0.75" overrideParent="True" />
+				<float name="min" value="0.75" overrideParent="True" />
+			</group>
+		</group>
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\circle_area_option" overrideParent="True">
+				<float name="outer_radius" value="1" />
+				<float name="inner_radius" value="1" />
+				<bool name="is_two_dimensional" value="True" />
+				<enum name="dynamic_radius_type" value="fixed" />
+			</template_reference>
+			<template_reference name="aoe_penetration" value="tables\range_table" overrideParent="True">
+				<float name="far" value="1" />
+				<float name="mid" value="1" />
+				<float name="near" value="1" />
+			</template_reference>
+		</group>
+		<locstring name="ui_name" value="608" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+		<list name="target_type_table">
+			<group name="target_unit_type_multipliers" List.ItemID="202313510" List.ListAction="Append">
+				<enum name="unit_type" value="worker" overrideParent="True" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+				<float name="base_damage_modifier" value="15" overrideParent="True" />
+			</group>
+			<group name="target_unit_type_multipliers" List.ItemID="-487391469" List.ListAction="Append">
+				<enum name="unit_type" value="siege" overrideParent="True" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+				<float name="base_damage_modifier" value="15" overrideParent="True" />
+			</group>
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="1073742244" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_3" />
+</instance>

@@ -1,0 +1,13 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="12" overrideParent="True" />
+			<float name="min" value="12" overrideParent="True" />
+		</group>
+		<group name="moving">
+			<bool name="can_fire_while_moving" value="True" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="134963" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_horsearcher_3" />
+</instance>

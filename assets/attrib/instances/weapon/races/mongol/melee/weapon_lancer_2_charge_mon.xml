@@ -1,0 +1,27 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="23" overrideParent="True" />
+			<float name="min" value="23" overrideParent="True" />
+			<list name="on_penetrated_state_trees">
+				<group name="container" List.ItemID="-350566282" List.ListAction="Append">
+					<string name="state_tree" value="lancer_heal_mon\spawn_lance_context_owner" overrideParent="True" />
+				</group>
+			</list>
+		</group>
+		<list name="target_type_table">
+			<group name="target_unit_type_multipliers" List.ItemID="757400219" List.ListAction="Append">
+				<enum name="unit_type" value="cavalry" overrideParent="True" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+				<float name="base_damage_modifier" value="10" overrideParent="True" />
+			</group>
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="2131336" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_2_charge" />
+</instance>

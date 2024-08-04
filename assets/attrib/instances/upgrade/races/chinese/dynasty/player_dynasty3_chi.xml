@@ -1,0 +1,172 @@
+<instance version="4" description="" template="upgrade">
+	<group name="upgrade_bag">
+		<bool name="enable_in_hold" value="False" />
+		<float name="global_max_limit" value="0" />
+		<bool name="has_speech_code" value="False" />
+		<float name="local_max_limit" value="0" />
+		<enum name="owner_type" value="player" />
+		<group name="time_cost">
+			<enum_table name="cost">
+				<float name="action" value="0" />
+				<float name="command" value="0" />
+				<float name="popcap" value="0" />
+				<float name="food" value="0" />
+				<float name="wood" value="0" />
+				<float name="stone" value="0" />
+				<float name="gold" value="0" />
+				<float name="militia_hre" value="0" />
+				<float name="merc_byz" value="0" />
+			</enum_table>
+			<float name="time_seconds" value="0" />
+		</group>
+		<bool name="ui_event_cue" value="False" />
+		<enum name="ui_production_group" value="command_panel" />
+		<group name="ui_position">
+			<int name="ui_position_row" value="-1" />
+			<int name="ui_position_column" value="3" />
+		</group>
+		<group name="ui_info">
+			<locstring name="extra_text" value="11149356" />
+			<locstring name="help_text" value="0" />
+			<string name="hotkey_name" value="" />
+			<file name="icon_name" value="races\chinese\dynasties\ming" />
+			<bool name="reveal_for_decryption" value="False" />
+			<locstring name="screen_name" value="11149358" />
+			<locstring name="brief_text" value="0" />
+			<locstring name="screen_name_short" value="11170335" />
+			<string name="debug_text" value="" />
+			<string name="tooltip_data_template" value="" />
+			<enum name="ui_combine_type" value="intersection" />
+			<template_reference name="brief_text_formatter" value="">
+			</template_reference>
+			<template_reference name="extra_text_formatter" value="">
+			</template_reference>
+			<template_reference name="help_text_formatter" value="ui_text_formatter">
+				<list name="formatter_arguments">
+					<int name="int_value" value="10" List.ItemID="-874609116" />
+				</list>
+				<locstring name="formatter" value="11170132" />
+			</template_reference>
+			<template_reference name="screen_name_formatter" value="">
+			</template_reference>
+			<template_reference name="screen_name_short_formatter" value="">
+			</template_reference>
+			<string name="sound" value="sfx_ui_produce_upgrade_building_click" />
+			<string name="sound_alternative" value="" />
+			<int name="global_unit_control_row" value="1" />
+			<template_reference name="ui_info_extended" value="">
+			</template_reference>
+			<locstring name="help_text_controller" value="0" />
+			<locstring name="extra_text_controller" value="0" />
+		</group>
+		<list name="requirements">
+			<template_reference name="required" value="requirements\required_entity" List.ItemID="752136109">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="0" />
+				<instance_reference name="entity_blueprint_name" value="ebps\races\chinese\buildings\building_landmark_age3_sprit_way_chi\building_landmark_age3_spirit_way_control_chi" mod="67987bbc33214c57b0617d9356614825" />
+				<enum name="entity_type" value="" />
+				<group name="include_pbg_parenting">
+					<bool name="include_child_pbgs" value="False" />
+					<bool name="include_parent_pbgs" value="False" />
+				</group>
+			</template_reference>
+			<template_reference name="required" value="requirements\required_entity" List.ItemID="-1791624325">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="0" />
+				<instance_reference name="entity_blueprint_name" value="ebps\races\chinese\buildings\building_landmark_age3_great_wall_chi\building_landmark_age3_great_wall_control_chi" />
+				<enum name="entity_type" value="" />
+				<group name="include_pbg_parenting">
+					<bool name="include_child_pbgs" value="False" />
+					<bool name="include_parent_pbgs" value="False" />
+				</group>
+			</template_reference>
+		</list>
+		<file name="ui_kicker_icon_name" value="" />
+		<locstring name="ui_squad_name_override" value="0" />
+		<locstring name="ui_squad_help_text_override" value="0" />
+		<locstring name="ui_squad_extra_text_override" value="0" />
+		<list name="ui_preview">
+		</list>
+		<string name="speech_code" value="" />
+		<file name="ui_squad_portrait_icon_override" value="" />
+		<float name="min_music_intensity" value="0" />
+		<group name="state_tree_references">
+			<template_reference name="on_begin_action_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+			<template_reference name="on_action_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_dynasty_3_chi" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+			<template_reference name="on_cancel_action_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_entity_dynasty_3_chi\Master" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+		</group>
+		<list name="upgrade_type">
+			<enum name="upgrade_type" value="chinese_upgrade" List.ItemID="-1597837917" />
+		</list>
+		<string name="requirements_openingbranch" value="" />
+		<instance_reference name="ui_menu" value="" />
+		<bool name="is_progress_permanent" value="False" />
+		<group name="ui_codex_info">
+			<int name="priority" value="3749" />
+			<bool name="exclusive" value="False" />
+			<group name="ui_position">
+				<int name="ui_position_column" value="-1" />
+				<int name="ui_position_row" value="-1" />
+			</group>
+		</group>
+		<group name="filter_conditions">
+			<state_tree_node name="apply_to_filter_condition_statetree_ref" value="" />
+			<enum name="apply_to_target_type" value="entity" />
+			<list name="apply_to_unit_classes">
+				<enum name="unit_class" value="infantry" List.ItemID="-1553855352" />
+				<enum name="unit_class" value="cavalry" List.ItemID="1647744517" />
+				<enum name="unit_class" value="naval_unit" List.ItemID="-1603839447" />
+				<enum name="unit_class" value="siege" List.ItemID="-418954320" />
+			</list>
+			<enum name="apply_to_application_type" value="current_and_future_units" />
+			<enum name="apply_to_future_units" value="current_and_future_units" />
+			<group name="ai_unit_types">
+				<list name="any">
+				</list>
+				<list name="none">
+				</list>
+			</group>
+		</group>
+		<enum_table name="squad_cost">
+			<float name="action" value="0" />
+			<float name="command" value="0" />
+			<float name="popcap" value="0" />
+			<float name="food" value="0" />
+			<float name="wood" value="0" />
+			<float name="stone" value="0" />
+			<float name="gold" value="0" />
+			<float name="militia_hre" value="0" />
+			<float name="merc_byz" value="0" />
+		</enum_table>
+		<list name="float_properties">
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="551783044">
+				<float name="value" value="1.2" />
+				<enum name="id" value="health_max" />
+			</template_reference>
+		</list>
+		<list name="int_properties">
+		</list>
+		<enum name="ui_group_cast_type" value="single" />
+		<instance_reference name="hotkey_binding" value="" />
+		<bool name="ignore_completion_state_tree_openingbranch" value="True" />
+	</group>
+	<uniqueid name="pbgid" value="158365" />
+	<instance_reference name="parent_pbg" value="" />
+</instance>

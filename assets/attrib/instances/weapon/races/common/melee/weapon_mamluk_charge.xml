@@ -1,0 +1,31 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="behaviour">
+			<float name="combat_slot_offset" value="-20" overrideParent="True" />
+			<bool name="enable_auto_target_search" value="False" overrideParent="True" />
+		</group>
+		<group name="damage">
+			<float name="max" value="35" overrideParent="True" />
+			<float name="min" value="35" overrideParent="True" />
+			<list name="on_penetrated_state_trees" overrideParent="True">
+				<group name="container" overrideParent="True" List.ItemID="1425516857">
+					<string name="state_tree" value="zornhau_landsknecht_bleed_damage" overrideParent="True" />
+				</group>
+			</list>
+		</group>
+		<locstring name="ui_name" value="11164725" overrideParent="True" />
+		<enum name="weapon_class" value="cdn_1h_sword" overrideParent="True" />
+		<enum name="default_attack_type" value="default" overrideParent="True" />
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\pie_area_option" overrideParent="True">
+				<float name="outer_radius" value="2.5" overrideParent="True" />
+				<float name="angle_left" value="-75" />
+				<float name="angle_right" value="75" />
+				<float name="inner_radius" value="0" />
+				<enum name="dynamic_radius_type" value="fixed" />
+			</template_reference>
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="1073742232" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_3_charge" />
+</instance>

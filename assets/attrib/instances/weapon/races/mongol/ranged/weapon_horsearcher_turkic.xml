@@ -1,0 +1,41 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="12" overrideParent="True" />
+			<float name="min" value="12" overrideParent="True" />
+			<list name="on_penetrated_state_trees" overrideParent="True">
+			</list>
+			<enum name="damage_type" value="Melee" overrideParent="True" />
+		</group>
+		<group name="reload">
+			<group name="duration">
+				<float name="max" value="0.125" overrideParent="True" />
+				<float name="min" value="0.125" overrideParent="True" />
+			</group>
+		</group>
+		<group name="scatter">
+			<float name="angle_scatter" value="3" overrideParent="True" />
+			<float name="distance_scatter_max" value="3" overrideParent="True" />
+		</group>
+		<group name="range">
+			<float name="max" value="20" overrideParent="True" />
+		</group>
+		<group name="projectile">
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_arrow_incendiary" overrideParent="True" />
+		</group>
+		<list name="target_type_table" overrideParent="True">
+			<group name="target_unit_type_multipliers" overrideParent="True" List.ItemID="688641326">
+				<enum name="unit_type" value="building" overrideParent="True" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" overrideParent="True" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+				<float name="base_damage_modifier" value="-15" overrideParent="True" />
+			</group>
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="1073742032" />
+	<instance_reference name="parent_pbg" value="weapon\races\mongol\ranged\weapon_horsearcher_3_mon" />
+</instance>

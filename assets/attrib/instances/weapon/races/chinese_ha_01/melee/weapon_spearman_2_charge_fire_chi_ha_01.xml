@@ -1,0 +1,61 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\pie_area_option" overrideParent="True">
+				<float name="outer_radius" value="4" overrideParent="True" />
+				<float name="angle_left" value="-75" overrideParent="True" />
+				<float name="angle_right" value="75" overrideParent="True" />
+				<float name="inner_radius" value="0" />
+				<enum name="dynamic_radius_type" value="fixed" />
+			</template_reference>
+			<group name="damage">
+				<float name="far" value="1" overrideParent="True" />
+				<float name="mid" value="1" overrideParent="True" />
+			</group>
+		</group>
+		<group name="cooldown">
+			<group name="duration">
+				<float name="max" value="1" overrideParent="True" />
+				<float name="min" value="1" overrideParent="True" />
+			</group>
+		</group>
+		<group name="damage">
+			<float name="max" value="8" overrideParent="True" />
+			<float name="min" value="8" overrideParent="True" />
+		</group>
+		<string name="fx_munition_name" value="common_firelance" overrideParent="True" />
+		<string name="name" value="Fire Lancer Charge Weapon" overrideParent="True" />
+		<template_reference name="weapon_options" value="options\weapon\melee_options" overrideParent="True">
+			<float name="attack_animation_chain_length" value="1" overrideParent="True" />
+			<float name="windup_extended_range_override" value="-1" />
+		</template_reference>
+		<group name="fire">
+			<float name="wind_down" value="0.5" overrideParent="True" />
+			<float name="wind_up" value="0.25" overrideParent="True" />
+			<float name="animation_impact_frame_time" value="0.25" overrideParent="True" />
+		</group>
+		<group name="range">
+			<float name="max" value="2.18" overrideParent="True" />
+			<float name="max_height" value="5" overrideParent="True" />
+			<float name="max_animation_angle_distance" value="45" overrideParent="True" />
+		</group>
+		<group name="tracking">
+			<float name="fire_cone_angle" value="120" overrideParent="True" />
+		</group>
+		<enum name="weapon_class" value="cdn_2h_spear" overrideParent="True" />
+		<list name="target_type_table" overrideParent="True">
+			<group name="target_unit_type_multipliers" List.ItemID="741056558" List.ParentItemID="-552589717">
+				<float name="base_damage_modifier" value="20" />
+				<enum name="unit_type" value="cavalry" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+			</group>
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="2135918" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_3_charge" />
+</instance>
