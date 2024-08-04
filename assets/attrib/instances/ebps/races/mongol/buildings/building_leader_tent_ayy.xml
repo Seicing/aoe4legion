@@ -2074,13 +2074,13 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_spearman_1_mon" List.ItemID="-2109235379" />
-						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_khaganate_great_trebuchet_mon" List.ItemID="1175827250" />
-						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_spearman_1_mon" List.ItemID="-401743255" />
-						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_spearman_1_mon" List.ItemID="-504724038" />
-						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_archer_2_mon" List.ItemID="921078340" />
-						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_archer_2_mon" List.ItemID="-399406811" />
-						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_archer_2_mon" List.ItemID="1197750143" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_knight_2_mon" List.ItemID="-2109235379" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_knight_2_mon" List.ItemID="1175827250" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_tarkan_mon" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-401743255" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_tarkan_mon" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-504724038" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_2_mon" List.ItemID="921078340" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_knight_2_mon" List.ItemID="-399406811" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_2_mon" List.ItemID="1197750143" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -2286,10 +2286,10 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_khaganate_horsearcher_rus_mon" List.ItemID="2026410699" />
-						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_khaganate_knight_rus_mon" List.ItemID="686329453" />
-						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_khaganate_horsearcher_rus_mon" List.ItemID="1977062246" />
-						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_khaganate_horsearcher_rus_mon" List.ItemID="-1998523446" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_handcannon_4_mon" List.ItemID="2026410699" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_handcannon_4_mon" List.ItemID="686329453" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_handcannon_4_mon" List.ItemID="1977062246" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_handcannon_4_mon" List.ItemID="-1998523446" />
 						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_khaganate_knight_rus_mon" List.ItemID="1663013485" />
 						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_khaganate_knight_rus_mon" List.ItemID="2058991108" />
 					</list>
