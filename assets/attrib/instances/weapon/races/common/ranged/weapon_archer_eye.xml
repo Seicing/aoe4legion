@@ -1,0 +1,49 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="aim">
+			<group name="fire_aim_time">
+				<float name="max" value="0.25" overrideParent="True" />
+				<float name="min" value="0.25" overrideParent="True" />
+			</group>
+			<group name="aim_time_multiplier">
+				<float name="near" value="1" overrideParent="True" />
+				<float name="mid" value="1" overrideParent="True" />
+			</group>
+		</group>
+		<group name="damage">
+			<float name="max" value="8" overrideParent="True" />
+			<float name="min" value="8" overrideParent="True" />
+		</group>
+		<group name="fire">
+			<float name="wind_up" value="0" overrideParent="True" />
+		</group>
+		<group name="range">
+			<float name="max_animation_angle_distance" value="27" overrideParent="True" />
+			<float name="max" value="32" overrideParent="True" />
+		</group>
+		<group name="reload">
+			<group name="duration">
+				<float name="max" value="0.75" overrideParent="True" />
+				<float name="min" value="0.75" overrideParent="True" />
+			</group>
+		</group>
+		<group name="scatter">
+			<float name="angle_scatter" value="3" overrideParent="True" />
+			<float name="distance_scatter_max" value="3" overrideParent="True" />
+		</group>
+		<list name="target_type_table" overrideParent="True">
+			<group name="target_unit_type_multipliers" List.ItemID="2006227949">
+				<enum name="unit_type" value="heavy" overrideParent="True" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+				<float name="base_damage_modifier" value="15" overrideParent="True" />
+			</group>
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="1073742122" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_archer_3" />
+</instance>

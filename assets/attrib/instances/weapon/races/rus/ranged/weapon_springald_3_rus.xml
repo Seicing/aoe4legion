@@ -1,0 +1,20 @@
+<instance version="4" description="" template="weapon">
+	<uniqueid name="pbgid" value="194215" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_springald_3" mod="67987bbc33214c57b0617d9356614825" />
+	<group name="weapon_bag">
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\rectangle_area_option" overrideParent="True">
+				<float name="outer_length" value="6" />
+				<float name="inner_length" value="0" />
+				<float name="width" value="0.5" />
+				<enum name="dynamic_length_type" value="fixed" />
+			</template_reference>
+			<group name="accuracy">
+				<float name="far" value="1" overrideParent="True" />
+			</group>
+		</group>
+		<group name="behaviour">
+			<bool name="piercing" value="True" overrideParent="True" />
+		</group>
+	</group>
+</instance>

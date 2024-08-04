@@ -1,0 +1,71 @@
+<instance version="4" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="792309686" List.ParentItemID="792309686">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="911229892" List.ParentItemID="911229892">
+					<group name="info">
+						<locstring name="extra_text" value="313" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="help_text" value="309" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<string name="hotkey_name" value="" overrideParent="True" />
+						<file name="icon_name" value="malhor2" overrideParent="True" />
+						<locstring name="screen_name" value="311" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<string name="selection_group" value="supplycart" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-1530163112" List.ParentItemID="-1530163112">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1582041247">
+					<float name="num" value="1" />
+					<instance_reference name="type" value="ebps\races\malian\units\unit_supply_cart_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<list name="unit_attachments" overrideParent="True">
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-815093711" List.ParentItemID="-815093711">
+			<list name="requirement_table" removedIds="-1788504349">
+				<template_reference name="required" value="requirements\required_squad" List.ItemID="1111525949" List.ListAction="Append">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="562" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<float name="max_squad_cap" value="10" overrideParent="True" />
+					<instance_reference name="squad_name" value="sbps\races\malian\unit_supply_cart_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-1075203367" List.ParentItemID="-1075203367">
+			<group name="squad_orders">
+				<group name="trade">
+					<bool name="available" value="False" overrideParent="True" />
+				</group>
+			</group>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="683879184" List.ParentItemID="683879184">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\malian" overrideParent="True" List.ItemID="250983526" />
+			</list>
+			<list name="squad_type_list" removedIds="1390516672, 2126453856, 335421141">
+				<enum name="squad_type" value="scar_age1" overrideParent="True" List.ItemID="-290413433" List.ParentItemID="-290413433" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="368437707" List.ParentItemID="368437707">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<enum_table name="QueryTree_States">
+				<state_tree_node name="squad_state_idle_villager" value="" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="464355600" List.ParentItemID="464355600">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\non_formation_land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742010" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_trade_cart" />
+</instance>

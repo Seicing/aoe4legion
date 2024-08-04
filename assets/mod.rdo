@@ -1,0 +1,28 @@
+<DataWarehouse>
+	<!--24blastNoB/-->
+	<DataObject Name="24blastNoB" Type="Mod" Id="237775406183418502" Version="1">
+		<DataProperty Name="m_description" Type="Object">
+			<DataValue Name="util::ReflectLocString">5085490105127890867</DataValue>
+			<!--24blastNoB/util::ReflectLocString/-->
+			<DataObject Name="" Type="util::ReflectLocString" Id="5085490105127890867" OwnerId="237775406183418502">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="2474467760"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="625500502"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="1738046396"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1280783137"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="2"/>
+			</DataObject>
+		</DataProperty>
+		<DataProperty Name="m_name" Type="Object">
+			<DataValue Name="util::ReflectLocString">335353944936951951</DataValue>
+			<!--24blastNoB/util::ReflectLocString/-->
+			<DataObject Name="" Type="util::ReflectLocString" Id="335353944936951951" OwnerId="237775406183418502">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="2474467760"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="625500502"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="1738046396"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1280783137"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="1"/>
+			</DataObject>
+		</DataProperty>
+	</DataObject>
+</DataWarehouse>
+

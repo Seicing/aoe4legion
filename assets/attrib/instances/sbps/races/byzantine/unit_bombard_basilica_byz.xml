@@ -1,0 +1,75 @@
+<instance version="4" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="584368357" List.ParentItemID="584368357">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="-260132349" List.ParentItemID="-260132349">
+					<group name="info">
+						<locstring name="help_text" value="516" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="screen_name" value="517" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<bool name="is_unique" value="True" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<file name="icon_name" value="races\ottoman\units\great_bombard" overrideParent="True" />
+						<string name="selection_group" value="basilicabombard" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="388551960" List.ParentItemID="388551960">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1248561442">
+					<float name="num" value="1" />
+					<instance_reference name="type" value="ebps\races\byzantine\units\unit_bombard_basilica_byz" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<list name="unit_attachments" overrideParent="True">
+						<group name="unit" List.ItemID="517284349">
+							<instance_reference name="type" value="ebps\dev\units\unit_siege_cart" overrideParent="True" />
+							<string name="marker" value="mkr_attach" overrideParent="True" />
+						</group>
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-968903709" List.ParentItemID="-968903709">
+			<list name="requirement_table" comment="Requires Imperial age, Tech army, chemistry upgrade&#xD;&#xA;">
+				<template_reference name="required" value="requirements\required_squad" overrideParent="True" List.ItemID="289719845" List.ParentItemID="289719845">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="568" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<float name="max_squad_cap" value="1" />
+					<instance_reference name="squad_name" value="sbps\races\byzantine\unit_bombard_basilica_byz" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-935121013" List.ListAction="Append">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+					<bool name="include_completed" value="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="389830191" List.ParentItemID="389830191">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\byzantine" overrideParent="True" List.ItemID="-13640756" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-787674146" List.ParentItemID="-787674146">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="851362141" List.ParentItemID="851362141">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742148" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_bombard_4" />
+</instance>

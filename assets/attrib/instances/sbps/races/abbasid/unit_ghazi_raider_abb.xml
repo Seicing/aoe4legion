@@ -1,0 +1,67 @@
+<instance version="4" description="2" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<enum_table name="QueryTree_States">
+				<state_tree_node name="squad_state_idle" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_move" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_attack" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_gather" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_gather_food" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_gather_wood" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_gather_stone" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_gather_gold" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_idle_villager" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_retreat" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_ability" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_evacuate" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_truly_idle" value="" overrideParent="True" />
+				<state_tree_node name="squad_state_attack_move" value="" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-1463089901" List.ParentItemID="-1463089901">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="-555061488" List.ParentItemID="-555061488">
+					<group name="info">
+						<string name="selection_group" value="horsemanghazi" overrideParent="True" />
+						<locstring name="screen_name" value="11249876" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="26981830" List.ParentItemID="26981830">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-1767502141">
+					<float name="num" value="1" />
+					<instance_reference name="type" value="ebps\races\abbasid\units\unit_ghulam_abb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<list name="unit_attachments" overrideParent="True">
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="2021268" List.ParentItemID="2021268">
+			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1035128703" List.ParentItemID="1035128703">
+					<instance_reference name="upgrade_name" value="upgrade\races\sultanate\units\upgrade_unit_horseman_4_sul" overrideParent="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="1957031815" List.ParentItemID="1957031815">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\abbasid" overrideParent="True" List.ItemID="1502561413" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="797603681" List.ParentItemID="797603681">
+			<list name="age_mapping">
+				<int name="age_number" value="2" overrideParent="True" List.ItemID="1484708601" List.ParentItemID="1484708601" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1257996388" List.ParentItemID="-1257996388">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073741881" />
+	<instance_reference name="parent_pbg" value="sbps\races\sultanate\unit_horseman_4_sul" />
+</instance>

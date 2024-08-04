@@ -1,0 +1,47 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="10" overrideParent="True" />
+			<float name="min" value="10" overrideParent="True" />
+			<list name="on_penetrated_state_trees" overrideParent="True">
+			</list>
+			<enum name="damage_type" value="True Damage" overrideParent="True" />
+		</group>
+		<group name="reload">
+			<group name="duration">
+				<float name="max" value="0.25" overrideParent="True" />
+				<float name="min" value="0.25" overrideParent="True" />
+			</group>
+		</group>
+		<group name="scatter">
+			<float name="angle_scatter" value="3" overrideParent="True" />
+			<float name="distance_scatter_max" value="3" overrideParent="True" />
+		</group>
+		<group name="range">
+			<float name="max" value="24" overrideParent="True" />
+		</group>
+		<string name="fx_munition_name" value="common\hand_cannon" overrideParent="True" />
+		<string name="name" value="Hand Cannoneer Weapon" overrideParent="True" />
+		<group name="projectile">
+			<instance_reference name="projectile" value="" overrideParent="True" />
+		</group>
+		<enum name="weapon_class" value="cdn_handcannon" overrideParent="True" />
+		<string name="fx_action_target_name" value="fx_handcannon_target" overrideParent="True" />
+		<string name="fx_tracer_name" value="fx_act_handcannon_tracer" overrideParent="True" />
+		<float name="fx_tracer_speed" value="75" overrideParent="True" />
+		<string name="fx_piercing_munition_name" value="common\hand_cannon" overrideParent="True" />
+		<group name="burst">
+			<bool name="can_burst" value="True" overrideParent="True" />
+			<group name="duration">
+				<float name="max" value="1" overrideParent="True" />
+				<float name="min" value="1" overrideParent="True" />
+			</group>
+			<group name="rate_of_fire">
+				<float name="max" value="5" overrideParent="True" />
+				<float name="min" value="5" overrideParent="True" />
+			</group>
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="1073742023" />
+	<instance_reference name="parent_pbg" value="weapon\races\mongol\ranged\weapon_horsearcher_3_mon" />
+</instance>

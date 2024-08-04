@@ -1,0 +1,52 @@
+<instance version="4" description="Imperial Age Horseman" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="878181796" List.ParentItemID="878181796">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="873229406">
+					<float name="num" value="1" />
+					<instance_reference name="type" value="ebps\races\malian\units\unit_camel_archer_4_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<list name="unit_attachments" overrideParent="True">
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="1667676609" List.ParentItemID="1667676609">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="2033619517" List.ParentItemID="2033619517">
+					<group name="info">
+						<file name="icon_name" value="races\abbasid\units\camel_archer_4" overrideParent="True" />
+						<string name="debug_text" value="" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<locstring name="screen_name" value="11183469" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-131382866" List.ParentItemID="-131382866">
+			<list name="requirement_table" overrideParent="True">
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-1297052915" List.ParentItemID="-1297052915">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\malian" overrideParent="True" List.ItemID="495184815" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="208356616" List.ParentItemID="208356616">
+			<string name="squad_speaker_code" value="archer" overrideParent="True" />
+			<group name="squad_speech_parameters">
+				<string name="squad_name_code" value="archer" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="628234213" List.ParentItemID="628234213">
+			<float name="desired_protection_level_in_formation" value="6" overrideParent="True" />
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073741974" />
+	<instance_reference name="parent_pbg" value="sbps\races\abbasid\unit_camel_archer_4_abb" />
+</instance>

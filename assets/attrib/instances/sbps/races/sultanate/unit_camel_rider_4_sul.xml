@@ -1,0 +1,53 @@
+<instance version="4" description="Imperial Age Horseman" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-743632613" List.ParentItemID="-743632613">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="994930159">
+					<float name="num" value="1" />
+					<instance_reference name="type" value="ebps\races\sultanate\units\unit_camel_4_sul" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<list name="unit_attachments" overrideParent="True">
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="717038983" List.ParentItemID="717038983">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="-1077542405" List.ParentItemID="-1077542405">
+					<group name="info">
+						<file name="icon_name" value="races\abbasid\units\mameluke_4" overrideParent="True" />
+						<string name="debug_text" value="" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-1867150522" List.ParentItemID="-1867150522">
+			<list name="requirement_table" overrideParent="True">
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="860817472" List.ParentItemID="860817472">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\sultanate" overrideParent="True" List.ItemID="-1148065885" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="1629729515" List.ParentItemID="1629729515">
+			<list name="age_mapping">
+				<int name="age_number" value="2" overrideParent="True" List.ItemID="1276902723" List.ParentItemID="1276902723" />
+			</list>
+			<string name="squad_speaker_code" value="horseman" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="-169820846" List.ParentItemID="-169820846">
+			<enum name="unit_type" value="camel_heavy" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="802922673" List.ParentItemID="802922673">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073741980" />
+	<instance_reference name="parent_pbg" value="sbps\races\abbasid\unit_camel_rider_4_abb" />
+</instance>

@@ -1,0 +1,196 @@
+<instance version="4" description="Large, high trajectory boulder hurled by siege engines. &#xD;&#xA;With Flames!" template="ebps">
+	<list name="extensions" comment="Projectile with homing behavior (tracks targets, does not miss)">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1109157869">
+			<file name="alternate_sua" value="" />
+			<bool name="always_revealed_in_fow" value="False" />
+			<bool name="is_visible_in_game" value="True" />
+			<int name="precise_size" value="-1" />
+			<enum name="default_spawn_type" value="" />
+			<instance_reference name="unit_badge" value="" />
+			<bool name="is_spawned_when_not_in_interactive_area" value="True" />
+			<bool name="is_wreck" value="False" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\projectiles\projectile_boulder_incendiary" />
+			<float name="animator_scale" value="66" />
+			<bool name="browsable_in_editor" value="False" />
+			<float name="entity_scale" value="100" />
+			<enum name="subclass_type" value="Projectile" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\sim_entity_ext" List.ItemID="1868068852">
+			<float name="rotate_snap" value="90" />
+			<bool name="kill_paradrop" value="False" />
+			<enum name="transferable" value="None" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\explosion_ext" List.ItemID="1108874934">
+			<group name="terrain_hit">
+				<float name="chance_splat_only" value="0" />
+				<enum name="cover_type" value="tp_defcover" />
+				<group name="deformation">
+					<string name="deform_decal_file" value="" />
+					<bool name="limited" value="True" />
+					<bool name="random_rotation" value="True" />
+					<float name="rotation" value="0" />
+					<float name="vertical_scale" value="0" />
+					<enum name="deform_type" value="tp_additive" />
+					<list name="splat_list">
+					</list>
+				</group>
+				<float name="radius_max" value="1" />
+				<float name="radius_min" value="0" />
+				<float name="splat_only_splat_seconds" value="0" />
+				<list name="splat_only_splats">
+					<group name="entry" List.ItemID="1474942431">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="1132636632">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="-1503478353">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="-702509709">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="558532683">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="-1709412699">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="-1036814185">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="-633543376">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="2071691178">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="1725091244">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="748670787">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="-1496268097">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="1089981025">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="-1555472279">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="-4473228">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+					<group name="entry" List.ItemID="394365353">
+						<string name="splat_texture" value="" />
+						<instance_reference name="terrain_material" value="" />
+					</group>
+				</list>
+			</group>
+			<template_reference name="on_detonate_action_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="greek_fire_spawn_byz" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+			<template_reference name="on_absorbed_action_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+			<template_reference name="area_over_time_option" value="options\area_info_over_time_options\expand_option">
+				<float name="transform_duration_seconds" value="0.5" />
+			</template_reference>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\projectile_ext" comment="Includes controls for flight characteristics, delayed detonation time and collision details." List.ItemID="-1746651640">
+			<float name="acceleration" value="0" />
+			<group name="artillery">
+				<bool name="can_counter_barrage" value="False" />
+				<bool name="is_artillery" value="False" />
+				<bool name="is_target_only" value="False" comment="Again, I'm not sure if this actually matters or not - or rather I don't know in what situations it matters within.  I turned it off and it tracked the target just fine..." />
+				<float name="speed_distance_multiplier" value="0.2" />
+				<float name="speed_increment" value="0.5" />
+				<enum name="firing_angle_type" value="lowest_non_collide_angle" />
+				<bool name="use_homing_when_no_blocker" value="False" />
+				<float name="non_collide_start_angle" value="5" />
+				<float name="non_collide_end_angle" value="20" />
+			</group>
+			<bool name="collision_building_wall_panel_ignore" value="False" />
+			<group name="collision_type">
+				<enum name="enum_projectile_collision" value="tp_artillery" />
+			</group>
+			<float name="deathtimer" value="0.1" />
+			<float name="delay_detonate_time" value="0" />
+			<bool name="delay_detonate_ui_enabled" value="False" />
+			<string name="launcher_marker" value="" />
+			<float name="life_time_while_alive" value="3" comment="The value must be high enough that the projectile has time to reach it's destination. If it is too low, the projectiles will stop before reaching and deal 0 damage." />
+			<float name="rotation_speed" value="0" />
+			<bool name="spawn_collision_fx" value="True" />
+			<float name="speed" value="0" />
+			<bool name="collision_land_ignore" value="False" />
+			<bool name="snap_above_terrain" value="False" />
+			<bool name="collision_cover_shoot_through_ignore" value="False" />
+			<bool name="can_be_disjointed" value="True" />
+			<bool name="set_player_owner" value="False" />
+			<template_reference name="trajectory_option" value="options\ebpextensions\projectileext\projectile_trajectory_option">
+				<float name="height_min" value="1" />
+				<float name="height_max" value="8" />
+				<float name="speed_min" value="5" />
+				<float name="speed_max" value="22" />
+				<float name="time_seconds" value="0" />
+				<float name="interpolate_distance_min" value="0" />
+				<float name="interpolate_distance_max" value="25" />
+				<float name="slope_aggression" value="0" />
+				<list name="random_rotation_during_flight">
+				</list>
+				<float name="min_distance_to_enable" value="0" />
+			</template_reference>
+			<bool name="collide_using_bounding_box" value="False" />
+			<bool name="force_3d_collision" value="False" />
+			<bool name="target_squad_if_homing" value="False" />
+			<group name="prediction">
+				<bool name="use_predictive_aiming" value="True" />
+				<float name="max_prediction_speed" value="6" />
+			</group>
+			<bool name="use_target_entity_position" value="True" />
+			<template_reference name="projectile_piercing_damage_option" value="options\none">
+			</template_reference>
+			<bool name="check_collision_against_target_entity_only" value="False" />
+			<instance_reference name="trajectory_preview_line_bag" value="" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-2096565496">
+			<list name="action_state_trees">
+			</list>
+			<bool name="reset_on_load" value="True" />
+			<list name="physical_state_trees">
+				<group name="container" List.ItemID="2089856092">
+					<string name="state_tree" value="projectile_action_apply" />
+				</group>
+			</list>
+			<list name="deferred_action_state_trees">
+			</list>
+			<list name="action_state_trees_run_once">
+			</list>
+			<list name="deferred_action_state_trees_run_once">
+			</list>
+			<list name="physical_state_trees_run_once">
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742300" />
+	<instance_reference name="parent_pbg" value="" />
+</instance>

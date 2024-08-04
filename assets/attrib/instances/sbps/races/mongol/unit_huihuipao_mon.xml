@@ -1,0 +1,53 @@
+<instance version="4" description="An enormous, long-ranged trebuchet used to end the Siege of Xiangyang." template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="237556951" List.ParentItemID="237556951">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="-320941912" List.ParentItemID="-320941912">
+					<group name="info">
+						<string name="selection_group" value="huihuipao" overrideParent="True" />
+						<enum name="ui_combine_type" value="intersection" overrideParent="True" />
+						<file name="icon_name" value="races\common\upgrades\trebuchet_counterweight" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<locstring name="help_text" value="11246391" overrideParent="True" />
+						<locstring name="screen_name" value="11162507" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-469993225" List.ParentItemID="-469993225">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-1544112805" List.ParentItemID="-1544112805">
+					<instance_reference name="type" value="ebps\races\mongol\units\unit_huihuipao_mon" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1389393677" List.ParentItemID="1389393677">
+			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1491939617" List.ParentItemID="1491939617">
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+					<enum name="reason" value="usage" overrideParent="True" />
+				</template_reference>
+				<template_reference name="required" value="requirements\required_structure" overrideParent="True" List.ItemID="1326513451" List.ListAction="Append">
+					<enum name="reason" value="usage" overrideParent="True" />
+					<locstring name="ui_name" value="518" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="structure_name" value="ebps\races\mongol\buildings\building_wonder_age3_stupa_mon" overrideParent="True" />
+					<int name="required_structure_count" value="1" />
+					<bool name="check_team" value="False" />
+					<bool name="require_construction_complete" value="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="820980818" List.ParentItemID="820980818">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742151" />
+	<instance_reference name="parent_pbg" value="sbps\races\mongol\unit_trebuchet_4_cw_mon" />
+</instance>
