@@ -1,3 +1,4 @@
+![Image text](https://raw.githubusercontent.com/Seicing/aoe4legion/master/assets/mod.jpg)
 Age of Empire IV Legion and Legion Commander MOD
 https://www.ageofempires.com/mods/details/170837/
 
