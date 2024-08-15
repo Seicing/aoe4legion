@@ -4608,6 +4608,7 @@
 					<instance_reference name="member" value="upgrade\races\french\research\upgrade_tech_university_biology_fre" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-866686639" />
 					<instance_reference name="member" value="upgrade\races\hre\research\upgrade_maxmilian_armor_hre" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1273725249" />
 					<instance_reference name="member" value="upgrade\races\common\upgrade_warrior_code_chi" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1101740273" />
+					<instance_reference name="member" value="upgrade\races\rus\upgrade_fire_retardant_handling" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1531398301" />
 				</list>
 				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="1" />
@@ -4619,7 +4620,6 @@
 				<list name="members">
 					<instance_reference name="member" value="sbps\races\abbasid\unit_shogun_abb_age4" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1677858715" />
 					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_shogun_ayy_age4" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1051394655" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_shogun_byz" mod="67987bbc33214c57b0617d9356614825" List.ItemID="585917671" />
 					<instance_reference name="member" value="sbps\races\byzantine\unit_horsearcher_byz" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-543314368" />
 					<instance_reference name="member" value="sbps\races\chinese\unit_shogun_chi" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1307702248" />
 					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_shogun_chi_ha_01" mod="67987bbc33214c57b0617d9356614825" List.ItemID="196316826" />
@@ -4635,7 +4635,6 @@
 					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_hospital_shogun_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" List.ItemID="428615620" />
 					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_templar_shogun_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1752064014" />
 					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_teutons_shogun_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" List.ItemID="379951957" />
-					<instance_reference name="member" value="sbps\races\japanese\unit_shogun_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-297697609" />
 					<instance_reference name="member" value="sbps\races\japanese\unit_monk_sohei_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1371023591" />
 					<instance_reference name="member" value="sbps\races\malian\unit_shogun_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="495900663" />
 					<instance_reference name="member" value="sbps\races\malian\unit_farimba_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1145423033" />
@@ -4650,10 +4649,10 @@
 					<instance_reference name="member" value="sbps\races\abbasid\unit_shogun_abb" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-462815219" />
 					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_shogun_ayy" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-928331153" />
 					<instance_reference name="member" value="sbps\races\sultanate\unit_phalangite_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2057607617" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_shogun_mon" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1154335628" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_tarkan_mon" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1111722915" />
-					<instance_reference name="member" value="sbps\races\french_ha_01\unit_shogun_ordnance_jda" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1089649308" />
-					<instance_reference name="member" value="sbps\races\french\unit_shogun_ordnance_fre" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-801051740" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_shogun_byz" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-985039495" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_bombard_basilica_byz" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1473313048" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_shogun_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1434047339" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_shogun_mon" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1657488010" />
 				</list>
 				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="1" />

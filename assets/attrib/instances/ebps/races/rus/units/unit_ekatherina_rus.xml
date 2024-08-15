@@ -1,0 +1,111 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1564013" List.ParentItemID="-1564013">
+			<file name="alternate_sua" value="art\civilizations\chinese\team_weapons\chi_nest_of_bees\chi_nest_of_bees" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\chinese\units\unit_nest_of_bees_4_chi" overrideParent="True" />
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<float name="animator_scale" value="200" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="452643752" List.ParentItemID="452643752">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="wood" value="1000" overrideParent="True" />
+					<float name="stone" value="0" overrideParent="True" />
+					<float name="gold" value="0" overrideParent="True" />
+				</enum_table>
+				<float name="time_seconds" value="40" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1844382716" List.ParentItemID="1844382716">
+			<float name="hitpoints" value="400" overrideParent="True" />
+			<enum_table name="armor_scaler_by_damage_type">
+				<float name="Ranged" value="30" overrideParent="True" />
+				<float name="Fire" value="0" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-838725108" List.ParentItemID="-838725108">
+			<instance_reference name="hit_material" value="hit_material\wood" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-1856811533" List.ParentItemID="-1856811533">
+			<float name="personnel_pop" value="3" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1978278333" List.ParentItemID="1978278333">
+			<list name="unit_type_list">
+				<enum name="unit_type" value="nest_of_bees" overrideParent="True" List.ItemID="-499674041" List.ParentItemID="-499674041" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-32812608" List.ParentItemID="-32812608">
+			<float name="decorator_height" value="3.5" overrideParent="True" />
+			<list name="custom_selection_obbs" overrideParent="True">
+				<string name="named_obb" value="selection_01" List.ItemID="-830456273" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1246076922" List.ParentItemID="1246076922">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="-1842440573" List.ParentItemID="-1842440573">
+					<list name="weapon_table" overrideParent="True">
+						<group name="weapon" List.ItemID="-1728295400">
+							<group name="heading">
+								<float name="x" value="0" overrideParent="True" />
+								<float name="y" value="0" overrideParent="True" />
+								<float name="z" value="1" overrideParent="True" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.125" overrideParent="True" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\chinese\ranged\weapon_nest_of_bees_4_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\chinese\weapons\wpn_siege_nest_of_bees_4_chi" overrideParent="True" />
+								<string name="marker_name_parent" value="" overrideParent="True" />
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="1611895176" List.ParentItemID="1611895176">
+			<enum_table name="speed_scaling_table">
+				<float name="default_speed" value="3.25" overrideParent="True" />
+			</enum_table>
+			<instance_reference name="pass_type" value="pass_types\infantry" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="2101746355" List.ParentItemID="2101746355">
+			<list name="tier_group_list" overrideParent="True">
+				<list name="tier_group" List.ItemID="-594049275">
+					<group name="tier" List.ItemID="1450661927">
+						<list name="tier_requirements">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\chinese\units\tier4_nest_of_bees_chi" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\posture_ext" List.ItemID="328369797" List.ListAction="Append">
+			<instance_reference name="posture_group" value="posture\default_posture_group" />
+			<bool name="uses_posture_speed" value="False" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742385" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_culverin_4" />
+</instance>

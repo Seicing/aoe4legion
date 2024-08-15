@@ -93,6 +93,7 @@
 			<list name="standard_upgrades" overrideParent="True">
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_villager_health" List.ItemID="285764560" />
 				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_empire_rising" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1527460393" />
+				<instance_reference name="upgrade" value="upgrade\races\rus\upgrade_fire_retardant_handling" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-162417114" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-1383350114" List.ParentItemID="-1383350114">
@@ -310,6 +311,8 @@
 			<int name="generator_value" value="0" />
 			<bool name="disable_generation_on_spawn" value="False" />
 			<int name="district_palette_id" value="0" overrideParent="True" />
+			<list name="requirements">
+			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\district_bonuses_ext" List.ItemID="1791723815" List.ListAction="Append">
 			<bool name="update_on_upgrade_changed" value="False" />

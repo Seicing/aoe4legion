@@ -288,7 +288,7 @@
 					<template_reference name="requirement" value="requirements\required_structure" List.ItemID="2054920145">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
-						<instance_reference name="structure_name" value="ebps\races\rus\buildings\building_landmark_age3_spassakaya_tower_rus\building_landmark_age3_spassakaya_tower_control_rus" mod="67987bbc33214c57b0617d9356614825" />
+						<instance_reference name="structure_name" value="ebps\races\rus\buildings\building_landmark_age1_golden_gate_vladimir_rus\building_landmark_age1_golden_gate_vladimir_control_rus" />
 						<int name="required_structure_count" value="1" />
 						<bool name="check_team" value="False" />
 						<bool name="require_construction_complete" value="True" />

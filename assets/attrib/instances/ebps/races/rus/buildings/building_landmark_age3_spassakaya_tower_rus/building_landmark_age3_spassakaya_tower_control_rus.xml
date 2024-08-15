@@ -76,7 +76,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="77336098" List.ParentItemID="77336098">
-			<float name="hitpoints" value="15000" overrideParent="True" />
+			<float name="hitpoints" value="10000" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
 				<float name="Fire" value="5" overrideParent="True" />
 			</enum_table>
@@ -132,7 +132,7 @@
 			</group>
 			<string name="telemetry_name" value="Spasskaya Tower" overrideParent="True" />
 			<string name="selection_group" value="keep" overrideParent="True" />
-			<locstring name="help_text" value="11191557" overrideParent="True" />
+			<locstring name="help_text" value="750" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 			<locstring name="screen_name" value="11145292" overrideParent="True" />
 			<locstring name="extra_text" value="11185350" overrideParent="True" />
 		</template_reference>
@@ -182,6 +182,8 @@
 			<group name="on_construction_complete_state_tree_refs">
 				<string name="while_construction_complete_entity_state_tree_ref" value="spasskaya_tower\spasskaya_tower_active" overrideParent="True" />
 			</group>
+			<instance_reference name="ui_range" value="ui_reticule\weapon_range" overrideParent="True" />
+			<bool name="query_weapon_for_range_ui" value="True" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="669128015" List.ParentItemID="669128015">
 			<list name="abilities" overrideParent="True">
@@ -254,19 +256,19 @@
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="2046314847" List.ListAction="Append">
 			<bool name="reject_attack_command" value="False" overrideParent="True" />
 			<list name="hardpoints" overrideParent="True">
-				<group name="hardpoint" comment="Default Arrows 1" List.ItemID="728399995">
+				<group name="hardpoint" comment="Default Arrows 1" overrideParent="True" List.ItemID="728399995">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="753953211">
+						<group name="weapon" List.ItemID="-279716975">
 							<group name="heading">
 								<float name="x" value="0" />
-								<float name="y" value="0.3" />
+								<float name="y" value="0" />
 								<float name="z" value="1" />
 							</group>
 							<float name="length" value="0" />
 							<group name="origin">
 								<float name="x" value="0" />
-								<float name="y" value="10" />
+								<float name="y" value="5" />
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
@@ -277,10 +279,10 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_a" />
+									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_siege_keep_cannon" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
-										<bool name="no_pathfinding" value="False" />
+										<bool name="no_pathfinding" value="True" />
 										<bool name="not_snappable" value="False" />
 										<bool name="restore_snap_to_ground_on_detach" value="False" />
 										<bool name="no_sim_update" value="True" />
@@ -304,22 +306,18 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="141452527" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-360578111" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="1469761950" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="1703334042" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-469377151" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="868697667" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-1111363383" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="506663045" />
+						<string name="marker" value="fx_muz_cannon_00" List.ItemID="-1076283596" />
+						<string name="marker" value="fx_muz_cannon_01" List.ItemID="1546243723" />
+						<string name="marker" value="fx_muz_cannon_02" List.ItemID="-1153291549" />
+						<string name="marker" value="fx_muz_cannon_03" List.ItemID="1386820300" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" overrideParent="True" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Springald Slot" List.ItemID="2071548638">
+				<group name="hardpoint" comment="Springald Slot" overrideParent="True" List.ItemID="2071548638">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="157266672">
+						<group name="weapon" List.ItemID="28176211">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -366,10 +364,10 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_springald_00" List.ItemID="1012090012" />
-						<string name="marker" value="fx_muz_springald_01" List.ItemID="690423369" />
-						<string name="marker" value="fx_muz_springald_02" List.ItemID="-727914179" />
-						<string name="marker" value="fx_muz_springald_03" List.ItemID="1390570689" />
+						<string name="marker" value="fx_muz_springald_00" List.ItemID="193341644" />
+						<string name="marker" value="fx_muz_springald_01" List.ItemID="-464855111" />
+						<string name="marker" value="fx_muz_springald_02" List.ItemID="-1986426889" />
+						<string name="marker" value="fx_muz_springald_03" List.ItemID="-266890640" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" overrideParent="True" />
 					<string name="offhand_marker" value="" />
@@ -561,19 +559,19 @@
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Default Arrows 2" List.ItemID="-744191491">
+				<group name="hardpoint" comment="Default Arrows 2" overrideParent="True" List.ItemID="-744191491">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-718451509">
+						<group name="weapon" List.ItemID="1256570806">
 							<group name="heading">
 								<float name="x" value="0" />
-								<float name="y" value="0.3" />
+								<float name="y" value="0" />
 								<float name="z" value="1" />
 							</group>
 							<float name="length" value="0" />
 							<group name="origin">
 								<float name="x" value="0" />
-								<float name="y" value="10" />
+								<float name="y" value="5" />
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
@@ -584,10 +582,10 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_b" />
+									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_siege_keep_cannon" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
-										<bool name="no_pathfinding" value="False" />
+										<bool name="no_pathfinding" value="True" />
 										<bool name="not_snappable" value="False" />
 										<bool name="restore_snap_to_ground_on_detach" value="False" />
 										<bool name="no_sim_update" value="True" />
@@ -611,31 +609,27 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-967987321" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-1847273204" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="1146545789" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1467822494" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="861493940" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-70332996" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-1033869684" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="399443357" />
+						<string name="marker" value="fx_muz_cannon_00" List.ItemID="-533102419" />
+						<string name="marker" value="fx_muz_cannon_01" List.ItemID="119826785" />
+						<string name="marker" value="fx_muz_cannon_02" List.ItemID="-239614329" />
+						<string name="marker" value="fx_muz_cannon_03" List.ItemID="-1214351107" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" overrideParent="True" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Default Arrows 3" List.ItemID="-550016422">
+				<group name="hardpoint" comment="Default Arrows 3" overrideParent="True" List.ItemID="-550016422">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-1914183360">
+						<group name="weapon" List.ItemID="-1270462971">
 							<group name="heading">
 								<float name="x" value="0" />
-								<float name="y" value="0.3" />
+								<float name="y" value="0" />
 								<float name="z" value="1" />
 							</group>
 							<float name="length" value="0" />
 							<group name="origin">
 								<float name="x" value="0" />
-								<float name="y" value="10" />
+								<float name="y" value="5" />
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
@@ -646,10 +640,10 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_c" />
+									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_siege_keep_cannon" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
-										<bool name="no_pathfinding" value="False" />
+										<bool name="no_pathfinding" value="True" />
 										<bool name="not_snappable" value="False" />
 										<bool name="restore_snap_to_ground_on_detach" value="False" />
 										<bool name="no_sim_update" value="True" />
@@ -673,14 +667,10 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1764112529" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-1900043335" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1628329745" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1631002359" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-668399071" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="1511200568" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-1622719803" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="719984875" />
+						<string name="marker" value="fx_muz_cannon_00" List.ItemID="627360381" />
+						<string name="marker" value="fx_muz_cannon_01" List.ItemID="709929199" />
+						<string name="marker" value="fx_muz_cannon_02" List.ItemID="1294289286" />
+						<string name="marker" value="fx_muz_cannon_03" List.ItemID="156171319" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" overrideParent="True" />
 					<string name="offhand_marker" value="" />
@@ -2393,6 +2383,71 @@
 						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
 							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
 							<int name="nominal_index" value="4" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+				</group>
+				<group name="spawn_item" List.ItemID="-75076620">
+					<group name="ui_position">
+						<int name="ui_position_row" value="1" overrideParent="True" />
+						<int name="ui_position_column" value="1" overrideParent="True" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\rus\unit_ekatherina_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="11" overrideParent="True" />
 							<int name="priority" value="0" />
 							<instance_reference name="linked" value="" />
 						</template_reference>

@@ -10,28 +10,28 @@
 				<float name="action" value="0" />
 				<float name="command" value="0" />
 				<float name="popcap" value="0" />
-				<float name="food" value="300" />
+				<float name="food" value="0" />
 				<float name="wood" value="0" />
-				<float name="stone" value="0" />
-				<float name="gold" value="700" />
+				<float name="stone" value="400" />
+				<float name="gold" value="0" />
 				<float name="militia_hre" value="0" />
 				<float name="merc_byz" value="0" />
 			</enum_table>
-			<float name="time_seconds" value="60" />
+			<float name="time_seconds" value="20" />
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_production_group" value="command_panel" />
 		<group name="ui_position">
-			<int name="ui_position_row" value="3" />
-			<int name="ui_position_column" value="1" />
+			<int name="ui_position_row" value="2" />
+			<int name="ui_position_column" value="2" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="704" mod="67987bbc33214c57b0617d9356614825" />
+			<locstring name="extra_text" value="11202124" />
 			<locstring name="help_text" value="0" />
-			<string name="hotkey_name" value="s" />
-			<file name="icon_name" value="races\common\units\vip" />
+			<string name="hotkey_name" value="w" />
+			<file name="icon_name" value="races\common\upgrades\fire_station" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="42" mod="67987bbc33214c57b0617d9356614825" />
+			<locstring name="screen_name" value="747" mod="67987bbc33214c57b0617d9356614825" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<string name="debug_text" value="" />
@@ -43,9 +43,9 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<int name="int_value" value="2" List.ItemID="-479376508" />
+					<int name="int_value" value="10" List.ItemID="2088462591" />
 				</list>
-				<locstring name="formatter" value="43" mod="67987bbc33214c57b0617d9356614825" />
+				<locstring name="formatter" value="746" mod="67987bbc33214c57b0617d9356614825" />
 			</template_reference>
 			<template_reference name="screen_name_formatter" value="">
 			</template_reference>
@@ -54,8 +54,6 @@
 			<string name="sound" value="sfx_ui_produce_upgrade_building_click" />
 			<string name="sound_alternative" value="" />
 			<int name="global_unit_control_row" value="1" />
-			<locstring name="help_text_controller" value="0" />
-			<locstring name="extra_text_controller" value="0" />
 			<template_reference name="ui_info_extended" value="tables\ui_info_ext">
 				<template_reference name="command_card_info" value="">
 				</template_reference>
@@ -64,7 +62,7 @@
 				<template_reference name="quick_commands_info" value="ui_quick_commands_info">
 					<int name="quick_commands_slot_index" value="2" />
 					<enum name="quick_commands_hotkey" value="x_quick_command_hold_y" />
-					<int name="quick_commands_priority" value="3" />
+					<int name="quick_commands_priority" value="1" />
 				</template_reference>
 				<template_reference name="quick_formation_info" value="">
 				</template_reference>
@@ -73,13 +71,13 @@
 				<enum name="category" value="Economic" />
 				<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
 					<enum name="quick_commands_hotkey" value="x_quick_command_x" />
-					<int name="quick_commands_priority" value="86" />
+					<int name="quick_commands_priority" value="28" />
 					<int name="quick_commands_slot_index" value="3" />
 					<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
 				</template_reference>
 				<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
-					<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
-					<int name="nominal_index" value="15" />
+					<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\default" />
+					<int name="nominal_index" value="6" />
 					<int name="priority" value="0" />
 					<instance_reference name="linked" value="" />
 				</template_reference>
@@ -89,15 +87,17 @@
 					<instance_reference name="secondary_issuable" value="" />
 				</group>
 			</template_reference>
+			<locstring name="help_text_controller" value="0" />
+			<locstring name="extra_text_controller" value="0" />
 		</group>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-115996241">
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="794976812">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="True" />
 				<int name="max_completed" value="100" />
 				<int name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
+				<instance_reference name="upgrade_name" value="upgrade\dev\ages\feudal_age" />
 				<bool name="include_queued" value="False" />
 				<group name="include_pbg_parenting">
 					<bool name="include_child_pbgs" value="False" />
@@ -105,13 +105,13 @@
 				</group>
 				<bool name="include_completed" value="True" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="597702771">
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="945150598">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="False" />
 				<int name="max_completed" value="100" />
 				<int name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_fortheunion_rus" mod="67987bbc33214c57b0617d9356614825" />
+				<instance_reference name="upgrade_name" value="upgrade\races\rus\upgrade_fire_retardant_handling" mod="67987bbc33214c57b0617d9356614825" />
 				<bool name="include_queued" value="True" />
 				<group name="include_pbg_parenting">
 					<bool name="include_child_pbgs" value="False" />
@@ -143,7 +143,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_armor_clad_eng" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_entity_sul\upgrade_landmark_reinforced_keeps_sul" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
@@ -152,14 +152,14 @@
 			</template_reference>
 		</group>
 		<list name="upgrade_type">
-			<enum name="upgrade_type" value="military_upgrade" List.ItemID="335675542" />
-			<enum name="upgrade_type" value="rus_upgrade" List.ItemID="722536424" />
-			<enum name="upgrade_type" value="scar_military_upgrade" List.ItemID="185813814" />
-			<enum name="upgrade_type" value="scar_nontiered_upgrade" List.ItemID="-617670322" />
-			<enum name="upgrade_type" value="scar_castle_age_upgrade" List.ItemID="-793063695" />
+			<enum name="upgrade_type" value="military_upgrade" List.ItemID="-1534087031" />
+			<enum name="upgrade_type" value="rus_upgrade" List.ItemID="-876474864" />
+			<enum name="upgrade_type" value="scar_military_upgrade" List.ItemID="-1969292139" />
+			<enum name="upgrade_type" value="scar_nontiered_upgrade" List.ItemID="-407398616" />
+			<enum name="upgrade_type" value="scar_feudal_age_upgrade" List.ItemID="932083953" />
 		</list>
 		<string name="requirements_openingbranch" value="" />
-		<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+		<instance_reference name="ui_menu" value="" />
 		<bool name="is_progress_permanent" value="False" />
 		<group name="ui_codex_info">
 			<int name="priority" value="0" />
@@ -173,11 +173,8 @@
 			<state_tree_node name="apply_to_filter_condition_statetree_ref" value="" />
 			<enum name="apply_to_target_type" value="entity" />
 			<list name="apply_to_unit_classes">
-				<enum name="unit_class" value="spearman" List.ItemID="1178971454" />
-				<enum name="unit_class" value="archer" List.ItemID="730163837" />
-				<enum name="unit_class" value="manatarms" List.ItemID="-386277472" />
-				<enum name="unit_class" value="crossbowman" List.ItemID="1706350277" />
-				<enum name="unit_class" value="handcannon" List.ItemID="773896599" />
+				<enum name="unit_class" value="palisade_wall" List.ItemID="385421106" />
+				<enum name="unit_class" value="palisade_gate" List.ItemID="-603879261" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
@@ -200,25 +197,17 @@
 			<float name="merc_byz" value="0" />
 		</enum_table>
 		<list name="float_properties">
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="-453920355">
-				<float name="value" value="2" />
-				<enum name="id" value="armor_melee" />
-			</template_reference>
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="349008243">
-				<float name="value" value="2" />
-				<enum name="id" value="armor_range" />
-			</template_reference>
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="3736420">
-				<float name="value" value="1.25" />
-				<enum name="id" value="attack_speed" />
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="1674762757">
+				<float name="value" value="10" />
+				<enum name="id" value="armor_fire" />
 			</template_reference>
 		</list>
 		<list name="int_properties">
 		</list>
 		<enum name="ui_group_cast_type" value="single" />
-		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_barracks\tech_armor_clad" />
+		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_keep\tech_upgrade_slowburning_defenses_sul" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="1073741826" />
+	<uniqueid name="pbgid" value="1073742383" />
 	<instance_reference name="parent_pbg" value="" />
 </instance>
