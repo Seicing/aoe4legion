@@ -21,7 +21,7 @@
 				<enum_table name="cost">
 					<float name="food" value="60" overrideParent="True" />
 				</enum_table>
-				<float name="time_seconds" value="24" overrideParent="True" />
+				<float name="time_seconds" value="23" overrideParent="True" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="440395020" List.ParentItemID="440395020">

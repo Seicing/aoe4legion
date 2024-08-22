@@ -125,7 +125,7 @@
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="646243642" List.ParentItemID="646243642">
 			<float name="decorator_height" value="10" overrideParent="True" />
 			<file name="icon_name" value="races\malian\buildings\building_landmark_age3_fort_of_the_huntress" overrideParent="True" />
-			<bool name="use_combat_range_on_selection" value="True" overrideParent="True" />
+			<bool name="use_combat_range_on_selection" value="False" overrideParent="True" />
 			<template_reference name="help_text_formatter" value="ui_text_formatter" overrideParent="True">
 				<list name="formatter_arguments" overrideParent="True">
 					<int name="int_value" value="30" overrideParent="True" List.ItemID="866807142" />
@@ -138,6 +138,7 @@
 			<file name="minimap_icon" value="minimap\landmark" overrideParent="True" />
 			<float name="minimap_icon_scale" value="0.3" overrideParent="True" />
 			<enum name="map_mark" value="CustomStructure" overrideParent="True" />
+			<bool name="use_construction_range_on_selection" value="True" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="-1963866549" List.ParentItemID="-1963866549">
 			<group name="footprint_scale">
@@ -146,8 +147,8 @@
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="1828097256" List.ParentItemID="1828097256">
-			<bool name="query_abilities_for_range_ui" value="False" overrideParent="True" />
-			<instance_reference name="ui_range" value="ui_reticule\structure_range" overrideParent="True" />
+			<bool name="query_abilities_for_range_ui" value="True" overrideParent="True" />
+			<instance_reference name="ui_range" value="ui_reticule\weapon_range" overrideParent="True" />
 			<bool name="query_weapon_for_range_ui" value="True" overrideParent="True" />
 			<group name="on_construction_complete_state_tree_refs">
 				<string name="while_construction_complete_entity_state_tree_ref" value="building_construction_complete\buildings\landmark_stealth_castle_construction_complete_mal" overrideParent="True" />
@@ -293,11 +294,11 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" overrideParent="True" List.ItemID="-1392424793" List.ListAction="Append">
 			<bool name="reject_attack_command" value="False" overrideParent="True" />
-			<list name="hardpoints">
-				<group name="hardpoint" comment="Default Arrows 1" List.ItemID="-1181847522">
+			<list name="hardpoints" overrideParent="True">
+				<group name="hardpoint" comment="Default Arrows 1" List.ItemID="-1728892776">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-327131604">
+						<group name="weapon" List.ItemID="539969709">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -317,7 +318,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_a" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_a_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -344,22 +345,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1678661833" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="222873785" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="741499137" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="1164642164" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="1168179688" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="1938410620" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="389855736" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1098544451" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1422032662" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-262670905" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-337837712" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="1003073625" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="870235506" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="702476261" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="1641126108" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="910396415" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Springald Slot" List.ItemID="438143576">
+				<group name="hardpoint" comment="Springald Slot" List.ItemID="-1041439510">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-662987896">
+						<group name="weapon" List.ItemID="-254766975">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -406,18 +407,18 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_springald_00" List.ItemID="29645291" />
-						<string name="marker" value="fx_muz_springald_01" List.ItemID="1658941120" />
-						<string name="marker" value="fx_muz_springald_02" List.ItemID="1379348505" />
-						<string name="marker" value="fx_muz_springald_03" List.ItemID="-1450777057" />
+						<string name="marker" value="fx_muz_springald_00" List.ItemID="-802364806" />
+						<string name="marker" value="fx_muz_springald_01" List.ItemID="-2106844315" />
+						<string name="marker" value="fx_muz_springald_02" List.ItemID="1790141805" />
+						<string name="marker" value="fx_muz_springald_03" List.ItemID="1569431041" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Cannon Slot" List.ItemID="-731859815">
+				<group name="hardpoint" comment="Cannon Slot" List.ItemID="-60841343">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-1274448057">
+						<group name="weapon" List.ItemID="-1770896366">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -464,18 +465,18 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_cannon_00" List.ItemID="1700190808" />
-						<string name="marker" value="fx_muz_cannon_01" List.ItemID="1973111384" />
-						<string name="marker" value="fx_muz_cannon_02" List.ItemID="1811673101" />
-						<string name="marker" value="fx_muz_cannon_03" List.ItemID="-2102556758" />
+						<string name="marker" value="fx_muz_cannon_00" List.ItemID="248518294" />
+						<string name="marker" value="fx_muz_cannon_01" List.ItemID="-140269679" />
+						<string name="marker" value="fx_muz_cannon_02" List.ItemID="631678629" />
+						<string name="marker" value="fx_muz_cannon_03" List.ItemID="-1911638300" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Murderholes Slot" List.ItemID="-238917970">
+				<group name="hardpoint" comment="Murderholes Slot" List.ItemID="1533472594">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-2019615630">
+						<group name="weapon" List.ItemID="-1229045603">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -522,27 +523,27 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_murderhole_00" List.ItemID="-1655633438" />
-						<string name="marker" value="fx_muz_murderhole_01" List.ItemID="67142453" />
-						<string name="marker" value="fx_muz_murderhole_02" List.ItemID="-1252461285" />
-						<string name="marker" value="fx_muz_murderhole_03" List.ItemID="-313801086" />
-						<string name="marker" value="fx_muz_murderhole_04" List.ItemID="1550329326" />
-						<string name="marker" value="fx_muz_murderhole_05" List.ItemID="-963323301" />
-						<string name="marker" value="fx_muz_murderhole_06" List.ItemID="575680851" />
-						<string name="marker" value="fx_muz_murderhole_07" List.ItemID="43707816" />
-						<string name="marker" value="fx_muz_murderhole_08" List.ItemID="646988172" />
-						<string name="marker" value="fx_muz_murderhole_09" List.ItemID="-1057442838" />
-						<string name="marker" value="fx_muz_murderhole_10" List.ItemID="1746767996" />
-						<string name="marker" value="fx_muz_murderhole_11" List.ItemID="489514049" />
-						<string name="marker" value="fx_muz_murderhole_12" List.ItemID="-925836509" />
+						<string name="marker" value="fx_muz_murderhole_00" List.ItemID="-1630529297" />
+						<string name="marker" value="fx_muz_murderhole_01" List.ItemID="-204856200" />
+						<string name="marker" value="fx_muz_murderhole_02" List.ItemID="1481414895" />
+						<string name="marker" value="fx_muz_murderhole_03" List.ItemID="-1303896891" />
+						<string name="marker" value="fx_muz_murderhole_04" List.ItemID="-345718851" />
+						<string name="marker" value="fx_muz_murderhole_05" List.ItemID="-1658941832" />
+						<string name="marker" value="fx_muz_murderhole_06" List.ItemID="-1558962472" />
+						<string name="marker" value="fx_muz_murderhole_07" List.ItemID="1607281452" />
+						<string name="marker" value="fx_muz_murderhole_08" List.ItemID="-58828761" />
+						<string name="marker" value="fx_muz_murderhole_09" List.ItemID="-1684893917" />
+						<string name="marker" value="fx_muz_murderhole_10" List.ItemID="-38361717" />
+						<string name="marker" value="fx_muz_murderhole_11" List.ItemID="306896397" />
+						<string name="marker" value="fx_muz_murderhole_12" List.ItemID="2003345752" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="481081311">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="930982212">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-1475730161">
+						<group name="weapon" List.ItemID="-273804408">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -562,7 +563,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -589,22 +590,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="440815578" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="238167611" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-93853540" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-108406158" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="1767032160" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-341714121" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="1794683374" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="665694837" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1981222408" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-1630139939" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="1962011377" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1179719773" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-499772209" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="907877117" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-531103991" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="308980851" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Default Arrows 2" List.ItemID="1634488966">
+				<group name="hardpoint" comment="Default Arrows 2" List.ItemID="-1237492138">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="1269746220">
+						<group name="weapon" List.ItemID="-1025906053">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -624,7 +625,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_b" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_b_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -651,22 +652,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-807668217" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-941569748" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="148894452" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="1373153968" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-394306789" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="1456774599" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="1903051160" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-155137302" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="1493567038" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1349149362" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="874373424" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="996219766" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="680228353" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-2070318239" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-189737628" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1684159599" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Default Arrows 3" List.ItemID="2069733598">
+				<group name="hardpoint" comment="Default Arrows 3" List.ItemID="661946044">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="1725584507">
+						<group name="weapon" List.ItemID="-2129111181">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -686,7 +687,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_c" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_c_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -713,22 +714,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1268681216" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-663031975" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-343162341" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-863916992" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-1922527392" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-651019986" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-1395856247" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1559577449" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1110128927" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-877945913" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-4830753" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-693325828" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-1132352545" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-581215883" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="52686218" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="633461854" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="744888679">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-1930558572">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-1982567658">
+						<group name="weapon" List.ItemID="-1939140709">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -748,7 +749,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -775,22 +776,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="879929916" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1409680921" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-634545624" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="296140597" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-701267476" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-1521263157" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="81664537" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-954433190" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1612220339" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-178626247" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="1001271629" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="1542184734" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-493564585" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-1755001056" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-597826925" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1241697418" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="1108461752">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-916187530">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="1166588565">
+						<group name="weapon" List.ItemID="541362590">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -810,7 +811,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -837,22 +838,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-534788651" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-706497293" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="1555553083" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="1785057394" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="1320025856" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-2001037990" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-588134004" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-289070175" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1560762943" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-1215221201" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="1700585585" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="302743416" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="1004858197" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="1876305172" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="1705384308" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="155787855" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="315870432">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="1494499585">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-1046191881">
+						<group name="weapon" List.ItemID="1329768347">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -872,7 +873,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -899,22 +900,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-620087209" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-905554888" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1424819588" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1947626360" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="916990399" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-1670481007" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="1616735621" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="227051692" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="796575316" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-86824069" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="249164676" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="1381341662" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="924493166" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="1537675276" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="108899066" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-956459683" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="138770973">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-766682879">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="1766983473">
+						<group name="weapon" List.ItemID="-358798430">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -934,7 +935,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -961,22 +962,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="1261040580" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1697493640" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="1577311637" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1508198215" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="1335092948" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="511881677" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-2093684347" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="555594137" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1023231161" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-1680390987" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="1264960426" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="2078834005" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="380818896" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-1805863794" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="1539642543" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-423333405" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="1740960223">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-1085586296">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="461537530">
+						<group name="weapon" List.ItemID="888340233">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -996,7 +997,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1023,22 +1024,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-238596028" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1656406327" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-137416815" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1752235829" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-837982573" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-425809274" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="435480886" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1736409603" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1896694922" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-1541444146" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="1653784908" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="394645516" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-1144170922" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-1228688665" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-1817698622" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="304349454" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-20640756">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-1844491503">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="1817365137">
+						<group name="weapon" List.ItemID="691236916">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1058,7 +1059,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1085,22 +1086,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1267897556" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="221031498" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="774845461" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="1778420610" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="2043856815" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="257119555" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-772726643" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="631633948" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1101676548" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1326605344" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-438723006" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="633532949" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="919885671" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-1270178953" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-1180336293" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1457224690" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="228098232">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="1622202319">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="266759316">
+						<group name="weapon" List.ItemID="229963672">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1120,7 +1121,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1147,22 +1148,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1903337616" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="682555255" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1653818889" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-340019990" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-1614000806" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="914255826" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="97852545" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="340816394" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="1925667195" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-2112190263" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-862569638" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1192120211" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-264510026" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="703638483" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="440559252" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-189360947" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="1185278336">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="445384928">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-1459099741">
+						<group name="weapon" List.ItemID="-1902700197">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1182,7 +1183,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1209,22 +1210,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="646077298" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1093751358" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1654011101" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="1130458501" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-430297014" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="1546917182" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="219559079" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="2089229185" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="1782846921" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-1124563057" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-32500324" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1892334207" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-172269432" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-1195921559" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="1609461926" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1942978" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-1874777821">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-1122687050">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="636322474">
+						<group name="weapon" List.ItemID="-724170747">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1244,7 +1245,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1271,22 +1272,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="664577505" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-385685801" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="724242131" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-131430135" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-561144484" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-1497996142" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="2062861613" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-1309299583" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="1053128236" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-1082066334" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="1893341608" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-932270661" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-1131696736" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-2085454533" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-1659589588" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="433971193" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-723415526">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-1227940222">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-695811266">
+						<group name="weapon" List.ItemID="1989047963">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1306,7 +1307,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1333,22 +1334,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="872143147" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-1070133234" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1698498433" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1881032485" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-997557747" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="842903177" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-208212615" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="636276425" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1457475018" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1421068856" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="1498875969" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-587714275" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="883070060" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="1312734584" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="142529683" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1554161519" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-47884951">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="1147386220">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-1013567116">
+						<group name="weapon" List.ItemID="-2017935492">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1368,7 +1369,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1395,22 +1396,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-208963177" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="455862250" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-439865180" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="559482009" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-923832747" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-287205788" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="323774787" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="13862711" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="1819897530" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1982292346" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="932490822" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1011218208" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="271040987" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-194586193" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="247928677" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-1762889126" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-899837149">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-586780347">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-1346839297">
+						<group name="weapon" List.ItemID="-1928668856">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1430,7 +1431,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1457,22 +1458,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-2042479884" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-180023619" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="1807271719" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="165482310" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="1949950183" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-1018686515" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-805620494" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1681826031" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-499720276" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-531260031" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1474474847" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="158512054" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="1910575669" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-845509346" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-2020735943" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-1739560407" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-1309070700">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-1982160571">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="854831999">
+						<group name="weapon" List.ItemID="577790298">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1492,7 +1493,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1519,22 +1520,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-753201040" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1135172035" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1724520024" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="1153987167" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="684977860" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="86237391" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-651734181" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="787304384" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1409090197" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-202339846" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-680475514" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="1483328321" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="712597157" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-578912470" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="1148950742" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-1905201826" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="837165702">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="804378712">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-1492424544">
+						<group name="weapon" List.ItemID="1910384851">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1554,7 +1555,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1581,22 +1582,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="1910502753" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="613320799" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="661358274" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="812862933" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="267179190" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-263156150" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-946417650" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1174087351" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1065193399" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-1917469565" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1513506580" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1042235479" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-1308161260" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-598090992" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-1003163033" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-1063507929" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-1136747304">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-110608916">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="1410186718">
+						<group name="weapon" List.ItemID="-47194552">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1616,7 +1617,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1643,22 +1644,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-551229723" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1456430414" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1722605953" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-733101449" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-1376557329" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-597436859" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="2017293731" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1506637666" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1171964413" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-272608773" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1089075557" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1749217507" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-456940844" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-977777209" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-1089535363" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-458850107" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="806617728">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="1909141308">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-974179200">
+						<group name="weapon" List.ItemID="-833414716">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1678,7 +1679,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1705,22 +1706,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="1630456826" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-941618935" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-219733592" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-480967826" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="630413934" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-455562337" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-1277679176" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1598457106" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1550713966" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-1381554371" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1978141682" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-457184005" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-167540758" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-1901746173" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-418066685" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-102114855" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-1663823320">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-1279086574">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="344680630">
+						<group name="weapon" List.ItemID="-167180421">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1740,7 +1741,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1767,22 +1768,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="2125595369" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-174361513" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-625592752" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="947896223" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="57317145" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="1153748279" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-144791477" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-942018644" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-494104020" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-132516149" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="347076182" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="864621793" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="1691917645" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-1656594557" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-675303737" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-1044610289" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-234166945">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="1303214897">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-875162580">
+						<group name="weapon" List.ItemID="946703594">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1802,7 +1803,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1829,22 +1830,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-522859135" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-223485672" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-410638063" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="829164780" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-817358774" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-526235318" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="1337285093" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="594190459" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="1511085593" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1007496854" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-869233873" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1785491693" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="1220320997" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-387629771" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-618920375" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-207474614" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-912071438">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-631696683">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="1933888983">
+						<group name="weapon" List.ItemID="722388611">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1864,7 +1865,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1891,22 +1892,22 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="524542194" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-1514910049" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-556441295" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-128647905" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="1275717280" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-78124198" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-1056507457" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="1304841755" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-996976718" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="-266485996" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1421227192" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1342510203" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-658062507" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="140757221" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-101815447" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-1129745888" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
 				</group>
-				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-284189871">
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="1012544262">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="751247508">
+						<group name="weapon" List.ItemID="-1583941112">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0.3" />
@@ -1926,7 +1927,7 @@
 										<string name="parent_rigidbody_target_name" value="" />
 										<enum name="game_object_attachment_type" value="scenegraph" />
 									</template_reference>
-									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_arrows_garrison" />
+									<instance_reference name="ebp" value="ebps\races\malian\weapons\wpn_range_keep_arrows_garrison_poison_mal" overrideParent="True" />
 									<group name="attachment_flags">
 										<bool name="sim_only" value="False" />
 										<bool name="no_pathfinding" value="False" />
@@ -1953,14 +1954,14 @@
 					<list name="preferred_inventory_item_categories">
 					</list>
 					<list name="firing_offset_markers">
-						<string name="marker" value="fx_muz_arrow_00" List.ItemID="492815515" />
-						<string name="marker" value="fx_muz_arrow_01" List.ItemID="323616222" />
-						<string name="marker" value="fx_muz_arrow_02" List.ItemID="-1502852217" />
-						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-563288041" />
-						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-1270074783" />
-						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-249975759" />
-						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-2069364081" />
-						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-2044391548" />
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="128083390" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1192872172" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="501526341" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="-1783768290" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-1744875365" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-825936108" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="1368626887" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="-1201931871" />
 					</list>
 					<bool name="initialize_weapons_on_creation" value="False" />
 					<string name="offhand_marker" value="" />
@@ -2094,6 +2095,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="707612920">
 					<group name="ui_position">
@@ -2165,6 +2167,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="574408654">
 					<group name="ui_position">
@@ -2236,6 +2239,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-468816993">
 					<group name="ui_position">
@@ -2307,6 +2311,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-878721508">
 					<group name="ui_position">
@@ -2372,6 +2377,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="1822774229">
 					<group name="ui_position">
@@ -2443,6 +2449,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">

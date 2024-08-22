@@ -183,7 +183,7 @@
 			<bool name="has_deflection_damage" value="False" />
 		</group>
 		<group name="fire">
-			<float name="wind_down" value="2" />
+			<float name="wind_down" value="0" />
 			<float name="wind_up" value="0" />
 			<float name="animation_impact_frame_time" value="0.5" />
 		</group>
@@ -253,8 +253,8 @@
 		</group>
 		<group name="reload">
 			<group name="duration">
-				<float name="max" value="3" />
-				<float name="min" value="3" />
+				<float name="max" value="5" />
+				<float name="min" value="5" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="far" value="1" />

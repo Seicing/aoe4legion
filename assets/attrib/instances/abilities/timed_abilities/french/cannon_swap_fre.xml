@@ -176,6 +176,11 @@
 				</template_reference>
 				<bool name="search_load_out" value="False" />
 			</template_reference>
+			<template_reference name="required" value="requirements\required_ownership" List.ItemID="1978839470">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="11257474" />
+				<enum name="ownership_type" value="enemy" />
+			</template_reference>
 		</list>
 		<template_reference name="targeted_ability_option" value="options\none">
 		</template_reference>

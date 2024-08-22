@@ -29,7 +29,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-662784220" List.ParentItemID="-662784220">
 			<enum_table name="speed_scaling_table">
-				<float name="default_speed" value="6" overrideParent="True" />
+				<float name="default_speed" value="6.5" overrideParent="True" />
 			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1078428342" List.ParentItemID="1078428342">

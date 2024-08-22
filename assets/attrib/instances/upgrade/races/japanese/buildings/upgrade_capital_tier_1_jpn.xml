@@ -12,7 +12,7 @@
 				<float name="popcap" value="0" />
 				<float name="food" value="0" />
 				<float name="wood" value="0" />
-				<float name="stone" value="250" />
+				<float name="stone" value="225" />
 				<float name="gold" value="0" />
 				<float name="militia_hre" value="0" />
 				<float name="merc_byz" value="0" />
@@ -85,6 +85,10 @@
 					<instance_reference name="linked" value="" />
 				</template_reference>
 				<enum name="observer_type" value="Disabled" />
+				<group name="issuable_info">
+					<bool name="is_secondary" value="False" />
+					<instance_reference name="secondary_issuable" value="" />
+				</group>
 			</template_reference>
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />

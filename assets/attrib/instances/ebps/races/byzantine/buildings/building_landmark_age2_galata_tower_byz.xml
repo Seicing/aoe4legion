@@ -128,6 +128,11 @@
 				<instance_reference name="upgrade" value="upgrade\races\byzantine\research\east_merc_byz" mod="67987bbc33214c57b0617d9356614825" List.ItemID="859348931" List.ListAction="Append" />
 				<instance_reference name="upgrade" value="upgrade\races\byzantine\research\silkroad_merc_byz" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-520304532" List.ListAction="Append" />
 				<instance_reference name="upgrade" value="upgrade\races\byzantine\research\west_merc_byz" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="27059327" List.ListAction="Append" />
+				<instance_reference name="upgrade" value="upgrade\races\byzantine\mercenary_contracts\merc_contract_01_tower_alt_byz" List.ItemID="1762477846" List.ListAction="Append" />
+				<instance_reference name="upgrade" value="upgrade\races\byzantine\mercenary_contracts\merc_contract_02_tower_alt_byz" List.ItemID="-1395570437" List.ListAction="Append" />
+				<instance_reference name="upgrade" value="upgrade\races\byzantine\mercenary_contracts\merc_contract_03_tower_alt_byz" List.ItemID="1719150553" List.ListAction="Append" />
+				<instance_reference name="upgrade" value="upgrade\races\byzantine\units\upgrade_unit_mercenary_3_tower_alt_byz" List.ItemID="1454141608" List.ListAction="Append" />
+				<instance_reference name="upgrade" value="upgrade\races\byzantine\units\upgrade_unit_mercenary_4_tower_alt_byz" List.ItemID="-1359314474" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-1064007581" List.ParentItemID="-1064007581">
@@ -220,6 +225,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="503841807">
 					<group name="ui_position" overrideParent="True">
@@ -276,6 +282,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="2137560288">
 					<group name="ui_position" overrideParent="True">
@@ -332,6 +339,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="709713980">
 					<group name="ui_position" overrideParent="True">
@@ -388,6 +396,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1546158457">
 					<group name="ui_position" overrideParent="True">
@@ -444,6 +453,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="416797542">
 					<group name="ui_position" overrideParent="True">
@@ -500,6 +510,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1839787288">
 					<group name="ui_position" overrideParent="True">
@@ -556,6 +567,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="265301675">
 					<group name="ui_position" overrideParent="True">
@@ -612,6 +624,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1343886171">
 					<group name="ui_position" overrideParent="True">
@@ -668,6 +681,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="7317747">
 					<group name="ui_position" overrideParent="True">
@@ -724,6 +738,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-361235285">
 					<group name="ui_position" overrideParent="True">
@@ -780,6 +795,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-389584087">
 					<group name="ui_position" overrideParent="True">
@@ -836,6 +852,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-14348202">
 					<group name="ui_position" overrideParent="True">
@@ -892,6 +909,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1177320647">
 					<group name="ui_position" overrideParent="True">
@@ -948,6 +966,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-938730950">
 					<group name="ui_position" overrideParent="True">
@@ -1004,6 +1023,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1571040514">
 					<group name="ui_position" overrideParent="True">
@@ -1060,6 +1080,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1532426110">
 					<group name="ui_position" overrideParent="True">
@@ -1116,6 +1137,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1649538576">
 					<group name="ui_position" overrideParent="True">
@@ -1172,6 +1194,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1238760459">
 					<group name="ui_position" overrideParent="True">
@@ -1228,6 +1251,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1276263913">
 					<group name="ui_position" overrideParent="True">
@@ -1284,6 +1308,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1169673106">
 					<group name="ui_position" overrideParent="True">
@@ -1340,6 +1365,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1215587453">
 					<group name="ui_position" overrideParent="True">
@@ -1396,6 +1422,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="494579296">
 					<group name="ui_position" overrideParent="True">
@@ -1452,6 +1479,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1110356273">
 					<group name="ui_position" overrideParent="True">
@@ -1508,6 +1536,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1015035120">
 					<group name="ui_position" overrideParent="True">
@@ -1564,6 +1593,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1358997690">
 					<group name="ui_position" overrideParent="True">
@@ -1620,6 +1650,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-2051364449">
 					<group name="ui_position" overrideParent="True">
@@ -1676,6 +1707,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1768685492">
 					<group name="ui_position" overrideParent="True">
@@ -1732,6 +1764,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-664921676">
 					<group name="ui_position" overrideParent="True">
@@ -1788,6 +1821,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="894464082">
 					<group name="ui_position" overrideParent="True">
@@ -1844,6 +1878,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1850272988">
 					<group name="ui_position" overrideParent="True">
@@ -1900,6 +1935,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-337169702">
 					<group name="ui_position" overrideParent="True">
@@ -1956,6 +1992,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="7032086">
 					<group name="ui_position" overrideParent="True">
@@ -2012,6 +2049,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-447072732">
 					<group name="ui_position" overrideParent="True">
@@ -2068,6 +2106,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1099758744">
 					<group name="ui_position" overrideParent="True">
@@ -2124,6 +2163,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="589065586">
 					<group name="ui_position" overrideParent="True">
@@ -2180,6 +2220,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1658678387">
 					<group name="ui_position" overrideParent="True">
@@ -2236,6 +2277,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-2080178604">
 					<group name="ui_position" overrideParent="True">
@@ -2292,6 +2334,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-282912754">
 					<group name="ui_position" overrideParent="True">
@@ -2348,6 +2391,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="323075583">
 					<group name="ui_position" overrideParent="True">
@@ -2404,6 +2448,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1306143471">
 					<group name="ui_position" overrideParent="True">
@@ -2460,6 +2505,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1712003498">
 					<group name="ui_position" overrideParent="True">
@@ -2516,6 +2562,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1726116472">
 					<group name="ui_position" overrideParent="True">
@@ -2572,6 +2619,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1537951497">
 					<group name="ui_position" overrideParent="True">
@@ -2628,6 +2676,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">

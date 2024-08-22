@@ -25,6 +25,14 @@
 				<instance_reference name="ability" value="abilities\modal_abilities\core\town_bell\town_center_town_bell" List.ItemID="816379227" />
 			</list>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="268370002" List.ParentItemID="268370002">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="stone" value="0" overrideParent="True" />
+					<float name="gold" value="450" overrideParent="True" />
+				</enum_table>
+			</group>
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="1529303587" List.ParentItemID="1529303587">
 			<list name="action_state_trees" overrideParent="True">
 				<group name="container" List.ItemID="-1804939569">
@@ -104,6 +112,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="58725023">
 					<instance_reference name="entity" value="" />
@@ -167,6 +176,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1492932591">
 					<instance_reference name="entity" value="" />
@@ -230,6 +240,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="201418285">
 					<instance_reference name="entity" value="" />
@@ -293,6 +304,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1972323342">
 					<instance_reference name="entity" value="" />
@@ -356,6 +368,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="320974445">
 					<instance_reference name="entity" value="" />
@@ -421,6 +434,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 		</template_reference>

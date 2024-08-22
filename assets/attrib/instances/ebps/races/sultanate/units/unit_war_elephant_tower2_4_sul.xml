@@ -121,7 +121,7 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\sultanate\melee\weapon_tower_war_elephant_melee_sul" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\sultanate\melee\weapon_tower_war_elephant_melee_sul" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\sultanate\weapons\wpn_melee_war_elephant_goad_3_sul" overrideParent="True" />
 								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
 							</template_reference>
