@@ -45,7 +45,7 @@
 			<string name="default_animation" value="setup\idle_teardown" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-464370243" List.ParentItemID="-464370243">
-			<instance_reference name="schema" value="statemodel_schema\units\civilizations\hre\siege_weapon_hre" overrideParent="True" />
+			<instance_reference name="schema" value="statemodel_schema\units\civilizations\hre\siege_weapon_hre_no_setup" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-766205460" List.ParentItemID="-766205460">
 			<list name="tier_group_list">

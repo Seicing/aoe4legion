@@ -175,6 +175,7 @@
 			<enum name="apply_to_target_type" value="entity" />
 			<list name="apply_to_unit_classes">
 				<enum name="unit_class" value="manatarms" List.ItemID="451916373" />
+				<enum name="unit_class" value="knight" List.ItemID="663699303" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />

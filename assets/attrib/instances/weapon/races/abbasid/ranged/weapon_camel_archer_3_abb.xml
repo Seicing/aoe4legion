@@ -28,6 +28,10 @@
 			<group name="target_unit_type_multipliers" List.ItemID="-874977791" List.ParentItemID="-874977791">
 				<float name="base_damage_modifier" value="14" overrideParent="True" />
 			</group>
+			<group name="target_unit_type_multipliers" List.ItemID="-484768097" List.ParentItemID="-484768097">
+				<enum name="unit_type" value="light_gunpowder_infantry" overrideParent="True" />
+				<float name="base_damage_modifier" value="14" overrideParent="True" />
+			</group>
 		</list>
 		<group name="moving">
 			<bool name="can_fire_while_moving" value="True" overrideParent="True" />

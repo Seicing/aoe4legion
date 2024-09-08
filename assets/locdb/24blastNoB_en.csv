@@ -390,7 +390,7 @@
 712,,,screen_name,,,Oprichnik
 713,,,extra_text,,,Heavy Melee Infantry
 714,,,help_text,,,"Tsar's minions with giant crescent axes to sweep away everything, Lower Attack but can deals full AOE damage.\r\n- High bonus damage to light units and worker units\r\n- Strengthen Touch"
-715,,,formatter,,,Increase the attack range of Palace Guards by +%1%.
+715,,,formatter,,,Increase the attack range of Palace Guards and Heavy Cavalry by +%1%.
 716,,,screen_name,,,Warrior Code
 717,,,screen_name,,,Recruit
 718,,,help_text,,,"Recruits of execute the 'Kharash' tactic, cheap and reliable\r\n- High Range\r\n- Can repair Siege Weapon and builds fortification\r\n- Can attacks wall directly\r\n- High regeneration"

@@ -49,8 +49,10 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-662784220" List.ParentItemID="-662784220">
-			<enum_table name="speed_scaling_table">
-				<float name="default_speed" value="6" overrideParent="True" />
+			<enum_table name="speed_scaling_table" overrideParent="True">
+				<float name="default_speed" value="6.5" overrideParent="True" />
+				<float name="min_speed" value="0" />
+				<float name="max_speed" value="8" />
 			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1078428342" List.ParentItemID="1078428342">
@@ -175,6 +177,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1024033161">
 					<group name="ui_position">
@@ -243,6 +246,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1983183516">
 					<group name="ui_position">
@@ -311,6 +315,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-943519487">
 					<group name="ui_position">
@@ -377,6 +382,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-443757660">
 					<group name="ui_position">
@@ -443,6 +449,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1383549184">
 					<group name="ui_position">
@@ -509,6 +516,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
