@@ -23,7 +23,7 @@
 				<float name="far" value="-1" overrideParent="True" />
 				<float name="mid" value="-1" overrideParent="True" />
 			</group>
-			<float name="max" value="20" overrideParent="True" />
+			<float name="max" value="14" overrideParent="True" />
 			<float name="max_height" value="-1" overrideParent="True" />
 			<float name="max_animation_angle_distance" value="0" overrideParent="True" />
 		</group>

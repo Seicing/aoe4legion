@@ -570,7 +570,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\spawner_ext" List.ItemID="211690376" List.ParentItemID="-1875812947">
 			<list name="spawn_items">
-				<group name="spawn_item" List.ItemID="-1764150272">
+				<group name="spawn_item" List.ItemID="399415733">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" />
 						<int name="ui_position_column" value="1" />
@@ -596,12 +596,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_gbeto_2_mal" List.ItemID="1818875047" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_handcannon_4_mal" List.ItemID="-1593827688" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_handcannon_4_mal" List.ItemID="386834902" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_gbeto_2_mal" List.ItemID="-1030602063" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_gbeto_2_mal" List.ItemID="-973715234" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_handcannon_4_mal" List.ItemID="-1135819832" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_gbeto_2_mal" List.ItemID="1037373486" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_handcannon_4_mal" List.ItemID="-562480868" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_handcannon_4_mal" List.ItemID="1476412971" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_gbeto_2_mal" List.ItemID="-1203814124" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_gbeto_2_mal" List.ItemID="-538954460" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_handcannon_4_mal" List.ItemID="-1519444830" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -640,8 +640,9 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="-1914073393">
+				<group name="spawn_item" List.ItemID="1169710963">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" />
 						<int name="ui_position_column" value="2" />
@@ -667,12 +668,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_4_mal" List.ItemID="1606462923" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_4_mal" List.ItemID="-1258880497" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="1003934498" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="755252588" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="1873323013" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_4_mal" List.ItemID="-1609017778" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_4_mal" List.ItemID="1288749792" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_4_mal" List.ItemID="-1122149299" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="1873759550" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="-1747884104" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="-168335407" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_4_mal" List.ItemID="1958653351" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -711,8 +712,9 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="2080724305">
+				<group name="spawn_item" List.ItemID="-558497742">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" />
 						<int name="ui_position_column" value="3" />
@@ -738,12 +740,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_archer_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="915994371" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_archer_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="730786102" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_archer_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-821778213" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_rider_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1154687250" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_rider_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-957603316" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_rider_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="522308393" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_archer_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-799528898" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_archer_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1878763300" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_archer_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="5464560" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_rider_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="776883243" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_rider_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1507608767" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_rider_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="835252922" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -782,8 +784,9 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="-1204062858">
+				<group name="spawn_item" List.ItemID="-1588053548">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" />
 						<int name="ui_position_column" value="4" />
@@ -809,12 +812,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_berbers_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1197934042" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_berbers_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="607955160" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_berbers_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1430035307" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_berbers_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1200201930" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_berbers_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-359654999" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_berbers_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="786120009" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_berbers_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="2109239928" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_berbers_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="81389349" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_berbers_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1543584342" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_berbers_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-158543165" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_berbers_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1990356729" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_berbers_4_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1280111309" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -853,8 +856,9 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="-1990189679">
+				<group name="spawn_item" List.ItemID="1674956266">
 					<group name="ui_position">
 						<int name="ui_position_row" value="2" />
 						<int name="ui_position_column" value="1" />
@@ -880,12 +884,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_farimba_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-820393865" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_farimba_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="918367954" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="1799266662" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="2006774421" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="-1653130289" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="642798568" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_farimba_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1312291764" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_farimba_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="2072313355" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="-1824521096" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="945439669" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="-442590094" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="-1261723184" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -924,8 +928,9 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" comment="spearman - dark age" List.ItemID="440020255">
+				<group name="spawn_item" comment="spearman - dark age" List.ItemID="-1353507522">
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\malian\unit_farimba_mal" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
@@ -989,6 +994,294 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" List.ItemID="834674255">
+					<group name="ui_position">
+						<int name="ui_position_row" value="3" />
+						<int name="ui_position_column" value="2" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_mal_praetorian4" mod="67987bbc33214c57b0617d9356614825" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="1" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2008915073" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="978133139" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-125498293" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-183956368" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-566161951" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1803141935" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="287793770" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="484565314" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1401404364" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1803373747" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="1" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" List.ItemID="-2099080061">
+					<group name="ui_position">
+						<int name="ui_position_row" value="3" />
+						<int name="ui_position_column" value="2" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_mal_praetorian3" mod="67987bbc33214c57b0617d9356614825" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="1" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2008915073" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="978133139" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1935696578" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1308288746" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1020390491" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1883148012" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="919581905" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="1" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" List.ItemID="-372617659">
+					<group name="ui_position">
+						<int name="ui_position_row" value="3" />
+						<int name="ui_position_column" value="2" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_mal_praetorian2" mod="67987bbc33214c57b0617d9356614825" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="1" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2008915073" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="978133139" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="632695277" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1199838859" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="1" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" List.ItemID="-389559609">
+					<group name="ui_position">
+						<int name="ui_position_row" value="3" />
+						<int name="ui_position_column" value="2" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_mal_praetorian1" mod="67987bbc33214c57b0617d9356614825" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="1" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2008915073" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="978133139" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="1" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<bool name="must_be_in_supply" value="False" />

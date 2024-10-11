@@ -34,8 +34,8 @@
 				<group name="race_data" List.ItemID="-559976285">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="203" mod="67987bbc33214c57b0617d9356614825" />
-						<locstring name="help_text" value="659" mod="67987bbc33214c57b0617d9356614825" />
+						<locstring name="extra_text" value="11247499" />
+						<locstring name="help_text" value="11247498" />
 						<string name="hotkey_name" value="A" />
 						<file name="icon_name" value="races\japanese\units\ozutsu" />
 						<bool name="minimap_team_only" value="False" />
@@ -330,6 +330,10 @@
 								<template_reference name="relic_radial_menu_info" value="">
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -373,6 +377,10 @@
 								<template_reference name="relic_radial_menu_info" value="">
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>

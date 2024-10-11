@@ -34,8 +34,8 @@
 				<group name="race_data" List.ItemID="241242681">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="203" mod="67987bbc33214c57b0617d9356614825" />
-						<locstring name="help_text" value="660" mod="67987bbc33214c57b0617d9356614825" />
+						<locstring name="extra_text" value="11141782" />
+						<locstring name="help_text" value="11247502" />
 						<string name="hotkey_name" value="A" />
 						<file name="icon_name" value="races\japanese\units\shinobi" />
 						<bool name="minimap_team_only" value="False" />

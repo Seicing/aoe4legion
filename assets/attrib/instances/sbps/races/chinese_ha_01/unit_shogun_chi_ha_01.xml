@@ -172,6 +172,7 @@
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="-1127106907" />
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="-1052398199" />
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="-1704289988" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\khan_hunter_deer_range_aura_mon" List.ItemID="-415013446" />
 			</list>
 			<int name="ui_combine_priority" value="0" />
 			<group name="squad_orders">

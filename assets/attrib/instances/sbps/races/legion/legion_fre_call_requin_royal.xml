@@ -15,7 +15,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-816642235">
 			<list name="requirement_table">
 				<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-891297289">
-					<enum name="reason" value="usage_and_display" />
+					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="0" />
 					<list name="requirements">
 						<template_reference name="requirement" value="requirements\required_structure" List.ItemID="1951115289">
@@ -55,7 +55,7 @@
 						<locstring name="extra_text" value="11142898" />
 						<locstring name="help_text" value="11164977" />
 						<string name="hotkey_name" value="v" />
-						<file name="icon_name" value="shogun_fre_call3" />
+						<file name="icon_name" value="races\common\units\ribauldequin" />
 						<bool name="minimap_team_only" value="False" />
 						<file name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />

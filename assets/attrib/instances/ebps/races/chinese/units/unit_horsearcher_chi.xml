@@ -1,7 +1,7 @@
 <instance version="4" description="Mongol castle age horse archer" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1491559579" List.ParentItemID="1491559579">
-			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<bool name="browsable_in_editor" value="False" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="17356376" List.ParentItemID="17356376">
 			<list name="action_state_trees">
@@ -56,12 +56,21 @@
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="698418421" List.ParentItemID="698418421">
 			<list name="hardpoints">
 				<group name="hardpoint" List.ItemID="627415271" List.ParentItemID="627415271">
-					<list name="weapon_table" removedIds="-1392982238">
+					<list name="weapon_table">
 						<group name="weapon" List.ItemID="156392194" List.ParentItemID="156392194">
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\mongol\ranged\weapon_horsearcher_duoyansanwei" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\mongol\ranged\weapon_horsearcher_4_mon" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\mongol\weapons\wpn_range_horsearcher_4_mon" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" overrideParent="True" />
+							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="-1392982238" List.ParentItemID="-1392982238">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\mongol\ranged\weapon_horsearcher_incendiary_4_mon" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\mongol\weapons\wpn_range_horsearcher_4_mon" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" overrideParent="True" />
 							</template_reference>

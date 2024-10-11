@@ -33,7 +33,7 @@
 				<group name="race_data" List.ItemID="1896534723">
 					<group name="info">
 						<file name="icon_name" value="races\mongols\units\keshik_4" />
-						<locstring name="help_text" value="689" mod="67987bbc33214c57b0617d9356614825" />
+						<locstring name="help_text" value="11250010" />
 						<bool name="allow_spawner_production" value="False" />
 						<locstring name="extra_text" value="11141774" />
 						<string name="hotkey_name" value="W" />
