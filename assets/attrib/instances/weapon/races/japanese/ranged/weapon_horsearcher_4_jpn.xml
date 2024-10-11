@@ -1,0 +1,40 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="13" overrideParent="True" />
+			<float name="min" value="13" overrideParent="True" />
+		</group>
+		<group name="fire">
+			<float name="wind_down" value="0.5" overrideParent="True" />
+		</group>
+		<group name="range">
+			<group name="distance">
+				<float name="near" value="-1" overrideParent="True" />
+				<float name="far" value="-1" overrideParent="True" />
+				<float name="mid" value="-1" overrideParent="True" />
+			</group>
+			<float name="max" value="22" overrideParent="True" />
+		</group>
+		<group name="scatter">
+			<float name="angle_scatter" value="3" overrideParent="True" />
+			<float name="distance_scatter_max" value="3" overrideParent="True" />
+		</group>
+		<list name="target_type_table">
+			<group name="target_unit_type_multipliers" List.ItemID="-476075211" List.ListAction="Append">
+				<enum name="unit_type" value="heavy" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+				<float name="base_damage_modifier" value="12" overrideParent="True" />
+			</group>
+		</list>
+		<group name="moving">
+			<bool name="can_fire_while_moving" value="True" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="2127205" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_horsearcher_3" />
+</instance>

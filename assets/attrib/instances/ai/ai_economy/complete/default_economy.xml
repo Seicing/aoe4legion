@@ -345,7 +345,7 @@
 					<instance_reference name="upgrade" value="upgrade\races\malian\research\upgrade_transport_landing_parties_mal" List.ItemID="353128841" />
 					<instance_reference name="upgrade" value="upgrade\races\malian\research\upgrade_sofa_farima_leadership_mal" List.ItemID="47773554" />
 					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\naval\upgrade_naval_reinforced_hulls_ott" List.ItemID="-153816870" />
-					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" List.ItemID="1136108899" />
+					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1136108899" />
 					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_ranged_janissary_guns_ott" List.ItemID="549169015" />
 					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_janissary_company_ott" List.ItemID="1057584767" />
 					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_manned_siege_ott" List.ItemID="380343427" />
@@ -377,7 +377,7 @@
 					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_janissary_company_ott" List.ItemID="345252099" />
 					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_military_campus_ott" List.ItemID="1092377913" />
 					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_military_training_ott" List.ItemID="-561877720" />
-					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" List.ItemID="-74826612" />
+					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-74826612" />
 					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_ranged_janissary_guns_ott" List.ItemID="200027526" />
 					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_monk_formation_ott" List.ItemID="-887457533" />
 					<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_manned_siege_ott" List.ItemID="680431521" />
@@ -1738,173 +1738,173 @@
 		<list name="production_groups">
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Melee Units" List.ItemID="1627213029">
 				<list name="members">
-					<instance_reference name="member" value="sbps\races\english\unit_manatarms_1_eng" List.ItemID="348636661" />
-					<instance_reference name="member" value="sbps\races\english\unit_manatarms_2_eng" List.ItemID="-1626672" />
-					<instance_reference name="member" value="sbps\races\english\unit_manatarms_3_eng" List.ItemID="-1912375233" />
-					<instance_reference name="member" value="sbps\races\english\unit_manatarms_4_eng" List.ItemID="1056271662" />
-					<instance_reference name="member" value="sbps\races\english\unit_spearman_2_eng" List.ItemID="1833463442" />
-					<instance_reference name="member" value="sbps\races\english\unit_spearman_3_eng" List.ItemID="-924827592" />
-					<instance_reference name="member" value="sbps\races\english\unit_spearman_4_eng" List.ItemID="-708885251" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_spearman_1_chi" List.ItemID="-1938007249" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_spearman_2_chi" List.ItemID="440947893" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_spearman_3_chi" List.ItemID="401937225" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_spearman_4_chi" List.ItemID="-1217100224" />
-					<instance_reference name="member" value="sbps\races\french\unit_spearman_1_fre" List.ItemID="1438419042" />
-					<instance_reference name="member" value="sbps\races\french\unit_spearman_2_fre" List.ItemID="-613399445" />
-					<instance_reference name="member" value="sbps\races\french\unit_spearman_3_fre" List.ItemID="1478703891" />
-					<instance_reference name="member" value="sbps\races\french\unit_spearman_4_fre" List.ItemID="-256300223" />
-					<instance_reference name="member" value="sbps\races\hre\unit_spearman_1_hre" List.ItemID="-975610435" />
-					<instance_reference name="member" value="sbps\races\hre\unit_spearman_2_hre" List.ItemID="-273104484" />
-					<instance_reference name="member" value="sbps\races\hre\unit_spearman_3_hre" List.ItemID="927723491" />
-					<instance_reference name="member" value="sbps\races\hre\unit_spearman_4_hre" List.ItemID="-997709860" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_1_mon" List.ItemID="-1512689817" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_1_double_mon" List.ItemID="515194338" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_2_double_mon" List.ItemID="713108541" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_2_mon" List.ItemID="871272074" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_3_double_mon" List.ItemID="-522386062" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_3_mon" List.ItemID="-2066344783" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_4_double_mon" List.ItemID="1118517545" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_4_mon" List.ItemID="-352434977" />
-					<instance_reference name="member" value="sbps\races\rus\unit_spearman_1_rus" List.ItemID="433688236" />
-					<instance_reference name="member" value="sbps\races\rus\unit_spearman_2_rus" List.ItemID="1707172157" />
-					<instance_reference name="member" value="sbps\races\rus\unit_spearman_3_rus" List.ItemID="-264792133" />
-					<instance_reference name="member" value="sbps\races\rus\unit_spearman_4_rus" List.ItemID="1963136154" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_spearman_1_sul" List.ItemID="-803508799" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_spearman_2_sul" List.ItemID="-703539972" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_spearman_3_sul" List.ItemID="-218671036" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_spearman_4_sul" List.ItemID="-1729115633" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_manatarms_3_chi" List.ItemID="-2021448681" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_manatarms_4_chi" List.ItemID="1812210431" />
-					<instance_reference name="member" value="sbps\races\french\unit_manatarms_3_fre" List.ItemID="2078749259" />
-					<instance_reference name="member" value="sbps\races\french\unit_manatarms_4_fre" List.ItemID="-549963405" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_manatarms_3_double_mon" List.ItemID="-111250328" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_manatarms_3_mon" List.ItemID="-1156141881" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_manatarms_4_double_mon" List.ItemID="-644087854" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_manatarms_4_mon" List.ItemID="-2041383106" />
-					<instance_reference name="member" value="sbps\races\rus\unit_manatarms_3_rus" List.ItemID="1361973213" />
-					<instance_reference name="member" value="sbps\races\rus\unit_manatarms_4_rus" List.ItemID="407595172" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_manatarms_3_sul" List.ItemID="1903759816" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_manatarms_4_sul" List.ItemID="-2103513321" />
-					<instance_reference name="member" value="sbps\races\english\unit_knight_4_eng" List.ItemID="1234867902" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_knight_4_sul" List.ItemID="1717427440" />
-					<instance_reference name="member" value="sbps\races\rus\unit_knight_4_rus" List.ItemID="-1486804291" />
-					<instance_reference name="member" value="sbps\races\hre\unit_knight_4_hre" List.ItemID="-1179730463" />
-					<instance_reference name="member" value="sbps\races\abbasid\unit_knight_4_abb" List.ItemID="1809982286" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_knight_4_chi" List.ItemID="1519176391" />
-					<instance_reference name="member" value="sbps\races\abbasid\unit_horseman_2_abb" List.ItemID="348035687" />
-					<instance_reference name="member" value="sbps\races\abbasid\unit_horseman_3_abb" List.ItemID="-339740715" />
-					<instance_reference name="member" value="sbps\races\abbasid\unit_horseman_4_abb" List.ItemID="1404981367" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_horseman_2_chi" List.ItemID="-1166591630" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_horseman_3_chi" List.ItemID="-1743505407" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_horseman_4_chi" List.ItemID="476566651" />
-					<instance_reference name="member" value="sbps\races\english\unit_horseman_2_eng" List.ItemID="1210343253" />
-					<instance_reference name="member" value="sbps\races\english\unit_horseman_3_eng" List.ItemID="-469996645" />
-					<instance_reference name="member" value="sbps\races\english\unit_horseman_4_eng" List.ItemID="-748274637" />
-					<instance_reference name="member" value="sbps\races\french\unit_horseman_2_fre" List.ItemID="541076174" />
-					<instance_reference name="member" value="sbps\races\french\unit_horseman_3_fre" List.ItemID="1350024307" />
-					<instance_reference name="member" value="sbps\races\french\unit_horseman_4_fre" List.ItemID="412719132" />
-					<instance_reference name="member" value="sbps\races\hre\unit_horseman_2_hre" List.ItemID="-1773692383" />
-					<instance_reference name="member" value="sbps\races\hre\unit_horseman_3_hre" List.ItemID="1951896134" />
-					<instance_reference name="member" value="sbps\races\hre\unit_horseman_4_hre" List.ItemID="-1828301553" />
-					<instance_reference name="member" value="sbps\races\rus\unit_horseman_2_rus" List.ItemID="182665810" />
-					<instance_reference name="member" value="sbps\races\rus\unit_horseman_3_rus" List.ItemID="1815295005" />
-					<instance_reference name="member" value="sbps\races\rus\unit_horseman_4_rus" List.ItemID="-1380801965" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_horseman_2_sul" List.ItemID="321216059" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_horseman_3_sul" List.ItemID="699000172" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_horseman_4_sul" List.ItemID="-1295370084" />
-					<instance_reference name="member" value="sbps\races\english\unit_knight_3_eng" List.ItemID="505234227" />
-					<instance_reference name="member" value="sbps\races\abbasid\unit_knight_3_abb" List.ItemID="1717456227" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_knight_3_chi" List.ItemID="-1965721044" />
-					<instance_reference name="member" value="sbps\races\hre\unit_knight_3_hre" List.ItemID="-292318289" />
-					<instance_reference name="member" value="sbps\races\rus\unit_knight_3_rus" List.ItemID="1977497817" />
-					<instance_reference name="member" value="sbps\races\rus\unit_knight_2_rus" List.ItemID="340509588" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_knight_3_sul" List.ItemID="1232642824" />
-					<instance_reference name="member" value="sbps\races\abbasid\unit_manatarms_3_abb" List.ItemID="2020761755" />
-					<instance_reference name="member" value="sbps\races\abbasid\unit_manatarms_4_abb" List.ItemID="-1801170228" />
-					<instance_reference name="member" value="sbps\races\abbasid\unit_spearman_1_abb" List.ItemID="-1165809610" />
-					<instance_reference name="member" value="sbps\races\abbasid\unit_spearman_2_abb" List.ItemID="-1830746543" />
-					<instance_reference name="member" value="sbps\races\abbasid\unit_spearman_3_abb" List.ItemID="26960458" />
-					<instance_reference name="member" value="sbps\races\abbasid\unit_spearman_4_abb" List.ItemID="-1116088653" />
-					<instance_reference name="member" value="sbps\races\malian\unit_horseman_2_mal" List.ItemID="1005567325" />
-					<instance_reference name="member" value="sbps\races\malian\unit_horseman_3_mal" List.ItemID="-108041620" />
-					<instance_reference name="member" value="sbps\races\malian\unit_horseman_4_mal" List.ItemID="-192659070" />
-					<instance_reference name="member" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="-1004321397" />
-					<instance_reference name="member" value="sbps\races\malian\unit_spearman_2_mal" List.ItemID="134816770" />
-					<instance_reference name="member" value="sbps\races\malian\unit_spearman_3_mal" List.ItemID="-826670841" />
-					<instance_reference name="member" value="sbps\races\malian\unit_spearman_4_mal" List.ItemID="-166984214" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_horseman_2_ott" List.ItemID="1816511308" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_horseman_3_ott" List.ItemID="-1203244955" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_horseman_4_ott" List.ItemID="-1173567345" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_knight_3_ott" List.ItemID="580531346" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_knight_4_ott" List.ItemID="204982797" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_manatarms_3_ott" List.ItemID="1661383455" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_manatarms_4_ott" List.ItemID="-1576391763" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_spearman_1_ott" List.ItemID="-1197885917" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_spearman_2_ott" List.ItemID="-1982132228" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_spearman_3_ott" List.ItemID="-526163365" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_spearman_4_ott" List.ItemID="-1703184416" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_spearman_3_byz" List.ItemID="-996302742" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_spearman_4_byz" List.ItemID="-1967428882" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_horseman_3_byz" List.ItemID="-1863335743" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_spearman_2_byz" List.ItemID="116217734" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_spearman_1_byz" List.ItemID="918459117" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_manatarms_4_byz" List.ItemID="-877833545" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_manatarms_3_byz" List.ItemID="-820397446" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_knight_4_byz" List.ItemID="702345585" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_horseman_4_byz" List.ItemID="-1825069171" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_knight_3_byz" List.ItemID="428391203" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_horseman_2_byz" List.ItemID="321464615" />
-					<instance_reference name="member" value="sbps\races\japanese\unit_horseman_2_jpn" List.ItemID="1525017176" />
-					<instance_reference name="member" value="sbps\races\japanese\unit_horseman_3_jpn" List.ItemID="851944196" />
-					<instance_reference name="member" value="sbps\races\japanese\unit_horseman_4_jpn" List.ItemID="1853096405" />
-					<instance_reference name="member" value="sbps\races\japanese\unit_knight_3_jpn" List.ItemID="1985553294" />
-					<instance_reference name="member" value="sbps\races\japanese\unit_knight_4_jpn" List.ItemID="-1551076223" />
-					<instance_reference name="member" value="sbps\races\japanese\unit_spearman_1_jpn" List.ItemID="-38985477" />
-					<instance_reference name="member" value="sbps\races\japanese\unit_spearman_2_jpn" List.ItemID="-1290698901" />
-					<instance_reference name="member" value="sbps\races\japanese\unit_spearman_3_jpn" List.ItemID="786539174" />
-					<instance_reference name="member" value="sbps\races\japanese\unit_spearman_4_jpn" List.ItemID="1730573097" />
-					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_horseman_2_abb_ha_01" List.ItemID="-497838332" />
-					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_horseman_3_abb_ha_01" List.ItemID="1895911896" />
-					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_horseman_4_abb_ha_01" List.ItemID="2121725146" />
-					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_manatarms_3_abb_ha_01" List.ItemID="-207120935" />
-					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_manatarms_4_abb_ha_01" List.ItemID="-816011656" />
-					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_spearman_1_abb_ha_01" List.ItemID="220227859" />
-					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_spearman_2_abb_ha_01" List.ItemID="-80248157" />
-					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_spearman_3_abb_ha_01" List.ItemID="367774373" />
-					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_spearman_4_abb_ha_01" List.ItemID="1237753835" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_knight_3_chi_ha_01" List.ItemID="-543878767" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_knight_4_chi_ha_01" List.ItemID="-2121827358" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_manatarms_2_chi_ha_01" List.ItemID="776758355" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_manatarms_3_chi_ha_01" List.ItemID="379216207" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_manatarms_4_chi_ha_01" List.ItemID="1050321300" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_spearman_1_chi_ha_01" List.ItemID="-404217007" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_spearman_2_chi_ha_01" List.ItemID="1499908573" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_spearman_3_chi_ha_01" List.ItemID="1041959077" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_spearman_4_chi_ha_01" List.ItemID="1048430815" />
-					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_horseman_2_hre_ha_01" List.ItemID="-139042051" />
-					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_horseman_3_hre_ha_01" List.ItemID="-1952973198" />
-					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_horseman_4_hre_ha_01" List.ItemID="1716104816" />
-					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_knight_3_hre_ha_01" List.ItemID="-834894553" />
-					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_knight_4_hre_ha_01" List.ItemID="-219081728" />
-					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_spearman_1_hre_ha_01" List.ItemID="-17103262" />
-					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_spearman_2_hre_ha_01" List.ItemID="620101937" />
-					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_spearman_3_hre_ha_01" List.ItemID="-296699152" />
-					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_spearman_4_hre_ha_01" List.ItemID="-813375747" />
-					<instance_reference name="member" value="sbps\races\french_ha_01\unit_horseman_2_fre_ha_01" List.ItemID="-2112750819" />
-					<instance_reference name="member" value="sbps\races\french_ha_01\unit_horseman_3_fre_ha_01" List.ItemID="1990189924" />
-					<instance_reference name="member" value="sbps\races\french_ha_01\unit_horseman_4_fre_ha_01" List.ItemID="-71178758" />
-					<instance_reference name="member" value="sbps\races\french_ha_01\unit_manatarms_3_fre_ha_01" List.ItemID="1729845015" />
-					<instance_reference name="member" value="sbps\races\french_ha_01\unit_manatarms_4_fre_ha_01" List.ItemID="176902249" />
-					<instance_reference name="member" value="sbps\races\french_ha_01\unit_spearman_1_fre_ha_01" List.ItemID="-1960540392" />
-					<instance_reference name="member" value="sbps\races\french_ha_01\unit_spearman_2_fre_ha_01" List.ItemID="-725565657" />
-					<instance_reference name="member" value="sbps\races\french_ha_01\unit_spearman_3_fre_ha_01" List.ItemID="-663459156" />
-					<instance_reference name="member" value="sbps\races\french_ha_01\unit_spearman_4_fre_ha_01" List.ItemID="-907343777" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_horseman_2_chi_ha_01" List.ItemID="516370370" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_horseman_3_chi_ha_01" List.ItemID="-1830371298" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_horseman_4_chi_ha_01" List.ItemID="-1014719285" />
-					<instance_reference name="member" value="sbps\races\byzantine\mercenaries\set_05\unit_sipahi_2_byz" List.ItemID="1235456921" />
-					<instance_reference name="member" value="sbps\races\byzantine\mercenaries\set_05\unit_sipahi_3_byz" List.ItemID="-1128450017" />
-					<instance_reference name="member" value="sbps\races\byzantine\mercenaries\set_05\unit_sipahi_4_byz" List.ItemID="-1111518682" />
+					<instance_reference name="member" value="sbps\races\english\unit_manatarms_1_eng" List.ItemID="-856794572" />
+					<instance_reference name="member" value="sbps\races\english\unit_manatarms_2_eng" List.ItemID="-121922448" />
+					<instance_reference name="member" value="sbps\races\english\unit_manatarms_3_eng" List.ItemID="-1542987080" />
+					<instance_reference name="member" value="sbps\races\english\unit_manatarms_4_eng" List.ItemID="2069468878" />
+					<instance_reference name="member" value="sbps\races\english\unit_spearman_2_eng" List.ItemID="855347870" />
+					<instance_reference name="member" value="sbps\races\english\unit_spearman_3_eng" List.ItemID="-2014344656" />
+					<instance_reference name="member" value="sbps\races\english\unit_spearman_4_eng" List.ItemID="1324587954" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_spearman_1_chi" List.ItemID="1251829825" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_spearman_2_chi" List.ItemID="-394199226" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_spearman_3_chi" List.ItemID="1580649893" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_spearman_4_chi" List.ItemID="177797019" />
+					<instance_reference name="member" value="sbps\races\french\unit_spearman_1_fre" List.ItemID="977248595" />
+					<instance_reference name="member" value="sbps\races\french\unit_spearman_2_fre" List.ItemID="1446012702" />
+					<instance_reference name="member" value="sbps\races\french\unit_spearman_3_fre" List.ItemID="-145125035" />
+					<instance_reference name="member" value="sbps\races\french\unit_spearman_4_fre" List.ItemID="2131015213" />
+					<instance_reference name="member" value="sbps\races\hre\unit_spearman_1_hre" List.ItemID="1155213257" />
+					<instance_reference name="member" value="sbps\races\hre\unit_spearman_2_hre" List.ItemID="561210017" />
+					<instance_reference name="member" value="sbps\races\hre\unit_spearman_3_hre" List.ItemID="-1341170195" />
+					<instance_reference name="member" value="sbps\races\hre\unit_spearman_4_hre" List.ItemID="1475188582" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_1_mon" List.ItemID="123612471" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_1_double_mon" List.ItemID="-1939128427" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_2_double_mon" List.ItemID="-181913877" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_2_mon" List.ItemID="455781616" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_3_double_mon" List.ItemID="1151117156" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_3_mon" List.ItemID="-491681243" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_4_double_mon" List.ItemID="-2120326588" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_spearman_4_mon" List.ItemID="-1827306955" />
+					<instance_reference name="member" value="sbps\races\rus\unit_spearman_1_rus" List.ItemID="1087025677" />
+					<instance_reference name="member" value="sbps\races\rus\unit_spearman_2_rus" List.ItemID="-586038969" />
+					<instance_reference name="member" value="sbps\races\rus\unit_spearman_3_rus" List.ItemID="18207222" />
+					<instance_reference name="member" value="sbps\races\rus\unit_spearman_4_rus" List.ItemID="112761045" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_spearman_1_sul" List.ItemID="1874905336" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_spearman_2_sul" List.ItemID="-1796137062" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_spearman_3_sul" List.ItemID="-1704853956" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_spearman_4_sul" List.ItemID="-178893905" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_manatarms_3_chi" List.ItemID="-313094295" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_manatarms_4_chi" List.ItemID="-1139891960" />
+					<instance_reference name="member" value="sbps\races\french\unit_manatarms_3_fre" List.ItemID="1900003083" />
+					<instance_reference name="member" value="sbps\races\french\unit_manatarms_4_fre" List.ItemID="-391254099" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_manatarms_3_double_mon" List.ItemID="499406841" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_manatarms_3_mon" List.ItemID="-1618682411" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_manatarms_4_double_mon" List.ItemID="-265181313" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_manatarms_4_mon" List.ItemID="-1804125909" />
+					<instance_reference name="member" value="sbps\races\rus\unit_manatarms_3_rus" List.ItemID="1811238870" />
+					<instance_reference name="member" value="sbps\races\rus\unit_manatarms_4_rus" List.ItemID="-1407730003" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_manatarms_3_sul" List.ItemID="-1460636913" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_manatarms_4_sul" List.ItemID="-1846007119" />
+					<instance_reference name="member" value="sbps\races\english\unit_knight_4_eng" List.ItemID="-820861739" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_knight_4_sul" List.ItemID="-1575131017" />
+					<instance_reference name="member" value="sbps\races\rus\unit_knight_4_rus" List.ItemID="-2130153103" />
+					<instance_reference name="member" value="sbps\races\hre\unit_knight_4_hre" List.ItemID="1622466052" />
+					<instance_reference name="member" value="sbps\races\abbasid\unit_knight_4_abb" List.ItemID="241797738" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_knight_4_chi" List.ItemID="-74984295" />
+					<instance_reference name="member" value="sbps\races\abbasid\unit_horseman_2_abb" List.ItemID="-236937877" />
+					<instance_reference name="member" value="sbps\races\abbasid\unit_horseman_3_abb" List.ItemID="1387088510" />
+					<instance_reference name="member" value="sbps\races\abbasid\unit_horseman_4_abb" List.ItemID="195540117" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_horseman_2_chi" List.ItemID="2058420475" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_horseman_3_chi" List.ItemID="-257125544" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_horseman_4_chi" List.ItemID="-853977148" />
+					<instance_reference name="member" value="sbps\races\english\unit_horseman_2_eng" List.ItemID="-1557208314" />
+					<instance_reference name="member" value="sbps\races\english\unit_horseman_3_eng" List.ItemID="-1067359529" />
+					<instance_reference name="member" value="sbps\races\english\unit_horseman_4_eng" List.ItemID="1961918123" />
+					<instance_reference name="member" value="sbps\races\french\unit_horseman_2_fre" List.ItemID="652426806" />
+					<instance_reference name="member" value="sbps\races\french\unit_horseman_3_fre" List.ItemID="781853993" />
+					<instance_reference name="member" value="sbps\races\french\unit_horseman_4_fre" List.ItemID="-579350095" />
+					<instance_reference name="member" value="sbps\races\hre\unit_horseman_2_hre" List.ItemID="-1619492189" />
+					<instance_reference name="member" value="sbps\races\hre\unit_horseman_3_hre" List.ItemID="1486243981" />
+					<instance_reference name="member" value="sbps\races\hre\unit_horseman_4_hre" List.ItemID="339747331" />
+					<instance_reference name="member" value="sbps\races\rus\unit_horseman_2_rus" List.ItemID="-1375732901" />
+					<instance_reference name="member" value="sbps\races\rus\unit_horseman_3_rus" List.ItemID="-1999126940" />
+					<instance_reference name="member" value="sbps\races\rus\unit_horseman_4_rus" List.ItemID="364899021" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_horseman_2_sul" List.ItemID="-769049986" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_horseman_3_sul" List.ItemID="-1492679361" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_horseman_4_sul" List.ItemID="388555489" />
+					<instance_reference name="member" value="sbps\races\english\unit_knight_3_eng" List.ItemID="35156339" />
+					<instance_reference name="member" value="sbps\races\abbasid\unit_knight_3_abb" List.ItemID="1753545795" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_knight_3_chi" List.ItemID="-1406781231" />
+					<instance_reference name="member" value="sbps\races\hre\unit_knight_3_hre" List.ItemID="-1685533399" />
+					<instance_reference name="member" value="sbps\races\rus\unit_knight_3_rus" List.ItemID="-642776928" />
+					<instance_reference name="member" value="sbps\races\rus\unit_knight_2_rus" List.ItemID="500156540" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_knight_3_sul" List.ItemID="-34869199" />
+					<instance_reference name="member" value="sbps\races\abbasid\unit_manatarms_3_abb" List.ItemID="-993986234" />
+					<instance_reference name="member" value="sbps\races\abbasid\unit_manatarms_4_abb" List.ItemID="-1820190543" />
+					<instance_reference name="member" value="sbps\races\abbasid\unit_spearman_1_abb" List.ItemID="995604010" />
+					<instance_reference name="member" value="sbps\races\abbasid\unit_spearman_2_abb" List.ItemID="1596199017" />
+					<instance_reference name="member" value="sbps\races\abbasid\unit_spearman_3_abb" List.ItemID="24005804" />
+					<instance_reference name="member" value="sbps\races\abbasid\unit_spearman_4_abb" List.ItemID="-699548329" />
+					<instance_reference name="member" value="sbps\races\malian\unit_horseman_2_mal" List.ItemID="1947142043" />
+					<instance_reference name="member" value="sbps\races\malian\unit_horseman_3_mal" List.ItemID="-357034021" />
+					<instance_reference name="member" value="sbps\races\malian\unit_horseman_4_mal" List.ItemID="-22010460" />
+					<instance_reference name="member" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="1197271730" />
+					<instance_reference name="member" value="sbps\races\malian\unit_spearman_2_mal" List.ItemID="-652809884" />
+					<instance_reference name="member" value="sbps\races\malian\unit_spearman_3_mal" List.ItemID="-515078913" />
+					<instance_reference name="member" value="sbps\races\malian\unit_spearman_4_mal" List.ItemID="-680960722" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_horseman_2_ott" List.ItemID="-2088844628" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_horseman_3_ott" List.ItemID="1641442297" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_horseman_4_ott" List.ItemID="705141019" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_knight_3_ott" List.ItemID="-378141941" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_knight_4_ott" List.ItemID="-1093792013" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_manatarms_3_ott" List.ItemID="435866603" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_manatarms_4_ott" List.ItemID="668284428" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_spearman_1_ott" List.ItemID="-305842833" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_spearman_2_ott" List.ItemID="-1586228083" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_spearman_3_ott" List.ItemID="-355509360" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_spearman_4_ott" List.ItemID="1603661510" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_spearman_3_byz" List.ItemID="1913048634" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_spearman_4_byz" List.ItemID="-1946878555" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_horseman_3_byz" List.ItemID="-1833719951" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_spearman_2_byz" List.ItemID="-323505153" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_spearman_1_byz" List.ItemID="1654830805" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_manatarms_4_byz" List.ItemID="1240369462" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_manatarms_3_byz" List.ItemID="1928043361" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_knight_4_byz" List.ItemID="-923061912" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_horseman_4_byz" List.ItemID="-1518131725" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_knight_3_byz" List.ItemID="-1837253221" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_horseman_2_byz" List.ItemID="1181457720" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_horseman_2_jpn" List.ItemID="472447722" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_horseman_3_jpn" List.ItemID="485858477" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_horseman_4_jpn" List.ItemID="-970322304" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_knight_3_jpn" List.ItemID="-513272534" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_knight_4_jpn" List.ItemID="1744408520" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_spearman_1_jpn" List.ItemID="1082075689" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_spearman_2_jpn" List.ItemID="-1615553789" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_spearman_3_jpn" List.ItemID="-1434939058" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_spearman_4_jpn" List.ItemID="-741846877" />
+					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_horseman_2_abb_ha_01" List.ItemID="80182735" />
+					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_horseman_3_abb_ha_01" List.ItemID="-1828400285" />
+					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_horseman_4_abb_ha_01" List.ItemID="-1041462164" />
+					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_manatarms_3_abb_ha_01" List.ItemID="-751010431" />
+					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_manatarms_4_abb_ha_01" List.ItemID="1202392587" />
+					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_spearman_1_abb_ha_01" List.ItemID="1558201625" />
+					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_spearman_2_abb_ha_01" List.ItemID="-255240444" />
+					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_spearman_3_abb_ha_01" List.ItemID="730673143" />
+					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_spearman_4_abb_ha_01" List.ItemID="1827283771" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_knight_3_chi_ha_01" List.ItemID="1249235725" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_knight_4_chi_ha_01" List.ItemID="-1220306483" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_manatarms_2_chi_ha_01" List.ItemID="-114636786" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_manatarms_3_chi_ha_01" List.ItemID="-1866631580" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_manatarms_4_chi_ha_01" List.ItemID="-1589379461" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_spearman_1_chi_ha_01" List.ItemID="1534146703" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_spearman_2_chi_ha_01" List.ItemID="-132939041" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_spearman_3_chi_ha_01" List.ItemID="670058675" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_spearman_4_chi_ha_01" List.ItemID="235575221" />
+					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_horseman_2_hre_ha_01" List.ItemID="1576223893" />
+					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_horseman_3_hre_ha_01" List.ItemID="2087911184" />
+					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_horseman_4_hre_ha_01" List.ItemID="1598090084" />
+					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_knight_3_hre_ha_01" List.ItemID="-2036300990" />
+					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_knight_4_hre_ha_01" List.ItemID="-497215193" />
+					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_spearman_1_hre_ha_01" List.ItemID="-885127367" />
+					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_spearman_2_hre_ha_01" List.ItemID="602678604" />
+					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_spearman_3_hre_ha_01" List.ItemID="-395062824" />
+					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_spearman_4_hre_ha_01" List.ItemID="1592799037" />
+					<instance_reference name="member" value="sbps\races\french_ha_01\unit_horseman_2_fre_ha_01" List.ItemID="1557794261" />
+					<instance_reference name="member" value="sbps\races\french_ha_01\unit_horseman_3_fre_ha_01" List.ItemID="-1807615626" />
+					<instance_reference name="member" value="sbps\races\french_ha_01\unit_horseman_4_fre_ha_01" List.ItemID="-1077420670" />
+					<instance_reference name="member" value="sbps\races\french_ha_01\unit_manatarms_3_fre_ha_01" List.ItemID="-1138501856" />
+					<instance_reference name="member" value="sbps\races\french_ha_01\unit_manatarms_4_fre_ha_01" List.ItemID="525011314" />
+					<instance_reference name="member" value="sbps\races\french_ha_01\unit_spearman_1_fre_ha_01" List.ItemID="-717103840" />
+					<instance_reference name="member" value="sbps\races\french_ha_01\unit_spearman_2_fre_ha_01" List.ItemID="1254783891" />
+					<instance_reference name="member" value="sbps\races\french_ha_01\unit_spearman_3_fre_ha_01" List.ItemID="-1252105743" />
+					<instance_reference name="member" value="sbps\races\french_ha_01\unit_spearman_4_fre_ha_01" List.ItemID="1813963891" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_horseman_2_chi_ha_01" List.ItemID="1949271446" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_horseman_3_chi_ha_01" List.ItemID="555880609" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_horseman_4_chi_ha_01" List.ItemID="1818170391" />
+					<instance_reference name="member" value="sbps\races\byzantine\mercenaries\set_05\unit_sipahi_2_byz" List.ItemID="-881746132" />
+					<instance_reference name="member" value="sbps\races\byzantine\mercenaries\set_05\unit_sipahi_3_byz" List.ItemID="-1875185276" />
+					<instance_reference name="member" value="sbps\races\byzantine\mercenaries\set_05\unit_sipahi_4_byz" List.ItemID="945349369" />
 				</list>
 				<float name="base_scale" value="600" />
 				<float name="minimum_score_to_produce" value="1" />
@@ -4176,7 +4176,7 @@
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Ottoman Imperial Council Combat Upgrades" List.ItemID="117712348">
 				<list name="members">
-					<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" List.ItemID="1246248240" />
+					<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1246248240" />
 					<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_janissary_company_ott" List.ItemID="-1020142136" />
 					<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_manned_siege_ott" List.ItemID="1442818077" />
 					<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_mehter_drums_ott" List.ItemID="1204978298" />
@@ -4609,6 +4609,7 @@
 					<instance_reference name="member" value="upgrade\races\hre\research\upgrade_maxmilian_armor_hre" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1273725249" />
 					<instance_reference name="member" value="upgrade\races\common\upgrade_warrior_code_chi" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1101740273" />
 					<instance_reference name="member" value="upgrade\races\rus\upgrade_fire_retardant_handling" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1531398301" />
+					<instance_reference name="member" value="upgrade\races\english\research\upgrade_ranged_longbow_damage_eng" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1607866416" />
 				</list>
 				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="1" />
@@ -8285,7 +8286,7 @@
 						<instance_reference name="upgrade" value="upgrade\races\malian\research\upgrade_transport_landing_parties_mal" List.ItemID="-28335926" />
 						<instance_reference name="upgrade" value="upgrade\races\malian\research\upgrade_sofa_farima_leadership_mal" List.ItemID="464935031" />
 						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\naval\upgrade_naval_reinforced_hulls_ott" List.ItemID="1029422719" />
-						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" List.ItemID="-2122120540" />
+						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2122120540" />
 						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_ranged_janissary_guns_ott" List.ItemID="-1439332501" />
 						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_janissary_company_ott" List.ItemID="-632881942" />
 						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_manned_siege_ott" List.ItemID="-2085754990" />
@@ -8317,7 +8318,7 @@
 						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_janissary_company_ott" List.ItemID="444945955" />
 						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_military_campus_ott" List.ItemID="-321710458" />
 						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_military_training_ott" List.ItemID="578948191" />
-						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" List.ItemID="-1575178535" />
+						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1575178535" />
 						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_ranged_janissary_guns_ott" List.ItemID="1676555163" />
 						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_monk_formation_ott" List.ItemID="-949571177" />
 						<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_manned_siege_ott" List.ItemID="-1694299303" />
@@ -9775,8 +9776,8 @@
 						<instance_reference name="member" value="sbps\races\ottoman\unit_horseman_2_ott" List.ItemID="-1225248151" />
 						<instance_reference name="member" value="sbps\races\ottoman\unit_horseman_3_ott" List.ItemID="-769287110" />
 						<instance_reference name="member" value="sbps\races\ottoman\unit_horseman_4_ott" List.ItemID="1038914594" />
-						<instance_reference name="member" value="sbps\races\ottoman\unit_knight_3_ott" List.ItemID="-2080032068" />
-						<instance_reference name="member" value="sbps\races\ottoman\unit_knight_4_ott" List.ItemID="-1038163945" />
+						<instance_reference name="member" value="sbps\races\ottoman\unit_knight_3_ott" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2080032068" />
+						<instance_reference name="member" value="sbps\races\ottoman\unit_knight_4_ott" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1038163945" />
 						<instance_reference name="member" value="sbps\races\ottoman\unit_manatarms_3_ott" List.ItemID="-896686127" />
 						<instance_reference name="member" value="sbps\races\ottoman\unit_manatarms_4_ott" List.ItemID="-1764782017" />
 						<instance_reference name="member" value="sbps\races\ottoman\unit_spearman_1_ott" List.ItemID="-284898615" />
@@ -12109,7 +12110,7 @@
 				</template_reference>
 				<template_reference name="production_group" value="ai\economy\production_group" comment="Ottoman Imperial Council Combat Upgrades" List.ItemID="-1742055003">
 					<list name="members">
-						<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" List.ItemID="1016293293" />
+						<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1016293293" />
 						<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_janissary_company_ott" List.ItemID="726806844" />
 						<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_manned_siege_ott" List.ItemID="-1574549114" />
 						<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_mehter_drums_ott" List.ItemID="1196527588" />

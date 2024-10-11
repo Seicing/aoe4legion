@@ -83,7 +83,7 @@
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-2049432204" List.ParentItemID="-2049432204">
 			<list name="standard_upgrades" overrideParent="True">
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_villager_health" overrideParent="True" List.ItemID="1810348351" />
-				<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" List.ItemID="1408853964" />
+				<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1408853964" />
 				<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_janissary_company_ott" List.ItemID="1748473872" />
 				<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_manned_siege_ott" List.ItemID="-1789998776" />
 				<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_imperial_mehter_drums_ott" List.ItemID="-177269" />

@@ -117,6 +117,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-2127000388">
 					<group name="ui_position">
@@ -188,6 +189,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-566158584">
 					<group name="ui_position">
@@ -215,9 +217,9 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads" overrideParent="True">
-						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_knight_3_ott" overrideParent="True" List.ItemID="1847031386" />
-						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_knight_3_ott" overrideParent="True" List.ItemID="2012801388" />
-						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_knight_3_ott" overrideParent="True" List.ItemID="-1747019581" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_knight_3_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1847031386" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_knight_3_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="2012801388" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_knight_3_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1747019581" />
 						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horseman_2_ott" overrideParent="True" List.ItemID="-2111231879" />
 						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horseman_2_ott" overrideParent="True" List.ItemID="2104468390" />
 						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horseman_2_ott" overrideParent="True" List.ItemID="-2069370083" />
@@ -259,6 +261,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="922005310">
 					<group name="ui_position">
@@ -330,6 +333,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-96048979">
 					<group name="ui_position">
@@ -395,6 +399,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 		</template_reference>

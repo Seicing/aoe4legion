@@ -23,15 +23,15 @@
 		<enum name="ui_production_group" value="command_panel" />
 		<group name="ui_position">
 			<int name="ui_position_row" value="3" />
-			<int name="ui_position_column" value="2" />
+			<int name="ui_position_column" value="1" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11156934" />
+			<locstring name="extra_text" value="704" mod="67987bbc33214c57b0617d9356614825" />
 			<locstring name="help_text" value="0" />
 			<string name="hotkey_name" value="d" />
-			<file name="icon_name" value="races\english\upgrades\longbow_mastery" />
+			<file name="icon_name" value="races\common\units\vip" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11156935" />
+			<locstring name="screen_name" value="11156940" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<string name="debug_text" value="" />
@@ -62,9 +62,9 @@
 				<template_reference name="quick_abilities_info" value="">
 				</template_reference>
 				<template_reference name="quick_commands_info" value="ui_quick_commands_info">
-					<int name="quick_commands_slot_index" value="2" />
-					<enum name="quick_commands_hotkey" value="x_quick_command_hold_y" />
-					<int name="quick_commands_priority" value="3" />
+					<int name="quick_commands_slot_index" value="3" />
+					<enum name="quick_commands_hotkey" value="x_quick_command_hold_x" />
+					<int name="quick_commands_priority" value="1" />
 				</template_reference>
 				<template_reference name="quick_formation_info" value="">
 				</template_reference>
@@ -73,17 +73,21 @@
 				<enum name="category" value="Economic" />
 				<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
 					<enum name="quick_commands_hotkey" value="x_quick_command_x" />
-					<int name="quick_commands_priority" value="86" />
+					<int name="quick_commands_priority" value="47" />
 					<int name="quick_commands_slot_index" value="3" />
 					<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
 				</template_reference>
 				<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
-					<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\default" />
-					<int name="nominal_index" value="14" />
+					<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+					<int name="nominal_index" value="15" />
 					<int name="priority" value="0" />
 					<instance_reference name="linked" value="" />
 				</template_reference>
 				<enum name="observer_type" value="Disabled" />
+				<group name="issuable_info">
+					<bool name="is_secondary" value="False" />
+					<instance_reference name="secondary_issuable" value="" />
+				</group>
 			</template_reference>
 		</group>
 		<list name="requirements">
@@ -155,7 +159,7 @@
 			<enum name="upgrade_type" value="scar_imperial_age_upgrade" List.ItemID="-1297576179" />
 		</list>
 		<string name="requirements_openingbranch" value="" />
-		<instance_reference name="ui_menu" value="" />
+		<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
 		<bool name="is_progress_permanent" value="False" />
 		<group name="ui_codex_info">
 			<int name="priority" value="3500" />

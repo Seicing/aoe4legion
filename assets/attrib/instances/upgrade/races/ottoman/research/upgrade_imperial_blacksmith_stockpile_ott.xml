@@ -4,30 +4,34 @@
 		<float name="global_max_limit" value="0" />
 		<bool name="has_speech_code" value="False" />
 		<float name="local_max_limit" value="1" />
-		<enum name="owner_type" value="self" />
+		<enum name="owner_type" value="player" />
 		<group name="time_cost">
 			<enum_table name="cost">
 				<float name="action" value="0" />
-				<float name="command" value="0" />
+				<float name="command" value="1" />
 				<float name="popcap" value="0" />
 				<float name="food" value="0" />
 				<float name="wood" value="0" />
-				<float name="stone" value="625" />
+				<float name="stone" value="0" />
 				<float name="gold" value="0" />
 				<float name="militia_hre" value="0" />
 				<float name="merc_byz" value="0" />
 			</enum_table>
-			<float name="time_seconds" value="20" />
+			<float name="time_seconds" value="0" />
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_production_group" value="command_panel" />
+		<group name="ui_position">
+			<int name="ui_position_row" value="3" />
+			<int name="ui_position_column" value="2" />
+		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11259199" />
-			<locstring name="help_text" value="0" />
-			<string name="hotkey_name" value="S" />
-			<file name="icon_name" value="races\japanese\buildings\daimyo_level_3" />
+			<locstring name="extra_text" value="11218010" />
+			<locstring name="help_text" value="756" mod="67987bbc33214c57b0617d9356614825" />
+			<string name="hotkey_name" value="s" />
+			<file name="icon_name" value="races\ottoman\upgrades\advanced_academy" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11252365" />
+			<locstring name="screen_name" value="11218009" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<string name="debug_text" value="" />
@@ -37,14 +41,7 @@
 			</template_reference>
 			<template_reference name="extra_text_formatter" value="">
 			</template_reference>
-			<template_reference name="help_text_formatter" value="ui_text_formatter">
-				<list name="formatter_arguments">
-					<int name="int_value" value="3" List.ItemID="1940310809" />
-					<int name="int_value" value="3000" List.ItemID="-375882017" />
-					<int name="int_value" value="3" List.ItemID="1243663930" />
-					<int name="int_value" value="75" List.ItemID="513995995" />
-				</list>
-				<locstring name="formatter" value="11252454" />
+			<template_reference name="help_text_formatter" value="">
 			</template_reference>
 			<template_reference name="screen_name_formatter" value="">
 			</template_reference>
@@ -54,19 +51,11 @@
 			<string name="sound_alternative" value="" />
 			<int name="global_unit_control_row" value="1" />
 			<template_reference name="ui_info_extended" value="tables\ui_info_ext">
-				<template_reference name="command_card_info" value="ui_command_card_info">
-					<group name="ui_position">
-						<int name="ui_position_row" value="3" />
-						<int name="ui_position_column" value="1" />
-					</group>
-					<int name="command_card_priority" value="1" />
+				<template_reference name="command_card_info" value="">
 				</template_reference>
 				<template_reference name="quick_abilities_info" value="">
 				</template_reference>
-				<template_reference name="quick_commands_info" value="ui_quick_commands_info">
-					<int name="quick_commands_slot_index" value="2" />
-					<enum name="quick_commands_hotkey" value="x_quick_command_hold_y" />
-					<int name="quick_commands_priority" value="5" />
+				<template_reference name="quick_commands_info" value="">
 				</template_reference>
 				<template_reference name="quick_formation_info" value="">
 				</template_reference>
@@ -80,8 +69,8 @@
 					<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
 				</template_reference>
 				<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
-					<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\default" />
-					<int name="nominal_index" value="10" />
+					<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\ottoman_vizier_council" />
+					<int name="nominal_index" value="9" />
 					<int name="priority" value="0" />
 					<instance_reference name="linked" value="" />
 				</template_reference>
@@ -95,29 +84,78 @@
 			<locstring name="extra_text_controller" value="0" />
 		</group>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_entity_upgrade" List.ItemID="-1933059783">
-				<enum name="reason" value="usage_and_display" />
+			<template_reference name="required" value="requirements\required_player_resources" List.ItemID="1699118569">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="11219145" />
+				<enum_table name="resource">
+					<float name="action" value="0" />
+					<float name="command" value="1" />
+					<float name="popcap" value="0" />
+					<float name="food" value="0" />
+					<float name="wood" value="0" />
+					<float name="stone" value="0" />
+					<float name="gold" value="0" />
+					<float name="militia_hre" value="0" />
+					<float name="merc_byz" value="0" />
+				</enum_table>
+			</template_reference>
+			<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-1733565457">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="11222092" />
+				<list name="requirements">
+					<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="1681646326">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<int name="max_completed" value="100" />
+						<int name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\races\ottoman\research\upgrade_imperial_military_campus_ott" />
+						<bool name="include_completed" value="True" />
+						<bool name="include_queued" value="False" />
+						<group name="include_pbg_parenting">
+							<bool name="include_child_pbgs" value="False" />
+							<bool name="include_parent_pbgs" value="False" />
+						</group>
+					</template_reference>
+					<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-246487037">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<int name="max_completed" value="100" />
+						<int name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\races\ottoman\research\upgrade_imperial_manned_siege_ott" />
+						<bool name="include_completed" value="True" />
+						<bool name="include_queued" value="False" />
+						<group name="include_pbg_parenting">
+							<bool name="include_child_pbgs" value="False" />
+							<bool name="include_parent_pbgs" value="False" />
+						</group>
+					</template_reference>
+					<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="1210353999">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<int name="max_completed" value="100" />
+						<int name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\races\ottoman\research\upgrade_imperial_trader_capacity_ott" />
+						<bool name="include_completed" value="True" />
+						<bool name="include_queued" value="False" />
+						<group name="include_pbg_parenting">
+							<bool name="include_child_pbgs" value="False" />
+							<bool name="include_parent_pbgs" value="False" />
+						</group>
+					</template_reference>
+				</list>
+			</template_reference>
+			<template_reference name="required" value="requirements\required_player_upgrade" comment="Must not already have this upgrade" List.ItemID="2115367665">
+				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="False" />
-				<instance_reference name="upgrade_name" value="upgrade\races\japanese\buildings\upgrade_capital_tier_3_jpn" mod="67987bbc33214c57b0617d9356614825" />
+				<int name="max_completed" value="100" />
+				<int name="min_completed" value="1" />
+				<instance_reference name="upgrade_name" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" mod="67987bbc33214c57b0617d9356614825" />
 				<bool name="include_completed" value="True" />
 				<bool name="include_queued" value="False" />
-				<int name="min_completed" value="1" />
-				<int name="max_completed" value="100" />
-				<group name="include_pbg_parenting">
-					<bool name="include_child_pbgs" value="False" />
-					<bool name="include_parent_pbgs" value="False" />
-				</group>
-			</template_reference>
-			<template_reference name="required" value="requirements\required_entity_upgrade" List.ItemID="323942170">
-				<enum name="reason" value="usage_and_display" />
-				<locstring name="ui_name" value="0" />
-				<bool name="is_present" value="True" />
-				<instance_reference name="upgrade_name" value="upgrade\races\japanese\buildings\upgrade_capital_tier_2_jpn" mod="67987bbc33214c57b0617d9356614825" />
-				<bool name="include_completed" value="True" />
-				<bool name="include_queued" value="False" />
-				<int name="min_completed" value="1" />
-				<int name="max_completed" value="100" />
 				<group name="include_pbg_parenting">
 					<bool name="include_child_pbgs" value="False" />
 					<bool name="include_parent_pbgs" value="False" />
@@ -132,10 +170,6 @@
 		</list>
 		<string name="speech_code" value="" />
 		<file name="ui_squad_portrait_icon_override" value="" />
-		<group name="ui_position">
-			<int name="ui_position_row" value="2" />
-			<int name="ui_position_column" value="2" />
-		</group>
 		<float name="min_music_intensity" value="0" />
 		<group name="state_tree_references">
 			<template_reference name="on_begin_action_tree" value="state_tree_reference_info">
@@ -143,7 +177,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_town_center_jpn\tier_3" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_cancel_action_tree" value="state_tree_reference_info">
@@ -160,13 +194,16 @@
 			</template_reference>
 		</group>
 		<list name="upgrade_type">
-			<enum name="upgrade_type" value="japanese_upgrade" List.ItemID="-1855346441" />
+			<enum name="upgrade_type" value="military_upgrade" List.ItemID="-1550406851" List.ParentItemID="-2072600964" />
+			<enum name="upgrade_type" value="ottoman_upgrade" List.ItemID="-940422373" List.ParentItemID="1755529287" />
+			<enum name="upgrade_type" value="scar_military_upgrade" List.ItemID="-1339999988" List.ParentItemID="-1452115699" />
+			<enum name="upgrade_type" value="scar_nontiered_upgrade" List.ItemID="-1974403273" List.ParentItemID="1158533" />
 		</list>
 		<string name="requirements_openingbranch" value="" />
-		<instance_reference name="ui_menu" value="" />
+		<instance_reference name="ui_menu" value="menu\player_bonus_stack_menu" />
 		<bool name="is_progress_permanent" value="False" />
 		<group name="ui_codex_info">
-			<int name="priority" value="0" />
+			<int name="priority" value="4400" />
 			<bool name="exclusive" value="False" />
 			<group name="ui_position">
 				<int name="ui_position_column" value="-1" />
@@ -203,9 +240,9 @@
 		<list name="int_properties">
 		</list>
 		<enum name="ui_group_cast_type" value="single" />
-		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_town_center\tech_daimyo_manor_jpn" />
+		<instance_reference name="hotkey_binding" value="" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="2122006" />
+	<uniqueid name="pbgid" value="2059830" />
 	<instance_reference name="parent_pbg" value="" />
 </instance>

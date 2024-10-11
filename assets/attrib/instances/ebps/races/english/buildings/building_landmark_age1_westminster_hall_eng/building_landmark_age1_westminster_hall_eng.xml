@@ -240,8 +240,6 @@
 				<instance_reference name="upgrade" value="upgrade\races\english\units\upgrade_unit_archer_4_eng" List.ItemID="-1078688416" />
 				<instance_reference name="upgrade" value="upgrade\races\english\research\upgrade_ranged_longbow_arrow_volley_eng" List.ItemID="583744618" />
 				<instance_reference name="upgrade" value="upgrade\races\common\units\upgrade_unit_crossbowman_4" List.ItemID="1043155067" />
-				<instance_reference name="upgrade" value="upgrade\races\english\research\upgrade_ranged_longbow_armor_pen_eng" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-975097475" />
-				<instance_reference name="upgrade" value="upgrade\races\english\research\upgrade_ranged_longbow_damage_eng" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1276861718" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="1440054338" List.ParentItemID="1440054338">
@@ -361,6 +359,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="archer - castle age " List.ItemID="-1372289220">
 					<instance_reference name="entity" value="" />
@@ -424,6 +423,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="archer - imperial age " List.ItemID="1160896842">
 					<instance_reference name="entity" value="" />
@@ -487,6 +487,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="crossbowman - castle age" List.ItemID="-921619350">
 					<instance_reference name="entity" value="" />
@@ -550,6 +551,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="crossbowman - imperial age" List.ItemID="-765909055">
 					<instance_reference name="entity" value="" />
@@ -613,6 +615,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="handcannon - imperial age + chemistry" List.ItemID="-2022056382">
 					<instance_reference name="entity" value="" />
@@ -673,6 +676,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="horsearcher" List.ItemID="-1777740650">
 					<instance_reference name="entity" value="" />
@@ -736,6 +740,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
