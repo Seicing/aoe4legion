@@ -103,6 +103,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-2099988058">
 					<group name="ui_position">
@@ -175,6 +176,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-339465109">
 					<group name="ui_position">
@@ -202,12 +204,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads" overrideParent="True">
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_keshik_rus" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1889941321" />
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_keshik_rus" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-606239616" />
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_keshik_rus" mod="67987bbc33214c57b0617d9356614825" List.ItemID="211877138" />
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_mangudai_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-776511027" />
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_mangudai_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-540679146" />
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_mangudai_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1757415923" />
+						<instance_reference name="additional_squad" value="sbps\races\rus\unit_keshik_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1889941321" />
+						<instance_reference name="additional_squad" value="sbps\races\rus\unit_keshik_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-606239616" />
+						<instance_reference name="additional_squad" value="sbps\races\rus\unit_keshik_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="211877138" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_4_mon" overrideParent="True" List.ItemID="-776511027" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_4_mon" overrideParent="True" List.ItemID="-540679146" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_4_mon" overrideParent="True" List.ItemID="-1757415923" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -246,11 +248,12 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="2011663741">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\rus\unit_shogun_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -311,6 +314,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1506125752">
 					<group name="ui_position">
@@ -382,6 +386,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 		</template_reference>

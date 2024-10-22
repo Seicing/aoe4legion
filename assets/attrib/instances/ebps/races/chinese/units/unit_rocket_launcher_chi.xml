@@ -22,7 +22,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="746293570" List.ParentItemID="746293570">
 			<bool name="regeneration_disabled" value="False" overrideParent="True" />
-			<float name="hitpoints" value="95" overrideParent="True" />
+			<float name="hitpoints" value="105" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
 				<float name="Ranged" value="4" overrideParent="True" />
 			</enum_table>
@@ -52,6 +52,11 @@
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\chinese\ranged\weapon_nest_of_bees_4_chi2" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\chinese\weapons\wpn_range_handcannon_4_chi" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
+							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="-338263014" List.ParentItemID="-338263014">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\chinese\ranged\weapon_nest_of_bees_4_chi2" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 							</template_reference>
 						</group>
 					</list>

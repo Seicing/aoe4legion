@@ -23,7 +23,7 @@
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="118682988" List.ParentItemID="118682988">
-			<float name="hitpoints" value="210" overrideParent="True" />
+			<float name="hitpoints" value="220" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
 				<float name="Melee" value="0" overrideParent="True" />
 				<float name="Ranged" value="0" overrideParent="True" />

@@ -33,11 +33,11 @@
 				<group name="race_data" List.ItemID="611133893">
 					<group name="info">
 						<locstring name="extra_text" value="11143461" />
-						<locstring name="help_text" value="369" mod="67987bbc33214c57b0617d9356614825" />
-						<locstring name="screen_name" value="199" mod="67987bbc33214c57b0617d9356614825" />
-						<string name="selection_datatemplate" value="MilitaryUnitSelectionDataTemplate" />
+						<locstring name="help_text" value="11265926" />
+						<locstring name="screen_name" value="11265904" />
+						<string name="selection_datatemplate" value="UniqueDatatemplate" />
 						<bool name="is_unique_to_race" value="True" />
-						<file name="icon_name" value="turks_horse_archer" />
+						<file name="icon_name" value="races\common\units\horsearcher_4" />
 						<bool name="allow_spawner_production" value="False" />
 						<string name="hotkey_name" value="A" />
 						<bool name="minimap_team_only" value="False" />
@@ -125,20 +125,6 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1616214074">
 			<list name="requirement_table">
-				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1229126538">
-					<enum name="reason" value="usage" />
-					<locstring name="ui_name" value="0" />
-					<bool name="is_present" value="True" />
-					<int name="max_completed" value="100" />
-					<int name="min_completed" value="1" />
-					<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
-					<bool name="include_queued" value="False" />
-					<group name="include_pbg_parenting">
-						<bool name="include_child_pbgs" value="False" />
-						<bool name="include_parent_pbgs" value="False" />
-					</group>
-					<bool name="include_completed" value="True" />
-				</template_reference>
 			</list>
 			<state_tree_node name="requirement_statetree" value="" />
 		</template_reference>
@@ -208,8 +194,8 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-1458794682">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="-1134790759" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="-2032199951" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="1668937990" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="-2032199951" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="1668937990" />
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="-248634840" />
 			</list>
 			<int name="ui_combine_priority" value="0" />
@@ -298,7 +284,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-907652882">
-			<string name="squad_speaker_code" value="horseman" />
+			<string name="squad_speaker_code" value="archer" />
 			<list name="age_mapping">
 				<int name="age_number" value="1" List.ItemID="637865221" />
 				<int name="age_number" value="2" List.ItemID="-1140227801" />
@@ -306,16 +292,16 @@
 				<int name="age_number" value="4" List.ItemID="2053923649" />
 			</list>
 			<group name="squad_speech_parameters">
-				<string name="squad_class_code" value="military" />
-				<string name="squad_name_code" value="horseman" />
+				<string name="squad_class_code" value="military_ranged" />
+				<string name="squad_name_code" value="horse_archer" />
 				<string name="squad_unit_code" value="mounted" />
-				<enum name="squad_race_code" value="no_race" />
+				<enum name="squad_race_code" value="ottoman" />
 			</group>
 			<int name="importance" value="9" />
 			<bool name="is_idle_battle_chatter_enabled" value="False" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="-1291421482">
-			<enum name="unit_type" value="cavalry_heavy" />
+			<enum name="unit_type" value="cavalry_light" />
 			<int name="music_importance" value="5" />
 			<list name="rtpc_events">
 			</list>
@@ -335,7 +321,7 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-813358447">
 			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" />
-			<float name="desired_protection_level_in_formation" value="6" />
+			<float name="desired_protection_level_in_formation" value="4.75" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073742075" />

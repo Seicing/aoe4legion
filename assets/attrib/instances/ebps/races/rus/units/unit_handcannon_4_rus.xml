@@ -47,7 +47,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1968019310" List.ParentItemID="1968019310">
-			<list name="hardpoints">
+			<list name="hardpoints" overrideParent="True">
 				<group name="hardpoint" List.ItemID="-878898247" List.ParentItemID="-878898247">
 					<list name="weapon_table">
 						<group name="weapon" List.ItemID="-464053615" List.ParentItemID="-464053615">
@@ -58,8 +58,6 @@
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_range_handcannon_4_rus" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
-						</group>
-						<group name="weapon" List.ItemID="-939024165" List.ListAction="Append">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -68,10 +66,17 @@
 							<float name="length" value="0" />
 							<group name="origin">
 								<float name="x" value="0" />
-								<float name="y" value="0.5" />
-								<float name="z" value="0" />
+								<float name="y" value="1.75" />
+								<float name="z" value="1" />
 							</group>
 							<enum name="type" value="default" />
+						</group>
+						<group name="weapon" List.ItemID="-338263014" List.ParentItemID="-338263014">
+							<group name="origin">
+								<float name="y" value="0.5" overrideParent="True" />
+								<float name="z" value="0" overrideParent="True" />
+								<float name="x" value="0" />
+							</group>
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
@@ -79,8 +84,45 @@
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_melee_handcannon_4_melee_rus" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<enum name="type" value="default" />
+						</group>
+						<group name="weapon" List.ItemID="-213719977" List.ListAction="Append">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\rus\ranged\weapon_handcannon_4_leadshot_rus" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_range_handcannon_4_rus" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
+							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="1.75" />
+								<float name="z" value="1" />
+							</group>
+							<enum name="type" value="default" />
 						</group>
 					</list>
+					<float name="parent_hardpoint" value="-1" />
+					<bool name="receives_attack_commands" value="True" />
+					<string name="base_marker" value="" />
+					<list name="preferred_inventory_item_categories">
+					</list>
+					<list name="firing_offset_markers">
+					</list>
+					<string name="offhand_marker" value="" />
+					<bool name="initialize_weapons_on_creation" value="True" />
 				</group>
 			</list>
 		</template_reference>

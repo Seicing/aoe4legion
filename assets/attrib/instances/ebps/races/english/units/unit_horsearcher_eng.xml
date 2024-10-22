@@ -24,7 +24,7 @@
 			<float name="hitpoints" value="155" overrideParent="True" />
 			<bool name="regeneration_disabled" value="True" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
-				<float name="Melee" value="3" overrideParent="True" />
+				<float name="Melee" value="0" overrideParent="True" />
 				<float name="Ranged" value="3" overrideParent="True" />
 			</enum_table>
 		</template_reference>
@@ -74,17 +74,8 @@
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="698418421" List.ParentItemID="698418421">
 			<list name="hardpoints">
 				<group name="hardpoint" List.ItemID="627415271" List.ParentItemID="627415271">
-					<list name="weapon_table" removedIds="1502713306">
+					<list name="weapon_table" removedIds="1502713306, -1392982238">
 						<group name="weapon" List.ItemID="156392194" List.ParentItemID="156392194">
-							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
-							</template_reference>
-							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\rus\ranged\weapon_horsearcher_incendiary_4_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_range_horsearcher_4_rus" overrideParent="True" />
-								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" overrideParent="True" />
-							</template_reference>
-						</group>
-						<group name="weapon" List.ItemID="-1392982238" List.ParentItemID="-1392982238">
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">

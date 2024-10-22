@@ -2429,8 +2429,8 @@
 				</group>
 				<group name="spawn_item" List.ItemID="217477598">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" />
-						<int name="ui_position_column" value="3" />
+						<int name="ui_position_row" value="3" />
+						<int name="ui_position_column" value="2" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\mongol\unit_shogun_mon" mod="67987bbc33214c57b0617d9356614825" />
@@ -2495,8 +2495,8 @@
 				</group>
 				<group name="spawn_item" List.ItemID="1609473298">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" />
-						<int name="ui_position_column" value="2" />
+						<int name="ui_position_row" value="3" />
+						<int name="ui_position_column" value="3" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\mongol\unit_huihuipao_mon" mod="67987bbc33214c57b0617d9356614825" />

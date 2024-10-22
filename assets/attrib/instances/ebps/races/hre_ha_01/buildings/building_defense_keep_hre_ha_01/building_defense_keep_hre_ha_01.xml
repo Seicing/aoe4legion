@@ -79,7 +79,7 @@
 				<group name="spawn_item" List.ItemID="1829923395">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_column" value="4" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_hre_hospitalier" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -146,6 +146,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1846270301">
 					<group name="ui_position">
@@ -216,11 +217,12 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-2010966223">
 					<group name="ui_position">
 						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="4" overrideParent="True" />
+						<int name="ui_position_column" value="1" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_otd_hungariansblackarmy" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -287,11 +289,12 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="651696810">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
-						<int name="ui_position_column" value="4" overrideParent="True" />
+						<int name="ui_position_column" value="1" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_otd_orderofthedragon" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -362,11 +365,12 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="310920784">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="4" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\hre_ha_01\unit_hospital_shogun_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -427,10 +431,11 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1491495188">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
 						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
@@ -492,10 +497,11 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1793912111">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
 						<int name="ui_position_column" value="3" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
@@ -557,6 +563,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1735697085">
 					<group name="ui_position">
@@ -627,6 +634,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 		</template_reference>

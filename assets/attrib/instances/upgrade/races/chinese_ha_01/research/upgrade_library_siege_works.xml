@@ -7,7 +7,7 @@
 		<enum name="owner_type" value="player" />
 		<group name="time_cost">
 			<enum_table name="cost">
-				<float name="action" value="0.35" />
+				<float name="action" value="0.5" />
 				<float name="command" value="0" />
 				<float name="popcap" value="0" />
 				<float name="food" value="0" />
@@ -84,6 +84,10 @@
 					<instance_reference name="linked" value="" />
 				</template_reference>
 				<enum name="observer_type" value="Disabled" />
+				<group name="issuable_info">
+					<bool name="is_secondary" value="False" />
+					<instance_reference name="secondary_issuable" value="" />
+				</group>
 			</template_reference>
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />
@@ -121,7 +125,7 @@
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="620" mod="67987bbc33214c57b0617d9356614825" />
 				<enum_table name="resource">
-					<float name="action" value="0.35" />
+					<float name="action" value="0.5" />
 					<float name="command" value="0" />
 					<float name="popcap" value="0" />
 					<float name="food" value="0" />

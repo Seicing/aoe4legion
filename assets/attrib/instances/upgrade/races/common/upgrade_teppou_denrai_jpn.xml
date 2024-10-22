@@ -39,7 +39,7 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<int name="int_value" value="3" List.ItemID="1826991725" />
+					<int name="int_value" value="5" List.ItemID="1826991725" />
 				</list>
 				<locstring name="formatter" value="538" mod="67987bbc33214c57b0617d9356614825" />
 			</template_reference>
@@ -78,6 +78,10 @@
 					<instance_reference name="linked" value="" />
 				</template_reference>
 				<enum name="observer_type" value="Disabled" />
+				<group name="issuable_info">
+					<bool name="is_secondary" value="False" />
+					<instance_reference name="secondary_issuable" value="" />
+				</group>
 			</template_reference>
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />

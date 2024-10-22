@@ -640,14 +640,6 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\trigger_volume_ext" List.ItemID="-1933729156">
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="1462654335">
-			<bool name="must_be_in_supply" value="False" />
-			<float name="number_of_standard_slots" value="-1" />
-			<list name="standard_upgrades">
-			</list>
-			<int name="max_queue_size_override" value="-1" />
-			<state_tree_node name="production_item_completed_openingbranch" value="" />
-		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073742310" />
 	<instance_reference name="parent_pbg" value="" />

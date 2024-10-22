@@ -9,7 +9,7 @@
 			<instance_reference name="unit_badge" value="" />
 			<bool name="is_spawned_when_not_in_interactive_area" value="True" />
 			<bool name="is_wreck" value="False" />
-			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_manatarms_swordsman" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\units\unit_landsknecht_hre" />
 			<float name="animator_scale" value="122" />
 			<bool name="browsable_in_editor" value="True" />
 			<float name="entity_scale" value="100" />
@@ -142,10 +142,10 @@
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="178710183">
 			<list name="action_state_trees">
 				<group name="container" List.ItemID="279354693">
-					<string name="state_tree" value="unit_action_apply\units\manatarms" />
+					<string name="state_tree" value="unit_action_apply\units\melee_infantry_other" />
 				</group>
 				<group name="container" List.ItemID="-1589771908">
-					<string name="state_tree" value="unit_action_apply\units\knight\audio\hre\4" />
+					<string name="state_tree" value="unit_action_apply\units\melee_infantry_other\audio\landsknecht\4" />
 				</group>
 				<group name="container" List.ItemID="-1114040430">
 					<string name="state_tree" value="king_action_apply" />
@@ -240,19 +240,17 @@
 			<bool name="intersection_testing" value="False" />
 			<list name="unit_type_list">
 				<enum name="unit_type" value="military" List.ItemID="-1187684234" />
-				<enum name="unit_type" value="manatarms" List.ItemID="1228127468" />
 				<enum name="unit_type" value="armored" List.ItemID="-872762405" />
 				<enum name="unit_type" value="infantry" List.ItemID="-1158488193" />
 				<enum name="unit_type" value="human" List.ItemID="-1336440883" />
 				<enum name="unit_type" value="melee" List.ItemID="1807026259" />
 				<enum name="unit_type" value="formational" List.ItemID="396629678" />
-				<enum name="unit_type" value="heavy" List.ItemID="-1905229091" />
 				<enum name="unit_type" value="included_by_military_hotkeys" List.ItemID="-922982236" />
-				<enum name="unit_type" value="land_military" List.ItemID="-590816473" List.ParentItemID="311375191" />
 				<enum name="unit_type" value="annihilation_condition" List.ItemID="-935085698" />
-				<enum name="unit_type" value="find_non_siege_land_military" List.ItemID="970100438" />
 				<enum name="unit_type" value="melee_infantry" List.ItemID="-1139382844" />
 				<enum name="unit_type" value="torch_thrower" List.ItemID="-279812645" />
+				<enum name="unit_type" value="landsknecht" List.ItemID="-2080054315" />
+				<enum name="unit_type" value="light_melee_infantry" List.ItemID="751522085" />
 			</list>
 			<list name="race_type_list">
 				<instance_reference name="race_type" value="racebps\hre" List.ItemID="-1852872192" />
@@ -332,7 +330,7 @@
 			<string name="selection_datatemplate" value="" />
 			<bool name="use_construction_range_on_selection" value="False" />
 			<bool name="use_combat_range_on_selection" value="True" />
-			<bool name="is_armoured" value="True" />
+			<bool name="is_armoured" value="False" />
 			<string name="decorator_data_template" value="" />
 			<enum name="ui_combine_type" value="intersection" />
 			<bool name="spotted_on_spawn" value="False" />
@@ -433,11 +431,11 @@
 			</template_reference>
 			<bool name="motion_tree_strafing_anim" value="False" />
 			<enum_table name="speed_levels">
-				<float name="speed_level_0" value="1" />
-				<float name="speed_level_1" value="2.5" />
-				<float name="speed_level_2" value="4" />
-				<float name="speed_level_3" value="5" />
-				<float name="speed_level_4" value="5" />
+				<float name="speed_level_0" value="1.5" />
+				<float name="speed_level_1" value="3" />
+				<float name="speed_level_2" value="5" />
+				<float name="speed_level_3" value="5.4" />
+				<float name="speed_level_4" value="5.4" />
 			</enum_table>
 			<float name="melee_move_tolerance" value="0" />
 			<instance_reference name="navigation_agent_info" value="navigation\agent_info\default_infantry" />
@@ -445,7 +443,7 @@
 			<instance_reference name="pass_type_destination" value="" />
 			<enum_table name="speed_scaling_table">
 				<float name="min_speed" value="0" />
-				<float name="default_speed" value="4.5" />
+				<float name="default_speed" value="5" />
 				<float name="max_speed" value="8" />
 			</enum_table>
 			<enum name="snap_to_surface_type" value="GroundOrWalkable" />
@@ -456,7 +454,7 @@
 			<bool name="uses_posture_speed" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="659222702">
-			<string name="speaker_code" value="manatarms" />
+			<string name="speaker_code" value="landsknecht" />
 			<group name="speech_parameters">
 				<string name="class_code" value="" />
 				<string name="name_code" value="" />
@@ -482,7 +480,7 @@
 			<bool name="start_suspended" value="False" />
 			<enum name="entity_statetree_sort_tag" value="Default" />
 			<float name="speed_scale_threshold" value="100" />
-			<string name="default_animation" value="navigation\idle_calm_basic_02" />
+			<string name="default_animation" value="navigation\idle_tense_02" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\entity_targeting_ext" List.ItemID="1570900469">
 			<bool name="allow_weapon_target_scanning" value="False" />
@@ -574,12 +572,12 @@
 							<template_reference name="weapon_entity_attachment" value="">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_axe_shogun" mod="67987bbc33214c57b0617d9356614825" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_axe_shogun_hre" mod="67987bbc33214c57b0617d9356614825" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_melee_landsknecht_hre" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
 						</group>
-						<group name="weapon" comment="One Handed Mace" List.ItemID="382442270">
+						<group name="weapon" List.ItemID="382442270">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -589,81 +587,18 @@
 							<group name="origin">
 								<float name="x" value="0" />
 								<float name="y" value="0.5" />
-								<float name="z" value="0" />
-							</group>
-							<enum name="type" value="default" />
-							<template_reference name="weapon_entity_attachment" value="">
-							</template_reference>
-							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_axe_shogun" mod="67987bbc33214c57b0617d9356614825" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_melee_landsknecht_hre" />
-								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
-							</template_reference>
-						</group>
-						<group name="weapon" comment="Two Handed Axe" List.ItemID="-772088974">
-							<group name="heading">
-								<float name="x" value="0" />
-								<float name="y" value="0" />
-								<float name="z" value="1" />
-							</group>
-							<float name="length" value="0" />
-							<group name="origin">
-								<float name="x" value="0" />
-								<float name="y" value="0.5" />
-								<float name="z" value="0" />
-							</group>
-							<enum name="type" value="default" />
-							<template_reference name="weapon_entity_attachment" value="">
-							</template_reference>
-							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_axe_shogun" mod="67987bbc33214c57b0617d9356614825" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_melee_landsknecht_hre" />
-								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
-							</template_reference>
-						</group>
-						<group name="weapon" comment="Two Handed Mace" List.ItemID="249675829">
-							<group name="heading">
-								<float name="x" value="0" />
-								<float name="y" value="0" />
-								<float name="z" value="1" />
-							</group>
-							<float name="length" value="0" />
-							<group name="origin">
-								<float name="x" value="0" />
-								<float name="y" value="0.5" />
-								<float name="z" value="0" />
-							</group>
-							<enum name="type" value="default" />
-							<template_reference name="weapon_entity_attachment" value="">
-							</template_reference>
-							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_axe_shogun" mod="67987bbc33214c57b0617d9356614825" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_melee_landsknecht_hre" />
-								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
-							</template_reference>
-						</group>
-						<group name="weapon" List.ItemID="2080680729">
-							<group name="heading">
-								<float name="x" value="0" />
-								<float name="y" value="0" />
-								<float name="z" value="1" />
-							</group>
-							<float name="length" value="0" />
-							<group name="origin">
-								<float name="x" value="0" />
-								<float name="y" value="0.5" />
-								<float name="z" value="0" />
+								<float name="z" value="-0.5" />
 							</group>
 							<enum name="type" value="default" />
 							<template_reference name="weapon_entity_attachment" value="">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_torch" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\weapons\wpn_siege_torch" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_siege_torch_hre" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
 						</group>
-						<group name="weapon" List.ItemID="1552293517">
+						<group name="weapon" List.ItemID="-772088974">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -679,70 +614,7 @@
 							<template_reference name="weapon_entity_attachment" value="">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_charge_shogun" mod="67987bbc33214c57b0617d9356614825" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_melee_landsknecht_charge_hre" />
-								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
-							</template_reference>
-						</group>
-						<group name="weapon" comment="One Handed Mace (Charge)" List.ItemID="-625229831">
-							<group name="heading">
-								<float name="x" value="0" />
-								<float name="y" value="0" />
-								<float name="z" value="1" />
-							</group>
-							<float name="length" value="0" />
-							<group name="origin">
-								<float name="x" value="0" />
-								<float name="y" value="0.5" />
-								<float name="z" value="0" />
-							</group>
-							<enum name="type" value="default" />
-							<template_reference name="weapon_entity_attachment" value="">
-							</template_reference>
-							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_charge_shogun" mod="67987bbc33214c57b0617d9356614825" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_melee_landsknecht_charge_hre" />
-								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
-							</template_reference>
-						</group>
-						<group name="weapon" comment="Two Handed Axe (Charge)" List.ItemID="1184588892">
-							<group name="heading">
-								<float name="x" value="0" />
-								<float name="y" value="0" />
-								<float name="z" value="1" />
-							</group>
-							<float name="length" value="0" />
-							<group name="origin">
-								<float name="x" value="0" />
-								<float name="y" value="0.5" />
-								<float name="z" value="0" />
-							</group>
-							<enum name="type" value="default" />
-							<template_reference name="weapon_entity_attachment" value="">
-							</template_reference>
-							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_charge_shogun" mod="67987bbc33214c57b0617d9356614825" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_melee_landsknecht_charge_hre" />
-								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
-							</template_reference>
-						</group>
-						<group name="weapon" comment="Two Handed Mace (Charge)" List.ItemID="-527486939">
-							<group name="heading">
-								<float name="x" value="0" />
-								<float name="y" value="0" />
-								<float name="z" value="1" />
-							</group>
-							<float name="length" value="0" />
-							<group name="origin">
-								<float name="x" value="0" />
-								<float name="y" value="0.5" />
-								<float name="z" value="0" />
-							</group>
-							<enum name="type" value="default" />
-							<template_reference name="weapon_entity_attachment" value="">
-							</template_reference>
-							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_charge_shogun" mod="67987bbc33214c57b0617d9356614825" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_charge_shogun_hre" mod="67987bbc33214c57b0617d9356614825" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_melee_landsknecht_charge_hre" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
@@ -781,7 +653,7 @@
 			<int name="block_ranged_incoming_attack_sequence_length" value="1" />
 			<int name="block_projectile_incoming_attack_sequence_length" value="1" />
 			<int name="block_projectile_blocks_per_sequence" value="0" />
-			<float name="scan_interval_cached_target_invalid" value="2" />
+			<float name="scan_interval_cached_target_invalid" value="1" />
 			<float name="scan_interval_cached_target_valid" value="2" />
 			<group name="combat_scan_intervals">
 				<group name="attack_move_scan_intervals">
@@ -802,42 +674,13 @@
 				</group>
 			</group>
 			<bool name="unequip_weapons_on_death" value="True" />
-			<bool name="ui_show_most_progressed_weapon_reload" value="True" />
+			<bool name="ui_show_most_progressed_weapon_reload" value="False" />
 			<list name="target_scanning_priority_override">
 			</list>
 			<list name="block_ignore_damage_types">
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\trigger_volume_ext" List.ItemID="-1520329517">
-		</template_reference>
-		<template_reference name="exts" value="ebpextensions\spawner_ext" List.ItemID="212066996">
-			<bool name="must_be_in_supply" value="False" />
-			<float name="reinforce_radius" value="0" />
-			<list name="spawn_items">
-			</list>
-			<list name="bonus_xp_from_hold_list">
-			</list>
-			<list name="reinforce_requirements">
-			</list>
-			<bool name="spawn_to_hold_try_first" value="False" />
-			<list name="queue_requirements">
-			</list>
-			<bool name="can_rally" value="True" />
-			<template_reference name="animated_spawn_option" value="options\none">
-			</template_reference>
-			<int name="max_queue_size_override" value="-1" />
-			<string name="queue_requirements_openingbranch" value="" />
-			<string name="reinforce_requirements_openingbranch" value="" />
-			<state_tree_node name="production_item_completed_openingbranch" value="" />
-			<bool name="enforce_minimum_clearance_at_spawn_positions" value="False" />
-			<bool name="enforce_minimum_clearance_if_entities_blocking" value="True" />
-			<float name="enforce_minimum_clearance_at_spawn_positions_search_range" value="0" />
-			<instance_reference name="rally_pass_type" value="" />
-			<bool name="can_spawn_if_neutral" value="False" />
-			<bool name="reset_production_progress_at_current_pop_cap" value="False" />
-			<bool name="default_rally_points_allowed" value="True" />
-			<bool name="economic_rally_points_allowed" value="False" />
-			<bool name="always_use_economic_rally_points" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="-1350933583">
 			<list name="type_list">

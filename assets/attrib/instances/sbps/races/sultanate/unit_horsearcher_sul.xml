@@ -32,10 +32,10 @@
 			<list name="race_list">
 				<group name="race_data" List.ItemID="1591533706" List.ParentItemID="-555061488">
 					<group name="info">
-						<locstring name="screen_name" value="199" mod="67987bbc33214c57b0617d9356614825" />
-						<locstring name="help_text" value="369" mod="67987bbc33214c57b0617d9356614825" />
+						<locstring name="screen_name" value="11265904" />
+						<locstring name="help_text" value="11265926" />
 						<bool name="is_unique_to_race" value="True" />
-						<file name="icon_name" value="turks_horse_archer" />
+						<file name="icon_name" value="races\common\units\horsearcher_4" />
 						<bool name="allow_spawner_production" value="False" />
 						<locstring name="extra_text" value="11143461" />
 						<string name="hotkey_name" value="A" />
@@ -57,7 +57,7 @@
 						<bool name="hide_ucs" value="False" />
 						<enum name="decorator_visibility" value="visible" />
 						<string name="debug_text" value="" />
-						<string name="selection_datatemplate" value="MilitaryUnitSelectionDataTemplate" />
+						<string name="selection_datatemplate" value="UniqueDatatemplate" />
 						<string name="tooltip_data_template" value="BuildingMilitaryDataTemplate" />
 						<bool name="is_unique" value="False" />
 						<string name="decorator_data_template" value="" />
@@ -194,9 +194,9 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="1095429345">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="982902613" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="2053898597" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="-86403027" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="410415362" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="2053898597" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="-86403027" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="410415362" />
 			</list>
 			<int name="ui_combine_priority" value="0" />
 			<group name="squad_orders">
@@ -290,14 +290,14 @@
 				<int name="age_number" value="3" List.ItemID="-1012522309" />
 				<int name="age_number" value="4" List.ItemID="-2130206531" />
 			</list>
-			<string name="squad_speaker_code" value="horseman" />
+			<string name="squad_speaker_code" value="archer" />
 			<group name="squad_speech_parameters">
-				<string name="squad_class_code" value="military" />
-				<string name="squad_name_code" value="horseman" />
+				<string name="squad_class_code" value="military_ranged" />
+				<string name="squad_name_code" value="horse_archer" />
 				<string name="squad_unit_code" value="mounted" />
-				<enum name="squad_race_code" value="no_race" />
+				<enum name="squad_race_code" value="ottoman" />
 			</group>
-			<int name="importance" value="8" />
+			<int name="importance" value="9" />
 			<bool name="is_idle_battle_chatter_enabled" value="False" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="1526996840">
@@ -321,7 +321,7 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1257996388">
 			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" />
-			<float name="desired_protection_level_in_formation" value="6" />
+			<float name="desired_protection_level_in_formation" value="4.75" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073741981" />

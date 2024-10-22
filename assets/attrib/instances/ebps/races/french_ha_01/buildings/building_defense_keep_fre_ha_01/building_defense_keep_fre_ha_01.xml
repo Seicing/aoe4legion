@@ -636,8 +636,8 @@
 				</group>
 				<group name="spawn_item" List.ItemID="-1547365515">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\french_ha_01\unit_shogun_ordnance_jda" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -702,8 +702,8 @@
 				</group>
 				<group name="spawn_item" List.ItemID="892487941">
 					<group name="ui_position">
-						<int name="ui_position_row" value="3" overrideParent="True" />
-						<int name="ui_position_column" value="2" overrideParent="True" />
+						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_column" value="1" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_fre_call_cannon_royal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -769,8 +769,8 @@
 				</group>
 				<group name="spawn_item" List.ItemID="-1025630639">
 					<group name="ui_position">
-						<int name="ui_position_row" value="3" overrideParent="True" />
-						<int name="ui_position_column" value="3" overrideParent="True" />
+						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_fre_call_culve_royal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -836,8 +836,8 @@
 				</group>
 				<group name="spawn_item" List.ItemID="-203137374">
 					<group name="ui_position">
-						<int name="ui_position_row" value="3" overrideParent="True" />
-						<int name="ui_position_column" value="4" overrideParent="True" />
+						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_column" value="3" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_fre_call_requin_royal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />

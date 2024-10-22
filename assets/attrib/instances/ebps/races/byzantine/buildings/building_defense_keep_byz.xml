@@ -163,6 +163,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1522588766">
 					<group name="ui_position">
@@ -234,6 +235,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1987358945">
 					<group name="ui_position">
@@ -305,10 +307,11 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-560454994">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
 						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
@@ -370,6 +373,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-166353764">
 					<group name="ui_position">
@@ -441,10 +445,11 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1624462706">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
 						<int name="ui_position_column" value="3" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
@@ -506,6 +511,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-270398260">
 					<group name="ui_position">
@@ -577,6 +583,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 		</template_reference>

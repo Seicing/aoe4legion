@@ -124,6 +124,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1228097044">
 					<group name="ui_position">
@@ -195,6 +196,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1889534567">
 					<group name="ui_position">
@@ -266,11 +268,12 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="938712359">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\abbasid\unit_shogun_abb_age4" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -331,6 +334,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1833624787">
 					<group name="ui_position">
@@ -358,12 +362,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_horsearcher_abb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1537723982" />
-						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_horsearcher_abb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-484547382" />
-						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_horsearcher_abb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="470707203" />
-						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_horsearcher_abb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1398104792" />
-						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_horsearcher_abb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="200030007" />
-						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_horsearcher_abb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="403533561" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_4_ott" overrideParent="True" List.ItemID="1537723982" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_4_ott" overrideParent="True" List.ItemID="-484547382" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_4_ott" overrideParent="True" List.ItemID="470707203" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_4_ott" overrideParent="True" List.ItemID="-1398104792" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_4_ott" overrideParent="True" List.ItemID="200030007" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_4_ott" overrideParent="True" List.ItemID="403533561" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -402,11 +406,12 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1668281162">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="2" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="3" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\abbasid\unit_mamuluke_abb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -467,11 +472,12 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="2118549910">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\abbasid\unit_shogun_abb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -532,6 +538,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 		</template_reference>

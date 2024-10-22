@@ -2026,15 +2026,20 @@
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horseman_2_ott" overrideParent="True" List.ItemID="406738822" />
-						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="988139857" />
-						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1356135331" />
-						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1523633615" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_2_ott" overrideParent="True" List.ItemID="988139857" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_2_ott" overrideParent="True" List.ItemID="-1356135331" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_2_ott" overrideParent="True" List.ItemID="-1523633615" />
 						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horseman_2_ott" overrideParent="True" List.ItemID="-1329822824" />
 						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horseman_2_ott" overrideParent="True" List.ItemID="-523320984" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
-					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
-						<template_reference name="command_card_info" value="">
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
 						</template_reference>
 						<template_reference name="quick_abilities_info" value="">
 						</template_reference>
@@ -2051,7 +2056,11 @@
 							<int name="quick_commands_slot_index" value="-1" />
 							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
 						</template_reference>
-						<template_reference name="relic_radial_menu_info" value="">
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="1" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
 						</template_reference>
 						<enum name="observer_type" value="Disabled" />
 						<group name="issuable_info">
@@ -2096,8 +2105,13 @@
 						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_boyar_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-789600137" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
-					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
-						<template_reference name="command_card_info" value="">
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
 						</template_reference>
 						<template_reference name="quick_abilities_info" value="">
 						</template_reference>
@@ -2114,7 +2128,11 @@
 							<int name="quick_commands_slot_index" value="-1" />
 							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
 						</template_reference>
-						<template_reference name="relic_radial_menu_info" value="">
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="2" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
 						</template_reference>
 						<enum name="observer_type" value="Disabled" />
 						<group name="issuable_info">
@@ -2159,8 +2177,13 @@
 						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horseman_2_ott" overrideParent="True" List.ItemID="-2069370083" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
-					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
-						<template_reference name="command_card_info" value="">
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
 						</template_reference>
 						<template_reference name="quick_abilities_info" value="">
 						</template_reference>
@@ -2177,7 +2200,11 @@
 							<int name="quick_commands_slot_index" value="-1" />
 							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
 						</template_reference>
-						<template_reference name="relic_radial_menu_info" value="">
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="3" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
 						</template_reference>
 						<enum name="observer_type" value="Disabled" />
 						<group name="issuable_info">
@@ -2222,8 +2249,13 @@
 						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_handcannon_4_ott" overrideParent="True" List.ItemID="301396189" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
-					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
-						<template_reference name="command_card_info" value="">
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
 						</template_reference>
 						<template_reference name="quick_abilities_info" value="">
 						</template_reference>
@@ -2240,7 +2272,11 @@
 							<int name="quick_commands_slot_index" value="-1" />
 							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
 						</template_reference>
-						<template_reference name="relic_radial_menu_info" value="">
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="4" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
 						</template_reference>
 						<enum name="observer_type" value="Disabled" />
 						<group name="issuable_info">
@@ -2253,8 +2289,8 @@
 				</group>
 				<group name="spawn_item" List.ItemID="-258650102">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\ottoman\unit_shogun_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -2279,8 +2315,13 @@
 					<list name="additional_squads">
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
-					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
-						<template_reference name="command_card_info" value="">
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info" overrideParent="True">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
 						</template_reference>
 						<template_reference name="quick_abilities_info" value="">
 						</template_reference>
@@ -2297,7 +2338,11 @@
 							<int name="quick_commands_slot_index" value="-1" />
 							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
 						</template_reference>
-						<template_reference name="relic_radial_menu_info" value="">
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="5" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
 						</template_reference>
 						<enum name="observer_type" value="Disabled" />
 						<group name="issuable_info">
@@ -2332,6 +2377,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\district_generator_ext" List.ItemID="-636592659" List.ListAction="Append">
 			<float name="range_metres" value="16" overrideParent="True" />

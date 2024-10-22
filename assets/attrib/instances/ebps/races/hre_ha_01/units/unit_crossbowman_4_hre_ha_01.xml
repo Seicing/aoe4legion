@@ -39,7 +39,7 @@
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="-1381607687" List.ParentItemID="-1381607687">
 			<list name="hardpoints">
 				<group name="hardpoint" List.ItemID="751434855" List.ParentItemID="751434855">
-					<list name="weapon_table">
+					<list name="weapon_table" overrideParent="True">
 						<group name="weapon" List.ItemID="-1071856729" List.ParentItemID="-1071856729">
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
@@ -48,6 +48,18 @@
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre_ha_01\weapons\wpn_range_crossbow_4_hre_ha_01" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="0" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="1.7" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
 						</group>
 						<group name="weapon" List.ItemID="-485040964" List.ParentItemID="-485040964">
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
@@ -57,14 +69,6 @@
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre_ha_01\weapons\wpn_siege_crossbow_incendiary_hre_ha_01" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
-						</group>
-						<group name="weapon" List.ItemID="-2104346090" List.ParentItemID="-2104346090">
-							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre_ha_01\weapons\wpn_range_crossbow_4_hre_ha_01" overrideParent="True" />
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\hre_ha_01\ranged\weapon_crossbow_4_siege_damage_hre_ha_01" overrideParent="True" />
-							</template_reference>
-						</group>
-						<group name="weapon" List.ItemID="-1286166885" List.ListAction="Append">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -73,10 +77,17 @@
 							<float name="length" value="0" />
 							<group name="origin">
 								<float name="x" value="0" />
-								<float name="y" value="0.5" />
+								<float name="y" value="1.7" />
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
+						</group>
+						<group name="weapon" List.ItemID="1330975755" List.ParentItemID="1330975755">
+							<group name="origin">
+								<float name="y" value="0.5" overrideParent="True" />
+								<float name="x" value="0" />
+								<float name="z" value="0" />
+							</group>
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
@@ -84,8 +95,15 @@
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre_ha_01\weapons\wpn_range_crossbow_4_hre_ha_01" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<enum name="type" value="default" />
 						</group>
-						<group name="weapon" List.ItemID="775567142" List.ListAction="Append">
+						<group name="weapon" List.ItemID="-1651131523">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -105,6 +123,27 @@
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre_ha_01\weapons\wpn_siege_crossbow_incendiary_hre_ha_01" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="326173288">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\hre_ha_01\ranged\weapon_crossbow_incendiary_building_fire_hre_ha_01" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre_ha_01\weapons\wpn_siege_crossbow_incendiary_hre_ha_01" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
+							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="1.7" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
 						</group>
 					</list>
 				</group>

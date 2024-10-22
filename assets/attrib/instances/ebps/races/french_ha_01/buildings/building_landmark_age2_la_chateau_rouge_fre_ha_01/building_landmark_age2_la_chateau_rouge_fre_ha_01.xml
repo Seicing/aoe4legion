@@ -2081,6 +2081,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="54350964">
 					<group name="ui_position">
@@ -2141,6 +2142,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-697354687">
 					<group name="ui_position">
@@ -2201,6 +2203,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-2025369841">
 					<group name="ui_position">
@@ -2261,6 +2264,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="1900791658">
 					<group name="ui_position">
@@ -2332,6 +2336,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="1406345643">
 					<group name="ui_position">
@@ -2403,6 +2408,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-688821013">
 					<group name="ui_position">
@@ -2473,6 +2479,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-1899228767">
 					<group name="ui_position">
@@ -2544,11 +2551,12 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1465754367">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\french_ha_01\unit_shogun_ordnance_jda" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -2609,6 +2617,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<bool name="must_be_in_supply" value="False" />

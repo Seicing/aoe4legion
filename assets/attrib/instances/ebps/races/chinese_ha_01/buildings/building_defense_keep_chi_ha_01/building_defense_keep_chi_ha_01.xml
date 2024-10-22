@@ -85,7 +85,7 @@
 			<list name="spawn_items" overrideParent="True">
 				<group name="spawn_item" List.ItemID="1075283707">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
 						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
@@ -147,6 +147,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-621058452">
 					<group name="ui_position">
@@ -218,6 +219,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-463734801">
 					<group name="ui_position">
@@ -291,6 +293,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-894555357">
 					<group name="ui_position">
@@ -362,6 +365,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1842693378">
 					<group name="ui_position">
@@ -389,12 +393,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\chinese_ha_01\unit_horsearcher_chi_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1495323760" />
-						<instance_reference name="additional_squad" value="sbps\races\chinese_ha_01\unit_horsearcher_chi_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-629726809" />
-						<instance_reference name="additional_squad" value="sbps\races\chinese_ha_01\unit_horsearcher_chi_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="594810977" />
-						<instance_reference name="additional_squad" value="sbps\races\chinese_ha_01\unit_horsearcher_chi_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1540937225" />
-						<instance_reference name="additional_squad" value="sbps\races\chinese_ha_01\unit_horsearcher_chi_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1646807820" />
-						<instance_reference name="additional_squad" value="sbps\races\chinese_ha_01\unit_horsearcher_chi_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-502593552" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_4_mon" overrideParent="True" List.ItemID="1495323760" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_4_mon" overrideParent="True" List.ItemID="-629726809" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_4_mon" overrideParent="True" List.ItemID="594810977" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_4_mon" overrideParent="True" List.ItemID="-1540937225" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_4_mon" overrideParent="True" List.ItemID="1646807820" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_4_mon" overrideParent="True" List.ItemID="-502593552" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -433,13 +437,14 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="crossbowman - castle age" List.ItemID="1098459757">
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\chinese_ha_01\unit_handcannon_4_chi_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
 						<int name="ui_position_column" value="3" overrideParent="True" />
 					</group>
 					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -498,6 +503,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1164469463">
 					<group name="ui_position">
@@ -568,6 +574,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 		</template_reference>

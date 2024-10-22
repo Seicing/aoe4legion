@@ -307,7 +307,7 @@
 				</group>
 				<group name="spawn_item" List.ItemID="-1030480356">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
 						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />

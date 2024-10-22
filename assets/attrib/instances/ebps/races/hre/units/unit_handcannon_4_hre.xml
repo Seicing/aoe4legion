@@ -1,4 +1,4 @@
-<instance version="4" description="HRE Imperial Age Handcannon" template="ebps">
+<instance version="6" description="HRE Imperial Age Handcannon" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1224369009" List.ParentItemID="1224369009">
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
@@ -12,7 +12,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-78815547" List.ParentItemID="-78815547">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\hre" List.ItemID="1495212172" />
+				<instance_reference name="race_type" value="racebps\hre" List.ItemID="573913353" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1968019310" List.ParentItemID="1968019310">
@@ -28,14 +28,19 @@
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
+						<group name="weapon" List.ItemID="-338263014" List.ParentItemID="-338263014">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_range_handcannon_4_rus" overrideParent="True" />
+							</template_reference>
+						</group>
 					</list>
 				</group>
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-1761061643" List.ParentItemID="-1761061643">
 			<list name="tier_group_list">
-				<list name="tier_group" overrideParent="True" List.ItemID="1766637474">
-					<group name="tier" List.ItemID="1343005631">
+				<list name="tier_group" overrideParent="True" List.ItemID="-1964111600">
+					<group name="tier" List.ItemID="-2060599079">
 						<list name="tier_requirements">
 						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\hre\units\tier4_handcannon_hre" />
@@ -55,35 +60,15 @@
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
 					</group>
-					<group name="tier" List.ItemID="-1646925971">
-						<list name="tier_requirements">
-						</list>
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\hre\units\tier4_handcannon_hre" />
-						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
-							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
-							<bool name="start_suspended" value="False" />
-						</template_reference>
-						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\races\common\upgrade_double_salary_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="ebps\races\hre\units\unit_handcannon_5_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="sbps\races\hre\unit_handcannon_5_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<string name="tier_attachment_action" value="" />
-						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
-							<bool name="reissue_commands" value="False" />
-							<bool name="continue_state_trees" value="True" />
-							<bool name="remove_from_pending_deaths" value="False" />
-							<bool name="enable_all_extensions" value="True" />
-						</template_reference>
-						<string name="inventory_category_to_refresh_on_tier_up" value="" />
-					</group>
 				</list>
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-124460882" List.ParentItemID="-124460882">
 			<instance_reference name="schema" value="statemodel_schema\units\civilizations\hre\handcannon_hre" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="-1152872981" List.ListAction="Append">
+		<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="958567725" List.ListAction="Append">
 			<list name="type_list" overrideParent="True">
-				<group name="type" List.ItemID="-2046437403">
+				<group name="type" List.ItemID="-1573967255">
 					<enum name="interaction_type" value="inspire_hre" overrideParent="True" />
 					<int name="prefer_number" value="1" overrideParent="True" />
 					<int name="max_number" value="1" overrideParent="True" />
@@ -97,4 +82,80 @@
 	</list>
 	<uniqueid name="pbgid" value="134678" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_handcannon_4" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1353883762" List.ParentItemID="-1353883762">
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1315301387" List.ParentItemID="-1315301387">
+				<list name="action_state_trees">
+					<group name="container" List.ItemID="1512138805" List.ParentItemID="1512138805">
+						<string name="state_tree" value="campaignMod_unit_action_apply\units\handcannon\audio\hre" overrideParent="True" />
+					</group>
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="454732251" List.ParentItemID="454732251">
+				<list name="race_type_list" overrideParent="True">
+					<instance_reference name="race_type" value="racebps\hre" List.ItemID="-1492666965" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="-1109447085" List.ParentItemID="-1109447085">
+				<list name="hardpoints">
+					<group name="hardpoint" List.ItemID="27430698" List.ParentItemID="27430698">
+						<list name="weapon_table">
+							<group name="weapon" List.ItemID="1096565765" List.ParentItemID="1096565765">
+								<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+								</template_reference>
+								<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+									<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_handcannon_4" overrideParent="True" />
+									<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_range_handcannon_4_hre" overrideParent="True" />
+									<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
+								</template_reference>
+							</group>
+							<group name="weapon" List.ItemID="1346145070" List.ParentItemID="1346145070">
+								<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+								</template_reference>
+								<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+									<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_handcannon_4_melee" overrideParent="True" />
+									<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_melee_handcannon_4_melee_hre" overrideParent="True" />
+									<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
+								</template_reference>
+							</group>
+						</list>
+					</group>
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="897347378" List.ParentItemID="897347378">
+				<list name="tier_group_list">
+					<list name="tier_group" overrideParent="True" List.ItemID="-494558366">
+						<group name="tier" List.ItemID="524802274">
+							<list name="tier_requirements">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\hre\units\tier4_handcannon_hre" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="campaignMod_tier_unit_exposure_dca" overrideParent="True" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="True" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-1443471345" List.ParentItemID="-1443471345">
+				<instance_reference name="schema" value="statemodel_schema\units\civilizations\hre\handcannon_hre" overrideParent="True" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="134678" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_handcannon_4" />
+	</variant>
 </instance>

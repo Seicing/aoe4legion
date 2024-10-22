@@ -74,9 +74,9 @@
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horseman_2_ott" overrideParent="True" List.ItemID="406738822" />
-						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="988139857" />
-						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1356135331" />
-						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1523633615" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_2_ott" overrideParent="True" List.ItemID="988139857" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_2_ott" overrideParent="True" List.ItemID="-1356135331" />
+						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horsearcher_2_ott" overrideParent="True" List.ItemID="-1523633615" />
 						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horseman_2_ott" overrideParent="True" List.ItemID="-1329822824" />
 						<instance_reference name="additional_squad" value="sbps\races\ottoman\unit_horseman_2_ott" overrideParent="True" List.ItemID="-523320984" />
 					</list>
@@ -337,8 +337,8 @@
 				</group>
 				<group name="spawn_item" List.ItemID="-96048979">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\ottoman\unit_shogun_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />

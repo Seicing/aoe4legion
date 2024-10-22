@@ -48,9 +48,9 @@
 				<enum name="dynamic_radius_type" value="fixed" />
 			</template_reference>
 			<group name="damage">
-				<float name="far" value="0.5" />
+				<float name="far" value="1" />
 				<float name="near" value="1" />
-				<float name="mid" value="0.75" />
+				<float name="mid" value="1" />
 			</group>
 			<group name="damage_friendly">
 				<float name="far" value="1" />
@@ -171,8 +171,8 @@
 			<bool name="persistent_cooldownticks" value="True" />
 		</group>
 		<group name="damage">
-			<float name="max" value="4" />
-			<float name="min" value="4" />
+			<float name="max" value="5" />
+			<float name="min" value="5" />
 			<enum name="damage_type" value="True Damage" />
 			<bool name="allow_overkill" value="False" />
 			<list name="on_penetrated_state_trees">

@@ -135,6 +135,7 @@
 			<locstring name="help_text" value="750" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 			<locstring name="screen_name" value="11145292" overrideParent="True" />
 			<locstring name="extra_text" value="11185350" overrideParent="True" />
+			<bool name="use_construction_range_on_selection" value="True" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="-809819713" List.ParentItemID="-809819713">
 			<list name="type_list" overrideParent="True">
@@ -2114,6 +2115,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1878248642">
 					<group name="ui_position">
@@ -2186,6 +2188,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1558187037">
 					<group name="ui_position">
@@ -2213,12 +2216,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads" overrideParent="True">
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_keshik_rus" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1004212255" />
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_keshik_rus" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1266658671" />
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_keshik_rus" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-696518606" />
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_mangudai_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1421359090" />
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_mangudai_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="829653311" />
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_mangudai_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-173583156" />
+						<instance_reference name="additional_squad" value="sbps\races\rus\unit_keshik_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-2034868828" />
+						<instance_reference name="additional_squad" value="sbps\races\rus\unit_keshik_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1005794408" />
+						<instance_reference name="additional_squad" value="sbps\races\rus\unit_keshik_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="975770864" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_4_mon" overrideParent="True" List.ItemID="-281143752" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_4_mon" overrideParent="True" List.ItemID="1887814531" />
+						<instance_reference name="additional_squad" value="sbps\races\mongol\unit_horsearcher_4_mon" overrideParent="True" List.ItemID="3779846" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -2257,11 +2260,12 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1870087294">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\rus\unit_shogun_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -2322,6 +2326,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-12766670">
 					<group name="ui_position">
@@ -2393,16 +2398,17 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-75076620">
 					<group name="ui_position">
-						<int name="ui_position_row" value="1" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="3" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\rus\unit_ekatherina_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2458,6 +2464,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
@@ -2483,6 +2490,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="133434" />

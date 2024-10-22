@@ -179,7 +179,7 @@
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
 						<group name="construction_item" List.ItemID="446471530">
-							<instance_reference name="ebp" value="ebps\races\abbasid_ha_01\units\unit_springald_3_buildable_abb_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+							<instance_reference name="ebp" value="ebps\races\abbasid_ha_01\units\unit_springald_3_buildable_abb_ha_01" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
 								<int name="ui_position_column" value="2" overrideParent="True" />

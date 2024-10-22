@@ -48,9 +48,9 @@
 				<enum name="dynamic_radius_type" value="fixed" />
 			</template_reference>
 			<group name="damage">
-				<float name="far" value="0.5" />
+				<float name="far" value="1" />
 				<float name="near" value="1" />
-				<float name="mid" value="0.75" />
+				<float name="mid" value="1" />
 			</group>
 			<group name="damage_friendly">
 				<float name="far" value="1" />

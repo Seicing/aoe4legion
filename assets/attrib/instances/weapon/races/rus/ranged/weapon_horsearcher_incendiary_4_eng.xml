@@ -167,9 +167,9 @@
 			<bool name="persistent_cooldownticks" value="False" />
 		</group>
 		<group name="damage">
-			<float name="max" value="14" />
-			<float name="min" value="14" />
-			<enum name="damage_type" value="Ranged" />
+			<float name="max" value="1" />
+			<float name="min" value="1" />
+			<enum name="damage_type" value="True Damage" />
 			<bool name="allow_overkill" value="False" />
 			<list name="on_penetrated_state_trees">
 			</list>
@@ -355,7 +355,7 @@
 		<enum name="weapon_class" value="cdn_bow" />
 		<string name="speech_code" value="" />
 		<list name="target_type_table">
-			<group name="target_unit_type_multipliers" List.ItemID="-1033178035">
+			<group name="target_unit_type_multipliers" List.ItemID="-1018911720">
 				<enum name="unit_type" value="building" />
 				<group name="weapon_multipliers">
 					<float name="accuracy_multiplier" value="1" />
@@ -363,7 +363,7 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="40" />
+				<float name="base_damage_modifier" value="2" />
 			</group>
 		</list>
 		<enum_table name="cover_table">

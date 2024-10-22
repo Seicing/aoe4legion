@@ -48,9 +48,9 @@
 				<enum name="dynamic_radius_type" value="fixed" />
 			</template_reference>
 			<group name="damage">
-				<float name="far" value="0.5" />
+				<float name="far" value="1" />
 				<float name="near" value="1" />
-				<float name="mid" value="0.75" />
+				<float name="mid" value="1" />
 			</group>
 			<group name="damage_friendly">
 				<float name="far" value="1" />
@@ -62,7 +62,7 @@
 				<float name="near" value="0.5" />
 				<float name="mid" value="1" />
 			</group>
-			<bool name="has_friendly_fire" value="False" />
+			<bool name="has_friendly_fire" value="True" />
 			<bool name="can_harm_shooter" value="False" />
 			<group name="suppression">
 				<float name="far" value="0" />
@@ -241,7 +241,7 @@
 			</template_reference>
 		</group>
 		<group name="range">
-			<float name="max" value="32" />
+			<float name="max" value="28" />
 			<float name="min" value="12" />
 			<group name="distance">
 				<float name="near" value="-1" />
@@ -286,7 +286,7 @@
 			<float name="tilt_scatter_chance" value="0" />
 			<template_reference name="area_scatter_option" value="options\weapon\area_scatter_option">
 				<template_reference name="area_info" value="options\area_info_options\circle_area_option">
-					<float name="outer_radius" value="4" />
+					<float name="outer_radius" value="5" />
 					<float name="inner_radius" value="0" />
 					<bool name="is_two_dimensional" value="True" />
 					<enum name="dynamic_radius_type" value="fixed" />
@@ -377,14 +377,14 @@
 				<float name="base_damage_modifier" value="4" />
 			</group>
 			<group name="target_unit_type_multipliers" List.ItemID="-982233295">
-				<enum name="unit_type" value="building" />
+				<enum name="unit_type" value="ranged" />
 				<group name="weapon_multipliers">
 					<float name="accuracy_multiplier" value="1" />
 					<float name="damage_multiplier" value="1" />
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="4" />
+				<float name="base_damage_modifier" value="2" />
 			</group>
 		</list>
 		<enum_table name="cover_table">

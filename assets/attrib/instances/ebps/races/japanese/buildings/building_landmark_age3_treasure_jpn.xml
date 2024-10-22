@@ -158,6 +158,12 @@
 			</template_reference>
 			<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 			<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="True Damage" value="0" />
+				<float name="Melee" value="0" />
+				<float name="Ranged" value="0" />
+				<float name="Fire" value="0" />
+			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="778949654">
 			<bool name="browsable_in_editor" value="True" />
@@ -277,7 +283,7 @@
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1827305118">
 			<float name="decorator_height" value="10" />
 			<file name="icon_name" value="races\japanese\buildings\building_landmark_masumotocastle" />
-			<bool name="use_combat_range_on_selection" value="True" />
+			<bool name="use_combat_range_on_selection" value="False" />
 			<string name="telemetry_name" value="Japanese Landmark F" />
 			<locstring name="help_text" value="11247529" />
 			<locstring name="screen_name" value="11256702" />
@@ -328,7 +334,7 @@
 			<string name="selection_grouping_ledger_key" value="" />
 			<string name="debug_text" value="" />
 			<string name="selection_datatemplate" value="BuildingWonderDataTemplate" />
-			<bool name="use_construction_range_on_selection" value="False" />
+			<bool name="use_construction_range_on_selection" value="True" />
 			<bool name="is_armoured" value="False" />
 			<string name="decorator_data_template" value="" />
 			<enum name="ui_combine_type" value="intersection" />
@@ -2743,7 +2749,7 @@
 				</group>
 				<group name="spawn_item" List.ItemID="293311171">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" />
+						<int name="ui_position_row" value="3" />
 						<int name="ui_position_column" value="2" />
 					</group>
 					<instance_reference name="entity" value="" />
@@ -3529,6 +3535,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="2122037" />

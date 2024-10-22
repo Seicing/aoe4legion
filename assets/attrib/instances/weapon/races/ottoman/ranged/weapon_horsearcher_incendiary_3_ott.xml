@@ -1,0 +1,14 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<string name="fx_munition_name" value="common\arrow_incendiary" overrideParent="True" />
+		<string name="name" value="Archer Incendiary Siege" overrideParent="True" />
+		<group name="projectile">
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_arrow_incendiary" overrideParent="True" />
+		</group>
+		<group name="moving">
+			<bool name="can_fire_while_moving" value="True" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="9000535" />
+	<instance_reference name="parent_pbg" value="weapon\races\ottoman\ranged\weapon_horsearcher_3_ott" mod="67987bbc33214c57b0617d9356614825" />
+</instance>

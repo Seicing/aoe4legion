@@ -4217,7 +4217,7 @@
 				</group>
 				<group name="spawn_item" List.ItemID="1853009391">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_row" value="1" overrideParent="True" />
 						<int name="ui_position_column" value="1" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
@@ -4436,8 +4436,8 @@
 				</group>
 				<group name="spawn_item" List.ItemID="1945586356">
 					<group name="ui_position">
-						<int name="ui_position_row" value="1" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\english\unit_abbey_king_2" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />

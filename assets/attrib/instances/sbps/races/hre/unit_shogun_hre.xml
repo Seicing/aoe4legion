@@ -103,14 +103,6 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_modifier_ext" List.ItemID="-664331804">
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext" List.ItemID="-1414351168">
-			<float name="number_of_slots" value="-1" />
-			<list name="upgrades">
-			</list>
-			<int name="max_queue_size_override" value="-1" />
-			<list name="tech_trees">
-			</list>
-		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="1672347348">
 			<float name="heavy_weapon_setup_delay" value="999" />
 			<float name="reaction_delay_seconds" value="25" />
@@ -221,8 +213,8 @@
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="-318550465" />
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="-360269904" />
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="1947951769" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\core\military_charge" List.ItemID="2130704257" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\hre\inspired_infantry_hre" List.ItemID="-613100239" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\hre\inspired_infantry_hre" List.ItemID="2130704257" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\core\military_charge" List.ItemID="-613100239" />
 			</list>
 			<int name="ui_combine_priority" value="0" />
 			<group name="squad_orders">
@@ -300,22 +292,20 @@
 				<enum name="squad_type" value="infantry" List.ItemID="6188591" />
 				<enum name="squad_type" value="armored" List.ItemID="-1942638659" />
 				<enum name="squad_type" value="scar_age4" List.ItemID="-1498130533" />
-				<enum name="squad_type" value="scar_manatarms" List.ItemID="1922977948" />
-				<enum name="squad_type" value="scar_military" List.ItemID="1927827908" />
-				<enum name="squad_type" value="melee" List.ItemID="803010885" />
 				<enum name="squad_type" value="leader" List.ItemID="155958975" />
 				<enum name="squad_type" value="audio_abbey_crown_a_king" List.ItemID="876648614" />
-				<enum name="squad_type" value="manatarms" List.ItemID="1920996821" />
+				<enum name="squad_type" value="landsknecht" List.ItemID="-1729563520" />
+				<enum name="squad_type" value="scar_landsknecht" List.ItemID="-56010175" />
 			</list>
 			<list name="squad_race_type_list">
 				<instance_reference name="squad_race_type" value="racebps\hre" List.ItemID="1664384586" List.ParentItemID="1664384586" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-350261445">
-			<string name="squad_speaker_code" value="manatarms" />
+			<string name="squad_speaker_code" value="landsknecht" />
 			<group name="squad_speech_parameters">
 				<string name="squad_class_code" value="military" />
-				<string name="squad_name_code" value="manatarms" />
+				<string name="squad_name_code" value="landsknecht" />
 				<string name="squad_unit_code" value="non_mounted" />
 				<enum name="squad_race_code" value="no_race" />
 			</group>
@@ -338,7 +328,7 @@
 			<enum name="death_event_type" value="" />
 			<bool name="in_fow_distance_to_enemy_rtpc_enabled" value="False" />
 			<enum name="initial_spawn_event_type" value="" />
-			<enum name="unit_type" value="maa_sword" />
+			<enum name="unit_type" value="swordsman_heavy" />
 			<int name="importance" value="15" />
 			<float name="potential_damage" value="0" />
 			<int name="music_importance" value="15" />
@@ -364,7 +354,7 @@
 				<state_tree_node name="squad_state_attack_move" value="unit_squad_query\AttackMove" />
 				<state_tree_node name="squad_state_ability" value="" />
 			</enum_table>
-			<bool name="browsable_in_editor" value="False" />
+			<bool name="browsable_in_editor" value="True" />
 			<bool name="can_be_controlled" value="True" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_command_forwarding_ext" List.ItemID="-603858912">

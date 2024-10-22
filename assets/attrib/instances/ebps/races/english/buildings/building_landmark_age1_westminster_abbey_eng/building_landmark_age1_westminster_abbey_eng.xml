@@ -110,6 +110,8 @@
 			<group name="on_construction_complete_state_tree_refs">
 				<string name="while_construction_complete_entity_state_tree_ref" value="building_construction_complete\buildings\landmark_abbey_of_kings_construction_complete_eng" overrideParent="True" />
 			</group>
+			<bool name="query_abilities_for_range_ui" value="True" overrideParent="True" />
+			<instance_reference name="ui_range" value="ui_reticule\default_range" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="203393663" List.ParentItemID="203393663">
 			<list name="abilities" overrideParent="True">
@@ -234,6 +236,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1648320631">
 					<group name="ui_position">
@@ -290,6 +293,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
@@ -315,6 +319,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\resource_drop_off_ext" List.ItemID="-1738821821" List.ListAction="Append">
 			<enum_table name="accepted_resources">

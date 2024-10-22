@@ -103,14 +103,6 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_modifier_ext" List.ItemID="1358658407">
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext" List.ItemID="865716663">
-			<float name="number_of_slots" value="-1" />
-			<list name="upgrades">
-			</list>
-			<int name="max_queue_size_override" value="-1" />
-			<list name="tech_trees">
-			</list>
-		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="1850245700">
 			<float name="heavy_weapon_setup_delay" value="999" />
 			<float name="reaction_delay_seconds" value="25" />

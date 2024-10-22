@@ -46,6 +46,11 @@
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
+						<group name="weapon" List.ItemID="-338263014" List.ParentItemID="-338263014">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_sandanju" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+							</template_reference>
+						</group>
 					</list>
 				</group>
 			</list>

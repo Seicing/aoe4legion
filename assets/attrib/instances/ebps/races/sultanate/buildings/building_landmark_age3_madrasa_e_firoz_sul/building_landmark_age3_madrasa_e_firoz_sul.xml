@@ -91,6 +91,7 @@
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="555024994" List.ParentItemID="555024994">
 			<list name="unit_type_list">
 				<enum name="unit_type" value="university" List.ItemID="-586182034" List.ListAction="Append" />
+				<enum name="unit_type" value="research_building" List.ItemID="-548149964" List.ListAction="Append" />
 			</list>
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\sultanate" List.ItemID="-689776782" />
@@ -132,12 +133,14 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-1352379827" List.ParentItemID="-1352379827">
 			<list name="standard_upgrades" overrideParent="True">
-				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_siege_chemistry_sul" overrideParent="True" List.ItemID="-1216026314" />
-				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_siege_works_sul" overrideParent="True" List.ItemID="1851331918" />
-				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\economy\upgrade_tech_university_biology_sul" overrideParent="True" List.ItemID="-662162251" />
-				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\economy\upgrade_tech_university_architecture_4_sul" overrideParent="True" List.ItemID="-1803697717" />
-				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_manatarms_elite_army_tactics_sul" List.ItemID="-142450633" />
-				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_ranged_incendiary_sul" List.ItemID="951254058" />
+				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_siege_chemistry_sul" overrideParent="True" List.ItemID="-515935899" />
+				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_siege_works_sul" overrideParent="True" List.ItemID="-1114683663" />
+				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\economy\upgrade_tech_university_biology_sul" overrideParent="True" List.ItemID="1509410053" />
+				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\economy\upgrade_tech_university_architecture_4_sul" overrideParent="True" List.ItemID="1576777453" />
+				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_manatarms_elite_army_tactics_sul" List.ItemID="-85269934" />
+				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_ranged_incendiary_sul" List.ItemID="-223061785" />
+				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_ranged_leadshot_sul" List.ItemID="-1682906252" />
+				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_ranged_archer_silkstring_sul" List.ItemID="-349648483" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-823671089" List.ParentItemID="-823671089">

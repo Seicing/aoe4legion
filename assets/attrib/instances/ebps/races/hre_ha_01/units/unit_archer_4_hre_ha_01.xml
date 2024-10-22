@@ -50,6 +50,11 @@
 								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
+						<group name="weapon" List.ItemID="1951454616" List.ParentItemID="1951454616">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre_ha_01\weapons\wpn_range_archer_4_hre_ha_01" overrideParent="True" />
+							</template_reference>
+						</group>
 					</list>
 				</group>
 			</list>

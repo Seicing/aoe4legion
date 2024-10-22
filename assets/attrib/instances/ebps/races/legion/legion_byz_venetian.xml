@@ -27,11 +27,11 @@
 					<float name="food" value="0" />
 					<float name="wood" value="0" />
 					<float name="stone" value="0" />
-					<float name="gold" value="700" />
+					<float name="gold" value="350" />
 					<float name="militia_hre" value="0" />
-					<float name="merc_byz" value="0" />
+					<float name="merc_byz" value="350" />
 				</enum_table>
-				<float name="time_seconds" value="60" />
+				<float name="time_seconds" value="40" />
 				<int name="time_turns" value="0" />
 			</group>
 		</template_reference>

@@ -7,8 +7,8 @@
 		</group>
 		<group name="aim">
 			<group name="fire_aim_time">
-				<float name="max" value="0.5" />
-				<float name="min" value="0.5" />
+				<float name="max" value="0" />
+				<float name="min" value="0" />
 			</group>
 			<float name="post_firing_aim_time_seconds" value="0" />
 			<float name="post_firing_cooldown_interval_seconds" value="0" />
@@ -48,9 +48,9 @@
 				<enum name="dynamic_radius_type" value="fixed" />
 			</template_reference>
 			<group name="damage">
-				<float name="far" value="1" />
+				<float name="far" value="0.33" />
 				<float name="near" value="1" />
-				<float name="mid" value="1" />
+				<float name="mid" value="0.66" />
 			</group>
 			<group name="damage_friendly">
 				<float name="far" value="1" />
@@ -160,8 +160,8 @@
 		</group>
 		<group name="cooldown">
 			<group name="duration">
-				<float name="max" value="0" />
-				<float name="min" value="0" />
+				<float name="max" value="0.5" />
+				<float name="min" value="0.5" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="near" value="1" />

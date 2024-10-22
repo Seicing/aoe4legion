@@ -71,7 +71,7 @@
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />
 						</template_reference>
-						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\races\ottoman\research\upgrade_imperial_blacksmith_stockpile_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\races\common\upgrade_devsirme_system_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="ebps\races\ottoman\units\unit_knight_5_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="sbps\races\ottoman\unit_knight_5_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<string name="tier_attachment_action" value="" />

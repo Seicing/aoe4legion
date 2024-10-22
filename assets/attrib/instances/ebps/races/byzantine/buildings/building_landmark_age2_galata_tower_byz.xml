@@ -125,9 +125,6 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="96610941" List.ParentItemID="96610941">
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\races\byzantine\research\east_merc_byz" mod="67987bbc33214c57b0617d9356614825" List.ItemID="859348931" List.ListAction="Append" />
-				<instance_reference name="upgrade" value="upgrade\races\byzantine\research\silkroad_merc_byz" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-520304532" List.ListAction="Append" />
-				<instance_reference name="upgrade" value="upgrade\races\byzantine\research\west_merc_byz" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="27059327" List.ListAction="Append" />
 				<instance_reference name="upgrade" value="upgrade\races\byzantine\mercenary_contracts\merc_contract_01_tower_alt_byz" List.ItemID="1762477846" List.ListAction="Append" />
 				<instance_reference name="upgrade" value="upgrade\races\byzantine\mercenary_contracts\merc_contract_02_tower_alt_byz" List.ItemID="-1395570437" List.ListAction="Append" />
 				<instance_reference name="upgrade" value="upgrade\races\byzantine\mercenary_contracts\merc_contract_03_tower_alt_byz" List.ItemID="1719150553" List.ListAction="Append" />
