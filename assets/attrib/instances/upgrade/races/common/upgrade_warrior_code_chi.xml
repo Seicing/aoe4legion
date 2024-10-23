@@ -143,7 +143,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_entity_rus\upgrade_springald_range_rus" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_entity_sul\paiks_sul" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
@@ -202,15 +202,11 @@
 				<float name="value" value="2" />
 				<enum name="id" value="weapon_range" />
 			</template_reference>
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="298768606">
-				<float name="value" value="1.3" />
-				<enum name="id" value="sight_radius" />
-			</template_reference>
 		</list>
 		<list name="int_properties">
 		</list>
 		<enum name="ui_group_cast_type" value="single" />
-		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_high_armory\tech_banded_arms" />
+		<instance_reference name="hotkey_binding" value="" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
 	</group>
 	<uniqueid name="pbgid" value="1073742334" />

@@ -1,33 +1,33 @@
-<instance version="4" description="Improves Janissary" template="upgrade">
+<instance version="4" description="" template="upgrade">
 	<group name="upgrade_bag">
 		<bool name="enable_in_hold" value="False" />
 		<float name="global_max_limit" value="1" />
 		<bool name="has_speech_code" value="False" />
-		<float name="local_max_limit" value="0" />
+		<float name="local_max_limit" value="1" />
 		<enum name="owner_type" value="player" />
 		<group name="time_cost">
 			<enum_table name="cost">
 				<float name="action" value="0" />
 				<float name="command" value="0" />
 				<float name="popcap" value="0" />
-				<float name="food" value="500" />
+				<float name="food" value="275" />
 				<float name="wood" value="0" />
 				<float name="stone" value="0" />
-				<float name="gold" value="300" />
+				<float name="gold" value="225" />
 				<float name="militia_hre" value="0" />
 				<float name="merc_byz" value="0" />
 			</enum_table>
-			<float name="time_seconds" value="45" />
+			<float name="time_seconds" value="100" />
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_production_group" value="command_panel" />
 		<group name="ui_info">
 			<locstring name="extra_text" value="704" mod="67987bbc33214c57b0617d9356614825" />
 			<locstring name="help_text" value="0" />
-			<string name="hotkey_name" value="e" />
+			<string name="hotkey_name" value="Q" />
 			<file name="icon_name" value="races\common\units\vip" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="539" mod="67987bbc33214c57b0617d9356614825" />
+			<locstring name="screen_name" value="764" mod="67987bbc33214c57b0617d9356614825" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<string name="debug_text" value="" />
@@ -39,10 +39,9 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<int name="int_value" value="20" List.ItemID="1826991725" />
-					<int name="int_value" value="2" List.ItemID="-1566921835" />
+					<int name="int_value" value="2" List.ItemID="-1921905920" />
 				</list>
-				<locstring name="formatter" value="538" mod="67987bbc33214c57b0617d9356614825" />
+				<locstring name="formatter" value="11166404" />
 			</template_reference>
 			<template_reference name="screen_name_formatter" value="">
 			</template_reference>
@@ -88,27 +87,13 @@
 			<locstring name="extra_text_controller" value="0" />
 		</group>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="945533971">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="0" />
-				<bool name="is_present" value="True" />
-				<int name="max_completed" value="100" />
-				<int name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
-				<bool name="include_queued" value="False" />
-				<group name="include_pbg_parenting">
-					<bool name="include_child_pbgs" value="False" />
-					<bool name="include_parent_pbgs" value="False" />
-				</group>
-				<bool name="include_completed" value="True" />
-			</template_reference>
-			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-100484015">
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1863722543">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="False" />
 				<int name="max_completed" value="100" />
 				<int name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_teppou_denrai_jpn" mod="67987bbc33214c57b0617d9356614825" />
+				<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_logothetes_system" mod="67987bbc33214c57b0617d9356614825" />
 				<bool name="include_queued" value="True" />
 				<group name="include_pbg_parenting">
 					<bool name="include_child_pbgs" value="False" />
@@ -116,13 +101,13 @@
 				</group>
 				<bool name="include_completed" value="True" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_player_upgrade" comment="Must not already have this upgrade" List.ItemID="-767745557">
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="948428538">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="0" />
-				<bool name="is_present" value="False" />
+				<bool name="is_present" value="True" />
 				<int name="max_completed" value="100" />
 				<int name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_teppou_denrai_jpn" mod="67987bbc33214c57b0617d9356614825" />
+				<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
 				<bool name="include_completed" value="True" />
 				<bool name="include_queued" value="False" />
 				<group name="include_pbg_parenting">
@@ -158,7 +143,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="desert_units_shadow_tech\desert_units_castle_age_stat" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_entity_hre\upgrade_spear_horseman_damage" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
@@ -167,17 +152,17 @@
 			</template_reference>
 		</group>
 		<list name="upgrade_type">
-			<enum name="upgrade_type" value="military_upgrade" List.ItemID="-2116081141" List.ParentItemID="-2072600964" />
-			<enum name="upgrade_type" value="japanese_upgrade" List.ItemID="1575872321" List.ParentItemID="1755529287" />
-			<enum name="upgrade_type" value="scar_military_upgrade" List.ItemID="-1537246147" List.ParentItemID="-1452115699" />
-			<enum name="upgrade_type" value="scar_nontiered_upgrade" List.ItemID="-509427557" List.ParentItemID="1158533" />
-			<enum name="upgrade_type" value="scar_imperial_age_upgrade" List.ItemID="-395153896" />
+			<enum name="upgrade_type" value="military_upgrade" List.ItemID="-2072600964" List.ParentItemID="-2072600964" />
+			<enum name="upgrade_type" value="byzantine_upgrade" List.ItemID="1755529287" List.ParentItemID="1755529287" />
+			<enum name="upgrade_type" value="scar_military_upgrade" List.ItemID="-1452115699" List.ParentItemID="-1452115699" />
+			<enum name="upgrade_type" value="scar_nontiered_upgrade" List.ItemID="1158533" List.ParentItemID="1158533" />
+			<enum name="upgrade_type" value="scar_imperial_age_upgrade" List.ItemID="1335728328" />
 		</list>
 		<string name="requirements_openingbranch" value="" />
 		<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
 		<bool name="is_progress_permanent" value="False" />
 		<group name="ui_codex_info">
-			<int name="priority" value="0" />
+			<int name="priority" value="4975" />
 			<bool name="exclusive" value="False" />
 			<group name="ui_position">
 				<int name="ui_position_column" value="-1" />
@@ -188,7 +173,11 @@
 			<state_tree_node name="apply_to_filter_condition_statetree_ref" value="" />
 			<enum name="apply_to_target_type" value="entity" />
 			<list name="apply_to_unit_classes">
-				<enum name="unit_class" value="bannerman_samurai_jpn" List.ItemID="-276325220" />
+				<enum name="unit_class" value="cavalry" List.ItemID="-262006528" />
+				<enum name="unit_class" value="war_elephant" List.ItemID="-1287791798" />
+				<enum name="unit_class" value="infantry" List.ItemID="-242644517" />
+				<enum name="unit_class" value="villager" List.ItemID="529059873" />
+				<enum name="unit_class" value="shaolin_monk" List.ItemID="2013315911" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
@@ -211,21 +200,9 @@
 			<float name="merc_byz" value="0" />
 		</enum_table>
 		<list name="float_properties">
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="-1923041063">
-				<float name="value" value="1.2" />
-				<enum name="id" value="health_max" />
-			</template_reference>
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="688851745">
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="1508787226">
 				<float name="value" value="2" />
-				<enum name="id" value="melee_damage" />
-			</template_reference>
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="1097020425">
-				<float name="value" value="2" />
-				<enum name="id" value="ranged_damage" />
-			</template_reference>
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="-152848904">
-				<float name="value" value="1.25" />
-				<enum name="id" value="full_modifier" />
+				<enum name="id" value="damage" />
 			</template_reference>
 		</list>
 		<list name="int_properties">
@@ -234,6 +211,6 @@
 		<instance_reference name="hotkey_binding" value="" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="1073742165" />
+	<uniqueid name="pbgid" value="1073742412" />
 	<instance_reference name="parent_pbg" value="" />
 </instance>

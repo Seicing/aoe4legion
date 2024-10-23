@@ -65,8 +65,8 @@
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="759637404">
 			<bool name="regeneration_disabled" value="False" />
 			<enum_table name="armor_scaler_by_damage_type">
-				<float name="Melee" value="5" />
-				<float name="Ranged" value="5" />
+				<float name="Melee" value="3" />
+				<float name="Ranged" value="3" />
 				<float name="True Damage" value="0" />
 				<float name="Fire" value="0" />
 			</enum_table>
@@ -113,6 +113,12 @@
 			</template_reference>
 			<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 			<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="True Damage" value="0" />
+				<float name="Melee" value="0" />
+				<float name="Ranged" value="0" />
+				<float name="Fire" value="0" />
+			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-2129175337">
 			<instance_reference name="hit_material" value="hit_material\hvyarmour" />
@@ -209,27 +215,21 @@
 			</list>
 			<list name="unit_type_list">
 				<enum name="unit_type" value="military" List.ItemID="-2059692140" />
-				<enum name="unit_type" value="armored" List.ItemID="-386478767" />
 				<enum name="unit_type" value="bannerman_samurai_jpn" List.ItemID="162009533" />
 				<enum name="unit_type" value="human" List.ItemID="-967414784" />
-				<enum name="unit_type" value="melee" List.ItemID="-239598880" />
 				<enum name="unit_type" value="formational" List.ItemID="-1086604124" />
-				<enum name="unit_type" value="torch_thrower" List.ItemID="-738949030" />
-				<enum name="unit_type" value="heavy" List.ItemID="-276699229" />
 				<enum name="unit_type" value="annihilation_condition" List.ItemID="1596891921" />
 				<enum name="unit_type" value="included_by_military_hotkeys" List.ItemID="1315132538" />
 				<enum name="unit_type" value="find_non_siege_land_military" List.ItemID="802275519" />
 				<enum name="unit_type" value="land_military" List.ItemID="1297583980" />
 				<enum name="unit_type" value="cavalry" List.ItemID="658438076" List.ParentItemID="-18476062" />
 				<enum name="unit_type" value="horse" List.ItemID="1254693297" List.ParentItemID="862828411" />
-				<enum name="unit_type" value="military_cavalry" List.ItemID="-203051854" List.ParentItemID="1817716707" />
 				<enum name="unit_type" value="bannerman_samurai_jpn_cavalry" List.ItemID="2058681893" />
-				<enum name="unit_type" value="deflective_armor" comment="Used to drive attack block display in UI" List.ItemID="2064818744" />
-				<enum name="unit_type" value="xbox_support_quick_find" List.ItemID="1383256073" />
 				<enum name="unit_type" value="onna_musha_jpn" List.ItemID="-46676618" />
 				<enum name="unit_type" value="cavalry_archer" List.ItemID="679310145" />
 				<enum name="unit_type" value="archer" List.ItemID="-55742891" />
 				<enum name="unit_type" value="ranged" List.ItemID="2040499901" />
+				<enum name="unit_type" value="deflective_armor" comment="Used to drive attack block display in UI" List.ItemID="-541220991" />
 			</list>
 			<enum name="weapon_targeting" value="automatic" />
 			<enum_table name="weapon_category_targeting_filter">
@@ -407,7 +407,28 @@
 							<template_reference name="weapon_entity_attachment" value="">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\japanese\ranged\weapon_horsearcher_incendiary_4_jpn" mod="67987bbc33214c57b0617d9356614825" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\japanese\ranged\weapon_horsearcher_incendiary_4_jpn" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\japanese\weapons\wpn_range_horsearcher_4_jpn" />
+								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" />
+							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="3" />
+								<float name="z" value="1" />
+							</group>
+							<enum name="type" value="default" />
+						</group>
+						<group name="weapon" comment="Incendiary Arrow" List.ItemID="-1775959311">
+							<template_reference name="weapon_entity_attachment" value="">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\japanese\ranged\weapon_horsearcher_incendiary_building_fire_jpn" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\japanese\weapons\wpn_range_horsearcher_4_jpn" />
 								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" />
 							</template_reference>
