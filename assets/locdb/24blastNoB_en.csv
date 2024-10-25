@@ -1,6 +1,6 @@
 ﻿ID,Pipeline,PipelineStage,Notes,TranslationNotes,Tags,Text
 1,,,Mod name.,,,Legion and Legion Commander
-2,,,Mod description.,,,"Welcome to feedback in https://github.com/Seicing/aoe4legion \r\n[General]\r\nTown Center can product villager automatically with toggle ability.\r\nHire Legion or Legion Commander and Research Crown Technology at the Keep.(Posthouse for Mongols) \r\nCaptial Town Center Provide stone resources when Empire Rising Technology researched.\r\nKeep and Stone Wall Tower Cost reduce to 650/175 from 900/300.\rAll Civs can trains Cavalry Archer at Archery Range or Legion.\r\nHandcannoneer fights with arquebus when serpentine powder researched.\r\n\r\n[Chinese] \r\n- Crown Technology : Warrior Code\r\n- Extra Unit : Rocket Launcher (Keep)\r\n- Nest of bees and Firelance series weapon adjusts damage composition.  \r\n- Imperial Official no population required, Astronomical Clocktower is able to Supervise.\r\n- Pyrotechnics applied to all Gunpowder Units(except Nest of Bee).  \r\n- Spirit Way/Imperial Palace/Capital Town Center/Barbican of the Sun can expand the influence area of Imperial Academy\r\n- Can Produces Villagers and Villagers can drop off Resource at Imperial Palace\r\n[France]\r\n- Crown Technology : Devastating Charge\r\n- Royal bloodlines efficiency increased to 55%\r\n- Cannon Ability Cooldown reduce to 40s.\r\n- Merchant Guilds Technology efficiency +100%. \r\n- Chivalry applicable to all cavalry. \r\n[English] \r\n- Crown Technology : Aged Yew Bows.\r\n- Enclosures Technology efficiency +100%.\r\n- Villagers can drop off Resource at Abbey of Kings. \r\n- Abbey of Kings provides king Production for keeps.\r\n- King 2hp/s regeneration rate, No population. Provided Mobile Network of Citadels Aura. \r\n- Armor Clad Technology also applied to Spearmen.\r\n- The King's Palace Produce Cost -50%.\r\n- Wynguard Palace produce 4 additional Legions and all 8 Legions have been discounted.\r\n[Holy Roman Empire] \r\n- Crown Technology : Double Salary.\r\n- Extra Unit : Halberdier (Replace spearmen)\r\n- Monks can pick up Relic in feudal age. \r\n- Research Maximilian Plate Technology at Barracks to increase 2 armor for Landsknecht and Man-at-arms. \r\n- Can Products Legion at Burgrave Palace.  \r\n- Regnitz Cathedral income rate Increases to 200% after Reliquary Technology Researched. \r\n[Ottomans]\r\n- Crown Technology : Devsirme System.\r\n- Produces Villagers and Villagers can drop off Resource at Istanbul Imperial Palace, Building Time reduces to 160s. \r\n- Horse Archer can fire in moving.   \r\n- Keep can expands influence area.\r\n[Abbasid Dynasty]\r\n- Crown Technology : Drilling.\r\n- Extra Unit : Mamluk (Keep)\r\n- Extra Unit : Recruit(Outpost) \r\n- Camel Rider Barding applied to Camel Archer.\r\n- Camel Archer can firing when moving. \r\n- Increase the range of influence extension range of keep and outpost to 5.\r\n- The Legion Commander can train at the Captial Town Center at Feudal Age. \r\n[Rus]\r\n- Crown Technology : For the Union!\r\n- Villager gathered food do not need Drop off to camp. \r\n- Streltsy can trigger Fast Marching ability.\r\n- Spasskaya Tower Default Arrow Slot replace to Cannon Slot and Provide unique hero unit.\r\n- Horse Archer can fire in moving. \r\n- Research Technology at Town Center to strengthen Fortified Palisade Wall.\r\n[Delhi Sultanate]\r\n- Crown Technology : Gunpowder Empire\r\n- Extra Unit : Phalangite (Barracks) \r\n- Palace of the Sultan and Hisar Academy works faster.  \r\n- Scholar no population required but 25 maximum training.\r\n[Mongols] \r\n- Crown Technology : Logistics\r\n- Extra Unit : Tarkan (Stable)\r\n- Can Build Palisade Wall and Gate after Feudal Age.  \r\n- Keshik Gains +10 vs.Cavalry Bonus Damage.\r\n- Posthouse is Buildable for Products all Units and Legions.\r\n[Malians]\r\n- Crown Technology : Ton-tigui System\r\n- Extra Unit : Supply Cart(Town Center)\r\n- Villagers can drop off Resource at Grand Fulani Corral. Can training cattle at this building.\r\n- Imported Armor applicable to Camel Riders. \r\n[Byzantines]\r\n- Crown Technology : Blast Furnace\r\n- Extra Unit : Flame Thrower(Archery Range)\r\n- Limitanei Sheild Wall damage reduction rate increase to 50%.\r\n- Varangian Guard Gained regeneration and can build Barracks and Mercenary House.  \r\n- Cataphract gained normal charge ability. \r\n- Palatine School can hire Legion Instantly with Olive oil. \r\n- Golden Horn Tower Provides New Units for Archery Range in Imperial Age\r\n[Japanese]\r\n- Crown Technology : Shogunate\r\n- Extra Unit : Sohei(Temple of Equality and Buddhist Temple)\r\n- Onna-Musha can fires on moving. \r\n- Town center upgrade technology cost reduces to 225/400/625.\r\n- Rocket Weapon adjusts damage composition. Castle of the Crow got additional garrison Rocket weapon.\r\n[Zhu Xi's Legacy]\r\n- Crown Technology : Warrior Code \r\n- Extra Unit : Shotgunner(Keep)\r\n- Imperial Official no population required. \r\n- Nest of bees and Firelance series weapon adjusts damage composition. \r\n- Limit of technology can be researched to 4 for Zhu Xi's Library. \r\n- The 10000 bolts secondary arrow of the crossbowman is full of damage.  \r\n- Yuan Dynasty Unlocks Fortress.\r\n[Order of the Dragon]\r\n- Imperial Gilded Units occupy only 1.5 population. \r\n- Gilded villager do not need Drop off for type all Resource. \r\n- Monks can pick up Relic in feudal age, Able to Training in Town Center.\r\n- Can Products Legion at Burgrave Palace. \r\n- Regnitz Cathedral income rate Increases to 200% after Reliquary Technology Researched. \r\n[Ayyubids]\r\n- Crown Technology : Drilling\r\n- Extra Unit : Mamluk(Keep)\r\n- Extra Unit : Recruit(Outpost) \r\n- Mangonel Flame Bullet Damage increase to 3 from 2.\r\n- Increase the range of influence extension range of keep and outpost to 5.\r\n- The Legion Commander can train at the Captial Town Center at Feudal Age. \r\n[Jeanne d'Arc]\r\n- Crown Technology : Devastating Charge\r\n- Royal bloodlines efficiency increased to 55% \r\n- Merchant Guilds Technology efficiency +100%.\r\n- Cannon Ability Cooldown reduce to 40s. \r\n- Chivalry applicable to all cavalry.\r\n- Strength of Heaven applicable to Siege Units. "
+2,,,Mod description.,,,"Welcome to feedback in https://github.com/Seicing/aoe4legion \r\n[General]\r\nTown Center can product villager automatically with toggle ability.\r\nHire Legion or Legion Commander and Research Crown Technology at the Keep.(Posthouse for Mongols) \r\nCaptial Town Center Provide stone resources when Empire Rising Technology researched.\r\nKeep and Stone Wall Tower Cost reduce to 650/175 from 900/300.\rAll Civs can trains Cavalry Archer at Archery Range or Legion.\r\nHandcannoneer fights with arquebus when serpentine powder researched.\r\n\r\n[Chinese] \r\n- Crown Technology : Warrior Code\r\n- Extra Unit : Rocket Launcher (Keep)\r\n- Nest of bees and Firelance series weapon adjusts damage composition.  \r\n- Imperial Official no population required, Astronomical Clocktower is able to Supervise.\r\n- Pyrotechnics applied to all Gunpowder Units(except Nest of Bee).  \r\n- Spirit Way/Imperial Palace/Capital Town Center/Barbican of the Sun can expand the influence area of Imperial Academy\r\n- Can Produces Villagers and Villagers can drop off Resource at Imperial Palace\r\n[France]\r\n- Crown Technology : Devastating Charge\r\n- Royal bloodlines efficiency increased to 55%\r\n- Cannon Ability Cooldown reduce to 40s.\r\n- Merchant Guilds Technology efficiency +100%. \r\n- Chivalry applicable to all cavalry. \r\n[English] \r\n- Crown Technology : Aged Yew Bows.\r\n- Enclosures Technology efficiency +100%.\r\n- Villagers can drop off Resource at Abbey of Kings. \r\n- Abbey of Kings provides king Production for keeps.\r\n- King 2hp/s regeneration rate, No population. Provided Mobile Network of Citadels Aura. \r\n- Armor Clad Technology also applied to Spearmen.\r\n- The King's Palace Produce Cost -50%.\r\n- Wynguard Palace produce 4 additional Legions and all 8 Legions have been discounted.\r\n[Holy Roman Empire] \r\n- Crown Technology : Double Salary.\r\n- Extra Unit : Halberdier (Replace spearmen)\r\n- Monks can pick up Relic in feudal age. \r\n- Research Maximilian Plate Technology at Barracks to increase 2 armor for Landsknecht and Man-at-arms. \r\n- Can Products Legion at Burgrave Palace.  \r\n- Regnitz Cathedral income rate Increases to 200% after Reliquary Technology Researched. \r\n[Ottomans]\r\n- Crown Technology : Highgate Guardian.\r\n- Produces Villagers and Villagers can drop off Resource at Istanbul Imperial Palace, Building Time reduces to 160s. \r\n- Horse Archer can fire in moving.   \r\n- Keep can expands influence area.\r\n[Abbasid Dynasty]\r\n- Crown Technology : Drilling.\r\n- Extra Unit : Mamluk (Keep)\r\n- Extra Unit : Recruit(Outpost) \r\n- Camel Rider Barding applied to Camel Archer.\r\n- Camel Archer can firing when moving. \r\n- Increase the range of influence extension range of keep and outpost to 5.\r\n- The Legion Commander can train at the Captial Town Center at Feudal Age. \r\n[Rus]\r\n- Crown Technology : For the Union!\r\n- Villager gathered food do not need Drop off to camp. \r\n- Streltsy can trigger Fast Marching ability.\r\n- Spasskaya Tower Default Arrow Slot replace to Cannon Slot and Provide unique hero unit.\r\n- Horse Archer can fire in moving. \r\n- Research Technology at Town Center to strengthen Fortified Palisade Wall.\r\n[Delhi Sultanate]\r\n- Crown Technology : Gunpowder Empire\r\n- Extra Unit : Phalangite (Barracks) \r\n- Palace of the Sultan and Hisar Academy works faster.  \r\n- Scholar no population required but 25 maximum training.\r\n[Mongols] \r\n- Crown Technology : Logistics\r\n- Extra Unit : Tarkan (Stable)\r\n- Can Build Palisade Wall and Gate after Feudal Age.  \r\n- Keshik Gains +10 vs.Cavalry Bonus Damage.\r\n- Posthouse is Buildable for Products all Units and Legions.\r\n[Malians]\r\n- Crown Technology : Ton-tigui System\r\n- Extra Unit : Supply Cart(Town Center)\r\n- Villagers can drop off Resource at Grand Fulani Corral. Can training cattle at this building.\r\n- Imported Armor applicable to Camel Riders. \r\n[Byzantines]\r\n- Crown Technology : Blast Furnace\r\n- Extra Unit : Flame Thrower(Archery Range)\r\n- Limitanei Sheild Wall damage reduction rate increase to 50%.\r\n- Varangian Guard Gained regeneration and can build Barracks and Mercenary House.  \r\n- Cataphract gained normal charge ability. \r\n- Palatine School can hire Legion Instantly with Olive oil. \r\n- Golden Horn Tower Provides New Units for Archery Range in Imperial Age\r\n[Japanese]\r\n- Crown Technology : Shogunate\r\n- Extra Unit : Sohei(Temple of Equality and Buddhist Temple)\r\n- Onna-Musha can fires on moving. \r\n- Town center upgrade technology cost reduces to 225/400/625.\r\n- Rocket Weapon adjusts damage composition. Castle of the Crow got additional garrison Rocket weapon.\r\n[Zhu Xi's Legacy]\r\n- Crown Technology : Warrior Code \r\n- Extra Unit : Shotgunner(Keep)\r\n- Imperial Official no population required. \r\n- Nest of bees and Firelance series weapon adjusts damage composition. \r\n- Limit of technology can be researched to 4 for Zhu Xi's Library. \r\n- The 10000 bolts secondary arrow of the crossbowman is full of damage.  \r\n- Yuan Dynasty Unlocks Fortress.\r\n[Order of the Dragon]\r\n- Imperial Gilded Units occupy only 1.5 population. \r\n- Gilded villager do not need Drop off for type all Resource. \r\n- Monks can pick up Relic in feudal age, Able to Training in Town Center.\r\n- Can Products Legion at Burgrave Palace. \r\n- Regnitz Cathedral income rate Increases to 200% after Reliquary Technology Researched. \r\n[Ayyubids]\r\n- Crown Technology : Drilling\r\n- Extra Unit : Mamluk(Keep)\r\n- Extra Unit : Recruit(Outpost) \r\n- Mangonel Flame Bullet Damage increase to 3 from 2.\r\n- Increase the range of influence extension range of keep and outpost to 5.\r\n- The Legion Commander can train at the Captial Town Center at Feudal Age. \r\n[Jeanne d'Arc]\r\n- Crown Technology : Devastating Charge\r\n- Royal bloodlines efficiency increased to 55% \r\n- Merchant Guilds Technology efficiency +100%.\r\n- Cannon Ability Cooldown reduce to 40s. \r\n- Chivalry applicable to all cavalry.\r\n- Strength of Heaven applicable to Siege Units. "
 3,,,formatter,,,Increase the range of Gunpowder Units (except Nest of Bee) by +%1%.
 14,,,screen_name,,,Camel Barding
 15,,,formatter,,,Increase the armor of Camel Units by +%1%.
@@ -20,47 +20,47 @@
 117,,,screen_name,,,Veteran Halberdier
 118,,,screen_name,,,Elite Halberdier
 133,,,screen_name,,,Khassaki Guards
-134,,,screen_name,,,Bedouin Legion
+134,,,screen_name,,,Bedouin Mercenary
 135,,,screen_name,,,Expeditionary Force
 136,,,screen_name,,,Uriankhai
 137,,,screen_name,,,Divine Engine Division
 138,,,screen_name,,,Wyngarde Orders
 139,,,screen_name,,,Wyngarde Trooper
-140,,,screen_name,,,Yeoman
+140,,,screen_name,,,Wyngarde Yeoman
 141,,,screen_name,,,Gendarmerie
-142,,,screen_name,,,Genoese Mercenaries
-143,,,screen_name,,,Swiss Mercenaries
+142,,,screen_name,,,Genoese Mercenary
+143,,,screen_name,,,Swiss Mercenary
 144,,,screen_name,,,Dopplesoldner
 145,,,screen_name,,,Forlorn Hope
 146,,,screen_name,,,Landsknecht Legion
 147,,,screen_name,,,Akinci Raider
 148,,,screen_name,,,Serbi Regiment
-149,,,screen_name,,,Timar Sipahi
-150,,,screen_name,,,Yeniceri
+149,,,screen_name,,,Turkic Fief
+150,,,screen_name,,,Standing Army
 151,,,screen_name,,,Black Klobuks
 152,,,screen_name,,,Tsar's Guard
-153,,,screen_name,,,Tatars Mercenaries
+153,,,screen_name,,,Tatars Mercenary
 154,,,help_text,,,Produces Khassaki Guards of 3 Mamluk and 3 Ghazi.
-155,,,help_text,,,Produces Bedouin Legion of 3 Camel Riders and 3 Camel Archers.
+155,,,help_text,,,Produces Bedouin Mercenary of 3 Camel Riders and 3 Camel Archers.
 156,,,help_text,,,Produces Expeditionary Force of 6 Ghulam.
 157,,,help_text,,,Produces Uriankhai of 6 Mangudai.
 158,,,help_text,,,Produces Divine Engine Division of 4 Handcannoneers and 1 Clockworks Nest of Bee.
 159,,,help_text,,,"Produces Wyngarde Orders of 3 Wyngarde Knights ,2 Wyngarde Horsemen and 1 Chevaucher."
 160,,,help_text,,,"Produces Wyngarde Trooper of 2 Man-at-arms, 2 Wynguard Footmen, 2 Spearmen and 2 Halberdiers."
-161,,,help_text,,,Produces Yeoman of 4 longbowmen and 3 Wynguard Rangers.
+161,,,help_text,,,Produces Wyngarde Yeoman of 4 longbowmen and 3 Wynguard Rangers.
 162,,,help_text,,,"Produces Gendarmerie of 3 Royal Knights, 2 Horsemen and 1 Mounted Crossbowman."
-163,,,help_text,,,Produces Genoese Mercenaries of 3 Man-at-arms and 3 Arbalétriers.
-164,,,help_text,,,Produces Swiss Mercenaries of 6 Halberdiers.
+163,,,help_text,,,Produces Genoese Mercenary of 3 Man-at-arms and 3 Arbalétriers.
+164,,,help_text,,,Produces Swiss Mercenary of 4 Halberdiers and 2 Pikemen.
 165,,,help_text,,,Produces Dopplesoldner of 2 Culverins and 4 Handcannoneers.
-167,,,help_text,,,"Produces Landsknecht Legion of 2 Landsknechts, 2 Man-at-arms, 2 Spearmen, 2 Halberdiers and 2 Handcannoneers."
+167,,,help_text,,,"Produces Landsknecht Legion of 2 Landsknechts, 2 Man-at-arms, 2 Pikemen, 2 Halberdiers and 2 Handcannoneers."
 168,,,help_text,,,Produces Akinci Raider of 3 Sipahi and 3 Horse Archers.
 169,,,help_text,,,Produces Serbi Regiment of 3 Boyar Knights and 3 Boyar Warriors.
-170,,,help_text,,,Produces Timar Sipahi of 3 Sipahi and 3 Lancer.
-171,,,help_text,,,Produces Yeniceri of 5 Janissaries and 1 Great Bombard.
+170,,,help_text,,,Produces Turkic Fief of 3 Sipahi and 3 Lancer.
+171,,,help_text,,,Produces Standing Army of 5 Janissaries and 1 Great Bombard.
 172,,,help_text,,,Produces Black Klobuks of 3 Horsemen and 3 Horse Archers.
 173,,,help_text,,,Produces Tsar's Guard of 3 Oprichnik and 4 Streltsy.
-174,,,help_text,,,Produces Tatars Mercenaries of 3 Keshiks and 3 Mangudai.
-175,,,help_text,,,Produces Forlorn Hope of 3 Landsknechts and 4 Halberdiers.
+174,,,help_text,,,Produces Tatars Mercenary of 3 Keshiks and 3 Mangudai.
+175,,,help_text,,,"Produces Forlorn Hope of 1 Landsknechts, 2 Pikemen and 2 Halberdiers."
 176,,,help_text,,,Produces Mansabdar of 1 War Elephant and 1 Sultan's Elite Tower Elephant.
 177,,,screen_name,,,Mansabdar
 180,,,screen_name,,,Boyar Warrior
@@ -92,7 +92,7 @@
 219,,,screen_name,,,Mercenary Commander
 220,,,screen_name,,,Fast Expansion
 221,,,help_text,,,As the Marshal of France can charge with the cavalry at the maximum speed and strengthen damage.
-222,,,help_text,,,"Holy Roman Empire Mercenary Commander, He knows how to use the power of money for your Mercenaries to fight harder."
+222,,,help_text,,,"Holy Roman Empire Mercenary Commander, He knows how to use the power of money for your Mercenary to fight harder."
 223,,,screen_name,,,Knyaz
 228,,,screen_name,,,Persevere!
 229,,,screen_name,,,Full Attack!
@@ -144,7 +144,7 @@
 315,,,screen_name,,,Knights Hospitalier
 317,,,screen_name,,,Elite Keshik
 318,,,screen_name,,,Elite Keshik
-319,,,screen_name,,,Devsirme System
+319,,,screen_name,,,Highgate Guardian
 320,,,extra_text,,,Military Schools Technology
 322,,,help_text,,,Produces Mandekalu of 6 Mansa Freeborn Horsemen.
 323,,,screen_name,,,Mandekalu 
@@ -161,8 +161,8 @@
 363,,,help_text,,,Skillful Warrior from Serbia can causes trample damage to non-main attack target.
 365,,,help_text,,,Skillful Knight from Serbia can causes trample damage to non-main attack target.
 369,,,help_text,,,Turkic Horse Archer causes melee damage in distance. \r\n+ Good at Anti Siege Weapon\r\n+ Damage to the building -15
-370,,,help_text,,,"Produces Kele-bolo of 6 Mansa Freeborn Warriors, Need to Unlock with Farimba Garrison Landmark."
-371,,,screen_name,,,Kele-bolo
+370,,,help_text,,,"Produces Kèlè-bolo of 6 Mansa Freeborn Warriors, Need to Unlock with Farimba Garrison Landmark."
+371,,,screen_name,,,Kèlè-bolo
 375,,,help_text,,,The fearless cavalry wearing heavy armor can effectively resist most of the damage.
 377,,,screen_name,,,Farimba
 380,,,help_text,,,Muslim military leaders can cause continuous melee attacks from long distances and suppress the nearby enemy cavalry units.\r\n- Can builds Fortress Tower on the Stone Wall\r\n- Uncase Enemy Cavalry\r\n- Weaker before Imperial age
@@ -192,8 +192,8 @@
 416,,,screen_name,,,Akazonae Regiment
 417,,,help_text,,,Produces Ashigaru Regiment of 6 Spearmen.
 418,,,screen_name,,,Ashigaru Regiment
-419,,,help_text,,,Produces Turkmen Mercenaries of 6 Horse Archers.
-420,,,screen_name,,,Turkmen Mercenaries
+419,,,help_text,,,Produces Turkmen Mercenary of 6 Horse Archers.
+420,,,screen_name,,,Turkmen Mercenary
 421,,,screen_name,,,Norse Warrior
 422,,,screen_name,,,Knights Templar
 423,,,help_text,,,"Powerful Japanese Military Leaders, Can Produces Japanese Unique Units on the battlefield. \n- Product Shinobi, Sohei or Ozutsu when Landmark built \n- Unlock Bannerman production Depends on your choice of Imperial landmark when Koka Township built"
@@ -208,7 +208,7 @@
 432,,,help_text,,,Mobilize 3 Imperial Guards on the battlefield.
 450,,,screen_name,,,Archers of the Eyes
 451,,,help_text,,,Skillful Nubian Archer can hit the enemy's eyes in a very long distance.\r\n- Anti Armor
-452,,,screen_name,,,Nubian Mercenaries
+452,,,screen_name,,,Nubian Mercenary
 453,,,screen_name,,,Artillerie d'Orléans
 454,,,screen_name,,,Guardians of the Maiden
 456,,,screen_name,,,Hungarian Black Army
@@ -224,7 +224,7 @@
 466,,,help_text,,,Produces Orders of the Maiden of 3 Royal Knights and 3 Jeanne's Riders.
 467,,,help_text,,,Produces Guardians of the Maiden of 3 Man-at-arms and 3 Jeanne's Champions.
 468,,,help_text,,,Produces Artillerie d'Orléans of 4 Handcannoneers and 1 Royal Cannon.
-469,,,help_text,,,Produces Nubian Mercenaries of 6 Archers of the Eyes.
+469,,,help_text,,,Produces Nubian Mercenary of 6 Archers of the Eyes.
 470,,,help_text,,,"Produces Khassaki Guards of 3 Mamluks, 2 Camel Lancers and 1 Desert Raiders."
 471,,,screen_name,,,Master of Knights Hospitalier
 472,,,screen_name,,,Knight Templar
@@ -280,8 +280,8 @@
 571,,,ui_name,,,Only can be trained 1 Teutons Master.
 572,,,help_text,,,Cavalry Archer with a good armor.\r\n+ High movement speed\r\n- Countered by Knights and Crossbowmen.
 573,,,help_text,,,Cavalry Archer with a good armor.\r\n+ High movement speed\r\n- Countered by Knights and Crossbowmen.
-575,,,screen_name,,,Bedouin Wanderer
-576,,,help_text,,,Produces Bedouin Wanderer of 3 Bedouin Swordsman and 3 Bedouin Skirmisher.
+575,,,screen_name,,,Bedouin Mercenary
+576,,,help_text,,,Produces Bedouin Mercenary of 3 Bedouin Swordsman and 3 Bedouin Skirmisher.
 577,,,formatter,,,Increase the range of Grenadiers by +%1% and Fire Strengthen grenades with +50%% aoe area.
 582,,,formatter,,,"When training Limitanei, Varangian Guards, Cataphracts, or Cheirosiphons there is a %1%%% chance to also spawn one at this Landmark. Can hire Legion Instantly with Olive oil."
 583,,,screen_name,,,Armored Cavalry Archer
@@ -347,8 +347,8 @@
 662,,,screen_name,,,Ozutsu
 663,,,ui_name,,,Need Landmark.
 664,,,ui_name,,,Need Abbey of Kings.
-665,,,help_text,,,"Produces Standing Army of 3 Man-at-arms, 3 Handcannoneer and 1 Ribauldequin."
-666,,,screen_name,,,Standing Army
+665,,,help_text,,,"Produces Wyngarde Artillery of 3 Man-at-arms, 3 Handcannoneer and 1 Ribauldequin."
+666,,,screen_name,,,Wyngarde Artillery
 669,,,screen_name,,,Flame Thrower
 670,,,help_text,,,"The Greek Warriors who throw the burning ceramic bottle, Burn enemy cause a burning damage in duration."
 671,,,help_text,,,Spend 200 gold to let nearby Units regeneration quickly within 10 seconds.
@@ -443,3 +443,5 @@
 765,,,formatter,,,Unlock Logothetes with %1% Training Limit.
 766,,,formatter,,,Handcannoneer cost -35%% but health -20%%.
 767,,,screen_name,,,Gunpowder Empire
+768,,,screen_name,,,Pikeman
+769,,,screen_name,,,Pikeman

@@ -16,7 +16,7 @@
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1770365890" List.ParentItemID="1770365890">
 			<float name="hitpoints" value="260" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
-				<float name="Ranged" value="30" overrideParent="True" />
+				<float name="Ranged" value="0" overrideParent="True" />
 			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="-949785084" List.ParentItemID="-949785084">

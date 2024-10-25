@@ -279,8 +279,8 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1010848324" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1806238931" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1010848324" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1806238931" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1518502591" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="116595549" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1937559917" />

@@ -6,7 +6,7 @@
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-623852692" List.ParentItemID="-623852692">
 			<list name="action_state_trees">
 				<group name="container" List.ItemID="-1918131689" List.ParentItemID="-1918131689">
-					<string name="state_tree" value="unit_action_apply\units\spearman\audio\hre\4" overrideParent="True" />
+					<string name="state_tree" value="unit_action_apply\units\spearman\audio\fre\4" overrideParent="True" />
 				</group>
 			</list>
 		</template_reference>
@@ -19,7 +19,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1344262557" List.ParentItemID="1344262557">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\hre" List.ItemID="-1688224326" />
+				<instance_reference name="race_type" value="racebps\french" overrideParent="True" List.ItemID="1666803954" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="113064770" List.ParentItemID="113064770">
@@ -30,7 +30,7 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_spearman_4" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\byzantine\weapons\wpn_melee_spearman_2_byz" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
@@ -40,7 +40,7 @@
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_torch" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\weapons\wpn_siege_torch" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\french\weapons\wpn_siege_torch_fre" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
@@ -57,7 +57,7 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_spearman_4_charge_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_spearman_4_charge" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\byzantine\weapons\wpn_melee_spearman_2_charge_byz" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
@@ -67,12 +67,12 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-910122931" List.ParentItemID="-910122931">
-			<instance_reference name="schema" value="statemodel_schema\units\civilizations\hre\spearman_hre" overrideParent="True" />
+			<instance_reference name="schema" value="statemodel_schema\units\spearman" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-1248596435" List.ListAction="Append">
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="2117164195" List.ListAction="Append">
 			<list name="tier_group_list">
-				<list name="tier_group" List.ItemID="265034399">
-					<group name="tier" List.ItemID="1729618259">
+				<list name="tier_group" List.ItemID="-1585512301">
+					<group name="tier" List.ItemID="-541013613">
 						<list name="tier_requirements" overrideParent="True">
 						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\hre\units\tier3_landsknecht_hre" overrideParent="True" />
@@ -95,20 +95,7 @@
 				</list>
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="49076043" List.ListAction="Append">
-			<list name="type_list" overrideParent="True">
-				<group name="type" List.ItemID="598561805">
-					<enum name="interaction_type" value="inspire_hre" overrideParent="True" />
-					<int name="prefer_number" value="1" overrideParent="True" />
-					<int name="max_number" value="1" overrideParent="True" />
-					<enum name="interaction_target_type" value="entity" />
-					<template_reference name="node_list_option" value="options\none" overrideParent="True">
-					</template_reference>
-					<bool name="block_pathing_when_interacted" value="False" />
-				</group>
-			</list>
-		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073742319" />
+	<uniqueid name="pbgid" value="1073742416" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_spearman_4" />
 </instance>

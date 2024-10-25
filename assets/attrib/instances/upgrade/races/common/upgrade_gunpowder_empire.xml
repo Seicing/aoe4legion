@@ -17,7 +17,7 @@
 				<float name="militia_hre" value="0" />
 				<float name="merc_byz" value="0" />
 			</enum_table>
-			<float name="time_seconds" value="200" />
+			<float name="time_seconds" value="100" />
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_production_group" value="command_panel" />
@@ -160,7 +160,7 @@
 		</list>
 		<string name="requirements_openingbranch" value="" />
 		<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
-		<bool name="is_progress_permanent" value="False" />
+		<bool name="is_progress_permanent" value="True" />
 		<group name="ui_codex_info">
 			<int name="priority" value="4975" />
 			<bool name="exclusive" value="False" />
