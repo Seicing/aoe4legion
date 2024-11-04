@@ -132,7 +132,7 @@
 			<string name="telemetry_name" value="Zhu Xi's Library" overrideParent="True" />
 			<template_reference name="help_text_formatter" value="ui_text_formatter" overrideParent="True">
 				<list name="formatter_arguments">
-					<int name="int_value" value="5" overrideParent="True" List.ItemID="141483562" />
+					<int name="int_value" value="4" overrideParent="True" List.ItemID="141483562" />
 				</list>
 				<locstring name="formatter" value="594" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 			</template_reference>

@@ -163,7 +163,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="common_upgrade_master\chi_ha_01_library_crossbow_upgrade" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_entity_chi_ha_01\upgrade_library_crossbow" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">

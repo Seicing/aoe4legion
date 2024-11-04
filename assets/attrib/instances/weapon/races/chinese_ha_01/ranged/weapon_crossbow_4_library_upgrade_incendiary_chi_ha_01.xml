@@ -137,8 +137,8 @@
 				</group>
 			</group>
 			<group name="rate_of_fire">
-				<float name="max" value="3" />
-				<float name="min" value="3" />
+				<float name="max" value="4" />
+				<float name="min" value="4" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="near" value="1" />

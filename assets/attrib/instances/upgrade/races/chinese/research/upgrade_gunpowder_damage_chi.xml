@@ -43,7 +43,7 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<float name="float_value" value="2" List.ItemID="-818812846" />
+					<float name="float_value" value="1.5" List.ItemID="-818812846" />
 				</list>
 				<locstring name="formatter" value="3" mod="67987bbc33214c57b0617d9356614825" />
 			</template_reference>
@@ -84,6 +84,10 @@
 					<instance_reference name="linked" value="" />
 				</template_reference>
 				<enum name="observer_type" value="Disabled" />
+				<group name="issuable_info">
+					<bool name="is_secondary" value="False" />
+					<instance_reference name="secondary_issuable" value="" />
+				</group>
 			</template_reference>
 		</group>
 		<list name="requirements">
@@ -171,6 +175,7 @@
 				<enum name="unit_class" value="handcannon" List.ItemID="1539676477" />
 				<enum name="unit_class" value="bombard" List.ItemID="-217842674" />
 				<enum name="unit_class" value="grenadier" List.ItemID="385817787" />
+				<enum name="unit_class" value="nest_of_bees" List.ItemID="2140819673" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
@@ -194,7 +199,7 @@
 		</enum_table>
 		<list name="float_properties">
 			<template_reference name="float" value="upgradebag_float_property" List.ItemID="1577404182">
-				<float name="value" value="8" />
+				<float name="value" value="6" />
 				<enum name="id" value="ranged_damage" />
 			</template_reference>
 		</list>

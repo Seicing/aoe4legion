@@ -34,8 +34,8 @@
 				<float name="min" value="0.5" overrideParent="True" />
 			</group>
 			<group name="rate_of_fire">
-				<float name="max" value="3" overrideParent="True" />
-				<float name="min" value="3" overrideParent="True" />
+				<float name="max" value="4" overrideParent="True" />
+				<float name="min" value="4" overrideParent="True" />
 			</group>
 		</group>
 		<group name="fire">

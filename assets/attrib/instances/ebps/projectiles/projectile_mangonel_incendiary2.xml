@@ -105,7 +105,7 @@
 				</list>
 			</group>
 			<template_reference name="on_detonate_action_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="greek_fire_spawn_byz" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_absorbed_action_tree" value="state_tree_reference_info">
@@ -171,6 +171,7 @@
 			</template_reference>
 			<bool name="check_collision_against_target_entity_only" value="False" />
 			<instance_reference name="trajectory_preview_line_bag" value="" />
+			<bool name="force_max_range" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-2096565496">
 			<list name="action_state_trees">
