@@ -478,7 +478,7 @@
 				</group>
 				<group name="spawn_item" comment="handcannon - imperial age + chemistry" List.ItemID="666551519">
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\sultanate\unit_handcannon_4_sul" />
+					<instance_reference name="squad" value="sbps\races\sultanate\unit_handcannon_4_sul" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" />
@@ -781,7 +781,7 @@
 									<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_tech_university_sul\building_tech_university_control_sul" List.ItemID="-1773975783" />
 									<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_landmark_age1_quwwat_ul_islam_sul\building_landmark_age1_quwwat_ul_islam_control_sul" List.ItemID="46137007" />
 									<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_landmark_age1_qutub_minar_sul\building_landmark_age1_qutub_minar_control_sul" List.ItemID="1780651463" />
-									<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_landmark_age3_madrasa_e_firoz_sul\building_landmark_age3_madrasa_e_firoz_sul" List.ItemID="439027071" />
+									<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_landmark_age3_madrasa_e_firoz_sul\building_landmark_age3_madrasa_e_firoz_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="439027071" />
 									<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_unit_naval_sul\building_unit_naval_sul" List.ItemID="-356485998" />
 									<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_landmark_age2_khiji_mosque_sul\building_landmark_age2_khiji_mosque_control_sul" List.ItemID="-122286386" />
 								</list>

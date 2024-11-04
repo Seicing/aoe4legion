@@ -22,7 +22,7 @@
 				<bool name="is_present" value="False" />
 				<int name="max_completed" value="100" />
 				<int name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\races\french\research\upgrade_cavalry_bloodline_fre" />
+				<instance_reference name="upgrade_name" value="upgrade\races\french\research\upgrade_cavalry_bloodline_fre" mod="67987bbc33214c57b0617d9356614825" />
 				<bool name="include_queued" value="False" />
 				<group name="include_pbg_parenting">
 					<bool name="include_child_pbgs" value="False" />
@@ -36,7 +36,7 @@
 				<bool name="is_present" value="False" />
 				<int name="max_completed" value="100" />
 				<int name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\races\french\research\upgrade_cavalry_bloodline_fre" />
+				<instance_reference name="upgrade_name" value="upgrade\races\french\research\upgrade_cavalry_bloodline_fre" mod="67987bbc33214c57b0617d9356614825" />
 				<bool name="include_queued" value="True" />
 				<group name="include_pbg_parenting">
 					<bool name="include_child_pbgs" value="False" />
@@ -74,8 +74,8 @@
 			</template_reference>
 		</list>
 		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_royal_institute\tech_royal_bloodlines" overrideParent="True" />
-		<list name="upgrade_type">
-			<enum name="upgrade_type" value="scar_castle_age_upgrade" overrideParent="True" List.ItemID="-1629397041" List.ParentItemID="-1629397041" />
+		<list name="upgrade_type" removedIds="-1019760118">
+			<enum name="upgrade_type" value="scar_castle_age_upgrade" overrideParent="True" List.ItemID="-1629397041" List.ListAction="Append" />
 		</list>
 		<group name="ui_info">
 			<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -91,16 +91,17 @@
 			<string name="sound" value="sfx_ui_produce_building_unit_click" overrideParent="True" />
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<int name="int_value" value="55" overrideParent="True" List.ItemID="-598841774" List.ParentItemID="-598841774" />
+					<int name="int_value" value="55" overrideParent="True" List.ItemID="1894313807" List.ParentItemID="1894313807" />
 				</list>
+				<locstring name="formatter" value="11265978" overrideParent="True" />
 			</template_reference>
 		</group>
 		<list name="float_properties">
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="-1397268647" List.ParentItemID="-1397268647">
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="310106748" List.ParentItemID="310106748">
 				<float name="value" value="1.55" overrideParent="True" />
 			</template_reference>
 		</list>
 	</group>
 	<uniqueid name="pbgid" value="2035317" />
-	<instance_reference name="parent_pbg" value="upgrade\races\french\research\upgrade_cavalry_bloodline_fre" />
+	<instance_reference name="parent_pbg" value="upgrade\races\french\research\upgrade_cavalry_bloodline_fre" mod="67987bbc33214c57b0617d9356614825" />
 </instance>

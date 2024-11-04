@@ -60,12 +60,12 @@
 					<list name="weapon_table">
 						<group name="weapon" List.ItemID="156392194" List.ParentItemID="156392194">
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\ottoman\ranged\weapon_horsearcher_4_ott" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\ottoman\ranged\weapon_horsearcher_4_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 							</template_reference>
 						</group>
 						<group name="weapon" List.ItemID="-1392982238" List.ParentItemID="-1392982238">
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\ottoman\ranged\weapon_horsearcher_incendiary_4_ott" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\ottoman\ranged\weapon_horsearcher_incendiary_4_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_range_horsearcher_4_rus" overrideParent="True" />
 							</template_reference>
 						</group>

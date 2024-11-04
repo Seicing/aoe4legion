@@ -407,7 +407,7 @@
 							<template_reference name="weapon_entity_attachment" value="">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\japanese\ranged\weapon_horsearcher_incendiary_4_jpn" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\japanese\ranged\weapon_horsearcher_incendiary_4_jpn" mod="67987bbc33214c57b0617d9356614825" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\japanese\weapons\wpn_range_horsearcher_4_jpn" />
 								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" />
 							</template_reference>

@@ -183,11 +183,11 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-1352379827" List.ParentItemID="-1352379827">
 			<list name="standard_upgrades" overrideParent="True">
-				<instance_reference name="upgrade" value="upgrade\races\chinese_ha_01\research\upgrade_library_unfailing_grit" List.ItemID="563718963" />
-				<instance_reference name="upgrade" value="upgrade\races\chinese_ha_01\research\upgrade_library_flaming_charge" List.ItemID="-1882710996" />
-				<instance_reference name="upgrade" value="upgrade\races\chinese_ha_01\research\upgrade_library_improved_officials" List.ItemID="-491214769" />
-				<instance_reference name="upgrade" value="upgrade\races\chinese_ha_01\research\upgrade_library_siege_works" List.ItemID="-1195776488" />
-				<instance_reference name="upgrade" value="upgrade\races\chinese_ha_01\research\upgrade_library_crossbow_upgrade" List.ItemID="-1126454537" />
+				<instance_reference name="upgrade" value="upgrade\races\chinese_ha_01\research\upgrade_library_unfailing_grit" mod="67987bbc33214c57b0617d9356614825" List.ItemID="563718963" />
+				<instance_reference name="upgrade" value="upgrade\races\chinese_ha_01\research\upgrade_library_flaming_charge" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1882710996" />
+				<instance_reference name="upgrade" value="upgrade\races\chinese_ha_01\research\upgrade_library_improved_officials" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-491214769" />
+				<instance_reference name="upgrade" value="upgrade\races\chinese_ha_01\research\upgrade_library_siege_works" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1195776488" />
+				<instance_reference name="upgrade" value="upgrade\races\chinese_ha_01\research\upgrade_library_crossbow_upgrade" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1126454537" />
 			</list>
 			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed_chi" overrideParent="True" />
 			<int name="max_queue_size_override" value="4" overrideParent="True" />

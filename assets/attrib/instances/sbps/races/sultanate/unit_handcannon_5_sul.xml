@@ -279,7 +279,7 @@
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
 						<group name="construction_item" comment="Stone Wall Tower - Infantry Version" List.ItemID="-616204557">
-							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_tower_sul" overrideParent="True" />
+							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_tower_sul" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" overrideParent="True" />
 								<int name="ui_position_column" value="3" overrideParent="True" />

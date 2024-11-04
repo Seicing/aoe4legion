@@ -389,6 +389,12 @@
 			<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 			<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
 			<bool name="can_be_damaged_by_ally" value="False" />
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="True Damage" value="0" />
+				<float name="Melee" value="0" />
+				<float name="Ranged" value="0" />
+				<float name="Fire" value="0" />
+			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="1385181551">
 			<instance_reference name="hit_material" value="hit_material\stone" />
@@ -4082,7 +4088,7 @@
 						<int name="ui_position_column" value="3" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_eng_yeoman" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_eng_wyngardeyeoman" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -4301,7 +4307,7 @@
 						<int name="ui_position_column" value="4" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_eng_standingarmy" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_eng_wyngardeartillery" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -4458,6 +4464,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\trigger_volume_ext" List.ItemID="-2079499138">
 		</template_reference>

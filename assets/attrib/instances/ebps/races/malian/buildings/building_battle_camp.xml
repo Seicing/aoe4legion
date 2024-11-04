@@ -598,13 +598,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_gbeto_2_mal" List.ItemID="1037373486" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_mansa_musofadi_2_mal" List.ItemID="1037373486" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_handcannon_4_mal" List.ItemID="-562480868" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_handcannon_4_mal" List.ItemID="1476412971" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_gbeto_2_mal" List.ItemID="-1203814124" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_gbeto_2_mal" List.ItemID="-538954460" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_mansa_musofadi_2_mal" List.ItemID="-1203814124" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_mansa_musofadi_2_mal" List.ItemID="-538954460" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_handcannon_4_mal" List.ItemID="-1519444830" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_gbeto_2_mal" List.ItemID="1597850246" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -671,13 +670,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_4_mal" List.ItemID="1288749792" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_4_mal" List.ItemID="-1122149299" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="1873759550" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="-1747884104" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="-168335407" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_4_mal" List.ItemID="1958653351" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="-1060058920" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="1288749792" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_mansa_javelin_2_mal" List.ItemID="1873759550" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_mansa_javelin_2_mal" List.ItemID="-1747884104" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_2_mal" List.ItemID="-168335407" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="1958653351" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_2_mal" List.ItemID="-1060058920" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -888,12 +886,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_farimba_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1312291764" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_farimba_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="2072313355" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="-1824521096" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="945439669" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="-442590094" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="-1261723184" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_freebornwarrior_3_mal" List.ItemID="1312291764" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_freebornwarrior_3_mal" List.ItemID="2072313355" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_freebornwarrior_3_mal" List.ItemID="-1824521096" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_freebornwarrior_3_mal" List.ItemID="945439669" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_freebornwarrior_3_mal" List.ItemID="-442590094" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_freebornwarrior_3_mal" List.ItemID="-1261723184" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -1319,12 +1317,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_4_mal" List.ItemID="1288749792" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_4_mal" List.ItemID="-1122149299" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="1873759550" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="-1747884104" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="-168335407" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_4_mal" List.ItemID="1958653351" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_2_mal" List.ItemID="1288749792" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="-1122149299" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_2_mal" List.ItemID="1873759550" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_2_mal" List.ItemID="-1747884104" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_2_mal" List.ItemID="-168335407" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="1958653351" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -1391,6 +1389,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-945184272" List.ParentItemID="1720698349">
 			<group name="time_cost">
@@ -1460,6 +1459,12 @@
 			<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 			<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
 			<bool name="can_be_damaged_by_ally" value="False" />
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="True Damage" value="0" />
+				<float name="Melee" value="0" />
+				<float name="Ranged" value="0" />
+				<float name="Fire" value="0" />
+			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="1005674135" List.ParentItemID="-92292861">
 			<file name="construction_stamp" value="art\stamps\scaffolding\west\west_stable" />

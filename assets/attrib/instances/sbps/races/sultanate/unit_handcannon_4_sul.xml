@@ -6,7 +6,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-945597977" List.ParentItemID="-945597977">
 			<list name="unit_list">
 				<group name="loadout_data" List.ItemID="1127064584" List.ParentItemID="1127064584">
-					<instance_reference name="type" value="ebps\races\sultanate\units\unit_handcannon_4_sul" overrideParent="True" />
+					<instance_reference name="type" value="ebps\races\sultanate\units\unit_handcannon_4_sul" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 				</group>
 			</list>
 		</template_reference>
@@ -275,7 +275,7 @@
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
 						<group name="construction_item" comment="Stone Wall Tower - Infantry Version" List.ItemID="731983410">
-							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_tower_sul" overrideParent="True" />
+							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_tower_sul" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" overrideParent="True" />
 								<int name="ui_position_column" value="3" overrideParent="True" />

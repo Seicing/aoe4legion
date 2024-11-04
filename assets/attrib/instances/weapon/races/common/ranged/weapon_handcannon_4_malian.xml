@@ -11,6 +11,11 @@
 		<group name="damage">
 			<float name="max" value="50" overrideParent="True" />
 			<float name="min" value="50" overrideParent="True" />
+			<list name="on_penetrated_state_trees">
+				<group name="container" List.ItemID="921475578" List.ListAction="Append">
+					<string name="state_tree" value="leadshot_slow_on_hit\leadshot_slow_on_hit" overrideParent="True" />
+				</group>
+			</list>
 		</group>
 		<group name="fire">
 			<float name="wind_up" value="0" overrideParent="True" />

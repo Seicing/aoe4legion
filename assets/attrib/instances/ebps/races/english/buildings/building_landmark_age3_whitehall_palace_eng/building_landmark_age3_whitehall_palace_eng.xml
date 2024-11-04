@@ -252,6 +252,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1323114054">
 					<group name="ui_position">
@@ -326,6 +327,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="263651454">
 					<group name="ui_position">
@@ -397,6 +399,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1797097069">
 					<group name="ui_position">
@@ -471,6 +474,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="913781035">
 					<group name="ui_position">
@@ -478,7 +482,7 @@
 						<int name="ui_position_column" value="1" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_eng_yeoman" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_eng_wyngardeyeoman" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -546,6 +550,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1069461508">
 					<group name="ui_position">
@@ -620,6 +625,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1205727537">
 					<group name="ui_position">
@@ -696,6 +702,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="894227847">
 					<group name="ui_position">
@@ -703,7 +710,7 @@
 						<int name="ui_position_column" value="4" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_eng_standingarmy" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_eng_wyngardeartillery" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -771,6 +778,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
@@ -796,6 +804,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="166276" />
