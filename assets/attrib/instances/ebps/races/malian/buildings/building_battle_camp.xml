@@ -673,9 +673,9 @@
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="1288749792" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_mansa_javelin_2_mal" List.ItemID="1873759550" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\farimba_units\unit_mansa_javelin_2_mal" List.ItemID="-1747884104" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_2_mal" List.ItemID="-168335407" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="-168335407" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="1958653351" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_2_mal" List.ItemID="-1060058920" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="-1060058920" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -1319,8 +1319,8 @@
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_2_mal" List.ItemID="1288749792" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="-1122149299" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_2_mal" List.ItemID="1873759550" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_2_mal" List.ItemID="-1747884104" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="1873759550" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_archer_4_mal" List.ItemID="-1747884104" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_javelin_2_mal" List.ItemID="-168335407" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_spearman_1_mal" List.ItemID="1958653351" />
 					</list>
