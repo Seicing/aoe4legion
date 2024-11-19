@@ -2033,6 +2033,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\english\research\upgrade_network_of_citadels_eng" List.ItemID="-809463137" />
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="1943960048" />
 				<instance_reference name="upgrade" value="upgrade\races\english\research\upgrade_ranged_longbow_damage_eng" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1223698921" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="289619219" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-231398338" List.ParentItemID="-231398338">

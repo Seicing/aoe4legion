@@ -109,7 +109,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-476139894">
 			<enum_table name="armor_scaler_by_damage_type">
-				<float name="Fire" value="5" />
+				<float name="Fire" value="6" />
 				<float name="True Damage" value="0" />
 				<float name="Melee" value="0" />
 				<float name="Ranged" value="50" />
@@ -672,6 +672,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_keep_cannon" List.ItemID="-756574840" />
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="1669566773" />
 				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_teppou_denrai_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-617450967" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-871595729" />
 			</list>
 			<bool name="must_be_in_supply" value="False" />
 			<float name="number_of_standard_slots" value="-1" />

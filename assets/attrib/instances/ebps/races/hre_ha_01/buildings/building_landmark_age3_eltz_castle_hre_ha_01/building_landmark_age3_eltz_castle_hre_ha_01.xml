@@ -393,7 +393,7 @@
 				<float name="True Damage" value="0" />
 				<float name="Melee" value="0" />
 				<float name="Ranged" value="50" />
-				<float name="Fire" value="5" overrideParent="True" />
+				<float name="Fire" value="6" overrideParent="True" />
 			</enum_table>
 			<template_reference name="self_destruct_action_tree" value="state_tree_reference_info">
 				<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -411,6 +411,12 @@
 			<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 			<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
 			<bool name="can_be_damaged_by_ally" value="False" />
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="True Damage" value="0" />
+				<float name="Melee" value="0" />
+				<float name="Ranged" value="0" />
+				<float name="Fire" value="0" />
+			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-1380028800">
 			<instance_reference name="hit_material" value="hit_material\stone" />
@@ -738,6 +744,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="279285337" />
 				<instance_reference name="upgrade" value="upgrade\races\hre\research\upgrade_building_fire_armor_hre" List.ItemID="429625283" />
 				<instance_reference name="upgrade" value="upgrade\races\hre\research\upgrade_reinforced_defenses_hre" List.ItemID="-1520002544" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="2011795727" />
 			</list>
 			<int name="max_queue_size_override" value="-1" />
 			<state_tree_node name="production_item_completed_openingbranch" value="" />
@@ -3202,6 +3209,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\trigger_volume_ext" List.ItemID="-1799769217">
 		</template_reference>

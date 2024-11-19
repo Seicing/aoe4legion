@@ -4723,6 +4723,7 @@
 					<instance_reference name="member" value="upgrade\races\common\upgrade_tontgui_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1603644828" />
 					<instance_reference name="member" value="upgrade\races\common\upgrade_warrior_code_chi" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2115743340" />
 					<instance_reference name="member" value="upgrade\races\common\upgrade_logothetes_system" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1534007245" />
+					<instance_reference name="member" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1549867839" />
 				</list>
 				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="1" />

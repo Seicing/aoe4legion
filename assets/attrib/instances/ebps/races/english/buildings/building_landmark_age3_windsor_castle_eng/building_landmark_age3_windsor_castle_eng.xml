@@ -392,7 +392,7 @@
 				<float name="True Damage" value="0" />
 				<float name="Melee" value="0" />
 				<float name="Ranged" value="50" />
-				<float name="Fire" value="5" overrideParent="True" />
+				<float name="Fire" value="6" overrideParent="True" />
 			</enum_table>
 			<template_reference name="self_destruct_action_tree" value="state_tree_reference_info">
 				<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -727,6 +727,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\english\research\upgrade_network_of_citadels_eng" List.ItemID="989248089" />
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="-2022392948" />
 				<instance_reference name="upgrade" value="upgrade\races\english\research\upgrade_ranged_longbow_damage_eng" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1513617679" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="452178125" />
 			</list>
 			<int name="max_queue_size_override" value="-1" />
 			<state_tree_node name="production_item_completed_openingbranch" value="" />

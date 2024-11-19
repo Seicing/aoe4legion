@@ -393,7 +393,7 @@
 				<float name="True Damage" value="0" />
 				<float name="Melee" value="0" />
 				<float name="Ranged" value="50" />
-				<float name="Fire" value="5" overrideParent="True" />
+				<float name="Fire" value="6" overrideParent="True" />
 			</enum_table>
 			<template_reference name="self_destruct_action_tree" value="state_tree_reference_info">
 				<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -745,6 +745,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\hre\research\upgrade_building_fire_armor_hre" List.ItemID="-887358677" />
 				<instance_reference name="upgrade" value="upgrade\races\hre\research\upgrade_reinforced_defenses_hre" List.ItemID="494457058" />
 				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_double_salary_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1667847422" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2050789138" />
 			</list>
 			<int name="max_queue_size_override" value="-1" />
 			<state_tree_node name="production_item_completed_openingbranch" value="" />

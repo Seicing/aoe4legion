@@ -78,7 +78,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="77336098" List.ParentItemID="77336098">
 			<enum_table name="armor_scaler_by_damage_type">
-				<float name="Fire" value="5" overrideParent="True" />
+				<float name="Fire" value="6" overrideParent="True" />
 			</enum_table>
 			<state_tree_node name="death_action_tree" value="building_death_actions\landmarks\landmarks_common\common_landmark_shared_death" overrideParent="True" />
 		</template_reference>
@@ -177,6 +177,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="-1256098822" List.ListAction="Append" />
 				<instance_reference name="upgrade" value="upgrade\races\french\research\upgrade_enlistment_incentives_fre" List.ItemID="849595502" List.ListAction="Append" />
 				<instance_reference name="upgrade" value="upgrade\races\french\research\upgrade_cavalry_grapered_lance_fre" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1244668207" List.ListAction="Append" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1223624132" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-823671089" List.ParentItemID="-823671089">

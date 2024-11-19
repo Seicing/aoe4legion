@@ -70,7 +70,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="77336098" List.ParentItemID="77336098">
 			<enum_table name="armor_scaler_by_damage_type">
-				<float name="Fire" value="5" overrideParent="True" />
+				<float name="Fire" value="6" overrideParent="True" />
 			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="901697529" List.ParentItemID="901697529">
@@ -147,6 +147,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\ottoman\research\upgrade_keep_great_bombard" overrideParent="True" List.ItemID="-709571621" />
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="-511191931" />
 				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_devsirme_system_ott" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2104334912" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="162329134" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-823671089" List.ParentItemID="-823671089">

@@ -7,8 +7,8 @@
 			</group>
 		</group>
 		<group name="damage">
-			<float name="max" value="14" overrideParent="True" />
-			<float name="min" value="14" overrideParent="True" />
+			<float name="max" value="13" overrideParent="True" />
+			<float name="min" value="13" overrideParent="True" />
 		</group>
 		<group name="range">
 			<float name="max" value="15" overrideParent="True" />
@@ -26,11 +26,11 @@
 		</group>
 		<list name="target_type_table">
 			<group name="target_unit_type_multipliers" List.ItemID="-874977791" List.ParentItemID="-874977791">
-				<float name="base_damage_modifier" value="14" overrideParent="True" />
+				<float name="base_damage_modifier" value="13" overrideParent="True" />
 			</group>
 			<group name="target_unit_type_multipliers" List.ItemID="-484768097" List.ParentItemID="-484768097">
 				<enum name="unit_type" value="light_gunpowder_infantry" overrideParent="True" />
-				<float name="base_damage_modifier" value="14" overrideParent="True" />
+				<float name="base_damage_modifier" value="13" overrideParent="True" />
 			</group>
 		</list>
 		<group name="moving">

@@ -103,7 +103,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="484476401" List.ParentItemID="484476401">
 			<instance_reference name="ui_range" value="ui_reticule\aura_ring" overrideParent="True" />
-			<float name="ui_range_radius" value="40" overrideParent="True" />
+			<float name="ui_range_radius" value="48" overrideParent="True" />
 			<group name="on_construction_complete_state_tree_refs">
 				<string name="on_construction_complete_entity_state_tree_ref" value="imperial_council_ott\construction_complete" overrideParent="True" />
 				<string name="while_construction_complete_entity_state_tree_ref" value="building_construction_complete\buildings\landmark_topkapi_palace_construction_complete_ott" overrideParent="True" />
@@ -257,6 +257,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="Scout" List.ItemID="-839196994">
 					<instance_reference name="entity" value="" />
@@ -317,6 +318,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<bool name="must_be_in_supply" value="False" />
@@ -344,6 +346,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="2055470" />

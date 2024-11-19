@@ -7,8 +7,8 @@
 			</group>
 		</group>
 		<group name="damage">
-			<float name="max" value="12" overrideParent="True" />
-			<float name="min" value="12" overrideParent="True" />
+			<float name="max" value="11" overrideParent="True" />
+			<float name="min" value="11" overrideParent="True" />
 			<enum name="damage_type" value="Ranged" overrideParent="True" />
 		</group>
 		<group name="moving">
@@ -35,7 +35,7 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="12" overrideParent="True" />
+				<float name="base_damage_modifier" value="11" overrideParent="True" />
 			</group>
 			<group name="target_unit_type_multipliers" List.ItemID="-484768097">
 				<enum name="unit_type" value="light_gunpowder_infantry" overrideParent="True" />
@@ -45,7 +45,7 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="12" overrideParent="True" />
+				<float name="base_damage_modifier" value="11" overrideParent="True" />
 			</group>
 		</list>
 	</group>

@@ -618,6 +618,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_landmark_keep_defense_sul" List.ItemID="1310903230" />
 				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\economy\upgrade_tech_university_murder_holes_4_sul" List.ItemID="1197135549" />
 				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_gunpowder_empire" mod="67987bbc33214c57b0617d9356614825" List.ItemID="581284491" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-169302630" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="687655738" List.ParentItemID="687655738">

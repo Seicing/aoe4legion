@@ -593,6 +593,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_keep_cannon" List.ItemID="622603772" />
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="257494359" />
 				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_logothetes_system" mod="67987bbc33214c57b0617d9356614825" List.ItemID="353619973" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="956447004" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="1887967718" List.ParentItemID="1887967718">
