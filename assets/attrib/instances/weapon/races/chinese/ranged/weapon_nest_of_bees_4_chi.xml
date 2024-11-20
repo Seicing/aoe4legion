@@ -241,7 +241,7 @@
 			</template_reference>
 		</group>
 		<group name="range">
-			<float name="max" value="28" />
+			<float name="max" value="30" />
 			<float name="min" value="12" />
 			<group name="distance">
 				<float name="near" value="-1" />
