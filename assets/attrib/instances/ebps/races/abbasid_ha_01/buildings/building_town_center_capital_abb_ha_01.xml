@@ -210,6 +210,7 @@
 					</list>
 					<instance_reference name="hotkey_binding" value="" overrideParent="True" />
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1657672299" List.ListAction="Append">
 					<instance_reference name="squad" value="sbps\races\abbasid_ha_01\unit_shogun_ayy" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -275,6 +276,7 @@
 					</list>
 					<instance_reference name="hotkey_binding" value="" overrideParent="True" />
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 		</template_reference>

@@ -52,7 +52,7 @@
 			<string name="selection_grouping_ledger_key" value="" />
 			<string name="debug_text" value="" />
 			<string name="selection_datatemplate" value="BuildingWonderDataTemplate" />
-			<bool name="use_construction_range_on_selection" value="False" />
+			<bool name="use_construction_range_on_selection" value="True" overrideParent="True" />
 			<bool name="use_combat_range_on_selection" value="False" />
 			<bool name="is_armoured" value="False" />
 			<string name="decorator_data_template" value="" />
@@ -163,10 +163,10 @@
 			</group>
 			<instance_reference name="placement_valid" value="ui_rectangle\construction_placement_valid" />
 			<instance_reference name="placement_invalid" value="ui_rectangle\construction_placement_invalid" />
-			<instance_reference name="ui_range" value="" />
+			<instance_reference name="ui_range" value="ui_reticule\weapon_range" overrideParent="True" />
 			<float name="ui_range_radius" value="0" />
 			<instance_reference name="ui_setfacing" value="" />
-			<bool name="query_weapon_for_range_ui" value="False" />
+			<bool name="query_weapon_for_range_ui" value="True" overrideParent="True" />
 			<group name="placement_requirements">
 				<bool name="must_be_in_line_of_sight" value="False" />
 				<bool name="must_not_be_in_walkable_surfaces" value="False" />
@@ -355,7 +355,10 @@
 			</list>
 			<list name="deferred_action_state_trees">
 			</list>
-			<list name="action_state_trees_run_once">
+			<list name="action_state_trees_run_once" overrideParent="True">
+				<group name="container" List.ItemID="-906024113">
+					<string name="state_tree" value="building_action_apply\buildings\town_center_action_apply\set_civ_dynamic_root\hre" overrideParent="True" />
+				</group>
 			</list>
 			<list name="deferred_action_state_trees_run_once">
 			</list>
@@ -413,6 +416,12 @@
 			<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 			<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
 			<bool name="can_be_damaged_by_ally" value="False" />
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="True Damage" value="0" />
+				<float name="Melee" value="0" />
+				<float name="Ranged" value="0" />
+				<float name="Fire" value="0" />
+			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-1644848873">
 			<instance_reference name="hit_material" value="hit_material\stone" />
@@ -884,6 +893,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1887771361">
 					<instance_reference name="entity" value="" />
@@ -947,6 +957,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="Monk&#xD;&#xA;" List.ItemID="-817445351">
 					<group name="ui_position">
@@ -1007,6 +1018,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
@@ -1031,7 +1043,8 @@
 			<bool name="reset_production_progress_at_current_pop_cap" value="False" />
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
-			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="always_use_economic_rally_points" value="True" overrideParent="True" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\stimulus_emission_ext" overrideParent="True" List.ItemID="-1848133093">
 			<list name="emittable_stimulus_types">

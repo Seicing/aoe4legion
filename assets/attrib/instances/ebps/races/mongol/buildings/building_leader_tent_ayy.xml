@@ -2777,6 +2777,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="1720698349" List.ParentItemID="1720698349">
 			<group name="time_cost">
@@ -2846,6 +2847,12 @@
 			<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 			<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
 			<bool name="can_be_damaged_by_ally" value="False" />
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="True Damage" value="0" />
+				<float name="Melee" value="0" />
+				<float name="Ranged" value="0" />
+				<float name="Fire" value="0" />
+			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-92292861" List.ParentItemID="-92292861">
 			<file name="construction_stamp" value="art\stamps\scaffolding\west\west_stable" />

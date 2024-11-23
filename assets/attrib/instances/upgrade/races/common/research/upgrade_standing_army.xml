@@ -23,7 +23,7 @@
 		<enum name="ui_production_group" value="command_panel" />
 		<group name="ui_position">
 			<int name="ui_position_row" value="2" />
-			<int name="ui_position_column" value="4" />
+			<int name="ui_position_column" value="2" />
 		</group>
 		<group name="ui_info">
 			<locstring name="extra_text" value="11168130" />
@@ -77,7 +77,7 @@
 				</template_reference>
 				<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
 					<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\default" />
-					<int name="nominal_index" value="8" />
+					<int name="nominal_index" value="15" />
 					<int name="priority" value="0" />
 					<instance_reference name="linked" value="" />
 				</template_reference>
