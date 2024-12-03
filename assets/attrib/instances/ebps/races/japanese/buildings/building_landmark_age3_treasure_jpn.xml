@@ -477,7 +477,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="-1721221447">
 			<bool name="query_abilities_for_range_ui" value="False" />
-			<instance_reference name="ui_range" value="ui_reticule\structure_range" />
+			<instance_reference name="ui_range" value="ui_reticule\weapon_range" />
 			<bool name="query_weapon_for_range_ui" value="True" />
 			<bool name="show_ability_range_in_construction_item_preview" value="True" />
 			<group name="on_construction_complete_state_tree_refs">
