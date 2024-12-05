@@ -2,17 +2,17 @@
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1356892678" List.ParentItemID="1356892678">
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
-			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_horseman_4" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_knight_4" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-12513399" List.ParentItemID="-12513399">
 			<list name="action_state_trees">
 				<group name="container" List.ItemID="-1622883091" List.ParentItemID="-1622883091">
-					<string name="state_tree" value="unit_action_apply\units\horseman" overrideParent="True" />
+					<string name="state_tree" value="unit_action_apply\units\knight" overrideParent="True" />
 				</group>
 				<group name="container" List.ItemID="2022080988" List.ParentItemID="2022080988">
-					<string name="state_tree" value="unit_action_apply\units\horseman\audio\chi\4" overrideParent="True" />
+					<string name="state_tree" value="unit_action_apply\units\knight\audio\chi\4" overrideParent="True" />
 				</group>
-				<group name="container" List.ItemID="1362348658" List.ListAction="Append">
+				<group name="container" List.ItemID="1375086764" List.ListAction="Append">
 					<string name="state_tree" value="king_action_apply" />
 				</group>
 			</list>
@@ -46,25 +46,28 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1786016482" List.ParentItemID="-1786016482">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\japanese" overrideParent="True" List.ItemID="979444476" />
+				<instance_reference name="race_type" value="racebps\japanese" overrideParent="True" List.ItemID="-773385678" />
 			</list>
-			<list name="unit_type_list" removedIds="-624376203">
-				<enum name="unit_type" value="cavalry_light" overrideParent="True" List.ItemID="1350676038" List.ParentItemID="1350676038" />
-				<enum name="unit_type" value="deflective_armor" comment="Used to drive attack block display in UI" List.ItemID="1072903717" List.ListAction="Append" />
-				<enum name="unit_type" value="bannerman_samurai_jpn" List.ItemID="746409954" List.ListAction="Append" />
-				<enum name="unit_type" value="bannerman_samurai_jpn_cavalry" List.ItemID="1373853489" List.ListAction="Append" />
+			<list name="unit_type_list" removedIds="-624376203, 1817716707, -33973428">
+				<enum name="unit_type" value="deflective_armor" comment="Used to drive attack block display in UI" List.ItemID="-789339226" List.ListAction="Append" />
+				<enum name="unit_type" value="bannerman_samurai_jpn" List.ItemID="452665911" List.ListAction="Append" />
+				<enum name="unit_type" value="bannerman_samurai_jpn_cavalry" List.ItemID="-1957481490" List.ListAction="Append" />
+				<enum name="unit_type" value="armored" List.ItemID="1761606926" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-662784220" List.ParentItemID="-662784220">
 			<instance_reference name="pass_type" value="pass_types\vehicle" overrideParent="True" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="1327234703" List.ParentItemID="1327234703">
+			<string name="speaker_code" value="handcannon" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="1078428342" List.ParentItemID="1078428342">
 			<list name="tier_group_list" overrideParent="True">
-				<list name="tier_group" overrideParent="True" List.ItemID="-805609951">
-					<group name="tier" List.ItemID="-505011697">
+				<list name="tier_group" overrideParent="True" List.ItemID="-488161596">
+					<group name="tier" List.ItemID="-1223762017">
 						<list name="tier_requirements">
 						</list>
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\japanese\units\tier4_cavalry_knight_jpn" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\japanese\units\tier4_cavalry_horseman_jpn" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />
@@ -95,8 +98,8 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_axe_shogun2" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\japanese\weapons\wpn_melee_spearman_long_spear_4_jpn" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_axe_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\japanese\weapons\wpn_melee_knight_4_jpn" overrideParent="True" />
 								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
 							</template_reference>
 						</group>
@@ -113,16 +116,21 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_charge_shogun" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\japanese\weapons\wpn_melee_spearman_long_spear_4_jpn" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\english\melee\weapon_abbey_king_charge_eng" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\japanese\weapons\wpn_melee_knight_4_jpn" overrideParent="True" />
 								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
 							</template_reference>
+							<enum name="type" value="default" overrideParent="True" />
 						</group>
 					</list>
 				</group>
 			</list>
+			<group name="attack_move">
+				<float name="attack_move_priority_per_distance_meter" value="-0.2" overrideParent="True" />
+			</group>
+			<float name="scan_interval_cached_target_invalid" value="2" overrideParent="True" />
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073742089" />
+	<uniqueid name="pbgid" value="1073742433" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_knight_4" />
 </instance>

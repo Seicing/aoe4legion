@@ -4627,6 +4627,8 @@
 					<instance_reference name="member" value="sbps\races\byzantine\unit_bombard_basilica_byz" mod="67987bbc33214c57b0617d9356614825" List.ItemID="763741264" />
 					<instance_reference name="member" value="sbps\races\japanese\unit_shogun_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1199492417" />
 					<instance_reference name="member" value="sbps\races\mongol\unit_shogun_mon" mod="67987bbc33214c57b0617d9356614825" List.ItemID="659344210" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_shogun_gun_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1106249560" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_shogun_katana_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1576121678" />
 				</list>
 				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="1" />

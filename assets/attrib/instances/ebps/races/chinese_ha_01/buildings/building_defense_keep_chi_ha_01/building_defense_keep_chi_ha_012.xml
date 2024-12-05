@@ -22,7 +22,7 @@
 					<float name="stone" value="300" overrideParent="True" />
 					<float name="wood" value="300" overrideParent="True" />
 				</enum_table>
-				<float name="time_seconds" value="90" overrideParent="True" />
+				<float name="time_seconds" value="20" overrideParent="True" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\impass_ext" List.ItemID="-1048125279" List.ParentItemID="-1048125279">
