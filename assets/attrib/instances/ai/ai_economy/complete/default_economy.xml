@@ -4618,7 +4618,7 @@
 					<instance_reference name="member" value="sbps\races\sultanate\unit_shogun_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-897345694" />
 					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_mamuluke_ayy" mod="67987bbc33214c57b0617d9356614825" List.ItemID="599726844" />
 					<instance_reference name="member" value="sbps\races\abbasid\unit_mamuluke_abb" mod="67987bbc33214c57b0617d9356614825" List.ItemID="899029218" />
-					<instance_reference name="member" value="ebps\races\mongol\buildings\building_leader_tent_ayy" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1629185242" />
+					<instance_reference name="member" value="ebps\races\mongol\buildings\building_leader_tent_mon" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1629185242" />
 					<instance_reference name="member" value="sbps\races\byzantine\unit_grenadier_4_byz" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1946988736" />
 					<instance_reference name="member" value="sbps\races\abbasid\unit_shogun_abb" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1346404805" />
 					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_shogun_ayy" mod="67987bbc33214c57b0617d9356614825" List.ItemID="436884758" />

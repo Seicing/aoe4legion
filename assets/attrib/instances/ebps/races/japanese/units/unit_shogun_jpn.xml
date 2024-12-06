@@ -23,6 +23,7 @@
 					<float name="gold" value="100" overrideParent="True" />
 					<float name="food" value="100" overrideParent="True" />
 				</enum_table>
+				<float name="time_seconds" value="30" overrideParent="True" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-788422057" List.ParentItemID="-788422057">
@@ -48,7 +49,7 @@
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\japanese" overrideParent="True" List.ItemID="979444476" />
 			</list>
-			<list name="unit_type_list" removedIds="-624376203">
+			<list name="unit_type_list" removedIds="-624376203, -90441891">
 				<enum name="unit_type" value="cavalry_light" overrideParent="True" List.ItemID="1350676038" List.ParentItemID="1350676038" />
 				<enum name="unit_type" value="deflective_armor" comment="Used to drive attack block display in UI" List.ItemID="1072903717" List.ListAction="Append" />
 				<enum name="unit_type" value="bannerman_samurai_jpn" List.ItemID="746409954" List.ListAction="Append" />

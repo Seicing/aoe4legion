@@ -61,9 +61,9 @@
 			<list name="squad_race_type_list" overrideParent="True">
 				<instance_reference name="squad_race_type" value="racebps\malian" overrideParent="True" List.ItemID="-2079570716" />
 			</list>
-			<list name="squad_type_list" removedIds="-1676908413, -1900119987">
-				<enum name="squad_type" value="scar_horseman" overrideParent="True" List.ItemID="1228709163" List.ParentItemID="1228709163" />
-				<enum name="squad_type" value="horseman" List.ItemID="-558415119" List.ListAction="Append" />
+			<list name="squad_type_list" removedIds="-1900119987">
+				<enum name="squad_type" value="scar_knight" overrideParent="True" List.ItemID="1228709163" List.ParentItemID="1228709163" />
+				<enum name="squad_type" value="knight" overrideParent="True" List.ItemID="-558415119" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="1990237064" List.ParentItemID="1990237064">

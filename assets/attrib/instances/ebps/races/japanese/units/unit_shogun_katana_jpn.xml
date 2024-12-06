@@ -23,6 +23,7 @@
 					<float name="gold" value="100" overrideParent="True" />
 					<float name="food" value="100" overrideParent="True" />
 				</enum_table>
+				<float name="time_seconds" value="30" overrideParent="True" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-788422057" List.ParentItemID="-788422057">

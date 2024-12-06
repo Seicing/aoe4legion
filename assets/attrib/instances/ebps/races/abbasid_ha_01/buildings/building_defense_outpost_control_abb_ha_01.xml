@@ -106,8 +106,10 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
+			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed_abb_ha" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-589861990" List.ParentItemID="-589861990">
 			<list name="abilities" overrideParent="True">

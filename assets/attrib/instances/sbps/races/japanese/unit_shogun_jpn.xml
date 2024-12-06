@@ -61,6 +61,8 @@
 				<instance_reference name="squad_race_type" value="racebps\japanese" overrideParent="True" List.ItemID="633230262" />
 			</list>
 			<list name="squad_type_list" removedIds="1643737965">
+				<enum name="squad_type" value="scar_horseman" overrideParent="True" List.ItemID="1228709163" List.ParentItemID="1228709163" />
+				<enum name="squad_type" value="horseman" overrideParent="True" List.ItemID="-1900119987" List.ParentItemID="-1900119987" />
 				<enum name="squad_type" value="audio_abbey_crown_a_king" List.ItemID="-1058279044" List.ListAction="Append" />
 				<enum name="squad_type" value="leader" List.ItemID="-1861802449" List.ListAction="Append" />
 			</list>

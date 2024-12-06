@@ -91,6 +91,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -139,6 +143,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -186,6 +194,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -234,6 +246,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -282,6 +298,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -329,6 +349,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -377,6 +401,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -421,6 +449,10 @@
 								<template_reference name="relic_radial_menu_info" value="">
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -459,6 +491,10 @@
 								<template_reference name="relic_radial_menu_info" value="">
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -513,6 +549,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -561,6 +601,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -609,6 +653,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -657,6 +705,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -700,6 +752,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -748,6 +804,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -796,6 +856,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -859,6 +923,10 @@
 								<template_reference name="relic_radial_menu_info" value="">
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -897,6 +965,10 @@
 								<template_reference name="relic_radial_menu_info" value="">
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -951,6 +1023,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -999,6 +1075,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -1047,11 +1127,15 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
 						<group name="construction_item" comment="Monastery" List.ItemID="345325831">
-							<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_leader_tent_ayy" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+							<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_leader_tent_mon" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" overrideParent="True" />
 								<int name="ui_position_column" value="1" overrideParent="True" />
@@ -1094,6 +1178,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -1138,6 +1226,10 @@
 								<template_reference name="relic_radial_menu_info" value="">
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -1176,6 +1268,10 @@
 								<template_reference name="relic_radial_menu_info" value="">
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
@@ -1229,6 +1325,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
