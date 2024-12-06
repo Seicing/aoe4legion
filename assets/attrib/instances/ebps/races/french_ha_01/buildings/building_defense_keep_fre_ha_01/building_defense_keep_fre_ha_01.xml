@@ -672,7 +672,7 @@
 			<int name="max_queue_size_override" value="-1" />
 			<string name="queue_requirements_openingbranch" value="" />
 			<string name="reinforce_requirements_openingbranch" value="" />
-			<state_tree_node name="production_item_completed_openingbranch" value="" />
+			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed\Master\building_production_item_complete\building_production_item_complete_keep" overrideParent="True" />
 			<bool name="enforce_minimum_clearance_at_spawn_positions" value="True" />
 			<bool name="enforce_minimum_clearance_if_entities_blocking" value="True" />
 			<float name="enforce_minimum_clearance_at_spawn_positions_search_range" value="30" />

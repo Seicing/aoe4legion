@@ -2043,7 +2043,7 @@
 			<bool name="must_be_in_supply" value="False" />
 			<float name="reinforce_radius" value="0" />
 			<list name="spawn_items" overrideParent="True">
-				<group name="spawn_item" List.ItemID="2006584566">
+				<group name="spawn_item" List.ItemID="-337281228">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
 						<int name="ui_position_column" value="1" overrideParent="True" />
@@ -2069,12 +2069,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\french\unit_horsearcher_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-751455667" />
-						<instance_reference name="additional_squad" value="sbps\races\french\unit_knight_2_fre" overrideParent="True" List.ItemID="-704923131" />
-						<instance_reference name="additional_squad" value="sbps\races\french\unit_horseman_2_fre" List.ItemID="-870669234" />
-						<instance_reference name="additional_squad" value="sbps\races\french\unit_knight_2_fre" overrideParent="True" List.ItemID="-1652102832" />
-						<instance_reference name="additional_squad" value="sbps\races\french\unit_knight_2_fre" overrideParent="True" List.ItemID="-1330184867" />
-						<instance_reference name="additional_squad" value="sbps\races\french\unit_horseman_2_fre" List.ItemID="565406014" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_horsearcher_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="993209284" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_horseman_2_fre" List.ItemID="-384384312" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_horseman_2_fre" List.ItemID="1983799002" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_knight_2_fre" overrideParent="True" List.ItemID="-1146689332" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_knight_2_fre" overrideParent="True" List.ItemID="462745027" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_knight_2_fre" overrideParent="True" List.ItemID="-753481702" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -2115,7 +2115,7 @@
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="272380309">
+				<group name="spawn_item" List.ItemID="-1766791901">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
 						<int name="ui_position_column" value="2" overrideParent="True" />
@@ -2187,7 +2187,7 @@
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="-1496341936">
+				<group name="spawn_item" List.ItemID="-60227920">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
 						<int name="ui_position_column" value="3" overrideParent="True" />
@@ -2259,7 +2259,7 @@
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="1121484678">
+				<group name="spawn_item" List.ItemID="-1268206658">
 					<group name="ui_position">
 						<int name="ui_position_row" value="3" overrideParent="True" />
 						<int name="ui_position_column" value="2" overrideParent="True" />
@@ -2325,7 +2325,7 @@
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="-1673968713">
+				<group name="spawn_item" List.ItemID="407190805">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
 						<int name="ui_position_column" value="4" overrideParent="True" />
@@ -2396,7 +2396,7 @@
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="-1574179057">
+				<group name="spawn_item" List.ItemID="-505516920">
 					<group name="ui_position">
 						<int name="ui_position_row" value="3" overrideParent="True" />
 						<int name="ui_position_column" value="3" overrideParent="True" />
@@ -2476,7 +2476,7 @@
 			<int name="max_queue_size_override" value="-1" />
 			<string name="queue_requirements_openingbranch" value="" />
 			<string name="reinforce_requirements_openingbranch" value="" />
-			<state_tree_node name="production_item_completed_openingbranch" value="" />
+			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed\Master\building_production_item_complete\building_production_item_complete_keep" overrideParent="True" />
 			<bool name="enforce_minimum_clearance_at_spawn_positions" value="True" overrideParent="True" />
 			<bool name="enforce_minimum_clearance_if_entities_blocking" value="True" />
 			<float name="enforce_minimum_clearance_at_spawn_positions_search_range" value="30" overrideParent="True" />

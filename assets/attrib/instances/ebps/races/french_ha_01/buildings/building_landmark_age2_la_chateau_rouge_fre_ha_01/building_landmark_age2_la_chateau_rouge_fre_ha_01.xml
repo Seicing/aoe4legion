@@ -2020,8 +2020,8 @@
 		<template_reference name="exts" value="ebpextensions\trigger_volume_ext" List.ItemID="1972908960" List.ListAction="Append">
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\spawner_ext" overrideParent="True" List.ItemID="-1793194648" List.ListAction="Append">
-			<list name="spawn_items">
-				<group name="spawn_item" overrideParent="True" List.ItemID="1900791658">
+			<list name="spawn_items" overrideParent="True">
+				<group name="spawn_item" List.ItemID="-1848649482">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
 						<int name="ui_position_column" value="2" overrideParent="True" />
@@ -2047,12 +2047,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_knight_2_fre_ha_01" overrideParent="True" List.ItemID="-621124517" />
-						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_knight_2_fre_ha_01" overrideParent="True" List.ItemID="-746365721" />
-						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_knight_2_fre_ha_01" overrideParent="True" List.ItemID="1873000627" />
-						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_rally_horseman_3_fre_ha_01" overrideParent="True" List.ItemID="2093012121" />
-						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_rally_horseman_3_fre_ha_01" overrideParent="True" List.ItemID="1410895962" />
-						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_rally_horseman_3_fre_ha_01" overrideParent="True" List.ItemID="106118587" />
+						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_knight_2_fre_ha_01" overrideParent="True" List.ItemID="1010848324" />
+						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_knight_2_fre_ha_01" overrideParent="True" List.ItemID="1806238931" />
+						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_knight_2_fre_ha_01" overrideParent="True" List.ItemID="1518502591" />
+						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_rally_horseman_3_fre_ha_01" overrideParent="True" List.ItemID="116595549" />
+						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_rally_horseman_3_fre_ha_01" overrideParent="True" List.ItemID="1937559917" />
+						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_rally_horseman_3_fre_ha_01" overrideParent="True" List.ItemID="1261145116" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -2093,7 +2093,7 @@
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" overrideParent="True" List.ItemID="1406345643">
+				<group name="spawn_item" overrideParent="True" List.ItemID="-384234128">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
 						<int name="ui_position_column" value="1" overrideParent="True" />
@@ -2119,12 +2119,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_manatarms_3_fre_ha_01" overrideParent="True" List.ItemID="1767785038" />
-						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_manatarms_3_fre_ha_01" overrideParent="True" List.ItemID="-1630148302" />
-						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_manatarms_3_fre_ha_01" overrideParent="True" List.ItemID="1078941426" />
-						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_rally_manatarms_3_fre_ha_01" overrideParent="True" List.ItemID="-95917541" />
-						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_rally_manatarms_3_fre_ha_01" overrideParent="True" List.ItemID="-1002320090" />
-						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_rally_manatarms_3_fre_ha_01" overrideParent="True" List.ItemID="-1228588184" />
+						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_manatarms_3_fre_ha_01" overrideParent="True" List.ItemID="1940270530" />
+						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_manatarms_3_fre_ha_01" overrideParent="True" List.ItemID="-1922640966" />
+						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_manatarms_3_fre_ha_01" overrideParent="True" List.ItemID="1299121501" />
+						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_rally_manatarms_3_fre_ha_01" overrideParent="True" List.ItemID="-2126162270" />
+						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_rally_manatarms_3_fre_ha_01" overrideParent="True" List.ItemID="-980009153" />
+						<instance_reference name="additional_squad" value="sbps\races\french_ha_01\unit_rally_manatarms_3_fre_ha_01" overrideParent="True" List.ItemID="-815782305" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -2165,7 +2165,7 @@
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" overrideParent="True" List.ItemID="-688821013">
+				<group name="spawn_item" overrideParent="True" List.ItemID="710051371">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
 						<int name="ui_position_column" value="3" overrideParent="True" />
@@ -2236,7 +2236,7 @@
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" overrideParent="True" List.ItemID="-1899228767">
+				<group name="spawn_item" overrideParent="True" List.ItemID="-1457563699">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
 						<int name="ui_position_column" value="4" overrideParent="True" />
@@ -2308,7 +2308,7 @@
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="-1465754367">
+				<group name="spawn_item" List.ItemID="10758103">
 					<group name="ui_position">
 						<int name="ui_position_row" value="3" overrideParent="True" />
 						<int name="ui_position_column" value="2" overrideParent="True" />
@@ -2390,7 +2390,7 @@
 			<int name="max_queue_size_override" value="-1" />
 			<string name="queue_requirements_openingbranch" value="" />
 			<string name="reinforce_requirements_openingbranch" value="" />
-			<state_tree_node name="production_item_completed_openingbranch" value="" />
+			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed\Master\building_production_item_complete\building_production_item_complete_keep" overrideParent="True" />
 			<bool name="enforce_minimum_clearance_at_spawn_positions" value="True" />
 			<bool name="enforce_minimum_clearance_if_entities_blocking" value="True" />
 			<float name="enforce_minimum_clearance_at_spawn_positions_search_range" value="30" />
