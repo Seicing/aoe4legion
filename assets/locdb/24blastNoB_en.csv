@@ -196,7 +196,7 @@
 420,,,screen_name,,,Turkmen Mercenary
 421,,,screen_name,,,Norse Warrior
 422,,,screen_name,,,Knights Templar
-423,,,help_text,,,Powerful Japanese Military Leaders
+423,,,help_text,,,Japanese Military Leader
 424,,,screen_name,,,Daimyo
 425,,,screen_name,,,Strategos
 426,,,help_text,,,"Byzantine Themata General, Use the Byzantine Empire's cavalry tactics to suppress the opponent.\n- Provide Torch Strengthen Aura when researched Technology\n- Provide Speed Ability when Imperial Hippodrome Landmark built\n- Provide Recovery Ability when Cistern of the First Hill Landmark built"
@@ -252,7 +252,7 @@
 526,,,screen_name,,,Yuan Raider
 531,,,screen_name,,,Empire Rising
 537,,,extra_text,,,Handcannoneer Technology
-538,,,formatter,,,Bannerman units health +%1%%% and damage +%2%.
+538,,,formatter,,,Bannerman units health +%1%%% and damage +%2% and unlock a powerful Shogun.
 539,,,screen_name,,,Shogunate
 541,,,ui_name,,,Shotgun
 544,,,screen_name,,,Shotgunner
@@ -454,3 +454,5 @@
 776,,,help_text,,,"Mobilize 10 Forbidden Army into war, they use handcannon, spears and swords to fight."
 777,,,ui_name,,,Maximum of 1 can be built.
 778,,,help_text,,,Allow to Products Clocktower Units and Imperial Palace Forbidden Army Legion.
+779,,,screen_name,,,Shogun
+780,,,help_text,,,"Powerful Japanese Military Leaders, Cause area damage."
