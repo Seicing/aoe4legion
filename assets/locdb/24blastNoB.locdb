@@ -14,9 +14,14 @@
 			<Name>zh-Hans</Name>
 		</Locale>
 		<Locale>
-			<DisplayName>Deutsch</DisplayName>
+			<DisplayName>German</DisplayName>
 			<EngineName i:nil="true" />
 			<Name>de</Name>
+		</Locale>
+		<Locale>
+			<DisplayName>中文(繁体)</DisplayName>
+			<EngineName i:nil="true" />
+			<Name>zh-Hant</Name>
 		</Locale>
 	</Locales>
 	<Pipelines />

@@ -10,6 +10,13 @@
 				</group>
 			</list>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="610055753" List.ParentItemID="610055753">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="wood" value="30" overrideParent="True" />
+				</enum_table>
+			</group>
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-2112301127" List.ParentItemID="-2112301127">
 			<float name="hitpoints" value="150" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
