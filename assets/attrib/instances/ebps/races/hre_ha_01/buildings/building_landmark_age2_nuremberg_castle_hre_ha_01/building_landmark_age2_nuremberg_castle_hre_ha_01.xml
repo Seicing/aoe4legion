@@ -169,6 +169,8 @@
 				<instance_reference name="upgrade" value="upgrade\races\hre_ha_01\units\upgrade_unit_manatarms_4_hre_ha_01" overrideParent="True" List.ItemID="-434815030" />
 				<instance_reference name="upgrade" value="upgrade\races\hre_ha_01\units\upgrade_unit_landsknecht_4_hre_ha_01" overrideParent="True" List.ItemID="1196299607" />
 				<instance_reference name="upgrade" value="upgrade\races\hre_ha_01\research\upgrade_dragon_fire_hre_ha_01" overrideParent="True" List.ItemID="1193648112" />
+				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_hungariansblackarmy" mod="67987bbc33214c57b0617d9356614825" List.ItemID="434359020" />
+				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_hussiteuprising" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="710011075" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-1064007581" List.ParentItemID="-1064007581">
@@ -872,7 +874,7 @@
 				<group name="spawn_item" List.ItemID="-1827075261">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_column" value="4" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_hre_hospitalier" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -1012,10 +1014,10 @@
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="1151698152">
+				<group name="spawn_item" overrideParent="True" List.ItemID="1151698152">
 					<group name="ui_position">
-						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="4" overrideParent="True" />
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="1" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_otd_hungariansblackarmy" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -1038,12 +1040,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" overrideParent="True" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_handcannon_4_hre_ha_01" overrideParent="True" List.ItemID="-505792951" />
-						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_handcannon_4_hre_ha_01" overrideParent="True" List.ItemID="1351704337" />
-						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_handcannon_4_hre_ha_01" overrideParent="True" List.ItemID="581773278" />
-						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_handcannon_4_hre_ha_01" overrideParent="True" List.ItemID="1953790662" />
-						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_handcannon_4_hre_ha_01" overrideParent="True" List.ItemID="-444693625" />
-						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_handcannon_4_hre_ha_01" overrideParent="True" List.ItemID="731434889" />
+						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_handcannon_4_hre_ha_01" overrideParent="True" List.ItemID="1136287455" />
+						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_handcannon_4_hre_ha_01" overrideParent="True" List.ItemID="1655900076" />
+						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_handcannon_4_hre_ha_01" overrideParent="True" List.ItemID="-1534290132" />
+						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_handcannon_4_hre_ha_01" overrideParent="True" List.ItemID="1445885704" />
+						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_handcannon_4_hre_ha_01" overrideParent="True" List.ItemID="1764889015" />
+						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_handcannon_4_hre_ha_01" overrideParent="True" List.ItemID="302766192" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -1087,7 +1089,7 @@
 				<group name="spawn_item" List.ItemID="-1343000243">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
-						<int name="ui_position_column" value="4" overrideParent="True" />
+						<int name="ui_position_column" value="1" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_otd_orderofthedragon" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -1163,7 +1165,7 @@
 				<group name="spawn_item" List.ItemID="1503105806">
 					<group name="ui_position">
 						<int name="ui_position_row" value="2" overrideParent="True" />
-						<int name="ui_position_column" value="1" overrideParent="True" />
+						<int name="ui_position_column" value="4" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\hre_ha_01\unit_hospital_shogun_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -1429,6 +1431,78 @@
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
 				</group>
+				<group name="spawn_item" overrideParent="True" List.ItemID="542138160">
+					<group name="ui_position">
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_otd_hussiteuprising" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" overrideParent="True" />
+					<locstring name="ui_help_text" value="0" overrideParent="True" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" overrideParent="True" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_spearman_hussite_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="273154587" />
+						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_crossbowman_hussite_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-668193545" />
+						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_crossbowman_hussite_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="2041057894" />
+						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_crossbowman_hussite_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="2124817763" />
+						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_spearman_hussite_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="2110419603" />
+						<instance_reference name="additional_squad" value="sbps\races\hre_ha_01\unit_spearman_hussite_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1700423920" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="3" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" overrideParent="True" />
+				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
 			</list>
@@ -1453,6 +1527,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="8341568" />
