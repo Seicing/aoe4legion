@@ -8,9 +8,13 @@
 			<group name="time_cost">
 				<float name="time_seconds" value="30" overrideParent="True" />
 				<enum_table name="cost">
-					<float name="wood" value="300" overrideParent="True" />
+					<float name="wood" value="250" overrideParent="True" />
+					<float name="gold" value="100" overrideParent="True" />
 				</enum_table>
 			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-487450359" List.ParentItemID="-487450359">
+			<float name="hitpoints" value="235" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1903432945" List.ParentItemID="-1903432945">
 			<list name="race_type_list">
