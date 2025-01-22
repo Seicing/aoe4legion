@@ -1,11 +1,11 @@
 <instance version="4" description="" template="ebps">
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="464045194">
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1625636477">
 			<list name="action_state_trees">
 			</list>
 			<bool name="reset_on_load" value="True" />
 			<list name="physical_state_trees">
-				<group name="container" List.ItemID="-345011712">
+				<group name="container" List.ItemID="-458609826">
 					<string name="state_tree" value="wynguard_army_action_apply_eng" />
 				</group>
 			</list>
@@ -18,16 +18,16 @@
 			<list name="physical_state_trees_run_once">
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-831733944">
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="1254989700">
 			<group name="time_cost">
 				<enum_table name="cost">
 					<float name="action" value="0" />
 					<float name="popcap" value="0" />
 					<float name="command" value="0" />
-					<float name="food" value="1500" />
-					<float name="wood" value="0" />
+					<float name="food" value="400" />
+					<float name="wood" value="250" />
 					<float name="stone" value="0" />
-					<float name="gold" value="1000" />
+					<float name="gold" value="0" />
 					<float name="militia_hre" value="0" />
 					<float name="merc_byz" value="0" />
 				</enum_table>
@@ -35,9 +35,9 @@
 				<int name="time_turns" value="0" />
 			</group>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="581118568">
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="2051197498">
 			<float name="medic_pop" value="0" />
-			<float name="personnel_pop" value="9" />
+			<float name="personnel_pop" value="6" />
 			<float name="vehicle_pop" value="0" />
 			<enum_table name="upkeep_per_pop_per_minute_override">
 				<float name="action" value="0" />
@@ -51,7 +51,7 @@
 				<float name="merc_byz" value="0" />
 			</enum_table>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="-102241022">
+		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="273161627">
 			<state_tree_node name="ActionTree_OpeningBranch" value="" />
 			<bool name="use_root_motion" value="True" />
 			<bool name="start_suspended" value="False" />
@@ -59,7 +59,7 @@
 			<float name="speed_scale_threshold" value="100" />
 			<string name="default_animation" value="" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-357452495">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-122997128">
 			<file name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
 			<bool name="is_visible_in_game" value="True" />
@@ -75,6 +75,6 @@
 			<enum name="subclass_type" value="Generic" />
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073742112" />
+	<uniqueid name="pbgid" value="1073742437" />
 	<instance_reference name="parent_pbg" value="" />
 </instance>

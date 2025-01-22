@@ -1,0 +1,50 @@
+<instance version="4" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-1780894594" List.ParentItemID="-1780894594">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="2005613114" List.ParentItemID="2005613114">
+					<group name="info">
+						<locstring name="help_text" value="788" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="screen_name" value="787" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<string name="selection_group" value="ramhussite" overrideParent="True" />
+						<file name="icon_name" value="hussitewagon" overrideParent="True" />
+						<file name="portrait_name" value="hussitewagon" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="1359307790" List.ParentItemID="1359307790">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-9673855" List.ParentItemID="-9673855">
+					<instance_reference name="type" value="ebps\races\hre_ha_01\units\unit_workshop_ram_hussite_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<list name="unit_attachments">
+						<group name="unit" List.ItemID="-1154196569" List.ListAction="Append">
+							<instance_reference name="type" value="ebps\races\sultanate\units\unit_war_elephant_tower_handcannoneer_4_sul" />
+							<string name="marker" value="mkr_archer01" />
+						</group>
+					</list>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-643919510" List.ParentItemID="-643919510">
+			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1598233068" List.ParentItemID="1598233068">
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" overrideParent="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="2076078729" List.ParentItemID="2076078729">
+			<list name="abilities">
+				<instance_reference name="ability" value="abilities\always_on_abilities\hre\inspired_infantry_hre" List.ItemID="1553923232" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="516946195" List.ParentItemID="516946195">
+			<list name="squad_race_type_list">
+				<instance_reference name="squad_race_type" value="racebps\hre_ha_01" List.ItemID="1120881977" List.ListAction="Append" />
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742449" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_ram_3" />
+</instance>
