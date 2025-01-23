@@ -1,0 +1,43 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="area_effect">
+			<group name="distance">
+				<float name="far" value="1" overrideParent="True" />
+				<float name="near" value="1" overrideParent="True" />
+				<float name="mid" value="1" overrideParent="True" />
+			</group>
+		</group>
+		<group name="behaviour">
+			<float name="ground_hit_rate" value="0" overrideParent="True" />
+		</group>
+		<group name="fire">
+			<float name="wind_up" value="0.25" overrideParent="True" />
+		</group>
+		<group name="moving">
+			<bool name="can_fire_while_moving" value="True" overrideParent="True" />
+		</group>
+		<group name="range">
+			<float name="max" value="20" overrideParent="True" />
+			<float name="max_animation_angle_distance" value="22" overrideParent="True" />
+		</group>
+		<group name="reload">
+			<group name="duration">
+				<float name="max" value="0.5" overrideParent="True" />
+				<float name="min" value="0.5" overrideParent="True" />
+			</group>
+		</group>
+		<group name="scatter">
+			<float name="distance_scatter_max" value="3" overrideParent="True" />
+			<float name="distance_scatter_ratio" value="0.005" overrideParent="True" />
+			<float name="fow_angle_multiplier" value="1" overrideParent="True" />
+			<float name="fow_distance_multiplier" value="1" overrideParent="True" />
+		</group>
+		<string name="ui_tooltip_weapon_group" value="elephant_handcannon" overrideParent="True" />
+		<group name="damage">
+			<float name="max" value="20" overrideParent="True" />
+			<float name="min" value="20" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="1073742453" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_handcannon_4" />
+</instance>

@@ -18,10 +18,14 @@
 			<list name="unit_list">
 				<group name="loadout_data" List.ItemID="-9673855" List.ParentItemID="-9673855">
 					<instance_reference name="type" value="ebps\races\hre_ha_01\units\unit_workshop_ram_hussite2_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-					<list name="unit_attachments">
-						<group name="unit" List.ItemID="1781098361" List.ListAction="Append">
-							<instance_reference name="type" value="ebps\races\sultanate\units\unit_war_elephant_tower_handcannoneer_4_sul" />
+					<list name="unit_attachments" overrideParent="True">
+						<group name="unit" List.ItemID="451437121">
+							<instance_reference name="type" value="ebps\races\hre_ha_01\units\unit_hussitewagon_handcannoneer_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 							<string name="marker" value="mkr_archer01" />
+						</group>
+						<group name="unit" List.ItemID="362865269">
+							<instance_reference name="type" value="ebps\races\hre_ha_01\units\unit_hussitewagon_handcannoneer_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+							<string name="marker" value="mkr_archer02" />
 						</group>
 					</list>
 				</group>

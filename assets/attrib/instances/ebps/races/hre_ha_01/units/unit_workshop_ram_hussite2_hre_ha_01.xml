@@ -6,15 +6,18 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="1004494232" List.ParentItemID="1004494232">
 			<group name="time_cost">
-				<float name="time_seconds" value="30" overrideParent="True" />
+				<float name="time_seconds" value="40" overrideParent="True" />
 				<enum_table name="cost">
 					<float name="wood" value="250" overrideParent="True" />
-					<float name="gold" value="100" overrideParent="True" />
+					<float name="gold" value="125" overrideParent="True" />
 				</enum_table>
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-487450359" List.ParentItemID="-487450359">
 			<float name="hitpoints" value="235" overrideParent="True" />
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="Ranged" value="88" overrideParent="True" />
+			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1903432945" List.ParentItemID="-1903432945">
 			<list name="race_type_list">
@@ -85,6 +88,9 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-559472318" List.ParentItemID="-559472318">
 			<instance_reference name="schema" value="statemodel_schema\units\civilizations\hre\ram_hre" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-740053457" List.ParentItemID="-740053457">
+			<float name="personnel_pop" value="1.5" overrideParent="True" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073742450" />
