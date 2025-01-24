@@ -21,11 +21,11 @@
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="1168881951" List.ParentItemID="1168881951">
 			<group name="time_cost">
 				<enum_table name="cost">
-					<float name="food" value="200" overrideParent="True" />
-					<float name="gold" value="200" overrideParent="True" />
+					<float name="food" value="300" overrideParent="True" />
+					<float name="gold" value="300" overrideParent="True" />
 					<float name="wood" value="0" overrideParent="True" />
 				</enum_table>
-				<float name="time_seconds" value="50" overrideParent="True" />
+				<float name="time_seconds" value="90" overrideParent="True" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-975825396" List.ParentItemID="-975825396">

@@ -4629,6 +4629,7 @@
 					<instance_reference name="member" value="sbps\races\mongol\unit_shogun_mon" mod="67987bbc33214c57b0617d9356614825" List.ItemID="659344210" />
 					<instance_reference name="member" value="sbps\races\japanese\unit_shogun_gun_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1106249560" />
 					<instance_reference name="member" value="sbps\races\japanese\unit_shogun_katana_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1576121678" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_iron_pagoda_mon" mod="67987bbc33214c57b0617d9356614825" List.ItemID="253760727" />
 				</list>
 				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="1" />
@@ -4678,9 +4679,7 @@
 					<instance_reference name="member" value="sbps\races\legion\legion_mon_chagatai" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1469717230" />
 					<instance_reference name="member" value="sbps\races\legion\legion_mon_goldenhorde" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-926801471" />
 					<instance_reference name="member" value="sbps\races\legion\legion_mon_il" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1457222015" />
-					<instance_reference name="member" value="sbps\races\legion\legion_mon_mongols" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1014007589" />
 					<instance_reference name="member" value="sbps\races\legion\legion_mon_yuan" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1409756179" />
-					<instance_reference name="member" value="sbps\races\legion\legion_otd_hungariansblackarmy" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1148952690" />
 					<instance_reference name="member" value="sbps\races\legion\legion_otd_orderofthedragon" mod="67987bbc33214c57b0617d9356614825" List.ItemID="2088808506" />
 					<instance_reference name="member" value="sbps\races\legion\legion_ott_akinci" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1030250905" />
 					<instance_reference name="member" value="sbps\races\legion\legion_ott_serbi" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1359658599" />
