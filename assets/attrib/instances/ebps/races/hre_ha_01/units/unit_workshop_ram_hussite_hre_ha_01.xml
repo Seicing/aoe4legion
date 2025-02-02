@@ -14,7 +14,7 @@
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-487450359" List.ParentItemID="-487450359">
-			<float name="hitpoints" value="235" overrideParent="True" />
+			<float name="hitpoints" value="270" overrideParent="True" />
 			<enum_table name="percentage_reduction_armor_by_damage_type">
 				<float name="Ranged" value="88" overrideParent="True" />
 			</enum_table>

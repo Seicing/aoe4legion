@@ -1532,7 +1532,7 @@
 					<instance_reference name="entity" value="ebps\races\french\buildings\building_landmark_age3_le_grande_university_fre\building_landmark_age3_le_grande_university_fre" List.ItemID="1528502241" />
 					<instance_reference name="entity" value="ebps\races\hre\buildings\building_landmark_age3_eltz_castle_hre\building_landmark_age3_eltz_castle_hre" List.ItemID="-691939805" />
 					<instance_reference name="entity" value="ebps\races\rus\buildings\building_landmark_age3_spassakaya_tower_rus\building_landmark_age3_spassakaya_tower_control_rus" List.ItemID="301050322" />
-					<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" List.ItemID="1700124592" />
+					<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1700124592" />
 					<instance_reference name="entity" value="ebps\races\chinese\buildings\building_landmark_age3_sprit_way_chi\building_landmark_age3_spirit_way_control_chi" List.ItemID="1862224868" />
 					<instance_reference name="entity" value="ebps\races\ottoman\buildings\building_landmark_age3_kilitbahir_castle_ott" List.ItemID="1526254230" />
 				</list>
@@ -2708,7 +2708,7 @@
 					<instance_reference name="member" value="ebps\races\mongol\buildings\building_wonder_age3_khanbaliq_mon" List.ItemID="404582781" />
 					<instance_reference name="member" value="ebps\races\french\buildings\building_landmark_age3_le_grande_university_fre\building_landmark_age3_le_grande_university_fre" List.ItemID="-608617973" />
 					<instance_reference name="member" value="ebps\races\rus\buildings\building_landmark_age3_spassakaya_tower_rus\building_landmark_age3_spassakaya_tower_control_rus" List.ItemID="1415446487" />
-					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" List.ItemID="-2024514722" />
+					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2024514722" />
 					<instance_reference name="member" value="ebps\races\hre\buildings\building_landmark_age2_nuremberg_castle_hre\building_landmark_age2_nuremberg_castle_hre" List.ItemID="-1078598495" />
 					<instance_reference name="member" value="ebps\races\chinese\buildings\building_landmark_age2_clocktower_chi\building_landmark_age2_clocktower_control_chi" List.ItemID="1294382350" />
 					<instance_reference name="member" value="ebps\races\english\buildings\building_landmark_age3_whitehall_palace_eng\building_landmark_age3_whitehall_palace_eng" List.ItemID="-581082874" />
@@ -6184,7 +6184,7 @@
 						<instance_reference name="entity" value="ebps\races\french\buildings\building_landmark_age3_le_grande_university_fre\building_landmark_age3_le_grande_university_fre" List.ItemID="1571567985" />
 						<instance_reference name="entity" value="ebps\races\hre\buildings\building_landmark_age3_eltz_castle_hre\building_landmark_age3_eltz_castle_hre" List.ItemID="2129653228" />
 						<instance_reference name="entity" value="ebps\races\rus\buildings\building_landmark_age3_spassakaya_tower_rus\building_landmark_age3_spassakaya_tower_control_rus" List.ItemID="-677806048" />
-						<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" List.ItemID="-1037581354" />
+						<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1037581354" />
 						<instance_reference name="entity" value="ebps\races\chinese\buildings\building_landmark_age3_sprit_way_chi\building_landmark_age3_spirit_way_control_chi" List.ItemID="1055417678" />
 					</list>
 					<template_reference name="utility" value="ai\economy\production_instance_utility">
@@ -7135,7 +7135,7 @@
 						<instance_reference name="member" value="ebps\races\french\buildings\building_landmark_age3_le_grande_university_fre\building_landmark_age3_le_grande_university_fre" List.ItemID="-1263380674" />
 						<instance_reference name="member" value="ebps\races\hre\buildings\building_landmark_age3_eltz_castle_hre\building_landmark_age3_eltz_castle_hre" List.ItemID="-58205047" />
 						<instance_reference name="member" value="ebps\races\rus\buildings\building_landmark_age3_spassakaya_tower_rus\building_landmark_age3_spassakaya_tower_control_rus" List.ItemID="36599966" />
-						<instance_reference name="member" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" List.ItemID="-819935135" />
+						<instance_reference name="member" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-819935135" />
 						<instance_reference name="member" value="ebps\races\hre\buildings\building_landmark_age2_nuremberg_castle_hre\building_landmark_age2_nuremberg_castle_hre" List.ItemID="-1313852320" />
 						<instance_reference name="member" value="ebps\races\chinese\buildings\building_landmark_age2_clocktower_chi\building_landmark_age2_clocktower_control_chi" List.ItemID="-2122315183" />
 					</list>
@@ -9470,7 +9470,7 @@
 						<instance_reference name="entity" value="ebps\races\french\buildings\building_landmark_age3_le_grande_university_fre\building_landmark_age3_le_grande_university_fre" List.ItemID="-248371243" />
 						<instance_reference name="entity" value="ebps\races\hre\buildings\building_landmark_age3_eltz_castle_hre\building_landmark_age3_eltz_castle_hre" List.ItemID="-2071349428" />
 						<instance_reference name="entity" value="ebps\races\rus\buildings\building_landmark_age3_spassakaya_tower_rus\building_landmark_age3_spassakaya_tower_control_rus" List.ItemID="1981558296" />
-						<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" List.ItemID="-244087486" />
+						<instance_reference name="entity" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-244087486" />
 						<instance_reference name="entity" value="ebps\races\chinese\buildings\building_landmark_age3_sprit_way_chi\building_landmark_age3_spirit_way_control_chi" List.ItemID="588061985" />
 						<instance_reference name="entity" value="ebps\races\ottoman\buildings\building_landmark_age3_kilitbahir_castle_ott" List.ItemID="1737223561" />
 					</list>
@@ -10643,7 +10643,7 @@
 						<instance_reference name="member" value="ebps\races\mongol\buildings\building_wonder_age3_khanbaliq_mon" List.ItemID="1020665435" />
 						<instance_reference name="member" value="ebps\races\french\buildings\building_landmark_age3_le_grande_university_fre\building_landmark_age3_le_grande_university_fre" List.ItemID="-1263298512" />
 						<instance_reference name="member" value="ebps\races\rus\buildings\building_landmark_age3_spassakaya_tower_rus\building_landmark_age3_spassakaya_tower_control_rus" List.ItemID="1759801070" />
-						<instance_reference name="member" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" List.ItemID="-383310730" />
+						<instance_reference name="member" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-383310730" />
 						<instance_reference name="member" value="ebps\races\hre\buildings\building_landmark_age2_nuremberg_castle_hre\building_landmark_age2_nuremberg_castle_hre" List.ItemID="-809519474" />
 						<instance_reference name="member" value="ebps\races\chinese\buildings\building_landmark_age2_clocktower_chi\building_landmark_age2_clocktower_control_chi" List.ItemID="2128128027" />
 						<instance_reference name="member" value="ebps\races\english\buildings\building_landmark_age3_whitehall_palace_eng\building_landmark_age3_whitehall_palace_eng" List.ItemID="-1734481645" />

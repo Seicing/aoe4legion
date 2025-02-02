@@ -97,6 +97,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="archer - castle age " List.ItemID="-1183053490">
 					<instance_reference name="entity" value="" />
@@ -160,6 +161,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="archer - imperial age " List.ItemID="-1131339033">
 					<instance_reference name="entity" value="" />
@@ -223,6 +225,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="crossbowman - castle age" List.ItemID="810732773">
 					<instance_reference name="entity" value="" />
@@ -286,6 +289,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="crossbowman - imperial age" List.ItemID="413352735">
 					<instance_reference name="entity" value="" />
@@ -349,6 +353,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="handcannon - imperial age + chemistry" List.ItemID="1257179342">
 					<instance_reference name="entity" value="" />
@@ -409,6 +414,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="horsearcher" List.ItemID="1319802375">
 					<instance_reference name="entity" value="" />
@@ -474,6 +480,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
@@ -499,6 +506,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-802392364" List.ParentItemID="-802392364">
 			<list name="standard_upgrades" overrideParent="True">
