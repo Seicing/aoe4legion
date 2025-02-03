@@ -64,6 +64,7 @@
 		</group>
 		<string name="fx_piercing_munition_name" value="common\grenade_explode" overrideParent="True" />
 		<string name="fx_munition_name" value="common\grenade_explode" overrideParent="True" />
+		<enum name="default_attack_type" value="light_ranged" overrideParent="True" />
 	</group>
 	<uniqueid name="pbgid" value="1073742194" />
 	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_handcannon_3" />

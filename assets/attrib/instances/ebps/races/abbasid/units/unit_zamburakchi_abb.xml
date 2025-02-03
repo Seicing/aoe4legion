@@ -47,9 +47,12 @@
 			<list name="race_type_list">
 				<instance_reference name="race_type" value="racebps\abbasid" List.ItemID="-1478803967" List.ListAction="Append" />
 			</list>
-			<list name="unit_type_list" removedIds="-1893683376, 2080081970">
+			<list name="unit_type_list" removedIds="-1893683376, 2080081970, -701596995, -225844857, 716130881">
 				<enum name="unit_type" value="camel" List.ItemID="1979638852" List.ListAction="Append" />
-				<enum name="unit_type" value="camel_archer" List.ItemID="1193318056" List.ListAction="Append" />
+				<enum name="unit_type" value="camel_rider" overrideParent="True" List.ItemID="1193318056" List.ListAction="Append" />
+				<enum name="unit_type" value="melee" overrideParent="True" List.ItemID="-1172163754" List.ListAction="Append" />
+				<enum name="unit_type" value="mameluke" List.ItemID="1174183472" List.ListAction="Append" />
+				<enum name="unit_type" value="cavalry_light" List.ItemID="1694113883" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="1821048869" List.ParentItemID="1821048869">

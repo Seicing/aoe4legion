@@ -65,8 +65,8 @@
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-1860277336" List.ParentItemID="-1860277336">
 			<float name="hitpoints" value="600" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
-				<float name="Melee" value="0" overrideParent="True" />
-				<float name="Ranged" value="7" overrideParent="True" />
+				<float name="Melee" value="5" overrideParent="True" />
+				<float name="Ranged" value="3" overrideParent="True" />
 				<float name="Fire" value="0" overrideParent="True" />
 			</enum_table>
 		</template_reference>
@@ -84,18 +84,15 @@
 				<enum name="unit_type" value="military" List.ItemID="-455091840" />
 				<enum name="unit_type" value="war_elephant" List.ItemID="888534724" />
 				<enum name="unit_type" value="melee" List.ItemID="-816992865" />
-				<enum name="unit_type" value="cavalry_tower_elephant" overrideParent="True" List.ItemID="-1000754780" />
-				<enum name="unit_type" value="elephant_archer" List.ItemID="-947532375" />
+				<enum name="unit_type" value="cavalry_war_elephant" overrideParent="True" List.ItemID="-1000754780" />
 				<enum name="unit_type" value="formational" List.ItemID="-1462727442" />
-				<enum name="unit_type" value="dynamic_root_tower_elephant" overrideParent="True" List.ItemID="-666991733" />
+				<enum name="unit_type" value="dynamic_root_war_elephant" overrideParent="True" List.ItemID="-666991733" />
 				<enum name="unit_type" value="cavalry" List.ItemID="837044207" />
-				<enum name="unit_type" value="ranged" List.ItemID="-1137168877" />
 				<enum name="unit_type" value="annihilation_condition" List.ItemID="-1614197095" />
 				<enum name="unit_type" value="included_by_military_hotkeys" List.ItemID="6253263" />
 				<enum name="unit_type" value="gunpowder" List.ItemID="-976071123" />
 				<enum name="unit_type" value="find_non_siege_land_military" List.ItemID="603893329" />
 				<enum name="unit_type" value="land_military" List.ItemID="1295882671" />
-				<enum name="unit_type" value="cavalry_archer" List.ItemID="2104670644" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-2019497169" List.ParentItemID="-2019497169">

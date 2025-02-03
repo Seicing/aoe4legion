@@ -34,6 +34,16 @@
 				</group>
 				<float name="base_damage_modifier" value="7" overrideParent="True" />
 			</group>
+			<group name="target_unit_type_multipliers" List.ItemID="-1768890293">
+				<enum name="unit_type" value="war_elephant" overrideParent="True" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+				<float name="base_damage_modifier" value="25" overrideParent="True" />
+			</group>
 		</list>
 		<group name="cooldown">
 			<group name="duration">

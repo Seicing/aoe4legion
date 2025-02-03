@@ -9,8 +9,8 @@
 			<bool name="can_burst" value="False" overrideParent="True" />
 		</group>
 		<group name="damage">
-			<float name="max" value="32" overrideParent="True" />
-			<float name="min" value="32" overrideParent="True" />
+			<float name="max" value="30" overrideParent="True" />
+			<float name="min" value="30" overrideParent="True" />
 		</group>
 		<group name="fire">
 			<float name="wind_up" value="0.25" overrideParent="True" />
@@ -40,12 +40,12 @@
 		<group name="moving">
 			<bool name="can_fire_while_moving" value="False" overrideParent="True" />
 		</group>
-		<string name="fx_action_target_name" value="" overrideParent="True" />
-		<string name="fx_munition_name" value="common\ozutsu" overrideParent="True" />
+		<string name="fx_action_target_name" value="target" overrideParent="True" />
+		<string name="fx_munition_name" value="common\culverin" overrideParent="True" />
 		<string name="fx_tracer_name" value="" overrideParent="True" />
 		<float name="fx_tracer_speed" value="0" overrideParent="True" />
 		<group name="projectile">
-			<instance_reference name="projectile" value="ebps\projectiles\projectile_shot_ozutsu" overrideParent="True" />
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_shot_cannon_tower" overrideParent="True" />
 		</group>
 		<group name="tracking">
 			<group name="normal">
@@ -83,7 +83,7 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="130" />
+				<float name="base_damage_modifier" value="100" overrideParent="True" />
 			</group>
 			<group name="target_unit_type_multipliers" List.ItemID="-534058491" List.ListAction="Append">
 				<enum name="unit_type" value="siege" overrideParent="True" />
@@ -93,9 +93,10 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="32" overrideParent="True" />
+				<float name="base_damage_modifier" value="30" overrideParent="True" />
 			</group>
 		</list>
+		<enum name="default_attack_type" value="light_ranged" overrideParent="True" />
 	</group>
 	<uniqueid name="pbgid" value="1073742456" />
 	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_handcannon_3" />

@@ -265,7 +265,7 @@
 				<enum name="squad_type" value="military" List.ItemID="108887697" />
 				<enum name="squad_type" value="cavalry" List.ItemID="1746491843" />
 				<enum name="squad_type" value="armored" List.ItemID="-1215551306" />
-				<enum name="squad_type" value="cavalry_tower_elephant" List.ItemID="-1743845070" />
+				<enum name="squad_type" value="cavalry_war_elephant" List.ItemID="-1743845070" />
 				<enum name="squad_type" value="can_be_converted" List.ItemID="1002872025" />
 				<enum name="squad_type" value="melee" List.ItemID="605058274" />
 			</list>
