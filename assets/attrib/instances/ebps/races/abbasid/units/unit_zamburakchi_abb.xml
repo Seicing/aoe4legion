@@ -49,10 +49,10 @@
 			</list>
 			<list name="unit_type_list" removedIds="-1893683376, 2080081970, -701596995, -225844857, 716130881">
 				<enum name="unit_type" value="camel" List.ItemID="1979638852" List.ListAction="Append" />
-				<enum name="unit_type" value="camel_rider" overrideParent="True" List.ItemID="1193318056" List.ListAction="Append" />
-				<enum name="unit_type" value="melee" overrideParent="True" List.ItemID="-1172163754" List.ListAction="Append" />
-				<enum name="unit_type" value="mameluke" List.ItemID="1174183472" List.ListAction="Append" />
-				<enum name="unit_type" value="cavalry_light" List.ItemID="1694113883" List.ListAction="Append" />
+				<enum name="unit_type" value="camel_archer" List.ItemID="1480738005" List.ListAction="Append" />
+				<enum name="unit_type" value="archer" List.ItemID="1257726896" List.ListAction="Append" />
+				<enum name="unit_type" value="cavalry_archer" List.ItemID="-594743201" List.ListAction="Append" />
+				<enum name="unit_type" value="ranged" List.ItemID="-1937275492" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="1821048869" List.ParentItemID="1821048869">
@@ -100,7 +100,7 @@
 					<list name="weapon_table" removedIds="-1392982238, 1502713306">
 						<group name="weapon" List.ItemID="156392194" List.ParentItemID="156392194">
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_handcannon_4_zanburakchi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_handcannon_4_zamburakchi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\japanese\weapons\wpn_range_ozutsu_4_jpn" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>

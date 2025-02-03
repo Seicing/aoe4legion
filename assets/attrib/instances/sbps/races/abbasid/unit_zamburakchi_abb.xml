@@ -274,14 +274,13 @@
 			</list>
 			<list name="squad_type_list">
 				<enum name="squad_type" value="military" List.ItemID="1761084367" />
-				<enum name="squad_type" value="scar_age4" List.ItemID="-1542617706" />
+				<enum name="squad_type" value="scar_age2" List.ItemID="-1542617706" />
 				<enum name="squad_type" value="can_be_converted" List.ItemID="-489816474" />
 				<enum name="squad_type" value="scar_military" List.ItemID="-408932389" />
 				<enum name="squad_type" value="cavalry" List.ItemID="-2115437071" />
-				<enum name="squad_type" value="melee" List.ItemID="1818174663" />
-				<enum name="squad_type" value="mameluke" List.ItemID="702180982" />
-				<enum name="squad_type" value="scar_camel_rider" List.ItemID="185554758" List.ParentItemID="185554758" />
-				<enum name="squad_type" value="camel_rider" List.ItemID="-1248532888" List.ParentItemID="-1248532888" />
+				<enum name="squad_type" value="cavalry_archer" List.ItemID="702180982" />
+				<enum name="squad_type" value="camel_archer" List.ItemID="-1248532888" List.ParentItemID="-1248532888" />
+				<enum name="squad_type" value="scar_camel_archer" List.ItemID="-1126210384" List.ParentItemID="-1126210384" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="403438207">

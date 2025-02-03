@@ -1,0 +1,81 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="aim">
+			<group name="aim_time_multiplier">
+				<float name="far" value="1" overrideParent="True" />
+			</group>
+		</group>
+		<group name="burst">
+			<bool name="can_burst" value="False" overrideParent="True" />
+		</group>
+		<group name="damage">
+			<float name="max" value="30" overrideParent="True" />
+			<float name="min" value="30" overrideParent="True" />
+		</group>
+		<group name="fire">
+			<float name="wind_up" value="0.25" overrideParent="True" />
+			<float name="wind_down" value="0.5" overrideParent="True" />
+			<float name="animation_impact_frame_time" value="0.5" overrideParent="True" />
+		</group>
+		<group name="range">
+			<group name="distance">
+				<float name="near" value="-1" overrideParent="True" />
+				<float name="far" value="-1" overrideParent="True" />
+				<float name="mid" value="-1" overrideParent="True" />
+			</group>
+			<float name="max" value="26" overrideParent="True" />
+			<float name="max_height" value="-1" overrideParent="True" />
+			<float name="max_animation_angle_distance" value="18" overrideParent="True" />
+		</group>
+		<group name="reload">
+			<group name="duration">
+				<float name="max" value="2" overrideParent="True" />
+				<float name="min" value="2" overrideParent="True" />
+			</group>
+		</group>
+		<group name="behaviour">
+			<float name="ground_hit_rate" value="0" overrideParent="True" />
+			<enum name="hit_pos_behaviour" value="normal_pos" overrideParent="True" />
+		</group>
+		<group name="moving">
+			<bool name="can_fire_while_moving" value="False" overrideParent="True" />
+		</group>
+		<string name="fx_action_target_name" value="target" overrideParent="True" />
+		<string name="fx_munition_name" value="common\culverin" overrideParent="True" />
+		<string name="fx_tracer_name" value="" overrideParent="True" />
+		<float name="fx_tracer_speed" value="0" overrideParent="True" />
+		<group name="projectile">
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_shot_cannon_tower" overrideParent="True" />
+		</group>
+		<group name="tracking">
+			<group name="normal">
+				<float name="max_up" value="90" overrideParent="True" />
+				<float name="max_left" value="-45" overrideParent="True" />
+				<float name="max_right" value="45" overrideParent="True" />
+			</group>
+			<float name="fire_cone_angle_vert" value="2" overrideParent="True" />
+		</group>
+		<string name="fx_piercing_munition_name" value="" overrideParent="True" />
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\circle_area_option" overrideParent="True">
+				<float name="outer_radius" value="2" />
+				<float name="inner_radius" value="0" />
+				<bool name="is_two_dimensional" value="True" />
+				<enum name="dynamic_radius_type" value="fixed" />
+			</template_reference>
+			<group name="damage" overrideParent="True">
+				<float name="far" value="0.1" />
+				<float name="near" value="1" />
+				<float name="mid" value="0.1" />
+			</group>
+			<group name="distance" overrideParent="True">
+				<float name="far" value="2" />
+				<float name="near" value="0.1" />
+				<float name="mid" value="1" />
+			</group>
+		</group>
+		<enum name="default_attack_type" value="light_ranged" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="1073742461" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_handcannon_3" />
+</instance>

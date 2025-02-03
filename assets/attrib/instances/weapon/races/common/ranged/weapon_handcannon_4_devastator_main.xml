@@ -9,8 +9,8 @@
 			<bool name="can_burst" value="False" overrideParent="True" />
 		</group>
 		<group name="damage">
-			<float name="max" value="30" overrideParent="True" />
-			<float name="min" value="30" overrideParent="True" />
+			<float name="max" value="25" overrideParent="True" />
+			<float name="min" value="25" overrideParent="True" />
 		</group>
 		<group name="fire">
 			<float name="wind_up" value="0.25" overrideParent="True" />
@@ -75,7 +75,7 @@
 			</group>
 		</group>
 		<list name="target_type_table">
-			<group name="target_unit_type_multipliers" List.ItemID="302712020" List.ListAction="Append">
+			<group name="target_unit_type_multipliers" List.ItemID="-1874603655" List.ListAction="Append">
 				<enum name="unit_type" value="building" />
 				<group name="weapon_multipliers">
 					<float name="accuracy_multiplier" value="1" />
@@ -83,21 +83,11 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="100" overrideParent="True" />
-			</group>
-			<group name="target_unit_type_multipliers" List.ItemID="-534058491" List.ListAction="Append">
-				<enum name="unit_type" value="siege" overrideParent="True" />
-				<group name="weapon_multipliers">
-					<float name="accuracy_multiplier" value="1" />
-					<float name="damage_multiplier" value="1" />
-					<float name="penetration_multiplier" value="1" />
-					<float name="suppression_multiplier" value="1" />
-				</group>
-				<float name="base_damage_modifier" value="30" overrideParent="True" />
+				<float name="base_damage_modifier" value="165" overrideParent="True" />
 			</group>
 		</list>
 		<enum name="default_attack_type" value="light_ranged" overrideParent="True" />
 	</group>
-	<uniqueid name="pbgid" value="1073742456" />
+	<uniqueid name="pbgid" value="1073742460" />
 	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_handcannon_3" />
 </instance>

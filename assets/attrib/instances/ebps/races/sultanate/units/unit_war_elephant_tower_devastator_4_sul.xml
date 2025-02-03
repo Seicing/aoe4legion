@@ -84,15 +84,18 @@
 				<enum name="unit_type" value="military" List.ItemID="-455091840" />
 				<enum name="unit_type" value="war_elephant" List.ItemID="888534724" />
 				<enum name="unit_type" value="melee" List.ItemID="-816992865" />
-				<enum name="unit_type" value="cavalry_war_elephant" overrideParent="True" List.ItemID="-1000754780" />
+				<enum name="unit_type" value="dynamic_root_tower_elephant" overrideParent="True" List.ItemID="-1000754780" />
 				<enum name="unit_type" value="formational" List.ItemID="-1462727442" />
-				<enum name="unit_type" value="dynamic_root_war_elephant" overrideParent="True" List.ItemID="-666991733" />
+				<enum name="unit_type" value="elephant_archer" overrideParent="True" List.ItemID="-666991733" />
 				<enum name="unit_type" value="cavalry" List.ItemID="837044207" />
 				<enum name="unit_type" value="annihilation_condition" List.ItemID="-1614197095" />
 				<enum name="unit_type" value="included_by_military_hotkeys" List.ItemID="6253263" />
 				<enum name="unit_type" value="gunpowder" List.ItemID="-976071123" />
 				<enum name="unit_type" value="find_non_siege_land_military" List.ItemID="603893329" />
 				<enum name="unit_type" value="land_military" List.ItemID="1295882671" />
+				<enum name="unit_type" value="cavalry_archer" List.ItemID="1044901915" />
+				<enum name="unit_type" value="cavalry_tower_elephant" List.ItemID="-1047284653" />
+				<enum name="unit_type" value="ranged" List.ItemID="856382477" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-2019497169" List.ParentItemID="-2019497169">
@@ -118,7 +121,7 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_handcannon_4_zanburakchi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_handcannon_4_devastator_main" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\sultanate\weapons\wpn_melee_war_elephant_goad_3_sul" overrideParent="True" />
 								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
 							</template_reference>
