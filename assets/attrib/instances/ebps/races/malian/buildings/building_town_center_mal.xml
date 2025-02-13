@@ -29,7 +29,7 @@
 			<group name="time_cost">
 				<enum_table name="cost">
 					<float name="stone" value="0" overrideParent="True" />
-					<float name="gold" value="450" overrideParent="True" />
+					<float name="gold" value="400" overrideParent="True" />
 				</enum_table>
 			</group>
 		</template_reference>

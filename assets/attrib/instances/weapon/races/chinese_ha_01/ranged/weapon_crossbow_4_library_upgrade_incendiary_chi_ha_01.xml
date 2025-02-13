@@ -167,8 +167,8 @@
 			<bool name="persistent_cooldownticks" value="False" />
 		</group>
 		<group name="damage">
-			<float name="max" value="15" />
-			<float name="min" value="15" />
+			<float name="max" value="14" />
+			<float name="min" value="14" />
 			<enum name="damage_type" value="Ranged" />
 			<bool name="allow_overkill" value="False" />
 			<list name="on_penetrated_state_trees">
@@ -366,7 +366,7 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="11" />
+				<float name="base_damage_modifier" value="12" />
 			</group>
 		</list>
 		<enum_table name="cover_table">

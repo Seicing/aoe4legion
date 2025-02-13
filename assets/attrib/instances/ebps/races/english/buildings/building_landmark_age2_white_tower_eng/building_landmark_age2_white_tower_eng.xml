@@ -723,7 +723,6 @@
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="-1622630514" />
 				<instance_reference name="upgrade" value="upgrade\races\english\research\upgrade_network_of_citadels_eng" List.ItemID="1629067479" />
 				<instance_reference name="upgrade" value="upgrade\races\english\research\upgrade_ranged_longbow_damage_eng" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1984945359" />
-				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1381933783" />
 			</list>
 			<int name="max_queue_size_override" value="-1" />
 			<state_tree_node name="production_item_completed_openingbranch" value="" />

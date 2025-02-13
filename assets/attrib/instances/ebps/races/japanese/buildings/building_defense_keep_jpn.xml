@@ -1273,7 +1273,6 @@
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-57558359" List.ParentItemID="-57558359">
 			<list name="standard_upgrades">
 				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_teppou_denrai_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="64948234" List.ListAction="Append" />
-				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1279906342" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="-630964933" List.ParentItemID="-630964933">

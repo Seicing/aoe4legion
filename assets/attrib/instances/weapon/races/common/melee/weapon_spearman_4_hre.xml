@@ -23,6 +23,9 @@
 			<group name="target_unit_type_multipliers" List.ItemID="-552589717" List.ParentItemID="-552589717">
 				<float name="base_damage_modifier" value="28" overrideParent="True" />
 			</group>
+			<group name="target_unit_type_multipliers" List.ItemID="138836123" List.ParentItemID="138836123">
+				<float name="base_damage_modifier" value="6" overrideParent="True" />
+			</group>
 		</list>
 		<group name="range">
 			<float name="max" value="3.52" overrideParent="True" />

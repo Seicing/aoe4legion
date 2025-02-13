@@ -201,7 +201,6 @@
 			<list name="standard_upgrades" overrideParent="True">
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="-1704958111" />
 				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_fortheunion_rus" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="773511598" />
-				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1199197190" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-823671089" List.ParentItemID="-823671089">

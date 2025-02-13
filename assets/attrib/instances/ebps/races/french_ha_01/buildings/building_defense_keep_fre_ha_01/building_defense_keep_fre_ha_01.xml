@@ -690,7 +690,6 @@
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_keep_cannon" List.ItemID="1002626086" />
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="-912732316" />
 				<instance_reference name="upgrade" value="upgrade\races\french\research\upgrade_cavalry_grapered_lance_fre" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1619588387" />
-				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="2119107099" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\hold_ext" List.ItemID="397040303" List.ParentItemID="397040303">

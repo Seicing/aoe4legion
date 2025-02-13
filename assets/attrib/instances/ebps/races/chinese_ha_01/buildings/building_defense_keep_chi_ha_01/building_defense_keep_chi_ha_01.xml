@@ -585,7 +585,6 @@
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_keep_cannon" List.ItemID="-551224916" />
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="-377778076" />
 				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_warrior_code_chi" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1736516467" />
-				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="191209652" />
 			</list>
 			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed_chi" overrideParent="True" />
 		</template_reference>

@@ -9,8 +9,8 @@
 			<bool name="can_burst" value="False" overrideParent="True" />
 		</group>
 		<group name="damage">
-			<float name="max" value="25" overrideParent="True" />
-			<float name="min" value="25" overrideParent="True" />
+			<float name="max" value="35" overrideParent="True" />
+			<float name="min" value="35" overrideParent="True" />
 		</group>
 		<group name="fire">
 			<float name="wind_up" value="0.25" overrideParent="True" />

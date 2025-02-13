@@ -41,7 +41,7 @@
 				<list name="formatter_arguments">
 					<int name="int_value" value="20" List.ItemID="-257190673" List.ParentItemID="-257190673" />
 				</list>
-				<locstring name="formatter" value="11168902" />
+				<locstring name="formatter" value="794" mod="67987bbc33214c57b0617d9356614825" />
 			</template_reference>
 			<template_reference name="screen_name_formatter" value="">
 			</template_reference>

@@ -12,7 +12,7 @@
 				<float name="popcap" value="0" />
 				<float name="food" value="0" />
 				<float name="wood" value="0" />
-				<float name="stone" value="225" />
+				<float name="stone" value="175" />
 				<float name="gold" value="0" />
 				<float name="militia_hre" value="0" />
 				<float name="merc_byz" value="0" />
@@ -41,7 +41,7 @@
 				<list name="formatter_arguments">
 					<int name="int_value" value="1" List.ItemID="1933512826" />
 					<int name="int_value" value="1000" List.ItemID="-1293252911" />
-					<int name="int_value" value="25" List.ItemID="1824670786" />
+					<int name="int_value" value="20" List.ItemID="1824670786" />
 				</list>
 				<locstring name="formatter" value="11252445" />
 			</template_reference>

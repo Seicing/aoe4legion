@@ -44,7 +44,7 @@
 		</group>
 		<enum name="weapon_class" value="cdn_2h_spear" overrideParent="True" />
 		<list name="target_type_table" overrideParent="True">
-			<group name="target_unit_type_multipliers" List.ItemID="741056558" List.ParentItemID="-552589717">
+			<group name="target_unit_type_multipliers" List.ItemID="-552589717" List.ParentItemID="-552589717">
 				<float name="base_damage_modifier" value="20" />
 				<enum name="unit_type" value="cavalry" />
 				<group name="weapon_multipliers">
@@ -54,7 +54,18 @@
 					<float name="suppression_multiplier" value="1" />
 				</group>
 			</group>
+			<group name="target_unit_type_multipliers" List.ItemID="138836123" List.ParentItemID="138836123">
+				<float name="base_damage_modifier" value="4" />
+				<enum name="unit_type" value="war_elephant" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+			</group>
 		</list>
+		<locstring name="ui_name" value="11171834" overrideParent="True" />
 	</group>
 	<uniqueid name="pbgid" value="2135918" />
 	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_3_charge" />

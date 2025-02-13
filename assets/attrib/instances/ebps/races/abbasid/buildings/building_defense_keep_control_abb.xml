@@ -612,7 +612,6 @@
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-57558359" List.ParentItemID="-57558359">
 			<list name="standard_upgrades">
 				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_drilling_abb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1278482060" List.ListAction="Append" />
-				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_standing_army" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1706780957" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-231398338" List.ParentItemID="-231398338">

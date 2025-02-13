@@ -42,7 +42,7 @@
 					<int name="int_value" value="3" List.ItemID="1940310809" />
 					<int name="int_value" value="3000" List.ItemID="-375882017" />
 					<int name="int_value" value="3" List.ItemID="1243663930" />
-					<int name="int_value" value="75" List.ItemID="513995995" />
+					<int name="int_value" value="60" List.ItemID="513995995" />
 				</list>
 				<locstring name="formatter" value="11252454" />
 			</template_reference>

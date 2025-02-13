@@ -366,7 +366,7 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="9" />
+				<float name="base_damage_modifier" value="10" />
 			</group>
 		</list>
 		<enum_table name="cover_table">

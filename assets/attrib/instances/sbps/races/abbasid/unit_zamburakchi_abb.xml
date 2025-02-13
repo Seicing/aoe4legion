@@ -125,6 +125,20 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="903833745">
 			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1671095461" List.ParentItemID="1671095461">
+					<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_drilling_abb" mod="67987bbc33214c57b0617d9356614825" />
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<bool name="include_completed" value="True" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
 			</list>
 			<state_tree_node name="requirement_statetree" value="" />
 		</template_reference>
