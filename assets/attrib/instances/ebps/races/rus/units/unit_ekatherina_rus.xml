@@ -25,6 +25,8 @@
 			<enum_table name="percentage_reduction_armor_by_damage_type">
 				<float name="Ranged" value="80" overrideParent="True" />
 			</enum_table>
+			<float name="regeneration" value="0.0625" overrideParent="True" />
+			<bool name="regeneration_disabled" value="False" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-838725108" List.ParentItemID="-838725108">
 			<instance_reference name="hit_material" value="hit_material\wood" overrideParent="True" />

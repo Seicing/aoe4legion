@@ -21,7 +21,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-1911121372" List.ParentItemID="-1911121372">
 			<float name="hitpoints" value="550" overrideParent="True" />
-			<float name="regeneration" value="0.125" overrideParent="True" />
+			<float name="regeneration" value="0.0625" overrideParent="True" />
 			<bool name="regeneration_disabled" value="False" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="949331190" List.ParentItemID="949331190">
