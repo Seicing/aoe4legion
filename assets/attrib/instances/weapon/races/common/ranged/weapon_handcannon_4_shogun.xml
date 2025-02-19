@@ -38,7 +38,7 @@
 			<enum name="hit_pos_behaviour" value="randomize_pos" overrideParent="True" />
 		</group>
 		<group name="moving">
-			<bool name="can_fire_while_moving" value="True" overrideParent="True" />
+			<bool name="can_fire_while_moving" value="False" overrideParent="True" />
 		</group>
 		<string name="fx_action_target_name" value="fx_handcannon_target" overrideParent="True" />
 		<string name="fx_munition_name" value="common\grenade_explode" overrideParent="True" />
@@ -54,6 +54,7 @@
 				<float name="max_right" value="45" overrideParent="True" />
 			</group>
 			<float name="fire_cone_angle_vert" value="2" overrideParent="True" />
+			<float name="fire_cone_angle" value="360" overrideParent="True" />
 		</group>
 		<string name="fx_piercing_munition_name" value="common\grenade_explode" overrideParent="True" />
 		<enum name="default_attack_type" value="light_ranged" overrideParent="True" />

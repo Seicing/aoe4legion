@@ -13,10 +13,6 @@
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\chinese" List.ItemID="929183604" />
 			</list>
-			<list name="unit_type_list">
-				<enum name="unit_type" value="military_only_production" List.ItemID="1580214945" List.ListAction="Append" />
-				<enum name="unit_type" value="military_production_building" List.ItemID="202453320" List.ListAction="Append" />
-			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-599506936" List.ParentItemID="-599506936">
 			<group name="time_cost">

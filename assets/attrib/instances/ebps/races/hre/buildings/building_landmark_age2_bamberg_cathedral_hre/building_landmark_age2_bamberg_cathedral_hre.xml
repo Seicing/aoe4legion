@@ -2,7 +2,7 @@
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\requirement_ext" overrideParent="True" List.ItemID="-1138756103" List.ParentItemID="-1138756103">
 			<list name="requirement_table" overrideParent="True">
-				<template_reference name="required" value="requirements\required_not" List.ItemID="1375255488">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="-1418501421">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11142977" />
 					<list name="requirement_table">
@@ -38,7 +38,7 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-483658137">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1349164600">
 					<enum name="reason" value="usage_and_display" />
 					<locstring name="ui_name" value="0" />
 					<bool name="is_present" value="False" />
@@ -52,7 +52,7 @@
 					</group>
 					<bool name="include_completed" value="True" />
 				</template_reference>
-				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="141219599">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="422384356">
 					<enum name="reason" value="usage_and_display" />
 					<locstring name="ui_name" value="0" />
 					<bool name="is_present" value="True" />
@@ -94,6 +94,7 @@
 				<enum name="unit_type" value="audio_production_landmark" List.ItemID="-1536812570" />
 				<enum name="unit_type" value="town_center_or_landmark" List.ItemID="-451490502" />
 				<enum name="unit_type" value="select_all_monastery" List.ItemID="-300605101" />
+				<enum name="unit_type" value="land_food_deposit_4_by_4" List.ItemID="-2020149792" />
 			</list>
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\hre" List.ItemID="954079108" />
@@ -239,66 +240,66 @@
 				</list>
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\district_bonuses_ext" List.ItemID="1165900763" List.ListAction="Append">
+		<template_reference name="exts" value="ebpextensions\district_bonuses_ext" overrideParent="True" List.ItemID="1165900763" List.ListAction="Append">
 			<bool name="update_on_upgrade_changed" value="False" />
 			<bool name="update_on_construction_complete" value="True" />
 			<list name="district_bonuses" overrideParent="True">
-				<template_reference name="district_bonus" value="district_bonus" comment="population" List.ItemID="-1332733681">
-					<template_reference name="requirement" value="options\ebpextensions\districtbonusesext\requirements\district_bonus_entity_requirement" overrideParent="True">
+				<template_reference name="district_bonus" value="district_bonus" comment="population" List.ItemID="-2053521961">
+					<template_reference name="requirement" value="options\ebpextensions\districtbonusesext\requirements\district_bonus_entity_requirement">
 						<list name="dynamic_requirements">
 						</list>
 						<list name="satisfying_entity_groups" overrideParent="True">
-							<group name="satisfying_entity_group" comment="Town Center Capital&#xD;&#xA;" List.ItemID="-1657892167">
+							<group name="satisfying_entity_group" comment="Town Center Capital&#xD;&#xA;" List.ItemID="-1827734168">
 								<list name="satisfying_entities">
 									<instance_reference name="entity" value="ebps\races\hre\buildings\building_town_center_hre\building_town_center_capital_hre" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-408447509" />
 								</list>
 							</group>
-							<group name="satisfying_entity_group" comment="Town Center" List.ItemID="-1358416917">
+							<group name="satisfying_entity_group" comment="Town Center" List.ItemID="2118668530">
 								<list name="satisfying_entities">
 									<instance_reference name="entity" value="ebps\races\hre\buildings\building_town_center_hre\building_town_center_hre" List.ItemID="-1308316805" />
 								</list>
 							</group>
-							<group name="satisfying_entity_group" comment="Palace of Swabia" List.ItemID="755033486">
+							<group name="satisfying_entity_group" comment="Palace of Swabia" List.ItemID="-182706944">
 								<list name="satisfying_entities">
 									<instance_reference name="entity" value="ebps\races\hre\buildings\building_landmark_age3_hohenzollern_castle_hre\building_landmark_age3_hohenzollern_castle_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1417832310" />
 								</list>
 							</group>
-							<group name="satisfying_entity_group" comment="Town Center Capital - Historic HRE&#xD;&#xA;" List.ItemID="378239703">
+							<group name="satisfying_entity_group" comment="Town Center Capital - Historic HRE&#xD;&#xA;" List.ItemID="-1755578914">
 								<list name="satisfying_entities">
 									<instance_reference name="entity" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_capital_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-408447509" />
 								</list>
 							</group>
-							<group name="satisfying_entity_group" comment="Town Center - Historic HRE" List.ItemID="-96785905">
+							<group name="satisfying_entity_group" comment="Town Center - Historic HRE" List.ItemID="81016803">
 								<list name="satisfying_entities">
 									<instance_reference name="entity" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1308316805" />
 								</list>
 							</group>
-							<group name="satisfying_entity_group" comment="Palace of Swabia - Historic HRE" List.ItemID="1836992875">
+							<group name="satisfying_entity_group" comment="Palace of Swabia - Historic HRE" List.ItemID="955641495">
 								<list name="satisfying_entities">
 									<instance_reference name="entity" value="ebps\races\hre_ha_01\buildings\building_landmark_age3_hohenzollern_castle_hre_ha_01\building_landmark_age3_hohenzollern_castle_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1417832310" />
 								</list>
 							</group>
 						</list>
 					</template_reference>
-					<uniqueid name="id" value="1073741872" />
+					<uniqueid name="id" value="1073742000" />
 					<template_reference name="action_tree" value="state_tree_reference_info">
 						<state_tree_node name="ActionTree_OpeningBranch" value="influence_auto_repair_hre\root" overrideParent="True" />
 						<bool name="start_suspended" value="False" />
 					</template_reference>
 				</template_reference>
-				<template_reference name="district_bonus" value="district_bonus" comment="Elzbach Palace Influence" List.ItemID="1342655856">
+				<template_reference name="district_bonus" value="district_bonus" comment="Elzbach Palace Influence" List.ItemID="-316776955">
 					<template_reference name="requirement" value="options\ebpextensions\districtbonusesext\requirements\district_bonus_entity_requirement">
 						<list name="dynamic_requirements">
 						</list>
 						<list name="satisfying_entity_groups" overrideParent="True">
-							<group name="satisfying_entity_group" comment="Elzbach Palace&#xD;&#xA;" List.ItemID="-1062633535">
+							<group name="satisfying_entity_group" comment="Elzbach Palace&#xD;&#xA;" List.ItemID="576046265">
 								<list name="satisfying_entities">
-									<instance_reference name="entity" value="ebps\races\hre\buildings\building_landmark_age3_eltz_castle_hre\building_landmark_age3_eltz_castle_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1699554001" />
+									<instance_reference name="entity" value="ebps\races\hre\buildings\building_landmark_age3_eltz_castle_hre\building_landmark_age3_eltz_castle_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1257276673" />
 								</list>
 							</group>
 						</list>
 					</template_reference>
-					<uniqueid name="id" value="1073741873" />
+					<uniqueid name="id" value="1073742001" />
 					<template_reference name="action_tree" value="state_tree_reference_info">
 						<state_tree_node name="ActionTree_OpeningBranch" value="elzbach_palace_influence_bonus_hre\root" overrideParent="True" />
 						<bool name="start_suspended" value="False" />
@@ -381,6 +382,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
@@ -406,6 +408,96 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\resource_drop_off_ext" List.ItemID="-1213964687" List.ListAction="Append">
+			<enum_table name="accepted_resources" overrideParent="True">
+				<bool name="action" value="False" />
+				<bool name="command" value="False" />
+				<bool name="popcap" value="False" />
+				<bool name="food" value="True" />
+				<bool name="wood" value="True" />
+				<bool name="stone" value="True" overrideParent="True" />
+				<bool name="gold" value="True" />
+				<bool name="militia_hre" value="False" />
+				<bool name="merc_byz" value="False" />
+			</enum_table>
+			<enum_table name="drop_off_time_seconds">
+				<float name="action" value="1" />
+				<float name="command" value="1" />
+				<float name="popcap" value="1" />
+				<float name="food" value="0" overrideParent="True" />
+				<float name="wood" value="0" overrideParent="True" />
+				<float name="stone" value="0" overrideParent="True" />
+				<float name="gold" value="0" overrideParent="True" />
+				<float name="militia_hre" value="1" />
+				<float name="merc_byz" value="1" />
+			</enum_table>
+			<bool name="allow_any_resource_after_construct" value="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\hold_ext" List.ItemID="1885433012" List.ListAction="Append">
+			<list name="acceptable_types" overrideParent="True">
+				<enum name="acceptable_type" value="hold_monk" List.ItemID="1041849731" />
+			</list>
+			<bool name="attach_passenger_animator" value="False" />
+			<bool name="can_attack_occupant" value="False" overrideParent="True" />
+			<bool name="invulnerable_in_hold" value="True" overrideParent="True" />
+			<bool name="disable_area_effect_on_overflow_slot" value="False" />
+			<bool name="disable_unload" value="False" />
+			<bool name="disallow_load_command" value="False" />
+			<bool name="enable_trigger_abilities_in_hold" value="True" />
+			<bool name="enable_trigger_attack_in_hold" value="False" />
+			<bool name="holds_produced_squads" value="False" />
+			<bool name="keep_abandoned_team_weapon" value="False" />
+			<float name="load_seconds" value="1" />
+			<float name="max_load_seconds" value="5" />
+			<float name="min_hold_seconds" value="1" />
+			<float name="num_slots" value="1" overrideParent="True" />
+			<float name="num_squad_slots" value="1" overrideParent="True" />
+			<float name="percent_unload_on_death" value="0" />
+			<bool name="revert_ownership" value="False" />
+			<bool name="scavenge_enabled" value="False" />
+			<enum_table name="scavenge_resource">
+				<float name="action" value="0" />
+				<float name="command" value="0" />
+				<float name="popcap" value="0" />
+				<float name="food" value="0" />
+				<float name="wood" value="0" />
+				<float name="stone" value="0" />
+				<float name="gold" value="0" />
+				<float name="militia_hre" value="0" />
+				<float name="merc_byz" value="0" />
+			</enum_table>
+			<bool name="shared_with_other_same_type_units" value="False" />
+			<float name="unload_seconds" value="0.5" />
+			<bool name="use_building_target_scan_radius" value="True" />
+			<bool name="use_crouching_posture" value="False" />
+			<list name="on_loading_modifiers">
+			</list>
+			<bool name="despawn_on_load" value="False" />
+			<float name="load_distance" value="1" />
+			<bool name="maintain_selection" value="True" />
+			<template_reference name="on_loaded_hold_action_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+			<template_reference name="on_loaded_squad_action_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+			<template_reference name="on_unloaded_squad_instant_action_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="mosque_hold_event_sul\unload_scholar\set_auto_heal_on" overrideParent="True" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+			<bool name="convert_garrision_on_owner_change" value="False" />
+			<bool name="move_on_remove_hold" value="True" />
+			<bool name="load_separate_entrances" value="False" />
+			<bool name="can_issue_retreat_to_hold_contents" value="True" />
+			<bool name="ensure_pathability_to_hold_for_unload" value="False" />
+			<float name="unload_path_distance_max" value="0" />
+			<bool name="is_indoors" value="True" />
+			<bool name="right_click_garrison_always_enabled" value="False" />
+			<bool name="exclude_allied_units" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="134917" />

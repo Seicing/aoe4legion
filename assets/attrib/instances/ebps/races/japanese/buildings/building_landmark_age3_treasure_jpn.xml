@@ -222,8 +222,6 @@
 				<enum name="unit_type" value="castle" List.ItemID="-277000296" />
 				<enum name="unit_type" value="has_default_building_weapons" List.ItemID="-1942458512" />
 				<enum name="unit_type" value="town_center_or_landmark" List.ItemID="-1396647396" />
-				<enum name="unit_type" value="military_production_building" List.ItemID="282053772" List.ParentItemID="282053772" />
-				<enum name="unit_type" value="military_only_production" List.ItemID="-1376249609" />
 				<enum name="unit_type" value="town_bell_target" List.ItemID="-1190762630" />
 			</list>
 			<enum name="weapon_targeting" value="automatic" />

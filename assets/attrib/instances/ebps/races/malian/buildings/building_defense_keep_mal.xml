@@ -7,10 +7,6 @@
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\malian" overrideParent="True" List.ItemID="765861090" />
 			</list>
-			<list name="unit_type_list">
-				<enum name="unit_type" value="military_production_building" List.ItemID="-1905109246" List.ListAction="Append" />
-				<enum name="unit_type" value="military_only_production" List.ItemID="332069474" List.ListAction="Append" />
-			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="776973782" List.ParentItemID="776973782">
 			<group name="on_construction_complete_state_tree_refs">

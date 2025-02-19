@@ -21,8 +21,6 @@
 				<enum name="unit_type" value="relic_dropoff" List.ItemID="1927805002" />
 				<enum name="unit_type" value="has_default_building_weapons" List.ItemID="863067189" />
 				<enum name="unit_type" value="monastery" List.ItemID="1340998131" />
-				<enum name="unit_type" value="military_production_building" overrideParent="True" List.ItemID="282053772" List.ParentItemID="282053772" />
-				<enum name="unit_type" value="military_only_production" List.ItemID="-1309519602" />
 			</list>
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\hre" List.ItemID="-1647269399" />

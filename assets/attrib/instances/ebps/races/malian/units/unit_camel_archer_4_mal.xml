@@ -48,7 +48,7 @@
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="1105799735" List.ParentItemID="1105799735">
 			<group name="time_cost">
 				<enum_table name="cost">
-					<float name="food" value="180" overrideParent="True" />
+					<float name="food" value="170" overrideParent="True" />
 					<float name="wood" value="60" overrideParent="True" />
 					<float name="gold" value="0" overrideParent="True" />
 				</enum_table>
@@ -94,7 +94,7 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\abbasid\ranged\weapon_camel_archer_4_abb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\abbasid\ranged\weapon_camel_archer_4_abb" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\abbasid\weapons\wpn_range_camel_archer_4_abb" overrideParent="True" />
 								<string name="marker_name_parent" value="metarig_larmpalmsocket" overrideParent="True" />
 							</template_reference>
@@ -108,10 +108,31 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\abbasid\ranged\weapon_camel_archer_incendiary_4" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\abbasid\ranged\weapon_camel_archer_incendiary_4" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\abbasid\weapons\wpn_range_camel_archer_4_abb" overrideParent="True" />
 								<string name="marker_name_parent" value="metarig_larmpalmsocket" overrideParent="True" />
 							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="1300224635" List.ListAction="Append">
+							<group name="origin" overrideParent="True">
+								<float name="x" value="0" />
+								<float name="y" value="3.5" />
+								<float name="z" value="1.5" />
+							</group>
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\abbasid\ranged\weapon_camel_archer_incendiary_building_fire_abb" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\abbasid\weapons\wpn_range_camel_archer_4_abb" overrideParent="True" />
+								<string name="marker_name_parent" value="metarig_larmpalmsocket" overrideParent="True" />
+							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="0" />
+							</group>
+							<float name="length" value="0" />
+							<enum name="type" value="default" />
 						</group>
 					</list>
 				</group>

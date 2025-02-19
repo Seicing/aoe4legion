@@ -83,9 +83,6 @@
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\ottoman" overrideParent="True" List.ItemID="1768917014" />
 			</list>
-			<list name="unit_type_list">
-				<enum name="unit_type" value="town_center" List.ItemID="-1152584074" List.ListAction="Append" />
-			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="466870777" List.ParentItemID="466870777">
 			<float name="decorator_height" value="12" overrideParent="True" />
@@ -93,7 +90,7 @@
 			<instance_reference name="district_info" value="" overrideParent="True" />
 			<template_reference name="help_text_formatter" value="ui_text_formatter" overrideParent="True">
 				<list name="formatter_arguments" overrideParent="True">
-					<int name="int_value" value="2" List.ItemID="677638783" />
+					<int name="int_value" value="3" overrideParent="True" List.ItemID="677638783" />
 				</list>
 				<locstring name="formatter" value="521" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 			</template_reference>

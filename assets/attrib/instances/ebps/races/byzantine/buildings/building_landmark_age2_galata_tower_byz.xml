@@ -89,6 +89,9 @@
 			<list name="unit_type_list_selection_keybind_only">
 				<enum name="unit_type" value="military_production_building" List.ItemID="2071014516" List.ListAction="Append" />
 			</list>
+			<list name="unit_type_list">
+				<enum name="unit_type" value="cavalry_production_landmark" List.ItemID="-2124937485" List.ListAction="Append" />
+			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="466870777" List.ParentItemID="466870777">
 			<float name="decorator_height" value="10" overrideParent="True" />
@@ -2699,6 +2702,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\district_bonuses_ext" List.ItemID="-1322997448" List.ListAction="Append">
 			<bool name="update_on_upgrade_changed" value="False" />

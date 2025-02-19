@@ -8,7 +8,7 @@
 			<bool name="can_repair" value="True" overrideParent="True" />
 			<float name="hitpoints" value="7000" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
-				<float name="Ranged" value="75" overrideParent="True" />
+				<float name="Ranged" value="50" overrideParent="True" />
 			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="964116860" List.ParentItemID="964116860">

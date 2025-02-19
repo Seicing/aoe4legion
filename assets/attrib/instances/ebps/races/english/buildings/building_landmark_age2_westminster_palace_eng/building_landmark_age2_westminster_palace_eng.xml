@@ -128,7 +128,7 @@
 			<float name="minimap_icon_scale" value="0.3" overrideParent="True" />
 			<file name="portrait_icon" value="" />
 			<locstring name="brief_text" value="0" />
-			<locstring name="extra_text" value="11161554" overrideParent="True" />
+			<locstring name="extra_text" value="11232068" overrideParent="True" />
 			<bool name="show_in_build_log" value="True" />
 			<locstring name="screen_name_short" value="0" />
 			<bool name="show_entity_appearance" value="True" />
@@ -1629,7 +1629,7 @@
 			<bool name="reset_production_progress_at_current_pop_cap" value="False" />
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
-			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="always_use_economic_rally_points" value="True" overrideParent="True" />
 			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\stimulus_emission_ext" List.ItemID="626721744">

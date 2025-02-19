@@ -106,8 +106,6 @@
 				<enum name="unit_type" value="town_bell_target" List.ItemID="-468483193" />
 				<enum name="unit_type" value="audio_production_landmark" List.ItemID="-975699321" />
 				<enum name="unit_type" value="town_center_or_landmark" List.ItemID="926444712" />
-				<enum name="unit_type" value="military_production_building" overrideParent="True" List.ItemID="282053772" List.ParentItemID="282053772" />
-				<enum name="unit_type" value="military_only_production" List.ItemID="-1174086451" />
 			</list>
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\rus" List.ItemID="-314167936" />

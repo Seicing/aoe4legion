@@ -95,10 +95,12 @@
 			</list>
 			<template_reference name="help_text_formatter" value="ui_text_formatter" overrideParent="True">
 				<list name="formatter_arguments" overrideParent="True">
-					<int name="int_value" value="50" overrideParent="True" List.ItemID="1523933570" />
-					<int name="int_value" value="33" overrideParent="True" List.ItemID="1657199591" />
+					<int name="int_value" value="50" overrideParent="True" List.ItemID="299892104" />
+					<int name="int_value" value="33" overrideParent="True" List.ItemID="-612484282" />
+					<int name="int_value" value="8" overrideParent="True" List.ItemID="1194279996" />
+					<int name="int_value" value="5" overrideParent="True" List.ItemID="1738164237" />
 				</list>
-				<locstring name="formatter" value="11204619" />
+				<locstring name="formatter" value="11268677" overrideParent="True" />
 			</template_reference>
 			<template_reference name="extra_text_formatter" value="">
 			</template_reference>
@@ -460,8 +462,6 @@
 				<enum name="unit_type" value="scar_keep" List.ItemID="-286628222" />
 				<enum name="unit_type" value="audio_production_landmark" List.ItemID="410821087" />
 				<enum name="unit_type" value="town_center_or_landmark" List.ItemID="2012278219" />
-				<enum name="unit_type" value="military_production_building" overrideParent="True" List.ItemID="282053772" List.ParentItemID="282053772" />
-				<enum name="unit_type" value="military_only_production" List.ItemID="1973642715" />
 			</list>
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\hre" List.ItemID="1813461224" />

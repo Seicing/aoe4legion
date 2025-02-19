@@ -7,7 +7,7 @@
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-894120277" List.ParentItemID="-894120277">
 			<bool name="can_repair" value="True" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
-				<float name="Ranged" value="75" overrideParent="True" />
+				<float name="Ranged" value="50" overrideParent="True" />
 			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="964116860" List.ParentItemID="964116860">
@@ -146,6 +146,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="483076999">
 					<instance_reference name="entity" value="" />
@@ -209,6 +210,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="Monk&#xD;&#xA;" List.ItemID="1466096479">
 					<group name="ui_position">
@@ -274,6 +276,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 		</template_reference>

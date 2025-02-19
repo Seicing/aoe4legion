@@ -125,7 +125,8 @@
 			</list>
 			<template_reference name="help_text_formatter" value="ui_text_formatter" overrideParent="True">
 				<list name="formatter_arguments" overrideParent="True">
-					<int name="int_value" value="400" overrideParent="True" List.ItemID="-1854016691" />
+					<int name="int_value" value="400" overrideParent="True" List.ItemID="898252398" />
+					<int name="int_value" value="50" overrideParent="True" List.ItemID="-372910667" />
 				</list>
 				<locstring name="formatter" value="595" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 			</template_reference>
@@ -355,6 +356,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="spearman - feudal age" List.ItemID="-844204959">
 					<instance_reference name="entity" value="" />
@@ -418,6 +420,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="spearman - castle age" List.ItemID="-1399783578">
 					<instance_reference name="entity" value="" />
@@ -481,6 +484,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="spearman - imperial age" List.ItemID="-698371457">
 					<instance_reference name="entity" value="" />
@@ -544,6 +548,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="man-at-arms - feudal age&#xD;&#xA;" List.ItemID="1139604711">
 					<instance_reference name="entity" value="" />
@@ -604,6 +609,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="man-at-arms - castle age&#xD;&#xA;" List.ItemID="1018064187">
 					<instance_reference name="entity" value="" />
@@ -664,6 +670,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="man-at-arms - imperial age&#xD;&#xA;" List.ItemID="-21338788">
 					<instance_reference name="entity" value="" />
@@ -724,6 +731,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="landsknecht - castle age&#xD;&#xA;" List.ItemID="-1871175015">
 					<instance_reference name="entity" value="" />
@@ -787,6 +795,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="landsknecht - imperial age&#xD;&#xA;" List.ItemID="1103813383">
 					<instance_reference name="entity" value="" />
@@ -850,6 +859,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-261283161">
 					<group name="ui_position">
@@ -921,6 +931,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="191894665">
 					<group name="ui_position">
@@ -993,6 +1004,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="1200615237">
 					<group name="ui_position">
@@ -1068,6 +1080,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-416472226">
 					<group name="ui_position">
@@ -1133,6 +1146,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-826628019">
 					<group name="ui_position">
@@ -1204,6 +1218,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1941630792">
 					<group name="ui_position">
@@ -1274,6 +1289,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
@@ -1299,6 +1315,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="134918" />

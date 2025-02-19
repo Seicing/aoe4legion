@@ -14,8 +14,6 @@
 				<enum name="unit_type" value="has_default_building_weapons" List.ItemID="-1040993238" />
 				<enum name="unit_type" value="military" List.ItemID="-860890314" />
 				<enum name="unit_type" value="golden_age_tier_1_building_abb" List.ItemID="-1849459176" />
-				<enum name="unit_type" value="military_production_building" overrideParent="True" List.ItemID="282053772" List.ParentItemID="282053772" />
-				<enum name="unit_type" value="military_only_production" List.ItemID="-781594685" />
 			</list>
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\abbasid_ha_01" overrideParent="True" List.ItemID="1034857246" />

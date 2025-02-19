@@ -114,7 +114,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="1828097256" List.ParentItemID="1828097256">
 			<group name="on_construction_complete_state_tree_refs">
-				<string name="on_construction_complete_entity_state_tree_ref" value="first_madrasa_bonus_sul" overrideParent="True" />
+				<string name="on_construction_complete_entity_state_tree_ref" value="" overrideParent="True" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="669128015" List.ParentItemID="669128015">

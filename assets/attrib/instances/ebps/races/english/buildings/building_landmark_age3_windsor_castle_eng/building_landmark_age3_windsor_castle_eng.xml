@@ -458,6 +458,8 @@
 				<enum name="unit_type" value="scar_keep" List.ItemID="-2011370032" />
 				<enum name="unit_type" value="audio_production_landmark" List.ItemID="428511433" />
 				<enum name="unit_type" value="town_center_or_landmark" List.ItemID="-156248071" />
+				<enum name="unit_type" value="siege_production_landmark" List.ItemID="1579163293" />
+				<enum name="unit_type" value="cavalry_production_landmark" List.ItemID="1491042426" />
 			</list>
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\english" List.ItemID="1082747473" />

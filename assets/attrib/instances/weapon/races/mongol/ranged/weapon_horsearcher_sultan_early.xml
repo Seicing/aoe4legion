@@ -57,6 +57,10 @@
 		<group name="projectile">
 			<instance_reference name="projectile" value="ebps\projectiles\projectile_arrow" overrideParent="True" />
 		</group>
+		<group name="moving">
+			<bool name="can_fire_while_moving" value="False" overrideParent="True" />
+		</group>
+		<string name="name" value="Horse Archer Weapon - Bow" overrideParent="True" />
 	</group>
 	<uniqueid name="pbgid" value="1073742305" />
 	<instance_reference name="parent_pbg" value="weapon\races\mongol\ranged\weapon_khan_2_mon" />

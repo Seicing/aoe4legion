@@ -13,8 +13,6 @@
 				<enum name="unit_type" value="town_bell_target" List.ItemID="-1770197561" />
 				<enum name="unit_type" value="military" overrideParent="True" List.ItemID="1020674663" />
 				<enum name="unit_type" value="has_default_building_weapons" List.ItemID="-663278498" />
-				<enum name="unit_type" value="military_production_building" overrideParent="True" List.ItemID="282053772" List.ParentItemID="282053772" />
-				<enum name="unit_type" value="military_only_production" List.ItemID="-1225464149" />
 			</list>
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\sultanate" List.ItemID="-1817593075" />

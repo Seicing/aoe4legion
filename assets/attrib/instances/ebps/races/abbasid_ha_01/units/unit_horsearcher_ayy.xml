@@ -55,28 +55,82 @@
 			<instance_reference name="schema" value="statemodel_schema\units\civilizations\ottoman\cavalry_archer_timariot" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="698418421" List.ParentItemID="698418421">
-			<list name="hardpoints">
+			<list name="hardpoints" overrideParent="True">
 				<group name="hardpoint" List.ItemID="627415271" List.ParentItemID="627415271">
-					<list name="weapon_table">
-						<group name="weapon" List.ItemID="156392194" List.ParentItemID="156392194">
-							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\ottoman\ranged\weapon_horsearcher_4_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<list name="weapon_table" removedIds="1502713306">
+						<group name="weapon" comment="Arrow" List.ItemID="156392194" List.ParentItemID="156392194">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
-						</group>
-						<group name="weapon" List.ItemID="-1392982238" List.ParentItemID="-1392982238">
-							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\ottoman\ranged\weapon_horsearcher_incendiary_4_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\ottoman\ranged\weapon_horsearcher_4_ott" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_range_horsearcher_4_rus" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" overrideParent="True" />
 							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="3" />
+								<float name="z" value="1" />
+							</group>
+							<enum name="type" value="default" />
 						</group>
-						<group name="weapon" comment="Building Attack Incendiary Arrow" List.ItemID="1502713306" List.ParentItemID="1502713306">
-							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\ottoman\ranged\weapon_horsearcher_incendiary_building_fire_ott" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<group name="weapon" comment="Incendiary Arrow" List.ItemID="-1392982238" List.ParentItemID="-1392982238">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\ottoman\ranged\weapon_horsearcher_incendiary_4_ott" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_range_horsearcher_4_rus" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" overrideParent="True" />
+							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="3" />
+								<float name="z" value="1" />
+							</group>
+							<enum name="type" value="default" />
+						</group>
+						<group name="weapon" comment="Building Attack Incendiary Arrow" List.ItemID="-2041694481" List.ListAction="Append">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\ottoman\ranged\weapon_horsearcher_incendiary_building_fire_ott" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_range_horsearcher_3_rus" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" overrideParent="True" />
 							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="3" />
+								<float name="z" value="1" />
+							</group>
+							<enum name="type" value="default" />
 						</group>
 					</list>
+					<float name="parent_hardpoint" value="-1" />
+					<bool name="receives_attack_commands" value="True" />
+					<string name="base_marker" value="" />
+					<list name="preferred_inventory_item_categories">
+					</list>
+					<list name="firing_offset_markers">
+					</list>
+					<string name="offhand_marker" value="" />
+					<bool name="initialize_weapons_on_creation" value="True" />
 				</group>
 			</list>
 		</template_reference>

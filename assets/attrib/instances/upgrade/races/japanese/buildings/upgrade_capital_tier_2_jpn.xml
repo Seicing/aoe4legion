@@ -113,7 +113,7 @@
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="True" />
-				<instance_reference name="upgrade_name" value="upgrade\races\japanese\buildings\upgrade_capital_tier_1_jpn" mod="67987bbc33214c57b0617d9356614825" />
+				<instance_reference name="upgrade_name" value="upgrade\races\japanese\buildings\upgrade_capital_tier_1_jpn" />
 				<bool name="include_completed" value="True" />
 				<bool name="include_queued" value="False" />
 				<int name="min_completed" value="1" />

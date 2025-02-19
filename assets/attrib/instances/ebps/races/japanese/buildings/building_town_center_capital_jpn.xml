@@ -297,7 +297,7 @@
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-2049432204" List.ParentItemID="-2049432204">
 			<list name="standard_upgrades" overrideParent="True">
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_villager_health" List.ItemID="-1489217104" />
-				<instance_reference name="upgrade" value="upgrade\races\japanese\buildings\upgrade_capital_tier_1_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="69044223" />
+				<instance_reference name="upgrade" value="upgrade\races\japanese\buildings\upgrade_capital_tier_1_jpn" overrideParent="True" List.ItemID="69044223" />
 				<instance_reference name="upgrade" value="upgrade\races\japanese\buildings\upgrade_capital_tier_2_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-408517101" />
 				<instance_reference name="upgrade" value="upgrade\races\japanese\buildings\upgrade_capital_tier_3_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1484873217" />
 				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_empire_rising" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1984781952" />

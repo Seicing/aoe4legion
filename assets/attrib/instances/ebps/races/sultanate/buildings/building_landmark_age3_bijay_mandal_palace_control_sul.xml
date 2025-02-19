@@ -25,7 +25,7 @@
 								<template_reference name="requirement" value="requirements\required_structure" List.ItemID="-1462761615">
 									<enum name="reason" value="usage" />
 									<locstring name="ui_name" value="0" />
-									<instance_reference name="structure_name" value="ebps\races\sultanate\buildings\building_landmark_age3_madrasa_e_firoz_sul\building_landmark_age3_madrasa_e_firoz_sul" />
+									<instance_reference name="structure_name" value="ebps\races\sultanate\buildings\building_landmark_age3_madrasa_e_firoz_sul\building_landmark_age3_madrasa_e_firoz_sul" mod="67987bbc33214c57b0617d9356614825" />
 									<int name="required_structure_count" value="1" />
 									<bool name="check_team" value="False" />
 									<bool name="require_construction_complete" value="False" />
@@ -365,7 +365,7 @@
 									<template_reference name="requirement" value="requirements\required_structure" List.ItemID="-1227206618">
 										<enum name="reason" value="usage" />
 										<locstring name="ui_name" value="0" />
-										<instance_reference name="structure_name" value="ebps\races\sultanate\buildings\building_landmark_age3_madrasa_e_firoz_sul\building_landmark_age3_madrasa_e_firoz_sul" />
+										<instance_reference name="structure_name" value="ebps\races\sultanate\buildings\building_landmark_age3_madrasa_e_firoz_sul\building_landmark_age3_madrasa_e_firoz_sul" mod="67987bbc33214c57b0617d9356614825" />
 										<int name="required_structure_count" value="1" />
 										<bool name="check_team" value="False" />
 										<bool name="require_construction_complete" value="False" />

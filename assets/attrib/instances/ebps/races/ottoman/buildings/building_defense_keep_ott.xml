@@ -7,10 +7,6 @@
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\ottoman" overrideParent="True" List.ItemID="1213208789" />
 			</list>
-			<list name="unit_type_list">
-				<enum name="unit_type" value="military_production_building" List.ItemID="-784121048" List.ListAction="Append" />
-				<enum name="unit_type" value="military_only_production" List.ItemID="850246365" List.ListAction="Append" />
-			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="776973782" List.ParentItemID="776973782">
 			<bool name="show_ability_range_in_construction_item_preview" value="True" overrideParent="True" />

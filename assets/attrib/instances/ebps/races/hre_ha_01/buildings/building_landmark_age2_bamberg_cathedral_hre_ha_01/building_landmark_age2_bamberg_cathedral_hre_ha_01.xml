@@ -183,9 +183,9 @@
 			<list name="standard_upgrades" overrideParent="True">
 				<instance_reference name="upgrade" value="upgrade\races\hre\research\unit\upgrade_unit_religious_herbal_medicine_4_hre" overrideParent="True" List.ItemID="1387203059" />
 				<instance_reference name="upgrade" value="upgrade\races\hre\research\unit\upgrade_unit_religious_piety_4_hre" overrideParent="True" List.ItemID="778783217" />
-				<instance_reference name="upgrade" value="upgrade\races\ayyubid_cmp\research\upgrade_cul_ancient_relics_ayy" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1979433871" />
-				<instance_reference name="upgrade" value="upgrade\races\common\research\unit\upgrade_unit_religious_tithe_barn_4" List.ItemID="1947173824" />
-				<instance_reference name="upgrade" value="upgrade\races\hre\research\upgrade_inspired_infantry_hre" List.ItemID="-1273925416" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\unit\upgrade_unit_religious_tithe_barn_4" overrideParent="True" List.ItemID="-1979433871" />
+				<instance_reference name="upgrade" value="upgrade\races\hre\research\upgrade_inspired_infantry_hre" overrideParent="True" List.ItemID="1947173824" />
+				<instance_reference name="upgrade" value="upgrade\races\ayyubid_cmp\research\upgrade_cul_ancient_relics_ayy" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1953418086" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-1064007581" List.ParentItemID="-1064007581">
@@ -381,6 +381,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
@@ -406,6 +407,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="2581618" />

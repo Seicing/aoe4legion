@@ -90,6 +90,7 @@
 				<enum name="unit_type" value="military_only_production" List.ItemID="-1327671671" />
 				<enum name="unit_type" value="audio_production_landmark" List.ItemID="95825086" />
 				<enum name="unit_type" value="town_center_or_landmark" List.ItemID="-849917271" />
+				<enum name="unit_type" value="cavalry_production_landmark" List.ItemID="-938980052" />
 			</list>
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\english" List.ItemID="-1456310714" />

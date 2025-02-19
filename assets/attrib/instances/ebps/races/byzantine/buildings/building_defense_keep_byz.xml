@@ -5,7 +5,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="125304692" List.ParentItemID="125304692">
 			<bool name="can_repair" value="True" comment="This is true for the Loom research, in order for current health to adjust alongside the maximum health modifier." overrideParent="True" />
-			<state_tree_node name="death_action_tree" value="building_death_actions\buildings\keep_death_actions\keep_death_actions_hre" overrideParent="True" />
+			<state_tree_node name="death_action_tree" value="building_death_actions\buildings\keep_death_actions" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="-962432750" List.ParentItemID="-962432750">
 			<bool name="snap_to_construction_grid" value="True" overrideParent="True" />
@@ -21,8 +21,6 @@
 				<enum name="unit_type" value="relic_dropoff" List.ItemID="-1578910262" />
 				<enum name="unit_type" value="has_default_building_weapons" List.ItemID="-1691973950" />
 				<enum name="unit_type" value="monastery" List.ItemID="-685515935" />
-				<enum name="unit_type" value="military_production_building" overrideParent="True" List.ItemID="282053772" List.ParentItemID="282053772" />
-				<enum name="unit_type" value="military_only_production" List.ItemID="-75482747" />
 			</list>
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\byzantine" overrideParent="True" List.ItemID="-555740320" />
