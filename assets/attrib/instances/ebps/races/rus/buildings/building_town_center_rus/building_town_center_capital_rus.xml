@@ -18,7 +18,7 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="565171784" List.ParentItemID="565171784">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_main" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-985860045" List.ListAction="Append" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_addition" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-246431546" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_addition" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-165857008" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-272167440" List.ParentItemID="-272167440">

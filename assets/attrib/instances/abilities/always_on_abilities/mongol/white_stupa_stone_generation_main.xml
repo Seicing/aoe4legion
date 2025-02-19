@@ -115,39 +115,19 @@
 		<locstring name="ui_usage_txt" value="0" />
 		<bool name="validate_actions" value="False" />
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="1084937006">
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="450387792">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
-				<list name="requirements">
-					<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-1671491925">
-						<enum name="reason" value="usage_and_display" />
-						<locstring name="ui_name" value="0" />
-						<bool name="is_present" value="True" />
-						<int name="max_completed" value="100" />
-						<int name="min_completed" value="1" />
-						<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_empire_rising" mod="67987bbc33214c57b0617d9356614825" />
-						<bool name="include_completed" value="True" />
-						<bool name="include_queued" value="False" />
-						<group name="include_pbg_parenting">
-							<bool name="include_child_pbgs" value="False" />
-							<bool name="include_parent_pbgs" value="False" />
-						</group>
-					</template_reference>
-					<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-437551676">
-						<enum name="reason" value="usage_and_display" />
-						<locstring name="ui_name" value="0" />
-						<bool name="is_present" value="True" />
-						<int name="max_completed" value="100" />
-						<int name="min_completed" value="1" />
-						<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_empire_rising_abb" mod="67987bbc33214c57b0617d9356614825" />
-						<bool name="include_completed" value="True" />
-						<bool name="include_queued" value="False" />
-						<group name="include_pbg_parenting">
-							<bool name="include_child_pbgs" value="False" />
-							<bool name="include_parent_pbgs" value="False" />
-						</group>
-					</template_reference>
-				</list>
+				<bool name="is_present" value="True" />
+				<int name="max_completed" value="100" />
+				<int name="min_completed" value="1" />
+				<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_empire_rising" mod="67987bbc33214c57b0617d9356614825" />
+				<bool name="include_completed" value="True" />
+				<bool name="include_queued" value="False" />
+				<group name="include_pbg_parenting">
+					<bool name="include_child_pbgs" value="False" />
+					<bool name="include_parent_pbgs" value="False" />
+				</group>
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />

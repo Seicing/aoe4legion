@@ -26,9 +26,9 @@
 				<instance_reference name="ability" value="abilities\always_on_abilities\english\tower_outpost_alert_aura_eng" overrideParent="True" List.ItemID="-600006723" />
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_xbox_auto_train_villager" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1385114579" />
 				<instance_reference name="ability" value="abilities\modal_abilities\core\town_bell\town_center_town_bell" List.ItemID="-231573739" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_main" mod="67987bbc33214c57b0617d9356614825" List.ItemID="833984636" />
 				<instance_reference name="ability" value="abilities\always_on_abilities\english\network_of_citadels_eng" List.ItemID="633784403" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_addition" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="614135957" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_main" mod="67987bbc33214c57b0617d9356614825" List.ItemID="891412394" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_addition" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="355412937" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="2068490625" List.ParentItemID="2068490625">

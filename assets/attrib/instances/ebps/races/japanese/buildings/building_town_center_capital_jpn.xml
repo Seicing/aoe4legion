@@ -40,7 +40,7 @@
 				<instance_reference name="ability" value="abilities\always_on_abilities\japanese\daimyo_level_manager_jpn" List.ItemID="-626834239" List.ListAction="Append" />
 				<instance_reference name="ability" value="abilities\always_on_abilities\japanese\shinto_sacred_object_buff_jpn" List.ItemID="1300203219" List.ListAction="Append" />
 				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_main" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2079818554" List.ListAction="Append" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_addition" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-965344304" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_addition" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1158595711" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="2068490625" List.ParentItemID="2068490625">

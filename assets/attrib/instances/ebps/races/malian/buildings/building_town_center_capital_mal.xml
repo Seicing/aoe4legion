@@ -25,7 +25,7 @@
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_xbox_auto_train_villager" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-29981085" />
 				<instance_reference name="ability" value="abilities\modal_abilities\core\town_bell\town_center_town_bell" List.ItemID="2026448207" />
 				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_main" mod="67987bbc33214c57b0617d9356614825" List.ItemID="20989093" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_addition" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-962556868" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_addition" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="228215447" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-272167440" List.ParentItemID="-272167440">

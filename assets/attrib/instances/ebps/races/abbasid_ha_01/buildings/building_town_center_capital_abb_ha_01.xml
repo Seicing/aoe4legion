@@ -43,7 +43,7 @@
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_xbox_auto_train_villager" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="565199372" />
 				<instance_reference name="ability" value="abilities\modal_abilities\core\town_bell\town_center_town_bell" List.ItemID="-286449348" />
 				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_main" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1853624081" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_addition" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1809323851" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_addition" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1665606076" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-272167440" List.ParentItemID="-272167440">
@@ -283,7 +283,7 @@
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-2049432204" List.ParentItemID="-2049432204">
 			<list name="standard_upgrades" overrideParent="True">
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_villager_health" List.ItemID="1795218234" />
-				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_empire_rising_abb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="462063259" />
+				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_empire_rising" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="462063259" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\resource_drop_off_ext" List.ItemID="-1831636517" List.ParentItemID="-1831636517">

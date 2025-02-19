@@ -16,17 +16,16 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="519261965" List.ParentItemID="519261965">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\chinese" List.ItemID="1997158203" />
+				<instance_reference name="race_type" value="racebps\chinese" List.ItemID="496115328" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="565171784" List.ParentItemID="565171784">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_main" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-571323487" List.ListAction="Append" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_addition" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1311219095" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_main" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1953018432" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\white_stupa_stone_generation_addition" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1159526479" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-272167440" List.ParentItemID="-272167440">
-			<locstring name="help_text" value="11261430" overrideParent="True" />
 			<file name="minimap_icon" value="minimap\capital" overrideParent="True" />
 			<float name="minimap_icon_scale" value="0.45" overrideParent="True" />
 			<instance_reference name="district_info" value="ui_district_info\chinese\dib_chi_town_center" overrideParent="True" />
@@ -37,14 +36,14 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="1529303587" List.ParentItemID="1529303587">
 			<list name="action_state_trees_run_once">
-				<group name="container" List.ItemID="-2141429441" List.ListAction="Append">
+				<group name="container" List.ItemID="2036479626" List.ListAction="Append">
 					<string name="state_tree" value="building_action_apply\buildings\town_center_action_apply\set_civ_dynamic_root\chi" overrideParent="True" />
 				</group>
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\spawner_ext" List.ItemID="-1875812947" List.ParentItemID="-1875812947">
 			<list name="spawn_items" overrideParent="True">
-				<group name="spawn_item" List.ItemID="630229506">
+				<group name="spawn_item" List.ItemID="468987362">
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
@@ -105,10 +104,10 @@
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
 					</template_reference>
-					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<string name="ui_tooltip_data_template" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="-1198814715">
+				<group name="spawn_item" List.ItemID="194667572">
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\chinese\unit_scout_1_chi" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
@@ -169,10 +168,10 @@
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
 					</template_reference>
-					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<string name="ui_tooltip_data_template" value="" />
 				</group>
-				<group name="spawn_item" List.ItemID="-1762369855">
+				<group name="spawn_item" List.ItemID="247485479">
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" overrideParent="True" />
 						<int name="ui_position_column" value="3" overrideParent="True" />
@@ -230,16 +229,18 @@
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
 					</template_reference>
-					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<string name="ui_tooltip_data_template" value="" />
 				</group>
 			</list>
 			<instance_reference name="rally_pass_type" value="pass_types\infantry" overrideParent="True" />
+			<bool name="economic_rally_points_allowed" value="False" overrideParent="True" />
+			<bool name="use_alternative_rally_point_system" value="True" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-2049432204" List.ParentItemID="-2049432204">
 			<list name="standard_upgrades" overrideParent="True">
-				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_villager_health" List.ItemID="233469318" />
-				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_empire_rising" mod="67987bbc33214c57b0617d9356614825" List.ItemID="368278820" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_villager_health" List.ItemID="-576765390" />
+				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_empire_rising" mod="67987bbc33214c57b0617d9356614825" List.ItemID="400361638" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-1383350114" List.ParentItemID="-1383350114">
@@ -260,10 +261,10 @@
 				</group>
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1790918388" List.ListAction="Append">
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1054414482" List.ListAction="Append">
 			<list name="tier_group_list">
-				<list name="tier_group" List.ItemID="1457916650">
-					<group name="tier" List.ItemID="-310921333">
+				<list name="tier_group" List.ItemID="299124036">
+					<group name="tier" List.ItemID="490609856">
 						<list name="tier_requirements">
 						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\chinese\buildings\town_center_chi\tier1_town_center_control_chi" />
@@ -283,9 +284,9 @@
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
 					</group>
-					<group name="tier" List.ItemID="-1063400646">
+					<group name="tier" List.ItemID="1203785295">
 						<list name="tier_requirements">
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="2029311681">
+							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-1071521171">
 								<enum name="reason" value="usage" />
 								<locstring name="ui_name" value="0" />
 								<bool name="is_present" value="True" />
@@ -317,9 +318,9 @@
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
 					</group>
-					<group name="tier" List.ItemID="109069970">
+					<group name="tier" List.ItemID="-1109152843">
 						<list name="tier_requirements">
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="813730910">
+							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="1679691564">
 								<enum name="reason" value="usage" />
 								<locstring name="ui_name" value="0" />
 								<bool name="is_present" value="True" />
@@ -351,9 +352,9 @@
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
 					</group>
-					<group name="tier" List.ItemID="275264929">
+					<group name="tier" List.ItemID="1276089699">
 						<list name="tier_requirements">
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="1632335341">
+							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-421276102">
 								<enum name="reason" value="usage" />
 								<locstring name="ui_name" value="0" />
 								<bool name="is_present" value="True" />
@@ -386,8 +387,8 @@
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
 					</group>
 				</list>
-				<list name="tier_group" overrideParent="True" List.ItemID="-1073401490">
-					<group name="tier" List.ItemID="1967864784">
+				<list name="tier_group" overrideParent="True" List.ItemID="-1468938776">
+					<group name="tier" List.ItemID="-47022278">
 						<list name="tier_requirements">
 						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\chinese\outskirts\general\chi_towncenter_01" comment="Outskirts go here. Removed until a fix for selection is in. To add back, copy and paste the following into this field:&#xD;&#xA;&#xD;&#xA;&lt;instance_reference name=&quot;attachments&quot; value=&quot;attachments\attachment_lists\civilizations\chinese\outskirts\general\chi_towncenter_01&quot; /&gt;" overrideParent="True" />
@@ -407,9 +408,9 @@
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
 					</group>
-					<group name="tier" List.ItemID="500821367">
+					<group name="tier" List.ItemID="2110045814">
 						<list name="tier_requirements">
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="78789028">
+							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="925410549">
 								<enum name="reason" value="usage" />
 								<locstring name="ui_name" value="0" />
 								<bool name="is_present" value="True" />
@@ -442,8 +443,8 @@
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
 					</group>
 				</list>
-				<list name="tier_group" List.ItemID="-1587030360">
-					<group name="tier" List.ItemID="-792701745">
+				<list name="tier_group" List.ItemID="1741862772">
+					<group name="tier" List.ItemID="-1062487902">
 						<list name="tier_requirements">
 						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\common\buildings\building_town_center_bell_arch" />
@@ -466,7 +467,7 @@
 				</list>
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\district_generator_ext" List.ItemID="1175574648" List.ListAction="Append">
+		<template_reference name="exts" value="ebpextensions\district_generator_ext" List.ItemID="472107535" List.ListAction="Append">
 			<float name="range_metres" value="20" overrideParent="True" />
 			<int name="generator_value" value="0" />
 			<bool name="disable_generation_on_spawn" value="False" />

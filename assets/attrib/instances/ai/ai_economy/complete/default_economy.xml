@@ -4374,22 +4374,22 @@
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Production group for building capital in nomad mode" List.ItemID="193149903">
 				<list name="members">
-					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_town_center_capital_abb" List.ItemID="-386620121" />
-					<instance_reference name="member" value="ebps\races\chinese\buildings\building_town_center_chi\building_town_center_capital_chi" List.ItemID="-1113408945" />
-					<instance_reference name="member" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_capital_eng" List.ItemID="-32867748" />
-					<instance_reference name="member" value="ebps\races\french\buildings\building_town_center_fre\building_town_center_capital_fre" List.ItemID="524408855" />
-					<instance_reference name="member" value="ebps\races\hre\buildings\building_town_center_hre\building_town_center_capital_hre" List.ItemID="-854140125" />
-					<instance_reference name="member" value="ebps\races\malian\buildings\building_town_center_capital_mal" List.ItemID="-672522494" />
-					<instance_reference name="member" value="ebps\races\mongol\buildings\building_town_center_capital_mon" List.ItemID="-1733660632" />
-					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_town_center_capital_ott" List.ItemID="-1110786933" />
-					<instance_reference name="member" value="ebps\races\rus\buildings\building_town_center_rus\building_town_center_capital_rus" List.ItemID="470318926" />
-					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_town_center_sul\building_town_center_capital_sul" List.ItemID="1790956455" />
-					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_town_center_capital_byz" List.ItemID="-1105091609" />
-					<instance_reference name="member" value="ebps\races\japanese\buildings\building_town_center_capital_jpn" List.ItemID="-988266920" />
-					<instance_reference name="member" value="ebps\races\abbasid_ha_01\buildings\building_town_center_capital_abb_ha_01" List.ItemID="329428173" />
-					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_town_center_chi_ha_01\building_town_center_capital_chi_ha_01" List.ItemID="245920804" />
-					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_capital_hre_ha_01" List.ItemID="550934241" />
-					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_town_center_fre_ha_01\building_town_center_capital_fre_ha_01" List.ItemID="-1628736909" />
+					<instance_reference name="member" value="ebps\races\abbasid\buildings\building_town_center_capital_abb" List.ItemID="176878564" />
+					<instance_reference name="member" value="ebps\races\chinese\buildings\building_town_center_chi\building_town_center_capital_chi" List.ItemID="440152790" />
+					<instance_reference name="member" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_capital_eng" List.ItemID="1608771770" />
+					<instance_reference name="member" value="ebps\races\french\buildings\building_town_center_fre\building_town_center_capital_fre" List.ItemID="423532042" />
+					<instance_reference name="member" value="ebps\races\hre\buildings\building_town_center_hre\building_town_center_capital_hre" List.ItemID="-1591866272" />
+					<instance_reference name="member" value="ebps\races\malian\buildings\building_town_center_capital_mal" List.ItemID="-481624597" />
+					<instance_reference name="member" value="ebps\races\mongol\buildings\building_town_center_capital_mon" List.ItemID="-854993120" />
+					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_town_center_capital_ott" List.ItemID="600834799" />
+					<instance_reference name="member" value="ebps\races\rus\buildings\building_town_center_rus\building_town_center_capital_rus" List.ItemID="299514903" />
+					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_town_center_sul\building_town_center_capital_sul" List.ItemID="-1941191756" />
+					<instance_reference name="member" value="ebps\races\byzantine\buildings\building_town_center_capital_byz" List.ItemID="1975130218" />
+					<instance_reference name="member" value="ebps\races\japanese\buildings\building_town_center_capital_jpn" List.ItemID="-1025972820" />
+					<instance_reference name="member" value="ebps\races\abbasid_ha_01\buildings\building_town_center_capital_abb_ha_01" List.ItemID="1982539863" />
+					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_town_center_chi_ha_01\building_town_center_capital_chi_ha_01" List.ItemID="-186498876" />
+					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_capital_hre_ha_01" List.ItemID="1545652802" />
+					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_town_center_fre_ha_01\building_town_center_capital_fre_ha_01" List.ItemID="1991216805" />
 				</list>
 				<float name="base_scale" value="1" />
 				<float name="minimum_score_to_produce" value="0" />
@@ -12307,7 +12307,7 @@
 				<template_reference name="production_group" value="ai\economy\production_group" comment="Production group for building capital in nomad mode" List.ItemID="237432565">
 					<list name="members">
 						<instance_reference name="member" value="ebps\races\abbasid\buildings\building_town_center_capital_abb" List.ItemID="1164622235" />
-						<instance_reference name="member" value="ebps\races\chinese\buildings\building_town_center_chi\building_town_center_capital_chi" List.ItemID="2075394648" />
+						<instance_reference name="member" value="ebps\races\chinese\buildings\building_town_center_chi\building_town_center_capital_chi" mod="67987bbc33214c57b0617d9356614825" List.ItemID="2075394648" />
 						<instance_reference name="member" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_capital_eng" List.ItemID="1281108470" />
 						<instance_reference name="member" value="ebps\races\french\buildings\building_town_center_fre\building_town_center_capital_fre" List.ItemID="-1194067807" />
 						<instance_reference name="member" value="ebps\races\hre\buildings\building_town_center_hre\building_town_center_capital_hre" List.ItemID="-1420748470" />
