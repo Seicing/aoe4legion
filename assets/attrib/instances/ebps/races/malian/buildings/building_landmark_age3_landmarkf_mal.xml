@@ -2031,7 +2031,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_mal_dahomey" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2103,7 +2103,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_mal_fulani" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2175,7 +2175,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_mal_tuareg" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2247,7 +2247,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_mal_mandekalu" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2319,7 +2319,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_mal_farimba" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2391,7 +2391,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\malian\unit_shogun_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2457,7 +2457,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_mal_praetorian4" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2533,7 +2533,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_mal_praetorian3" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2606,7 +2606,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_mal_praetorian2" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2676,7 +2676,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_mal_praetorian1" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2744,7 +2744,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_mal_dahomey2" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2816,7 +2816,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_mal_fulani2" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />

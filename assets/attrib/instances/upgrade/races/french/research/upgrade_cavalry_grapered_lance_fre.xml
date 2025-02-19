@@ -37,7 +37,7 @@
 			<int name="ui_position_row" value="3" overrideParent="True" />
 			<int name="ui_position_column" value="1" overrideParent="True" />
 		</group>
-		<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+		<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 		<group name="filter_conditions">
 			<list name="apply_to_unit_classes">
 				<enum name="unit_class" value="cavalry" overrideParent="True" List.ItemID="1584146277" List.ParentItemID="1584146277" />

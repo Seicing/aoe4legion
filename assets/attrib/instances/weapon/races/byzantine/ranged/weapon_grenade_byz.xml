@@ -239,7 +239,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="True" />
-			<instance_reference name="projectile" value="ebps\projectiles\projectile_mangonel_incendiary2" mod="67987bbc33214c57b0617d9356614825" />
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_grenade" />
 			<template_reference name="terrain_elevation_option" value="options\none">
 			</template_reference>
 		</group>

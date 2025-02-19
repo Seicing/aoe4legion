@@ -2537,7 +2537,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_jpn_akazonae" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2609,7 +2609,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_jpn_kokujin" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2681,7 +2681,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_jpn_teppou" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2753,7 +2753,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\japanese\unit_shogun_jpn" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2819,7 +2819,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_jpn_yabusame" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2891,7 +2891,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_jpn_gokenin" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -2963,7 +2963,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_jpn_akazonae2" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -3035,7 +3035,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_jpn_teppou2" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -3107,7 +3107,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_jpn_yabusame2" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -3179,7 +3179,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\legion\legion_jpn_gokenin2" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -3251,7 +3251,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\japanese\unit_shogun_katana_jpn" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -3317,7 +3317,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\japanese\unit_shogun_gun_jpn" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />
@@ -3383,7 +3383,7 @@
 					<instance_reference name="entity" value="" />
 					<instance_reference name="squad" value="sbps\races\japanese\bannerman_samurai\unit_banner_samurai_shogun_jpn" mod="67987bbc33214c57b0617d9356614825" />
 					<bool name="spawn_at_map_entry_point" value="False" />
-					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 					<int name="number_to_spawn" value="1" />
 					<locstring name="ui_screen_name" value="0" />
 					<locstring name="ui_help_text" value="0" />

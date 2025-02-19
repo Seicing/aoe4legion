@@ -174,7 +174,7 @@
 			<enum name="upgrade_type" value="scar_imperial_age_upgrade" List.ItemID="-395153896" />
 		</list>
 		<string name="requirements_openingbranch" value="" />
-		<instance_reference name="ui_menu" value="menu\building_keep_upgrade" mod="67987bbc33214c57b0617d9356614825" />
+		<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
 		<bool name="is_progress_permanent" value="False" />
 		<group name="ui_codex_info">
 			<int name="priority" value="0" />
