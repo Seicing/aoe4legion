@@ -10,14 +10,14 @@
 				<float name="action" value="0" />
 				<float name="command" value="0" />
 				<float name="popcap" value="0" />
-				<float name="food" value="300" />
+				<float name="food" value="0" />
 				<float name="wood" value="0" />
-				<float name="stone" value="0" />
-				<float name="gold" value="700" />
+				<float name="stone" value="200" />
+				<float name="gold" value="0" />
 				<float name="militia_hre" value="0" />
 				<float name="merc_byz" value="0" />
 			</enum_table>
-			<float name="time_seconds" value="60" />
+			<float name="time_seconds" value="20" />
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_production_group" value="command_panel" />
@@ -28,10 +28,10 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="704" mod="67987bbc33214c57b0617d9356614825" />
 			<locstring name="help_text" value="0" />
-			<string name="hotkey_name" value="s" />
+			<string name="hotkey_name" value="w" />
 			<file name="icon_name" value="races\common\units\vip" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="42" mod="67987bbc33214c57b0617d9356614825" />
+			<locstring name="screen_name" value="747" mod="67987bbc33214c57b0617d9356614825" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<string name="debug_text" value="" />
@@ -43,9 +43,9 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<int name="int_value" value="2" List.ItemID="-479376508" />
+					<int name="int_value" value="10" List.ItemID="237374906" />
 				</list>
-				<locstring name="formatter" value="43" mod="67987bbc33214c57b0617d9356614825" />
+				<locstring name="formatter" value="746" mod="67987bbc33214c57b0617d9356614825" />
 			</template_reference>
 			<template_reference name="screen_name_formatter" value="">
 			</template_reference>
@@ -97,7 +97,7 @@
 				<bool name="is_present" value="True" />
 				<int name="max_completed" value="100" />
 				<int name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
+				<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
 				<bool name="include_queued" value="False" />
 				<group name="include_pbg_parenting">
 					<bool name="include_child_pbgs" value="False" />
@@ -143,7 +143,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_armor_clad_eng" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_entity_sul\upgrade_landmark_reinforced_keeps_sul" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
@@ -173,11 +173,8 @@
 			<state_tree_node name="apply_to_filter_condition_statetree_ref" value="" />
 			<enum name="apply_to_target_type" value="entity" />
 			<list name="apply_to_unit_classes">
-				<enum name="unit_class" value="spearman" List.ItemID="1178971454" />
-				<enum name="unit_class" value="archer" List.ItemID="730163837" />
-				<enum name="unit_class" value="manatarms" List.ItemID="-386277472" />
-				<enum name="unit_class" value="crossbowman" List.ItemID="1706350277" />
-				<enum name="unit_class" value="handcannon" List.ItemID="773896599" />
+				<enum name="unit_class" value="palisade_wall" List.ItemID="1786622383" />
+				<enum name="unit_class" value="palisade_gate" List.ItemID="-879187909" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
@@ -200,23 +197,15 @@
 			<float name="merc_byz" value="0" />
 		</enum_table>
 		<list name="float_properties">
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="-453920355">
-				<float name="value" value="2" />
-				<enum name="id" value="armor_melee" />
-			</template_reference>
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="349008243">
-				<float name="value" value="2" />
-				<enum name="id" value="armor_range" />
-			</template_reference>
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="3736420">
-				<float name="value" value="1.25" />
-				<enum name="id" value="attack_speed" />
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="-2141135907">
+				<float name="value" value="10" />
+				<enum name="id" value="armor_fire" />
 			</template_reference>
 		</list>
 		<list name="int_properties">
 		</list>
 		<enum name="ui_group_cast_type" value="single" />
-		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_barracks\tech_armor_clad" />
+		<instance_reference name="hotkey_binding" value="" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
 	</group>
 	<uniqueid name="pbgid" value="1073741826" />

@@ -268,7 +268,7 @@
 								<template_reference name="requirement" value="requirements\required_structure" List.ItemID="-1291701804">
 									<enum name="reason" value="usage" />
 									<locstring name="ui_name" value="0" />
-									<instance_reference name="structure_name" value="ebps\races\hre\buildings\building_landmark_age3_hohenzollern_castle_hre\building_landmark_age3_hohenzollern_castle_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+									<instance_reference name="structure_name" value="ebps\races\hre\buildings\building_landmark_age3_hohenzollern_castle_hre\building_landmark_age3_hohenzollern_castle_hre" overrideParent="True" />
 									<int name="required_structure_count" value="1" />
 									<bool name="check_team" value="False" />
 									<bool name="require_construction_complete" value="False" />
@@ -777,7 +777,7 @@
 						<list name="satisfying_entity_groups" overrideParent="True">
 							<group name="satisfying_entity_group" comment="Town Center Capital&#xD;&#xA;" List.ItemID="369068218">
 								<list name="satisfying_entities">
-									<instance_reference name="entity" value="ebps\races\hre\buildings\building_town_center_hre\building_town_center_capital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1653486069" />
+									<instance_reference name="entity" value="ebps\races\hre\buildings\building_town_center_hre\building_town_center_capital_hre" overrideParent="True" List.ItemID="1653486069" />
 								</list>
 							</group>
 							<group name="satisfying_entity_group" comment="Town Center" List.ItemID="-208399560">
@@ -787,22 +787,22 @@
 							</group>
 							<group name="satisfying_entity_group" comment="Palace of Swabia" List.ItemID="69270548">
 								<list name="satisfying_entities">
-									<instance_reference name="entity" value="ebps\races\hre\buildings\building_landmark_age3_hohenzollern_castle_hre\building_landmark_age3_hohenzollern_castle_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="170422464" />
+									<instance_reference name="entity" value="ebps\races\hre\buildings\building_landmark_age3_hohenzollern_castle_hre\building_landmark_age3_hohenzollern_castle_hre" overrideParent="True" List.ItemID="170422464" />
 								</list>
 							</group>
 							<group name="satisfying_entity_group" comment="Town Center Capital - Historic HRE&#xD;&#xA;" List.ItemID="-1359754810">
 								<list name="satisfying_entities">
-									<instance_reference name="entity" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_capital_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1496275456" />
+									<instance_reference name="entity" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_capital_hre_ha_01" overrideParent="True" List.ItemID="-1496275456" />
 								</list>
 							</group>
 							<group name="satisfying_entity_group" comment="Town Center - Historic HRE" List.ItemID="-1129393550">
 								<list name="satisfying_entities">
-									<instance_reference name="entity" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1708185425" />
+									<instance_reference name="entity" value="ebps\races\hre_ha_01\buildings\building_town_center_hre_ha_01\building_town_center_hre_ha_01" overrideParent="True" List.ItemID="-1708185425" />
 								</list>
 							</group>
 							<group name="satisfying_entity_group" comment="Palace of Swabia - Historic HRE" List.ItemID="1614353604">
 								<list name="satisfying_entities">
-									<instance_reference name="entity" value="ebps\races\hre_ha_01\buildings\building_landmark_age3_hohenzollern_castle_hre_ha_01\building_landmark_age3_hohenzollern_castle_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1210846452" />
+									<instance_reference name="entity" value="ebps\races\hre_ha_01\buildings\building_landmark_age3_hohenzollern_castle_hre_ha_01\building_landmark_age3_hohenzollern_castle_hre_ha_01" overrideParent="True" List.ItemID="1210846452" />
 								</list>
 							</group>
 						</list>
@@ -3067,7 +3067,7 @@
 			<int name="max_queue_size_override" value="-1" />
 			<string name="queue_requirements_openingbranch" value="" />
 			<string name="reinforce_requirements_openingbranch" value="" />
-			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed\Master\building_production_item_complete\building_production_item_complete_keep" overrideParent="True" />
+			<state_tree_node name="production_item_completed_openingbranch" value="" overrideParent="True" />
 			<bool name="enforce_minimum_clearance_at_spawn_positions" value="True" />
 			<bool name="enforce_minimum_clearance_if_entities_blocking" value="True" />
 			<float name="enforce_minimum_clearance_at_spawn_positions_search_range" value="30" />

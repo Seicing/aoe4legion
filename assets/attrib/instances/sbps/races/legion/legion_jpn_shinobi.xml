@@ -17,7 +17,7 @@
 				<template_reference name="required" value="requirements\required_structure" List.ItemID="-684901336">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="663" mod="67987bbc33214c57b0617d9356614825" />
-					<instance_reference name="structure_name" value="ebps\races\japanese\buildings\building_landmark_age1_shinobi_jpn" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="structure_name" value="ebps\races\japanese\buildings\building_landmark_age1_shinobi_jpn" />
 					<int name="required_structure_count" value="1" />
 					<bool name="check_team" value="False" />
 					<bool name="require_construction_complete" value="True" />

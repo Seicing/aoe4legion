@@ -113,7 +113,6 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="96610941" List.ParentItemID="96610941">
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_empire_rising" mod="67987bbc33214c57b0617d9356614825" List.ItemID="901616501" List.ListAction="Append" />
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_villager_health" List.ItemID="-225660872" List.ListAction="Append" />
 			</list>
 		</template_reference>

@@ -140,30 +140,6 @@
 						<float name="merc_byz" value="0" />
 					</enum_table>
 				</template_reference>
-				<template_reference name="required" value="requirements\required_structure" List.ItemID="-1640046287">
-					<enum name="reason" value="usage" />
-					<locstring name="ui_name" value="729" mod="67987bbc33214c57b0617d9356614825" />
-					<instance_reference name="structure_name" value="ebps\races\japanese\buildings\building_landmark_age1_shinobi_jpn" mod="67987bbc33214c57b0617d9356614825" />
-					<int name="required_structure_count" value="1" />
-					<bool name="check_team" value="False" />
-					<bool name="require_construction_complete" value="True" />
-					<group name="include_pbg_parenting">
-						<bool name="include_child_pbgs" value="False" />
-						<bool name="include_parent_pbgs" value="False" />
-					</group>
-				</template_reference>
-				<template_reference name="required" value="requirements\required_structure" List.ItemID="-1424866723">
-					<enum name="reason" value="usage" />
-					<locstring name="ui_name" value="731" mod="67987bbc33214c57b0617d9356614825" />
-					<instance_reference name="structure_name" value="ebps\races\japanese\buildings\building_landmark_age3_treasure_jpn" mod="67987bbc33214c57b0617d9356614825" />
-					<int name="required_structure_count" value="1" />
-					<bool name="check_team" value="False" />
-					<bool name="require_construction_complete" value="True" />
-					<group name="include_pbg_parenting">
-						<bool name="include_child_pbgs" value="False" />
-						<bool name="include_parent_pbgs" value="False" />
-					</group>
-				</template_reference>
 			</list>
 			<state_tree_node name="requirement_statetree" value="" />
 		</template_reference>

@@ -210,7 +210,7 @@
 				<template_reference name="required" value="requirements\required_structure" List.ItemID="-1635190460">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11142919" overrideParent="True" />
-					<instance_reference name="structure_name" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_capital_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="structure_name" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_capital_eng" overrideParent="True" />
 					<int name="required_structure_count" value="1" />
 					<bool name="check_team" value="False" />
 					<bool name="require_construction_complete" value="True" />
@@ -766,6 +766,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="166269" />
