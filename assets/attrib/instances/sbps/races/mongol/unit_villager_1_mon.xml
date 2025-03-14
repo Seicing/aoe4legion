@@ -889,7 +889,7 @@
 					<instance_reference name="construction_menu" value="menu\mon_age2_wonders" />
 					<list name="construction_items" overrideParent="True">
 						<group name="construction_item" List.ItemID="1157558573">
-							<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_wonder_age1_kurultai_mon" overrideParent="True" />
+							<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_wonder_age1_kurultai_mon" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
 								<int name="ui_position_column" value="1" />

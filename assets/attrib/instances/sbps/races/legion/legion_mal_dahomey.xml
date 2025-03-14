@@ -28,17 +28,39 @@
 					</group>
 					<bool name="include_completed" value="True" />
 				</template_reference>
-				<template_reference name="required" value="requirements\required_structure" List.ItemID="-1082502740">
+				<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-1082502740">
 					<enum name="reason" value="usage_and_display" />
 					<locstring name="ui_name" value="0" />
-					<instance_reference name="structure_name" value="ebps\races\malian\buildings\building_landmark_age2_landmarkd_control_mal" />
-					<int name="required_structure_count" value="1" />
-					<bool name="check_team" value="False" />
-					<bool name="require_construction_complete" value="True" />
-					<group name="include_pbg_parenting">
-						<bool name="include_child_pbgs" value="False" />
-						<bool name="include_parent_pbgs" value="False" />
-					</group>
+					<list name="requirements">
+						<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-485767314">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<bool name="is_present" value="True" />
+							<int name="max_completed" value="100" />
+							<int name="min_completed" value="1" />
+							<instance_reference name="upgrade_name" value="upgrade\races\malian\units\farimba_unlocks\farimba_unlock_mansa_musofadi" />
+							<bool name="include_completed" value="True" />
+							<bool name="include_queued" value="False" />
+							<group name="include_pbg_parenting">
+								<bool name="include_child_pbgs" value="False" />
+								<bool name="include_parent_pbgs" value="False" />
+							</group>
+						</template_reference>
+						<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="734540985">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<bool name="is_present" value="True" />
+							<int name="max_completed" value="100" />
+							<int name="min_completed" value="1" />
+							<instance_reference name="upgrade_name" value="upgrade\races\malian\units\farimba_unlocks\farimba_unlock_mansa_musofadi_2" />
+							<bool name="include_completed" value="True" />
+							<bool name="include_queued" value="False" />
+							<group name="include_pbg_parenting">
+								<bool name="include_child_pbgs" value="False" />
+								<bool name="include_parent_pbgs" value="False" />
+							</group>
+						</template_reference>
+					</list>
 				</template_reference>
 			</list>
 			<state_tree_node name="requirement_statetree" value="" />

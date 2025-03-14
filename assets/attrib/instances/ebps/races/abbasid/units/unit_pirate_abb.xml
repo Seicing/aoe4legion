@@ -1,0 +1,69 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-694954717" List.ParentItemID="-694954717">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_manatarms_swordsman" overrideParent="True" />
+			<float name="animator_scale" value="122" overrideParent="True" />
+			<bool name="browsable_in_editor" value="False" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1585086845" List.ParentItemID="-1585086845">
+			<list name="action_state_trees">
+				<group name="container" List.ItemID="1706473285" List.ParentItemID="1706473285">
+					<string name="state_tree" value="unit_action_apply\units\manatarms" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="1344871248" List.ParentItemID="1344871248">
+			<group name="time_cost">
+				<float name="time_seconds" value="15" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1861449306" List.ParentItemID="1861449306">
+			<float name="hitpoints" value="235" overrideParent="True" />
+			<enum_table name="armor_scaler_by_damage_type">
+				<float name="Melee" value="0" overrideParent="True" />
+				<float name="Ranged" value="0" overrideParent="True" />
+			</enum_table>
+			<enum name="armor_type" value="Light" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-608938671" List.ParentItemID="-608938671">
+			<list name="race_type_list">
+				<instance_reference name="race_type" value="racebps\abbasid" overrideParent="True" List.ItemID="-694198761" List.ParentItemID="-694198761" />
+			</list>
+			<list name="unit_type_list">
+				<enum name="unit_type" value="infantry_light" List.ItemID="-1765186914" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1934131166" List.ParentItemID="1934131166">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="-826010839" List.ParentItemID="-826010839">
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="-1044696419" List.ParentItemID="-1044696419">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\abbasid_ha_01\weapon_pirate_abb_ha_01" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\civilizations\ayyubid_cmp\weapons\wpn_melee_pirate_ayy" overrideParent="True" />
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+			<template_reference name="kill_action_tree" value="state_tree_reference_info" overrideParent="True">
+				<state_tree_node name="ActionTree_OpeningBranch" value="" overrideParent="True" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-571012274" List.ParentItemID="-571012274">
+			<float name="rotation_rate" value="800" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="650057187" List.ParentItemID="650057187">
+			<list name="tier_group_list">
+				<list name="tier_group" List.ItemID="-21672434" List.ParentItemID="-21672434">
+					<group name="tier" List.ItemID="2124742111" List.ParentItemID="2124742111">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid_ha_01\units\tier2_pirate_abb_ha_01" overrideParent="True" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742475" />
+	<instance_reference name="parent_pbg" value="ebps\races\crusader_cmp\units\unit_militia_cru" />
+</instance>

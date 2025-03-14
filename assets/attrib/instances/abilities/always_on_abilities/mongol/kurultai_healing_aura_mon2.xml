@@ -1,6 +1,6 @@
 <instance version="4" description="" template="abilities">
 	<group name="ability_bag">
-		<enum name="activation" value="timed" />
+		<enum name="activation" value="always_on" />
 		<bool name="can_target_in_fow" value="False" />
 		<float name="caster_close_in_distance" value="0" />
 		<bool name="casters_can_evacuate" value="False" />
@@ -13,12 +13,12 @@
 			<float name="stone" value="0" />
 			<float name="gold" value="0" />
 			<float name="militia_hre" value="0" />
-			<float name="merc_byz" value="100" />
+			<float name="merc_byz" value="0" />
 		</enum_table>
 		<string name="cursor_ghost_blueprint" value="" />
 		<float name="cursor_ghost_blueprint_angle" value="0" />
 		<bool name="disable_combat" value="False" />
-		<bool name="disable_when_active" value="True" />
+		<bool name="disable_when_active" value="False" />
 		<bool name="enable_in_building" value="False" />
 		<bool name="enable_in_vehicle" value="False" />
 		<bool name="engage_combat" value="False" />
@@ -31,9 +31,9 @@
 		<bool name="initial_recharge" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="30" />
+		<float name="range" value="40" comment="Edit the cooldown float property to match the range" />
 		<bool name="range_ignore" value="False" />
-		<float name="recharge_time" value="25" />
+		<float name="recharge_time" value="0" />
 		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="" />
@@ -50,29 +50,24 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="0" />
 			<locstring name="help_text" value="0" />
-			<string name="hotkey_name" value="Q" />
-			<file name="icon_name" value="races\common\abilities\speed" />
+			<string name="hotkey_name" value="" />
+			<file name="icon_name" value="placeholder\icon_placeholder" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11250615" />
+			<locstring name="screen_name" value="0" />
 			<file name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />
 			<locstring name="screen_name_alternate" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<string name="debug_text" value="" />
-			<string name="tooltip_data_template" value="UniqueAbilityDataTemplate" />
-			<enum name="ui_combine_type" value="union" />
+			<string name="tooltip_data_template" value="AbilityDataTemplate" />
+			<enum name="ui_combine_type" value="intersection" />
 			<template_reference name="brief_text_formatter" value="">
 			</template_reference>
 			<template_reference name="extra_text_formatter" value="">
 			</template_reference>
-			<template_reference name="help_text_formatter" value="ui_text_formatter">
-				<list name="formatter_arguments">
-					<int name="int_value" value="30" List.ItemID="644816923" />
-					<int name="int_value" value="15" List.ItemID="861896305" />
-				</list>
-				<locstring name="formatter" value="11250642" />
+			<template_reference name="help_text_formatter" value="">
 			</template_reference>
 			<template_reference name="help_text_alternate_formatter" value="">
 			</template_reference>
@@ -82,7 +77,7 @@
 			</template_reference>
 			<template_reference name="screen_name_short_formatter" value="">
 			</template_reference>
-			<string name="sound" value="sfx_ability_cast_base" />
+			<string name="sound" value="" />
 			<string name="sound_alternative" value="" />
 			<template_reference name="ui_info_extended" value="tables\ui_info_ext">
 				<template_reference name="command_card_info" value="">
@@ -97,16 +92,12 @@
 				</template_reference>
 				<enum name="category" value="Economic" />
 				<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
-					<enum name="quick_commands_hotkey" value="x_quick_command_y" />
-					<int name="quick_commands_priority" value="1" />
-					<int name="quick_commands_slot_index" value="2" />
+					<enum name="quick_commands_hotkey" value="" />
+					<int name="quick_commands_priority" value="-1" />
+					<int name="quick_commands_slot_index" value="-1" />
 					<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
 				</template_reference>
-				<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
-					<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\default_unit_ability" />
-					<int name="nominal_index" value="1" />
-					<int name="priority" value="0" />
-					<instance_reference name="linked" value="" />
+				<template_reference name="relic_radial_menu_info" value="">
 				</template_reference>
 				<enum name="observer_type" value="Disabled" />
 				<group name="issuable_info">
@@ -120,29 +111,25 @@
 		<locstring name="ui_usage_txt" value="0" />
 		<bool name="validate_actions" value="False" />
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-325441908">
-				<enum name="reason" value="usage" />
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-387983066">
+				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
-				<list name="requirements">
-					<template_reference name="requirement" value="requirements\required_structure" List.ItemID="-2098851964">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<instance_reference name="structure_name" value="ebps\races\byzantine\buildings\building_landmark_age1_hippodrome_byz" />
-						<int name="required_structure_count" value="1" />
-						<bool name="check_team" value="False" />
-						<bool name="require_construction_complete" value="True" />
-						<group name="include_pbg_parenting">
-							<bool name="include_child_pbgs" value="False" />
-							<bool name="include_parent_pbgs" value="False" />
-						</group>
-					</template_reference>
-				</list>
+				<bool name="is_present" value="True" />
+				<int name="max_completed" value="100" />
+				<int name="min_completed" value="1" />
+				<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_darughachi_system" mod="67987bbc33214c57b0617d9356614825" />
+				<bool name="include_completed" value="True" />
+				<bool name="include_queued" value="False" />
+				<group name="include_pbg_parenting">
+					<bool name="include_child_pbgs" value="False" />
+					<bool name="include_parent_pbgs" value="False" />
+				</group>
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
 		<group name="ui_position">
-			<int name="ui_position_row" value="1" />
-			<int name="ui_position_column" value="2" />
+			<int name="ui_position_row" value="-1" />
+			<int name="ui_position_column" value="-1" />
 		</group>
 		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />
@@ -190,7 +177,7 @@
 		<string name="speech_code" value="" />
 		<template_reference name="channeling" value="options\none">
 		</template_reference>
-		<bool name="can_be_interrupted" value="True" />
+		<bool name="can_be_interrupted" value="False" />
 		<template_reference name="casting_option" value="options\none">
 		</template_reference>
 		<template_reference name="proxy_range_option" value="options\none">
@@ -199,20 +186,20 @@
 		<bool name="always_refund_cost_if_failed" value="False" />
 		<instance_reference name="ui_menu" value="" />
 		<int name="ui_combine_priority" value="0" />
-		<instance_reference name="construction_preview_override" value="" />
 		<enum name="statetree_ability_id" value="" />
+		<instance_reference name="construction_preview_override" value="" />
 		<bool name="construction_preview" value="False" />
+		<state_tree_node name="entity_tree" value="kurultai_khan_buff_aura_mon\add_kurultai_aura_to_building" />
+		<state_tree_node name="squad_tree" value="" />
+		<float name="hold_period" value="0" />
 		<state_tree_node name="statetree_node_prereq_self_requirement" value="" />
 		<state_tree_node name="statetree_node_prereq_target_requirement" value="" />
 		<state_tree_node name="statetree_node_prereq_self_recharge_requirement" value="" />
-		<state_tree_node name="entity_tree" value="shirkuh_speed_activated_ayy" />
-		<state_tree_node name="squad_tree" value="" />
 		<group name="ability_active_state_tree_group">
 			<state_tree_node name="ability_activate_squad_tree" value="" />
 			<state_tree_node name="ability_activate_entity_tree" value="" />
 			<state_tree_node name="ability_activate_deferred_tree" value="" />
 		</group>
-		<float name="hold_period" value="0" />
 		<bool name="clear_ability_on_blueprint_conversion" value="True" />
 		<float name="min_range" value="0" />
 		<instance_reference name="ability_description" value="" />
@@ -224,32 +211,44 @@
 		<list name="ui_contextual_info">
 		</list>
 		<bool name="show_range_reticule_in_contruction_item_preview" value="False" />
-		<bool name="ui_range_reticule_shows_while_active" value="False" />
+		<bool name="ui_range_reticule_shows_while_active" value="True" />
 		<bool name="can_move_to_cast" value="True" />
 		<string name="toggle_ability_group" value="" />
-		<bool name="ui_ability_can_display" value="True" />
+		<bool name="ui_ability_can_display" value="False" />
 		<instance_reference name="projectile_for_preview" value="" />
 		<float name="can_use_ability_check_interval" value="0.125" />
 		<bool name="should_trigger_immediately" value="False" />
 		<list name="enable_in_unit_types">
 		</list>
 		<bool name="ui_range_reticule_can_cast_only" value="False" />
-		<bool name="ui_range_reticule_first_caster_only" value="True" />
+		<bool name="ui_range_reticule_first_caster_only" value="False" />
 		<enum name="ui_target_origin_point" value="center" />
 		<locstring name="ui_user_prompt_issue_message" value="0" />
 		<bool name="ui_range_reticule_enable_team_color" value="False" />
 		<bool name="can_passive_ability_create_formation_squad_group" value="False" />
 		<bool name="can_cast_again_whilst_pending" value="False" />
 		<list name="float_properties">
+			<template_reference name="float" value="abilitybag_float_property" List.ItemID="675479818">
+				<float name="value" value="1.2" />
+				<enum name="id" value="melee_damage_amplification" />
+			</template_reference>
+			<template_reference name="float" value="abilitybag_float_property" List.ItemID="14710522">
+				<float name="value" value="40" />
+				<enum name="id" value="cooldown" comment="Aura size" />
+			</template_reference>
 		</list>
 		<list name="int_properties">
+			<template_reference name="int" value="abilitybag_int_property" List.ItemID="-2106595220">
+				<int name="value" value="1" />
+				<enum name="id" value="military_building_heal_amount_mon" />
+			</template_reference>
 		</list>
-		<bool name="can_queue_passive_ability" value="True" />
+		<bool name="can_queue_passive_ability" value="False" />
 		<string name="ui_click_point_action_key" value="" />
 		<bool name="ignore_teardown_on_convert" value="False" />
-		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\abilities\cmp_ability_shirkuh_speed_ayy" />
+		<instance_reference name="hotkey_binding" value="" />
 		<int name="default_command_additional_rally_weight_modifier" value="0" />
 	</group>
-	<uniqueid name="pbgid" value="2144649" />
+	<uniqueid name="pbgid" value="1073742476" />
 	<instance_reference name="parent_pbg" value="" />
 </instance>

@@ -1,0 +1,476 @@
+<instance version="6" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="-1138756103" List.ParentItemID="-1138756103">
+			<list name="requirement_table" overrideParent="True">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="1174771239">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="11142977" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="992473390">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<list name="requirements">
+								<template_reference name="requirement" value="requirements\required_structure" List.ItemID="-2030126694">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<instance_reference name="structure_name" value="ebps\races\mongol\buildings\building_wonder_age2_khara_khoto_mon" overrideParent="True" />
+									<int name="required_structure_count" value="1" />
+									<bool name="check_team" value="False" />
+									<bool name="require_construction_complete" value="False" />
+									<group name="include_pbg_parenting">
+										<bool name="include_child_pbgs" value="False" />
+										<bool name="include_parent_pbgs" value="False" />
+									</group>
+								</template_reference>
+								<template_reference name="requirement" value="requirements\required_structure" List.ItemID="1935074359">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<instance_reference name="structure_name" value="ebps\races\mongol\buildings\building_wonder_age1_kurultai_mon" mod="67987bbc33214c57b0617d9356614825" />
+									<int name="required_structure_count" value="1" />
+									<bool name="check_team" value="False" />
+									<bool name="require_construction_complete" value="False" />
+									<group name="include_pbg_parenting">
+										<bool name="include_child_pbgs" value="False" />
+										<bool name="include_parent_pbgs" value="False" />
+									</group>
+								</template_reference>
+							</list>
+						</template_reference>
+					</list>
+				</template_reference>
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1419286283">
+					<enum name="reason" value="usage_and_display" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="False" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+					<bool name="include_completed" value="True" />
+				</template_reference>
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="302465776">
+					<enum name="reason" value="usage_and_display" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\feudal_age" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+					<bool name="include_completed" value="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="442418202" List.ParentItemID="442418202">
+			<state_tree_node name="death_action_tree" value="building_death_actions\landmarks\landmarks_age1\mongol_kurultai" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1676377740" List.ParentItemID="1676377740">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\mongol\buildings\building_wonder_mongol" overrideParent="True" />
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<enum name="subclass_type" value="MongolBuilding" overrideParent="True" />
+			<float name="animator_scale" value="125" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="31700595" List.ParentItemID="31700595">
+			<list name="unit_type_list" overrideParent="True">
+				<enum name="unit_type" value="building" List.ItemID="-1120815504" />
+				<enum name="unit_type" value="wonder" List.ItemID="939963873" />
+				<enum name="unit_type" value="wonder_feudal_age" overrideParent="True" List.ItemID="169916011" />
+				<enum name="unit_type" value="siegeable" List.ItemID="1621790285" />
+				<enum name="unit_type" value="packable_building" List.ItemID="1080784478" />
+				<enum name="unit_type" value="select_special_building" List.ItemID="1039377304" />
+				<enum name="unit_type" value="landmark" List.ItemID="-489549722" />
+				<enum name="unit_type" value="age1_landmark2" List.ItemID="-50028077" />
+				<enum name="unit_type" value="audio_production_landmark" List.ItemID="587773308" />
+				<enum name="unit_type" value="town_center_or_landmark" List.ItemID="-1747864553" />
+			</list>
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\mongol" List.ItemID="1029791006" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="466870777" List.ParentItemID="466870777">
+			<float name="decorator_height" value="8" overrideParent="True" />
+			<file name="icon_name" value="races\mongols\buildings\building_wonder_age1_kurultai_mon" overrideParent="True" />
+			<locstring name="screen_name" value="11147007" overrideParent="True" />
+			<float name="minimap_icon_scale" value="0.3" overrideParent="True" />
+			<locstring name="extra_text" value="11185323" overrideParent="True" />
+			<string name="decorator_data_template" value="" overrideParent="True" />
+			<template_reference name="help_text_formatter" value="ui_text_formatter" comment="Remember to update the sbps help text for the packed/cart version." overrideParent="True">
+				<list name="formatter_arguments" comment="Remember to update the sbps help text for the packed/cart version." overrideParent="True">
+					<int name="int_value" value="1" overrideParent="True" List.ItemID="778043880" />
+					<int name="int_value" value="1" overrideParent="True" List.ItemID="-685472431" />
+					<int name="int_value" value="20" overrideParent="True" List.ItemID="-1736132455" />
+				</list>
+				<locstring name="formatter" value="11226784" />
+			</template_reference>
+			<string name="telemetry_name" value="Kurultai" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="-264293052" List.ParentItemID="-264293052">
+			<bool name="snap_to_construction_grid" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="484476401" List.ParentItemID="484476401">
+			<state_tree_node name="can_be_cancelled_state_tree_conditions" value="entity_construction_queries_mon\Can_Cancel_Construction" overrideParent="True" />
+			<bool name="query_abilities_for_range_ui" value="True" overrideParent="True" />
+			<instance_reference name="ui_range" value="ui_reticule\default_range" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-335360918" List.ParentItemID="-335360918">
+			<list name="abilities" overrideParent="True">
+				<instance_reference name="ability" value="abilities\toggle_abilities\mongol\cancel_unpacking_building_mon" List.ItemID="309125488" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\mongol\dummy_unpacking_building_mon" List.ItemID="-323998656" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\mongol\pack_building_mon" overrideParent="True" List.ItemID="-228488" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\kurultai_healing_aura_mon" List.ItemID="-1205791781" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\statemodel_ext" comment="Make sure the building and moving building are referencing the same schema, if they are using different schemas unpacking will break." List.ItemID="-1319870754" List.ParentItemID="-1319870754">
+			<instance_reference name="schema" value="statemodel_schema\buildings\civilizations\mongols\kurultai_landmark_mon" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="-938692706" List.ParentItemID="-938692706">
+			<state_tree_node name="fallback_default_move_command_conditions" value="entity_construction_queries_mon\Can_Queue_Move_Commands" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="96610941" List.ParentItemID="96610941">
+			<list name="standard_upgrades">
+				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_darughachi_system" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1081723532" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1368258232" List.ListAction="Append">
+			<list name="tier_group_list">
+				<list name="tier_group" List.ItemID="1305861361">
+					<group name="tier" List.ItemID="912066455">
+						<list name="tier_requirements">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\mongol\buildings\wonder_age1_kurultai_control_mon\wonder_age1_kurultai_control_mon" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="False" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="136384" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\buildings\building_wonder_age2" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="336344039" List.ParentItemID="336344039">
+				<list name="requirement_table" overrideParent="True">
+					<template_reference name="required" value="requirements\required_not" List.ItemID="-1089079409">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="11142977" />
+						<list name="requirement_table">
+							<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-492002119">
+								<enum name="reason" value="usage" />
+								<locstring name="ui_name" value="0" />
+								<list name="requirements">
+									<template_reference name="requirement" value="requirements\required_structure" List.ItemID="1180983606">
+										<enum name="reason" value="usage" />
+										<locstring name="ui_name" value="0" />
+										<instance_reference name="structure_name" value="ebps\races\mongol\buildings\building_wonder_age2_khara_khoto_mon" overrideParent="True" />
+										<int name="required_structure_count" value="1" />
+										<bool name="check_team" value="False" />
+										<bool name="require_construction_complete" value="False" />
+										<group name="include_pbg_parenting">
+											<bool name="include_child_pbgs" value="False" />
+											<bool name="include_parent_pbgs" value="False" />
+										</group>
+									</template_reference>
+									<template_reference name="requirement" value="requirements\required_structure" List.ItemID="-846031637">
+										<enum name="reason" value="usage" />
+										<locstring name="ui_name" value="0" />
+										<instance_reference name="structure_name" value="ebps\races\mongol\buildings\building_wonder_age1_kurultai_mon" mod="67987bbc33214c57b0617d9356614825" />
+										<int name="required_structure_count" value="1" />
+										<bool name="check_team" value="False" />
+										<bool name="require_construction_complete" value="False" />
+										<group name="include_pbg_parenting">
+											<bool name="include_child_pbgs" value="False" />
+											<bool name="include_parent_pbgs" value="False" />
+										</group>
+									</template_reference>
+								</list>
+							</template_reference>
+						</list>
+					</template_reference>
+					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1527375487">
+						<enum name="reason" value="usage_and_display" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="False" />
+						<int name="max_completed" value="100" />
+						<int name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
+						<bool name="include_queued" value="False" />
+						<group name="include_pbg_parenting">
+							<bool name="include_child_pbgs" value="False" />
+							<bool name="include_parent_pbgs" value="False" />
+						</group>
+						<bool name="include_completed" value="True" />
+					</template_reference>
+					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1606284479">
+						<enum name="reason" value="usage_and_display" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<int name="max_completed" value="100" />
+						<int name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\dev\ages\feudal_age" />
+						<bool name="include_queued" value="False" />
+						<group name="include_pbg_parenting">
+							<bool name="include_child_pbgs" value="False" />
+							<bool name="include_parent_pbgs" value="False" />
+						</group>
+						<bool name="include_completed" value="True" />
+					</template_reference>
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="531176874" List.ParentItemID="531176874">
+				<state_tree_node name="death_action_tree" value="campaignMod_building_death_actions\landmarks\landmarks_age1\mongol_kurultai" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-839161683" List.ParentItemID="-839161683">
+				<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\mongol\buildings\building_wonder_mongol" overrideParent="True" />
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
+				<enum name="subclass_type" value="MongolBuilding" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="342417593" List.ParentItemID="342417593">
+				<list name="unit_type_list" overrideParent="True">
+					<enum name="unit_type" value="building" List.ItemID="276709479" />
+					<enum name="unit_type" value="wonder" List.ItemID="1853771195" />
+					<enum name="unit_type" value="wonder_feudal_age" overrideParent="True" List.ItemID="1305375625" />
+					<enum name="unit_type" value="siegeable" List.ItemID="-43076003" />
+					<enum name="unit_type" value="packable_building" List.ItemID="571517545" />
+					<enum name="unit_type" value="select_special_building" List.ItemID="-1041898320" />
+					<enum name="unit_type" value="landmark" List.ItemID="1839258955" />
+					<enum name="unit_type" value="age1_landmark2" List.ItemID="-999610370" />
+					<enum name="unit_type" value="town_center_or_landmark" List.ItemID="-1360465866" List.ParentItemID="1555270002" />
+				</list>
+				<list name="race_type_list" overrideParent="True">
+					<instance_reference name="race_type" value="racebps\mongol" List.ItemID="1904435237" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1189430844" List.ParentItemID="1189430844">
+				<file name="icon_name" value="races\mongols\buildings\building_wonder_age1_kurultai_mon" overrideParent="True" />
+				<string name="telemetry_name" value="Kurultai" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="-178482444" List.ParentItemID="-178482444">
+				<bool name="snap_to_construction_grid" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="811306653" List.ParentItemID="811306653">
+				<state_tree_node name="can_be_cancelled_state_tree_conditions" value="campaignMod_entity_construction_queries_mon\Can_Cancel_Construction" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-1447558840" List.ParentItemID="-1447558840">
+				<list name="abilities" overrideParent="True">
+					<instance_reference name="ability" value="abilities\toggle_abilities\mongol\pack_building_mon" List.ItemID="-466831476" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\mongol\cancel_unpacking_building_mon" List.ItemID="178585182" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\mongol\dummy_unpacking_building_mon" List.ItemID="-401680643" />
+					<instance_reference name="ability" value="abilities\always_on_abilities\mongol\kurultai_khan_aura_mon" List.ItemID="-2117446988" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="-1368810397" List.ParentItemID="-1368810397">
+				<state_tree_node name="fallback_default_move_command_conditions" value="campaignMod_entity_construction_queries_mon\Can_Queue_Move_Commands" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1364416468" List.ListAction="Append">
+				<list name="tier_group_list">
+					<list name="tier_group" List.ItemID="-364810698">
+						<group name="tier" List.ItemID="-1943241580">
+							<list name="tier_requirements">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\mongol\buildings\wonder_age1_kurultai_control_mon\wonder_age1_kurultai_control_mon" overrideParent="True" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="False" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="136384" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\buildings\building_wonder_age2" />
+	</variant>
+	<variant name="xp3">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="-1138756103" List.ParentItemID="-1138756103">
+				<list name="requirement_table" overrideParent="True">
+					<template_reference name="required" value="requirements\required_not" List.ItemID="-796183234">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="11142977" />
+						<list name="requirement_table">
+							<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-1513228511">
+								<enum name="reason" value="usage" />
+								<locstring name="ui_name" value="0" />
+								<list name="requirements">
+									<template_reference name="requirement" value="requirements\required_structure" List.ItemID="-1170671623">
+										<enum name="reason" value="usage" />
+										<locstring name="ui_name" value="0" />
+										<instance_reference name="structure_name" value="ebps\races\mongol\buildings\building_wonder_age2_khara_khoto_mon" overrideParent="True" />
+										<int name="required_structure_count" value="1" />
+										<bool name="check_team" value="False" />
+										<bool name="require_construction_complete" value="False" />
+										<group name="include_pbg_parenting">
+											<bool name="include_child_pbgs" value="False" />
+											<bool name="include_parent_pbgs" value="False" />
+										</group>
+									</template_reference>
+									<template_reference name="requirement" value="requirements\required_structure" List.ItemID="1739834162">
+										<enum name="reason" value="usage" />
+										<locstring name="ui_name" value="0" />
+										<instance_reference name="structure_name" value="ebps\races\mongol\buildings\building_wonder_age1_kurultai_mon" mod="67987bbc33214c57b0617d9356614825" />
+										<int name="required_structure_count" value="1" />
+										<bool name="check_team" value="False" />
+										<bool name="require_construction_complete" value="False" />
+										<group name="include_pbg_parenting">
+											<bool name="include_child_pbgs" value="False" />
+											<bool name="include_parent_pbgs" value="False" />
+										</group>
+									</template_reference>
+								</list>
+							</template_reference>
+						</list>
+					</template_reference>
+					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1209632188">
+						<enum name="reason" value="usage_and_display" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="False" />
+						<int name="max_completed" value="100" />
+						<int name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
+						<bool name="include_queued" value="False" />
+						<group name="include_pbg_parenting">
+							<bool name="include_child_pbgs" value="False" />
+							<bool name="include_parent_pbgs" value="False" />
+						</group>
+						<bool name="include_completed" value="True" />
+					</template_reference>
+					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1790683159">
+						<enum name="reason" value="usage_and_display" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<int name="max_completed" value="100" />
+						<int name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\dev\ages\feudal_age" />
+						<bool name="include_queued" value="False" />
+						<group name="include_pbg_parenting">
+							<bool name="include_child_pbgs" value="False" />
+							<bool name="include_parent_pbgs" value="False" />
+						</group>
+						<bool name="include_completed" value="True" />
+					</template_reference>
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="442418202" List.ParentItemID="442418202">
+				<state_tree_node name="death_action_tree" value="xp3_building_death_actions\landmarks\landmarks_age1\mongol_kurultai" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1676377740" List.ParentItemID="1676377740">
+				<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\mongol\buildings\building_wonder_mongol" overrideParent="True" />
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
+				<enum name="subclass_type" value="MongolBuilding" overrideParent="True" />
+				<float name="animator_scale" value="125" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="31700595" List.ParentItemID="31700595">
+				<list name="unit_type_list" overrideParent="True">
+					<enum name="unit_type" value="building" List.ItemID="1117321352" />
+					<enum name="unit_type" value="wonder" List.ItemID="374805889" />
+					<enum name="unit_type" value="wonder_feudal_age" overrideParent="True" List.ItemID="1215053406" />
+					<enum name="unit_type" value="siegeable" List.ItemID="1032771822" />
+					<enum name="unit_type" value="packable_building" List.ItemID="1208317301" />
+					<enum name="unit_type" value="select_special_building" List.ItemID="-1185353532" />
+					<enum name="unit_type" value="landmark" List.ItemID="495856295" />
+					<enum name="unit_type" value="age1_landmark2" List.ItemID="-631886508" />
+					<enum name="unit_type" value="audio_production_landmark" List.ItemID="-1497234662" />
+					<enum name="unit_type" value="town_center_or_landmark" List.ItemID="-167191062" />
+				</list>
+				<list name="race_type_list" overrideParent="True">
+					<instance_reference name="race_type" value="racebps\mongol" List.ItemID="1354185902" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="466870777" List.ParentItemID="466870777">
+				<float name="decorator_height" value="8" overrideParent="True" />
+				<file name="icon_name" value="races\mongols\buildings\building_wonder_age1_kurultai_mon" overrideParent="True" />
+				<float name="minimap_icon_scale" value="0.3" overrideParent="True" />
+				<string name="decorator_data_template" value="" overrideParent="True" />
+				<template_reference name="help_text_formatter" value="ui_text_formatter" comment="Remember to update the sbps help text for the packed/cart version." overrideParent="True">
+					<list name="formatter_arguments" overrideParent="True">
+						<int name="int_value" value="1" overrideParent="True" List.ItemID="-1735565201" />
+						<int name="int_value" value="1" overrideParent="True" List.ItemID="1498329998" />
+						<int name="int_value" value="20" overrideParent="True" List.ItemID="-347453767" />
+					</list>
+					<locstring name="formatter" value="11226784" />
+				</template_reference>
+				<string name="telemetry_name" value="Kurultai" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="-264293052" List.ParentItemID="-264293052">
+				<bool name="snap_to_construction_grid" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="484476401" List.ParentItemID="484476401">
+				<state_tree_node name="can_be_cancelled_state_tree_conditions" value="xp3_entity_construction_queries_mon\Can_Cancel_Construction" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-335360918" List.ParentItemID="-335360918">
+				<list name="abilities" overrideParent="True">
+					<instance_reference name="ability" value="abilities\toggle_abilities\mongol\cancel_unpacking_building_mon" List.ItemID="-1247617624" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\mongol\dummy_unpacking_building_mon" List.ItemID="320513709" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\mongol\pack_building_mon" overrideParent="True" List.ItemID="-1658932399" />
+					<instance_reference name="ability" value="abilities\always_on_abilities\mongol\kurultai_healing_aura_mon" List.ItemID="1763389765" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\statemodel_ext" comment="Make sure the building and moving building are referencing the same schema, if they are using different schemas unpacking will break." List.ItemID="-1319870754" List.ParentItemID="-1319870754">
+				<instance_reference name="schema" value="statemodel_schema\buildings\civilizations\mongols\kurultai_landmark_mon" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="-938692706" List.ParentItemID="-938692706">
+				<state_tree_node name="fallback_default_move_command_conditions" value="xp3_entity_construction_queries_mon\Can_Queue_Move_Commands" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="2147264172" List.ListAction="Append">
+				<list name="tier_group_list">
+					<list name="tier_group" List.ItemID="1314096292">
+						<group name="tier" List.ItemID="-1448582126">
+							<list name="tier_requirements">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\mongol\buildings\wonder_age1_kurultai_control_mon\wonder_age1_kurultai_control_mon" overrideParent="True" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="False" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="136384" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\buildings\building_wonder_age2" />
+	</variant>
+</instance>

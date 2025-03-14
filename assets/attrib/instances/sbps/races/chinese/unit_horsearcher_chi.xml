@@ -26,20 +26,6 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1250368617" List.ParentItemID="1250368617">
 			<list name="requirement_table" overrideParent="True">
-				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-209627324">
-					<enum name="reason" value="usage_and_display" />
-					<locstring name="ui_name" value="0" />
-					<bool name="is_present" value="True" />
-					<int name="max_completed" value="100" />
-					<int name="min_completed" value="1" />
-					<instance_reference name="upgrade_name" value="upgrade\races\mongol\units\upgrade_unit_horsearcher_4_mon" />
-					<bool name="include_queued" value="False" />
-					<group name="include_pbg_parenting">
-						<bool name="include_child_pbgs" value="False" />
-						<bool name="include_parent_pbgs" value="False" />
-					</group>
-					<bool name="include_completed" value="True" />
-				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-136741945" List.ParentItemID="-136741945">

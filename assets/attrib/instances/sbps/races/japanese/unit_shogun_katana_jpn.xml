@@ -11,6 +11,7 @@
 						<string name="selection_group" value="abbey_kingkatana" overrideParent="True" />
 						<bool name="is_unique" value="True" overrideParent="True" />
 						<float name="minimap_texture_scale" value="1" overrideParent="True" />
+						<locstring name="extra_text" value="802" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					</group>
 				</group>
 			</list>

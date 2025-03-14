@@ -31,17 +31,19 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-493400043" List.ParentItemID="-493400043">
 			<list name="requirement_table" comment="requires tech army, imperial age, chemistry upgrade">
-				<template_reference name="required" value="requirements\required_structure" List.ItemID="1349458923" List.ListAction="Append">
+				<template_reference name="required" value="requirements\required_player_upgrade" overrideParent="True" List.ItemID="1094454977" List.ParentItemID="1094454977">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="0" />
-					<instance_reference name="structure_name" value="ebps\races\byzantine\buildings\building_landmark_age2_galata_tower_byz" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-					<int name="required_structure_count" value="1" />
-					<bool name="check_team" value="False" />
-					<bool name="require_construction_complete" value="True" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_mediterranean_compact" mod="67987bbc33214c57b0617d9356614825" />
+					<bool name="include_queued" value="False" />
 					<group name="include_pbg_parenting">
 						<bool name="include_child_pbgs" value="False" />
 						<bool name="include_parent_pbgs" value="False" />
 					</group>
+					<bool name="include_completed" value="True" />
 				</template_reference>
 			</list>
 		</template_reference>

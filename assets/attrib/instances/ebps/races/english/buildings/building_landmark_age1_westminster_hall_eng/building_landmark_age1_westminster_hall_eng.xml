@@ -168,7 +168,7 @@
 								<template_reference name="requirement" value="requirements\required_structure" List.ItemID="-1242147762">
 									<enum name="reason" value="usage" />
 									<locstring name="ui_name" value="0" />
-									<instance_reference name="structure_name" value="ebps\races\english\buildings\building_landmark_age1_westminster_hall_eng\building_landmark_age1_westminster_hall_eng" mod="67987bbc33214c57b0617d9356614825" />
+									<instance_reference name="structure_name" value="ebps\races\english\buildings\building_landmark_age1_westminster_hall_eng\building_landmark_age1_westminster_hall_eng" overrideParent="True" />
 									<int name="required_structure_count" value="1" />
 									<bool name="check_team" value="False" />
 									<bool name="require_construction_complete" value="False" />
@@ -180,7 +180,7 @@
 								<template_reference name="requirement" value="requirements\required_structure" List.ItemID="-1817881564">
 									<enum name="reason" value="usage" />
 									<locstring name="ui_name" value="0" />
-									<instance_reference name="structure_name" value="ebps\races\english\buildings\building_landmark_age1_westminster_abbey_eng\building_landmark_age1_westminster_abbey_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+									<instance_reference name="structure_name" value="ebps\races\english\buildings\building_landmark_age1_westminster_abbey_eng\building_landmark_age1_westminster_abbey_eng" overrideParent="True" />
 									<int name="required_structure_count" value="1" />
 									<bool name="check_team" value="False" />
 									<bool name="require_construction_complete" value="False" />

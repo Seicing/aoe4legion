@@ -24,10 +24,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1397640044" List.ParentItemID="1397640044">
-			<list name="requirement_table">
-				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1918079103" List.ParentItemID="1918079103">
-					<instance_reference name="upgrade_name" value="upgrade\races\chinese\units\upgrade_unit_manatarms_4_chi" overrideParent="True" />
-				</template_reference>
+			<list name="requirement_table" removedIds="1918079103">
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-75534381" List.ParentItemID="-75534381">

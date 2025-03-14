@@ -37,6 +37,7 @@
 				<enum name="unit_type" value="manatarms" overrideParent="True" List.ItemID="1791810939" List.ParentItemID="1791810939" />
 			</list>
 			<list name="attack_target_restriction_on_victim" removedIds="-1695620078">
+				<enum name="unit_type" value="stone_wall" List.ItemID="-1705886418" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="113064770" List.ParentItemID="113064770">
@@ -64,6 +65,9 @@
 					</list>
 				</group>
 			</list>
+			<template_reference name="kill_action_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="" overrideParent="True" />
+			</template_reference>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="113025971" List.ParentItemID="113025971">
 			<string name="default_animation" value="navigation\idle_calm_basic_02" overrideParent="True" />

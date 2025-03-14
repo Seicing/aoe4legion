@@ -17,7 +17,7 @@
 				<group name="race_data" List.ItemID="-1791443267">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="244" mod="67987bbc33214c57b0617d9356614825" />
+						<locstring name="extra_text" value="802" mod="67987bbc33214c57b0617d9356614825" />
 						<locstring name="help_text" value="0" />
 						<string name="hotkey_name" value="W" />
 						<file name="icon_name" value="shogun_ott" />

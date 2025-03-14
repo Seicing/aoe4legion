@@ -33,7 +33,7 @@
 				<group name="race_data" List.ItemID="1896534723">
 					<group name="info">
 						<locstring name="screen_name" value="382" mod="67987bbc33214c57b0617d9356614825" />
-						<locstring name="extra_text" value="345" mod="67987bbc33214c57b0617d9356614825" />
+						<locstring name="extra_text" value="802" mod="67987bbc33214c57b0617d9356614825" />
 						<locstring name="help_text" value="380" mod="67987bbc33214c57b0617d9356614825" />
 						<file name="icon_name" value="shogun_ayy" />
 						<string name="selection_group" value="abbey_kingabb" />

@@ -17,7 +17,7 @@
 				<group name="race_data" List.ItemID="-1585728846">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="345" mod="67987bbc33214c57b0617d9356614825" />
+						<locstring name="extra_text" value="802" mod="67987bbc33214c57b0617d9356614825" />
 						<locstring name="help_text" value="0" />
 						<string name="hotkey_name" value="W" />
 						<file name="icon_name" value="shogun_mon" />
@@ -329,18 +329,6 @@
 					<locstring name="ui_name" value="0" />
 					<float name="max_squad_cap" value="1" />
 					<instance_reference name="squad_name" value="sbps\races\mongol\unit_shogun_mon" mod="67987bbc33214c57b0617d9356614825" />
-					<group name="include_pbg_parenting">
-						<bool name="include_child_pbgs" value="False" />
-						<bool name="include_parent_pbgs" value="False" />
-					</group>
-				</template_reference>
-				<template_reference name="required" value="requirements\required_structure" List.ItemID="1483049987">
-					<enum name="reason" value="usage" />
-					<locstring name="ui_name" value="683" mod="67987bbc33214c57b0617d9356614825" />
-					<instance_reference name="structure_name" value="ebps\races\mongol\buildings\building_wonder_age1_kurultai_mon" />
-					<int name="required_structure_count" value="1" />
-					<bool name="check_team" value="False" />
-					<bool name="require_construction_complete" value="True" />
 					<group name="include_pbg_parenting">
 						<bool name="include_child_pbgs" value="False" />
 						<bool name="include_parent_pbgs" value="False" />

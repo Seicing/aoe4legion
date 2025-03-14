@@ -23,7 +23,7 @@
 						<string name="debug_text" value="" overrideParent="True" />
 						<bool name="is_unique_to_race" value="True" overrideParent="True" />
 						<locstring name="screen_name" value="349" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<locstring name="extra_text" value="647" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="extra_text" value="802" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<locstring name="help_text" value="351" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<string name="selection_group" value="abbey_king" overrideParent="True" />
 						<bool name="is_unique" value="True" overrideParent="True" />

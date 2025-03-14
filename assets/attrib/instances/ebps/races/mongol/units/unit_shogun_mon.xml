@@ -22,7 +22,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="473921993">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\kurultai_healing_aura_mon" List.ItemID="-1608589879" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\mongol\kurultai_healing_aura_mon2" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1608589879" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-809721145">
@@ -117,6 +117,12 @@
 			</template_reference>
 			<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 			<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="True Damage" value="0" />
+				<float name="Melee" value="0" />
+				<float name="Ranged" value="0" />
+				<float name="Fire" value="0" />
+			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-430387860">
 			<instance_reference name="hit_material" value="hit_material\hvyarmour" />

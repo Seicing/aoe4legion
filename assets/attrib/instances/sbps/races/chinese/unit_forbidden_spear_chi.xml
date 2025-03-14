@@ -29,6 +29,10 @@
 			</list>
 			<float name="squad_female_chance" value="0" />
 		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1414322165" List.ParentItemID="1414322165">
+			<list name="requirement_table" removedIds="-1920725808">
+			</list>
+		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-2108225852" List.ParentItemID="-2108225852">
 			<list name="squad_type_list" overrideParent="True">
 				<enum name="squad_type" value="military" List.ItemID="-1117487275" />

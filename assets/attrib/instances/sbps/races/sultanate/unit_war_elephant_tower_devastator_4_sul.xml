@@ -105,13 +105,15 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-339770218">
 			<list name="requirement_table">
-				<template_reference name="required" value="requirements\required_structure" List.ItemID="-512930899">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-512930899">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="0" />
-					<instance_reference name="structure_name" value="ebps\races\sultanate\buildings\building_landmark_age3_bijay_mandal_palace_control_sul" mod="67987bbc33214c57b0617d9356614825" />
-					<int name="required_structure_count" value="1" />
-					<bool name="check_team" value="False" />
-					<bool name="require_construction_complete" value="True" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_devastator" mod="67987bbc33214c57b0617d9356614825" />
+					<bool name="include_completed" value="True" />
+					<bool name="include_queued" value="False" />
 					<group name="include_pbg_parenting">
 						<bool name="include_child_pbgs" value="False" />
 						<bool name="include_parent_pbgs" value="False" />

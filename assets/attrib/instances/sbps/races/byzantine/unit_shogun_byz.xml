@@ -11,6 +11,7 @@
 						<bool name="is_unique" value="True" overrideParent="True" />
 						<string name="selection_group" value="abbey_kingchinese" overrideParent="True" />
 						<float name="minimap_texture_scale" value="1" overrideParent="True" />
+						<locstring name="extra_text" value="802" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					</group>
 				</group>
 			</list>
@@ -60,8 +61,6 @@
 				<instance_reference name="ability" value="abilities\always_on_abilities\byzantine\auto_pilgrim_flask_byz" List.ItemID="-1661648786" />
 				<instance_reference name="ability" value="abilities\modal_abilities\byzantine\cataphract_trample_byz" List.ItemID="-1770752004" />
 				<instance_reference name="ability" value="abilities\always_on_abilities\core\military_charge" List.ItemID="-655375456" />
-				<instance_reference name="ability" value="abilities\timed_abilities\ayyubid_cmp\shirkuh_speed_activate_ayy" mod="67987bbc33214c57b0617d9356614825" List.ItemID="446333942" />
-				<instance_reference name="ability" value="abilities\timed_abilities\campaign\leader_healing_activated_byz" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-479712081" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-528484734" List.ParentItemID="-528484734">

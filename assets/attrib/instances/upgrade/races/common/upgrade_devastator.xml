@@ -1,9 +1,9 @@
 <instance version="4" description="" template="upgrade">
-	<group name="upgrade_bag" comment="This upgrade is run by upgrade_age.rdo.">
+	<group name="upgrade_bag">
 		<bool name="enable_in_hold" value="False" />
 		<float name="global_max_limit" value="1" />
 		<bool name="has_speech_code" value="False" />
-		<float name="local_max_limit" value="0" />
+		<float name="local_max_limit" value="1" />
 		<enum name="owner_type" value="player" />
 		<group name="time_cost">
 			<enum_table name="cost">
@@ -17,21 +17,17 @@
 				<float name="militia_hre" value="0" />
 				<float name="merc_byz" value="0" />
 			</enum_table>
-			<float name="time_seconds" value="35" />
+			<float name="time_seconds" value="5" />
 		</group>
-		<bool name="ui_event_cue" value="False" />
+		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_production_group" value="command_panel" />
-		<group name="ui_position">
-			<int name="ui_position_row" value="3" />
-			<int name="ui_position_column" value="1" />
-		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="629" mod="67987bbc33214c57b0617d9356614825" />
+			<locstring name="extra_text" value="795" mod="67987bbc33214c57b0617d9356614825" />
 			<locstring name="help_text" value="0" />
-			<string name="hotkey_name" value="" />
-			<file name="icon_name" value="races\japanese\units\shinobi" />
+			<string name="hotkey_name" value="Q" />
+			<file name="icon_name" value="unit_devastator" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="628" mod="67987bbc33214c57b0617d9356614825" />
+			<locstring name="screen_name" value="796" mod="67987bbc33214c57b0617d9356614825" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<string name="debug_text" value="" />
@@ -43,17 +39,15 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<int name="int_value" value="40" List.ItemID="-1482470878" />
-					<int name="int_value" value="60" List.ItemID="1228576660" />
-					<int name="int_value" value="15" List.ItemID="457193395" />
+					<int name="int_value" value="240" List.ItemID="1170078817" />
 				</list>
-				<locstring name="formatter" value="627" mod="67987bbc33214c57b0617d9356614825" />
+				<locstring name="formatter" value="797" mod="67987bbc33214c57b0617d9356614825" />
 			</template_reference>
 			<template_reference name="screen_name_formatter" value="">
 			</template_reference>
 			<template_reference name="screen_name_short_formatter" value="">
 			</template_reference>
-			<string name="sound" value="" />
+			<string name="sound" value="sfx_ui_produce_upgrade_building_click" />
 			<string name="sound_alternative" value="" />
 			<int name="global_unit_control_row" value="1" />
 			<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -62,9 +56,9 @@
 				<template_reference name="quick_abilities_info" value="">
 				</template_reference>
 				<template_reference name="quick_commands_info" value="ui_quick_commands_info">
-					<int name="quick_commands_slot_index" value="1" />
-					<enum name="quick_commands_hotkey" value="x_quick_command_x" />
-					<int name="quick_commands_priority" value="5" />
+					<int name="quick_commands_slot_index" value="3" />
+					<enum name="quick_commands_hotkey" value="x_quick_command_hold_x" />
+					<int name="quick_commands_priority" value="1" />
 				</template_reference>
 				<template_reference name="quick_formation_info" value="">
 				</template_reference>
@@ -73,45 +67,49 @@
 				<enum name="category" value="Economic" />
 				<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
 					<enum name="quick_commands_hotkey" value="x_quick_command_x" />
-					<int name="quick_commands_priority" value="98" />
+					<int name="quick_commands_priority" value="47" />
 					<int name="quick_commands_slot_index" value="3" />
 					<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
 				</template_reference>
 				<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
-					<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\default" />
+					<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
 					<int name="nominal_index" value="15" />
 					<int name="priority" value="0" />
 					<instance_reference name="linked" value="" />
 				</template_reference>
 				<enum name="observer_type" value="Disabled" />
+				<group name="issuable_info">
+					<bool name="is_secondary" value="False" />
+					<instance_reference name="secondary_issuable" value="" />
+				</group>
 			</template_reference>
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />
 		</group>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="805101891" List.ParentItemID="805101891">
-				<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="0" />
-				<bool name="is_present" value="True" />
-				<int name="max_completed" value="100" />
-				<int name="min_completed" value="1" />
-				<bool name="include_completed" value="True" />
-				<bool name="include_queued" value="False" />
-				<group name="include_pbg_parenting">
-					<bool name="include_child_pbgs" value="False" />
-					<bool name="include_parent_pbgs" value="False" />
-				</group>
-			</template_reference>
-			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1699939280" List.ParentItemID="-1699939280">
-				<instance_reference name="upgrade_name" value="upgrade\races\japanese\research\upgrade_unit_ninja1" mod="67987bbc33214c57b0617d9356614825" />
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1595497743">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="False" />
 				<int name="max_completed" value="100" />
 				<int name="min_completed" value="1" />
-				<bool name="include_completed" value="True" />
+				<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_devastator" mod="67987bbc33214c57b0617d9356614825" />
 				<bool name="include_queued" value="True" />
+				<group name="include_pbg_parenting">
+					<bool name="include_child_pbgs" value="False" />
+					<bool name="include_parent_pbgs" value="False" />
+				</group>
+				<bool name="include_completed" value="True" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="255642509">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="0" />
+				<bool name="is_present" value="True" />
+				<int name="max_completed" value="100" />
+				<int name="min_completed" value="1" />
+				<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
+				<bool name="include_completed" value="True" />
+				<bool name="include_queued" value="False" />
 				<group name="include_pbg_parenting">
 					<bool name="include_child_pbgs" value="False" />
 					<bool name="include_parent_pbgs" value="False" />
@@ -126,6 +124,10 @@
 		</list>
 		<string name="speech_code" value="" />
 		<file name="ui_squad_portrait_icon_override" value="" />
+		<group name="ui_position">
+			<int name="ui_position_row" value="3" />
+			<int name="ui_position_column" value="1" />
+		</group>
 		<float name="min_music_intensity" value="0" />
 		<group name="state_tree_references">
 			<template_reference name="on_begin_action_tree" value="state_tree_reference_info">
@@ -141,7 +143,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="shinobi_auto_age_scaling_jpn\shinobi_age_up_imperial_ott" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
@@ -150,12 +152,17 @@
 			</template_reference>
 		</group>
 		<list name="upgrade_type">
+			<enum name="upgrade_type" value="military_upgrade" List.ItemID="-2072600964" List.ParentItemID="-2072600964" />
+			<enum name="upgrade_type" value="sultinate_upgrade" List.ItemID="1755529287" List.ParentItemID="1755529287" />
+			<enum name="upgrade_type" value="scar_military_upgrade" List.ItemID="-1452115699" List.ParentItemID="-1452115699" />
+			<enum name="upgrade_type" value="scar_nontiered_upgrade" List.ItemID="1158533" List.ParentItemID="1158533" />
+			<enum name="upgrade_type" value="scar_imperial_age_upgrade" List.ItemID="-556263806" />
 		</list>
 		<string name="requirements_openingbranch" value="" />
 		<instance_reference name="ui_menu" value="" />
-		<bool name="is_progress_permanent" value="False" />
+		<bool name="is_progress_permanent" value="True" />
 		<group name="ui_codex_info">
-			<int name="priority" value="0" />
+			<int name="priority" value="4975" />
 			<bool name="exclusive" value="False" />
 			<group name="ui_position">
 				<int name="ui_position_column" value="-1" />
@@ -166,7 +173,6 @@
 			<state_tree_node name="apply_to_filter_condition_statetree_ref" value="" />
 			<enum name="apply_to_target_type" value="entity" />
 			<list name="apply_to_unit_classes">
-				<enum name="unit_class" value="infantry" List.ItemID="-1113810095" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
@@ -189,14 +195,6 @@
 			<float name="merc_byz" value="0" />
 		</enum_table>
 		<list name="float_properties">
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="-1937136063">
-				<float name="value" value="0.15" />
-				<enum name="id" value="health_max" />
-			</template_reference>
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="-926307290">
-				<float name="value" value="0.1" />
-				<enum name="id" value="damage" />
-			</template_reference>
 		</list>
 		<list name="int_properties">
 		</list>
@@ -204,6 +202,6 @@
 		<instance_reference name="hotkey_binding" value="" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="1073742254" />
+	<uniqueid name="pbgid" value="1073742468" />
 	<instance_reference name="parent_pbg" value="" />
 </instance>

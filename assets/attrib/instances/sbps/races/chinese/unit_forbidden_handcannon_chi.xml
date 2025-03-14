@@ -24,7 +24,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-493400043" List.ParentItemID="-493400043">
-			<list name="requirement_table" comment="requires tech army, imperial age, chemistry upgrade">
+			<list name="requirement_table" removedIds="1094454977" comment="requires tech army, imperial age, chemistry upgrade">
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-1020570626" List.ParentItemID="-1020570626">

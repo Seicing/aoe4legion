@@ -8,7 +8,7 @@
 				<group name="race_data" List.ItemID="-636411081" List.ParentItemID="-636411081">
 					<group name="info">
 						<locstring name="screen_name" value="745" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<locstring name="extra_text" value="743" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="extra_text" value="802" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<locstring name="help_text" value="744" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<string name="selection_group" value="cannoneermaster" overrideParent="True" />
 						<float name="minimap_texture_scale" value="1" overrideParent="True" />
