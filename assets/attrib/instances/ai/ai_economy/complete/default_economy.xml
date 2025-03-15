@@ -2683,17 +2683,17 @@
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Defensive Landmarks" List.ItemID="-1804679977">
 				<list name="members">
-					<instance_reference name="member" value="ebps\races\english\buildings\building_landmark_age2_white_tower_eng\building_landmark_age2_white_tower_eng" List.ItemID="1413824641" />
-					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_landmark_age2_siri_fort_sul\building_landmark_age2_siri_fort_control_sul" List.ItemID="1117667368" />
-					<instance_reference name="member" value="ebps\races\mongol\buildings\building_wonder_age1_kurultai_mon" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-528070409" />
-					<instance_reference name="member" value="ebps\races\french\buildings\building_landmark_age2_la_chateau_rouge_fre\building_landmark_age2_la_chateau_rouge_fre" List.ItemID="745488700" />
-					<instance_reference name="member" value="ebps\races\hre\buildings\building_landmark_age3_eltz_castle_hre\building_landmark_age3_eltz_castle_hre" List.ItemID="-559876178" />
-					<instance_reference name="member" value="ebps\races\english\buildings\building_landmark_age3_windsor_castle_eng\building_landmark_age3_windsor_castle_eng" List.ItemID="1745518161" />
-					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_landmark_age3_kilitbahir_castle_ott" List.ItemID="1049745506" />
-					<instance_reference name="member" value="ebps\races\malian\buildings\building_landmark_age3_landmarkf_mal" List.ItemID="943968751" />
-					<instance_reference name="member" value="ebps\races\japanese\buildings\building_landmark_age3_treasure_jpn" List.ItemID="1519614039" />
-					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_landmark_age3_eltz_castle_hre_ha_01\building_landmark_age3_eltz_castle_hre_ha_01" List.ItemID="874793648" />
-					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_landmark_age2_la_chateau_rouge_fre_ha_01\building_landmark_age2_la_chateau_rouge_fre_ha_01" List.ItemID="286877324" />
+					<instance_reference name="member" value="ebps\races\english\buildings\building_landmark_age2_white_tower_eng\building_landmark_age2_white_tower_eng" List.ItemID="-1998672741" />
+					<instance_reference name="member" value="ebps\races\sultanate\buildings\building_landmark_age2_siri_fort_sul\building_landmark_age2_siri_fort_control_sul" List.ItemID="-1976604985" />
+					<instance_reference name="member" value="ebps\races\mongol\buildings\building_wonder_age1_kurultai_mon" List.ItemID="-395329844" />
+					<instance_reference name="member" value="ebps\races\french\buildings\building_landmark_age2_la_chateau_rouge_fre\building_landmark_age2_la_chateau_rouge_fre" List.ItemID="-1048792115" />
+					<instance_reference name="member" value="ebps\races\hre\buildings\building_landmark_age3_eltz_castle_hre\building_landmark_age3_eltz_castle_hre" List.ItemID="940389121" />
+					<instance_reference name="member" value="ebps\races\english\buildings\building_landmark_age3_windsor_castle_eng\building_landmark_age3_windsor_castle_eng" List.ItemID="1006392502" />
+					<instance_reference name="member" value="ebps\races\ottoman\buildings\building_landmark_age3_kilitbahir_castle_ott" List.ItemID="-22414505" />
+					<instance_reference name="member" value="ebps\races\malian\buildings\building_landmark_age3_landmarkf_mal" List.ItemID="-736758511" />
+					<instance_reference name="member" value="ebps\races\japanese\buildings\building_landmark_age3_treasure_jpn" List.ItemID="-884091561" />
+					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_landmark_age3_eltz_castle_hre_ha_01\building_landmark_age3_eltz_castle_hre_ha_01" List.ItemID="-1994654158" />
+					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_landmark_age2_la_chateau_rouge_fre_ha_01\building_landmark_age2_la_chateau_rouge_fre_ha_01" List.ItemID="-915554415" />
 				</list>
 				<float name="base_scale" value="950" />
 				<float name="minimum_score_to_produce" value="200" />
@@ -4630,7 +4630,7 @@
 					<instance_reference name="member" value="sbps\races\abbasid\unit_zamburakchi_abb" mod="67987bbc33214c57b0617d9356614825" List.ItemID="307402903" />
 					<instance_reference name="member" value="sbps\races\english\unit_shogun_eng" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1911498905" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="500" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="" />
 				<int name="max_current" value="-1" />
@@ -4703,7 +4703,7 @@
 					<instance_reference name="member" value="sbps\races\legion\legion_jda_jeannessupporter" mod="67987bbc33214c57b0617d9356614825" List.ItemID="565704900" />
 					<instance_reference name="member" value="sbps\races\legion\legion_chi_imperialguard" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1563389384" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="500" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="" />
 				<int name="max_current" value="-1" />
@@ -4724,7 +4724,7 @@
 					<instance_reference name="member" value="upgrade\races\common\upgrade_warrior_code_chi" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2115743340" />
 					<instance_reference name="member" value="upgrade\races\common\upgrade_logothetes_system" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1534007245" />
 				</list>
-				<float name="base_scale" value="1000" />
+				<float name="base_scale" value="500" />
 				<float name="minimum_score_to_produce" value="1" />
 				<string name="lua_binding" value="" />
 				<int name="max_current" value="-1" />
