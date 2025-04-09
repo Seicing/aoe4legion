@@ -173,6 +173,7 @@
 			<bool name="allow_overkill" value="False" />
 			<list name="on_penetrated_state_trees">
 			</list>
+			<bool name="should_keep_above_one" value="True" />
 		</group>
 		<group name="deflection">
 			<float name="deflection_damage_multiplier" value="0" />
@@ -363,7 +364,7 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="2" />
+				<float name="base_damage_modifier" value="5" />
 			</group>
 		</list>
 		<enum_table name="cover_table">

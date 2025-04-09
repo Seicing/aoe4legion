@@ -4229,7 +4229,7 @@
 						<int name="ui_position_column" value="1" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_eng_wyngardeknight" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_eng_wyngardetrooper" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -4249,12 +4249,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads" overrideParent="True">
-						<instance_reference name="additional_squad" value="sbps\races\english\unit_wyngarde_knight_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1479512729" />
-						<instance_reference name="additional_squad" value="sbps\races\english\unit_horsearcher_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="296509296" />
-						<instance_reference name="additional_squad" value="sbps\races\english\unit_wyngarde_knight_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-148294479" />
-						<instance_reference name="additional_squad" value="sbps\races\english\unit_wyngarde_knight_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="155331681" />
-						<instance_reference name="additional_squad" value="sbps\races\english\unit_wyngarde_horseman_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-565237717" />
-						<instance_reference name="additional_squad" value="sbps\races\english\unit_wyngarde_horseman_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-525024294" />
+						<instance_reference name="additional_squad" value="sbps\races\english\unit_serjeant_4_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1479512729" />
+						<instance_reference name="additional_squad" value="sbps\races\english\unit_serjeant_4_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="296509296" />
+						<instance_reference name="additional_squad" value="sbps\races\english\unit_serjeant_4_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-148294479" />
+						<instance_reference name="additional_squad" value="sbps\races\english\unit_serjeant_4_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="155331681" />
+						<instance_reference name="additional_squad" value="sbps\races\english\unit_serjeant_4_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-565237717" />
+						<instance_reference name="additional_squad" value="sbps\races\english\unit_serjeant_4_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-525024294" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -4301,7 +4301,7 @@
 						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_eng_wyngardetrooper" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_eng_wyngardehuskarl" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -4323,12 +4323,11 @@
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\english\unit_manatarms_1_eng" overrideParent="True" List.ItemID="1602406518" />
 						<instance_reference name="additional_squad" value="sbps\races\english\unit_manatarms_1_eng" overrideParent="True" List.ItemID="-752490817" />
-						<instance_reference name="additional_squad" value="sbps\races\english\unit_spearman_2_eng" overrideParent="True" List.ItemID="1824262571" />
 						<instance_reference name="additional_squad" value="sbps\races\english\unit_footman_wynguard_4_eng" overrideParent="True" List.ItemID="1785449741" />
 						<instance_reference name="additional_squad" value="sbps\races\english\unit_footman_wynguard_4_eng" overrideParent="True" List.ItemID="81620450" />
-						<instance_reference name="additional_squad" value="sbps\races\english\unit_spearman_2_eng" overrideParent="True" List.ItemID="1243519367" />
-						<instance_reference name="additional_squad" value="sbps\races\english\unit_halberdier_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1302593990" />
-						<instance_reference name="additional_squad" value="sbps\races\english\unit_halberdier_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1402240406" />
+						<instance_reference name="additional_squad" value="sbps\races\english\unit_heavy_spearman_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1243519367" />
+						<instance_reference name="additional_squad" value="sbps\races\english\unit_heavy_spearman_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1302593990" />
+						<instance_reference name="additional_squad" value="sbps\races\english\unit_heavy_spearman_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1402240406" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">

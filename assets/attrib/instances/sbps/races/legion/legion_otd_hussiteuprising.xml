@@ -39,7 +39,7 @@
 						<locstring name="extra_text" value="86" mod="67987bbc33214c57b0617d9356614825" />
 						<locstring name="help_text" value="781" mod="67987bbc33214c57b0617d9356614825" />
 						<string name="hotkey_name" value="A" />
-						<file name="icon_name" value="legion_otd_hussiteuprising" />
+						<file name="icon_name" value="legion_hussite" />
 						<bool name="minimap_team_only" value="False" />
 						<file name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />

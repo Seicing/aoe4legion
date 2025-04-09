@@ -1,0 +1,22 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="22" overrideParent="True" />
+			<float name="min" value="22" overrideParent="True" />
+			<enum name="damage_type" value="Ranged" overrideParent="True" />
+		</group>
+		<list name="target_type_table" removedIds="251559206">
+		</list>
+		<string name="fx_munition_name" value="common\javelin" overrideParent="True" />
+		<group name="projectile">
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_axe_serjeant" overrideParent="True" />
+		</group>
+		<group name="fire" comment="This is lined up with the animation currently, adjusting attack speed should be done with care">
+			<float name="wind_down" value="0.25" overrideParent="True" />
+			<float name="wind_up" value="0.75" overrideParent="True" />
+			<float name="animation_impact_frame_time" value="0.75" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="1073742505" />
+	<instance_reference name="parent_pbg" value="weapon\races\malian\ranged\weapon_javelin_donso_3_mal" />
+</instance>

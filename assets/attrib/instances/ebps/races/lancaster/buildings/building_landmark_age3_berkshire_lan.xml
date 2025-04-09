@@ -1,0 +1,565 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="1429553176" List.ParentItemID="1429553176">
+			<group name="on_construction_complete_state_tree_refs">
+				<string name="on_construction_complete_entity_state_tree_ref" value="building_construction_complete\buildings\landmark_berkshire_lancaster_complete" overrideParent="True" />
+				<string name="while_construction_complete_entity_state_tree_ref" value="building_construction_complete\buildings\landmark_keep_construction_complete_lan" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-535682071" List.ParentItemID="-535682071">
+			<float name="decorator_height" value="10" overrideParent="True" />
+			<file name="icon_name" value="races\english\buildings\building_wonder_age2_windsor_castle_eng" overrideParent="True" />
+			<bool name="use_construction_range_on_selection" value="True" overrideParent="True" />
+			<bool name="use_combat_range_on_selection" value="True" overrideParent="True" />
+			<group name="ui_codex_info">
+				<bool name="exclusive" value="False" overrideParent="True" />
+			</group>
+			<template_reference name="help_text_formatter" value="ui_text_formatter" overrideParent="True">
+				<list name="formatter_arguments" overrideParent="True">
+					<float name="float_value" value="14.5" overrideParent="True" List.ItemID="-539658379" />
+					<float name="float_value" value="6" overrideParent="True" List.ItemID="1793414746" />
+				</list>
+				<locstring name="formatter" value="11269139" />
+			</template_reference>
+			<string name="telemetry_name" value="Berkshire Palace" overrideParent="True" />
+			<string name="selection_group" value="keep" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1987748673" List.ParentItemID="-1987748673">
+			<list name="deferred_action_state_trees">
+				<group name="container" List.ItemID="-2014989432" List.ParentItemID="-2014989432">
+					<string name="state_tree" value="berkshire_palace_action_apply_eng" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="43399125" List.ParentItemID="43399125">
+			<list name="abilities" overrideParent="True">
+				<instance_reference name="ability" value="abilities\modal_abilities\core\town_bell\hold_return_to_work" List.ItemID="1622705967" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\lancaster\kings_college_research_speed" List.ItemID="-1354819701" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="852802134" List.ParentItemID="852802134">
+			<list name="requirement_table" overrideParent="True">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="638424989">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="11142977" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-2049817586">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<list name="requirements">
+								<template_reference name="requirement" value="requirements\required_structure" List.ItemID="2554401">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<instance_reference name="structure_name" value="ebps\races\lancaster\buildings\building_landmark_age3_berkshire_lan" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+									<int name="required_structure_count" value="1" />
+									<bool name="check_team" value="False" />
+									<bool name="require_construction_complete" value="False" />
+									<group name="include_pbg_parenting">
+										<bool name="include_child_pbgs" value="False" />
+										<bool name="include_parent_pbgs" value="False" />
+									</group>
+								</template_reference>
+								<template_reference name="requirement" value="requirements\required_structure" List.ItemID="2012640966">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<instance_reference name="structure_name" value="ebps\races\lancaster\buildings\building_landmark_age3_wynguard_lan" overrideParent="True" />
+									<int name="required_structure_count" value="1" />
+									<bool name="check_team" value="False" />
+									<bool name="require_construction_complete" value="False" />
+									<group name="include_pbg_parenting">
+										<bool name="include_child_pbgs" value="False" />
+										<bool name="include_parent_pbgs" value="False" />
+									</group>
+								</template_reference>
+							</list>
+						</template_reference>
+					</list>
+				</template_reference>
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1158966591">
+					<enum name="reason" value="usage_and_display" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="False" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+					<bool name="include_completed" value="True" />
+				</template_reference>
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="2024814046">
+					<enum name="reason" value="usage_and_display" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" overrideParent="True" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+					<bool name="include_completed" value="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="440699253" List.ParentItemID="440699253">
+			<list name="unit_type_list" removedIds="323981790, 1097939617, 5401676">
+			</list>
+			<list name="race_type_list" removedIds="-1428821942">
+				<instance_reference name="race_type" value="racebps\lancaster" overrideParent="True" List.ItemID="319963010" List.ListAction="Append" />
+			</list>
+			<list name="unit_type_list_selection_keybind_only" overrideParent="True">
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="-1694103463" List.ParentItemID="-1694103463">
+			<group name="sight_package">
+				<float name="inner_height" value="501" overrideParent="True" />
+				<float name="inner_radius" value="60" overrideParent="True" />
+				<float name="outer_height" value="-15" overrideParent="True" />
+				<float name="outer_radius" value="61" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="1721365966" List.ParentItemID="1721365966">
+			<list name="standard_upgrades" overrideParent="True">
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_keep_springald" List.ItemID="-1141282274" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_keep_cannon" List.ItemID="1515044889" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="1393895967" />
+				<instance_reference name="upgrade" value="upgrade\races\english\research\upgrade_ranged_longbow_damage_eng" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1052549583" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\spawner_ext" List.ItemID="-2013720469" List.ParentItemID="-2013720469">
+			<list name="spawn_items" overrideParent="True">
+				<group name="spawn_item" comment="free Champions&#xD;&#xA;" List.ItemID="1887727441">
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\lancaster\wynguard\unit_free_dummy_champion_lan" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<group name="ui_position">
+						<int name="ui_position_row" value="-1" overrideParent="True" />
+						<int name="ui_position_column" value="-1" overrideParent="True" />
+					</group>
+					<instance_reference name="ui_menu" value="menu\english\district_castle_production_eng" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="11266494" />
+					<bool name="can_be_cancelled" value="False" overrideParent="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_champion_3_lan" overrideParent="True" List.ItemID="1225868371" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_champion_3_lan" overrideParent="True" List.ItemID="-1771611577" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_champion_3_lan" overrideParent="True" List.ItemID="302891305" />
+					</list>
+					<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_keep\produce_keep_manatarms_eng" overrideParent="True" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
+						<template_reference name="command_card_info" value="ui_command_card_info" overrideParent="True">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" overrideParent="True" />
+								<int name="ui_position_column" value="2" overrideParent="True" />
+							</group>
+							<int name="command_card_priority" value="1" overrideParent="True" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Military" overrideParent="True" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info" overrideParent="True">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\production" overrideParent="True" />
+							<int name="nominal_index" value="2" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<file name="ui_icon_name" value="" />
+					<string name="ui_tooltip_data_template" value="" />
+				</group>
+				<group name="spawn_item" List.ItemID="-1320833681">
+					<group name="ui_position">
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\lancaster\unit_shogun_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="5" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" List.ItemID="762934452">
+					<group name="ui_position">
+						<int name="ui_position_row" value="1" overrideParent="True" />
+						<int name="ui_position_column" value="1" overrideParent="True" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_eng_wyngardetrooper" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_serjeant_4_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1155929770" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_serjeant_4_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1002002516" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_serjeant_4_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1368773152" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_serjeant_4_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1172851023" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_serjeant_4_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-135353103" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_serjeant_4_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="47169567" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="5" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" overrideParent="True" List.ItemID="1952949202">
+					<group name="ui_position">
+						<int name="ui_position_row" value="1" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_hol_wyngardehuskarl" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_heavy_spearman_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-926123852" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_heavy_spearman_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="143415147" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_heavy_spearman_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1491836856" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_champion_3_lan" overrideParent="True" List.ItemID="197534532" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_champion_3_lan" overrideParent="True" List.ItemID="546341560" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_champion_3_lan" overrideParent="True" List.ItemID="-856822211" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="5" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" overrideParent="True" List.ItemID="107198749">
+					<group name="ui_position">
+						<int name="ui_position_row" value="1" overrideParent="True" />
+						<int name="ui_position_column" value="3" overrideParent="True" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_hol_wyngardeyeoman" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_yeoman_2_lan" overrideParent="True" List.ItemID="-2091003077" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_yeoman_2_lan" overrideParent="True" List.ItemID="423319710" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_yeoman_2_lan" overrideParent="True" List.ItemID="324667982" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_yeoman_2_lan" overrideParent="True" List.ItemID="1089150332" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_yeoman_2_lan" overrideParent="True" List.ItemID="-1387313700" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_yeoman_2_lan" overrideParent="True" List.ItemID="1807476773" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="5" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" overrideParent="True" List.ItemID="960504551">
+					<group name="ui_position">
+						<int name="ui_position_row" value="1" overrideParent="True" />
+						<int name="ui_position_column" value="4" overrideParent="True" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_hol_wyngardeknights" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\wynguard\unit_mounted_man_at_arm_4_lan" overrideParent="True" List.ItemID="1331403769" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\wynguard\unit_mounted_man_at_arm_4_lan" overrideParent="True" List.ItemID="1195113327" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\wynguard\unit_mounted_man_at_arm_4_lan" overrideParent="True" List.ItemID="344041649" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\wynguard\unit_mounted_man_at_arm_4_lan" overrideParent="True" List.ItemID="475393761" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_knight_3_lan" overrideParent="True" List.ItemID="-1196667115" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_knight_3_lan" overrideParent="True" List.ItemID="187127778" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="5" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+			</list>
+			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed\Master\building_production_item_complete\building_production_item_complete_keep" overrideParent="True" />
+			<instance_reference name="rally_pass_type" value="pass_types\infantry" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="5000045" />
+	<instance_reference name="parent_pbg" value="ebps\races\english\buildings\building_landmark_age3_windsor_castle_eng\building_landmark_age3_windsor_castle_eng" />
+</instance>

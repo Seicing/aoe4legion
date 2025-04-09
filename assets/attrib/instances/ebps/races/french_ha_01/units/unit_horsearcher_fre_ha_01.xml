@@ -2,9 +2,13 @@
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1491559579" List.ParentItemID="1491559579">
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_knight_4" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="17356376" List.ParentItemID="17356376">
 			<list name="action_state_trees">
+				<group name="container" List.ItemID="-1288922702" List.ParentItemID="-1288922702">
+					<string name="state_tree" value="unit_action_apply\units\knight" overrideParent="True" />
+				</group>
 				<group name="container" List.ItemID="-1844281038" List.ParentItemID="-1844281038">
 					<string name="state_tree" value="unit_action_apply\units\cavalry_archer\audio\rus\4" overrideParent="True" />
 				</group>
@@ -37,6 +41,8 @@
 				<enum name="unit_type" value="find_non_siege_land_military" overrideParent="True" List.ItemID="1927221305" List.ParentItemID="1927221305" />
 				<enum name="unit_type" value="heavy" List.ItemID="679454863" List.ListAction="Append" />
 				<enum name="unit_type" value="armored" List.ItemID="557460142" List.ListAction="Append" />
+				<enum name="unit_type" value="cavalry_armored" List.ItemID="506361643" List.ListAction="Append" />
+				<enum name="unit_type" value="cavalry_handcannon" List.ItemID="606611977" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-13182395" List.ParentItemID="-13182395">
@@ -51,7 +57,7 @@
 					<group name="tier" List.ItemID="1724912692">
 						<list name="tier_requirements" overrideParent="True">
 						</list>
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier2_cavalry_horseman_eng" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\units\horsemen_4_tem" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />
@@ -81,7 +87,7 @@
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\rus\ranged\weapon_horsearcher_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\french\weapons\wpn_range_crossbow_4_fre" overrideParent="True" />
-								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
 						<group name="weapon" List.ItemID="-1392982238" List.ParentItemID="-1392982238">
@@ -90,7 +96,7 @@
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\rus\ranged\weapon_horsearcher_incendiary_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\french\weapons\wpn_range_crossbow_4_fre" overrideParent="True" />
-								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
 					</list>

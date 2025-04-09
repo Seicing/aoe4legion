@@ -25,12 +25,12 @@
 			</group>
 			<float name="max" value="14" overrideParent="True" />
 			<float name="max_height" value="-1" overrideParent="True" />
-			<float name="max_animation_angle_distance" value="0" overrideParent="True" />
+			<float name="max_animation_angle_distance" value="18" overrideParent="True" />
 		</group>
 		<group name="reload">
 			<group name="duration">
-				<float name="max" value="0.325" overrideParent="True" />
-				<float name="min" value="0.325" overrideParent="True" />
+				<float name="max" value="1" overrideParent="True" />
+				<float name="min" value="1" overrideParent="True" />
 			</group>
 		</group>
 		<group name="behaviour">
@@ -41,7 +41,7 @@
 			<bool name="can_fire_while_moving" value="False" overrideParent="True" />
 		</group>
 		<string name="fx_action_target_name" value="fx_handcannon_target" overrideParent="True" />
-		<string name="fx_munition_name" value="common\grenade_explode" overrideParent="True" />
+		<string name="fx_munition_name" value="common\hand_cannon" overrideParent="True" />
 		<string name="fx_tracer_name" value="fx_act_handcannon_tracer" overrideParent="True" />
 		<float name="fx_tracer_speed" value="75" overrideParent="True" />
 		<group name="projectile">
@@ -54,9 +54,9 @@
 				<float name="max_right" value="45" overrideParent="True" />
 			</group>
 			<float name="fire_cone_angle_vert" value="2" overrideParent="True" />
-			<float name="fire_cone_angle" value="360" overrideParent="True" />
+			<float name="fire_cone_angle" value="10" overrideParent="True" />
 		</group>
-		<string name="fx_piercing_munition_name" value="common\grenade_explode" overrideParent="True" />
+		<string name="fx_piercing_munition_name" value="common\hand_cannon" overrideParent="True" />
 		<enum name="default_attack_type" value="light_ranged" overrideParent="True" />
 	</group>
 	<uniqueid name="pbgid" value="1073742195" />

@@ -11,6 +11,8 @@
 						<locstring name="screen_name" value="759" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<file name="icon_name" value="unit_farimba" overrideParent="True" />
 						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<locstring name="extra_text" value="11143461" overrideParent="True" />
+						<locstring name="help_text" value="812" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					</group>
 				</group>
 			</list>
@@ -27,43 +29,21 @@
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="916076548" List.ParentItemID="916076548">
-			<template_reference name="charge_option" value="options\charge\charge_options" overrideParent="True">
-				<float name="min_trigger_distance" value="8" />
-				<float name="max_trigger_distance" value="16" />
-				<float name="cooldown_seconds" value="7" />
-				<float name="max_duration_seconds" value="5" />
-				<list name="self_requirements">
-				</list>
-				<list name="target_requirements">
-					<template_reference name="requirement" value="requirements\required_ownership" List.ItemID="-669935734" List.ParentItemID="-669935734">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<enum name="ownership_type" value="enemy" />
-					</template_reference>
-				</list>
-				<float name="charge_path_side_clearance" value="2.2" />
-				<float name="charge_destination_offset" value="0" />
-				<template_reference name="on_charge_self_action_tree" value="state_tree_reference_info">
-					<state_tree_node name="ActionTree_OpeningBranch" value="" />
-					<bool name="start_suspended" value="False" />
-				</template_reference>
-				<template_reference name="on_charge_target_action_tree" value="state_tree_reference_info">
-					<state_tree_node name="ActionTree_OpeningBranch" value="" />
-					<bool name="start_suspended" value="False" />
-				</template_reference>
-				<template_reference name="on_hit_target_action_tree" value="state_tree_reference_info">
-					<state_tree_node name="ActionTree_OpeningBranch" value="" />
-					<bool name="start_suspended" value="False" />
-				</template_reference>
+			<template_reference name="charge_option" value="options\none" overrideParent="True">
 			</template_reference>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-2075529061" List.ParentItemID="-2075529061">
+			<list name="abilities" removedIds="-592527955">
+			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-528484734" List.ParentItemID="-528484734">
 			<list name="squad_race_type_list" overrideParent="True">
 				<instance_reference name="squad_race_type" value="racebps\malian" overrideParent="True" List.ItemID="-2079570716" />
 			</list>
-			<list name="squad_type_list" removedIds="-1900119987">
-				<enum name="squad_type" value="scar_knight" overrideParent="True" List.ItemID="1228709163" List.ParentItemID="1228709163" />
-				<enum name="squad_type" value="knight" overrideParent="True" List.ItemID="-558415119" List.ListAction="Append" />
+			<list name="squad_type_list" removedIds="-1900119987, -1676908413, -1702611441, 1228709163">
+				<enum name="squad_type" value="ranged" List.ItemID="492271485" List.ListAction="Append" />
+				<enum name="squad_type" value="cavalry_archer" List.ItemID="-1357217250" List.ListAction="Append" />
+				<enum name="squad_type" value="scar_horsearcher" List.ItemID="-545327308" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="1990237064" List.ParentItemID="1990237064">
@@ -84,11 +64,7 @@
 			<int name="importance" value="10" overrideParent="True" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-993571294" List.ParentItemID="-993571294">
-			<float name="desired_protection_level_in_formation" value="1" overrideParent="True" />
-		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_targeting_system_ext" List.ItemID="694515688" List.ListAction="Append">
-			<bool name="allow_squad_scan_close_enemies" value="False" />
-			<int name="history_size" value="2" />
+			<float name="desired_protection_level_in_formation" value="4.75" overrideParent="True" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073742016" />

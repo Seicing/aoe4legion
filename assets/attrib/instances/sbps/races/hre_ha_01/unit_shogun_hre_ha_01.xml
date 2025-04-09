@@ -1,0 +1,103 @@
+<instance version="4" description="HRE Monk " template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_capture_strategic_point_ext" List.ItemID="848836882" List.ParentItemID="848836882">
+			<float name="capture_rate_multiplier" value="1" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="1605927077" List.ParentItemID="1605927077">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="795790451" List.ParentItemID="795790451">
+					<group name="info">
+						<locstring name="help_text" value="11257524" overrideParent="True" />
+						<locstring name="screen_name" value="811" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<string name="selection_datatemplate" value="UniqueDatatemplate" overrideParent="True" />
+						<string name="decorator_data_template" value="CardinalMonkChannelingDecorator" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<group name="ui_codex_info">
+							<int name="priority" value="5800" overrideParent="True" />
+						</group>
+						<file name="icon_name" value="shogun_otd" overrideParent="True" />
+						<string name="selection_group" value="monkshogun" overrideParent="True" />
+						<locstring name="extra_text" value="802" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<bool name="is_unique" value="True" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-116587441" List.ParentItemID="-116587441">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1326492485" List.ParentItemID="1326492485">
+					<instance_reference name="type" value="ebps\races\hre_ha_01\units\unit_shogun_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-626348215" List.ParentItemID="-626348215">
+			<list name="requirement_table" overrideParent="True">
+				<template_reference name="required" value="requirements\required_squad" List.ItemID="-52147837">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="567" mod="67987bbc33214c57b0617d9356614825" />
+					<float name="max_squad_cap" value="1" />
+					<instance_reference name="squad_name" value="sbps\races\hre_ha_01\unit_shogun_hre_ha_01" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="162225861">
+					<enum name="reason" value="usage_and_display" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" overrideParent="True" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+					<bool name="include_completed" value="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="922323573" List.ParentItemID="922323573">
+			<bool name="attack_move_command_requires_valid_range" value="False" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="1459644725" List.ParentItemID="1459644725">
+			<list name="abilities" overrideParent="True">
+				<instance_reference name="ability" value="abilities\modal_abilities\core\pickup_relic" List.ItemID="-521395696" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_deposit_relic" List.ItemID="-1194819513" />
+				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="71644468" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_heal_target" List.ItemID="-1781231922" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_drop_relic" List.ItemID="-1544701708" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_remove_relic" List.ItemID="1788320738" />
+				<instance_reference name="ability" value="abilities\modal_abilities\hre_ha_01\monk_inspire_target_hre_ha_01" overrideParent="True" List.ItemID="1141476238" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_auto_heal_toggle" overrideParent="True" List.ItemID="-1719663216" />
+				<instance_reference name="ability" value="abilities\modal_abilities\hre\cant_pickup_relic_hre" List.ItemID="-1920459471" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="2047242082" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="-1340065704" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="1423746531" />
+				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\monk_conversion" List.ItemID="-726389060" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_capture_holy_site" List.ItemID="1913796892" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-377459956" List.ParentItemID="-377459956">
+			<list name="squad_type_list">
+				<enum name="squad_type" value="scar_age1" overrideParent="True" List.ItemID="88442916" List.ParentItemID="88442916" />
+			</list>
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\hre_ha_01" overrideParent="True" List.ItemID="-559429739" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="588838303" List.ParentItemID="588838303">
+			<list name="age_mapping">
+				<int name="age_number" value="1" overrideParent="True" List.ItemID="379494020" List.ParentItemID="379494020" />
+				<int name="age_number" value="2" overrideParent="True" List.ItemID="1114848155" List.ParentItemID="1114848155" />
+				<int name="age_number" value="3" overrideParent="True" List.ItemID="-1527566566" List.ParentItemID="-1527566566" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="1356321511" List.ParentItemID="1356321511">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742501" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_monk_3" />
+</instance>

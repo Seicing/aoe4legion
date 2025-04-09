@@ -1,7 +1,7 @@
 <instance version="4" description="" template="upgrade">
 	<group name="upgrade_bag">
 		<bool name="enable_in_hold" value="False" />
-		<float name="global_max_limit" value="1" />
+		<float name="global_max_limit" value="0" />
 		<bool name="has_speech_code" value="False" />
 		<float name="local_max_limit" value="1" />
 		<enum name="owner_type" value="player" />
@@ -90,6 +90,8 @@
 			</template_reference>
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />
+			<int name="custom_data_index" value="0" />
+			<bool name="is_unique_to_race" value="False" />
 		</group>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1695939106">
@@ -140,7 +142,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="burgundianimports_lan\make_cheaper" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_cancel_action_tree" value="state_tree_reference_info">
@@ -174,7 +176,7 @@
 		<instance_reference name="ui_menu" value="" />
 		<bool name="is_progress_permanent" value="False" />
 		<group name="ui_codex_info">
-			<int name="priority" value="4975" />
+			<int name="priority" value="5700" />
 			<bool name="exclusive" value="False" />
 			<group name="ui_position">
 				<int name="ui_position_column" value="-1" />
@@ -185,11 +187,13 @@
 			<state_tree_node name="apply_to_filter_condition_statetree_ref" value="" />
 			<enum name="apply_to_target_type" value="entity" />
 			<list name="apply_to_unit_classes">
+				<enum name="unit_class" value="handcannon" List.ItemID="-2093174373" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
 			<group name="ai_unit_types">
 				<list name="any">
+					<enum name="unit_class" value="handcannon" List.ItemID="-422661177" />
 				</list>
 				<list name="none">
 				</list>
@@ -207,6 +211,18 @@
 			<float name="merc_byz" value="0" />
 		</enum_table>
 		<list name="float_properties">
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="253946639">
+				<float name="value" value="-30" />
+				<enum name="id" value="cost_food" />
+			</template_reference>
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="-707434726">
+				<float name="value" value="-30" />
+				<enum name="id" value="cost_gold" />
+			</template_reference>
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="1860934481">
+				<float name="value" value="0.8" />
+				<enum name="id" value="production_speed" />
+			</template_reference>
 		</list>
 		<list name="int_properties">
 		</list>

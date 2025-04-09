@@ -256,6 +256,8 @@
 				<enum name="squad_type" value="audio_abbey_crown_a_king" List.ItemID="-1810952402" />
 				<enum name="squad_type" value="scar_handcannon" List.ItemID="479466602" />
 				<enum name="squad_type" value="ranged" List.ItemID="104045269" List.ParentItemID="104045269" />
+				<enum name="squad_type" value="gunpowder" List.ItemID="-1125231228" />
+				<enum name="squad_type" value="handcannon" List.ItemID="-595541549" />
 			</list>
 			<list name="squad_race_type_list">
 				<instance_reference name="squad_race_type" value="racebps\chinese" List.ItemID="508732826" />
@@ -295,7 +297,7 @@
 			<bool name="is_dynamic_audio_object" value="True" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="604358584">
-			<instance_reference name="schema" value="statemodel_schema\units\handcannon" />
+			<instance_reference name="schema" value="statemodel_schema\units\calvary" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="696570939">
 			<enum_table name="QueryTree_States">

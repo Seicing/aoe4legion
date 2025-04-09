@@ -20,7 +20,7 @@
 					<bool name="is_present" value="True" />
 					<int name="max_completed" value="100" />
 					<int name="min_completed" value="1" />
-					<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
 					<bool name="include_queued" value="False" />
 					<group name="include_pbg_parenting">
 						<bool name="include_child_pbgs" value="False" />

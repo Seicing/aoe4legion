@@ -1,7 +1,7 @@
 <instance version="4" description="Mongol castle age horse archer" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1491559579">
-			<bool name="browsable_in_editor" value="True" />
+			<bool name="browsable_in_editor" value="False" />
 			<file name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
 			<bool name="is_visible_in_game" value="True" />
@@ -10,7 +10,7 @@
 			<instance_reference name="unit_badge" value="" />
 			<bool name="is_spawned_when_not_in_interactive_area" value="True" />
 			<bool name="is_wreck" value="False" />
-			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_scout_4" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_knight_4" />
 			<float name="animator_scale" value="122" />
 			<float name="entity_scale" value="100" />
 			<enum name="subclass_type" value="Unit" />
@@ -28,7 +28,7 @@
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="17356376">
 			<list name="action_state_trees">
 				<group name="container" List.ItemID="-1288922702">
-					<string name="state_tree" value="unit_action_apply\units\handcannon" />
+					<string name="state_tree" value="unit_action_apply\units\knight" />
 				</group>
 				<group name="container" List.ItemID="-1844281038">
 					<string name="state_tree" value="unit_action_apply\units\handcannon\audio\chi" />
@@ -117,6 +117,12 @@
 			</template_reference>
 			<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 			<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="True Damage" value="0" />
+				<float name="Melee" value="0" />
+				<float name="Ranged" value="0" />
+				<float name="Fire" value="0" />
+			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-73104855">
 			<instance_reference name="hit_material" value="hit_material\hvyarmour" />
@@ -220,15 +226,14 @@
 				<enum name="unit_type" value="included_by_military_hotkeys" List.ItemID="375511346" />
 				<enum name="unit_type" value="land_military" List.ItemID="988747243" />
 				<enum name="unit_type" value="gunpowder" List.ItemID="770614048" List.ParentItemID="2125133175" />
-				<enum name="unit_type" value="handcannon" List.ItemID="-945126321" List.ParentItemID="-1948140786" />
 				<enum name="unit_type" value="unique" List.ItemID="-1802397861" />
 				<enum name="unit_type" value="ranged" List.ItemID="1236261508" List.ParentItemID="1236261508" />
 				<enum name="unit_type" value="horse" List.ItemID="1357420677" />
 				<enum name="unit_type" value="cavalry" List.ItemID="-1020930291" />
-				<enum name="unit_type" value="cavalry_archer" List.ItemID="-1321094284" List.ParentItemID="-1321094284" />
 				<enum name="unit_type" value="cavalry_armored" List.ItemID="340547068" />
 				<enum name="unit_type" value="knight" List.ItemID="707072724" />
-				<enum name="unit_type" value="mangudai" List.ItemID="275598377" List.ParentItemID="275598377" />
+				<enum name="unit_type" value="cavalry_handcannon" List.ItemID="896528469" />
+				<enum name="unit_type" value="military_cavalry" List.ItemID="1817716707" List.ParentItemID="1817716707" />
 			</list>
 			<enum name="weapon_targeting" value="automatic" />
 			<enum_table name="weapon_category_targeting_filter">
@@ -425,6 +430,7 @@
 			<instance_reference name="pass_type_destination" value="" />
 			<enum name="snap_to_surface_type" value="GroundOrWalkable" />
 			<float name="turn_in_place_distance" value="0" />
+			<bool name="snap_to_terrain" value="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\posture_ext" List.ItemID="-104252223">
 			<instance_reference name="posture_group" value="posture\default_posture_group" />
@@ -561,8 +567,8 @@
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_handcannon_4_shogun" mod="67987bbc33214c57b0617d9356614825" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\ottoman\weapons\wpn_range_handcannon_4_ott" />
-								<string name="marker_name_parent" value="metarig_larmpalmsocket" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_range_handcannon_4_rus" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
 							<group name="origin">
 								<float name="y" value="2.5" />

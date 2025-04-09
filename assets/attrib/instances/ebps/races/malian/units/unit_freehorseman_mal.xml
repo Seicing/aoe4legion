@@ -1,8 +1,8 @@
 <instance version="4" description="Imperial Age Knight" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1356892678" List.ParentItemID="1356892678">
-			<bool name="browsable_in_editor" value="False" overrideParent="True" />
-			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_horseman_4" overrideParent="True" />
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_horsearcher_4" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="979295898" List.ParentItemID="979295898">
 			<list name="abilities">
@@ -12,22 +12,52 @@
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-12513399" List.ParentItemID="-12513399">
 			<list name="action_state_trees">
 				<group name="container" List.ItemID="-1622883091" List.ParentItemID="-1622883091">
-					<string name="state_tree" value="unit_action_apply\units\horseman" overrideParent="True" />
+					<string name="state_tree" value="unit_action_apply\units\cavalry_archer" overrideParent="True" />
 				</group>
 				<group name="container" List.ItemID="2022080988" List.ParentItemID="2022080988">
 					<string name="state_tree" value="unit_action_apply\units\horseman\audio\sul\4" overrideParent="True" />
 				</group>
 			</list>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-919563761" List.ParentItemID="-919563761">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="food" value="60" overrideParent="True" />
+					<float name="wood" value="60" overrideParent="True" />
+					<float name="gold" value="0" overrideParent="True" />
+				</enum_table>
+				<float name="time_seconds" value="22.5" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-788422057" List.ParentItemID="-788422057">
+			<enum_table name="armor_scaler_by_damage_type">
+				<float name="Melee" value="0" overrideParent="True" />
+				<float name="Ranged" value="7" overrideParent="True" />
+			</enum_table>
+			<float name="hitpoints" value="120" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="1198490334" List.ParentItemID="1198490334">
 			<instance_reference name="hit_material" value="hit_material\leather" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="209652795" List.ParentItemID="209652795">
+			<group name="sight_package" overrideParent="True">
+				<float name="inner_height" value="10" />
+				<float name="inner_radius" value="10" />
+				<float name="outer_height" value="-15" />
+				<float name="outer_radius" value="34" />
+				<float name="cone_angle" value="360" />
+				<float name="cone_start_radius" value="0" />
+			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1786016482" List.ParentItemID="-1786016482">
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\malian" overrideParent="True" List.ItemID="754476601" />
 			</list>
-			<list name="unit_type_list">
-				<enum name="unit_type" value="cavalry_armored" overrideParent="True" List.ItemID="1350676038" List.ParentItemID="1350676038" />
+			<list name="unit_type_list" removedIds="-33973428, -1522941700, -90441891, -448056678, -284996519">
+				<enum name="unit_type" value="cavalry_archer" overrideParent="True" List.ItemID="1350676038" List.ParentItemID="1350676038" />
+				<enum name="unit_type" value="archer" List.ItemID="-434718353" List.ListAction="Append" />
+				<enum name="unit_type" value="mounted_javelin" List.ItemID="-589850620" List.ListAction="Append" />
+				<enum name="unit_type" value="ranged" List.ItemID="-1890133188" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1680160005" List.ParentItemID="1680160005">
@@ -36,7 +66,14 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-662784220" List.ParentItemID="-662784220">
 			<enum_table name="speed_scaling_table">
-				<float name="default_speed" value="6.9" overrideParent="True" />
+				<float name="default_speed" value="6.5" overrideParent="True" />
+			</enum_table>
+			<enum_table name="speed_levels" overrideParent="True">
+				<float name="speed_level_0" value="1" />
+				<float name="speed_level_1" value="2" />
+				<float name="speed_level_2" value="4" />
+				<float name="speed_level_3" value="5" />
+				<float name="speed_level_4" value="6.5" />
 			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="1327234703" List.ParentItemID="1327234703">
@@ -68,42 +105,90 @@
 				</list>
 			</list>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\stimulus_emission_ext" List.ItemID="-1012631002" List.ParentItemID="-1012631002">
+			<list name="emittable_stimulus_types" removedIds="1961863744">
+			</list>
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="1083066112" List.ParentItemID="1083066112">
-			<instance_reference name="schema" value="statemodel_schema\units\horseman" overrideParent="True" />
+			<instance_reference name="schema" value="statemodel_schema\units\horsearcher" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1762200638" List.ParentItemID="1762200638">
 			<list name="hardpoints">
 				<group name="hardpoint" List.ItemID="1534383478" List.ParentItemID="1534383478">
 					<list name="weapon_table">
-						<group name="weapon" List.ItemID="-1605222392" List.ParentItemID="-1605222392">
+						<group name="weapon" overrideParent="True" List.ItemID="-1605222392" List.ParentItemID="-1605222392">
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_knight_4" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\malian\weapons\wpn_melee_scout_2_mal" overrideParent="True" />
-								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_genitour_4_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\weapons\wpn_range_javelin_2" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="0" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0.73" />
+								<float name="y" value="3.48" />
+								<float name="z" value="0.9" />
+							</group>
+							<enum name="type" value="default" />
 						</group>
-						<group name="weapon" List.ItemID="-815746252" List.ParentItemID="-815746252">
+						<group name="weapon" overrideParent="True" List.ItemID="-815746252" List.ParentItemID="-815746252">
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_torch_horseman" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\weapons\wpn_siege_torch_horseman" overrideParent="True" />
-								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_genitour_incen_4_tem" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\templar\weapons\wpn_range_javelin_fire_held_tem" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="0" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0.73" />
+								<float name="y" value="3.48" />
+								<float name="z" value="0.9" />
+							</group>
+							<enum name="type" value="default" />
 						</group>
-						<group name="weapon" List.ItemID="1064922397" List.ParentItemID="1064922397">
+						<group name="weapon" overrideParent="True" List.ItemID="1064922397" List.ParentItemID="1064922397">
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_knight_4_charge" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\french\weapons\wpn_melee_horseman_4_fre" overrideParent="True" />
-								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_genitour_incen_building_fire_tem" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\templar\weapons\wpn_range_javelin_fire_held_tem" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
-							<enum name="type" value="default_override_when_idle" overrideParent="True" />
+							<enum name="type" value="default" overrideParent="True" />
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="0" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0.73" />
+								<float name="y" value="3.48" />
+								<float name="z" value="0.9" />
+							</group>
 						</group>
 					</list>
+				</group>
+			</list>
+			<group name="idle_targeting">
+				<float name="idle_priority_per_angle_degree" value="-0.5" overrideParent="True" />
+			</group>
+			<list name="target_scanning_priority_override" overrideParent="True">
+				<group name="override" List.ItemID="-1993678061" List.ParentItemID="-1993678061">
+					<enum name="target_type" value="ram" />
+					<float name="priority_value" value="90" />
 				</group>
 			</list>
 		</template_reference>

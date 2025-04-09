@@ -1,0 +1,706 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-315500114" List.ParentItemID="-315500114">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="125304692" List.ParentItemID="125304692">
+			<bool name="can_repair" value="True" comment="This is true for the Loom research, in order for current health to adjust alongside the maximum health modifier." overrideParent="True" />
+			<state_tree_node name="death_action_tree" value="building_death_actions\buildings\fortress_death_actions" overrideParent="True" />
+			<float name="hitpoints" value="4000" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="2022824018" List.ParentItemID="2022824018">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\templar" overrideParent="True" List.ItemID="-1634607889" />
+			</list>
+			<list name="unit_type_list">
+				<enum name="unit_type" value="town_center_or_landmark" List.ItemID="-675753724" List.ListAction="Append" />
+				<enum name="unit_type" value="audio_production_landmark" List.ItemID="1413037229" List.ListAction="Append" />
+				<enum name="unit_type" value="mortal_landmark" List.ItemID="733226475" List.ListAction="Append" />
+				<enum name="unit_type" value="wonder" List.ItemID="-1869381574" List.ListAction="Append" />
+				<enum name="unit_type" value="landmark" List.ItemID="2053498679" List.ListAction="Append" />
+				<enum name="unit_type" value="templar_fortress" List.ItemID="-764183167" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="776973782" List.ParentItemID="776973782">
+			<template_reference name="construction_health_option" value="options\ebpextensions\constructionext\construction_health_option">
+				<float name="initial_health" value="400" overrideParent="True" />
+			</template_reference>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-599506936" List.ParentItemID="-599506936">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="stone" value="600" overrideParent="True" />
+					<float name="gold" value="300" overrideParent="True" />
+				</enum_table>
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\impass_ext" List.ItemID="-1048125279" List.ParentItemID="-1048125279">
+			<file name="stamp_blockers" value="" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="-785711550" List.ParentItemID="-785711550">
+			<group name="sight_package">
+				<float name="inner_radius" value="57" overrideParent="True" />
+				<float name="outer_radius" value="58" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-2126635196" List.ParentItemID="-2126635196">
+			<list name="ui_extra_infos" overrideParent="True">
+				<template_reference name="ui_extra_info" value="info\ui_extra_info" List.ItemID="-554756388">
+					<file name="icon" value="influence_buff" overrideParent="True" />
+					<locstring name="description" value="0" />
+					<template_reference name="description_formatter" value="ui_text_formatter" overrideParent="True">
+						<list name="formatter_arguments" overrideParent="True">
+							<int name="int_value" value="25" overrideParent="True" List.ItemID="-455536711" />
+						</list>
+						<locstring name="formatter" value="11265527" />
+					</template_reference>
+				</template_reference>
+			</list>
+			<locstring name="screen_name" value="11265425" overrideParent="True" />
+			<file name="minimap_icon" value="minimap\landmark" overrideParent="True" />
+			<float name="minimap_icon_scale" value="0.3" overrideParent="True" />
+			<locstring name="extra_text" value="11265840" overrideParent="True" />
+			<enum name="map_mark" value="CustomStructure" overrideParent="True" />
+			<group name="ui_codex_info">
+				<int name="priority" value="4851" overrideParent="True" />
+			</group>
+			<file name="icon_name" value="races\templar\units\fortress" overrideParent="True" />
+			<locstring name="help_text" value="11266168" overrideParent="True" />
+			<bool name="is_unique_to_race" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="519464119" List.ParentItemID="519464119">
+			<list name="hardpoints">
+				<group name="hardpoint" comment="Trebuchet Slot" List.ItemID="-1887457150" List.ParentItemID="-1887457150">
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="-705791798" List.ParentItemID="-705791798">
+							<template_reference name="weapon_entity_attachment" value="options\attachment_types\entity_create_attachment">
+								<template_reference name="entity_attach_data" value="attachments\attach_data_entity">
+									<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_keep_trebuchet" overrideParent="True" />
+								</template_reference>
+							</template_reference>
+						</group>
+					</list>
+					<list name="firing_offset_markers" overrideParent="True">
+						<string name="marker" value="fx_muz_springald_00" List.ItemID="-1613468091" List.ParentItemID="1905535024" />
+						<string name="marker" value="fx_muz_springald_01" List.ItemID="-1969119785" List.ParentItemID="-426592020" />
+						<string name="marker" value="fx_muz_springald_02" List.ItemID="2030281106" List.ParentItemID="-1398684462" />
+						<string name="marker" value="fx_muz_springald_03" List.ItemID="710870304" List.ParentItemID="-499702887" />
+					</list>
+				</group>
+				<group name="hardpoint" comment="Garrison Arrows Slot" List.ItemID="-1319836977" List.ParentItemID="-1319836977">
+				</group>
+				<group name="hardpoint" comment="Red Palace Arbalest&#xD;&#xA;&#xD;&#xA;If changes are made to this hardpoints, the values in the initialize_hardpoints tracks will need to change here: 9228620779365287374" overrideParent="True" List.ItemID="-852748572" List.ListAction="Append">
+					<float name="parent_hardpoint" value="-1" />
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="1499172875">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0.3" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="10" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+							<template_reference name="weapon_entity_attachment" value="options\attachment_types\entity_create_attachment">
+								<template_reference name="entity_attach_data" value="attachments\attach_data_entity">
+									<template_reference name="attach_data" value="attachments\attach_data">
+										<string name="marker_name_parent" value="" />
+										<string name="parent_rigidbody_target_name" value="" />
+										<enum name="game_object_attachment_type" value="scenegraph" />
+									</template_reference>
+									<instance_reference name="ebp" value="ebps\races\french\weapons\wpn_range_keep_arbalest_d" overrideParent="True" />
+									<group name="attachment_flags">
+										<bool name="sim_only" value="False" />
+										<bool name="no_pathfinding" value="False" />
+										<bool name="not_snappable" value="False" />
+										<bool name="restore_snap_to_ground_on_detach" value="False" />
+										<bool name="no_sim_update" value="True" />
+										<bool name="join_parent_squad" value="False" />
+										<bool name="redirect_damage_to_parent_entity" value="True" />
+										<bool name="assign_as_attachment_combat_leader" value="False" />
+										<bool name="assign_as_attachment_movement_leader" value="False" />
+										<bool name="receive_parent_animations" value="False" />
+										<bool name="receive_parent_death" value="False" />
+									</group>
+								</template_reference>
+								<list name="possible_blueprint_updates">
+								</list>
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="">
+							</template_reference>
+						</group>
+					</list>
+					<bool name="receives_attack_commands" value="True" />
+					<string name="base_marker" value="" />
+					<list name="preferred_inventory_item_categories">
+					</list>
+					<list name="firing_offset_markers">
+						<string name="marker" value="fx_muz_arrow_00" List.ItemID="-1293780136" />
+						<string name="marker" value="fx_muz_arrow_01" List.ItemID="1760834189" />
+						<string name="marker" value="fx_muz_arrow_02" List.ItemID="205379685" />
+						<string name="marker" value="fx_muz_arrow_03" List.ItemID="742472001" />
+						<string name="marker" value="fx_muz_arrow_04" List.ItemID="-1330189775" />
+						<string name="marker" value="fx_muz_arrow_05" List.ItemID="-1707909663" />
+						<string name="marker" value="fx_muz_arrow_06" List.ItemID="-1415611303" />
+						<string name="marker" value="fx_muz_arrow_07" List.ItemID="694572468" />
+					</list>
+					<string name="offhand_marker" value="" />
+					<bool name="initialize_weapons_on_creation" value="False" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\spawner_ext" List.ItemID="-1174991843" List.ParentItemID="-1174991843">
+			<list name="spawn_items">
+				<group name="spawn_item" List.ItemID="-518095778" List.ListAction="Append">
+					<group name="ui_position">
+						<int name="ui_position_row" value="3" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\templar\unit_shogun_tem" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="5" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" List.ItemID="1459549548" List.ListAction="Append">
+					<group name="ui_position">
+						<int name="ui_position_row" value="1" overrideParent="True" />
+						<int name="ui_position_column" value="1" overrideParent="True" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_templar" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_3_tem" List.ItemID="-981402941" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_3_tem" List.ItemID="611728882" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_3_tem" List.ItemID="-532971283" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_3_tem" List.ItemID="-1107420581" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_3_tem" List.ItemID="965158982" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_3_tem" List.ItemID="1780575891" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="5" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" overrideParent="True" List.ItemID="-84559082" List.ListAction="Append">
+					<group name="ui_position">
+						<int name="ui_position_row" value="1" overrideParent="True" />
+						<int name="ui_position_column" value="2" overrideParent="True" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_byzantine" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_grenadier_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1186668272" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_grenadier_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1510516348" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_grenadier_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-152763277" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_grenadier_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="930547780" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_grenadier_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1277563630" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_grenadier_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1973135211" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="5" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" overrideParent="True" List.ItemID="1463003588" List.ListAction="Append">
+					<group name="ui_position">
+						<int name="ui_position_row" value="1" overrideParent="True" />
+						<int name="ui_position_column" value="3" overrideParent="True" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_burgundian" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_horsearcher_crossbow_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="441725105" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_horsearcher_crossbow_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-434920241" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_horsearcher_crossbow_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-605461679" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_horsearcher_crossbow_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-2044233396" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_horsearcher_crossbow_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-490458408" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_horsearcher_crossbow_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1177323360" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="5" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" overrideParent="True" List.ItemID="-1214762412" List.ListAction="Append">
+					<group name="ui_position">
+						<int name="ui_position_row" value="1" overrideParent="True" />
+						<int name="ui_position_column" value="4" overrideParent="True" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_turcopole" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_sipahi_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-237314445" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_akinci_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1871452005" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_akinci_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1240427459" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_sipahi_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="2045404827" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_sipahi_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1642915096" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_sipahi_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-757510433" />
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="5" overrideParent="True" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+			</list>
+			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed\Master\building_production_item_complete\building_production_item_complete_keep" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-57558359" List.ParentItemID="-57558359">
+			<list name="standard_upgrades" overrideParent="True">
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_keep_springald" List.ItemID="887112676" />
+				<instance_reference name="upgrade" value="upgrade\races\templar\unique_upgrades\upgrade_keep_trebuchet" overrideParent="True" List.ItemID="953120298" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="-412670671" />
+				<instance_reference name="upgrade" value="upgrade\races\templar\unique_upgrades\upgrade_iron_clamps_tem" List.ItemID="670186247" />
+				<instance_reference name="upgrade" value="upgrade\races\templar\unique_upgrades\upgrade_treasure_tower_tem" List.ItemID="1213634519" />
+				<instance_reference name="upgrade" value="upgrade\races\templar\unique_upgrades\upgrade_desert_citadels" List.ItemID="-393623773" />
+				<instance_reference name="upgrade" value="upgrade\races\french\research\upgrade_cavalry_grapered_lance_fre" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2010593784" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="-630964933" List.ParentItemID="-630964933">
+			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1923806473" List.ParentItemID="-1923806473">
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\feudal_age" overrideParent="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\hold_ext" List.ItemID="397040303" List.ParentItemID="397040303">
+			<template_reference name="on_loaded_squad_action_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="building_hold_events\garrison_keep" overrideParent="True" />
+			</template_reference>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-231398338" List.ParentItemID="-231398338">
+			<list name="abilities" overrideParent="True">
+				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_building_scuttle" List.ItemID="-550727054" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\town_bell\hold_return_to_work" List.ItemID="-82428002" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\templar\keep_influence_tem_buff_info" overrideParent="True" List.ItemID="-535233493" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\templar\aura_desert_citadels" List.ItemID="-1646269601" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\templar\treasure_tower_tem" List.ItemID="1720031775" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-1325636409" List.ParentItemID="-1325636409">
+			<instance_reference name="schema" value="statemodel_schema\buildings\civilizations\templar\fortress_tem" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\road_ext" List.ItemID="1512634950" List.ParentItemID="1512634950">
+			<list name="roads">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="-507011464" List.ParentItemID="-507011464">
+					<list name="road_splines">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-2087210164" List.ParentItemID="-2087210164">
+							<file name="texture_filename" value="civilizations\roads\roads_fre_common_a_age_02_3m" overrideParent="True" />
+						</template_reference>
+					</list>
+				</template_reference>
+				<template_reference name="road" value="roads\road_properties" List.ItemID="1458276124" List.ParentItemID="1458276124">
+					<list name="road_splines">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-467400485" List.ParentItemID="-467400485">
+							<file name="texture_filename" value="civilizations\roads\roads_fre_common_a_age_03_3m" overrideParent="True" />
+						</template_reference>
+					</list>
+				</template_reference>
+				<template_reference name="road" value="roads\road_properties" List.ItemID="-1418693492" List.ParentItemID="-1418693492">
+					<list name="road_splines">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-1838605220" List.ParentItemID="-1838605220">
+							<file name="texture_filename" value="civilizations\roads\roads_fre_fan_a_age_04_3m" overrideParent="True" />
+						</template_reference>
+					</list>
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-1847099477" List.ParentItemID="-1847099477">
+			<file name="construction_stamp" value="art\stamps\scaffolding\templar\tem_fortress" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="207213986" List.ListAction="Append">
+			<list name="tier_group_list" overrideParent="True">
+				<list name="tier_group" overrideParent="True" List.ItemID="401243353">
+					<group name="tier" List.ItemID="-870724164">
+						<list name="tier_requirements" overrideParent="True">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\buildings\fortress\tier2_fortress_tem" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="False" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+					<group name="tier" List.ItemID="-508401658">
+						<list name="tier_requirements" overrideParent="True">
+							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="640570939">
+								<enum name="reason" value="usage" />
+								<locstring name="ui_name" value="0" />
+								<bool name="is_present" value="True" />
+								<int name="max_completed" value="100" />
+								<int name="min_completed" value="1" />
+								<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
+								<bool name="include_queued" value="False" />
+								<group name="include_pbg_parenting">
+									<bool name="include_child_pbgs" value="False" />
+									<bool name="include_parent_pbgs" value="False" />
+								</group>
+								<bool name="include_completed" value="True" />
+							</template_reference>
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\buildings\fortress\tier3_fortress_tem" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_treasure_towers_viz\build_complete" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\castle_age" overrideParent="True" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="act_set_current_age_castle" overrideParent="True" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="False" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+					<group name="tier" List.ItemID="1727606615">
+						<list name="tier_requirements" overrideParent="True">
+							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-332517255">
+								<enum name="reason" value="usage" />
+								<locstring name="ui_name" value="0" />
+								<bool name="is_present" value="True" />
+								<int name="max_completed" value="100" />
+								<int name="min_completed" value="1" />
+								<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
+								<bool name="include_queued" value="False" />
+								<group name="include_pbg_parenting">
+									<bool name="include_child_pbgs" value="False" />
+									<bool name="include_parent_pbgs" value="False" />
+								</group>
+								<bool name="include_completed" value="True" />
+							</template_reference>
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\buildings\fortress\tier4_fortress_tem" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_treasure_towers_viz\build_complete" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="act_set_current_age_imperial" overrideParent="True" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="False" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+				</list>
+				<list name="tier_group" overrideParent="True" List.ItemID="1254915837">
+					<group name="tier" List.ItemID="1997148092">
+						<list name="tier_requirements">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\outskirts\tem_fortress_outskirts" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="False" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\district_generator_ext" List.ItemID="-363128962" List.ListAction="Append">
+			<float name="range_metres" value="20" overrideParent="True" />
+			<int name="generator_value" value="0" />
+			<bool name="disable_generation_on_spawn" value="False" />
+			<bool name="is_root_generator" value="True" />
+			<int name="district_palette_id" value="0" />
+			<list name="requirements">
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="5000214" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\buildings\building_defense_keep" />
+</instance>

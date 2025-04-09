@@ -73,6 +73,8 @@
 				<enum name="squad_type" value="audio_abbey_crown_a_king" List.ItemID="-496665790" List.ListAction="Append" />
 				<enum name="squad_type" value="leader" List.ItemID="-281747325" List.ListAction="Append" />
 				<enum name="squad_type" value="ranged" List.ItemID="-366006179" List.ListAction="Append" />
+				<enum name="squad_type" value="gunpowder" List.ItemID="-1800867415" List.ListAction="Append" />
+				<enum name="squad_type" value="handcannon" List.ItemID="1676663415" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="1990237064" List.ParentItemID="1990237064">
@@ -93,7 +95,7 @@
 			<enum name="unit_type" value="gunman" overrideParent="True" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="58226411" List.ParentItemID="58226411">
-			<instance_reference name="schema" value="statemodel_schema\units\handcannon" overrideParent="True" />
+			<instance_reference name="schema" value="statemodel_schema\units\calvary" overrideParent="True" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-993571294" List.ParentItemID="-993571294">
 			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />

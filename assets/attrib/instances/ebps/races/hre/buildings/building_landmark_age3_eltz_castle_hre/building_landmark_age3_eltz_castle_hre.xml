@@ -744,7 +744,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="2121903293" />
 				<instance_reference name="upgrade" value="upgrade\races\hre\research\upgrade_building_fire_armor_hre" List.ItemID="-887358677" />
 				<instance_reference name="upgrade" value="upgrade\races\hre\research\upgrade_reinforced_defenses_hre" List.ItemID="494457058" />
-				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_double_salary_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1667847422" />
+				<instance_reference name="upgrade" value="upgrade\races\ayyubid_cmp\research\upgrade_cul_ancient_relics_ayy" mod="67987bbc33214c57b0617d9356614825" List.ItemID="249596797" />
 			</list>
 			<int name="max_queue_size_override" value="-1" />
 			<state_tree_node name="production_item_completed_openingbranch" value="" />
@@ -2916,7 +2916,7 @@
 						<int name="ui_position_column" value="4" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_hre_hospitalier" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_hre_ritter" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -2936,12 +2936,11 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_hospital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-505792951" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_hospital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="234570908" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_hospital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1351704337" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_hospital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="581773278" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_hospital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1953790662" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_hospital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-444693625" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_black_rider_hre" overrideParent="True" List.ItemID="-505792951" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_black_rider_hre" overrideParent="True" List.ItemID="234570908" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_black_rider_hre" overrideParent="True" List.ItemID="1351704337" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_black_rider_hre" overrideParent="True" List.ItemID="581773278" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_black_rider_hre" overrideParent="True" List.ItemID="1953790662" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">

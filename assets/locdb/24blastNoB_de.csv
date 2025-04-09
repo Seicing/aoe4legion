@@ -1,6 +1,6 @@
 ﻿ID,SourceText,TranslatedText
 1,,Legion und Legion Kommandant
-2,,"Ihr Feedback ist auf Github sehr willkommen https://github.com/Seicing/aoe4legion \r\nDerzeit unterstützte Sprachen: vereinfachtes Chinesisch, traditionelles Chinesisch, Englisch, Deutsch \r\n\r\n[Allgemein] \r\nDas Stadtzentrum kann Dorfbewohner automatisch mit Umschaltfunktion produzieren. \r\nStellen Sie eine Legion oder einen Legionskommandanten ein und erforschen Sie die Kronentechnologie in der Festung. (Posthaus für Mongolen) \r\nDie Kosten fü rdie Festung und dem Steinmauerturm werden von 900/300 auf 650/175 reduziert. \r\nAlle Zivilisationen können berittene Bogenschützen auf dem Schießstand oder in der Legion ausbilden. \r\nHandkanonenschützen kämpfen mit Arkebusen, wenn Serpentinenpulver erforscht wurde. \r\n\r\n[Chinesisch] \r\n- Kronentechnologie: Kriegerkodex \r\n- Zusätzliche Einheit: Raketenwerfer (Festung) \r\n- Bienennest und die Waffe der Feuerlanze-Serie passt die Schadenszusammensetzung an. \r\n- Für den Kaiserlichnr Beamten, ist keine Bevölkerung erforderlich. \r\n- Pyrotechnik wird auf alle Schießpulvereinheiten angewendet. \r\n- Wahrzeichen (außer dem astronomischen Uhrturm) können den Einflussbereich der Kaiserlichen Akademie erweitern. \r\n- Der Kaiserpalast kann die Legion der Verbotenen Armee produzieren. \r\n[Frankreich] \r\n- Kronen-Technologie: Verheerender Angriff \r\n- Effizienz der königlichen Blutlinien auf 55 % erhöht. \r\n- Abklingzeit der Kanonenfähigkeit auf 40 s reduziert. \r\n- Effizienz der Technologie der Handelsgilden +100 %. \r\n- Ritterlichkeit gilt für die gesamte Kavallerie. \r\n[Englisch] \r\n- Kronen-Technologie: Bögen aus gealterter Eibe. \r\n- Effizienz der Technologie der Gehege +100 %. \r\n- Panzerungstechnologie wird auch auf Speerkämpfer angewendet \r\n- Wynguard-Palast produziert 4 zusätzliche Legionen und alle 8 Legionen wurden reduziert. \r\n[Heiliges Römisches Reich] \r\n- Kronentechnologie: Doppeltes Gehalt. \r\n- Zusätzliche Einheit: Hellebarde (ersetzt Speerkämpfer) \r\n- Mönche können im Feudalzeitalter Reliquien aufsammeln. \r\n- Erforsche Maximilian-Plattentechnologie in der Kaserne, um 2 Rüstungen für Landsknechte und Soldaten zu erhöhen. \r\n- Kann Legionen im Burggrafenpalast produzieren. \r\n- Einkommensrate der Regnitz-Kathedrale steigt auf 200 %, nachdem Reliquientechnologie erforscht wurde. \r\n[Osmanen] \r\n- Kronen-Technologie: Highgate-Wächter. \r\n- Produziert Dorfbewohner und Dorfbewohner können Ressourcen im Kaiserpalast von Istanbul abladen. Die Bauzeit wird auf 160 Sek. reduziert. \r\n- Festung kann Einflussbereich erweitern. \r\n[Abbasiden-Dynastie] \r\n- Kronen-Technologie: Bohren. \r\n- Zusätzliche Einheit: Mamluk (Festung) \r\n- Zusätzliche Einheit: Rekrut (Außenposten) \r\n- Zusätzliche Einheit: Zamburakchi (Festung) \r\n- Kamelreiter-Rosette auf Kamelbogenschützen. \r\n- Erhöht die Reichweite der Einflusserweiterung von Festung und Außenposten auf 5. \r\n[Rus] \r\n- Kronen-Technologie: Für die Union! \r\n- Von Dorfbewohnern gesammelte Nahrung muss nicht im Lager abgeladen werden. \r\n- Strelizen können die Fähigkeit „Schnelles Marschieren“ auslösen. \r\n- Der Standard-Pfeilplatz im Spasskaja-Turm wird durch den Kanonenplatz ersetzt und bietet eine einzigartige Heldeneinheit. \r\n- Erforsche Technologie im Stadtzentrum, um die befestigte Palisadenmauer zu verstärken. \r\n[Sultanat Delhi] \r\n- Kronen-Technologie: Schießpulver-Imperium \r\n- Zusätzliche Einheit: Phalangit (Kaserne) \r\n- Zusätzliche Einheit: Devastator (Festung) \r\n- Die Hisar-Akademie arbeiten schneller. \r\n- Palast des Sultans bietet Devastator-Training für Keep. \r\n- Gelehrter, keine Bevölkerung erforderlich, aber maximal 25 Ausbildungsplätze. \r\n[Mongolen] \r\n- Kronen-Technologie: Logistik \r\n- Zusätzliche Einheit: Tarkan (Stall) \r\n- Palisadenmauer und Tor können nach dem Feudalzeitalter gebaut werden. \r\n- Keshik erhält +10 Bonusschaden gegen Kavallerie. \r\n- Posthaus kann für Produkte aller Einheiten und Legionen gebaut werden. \r\n[Malier] \r\n- Kronentechnologie: Ton-Tigui-System \r\n- Zusätzliche Einheit: Versorgungskarren \r\n- Dorfbewohner können Ressourcen am Grand Fulani Corral abliefern. In diesem Gebäude können Rinder und Versorgungskarren trainiert werden.\r\n[Byzantiner] \r\n- Kronentechnologie: Hochofen \r\n- Zusätzliche Einheit: Flammenwerfer (Bogenschießstand) \r\n- Schadensreduzierungsrate der Schildmauer von Limitanei auf 50 % erhöht. \r\n- Warägergarde erhält Regeneration und kann Kasernen und Söldnerhäuser bauen. \r\n- Kataphrakt erhält normale Angriffsfähigkeit. \r\n- Palatine School kann Legion sofort mit Olivenöl anheuern. \r\n- Golden Horn Tower bietet neue Einheiten für Bogenschießanlagen im Kaiserzeitalter \r\n[Japanisch] \r\n- Kronentechnologie: Shogunat \r\n- Zusätzliche Einheit: Sohei (Tempel der Gleichheit und Buddhistischer Tempel) \r\n- Technologiekosten für Stadtzentrumsaufrüstung werden auf 175/400/625 reduziert. \r\n- Raketenwaffe passt Schadenszusammensetzung an. Castle of the Crow erhielt zusätzliche Garnisonsraketenwaffe. \r\n[Zhu Xis Vermächtnis] \r\n- Kronentechnologie: Kriegerkodex \r\n- Zusätzliche Einheit: Schrotflintenschütze (Festung) \r\n- Kaiserlicher Beamter, keine Bevölkerungszahl erforderlich. \r\n- Bienennest und Feuerlanzen-Waffe passen Schadenszusammensetzung an. \r\n- Technologielimit kann für Zhu Xis Bibliothek auf 4 erforscht werden. \r\n- Der Sekundärpfeil des Armbrustschützen mit 10.000 Bolzen hat vollen Schadensfaktor. \r\n[Orden des Drachen] \r\n- Kronentechnologie : Disziplin/Aufstand \r\n- Die vergoldeten Einheiten des Imperiums machen nur 1.5 der Bevölkerung aus. \r\n- Die vergoldeten Dorfbewohner müssen für alle Ressourcen kein fallenlassen mehr durchführen. \r\n- Im Burggrafenpalast können nun Legionäre ausgebildet werden. \r\n- Die Einkommensrate der Regnitz-Kathedrale steigt nach der Erforschung der Reliquientechnologie auf 200%. \r\n[Ayyubids] \r\n- Kronen-Technologie: Bohren \r\n- Zusätzliche Einheit: Mamluk (Festung) \r\n- Zusätzliche Einheit: Rekrut (Außenposten) \r\n- Schaden durch Mangonel-Flammengeschosse von 2 auf 3 erhöht. \r\n- Reichweite der Einflusserweiterung von Festung und Außenposten auf 5 erhöht. \r\n[Jeanne d'Arc] \r\n- Kronen-Technologie: Verheerender Angriff \r\n- Effizienz der königlichen Blutlinien auf 55 % erhöht \r\n- Effizienz der Technologie der Handelsgilden +100 %. \r\n- Abklingzeit der Kanonenfähigkeit auf 40 s reduziert. \r\n- Ritterlichkeit gilt für die gesamte Kavallerie. \r\n- Stärke des Himmels gilt für Belagerungseinheiten."
+2,,"Ihr Feedback ist auf Github sehr willkommen https://github.com/Seicing/aoe4legion \r\nDerzeit unterstützte Sprachen: vereinfachtes Chinesisch, traditionelles Chinesisch, Englisch, Deutsch \r\n\r\n[Allgemein] \r\nDas Stadtzentrum kann Dorfbewohner automatisch mit Umschaltfunktion produzieren. \r\nStellen Sie eine Legion oder einen Legionskommandanten ein und erforschen Sie die Kronentechnologie in der Festung. (Posthaus für Mongolen) \r\nDie Kosten fü rdie Festung und dem Steinmauerturm werden von 900/300 auf 650/175 reduziert. \r\nAlle Zivilisationen können berittene Bogenschützen auf dem Schießstand oder in der Legion ausbilden. \r\nHandkanonenschützen kämpfen mit Arkebusen, wenn Serpentinenpulver erforscht wurde. \r\n\r\n[Chinesisch] \r\n- Kronentechnologie: Kriegerkodex \r\n- Zusätzliche Einheit: Raketenwerfer (Festung) \r\n- Bienennest und die Waffe der Feuerlanze-Serie passt die Schadenszusammensetzung an. \r\n- Für den Kaiserlichnr Beamten, ist keine Bevölkerung erforderlich. \r\n- Pyrotechnik wird auf alle Schießpulvereinheiten angewendet. \r\n- Wahrzeichen (außer dem astronomischen Uhrturm) können den Einflussbereich der Kaiserlichen Akademie erweitern. \r\n- Der Kaiserpalast kann die Legion der Verbotenen Armee produzieren. \r\n[Frankreich] \r\n- Kronen-Technologie: Verheerender Angriff \r\n- Effizienz der königlichen Blutlinien auf 55 % erhöht. \r\n- Abklingzeit der Kanonenfähigkeit auf 40 s reduziert. \r\n- Effizienz der Technologie der Handelsgilden +100 %. \r\n- Ritterlichkeit gilt für die gesamte Kavallerie. \r\n[Englisch] \r\n- Kronen-Technologie: Bögen aus gealterter Eibe. \r\n- Effizienz der Technologie der Gehege +100 %. \r\n- Panzerungstechnologie wird auch auf Speerkämpfer angewendet \r\n- Wynguard-Palast produziert 4 zusätzliche Legionen und alle 8 Legionen wurden reduziert. \r\n[Heiliges Römisches Reich] \r\n- Kronentechnologie: Doppeltes Gehalt. \r\n- Zusätzliche Einheit: Hellebarde (ersetzt Speerkämpfer) \r\n- Mönche können im Feudalzeitalter Reliquien aufsammeln. \r\n- Erforsche Maximilian-Plattentechnologie in der Kaserne, um 2 Rüstungen für Landsknechte und Soldaten zu erhöhen. \r\n- Kann Legionen im Burggrafenpalast produzieren. \r\n- Einkommensrate der Regnitz-Kathedrale steigt auf 200 %, nachdem Reliquientechnologie erforscht wurde. \r\n[Osmanen] \r\n- Kronen-Technologie: Highgate-Wächter. \r\n- Produziert Dorfbewohner und Dorfbewohner können Ressourcen im Kaiserpalast von Istanbul abladen. Die Bauzeit wird auf 160 Sek. reduziert. \r\n- Festung kann Einflussbereich erweitern. \r\n[Abbasiden-Dynastie] \r\n- Kronen-Technologie: Bohren. \r\n- Zusätzliche Einheit: Mamluk (Festung) \r\n- Zusätzliche Einheit: Rekrut (Außenposten) \r\n- Zusätzliche Einheit: Zamburakchi (Festung) \r\n- Kamelreiter-Rosette auf Kamelbogenschützen. \r\n- Erhöht die Reichweite der Einflusserweiterung von Festung und Außenposten auf 5. \r\n[Rus] \r\n- Kronen-Technologie: Für die Union! \r\n- Von Dorfbewohnern gesammelte Nahrung muss nicht im Lager abgeladen werden. \r\n- Strelizen können die Fähigkeit „Schnelles Marschieren“ auslösen. \r\n- Der Standard-Pfeilplatz im Spasskaja-Turm wird durch den Kanonenplatz ersetzt und bietet eine einzigartige Heldeneinheit. \r\n- Erforsche Technologie im Stadtzentrum, um die befestigte Palisadenmauer zu verstärken. \r\n[Sultanat Delhi] \r\n- Kronen-Technologie: Schießpulver-Imperium \r\n- Zusätzliche Einheit: Phalangit (Kaserne) \r\n- Zusätzliche Einheit: Devastator (Festung) \r\n- Die Hisar-Akademie arbeiten schneller. \r\n- Palast des Sultans bietet Devastator-Training für Keep. \r\n- Gelehrter, keine Bevölkerung erforderlich, aber maximal 25 Ausbildungsplätze. \r\n[Mongolen] \r\n- Kronen-Technologie: Logistik \r\n- Zusätzliche Einheit: Tarkan (Stall) \r\n- Palisadenmauer und Tor können nach dem Feudalzeitalter gebaut werden. \r\n- Keshik erhält +10 Bonusschaden gegen Kavallerie. \r\n- Posthaus kann für Produkte aller Einheiten und Legionen gebaut werden. \r\n[Malier] \r\n- Kronentechnologie: Ton-Tigui-System \r\n- Zusätzliche Einheit: Versorgungskarren \r\n- Dorfbewohner können Ressourcen am Grand Fulani Corral abliefern. In diesem Gebäude können Rinder und Versorgungskarren trainiert werden.\r\n[Byzantiner] \r\n- Kronentechnologie: Hochofen \r\n- Zusätzliche Einheit: Flammenwerfer (Bogenschießstand) \r\n- Schadensreduzierungsrate der Schildmauer von Limitanei auf 50 % erhöht. \r\n- Warägergarde erhält Regeneration und kann Kasernen und Söldnerhäuser bauen. \r\n- Kataphrakt erhält normale Angriffsfähigkeit. \r\n- Palatine School kann Legion sofort mit Olivenöl anheuern. \r\n- Golden Horn Tower bietet neue Einheiten für Bogenschießanlagen im Kaiserzeitalter \r\n[Japanisch] \r\n- Kronentechnologie: Shogunat \r\n- Zusätzliche Einheit: Sohei (Tempel der Gleichheit und Buddhistischer Tempel) \r\n- Technologiekosten für Stadtzentrumsaufrüstung werden auf 175/400/625 reduziert. \r\n- Raketenwaffe passt Schadenszusammensetzung an. Castle of the Crow erhielt zusätzliche Garnisonsraketenwaffe. \r\n[Zhu Xis Vermächtnis] \r\n- Kronentechnologie: Kriegerkodex \r\n- Zusätzliche Einheit: Schrotflintenschütze (Festung) \r\n- Kaiserlicher Beamter, keine Bevölkerungszahl erforderlich. \r\n- Bienennest und Feuerlanzen-Waffe passen Schadenszusammensetzung an. \r\n- Technologielimit kann für Zhu Xis Bibliothek auf 4 erforscht werden. \r\n- Der Sekundärpfeil des Armbrustschützen mit 10.000 Bolzen hat vollen Schadensfaktor. \r\n[Orden des Drachen] \r\n- Kronentechnologie : Disziplin/Aufstand \r\n- Die vergoldeten Einheiten des Imperiums machen nur 1.5 der Bevölkerung aus. \r\n- Die vergoldeten Dorfbewohner müssen für alle Ressourcen kein fallenlassen mehr durchführen. \r\n- Im Burggrafenpalast können nun Legionäre ausgebildet werden. \r\n- Die Einkommensrate der Regnitz-Kathedrale steigt nach der Erforschung der Reliquientechnologie auf 200%. \r\n[Ayyubids] \r\n- Kronen-Technologie: Bohren \r\n- Zusätzliche Einheit: Mamluk (Festung) \r\n- Zusätzliche Einheit: Rekrut (Außenposten) \r\n- Schaden durch Mangonel-Flammengeschosse von 2 auf 3 erhöht. \r\n- Reichweite der Einflusserweiterung von Festung und Außenposten auf 5 erhöht. \r\n[Jeanne d'Arc] \r\n- Kronen-Technologie: Verheerender Angriff \r\n- Effizienz der königlichen Blutlinien auf 55 % erhöht \r\n- Effizienz der Technologie der Handelsgilden +100 %. \r\n- Abklingzeit der Kanonenfähigkeit auf 40 s reduziert. \r\n- Ritterlichkeit gilt für die gesamte Kavallerie. \r\n- Stärke des Himmels gilt für Belagerungseinheiten. \r\n[Haus Lancaster] \r\n- Kronen-Technologie: Bögen aus gealterter Eibe. \r\n[Templerorden] \r\n- Kronen-Technologie: Verheerender Angriff."
 3,,Erhöht die Reichweite von Schießpulvereinheiten um +%1%.
 14,,Kamelharnisch
 15,,Erhöht die Panzerung von Kameleinheiten um +%1%.
@@ -24,8 +24,8 @@
 135,,Expeditionskorps
 136,,Uriankhai
 137,,Göttliche Belagerungseinheiten Division
-138,,Wyngarde Befehle
-139,,Wyngarde Soldat
+138,,Wyngarde Soldat
+139,,Wyngarde Huskarl
 140,,Wyngarde Yeoman
 141,,Gendarmerie
 142,,Genuesischer Söldner
@@ -45,8 +45,8 @@
 156,,Produziert eine Expeditionsstreitmacht von 6 Ghulam.
 157,,Produziert Uriankhai von 6 Mangudai.
 158,,"Produziert eine Göttliche Belagerungseinheit, die aus 4 Handkanonieren und 1 Uhrwerk-Bienennest besteht."
-159,,"Produziert den Wyngarde-Orden von 3 Wyngarde-Rittern, 2 Wyngarde-Reitern und 1 Reiter."
-160,,"Produziert Wyngarde-Soldatentrupp mit 2 Waffenknechten, 2 Wynguard-Lakaien, 2 Speerkämpfern und 2 Hellebarden."
+159,,Produziert Wyngarde Soldat aus 6 Sergeants.
+160,,"Produziert Wyngarde Huskarl aus 2 Waffenknechten, 2 Wynguard-Lakaien, und 3 Schwere Speerkämpfer."
 161,,Produziert Wyngarde Yeoman bestehend aus 4 Langbogenschützen und 3 Wynguard Rangern.
 162,,"Produziert eine Gendarmerie bestehend aus 3 königlichen Rittern, 2 Reitern und 1 berittenem Armbrustschützen."
 163,,Produziert einen genuesischen Söldner mit 3 Waffenknechten und 3 Arbalétriers.
@@ -140,8 +140,8 @@
 309,,"Mobile Ressourcen Punkt, die Dorfbewohner können hier die kollektiven Ressourcen lagern. \r\n- Es wird nicht die Bevölkerung beschäftigen, aber es können nur maximal 10 produziert werden."
 311,,Vorratswagen
 313,,Punkt Ressourcen
-314,,Produziert Hospitalritter von 6 Ritter Hospitalier.
-315,,Ritter Hospitalier
+314,,Produziert Deutsches Kavallerie aus 5 Reiter.
+315,,Deutsches Kavallerie
 317,,Elite Keshik
 318,,Elite Keshik
 319,,Highgate-Wächter
@@ -295,7 +295,7 @@
 591,,"Kavallerie regeneriert alle %2% Sekunden +%1% Gesundheit, wenn sie sich außerhalb des Kampfes befinden."
 592,,"Kavallerie regeneriert alle %2% Sekunden +%1% Gesundheit, wenn sie sich außerhalb des Kampfes befinden."
 594,,Beherbergt eine Reihe einzigartiger Upgrades. \r\n\r\nKann Yuan-Plünderer und Imperiale Wachen freischalten. Nur %1% Technologien können erforscht werden.
-595,,"Fungiert als Kaserne, die %1%%% schneller produziert, kann hier Legion und Legion Commander produzieren."
+595,,"Fungiert als Kaserne, die %1%%% schneller produziert, Infanterie erhält +%2%%% Angriffsschaden. kann hier Legion und Legion Commander produzieren."
 596,,"Fungiert als Kaserne, die Einheiten %1%%% schneller und %2%%% billiger produziert, Forschungstechnologie %3%%% schneller, kann hier Legion und Legion Commander produzieren."
 599,,Technologie des Golden Horn Tower
 600,,"Infanterie und Kataphrakt regenerieren alle %2% Sekunden +%1% Gesundheit, wenn sie sich außerhalb des Kampfes befinden."
@@ -312,7 +312,7 @@
 611,,"Produziert das Gokenin-Regiment mit 5 Samurai und 1 Katana-Bannerträger, wenn die Bannerman-Bevölkerung das Limit erreicht, produziert 6 Samurai."
 612,,Gokenin-Regiment
 613,,"Produziert Kasernen- und Bogenschießstandeinheiten %1% auf einmal. Die Stückkosten werden in Gold umgewandelt und um -%2%%% reduziert. \r\n- Kann Farimba %1% auf einmal produzieren, mit einer Kostenreduzierung von 20%% \r\n- Schaltet die Farimba-Ausbildung im Kriegssammelbereich frei"
-614,,Einnahmerate am Regnitzer Dom steigt auf +%1%%%
+614,,Die Einkommensrate für Relikte steigt auf +%1%%%
 615,,Reliquiar
 617,,Produkt alle Einheiten und Legion.
 618,,Posthaus
@@ -356,7 +356,7 @@
 678,,Erhöht die Rüstung von Sofa- und Kamelreitern um +%1%.
 679,,Phalangit
 680,,Elite-Waffenkämpfer mit größerer Angriffsreichweite. \r\n+ Große Reichweite \r\n+ Bonusschaden für Elefanten \r\n+ Geringerer Angriff als Waffenkämpfer
-681,,"Mongolischer Militärkommandant.\r\n+ Die mobile Kurultai-Aura kann durch die Darughachi-Systemtechnologie bei Kurultai freigeschaltet werden"
+681,,Mongolischer Militärkommandant.\r\n+ Die mobile Kurultai-Aura kann durch die Darughachi-Systemtechnologie bei Kurultai freigeschaltet werden
 682,,Noyan
 683,,Brauche Kurultai Landmark.
 684,,Das Zentrum der Hauptstadt stellt 1 % der Steinressourcen pro Minute bereit.
@@ -441,7 +441,7 @@
 763,,Es können nur 2 Logotheten ausgebildet werden.
 764,,Hochofen
 765,,Schalte Logotheten mit %1% Trainingslimit frei.
-766,,Die Kosten für den Handkanonieren -35% aber die Gesundheit -20%.
+766,,Die Kosten für den Handkanonieren -25%.
 767,,Schießpulver-Imperium
 768,,Pikenier
 769,,Pikenier
@@ -480,3 +480,42 @@
 802,,Legionskommandant
 803,,Darughachi-System
 804,,Schaltet die Kurultai-Aura für Noyan frei.
+805,,Produziert Wyngarde Yeoman aus 6 Yeomen
+806,,Produziert Wyngarde Huskarl aus 3 Schwere Speerkämpfer und 3 Earls Garde
+807,,Produziert Wyngarde-Ritter aus 2 Ritter und 4 Demilanzer
+808,,Wyngarde-Ritter
+809,,"Großmeister der Templer. Was ihn nicht tötet, macht ihn stärker."
+810,,Großmeister
+811,,Kardinal
+812,,"Elite-Kavallerie der Malier aus Freeborn, Kampf mit Speer\r\n- Anti-Fernkampf\r\n- Geringer Schaden"
+813,,Königreich Ungarn
+814,,Böhmischer Aufstand
+815,,Regnum Teutonicum
+816,,Polnisch-Litauische Union
+817,,"Ungarn ist auf der Suche nach neuer Militärmacht zur Verteidigung gegen heidnische Invasionen und kann zu einem niedrigen Preis Elitetruppen des Drachenordens einsetzen.\r\n- Schaltet frei: Walachische Ritter, Kumanischer Söldner, Ungarische Schwarze Armee"
+818,,"Der Aufstand ist in Böhmen ausgebrochen! Die Hussiten sind geschickt darin, die Wagenburg-Taktik einzusetzen, um ihre eigenen Schwächen auszugleichen.\r\n- Schaltet frei: Hussitenaufstand, Hussitengeneral"
+819,,"Die Regnum Teutonicum bildeten das Rückgrat des Kaiserreich und auch die Deutscher Orden waren bereit, dem Reich zu dienen.\r\n- Schaltet frei:  Deutscher Orden, Reiter"
+820,,"Polen war bereit, dem Reich teure und hochwertige Kavallerie zur Verteidigung gegen die Heiden zur Verfügung zu stellen\r\n- Schaltet frei: Szlachta, Leitis"
+821,,Produziert Kumanischer Söldner aus 6 Berittene Bogenschützen
+822,,Produziert Leitis aus 6 Leitis-Kavallerie
+823,,Produziert Szlachta aus 6 Szlachta-Kavallerie
+824,,Produziert Walachische Ritter aus 6 Vergoldeter Ritter
+825,,Walachische Ritter
+826,,Kumanischer Söldner
+827,,Szlachta
+828,,Leitis
+829,,Produziert Templerorden aus 6 Templerbrüder
+830,,Produziert Templerorden aus 6 Templerbrüder
+831,,Produziert Byzantinisch Alliierte aus 6 Flammenwerfer
+832,,Produziert Burgundische Alliierte aus 6 Berittener Armbrustschützen
+833,,Produziert Turkopolen aus 4 Sipahis und 2 Akinjis
+834,,Turkopolen
+835,,Burgundische Alliierte
+836,,Templerorden
+837,,Byzantinisch Alliierte
+838,,"Litauische Elite-Kavallerie, zerbrechlich, aber tödlich\r\n- Siege Damage"
+839,,Leitis-Kavallerie
+840,,Produziert Reiter. Das Maximum an Reiter beträgt 20.
+841,,Hussitengeneral
+842,,Hussitengeneral
+843,,Wagenburg-Taktiken

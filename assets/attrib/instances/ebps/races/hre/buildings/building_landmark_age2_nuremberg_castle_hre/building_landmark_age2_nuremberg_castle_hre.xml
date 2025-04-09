@@ -10,10 +10,10 @@
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<list name="requirements">
-								<template_reference name="requirement" value="requirements\required_structure" List.ItemID="1203670922">
+								<template_reference name="requirement" value="requirements\required_structure" overrideParent="True" List.ItemID="1203670922">
 									<enum name="reason" value="usage" />
 									<locstring name="ui_name" value="0" />
-									<instance_reference name="structure_name" value="ebps\races\hre\buildings\building_landmark_age2_bamberg_cathedral_hre\building_landmark_age2_bamberg_cathedral_hre" mod="67987bbc33214c57b0617d9356614825" />
+									<instance_reference name="structure_name" value="ebps\races\hre\buildings\building_landmark_age2_bamberg_cathedral_hre\building_landmark_age2_bamberg_cathedral_hre" />
 									<int name="required_structure_count" value="1" />
 									<bool name="check_team" value="False" />
 									<bool name="require_construction_complete" value="False" />
@@ -160,7 +160,6 @@
 				<instance_reference name="upgrade" value="upgrade\races\hre\units\upgrade_unit_landsknecht_4_hre" List.ItemID="1606944139" />
 				<instance_reference name="upgrade" value="upgrade\races\hre\research\upgrade_man_at_arms_maces_hre" List.ItemID="-1800665616" />
 				<instance_reference name="upgrade" value="upgrade\races\hre\research\upgrade_man_at_arms_two_handed_hre" List.ItemID="-698235887" />
-				<instance_reference name="upgrade" value="upgrade\races\hre\research\upgrade_maxmilian_armor_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="223795454" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-1064007581" List.ParentItemID="-1064007581">
@@ -1154,7 +1153,7 @@
 						<int name="ui_position_column" value="4" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_hre_hospitalier" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_hre_ritter" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -1173,13 +1172,12 @@
 					</enum_table>
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
-					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_hospital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-505792951" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_hospital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="234570908" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_hospital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1351704337" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_hospital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="581773278" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_hospital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1953790662" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_hospital_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-444693625" />
+					<list name="additional_squads" overrideParent="True">
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_black_rider_hre" overrideParent="True" List.ItemID="2072903027" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_black_rider_hre" overrideParent="True" List.ItemID="1646810780" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_black_rider_hre" overrideParent="True" List.ItemID="-1070758329" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_black_rider_hre" overrideParent="True" List.ItemID="-1046145311" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_black_rider_hre" overrideParent="True" List.ItemID="850732951" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">

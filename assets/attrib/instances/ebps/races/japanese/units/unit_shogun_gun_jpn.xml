@@ -1,13 +1,13 @@
 <instance version="4" description="Chinese Imperial Age Knight" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1356892678" List.ParentItemID="1356892678">
-			<bool name="browsable_in_editor" value="True" overrideParent="True" />
-			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_scout_4" overrideParent="True" />
+			<bool name="browsable_in_editor" value="False" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_knight_4" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-12513399" List.ParentItemID="-12513399">
 			<list name="action_state_trees">
 				<group name="container" List.ItemID="-1622883091" List.ParentItemID="-1622883091">
-					<string name="state_tree" value="unit_action_apply\units\handcannon" overrideParent="True" />
+					<string name="state_tree" value="unit_action_apply\units\knight" overrideParent="True" />
 				</group>
 				<group name="container" List.ItemID="2022080988" List.ParentItemID="2022080988">
 					<string name="state_tree" value="unit_action_apply\units\handcannon\audio\chi" overrideParent="True" />
@@ -53,17 +53,15 @@
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\japanese" overrideParent="True" List.ItemID="-1356506267" />
 			</list>
-			<list name="unit_type_list" removedIds="-624376203, 1350676038, -284996519, -1522941700, 142118563, 1817716707">
+			<list name="unit_type_list" removedIds="-624376203, 1350676038, -284996519, -1522941700, 142118563">
 				<enum name="unit_type" value="ranged" overrideParent="True" List.ItemID="-448056678" List.ParentItemID="-448056678" />
 				<enum name="unit_type" value="deflective_armor" comment="Used to drive attack block display in UI" List.ItemID="872173359" List.ListAction="Append" />
 				<enum name="unit_type" value="gunpowder" List.ItemID="-2109222778" List.ListAction="Append" />
-				<enum name="unit_type" value="cavalry_archer" List.ItemID="-921866570" List.ListAction="Append" />
 				<enum name="unit_type" value="cavalry_armored" List.ItemID="-1215722295" List.ListAction="Append" />
-				<enum name="unit_type" value="handcannon" List.ItemID="551740509" List.ListAction="Append" />
 				<enum name="unit_type" value="heavy" List.ItemID="-1177981507" List.ListAction="Append" />
-				<enum name="unit_type" value="mangudai" List.ItemID="-1260925694" List.ListAction="Append" />
 				<enum name="unit_type" value="bannerman_samurai_jpn" List.ItemID="1164329126" List.ListAction="Append" />
 				<enum name="unit_type" value="bannerman_samurai_jpn_cavalry" List.ItemID="-1569376507" List.ListAction="Append" />
+				<enum name="unit_type" value="cavalry_handcannon" List.ItemID="-86575665" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-662784220" List.ParentItemID="-662784220">
@@ -121,8 +119,8 @@
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_handcannon_4_shogun" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\ottoman\weapons\wpn_range_handcannon_4_ott" overrideParent="True" />
-								<string name="marker_name_parent" value="metarig_larmpalmsocket" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_range_handcannon_4_rus" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 							<group name="origin">
 								<float name="y" value="2.5" overrideParent="True" />

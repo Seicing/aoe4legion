@@ -51,7 +51,7 @@
 					<group name="tier" List.ItemID="-1067277378">
 						<list name="tier_requirements" overrideParent="True">
 						</list>
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier2_cavalry_horseman_fre" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\units\horsemen_4_tem" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />

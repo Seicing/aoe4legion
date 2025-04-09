@@ -1,6 +1,6 @@
 ﻿ID,Pipeline,PipelineStage,Notes,TranslationNotes,Tags,Text
 1,,,Mod name,,,Legion and Legion Commander
-2,,,Mod description,,,"Welcome to feedback in https://github.com/Seicing/aoe4legion \r\nCurrently supported languages: Simplified Chinese, Traditional Chinese, English, German \r\n\r\n[General] \r\nTown Center can product villager automatically with toggle ability. \r\nHire Legion or Legion Commander and Research Crown Technology at the Keep.(Posthouse for Mongols) \r\nKeep and Stone Wall Tower Cost reduce to 650/175 from 900/300. \r\nAll Civs can trains Cavalry Archer at Archery Range or Legion. \r\nHandcannoneer fights with arquebus when serpentine powder researched. \r\n\r\n[Chinese] \r\n- Crown Technology : Warrior Code \r\n- Extra Unit : Rocket Launcher (Keep) \r\n- Nest of bees and Firelance series weapon adjusts damage composition. \r\n- Imperial Official no population required. \r\n- Pyrotechnics applied to all Gunpowder Units. \r\n- Landmarks(except Astronomical Clocktower) can expand the influence area of Imperial Academy. \r\n- Imperial Palace can Produces Forbidden Army Legion. \r\n[France] \r\n- Crown Technology : Devastating Charge \r\n- Royal bloodlines efficiency increased to 55% \r\n- Cannon Ability Cooldown reduce to 40s. \r\n- Merchant Guilds Technology efficiency +100%. \r\n- Chivalry applicable to all cavalry. \r\n[English] \r\n- Crown Technology : Aged Yew Bows. \r\n- Enclosures Technology efficiency +100%.\r\n- Armor Clad Technology also applied to Spearmen. \r\n- Wynguard Palace produce 4 additional Legions and all 8 Legions have been discounted. \r\n[Holy Roman Empire] \r\n- Crown Technology : Double Salary. \r\n- Extra Unit : Halberdier (Replace spearmen) \r\n- Monks can pick up Relic in feudal age. \r\n- Research Maximilian Plate Technology at Barracks to increase 2 armor for Landsknecht and Man-at-arms. \r\n- Can Products Legion at Burgrave Palace. \r\n- Regnitz Cathedral income rate Increases to 200% after Reliquary Technology Researched. \r\n[Ottomans] \r\n- Crown Technology : Highgate Guardian. \r\n- Produces Villagers and Villagers can drop off Resource at Istanbul Imperial Palace, Building Time reduces to 160s. \r\n- Keep can expands influence area. \r\n[Abbasid Dynasty] \r\n- Crown Technology : Drilling. \r\n- Extra Unit : Mamluk (Keep) \r\n- Extra Unit : Recruit(Outpost) \r\n- Extra Unit : Zamburakchi (Keep) \r\n- Camel Rider Barding applied to Camel Archer. \r\n- Increase the range of influence extension range of keep and outpost to 5. \r\n[Rus] \r\n- Crown Technology : For the Union! \r\n- Villager gathered food do not need Drop off to camp. \r\n- Streltsy can trigger Fast Marching ability. \r\n- Spasskaya Tower Default Arrow Slot replace to Cannon Slot and Provide unique hero unit. \r\n- Research Technology at Town Center to strengthen Fortified Palisade Wall. \r\n[Delhi Sultanate] \r\n- Crown Technology : Gunpowder Empire \r\n- Extra Unit : Phalangite (Barracks) \r\n- Extra Unit : Devastator (Keep) \r\n- Hisar Academy works faster. \r\n- Palace of the Sultan Provides Devastator Training for Keep \r\n- Scholar no population required but 25 maximum training. \r\n[Mongols] \r\n- Crown Technology : Logistics \r\n- Extra Unit : Tarkan (Stable) \r\n- Can Build Palisade Wall and Gate after Feudal Age. \r\n- Keshik Gains +10 vs.Cavalry Bonus Damage. \r\n- Posthouse is Buildable for Products all Units and Legions. \r\n[Malians] \r\n- Crown Technology : Ton-tigui System \r\n- Extra Unit : Supply Cart(Town Center) \r\n- Villagers can drop off Resource at Grand Fulani Corral. Can training cattle at this building. \r\n[Byzantines] \r\n- Crown Technology : Blast Furnace \r\n- Extra Unit : Flame Thrower(Archery Range) \r\n- Limitanei Sheild Wall damage reduction rate increase to 50%. \r\n- Varangian Guard Gained regeneration and can build Barracks and Mercenary House. \r\n- Cataphract gained normal charge ability. \r\n- Palatine School can hire Legion Instantly with Olive oil. \r\n- Golden Horn Tower Provides New Units for Archery Range in Imperial Age \r\n[Japanese] \r\n- Crown Technology : Shogunate \r\n- Extra Unit : Sohei(Temple of Equality and Buddhist Temple) \r\n- Town center upgrade technology cost reduces to 175/400/625. \r\n- Rocket Weapon adjusts damage composition. Castle of the Crow got additional garrison Rocket weapon. \r\n[Zhu Xi's Legacy] \r\n- Crown Technology : Warrior Code \r\n- Extra Unit : Shotgunner(Keep) \r\n- Imperial Official no population required. \r\n- Nest of bees and Firelance series weapon adjusts damage composition. \r\n- Limit of technology can be researched to 4 for Zhu Xi's Library. \r\n- The 10000 bolts secondary arrow of the crossbowman is full of damage. \r\n[Order of the Dragon] \r\n- Crown Technology : Discipline/Uprising \r\n- Imperial Gilded Units occupy only 1.5 population. \r\n- Gilded villager do not need Drop off for type all Resource. \r\n- Can Products Legion at Burgrave Palace. \r\n- Regnitz Cathedral income rate Increases to 200% after Reliquary Technology Researched. \r\n[Ayyubids] \r\n- Crown Technology : Drilling \r\n- Extra Unit : Mamluk(Keep) \r\n- Extra Unit : Recruit(Outpost) \r\n- Mangonel Flame Bullet Damage increase to 3 from 2. \r\n- Increase the range of influence extension range of keep and outpost to 5. \r\n[Jeanne d'Arc] \r\n- Crown Technology : Devastating Charge \r\n- Royal bloodlines efficiency increased to 55% \r\n- Merchant Guilds Technology efficiency +100%. \r\n- Cannon Ability Cooldown reduce to 40s. \r\n- Chivalry applicable to all cavalry. \r\n- Strength of Heaven applicable to Siege Units. "
+2,,,Mod description,,,"Welcome to feedback in https://github.com/Seicing/aoe4legion \r\nCurrently supported languages: Simplified Chinese, Traditional Chinese, English, German \r\n\r\n[General] \r\nTown Center can product villager automatically with toggle ability. \r\nHire Legion or Legion Commander and Research Crown Technology at the Keep.(Posthouse for Mongols) \r\nKeep and Stone Wall Tower Cost reduce to 650/175 from 900/300. \r\nAll Civs can trains Cavalry Archer at Archery Range or Legion. \r\nHandcannoneer fights with arquebus when serpentine powder researched. \r\n\r\n[Chinese] \r\n- Crown Technology : Warrior Code \r\n- Extra Unit : Rocket Launcher (Keep) \r\n- Nest of bees and Firelance series weapon adjusts damage composition. \r\n- Imperial Official no population required. \r\n- Pyrotechnics applied to all Gunpowder Units. \r\n- Landmarks(except Astronomical Clocktower) can expand the influence area of Imperial Academy. \r\n- Imperial Palace can Produces Forbidden Army Legion. \r\n[France] \r\n- Crown Technology : Devastating Charge \r\n- Royal bloodlines efficiency increased to 55% \r\n- Cannon Ability Cooldown reduce to 40s. \r\n- Merchant Guilds Technology efficiency +100%. \r\n- Chivalry applicable to all cavalry. \r\n[English] \r\n- Crown Technology : Aged Yew Bows. \r\n- Enclosures Technology efficiency +100%.\r\n- Armor Clad Technology also applied to Spearmen. \r\n- Wynguard Palace produce 4 additional Legions and all 8 Legions have been discounted. \r\n[Holy Roman Empire] \r\n- Crown Technology : Double Salary. \r\n- Extra Unit : Halberdier (Replace spearmen) \r\n- Monks can pick up Relic in feudal age. \r\n- Research Maximilian Plate Technology at Barracks to increase 2 armor for Landsknecht and Man-at-arms. \r\n- Can Products Legion at Burgrave Palace. \r\n- Regnitz Cathedral income rate Increases to 200% after Reliquary Technology Researched. \r\n[Ottomans] \r\n- Crown Technology : Highgate Guardian. \r\n- Produces Villagers and Villagers can drop off Resource at Istanbul Imperial Palace, Building Time reduces to 160s. \r\n- Keep can expands influence area. \r\n[Abbasid Dynasty] \r\n- Crown Technology : Drilling. \r\n- Extra Unit : Mamluk (Keep) \r\n- Extra Unit : Recruit(Outpost) \r\n- Extra Unit : Zamburakchi (Keep) \r\n- Camel Rider Barding applied to Camel Archer. \r\n- Increase the range of influence extension range of keep and outpost to 5. \r\n[Rus] \r\n- Crown Technology : For the Union! \r\n- Villager gathered food do not need Drop off to camp. \r\n- Streltsy can trigger Fast Marching ability. \r\n- Spasskaya Tower Default Arrow Slot replace to Cannon Slot and Provide unique hero unit. \r\n- Research Technology at Town Center to strengthen Fortified Palisade Wall. \r\n[Delhi Sultanate] \r\n- Crown Technology : Gunpowder Empire \r\n- Extra Unit : Phalangite (Barracks) \r\n- Extra Unit : Devastator (Keep) \r\n- Hisar Academy works faster. \r\n- Palace of the Sultan Provides Devastator Training for Keep \r\n- Scholar no population required but 25 maximum training. \r\n[Mongols] \r\n- Crown Technology : Logistics \r\n- Extra Unit : Tarkan (Stable) \r\n- Can Build Palisade Wall and Gate after Feudal Age. \r\n- Keshik Gains +10 vs.Cavalry Bonus Damage. \r\n- Posthouse is Buildable for Products all Units and Legions. \r\n[Malians] \r\n- Crown Technology : Ton-tigui System \r\n- Extra Unit : Supply Cart(Town Center) \r\n- Villagers can drop off Resource at Grand Fulani Corral. Can training cattle at this building. \r\n[Byzantines] \r\n- Crown Technology : Blast Furnace \r\n- Extra Unit : Flame Thrower(Archery Range) \r\n- Limitanei Sheild Wall damage reduction rate increase to 50%. \r\n- Varangian Guard Gained regeneration and can build Barracks and Mercenary House. \r\n- Cataphract gained normal charge ability. \r\n- Palatine School can hire Legion Instantly with Olive oil. \r\n- Golden Horn Tower Provides New Units for Archery Range in Imperial Age \r\n[Japanese] \r\n- Crown Technology : Shogunate \r\n- Extra Unit : Sohei(Temple of Equality and Buddhist Temple) \r\n- Town center upgrade technology cost reduces to 175/400/625. \r\n- Rocket Weapon adjusts damage composition. Castle of the Crow got additional garrison Rocket weapon. \r\n[Zhu Xi's Legacy] \r\n- Crown Technology : Warrior Code \r\n- Extra Unit : Shotgunner(Keep) \r\n- Imperial Official no population required. \r\n- Nest of bees and Firelance series weapon adjusts damage composition. \r\n- Limit of technology can be researched to 4 for Zhu Xi's Library. \r\n- The 10000 bolts secondary arrow of the crossbowman is full of damage. \r\n[Order of the Dragon] \r\n- Crown Technology : Discipline/Uprising \r\n- Imperial Gilded Units occupy only 1.5 population. \r\n- Gilded villager do not need Drop off for type all Resource. \r\n- Can Products Legion at Burgrave Palace. \r\n- Regnitz Cathedral income rate Increases to 200% after Reliquary Technology Researched. \r\n[Ayyubids] \r\n- Crown Technology : Drilling \r\n- Extra Unit : Mamluk(Keep) \r\n- Extra Unit : Recruit(Outpost) \r\n- Mangonel Flame Bullet Damage increase to 3 from 2. \r\n- Increase the range of influence extension range of keep and outpost to 5. \r\n[Jeanne d'Arc] \r\n- Crown Technology : Devastating Charge \r\n- Royal bloodlines efficiency increased to 55% \r\n- Merchant Guilds Technology efficiency +100%. \r\n- Cannon Ability Cooldown reduce to 40s. \r\n- Chivalry applicable to all cavalry. \r\n- Strength of Heaven applicable to Siege Units. \r\n[House of Lancaster] \r\n- Crown Technology : Aged Yew Bows. \r\n[Knights Templar] \r\n- Crown Technology : Devastating Charge."
 3,,,formatter,,,Increase the range of Gunpowder Units by +%1%.
 14,,,screen_name,,,Camel Barding
 15,,,formatter,,,Increase the armor of Camel Units by +%1%.
@@ -24,8 +24,8 @@
 135,,,screen_name,,,Expeditionary Force
 136,,,screen_name,,,Uriankhai
 137,,,screen_name,,,Divine Engine Division
-138,,,screen_name,,,Wyngarde Orders
-139,,,screen_name,,,Wyngarde Trooper
+138,,,screen_name,,,Wyngarde Trooper
+139,,,screen_name,,,Wyngarde Huskarl
 140,,,screen_name,,,Wyngarde Yeoman
 141,,,screen_name,,,Gendarmerie
 142,,,screen_name,,,Genoese Mercenary
@@ -45,8 +45,8 @@
 156,,,help_text,,,Produces Expeditionary Force of 6 Ghulam.
 157,,,help_text,,,Produces Uriankhai of 6 Mangudai.
 158,,,help_text,,,Produces Divine Engine Division of 4 Handcannoneers and 1 Clockworks Nest of Bee.
-159,,,help_text,,,"Produces Wyngarde Orders of 3 Wyngarde Knights ,2 Wyngarde Horsemen and 1 Chevaucher."
-160,,,help_text,,,"Produces Wyngarde Trooper of 2 Man-at-arms, 2 Wynguard Footmen, 2 Spearmen and 2 Halberdiers."
+159,,,help_text,,,Produces Wyngarde Trooper of 6 Sergeants.
+160,,,help_text,,,"Produces Wyngarde Huskarl of 2 Man-at-arms, 2 Wynguard Footmen, and 3 Heavy Spearmen."
 161,,,help_text,,,Produces Wyngarde Yeoman of 4 longbowmen and 3 Wynguard Rangers.
 162,,,help_text,,,"Produces Gendarmerie of 3 Royal Knights, 2 Horsemen and 1 Mounted Crossbowman."
 163,,,help_text,,,Produces Genoese Mercenary of 3 Man-at-arms and 3 Arbalétriers.
@@ -140,8 +140,8 @@
 309,,,help_text,,,"Mobile Resources Point, villagers can store the collective resources here. \r\n- It will not occupy the population, but only 10 can be produced at most."
 311,,,screen_name,,,Supply Cart
 313,,,extra_text,,,Resources Point
-314,,,help_text,,,Produces Knights Hospitalier of 6 Knight Hospitalier.
-315,,,screen_name,,,Knights Hospitalier
+314,,,help_text,,,Produces Deutsches Cavalry of 5 Black Riders.
+315,,,screen_name,,,Deutsches Cavalry
 317,,,screen_name,,,Elite Keshik
 318,,,screen_name,,,Elite Keshik
 319,,,screen_name,,,Highgate Guardian
@@ -176,9 +176,9 @@
 399,,,screen_name,,,Knight Templar
 400,,,help_text,,,Mighty Orders Member.
 401,,,help_text,,,Produces Knights Templar of 5 Knight Templar.
-402,,,screen_name,,,Knight Teutonic
+402,,,screen_name,,,Teutonic Knight
 404,,,screen_name,,,Knight Hospitalier
-405,,,help_text,,, Produces Knights Teutonic of 5 Knight Teutonic.
+405,,,help_text,,, Produces Knights Teutonic of 5 Teutonic Knights.
 406,,,screen_name,,,Knights Teutonic
 407,,,screen_name,,,Tagmata
 408,,,screen_name,,,Norse Guard
@@ -295,7 +295,7 @@
 591,,,formatter,,,Cavalrys regenerate +%1% health every %2% seconds when out of combat.
 592,,,formatter,,,Cavalrys regenerate +%1% health every %2% seconds when out of combat.
 594,,,formatter,,,Hosts a range of highly unique upgrades. \r\n\r\nCan unlock Yuan Raiders and Imperial Guards. Only %1% technologies can be researched.
-595,,,formatter,,,"Acts as a Barracks that produces %1%%% faster, Can Products Legion and Legion Commander here."
+595,,,formatter,,,"Acts as a Barracks that produces %1%%% faster, Infantry gains +%2%%% charge damage. Can Products Legion and Legion Commander here."
 596,,,formatter,,,"Acts as a Barracks that produces units %1%%% faster and %2%%% cheaper, Research Technology %3%%% faster, Can Products Legion and Legion Commander here."
 599,,,extra_text,,,Golden Horn Tower Technology
 600,,,formatter,,,Infantry and Cataphract regenerate +%1% health every %2% seconds when out of combat.
@@ -312,7 +312,7 @@
 611,,,help_text,,,"Produces Gokenin Regiment of 5 Samurai and 1 Katana Bannerman, If Bannerman Population reached Limit, Produces 6 Samurai."
 612,,,screen_name,,,Gokenin Regiment
 613,,,formatter,,,Produces Barracks and Archery Range units %1% at a time. Unit cost is converted to Gold and reduced by -%2%%%. \r\n- Can Produces Farimba %1% at a time with 20%% Cost reduce \r\n- Unlocks Farimba training at War assembly area
-614,,,formatter,,,Regnitz Cathedral income rate Increases to +%1%%%
+614,,,formatter,,,Relics income rate Increases to +%1%%%
 615,,,screen_name,,,Reliquary
 617,,,help_text,,,Product all Units and Legion.
 618,,,screen_name,,,Posthouse
@@ -356,7 +356,7 @@
 678,,,formatter,,,Increase armor of Sofa and Camel Riders by +%1%.
 679,,,screen_name,,,Phalangite
 680,,,help_text,,,Elite Man-at-arms with a larger attack range. \r\n+ Long Range \r\n+ Bonus Damage to Elephant \r\n+  Lower Attack than Man-at-arms
-681,,,formatter,,,"Mongol Military Commander.\r\n+ The mobile kurultai aura can be unlocked by the darughachi system technology at kurultai"
+681,,,formatter,,,Mongol Military Commander.\r\n+ The mobile kurultai aura can be unlocked by the darughachi system technology at kurultai
 682,,,screen_name,,,Noyan
 683,,,ui_name,,,Need Kurultai Landmark.
 684,,,formatter,,,Capital Town Center provide %1% stone resources per minute.
@@ -441,7 +441,7 @@
 763,,,ui_name,,,Only can be trained 2 Logothetes.
 764,,,screen_name,,,Blast Furnace
 765,,,formatter,,,Unlock Logothetes with %1% Training Limit.
-766,,,formatter,,,Handcannoneer cost -35%% but health -20%%.
+766,,,formatter,,,Handcannoneer cost -25%%.
 767,,,screen_name,,,Gunpowder Empire
 768,,,screen_name,,,Pikeman
 769,,,screen_name,,,Pikeman
@@ -480,3 +480,42 @@
 802,,,extra_text,,,Legion Commander
 803,,,screen_name,,,Darughachi System
 804,,,formatter,,,Unlocks Kurultai Aura for Noyan.
+805,,,help_text,,,Produces Wyngarde Yeoman of 6 Yeomen
+806,,,help_text,,,Produces Wyngarde Huskarl of 3 Heavy Spearmen and 3 Earl's Guards
+807,,,help_text,,,Produces Wyngarde Knights of 2 Knights and 4 Demilancer
+808,,,screen_name,,,Wyngarde Knights
+809,,,help_text,,,"Templar Grand Master,What does not kill him will makes him stronger."
+810,,,screen_name,,,Grand Master
+811,,,screen_name,,,Cardinal
+812,,,help_text,,,"Elite Malians Cavalry from Freeborn, Fight with Javelin\r\n- Anti Ranged\r\n- Low Damage"
+813,,,screen_name,,,Kingdom of Hungary
+814,,,screen_name,,,Bohemian Uprising
+815,,,screen_name,,,German Kingdom
+816,,,screen_name,,,Polish-Lithuanian Commonwealth
+817,,,help_text,,,"Hungary is seeking new military power to defend against pagan invasions, they can deploy elite troops of the Order of Dragon at a low price.\r\n- Unlocks: Wallachian Knights, Cuman Mercenary, Hungarian Black Army"
+818,,,help_text,,,"The uprising has broken out in Bohemia! The Hussite are good at using the Wagenburg Tactics array to make up for their own shortcomings.\r\n- Unlocks: Hussite Uprising, Hussite General"
+819,,,help_text,,,"The Regnum Teutonicum were the backbone of the empire, and the Teutonic Order were also willing to serve the empire.\r\n- Unlocks: Teutonic Order, Black Rider"
+820,,,help_text,,,"Poland was willing to provide the Empire with expensive and high-quality cavalry to defend against the pagans\r\n- Unlocks: Szlachta, Leitis"
+821,,,help_text,,,Produces Cuman Mercenary of 6 Horse Archer
+822,,,help_text,,,Produces Leitis of 6 Leitis Cavalrys
+823,,,help_text,,,Produces Szlachta of 6 Szlachta Cavalrys
+824,,,help_text,,,Produces Wallachian Knights of 6 Gilded Knights
+825,,,screen_name,,,Wallachian Knights
+826,,,screen_name,,,Cuman Mercenary
+827,,,screen_name,,,Szlachta
+828,,,screen_name,,,Leitis
+829,,,help_text,,,Produces Knights Templar of 6 Templar Brothers
+830,,,help_text,,,Produces Knights Templar of 6 Templar Brothers
+831,,,help_text,,,Produces Byzantine Allies of 6 Flame Thrower
+832,,,help_text,,,Produces Burgundian Allies of 6 Mounted Crossbowman
+833,,,help_text,,,Produces Turcopole of 4 Sipahi and 2 Akinji
+834,,,screen_name,,,Turcopole
+835,,,screen_name,,,Burgundian Allies
+836,,,screen_name,,,Knights Templar
+837,,,screen_name,,,Byzantine Allies
+838,,,help_text,,,"Lithuanian Elite Cavalry, Fragile but Fatal\r\n- Siege Damage"
+839,,,screen_name,,,Leitis Cavalry
+840,,,help_text,,,Produces Black Riders. The maximum of Black Riders is 20.
+841,,,help_text,,,Hussite General
+842,,,screen_name,,,Hussite General
+843,,,screen_name,,,Wagenburg Tactics

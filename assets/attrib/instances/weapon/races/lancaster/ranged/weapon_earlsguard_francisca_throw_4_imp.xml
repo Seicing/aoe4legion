@@ -1,0 +1,70 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="24" overrideParent="True" />
+			<float name="min" value="24" overrideParent="True" />
+			<enum name="damage_type" value="Ranged" overrideParent="True" />
+		</group>
+		<list name="target_type_table" removedIds="251559206">
+		</list>
+		<string name="fx_munition_name" value="common\javelin" overrideParent="True" />
+		<group name="projectile">
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_axe_serjeant" overrideParent="True" />
+		</group>
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\circle_area_option" overrideParent="True">
+				<float name="outer_radius" value="0.5" overrideParent="True" />
+				<float name="inner_radius" value="0" />
+				<bool name="is_two_dimensional" value="True" />
+				<enum name="dynamic_radius_type" value="fixed" />
+			</template_reference>
+			<template_reference name="aoe_penetration" value="tables\range_table">
+				<float name="far" value="0" overrideParent="True" />
+				<float name="mid" value="0" overrideParent="True" />
+				<float name="near" value="0" overrideParent="True" />
+			</template_reference>
+		</group>
+		<group name="burst" overrideParent="True">
+			<bool name="can_burst" value="True" />
+			<group name="duration">
+				<float name="max" value="0.125" />
+				<float name="min" value="0.125" />
+			</group>
+			<group name="incremental_target_table">
+				<float name="accuracy_multiplier" value="0" />
+				<group name="search_radius">
+					<float name="far" value="0" />
+					<float name="near" value="0" />
+					<float name="mid" value="0" />
+				</group>
+			</group>
+			<group name="rate_of_fire">
+				<float name="max" value="16" overrideParent="True" />
+				<float name="min" value="16" overrideParent="True" />
+			</group>
+			<group name="duration_multiplier">
+				<float name="near" value="1" />
+				<float name="far" value="1" />
+				<float name="mid" value="1" />
+			</group>
+			<group name="rate_of_fire_multiplier">
+				<float name="near" value="1" />
+				<float name="far" value="1" />
+				<float name="mid" value="1" />
+			</group>
+			<bool name="focus_fire" value="False" />
+			<bool name="convert_target_to_position_before_firing" value="False" />
+			<bool name="uninterruptible_burst_fire" value="False" />
+		</group>
+		<group name="scatter">
+			<float name="angle_scatter" value="12" overrideParent="True" />
+		</group>
+		<group name="fire" comment="This is lined up with the animation currently, adjusting attack speed should be done with care">
+			<float name="wind_down" value="0.25" overrideParent="True" />
+			<float name="wind_up" value="0.75" overrideParent="True" />
+			<float name="animation_impact_frame_time" value="0.75" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="1073742506" />
+	<instance_reference name="parent_pbg" value="weapon\races\malian\ranged\weapon_javelin_donso_3_mal" />
+</instance>

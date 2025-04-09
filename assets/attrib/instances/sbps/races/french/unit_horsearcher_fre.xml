@@ -64,6 +64,7 @@
 				<instance_reference name="squad_race_type" value="racebps\french" overrideParent="True" List.ItemID="1404919460" />
 			</list>
 			<list name="squad_type_list">
+				<enum name="squad_type" value="scar_horsearcher" overrideParent="True" List.ItemID="-36339757" List.ParentItemID="-36339757" />
 				<enum name="squad_type" value="armored" List.ItemID="-163646725" List.ListAction="Append" />
 			</list>
 		</template_reference>

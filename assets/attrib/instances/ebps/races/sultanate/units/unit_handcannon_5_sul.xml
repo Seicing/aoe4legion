@@ -13,13 +13,13 @@
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-1028637551" List.ParentItemID="-1028637551">
 			<group name="time_cost">
 				<enum_table name="cost">
-					<float name="food" value="78" overrideParent="True" />
-					<float name="gold" value="78" overrideParent="True" />
+					<float name="food" value="90" overrideParent="True" />
+					<float name="gold" value="90" overrideParent="True" />
 				</enum_table>
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="746293570" List.ParentItemID="746293570">
-			<float name="hitpoints" value="100" overrideParent="True" />
+			<float name="hitpoints" value="130" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-78815547" List.ParentItemID="-78815547">
 			<list name="race_type_list" overrideParent="True">

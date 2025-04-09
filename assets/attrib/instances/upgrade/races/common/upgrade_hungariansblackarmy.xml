@@ -23,11 +23,11 @@
 		<enum name="ui_production_group" value="command_panel" />
 		<group name="ui_info">
 			<locstring name="extra_text" value="704" mod="67987bbc33214c57b0617d9356614825" />
-			<locstring name="help_text" value="786" mod="67987bbc33214c57b0617d9356614825" />
+			<locstring name="help_text" value="817" mod="67987bbc33214c57b0617d9356614825" />
 			<string name="hotkey_name" value="Q" />
-			<file name="icon_name" value="races\common\units\vip" />
+			<file name="icon_name" value="hungary" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="783" mod="67987bbc33214c57b0617d9356614825" />
+			<locstring name="screen_name" value="813" mod="67987bbc33214c57b0617d9356614825" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<string name="debug_text" value="" />
@@ -85,6 +85,8 @@
 			</template_reference>
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />
+			<int name="custom_data_index" value="0" />
+			<bool name="is_unique_to_race" value="False" />
 		</group>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1193776061">
@@ -119,19 +121,53 @@
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="0" />
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-228409815">
+					<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="2045100040">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
-						<bool name="is_present" value="True" />
-						<int name="max_completed" value="100" />
-						<int name="min_completed" value="1" />
-						<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_hussiteuprising" mod="67987bbc33214c57b0617d9356614825" />
-						<bool name="include_completed" value="True" />
-						<bool name="include_queued" value="True" />
-						<group name="include_pbg_parenting">
-							<bool name="include_child_pbgs" value="False" />
-							<bool name="include_parent_pbgs" value="False" />
-						</group>
+						<list name="requirements">
+							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-310971178">
+								<enum name="reason" value="usage" />
+								<locstring name="ui_name" value="0" />
+								<bool name="is_present" value="True" />
+								<int name="max_completed" value="100" />
+								<int name="min_completed" value="1" />
+								<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_hussiteuprising" mod="67987bbc33214c57b0617d9356614825" />
+								<bool name="include_completed" value="True" />
+								<bool name="include_queued" value="True" />
+								<group name="include_pbg_parenting">
+									<bool name="include_child_pbgs" value="False" />
+									<bool name="include_parent_pbgs" value="False" />
+								</group>
+							</template_reference>
+							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-1223662021">
+								<enum name="reason" value="usage" />
+								<locstring name="ui_name" value="0" />
+								<bool name="is_present" value="True" />
+								<int name="max_completed" value="100" />
+								<int name="min_completed" value="1" />
+								<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_polish" mod="67987bbc33214c57b0617d9356614825" />
+								<bool name="include_completed" value="True" />
+								<bool name="include_queued" value="True" />
+								<group name="include_pbg_parenting">
+									<bool name="include_child_pbgs" value="False" />
+									<bool name="include_parent_pbgs" value="False" />
+								</group>
+							</template_reference>
+							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="1761355841">
+								<enum name="reason" value="usage" />
+								<locstring name="ui_name" value="0" />
+								<bool name="is_present" value="True" />
+								<int name="max_completed" value="100" />
+								<int name="min_completed" value="1" />
+								<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_motherland" mod="67987bbc33214c57b0617d9356614825" />
+								<bool name="include_completed" value="True" />
+								<bool name="include_queued" value="True" />
+								<group name="include_pbg_parenting">
+									<bool name="include_child_pbgs" value="False" />
+									<bool name="include_parent_pbgs" value="False" />
+								</group>
+							</template_reference>
+						</list>
 					</template_reference>
 				</list>
 			</template_reference>
@@ -145,7 +181,7 @@
 		<string name="speech_code" value="" />
 		<file name="ui_squad_portrait_icon_override" value="" />
 		<group name="ui_position">
-			<int name="ui_position_row" value="3" />
+			<int name="ui_position_row" value="2" />
 			<int name="ui_position_column" value="1" />
 		</group>
 		<float name="min_music_intensity" value="0" />
