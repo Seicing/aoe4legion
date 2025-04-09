@@ -4,7 +4,7 @@
 			<list name="unit_list">
 				<group name="loadout_data" List.ItemID="1795618361">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\legion\legion_hol_wyngardehuskarl" mod="67987bbc33214c57b0617d9356614825" />
+					<instance_reference name="type" value="ebps\races\legion\legion_hol_wyngardeknights" mod="67987bbc33214c57b0617d9356614825" />
 					<list name="unit_attachments">
 					</list>
 					<bool name="is_default_unit" value="True" />

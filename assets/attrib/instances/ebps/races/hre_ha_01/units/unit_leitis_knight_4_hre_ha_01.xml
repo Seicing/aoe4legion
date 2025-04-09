@@ -124,7 +124,7 @@
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\melee\weapon_szlachta_4_charge_tem" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\weapons\wpn_melee_horseman_charge" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre_ha_01\weapons\wpn_melee_horseman_4_hre_ha_01" overrideParent="True" />
 								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
 							</template_reference>
 							<group name="heading">
