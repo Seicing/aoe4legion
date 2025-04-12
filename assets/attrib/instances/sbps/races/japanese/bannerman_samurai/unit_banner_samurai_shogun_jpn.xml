@@ -1,5 +1,5 @@
 <instance version="4" description="Bannerman Samurai" template="sbps">
-	<list name="extensions" removedIds="346980834">
+	<list name="extensions">
 		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="905650936" List.ParentItemID="905650936">
 			<list name="race_list">
 				<group name="race_data" List.ItemID="1979727231" List.ParentItemID="1979727231">
@@ -76,6 +76,17 @@
 			<list name="age_mapping">
 				<int name="age_number" value="1" overrideParent="True" List.ItemID="-1025700751" List.ParentItemID="-1025700751" />
 				<int name="age_number" value="2" overrideParent="True" List.ItemID="2063109689" List.ParentItemID="2063109689" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" List.ItemID="346980834" List.ParentItemID="346980834">
+			<list name="construction_groups">
+				<group name="construction_group" List.ItemID="-107179356" List.ParentItemID="-107179356">
+					<list name="construction_items" removedIds="-1294486301">
+						<group name="construction_item" List.ItemID="-143686339" List.ParentItemID="-143686339">
+							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_econ_stone_ruin_jpn" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						</group>
+					</list>
+				</group>
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="53910461" List.ParentItemID="53910461">

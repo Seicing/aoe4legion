@@ -1,8 +1,8 @@
 <instance version="4" description="" template="weapon">
 	<group name="weapon_bag">
 		<group name="damage">
-			<float name="max" value="18" overrideParent="True" />
-			<float name="min" value="18" overrideParent="True" />
+			<float name="max" value="30" overrideParent="True" />
+			<float name="min" value="30" overrideParent="True" />
 			<enum name="damage_type" value="True Damage" overrideParent="True" />
 		</group>
 		<string name="fx_munition_name" value="common_spear" overrideParent="True" />

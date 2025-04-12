@@ -11,9 +11,9 @@
 			<float name="food" value="0" />
 			<float name="wood" value="0" />
 			<float name="stone" value="0" />
-			<float name="gold" value="300" />
+			<float name="gold" value="0" />
 			<float name="militia_hre" value="0" />
-			<float name="merc_byz" value="0" />
+			<float name="merc_byz" value="500" />
 		</enum_table>
 		<string name="cursor_ghost_blueprint" value="" />
 		<float name="cursor_ghost_blueprint_angle" value="0" />
@@ -49,7 +49,7 @@
 		</group>
 		<group name="ui_info">
 			<locstring name="extra_text" value="0" />
-			<locstring name="help_text" value="233" mod="67987bbc33214c57b0617d9356614825" />
+			<locstring name="help_text" value="847" mod="67987bbc33214c57b0617d9356614825" />
 			<string name="hotkey_name" value="E" />
 			<file name="icon_name" value="races\common\abilities\leader_healing_effect" />
 			<string name="overlay_name" value="" />
@@ -223,6 +223,6 @@
 		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\abilities\cmp_ability_healing" />
 		<int name="default_command_additional_rally_weight_modifier" value="0" />
 	</group>
-	<uniqueid name="pbgid" value="1073742299" />
+	<uniqueid name="pbgid" value="1073742549" />
 	<instance_reference name="parent_pbg" value="" />
 </instance>

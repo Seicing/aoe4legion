@@ -66,6 +66,12 @@
 			<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 			<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
 			<bool name="can_be_damaged_by_ally" value="False" />
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="True Damage" value="0" />
+				<float name="Melee" value="0" />
+				<float name="Ranged" value="0" />
+				<float name="Fire" value="0" />
+			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1642434046">
 			<list name="tier_group_list">
@@ -169,10 +175,10 @@
 					<float name="action" value="0" />
 					<float name="popcap" value="0" />
 					<float name="command" value="0" />
-					<float name="food" value="100" />
+					<float name="food" value="200" />
 					<float name="wood" value="0" />
 					<float name="stone" value="0" />
-					<float name="gold" value="100" />
+					<float name="gold" value="200" />
 					<float name="militia_hre" value="0" />
 					<float name="merc_byz" value="0" />
 				</enum_table>
@@ -448,6 +454,7 @@
 			</enum_table>
 			<enum name="snap_to_surface_type" value="GroundOrWalkable" />
 			<float name="turn_in_place_distance" value="0" />
+			<bool name="snap_to_terrain" value="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\posture_ext" List.ItemID="-2021432518">
 			<instance_reference name="posture_group" value="posture\default_posture_group" />

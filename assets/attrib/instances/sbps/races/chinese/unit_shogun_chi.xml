@@ -358,13 +358,67 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" List.ItemID="1235339643" List.ParentItemID="1235339643">
 			<list name="construction_groups">
 				<group name="construction_group" List.ItemID="-107179356" List.ParentItemID="-107179356">
-					<instance_reference name="construction_menu" value="" />
+					<instance_reference name="construction_menu" value="menu\siege_engineer" />
 					<list name="construction_items">
 						<group name="construction_item" List.ItemID="-1167851809">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_commandery_control_chi" mod="67987bbc33214c57b0617d9356614825" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
-								<int name="ui_position_column" value="4" />
+								<int name="ui_position_column" value="1" />
+							</group>
+							<list name="associated_ebps">
+							</list>
+							<list name="alternate_ebps">
+							</list>
+							<list name="additional_requirements">
+							</list>
+							<state_tree_node name="additional_requirement_statetree" value="" />
+							<instance_reference name="hotkey_binding" value="" />
+							<template_reference name="ui_info_extended" value="tables\ui_info_ext">
+								<template_reference name="command_card_info" value="ui_command_card_info">
+									<group name="ui_position">
+										<int name="ui_position_row" value="1" />
+										<int name="ui_position_column" value="1" />
+									</group>
+									<int name="command_card_priority" value="1" />
+								</template_reference>
+								<template_reference name="quick_abilities_info" value="ui_quick_abilities_info">
+									<enum name="dpad_position" value="dpad_up" />
+									<int name="quick_abilities_page_num" value="1" />
+									<int name="quick_abilities_priority" value="4" />
+								</template_reference>
+								<template_reference name="quick_commands_info" value="">
+								</template_reference>
+								<template_reference name="quick_formation_info" value="">
+								</template_reference>
+								<template_reference name="ping_menu_info" value="">
+								</template_reference>
+								<enum name="category" value="Military" />
+								<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+									<enum name="quick_commands_hotkey" value="" />
+									<int name="quick_commands_priority" value="-1" />
+									<int name="quick_commands_slot_index" value="-1" />
+									<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+								</template_reference>
+								<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+									<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\field_upgrades" />
+									<int name="nominal_index" value="1" />
+									<int name="priority" value="0" />
+									<instance_reference name="linked" value="" />
+								</template_reference>
+								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
+							</template_reference>
+							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+						</group>
+						<group name="construction_item" List.ItemID="1602339676">
+							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_econ_stone_ruin_chi" mod="67987bbc33214c57b0617d9356614825" />
+							<group name="ui_position">
+								<int name="ui_position_row" value="2" />
+								<int name="ui_position_column" value="1" />
 							</group>
 							<list name="associated_ebps">
 							</list>
