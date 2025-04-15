@@ -59,7 +59,7 @@
 						<string name="debug_text" value="" />
 						<string name="selection_datatemplate" value="MilitaryUnitSelectionDataTemplate" />
 						<string name="tooltip_data_template" value="BuildingMilitaryDataTemplate" />
-						<bool name="is_unique" value="False" />
+						<bool name="is_unique" value="True" />
 						<string name="decorator_data_template" value="" />
 						<enum name="ui_combine_type" value="intersection" />
 						<int name="global_unit_control_row" value="1" />

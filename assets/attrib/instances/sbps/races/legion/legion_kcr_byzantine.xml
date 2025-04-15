@@ -15,7 +15,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-281649332">
 			<list name="requirement_table">
 				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-367828392">
-					<enum name="reason" value="usage_and_display" />
+					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="0" />
 					<bool name="is_present" value="True" />
 					<int name="max_completed" value="100" />

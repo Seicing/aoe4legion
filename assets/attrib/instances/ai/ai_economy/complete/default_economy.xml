@@ -1107,7 +1107,7 @@
 					<instance_reference name="entity" value="ebps\races\malian\buildings\building_landmark_age1_landmarkb_mal" List.ItemID="1412919519" />
 					<instance_reference name="entity" value="ebps\races\ottoman\buildings\building_landmark_age1_cifte_minareli_medrese_ott" List.ItemID="1156056227" />
 					<instance_reference name="entity" value="ebps\races\ottoman\buildings\building_landmark_age1_han_caravanserai_ott" List.ItemID="1663272770" />
-					<instance_reference name="entity" value="ebps\races\lancaster\buildings\building_landmark_age1_abbey_lan" List.ItemID="-1466645774" />
+					<instance_reference name="entity" value="ebps\races\lancaster\buildings\building_landmark_age1_abbey_lan" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1466645774" />
 				</list>
 				<template_reference name="utility" value="ai\economy\production_instance_utility">
 					<float name="utility" value="800" />
@@ -4542,7 +4542,7 @@
 					<instance_reference name="member" value="ebps\races\chinese_ha_01\buildings\building_landmark_age1_academy_chi_ha_01\building_landmark_age1_meditation_gardens_control_chi_ha_01" List.ItemID="425369446" />
 					<instance_reference name="member" value="ebps\races\hre_ha_01\buildings\building_landmark_age1_palantine_chapel_hre_ha_01\building_landmark_age1_palantine_chapel_hre_ha_01" List.ItemID="1159730731" />
 					<instance_reference name="member" value="ebps\races\french_ha_01\buildings\building_landmark_age1_casernes_centrales_fre_ha_01\building_landmark_age1_casernes_centrales_fre_ha_01" List.ItemID="-1567302752" />
-					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_landmark_age1_abbey_lan" List.ItemID="903194668" />
+					<instance_reference name="member" value="ebps\races\lancaster\buildings\building_landmark_age1_abbey_lan" mod="67987bbc33214c57b0617d9356614825" List.ItemID="903194668" />
 				</list>
 				<float name="base_scale" value="950" />
 				<float name="minimum_score_to_produce" value="200" />
