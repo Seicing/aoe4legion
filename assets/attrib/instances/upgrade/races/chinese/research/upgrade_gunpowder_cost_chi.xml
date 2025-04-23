@@ -43,7 +43,7 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<int name="int_value" value="4" List.ItemID="-74450970" />
+					<int name="int_value" value="6" List.ItemID="-74450970" />
 				</list>
 				<locstring name="formatter" value="11253042" />
 			</template_reference>
@@ -89,6 +89,8 @@
 					<instance_reference name="secondary_issuable" value="" />
 				</group>
 			</template_reference>
+			<int name="custom_data_index" value="0" />
+			<bool name="is_unique_to_race" value="True" />
 		</group>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1128840429">
@@ -172,6 +174,7 @@
 			<state_tree_node name="apply_to_filter_condition_statetree_ref" value="" />
 			<enum name="apply_to_target_type" value="entity" />
 			<list name="apply_to_unit_classes">
+				<enum name="unit_class" value="nest_of_bees" List.ItemID="-2099796861" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
@@ -195,6 +198,10 @@
 			<float name="merc_byz" value="0" />
 		</enum_table>
 		<list name="float_properties">
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="1805361338">
+				<float name="value" value="6" />
+				<enum name="id" value="attack_speed" />
+			</template_reference>
 		</list>
 		<list name="int_properties">
 		</list>
