@@ -36,13 +36,16 @@
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\templar" overrideParent="True" List.ItemID="-373791036" />
 			</list>
-			<list name="unit_type_list">
+			<list name="unit_type_list" removedIds="716130881, -701596995">
 				<enum name="unit_type" value="land_military" overrideParent="True" List.ItemID="-133254389" List.ParentItemID="-133254389" />
 				<enum name="unit_type" value="find_non_siege_land_military" overrideParent="True" List.ItemID="1927221305" List.ParentItemID="1927221305" />
 				<enum name="unit_type" value="heavy" List.ItemID="-150328828" List.ListAction="Append" />
 				<enum name="unit_type" value="armored" List.ItemID="-1165239652" List.ListAction="Append" />
 				<enum name="unit_type" value="cavalry_armored" List.ItemID="-1790349059" List.ListAction="Append" />
-				<enum name="unit_type" value="cavalry_handcannon" List.ItemID="-1140614838" List.ListAction="Append" />
+				<enum name="unit_type" value="knight" List.ItemID="1482488690" List.ListAction="Append" />
+				<enum name="unit_type" value="crossbow_incendiary_4" List.ItemID="-1440513571" List.ListAction="Append" />
+				<enum name="unit_type" value="crossbowman" List.ItemID="-961371416" List.ListAction="Append" />
+				<enum name="unit_type" value="cavalry_handcannon" List.ItemID="1041666405" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-13182395" List.ParentItemID="-13182395">

@@ -158,9 +158,9 @@
 					<bool name="can_be_cancelled" value="False" overrideParent="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_champion_3_lan" overrideParent="True" List.ItemID="1225868371" />
-						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_champion_3_lan" overrideParent="True" List.ItemID="-1771611577" />
-						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_champion_3_lan" overrideParent="True" List.ItemID="302891305" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_earlsguard_3_lan" overrideParent="True" List.ItemID="1225868371" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_earlsguard_3_lan" overrideParent="True" List.ItemID="-1771611577" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_earlsguard_3_lan" overrideParent="True" List.ItemID="302891305" />
 					</list>
 					<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_keep\produce_keep_manatarms_eng" overrideParent="True" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
@@ -368,9 +368,9 @@
 						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_heavy_spearman_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-926123852" />
 						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_heavy_spearman_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="143415147" />
 						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_heavy_spearman_hol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1491836856" />
-						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_champion_3_lan" overrideParent="True" List.ItemID="197534532" />
-						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_champion_3_lan" overrideParent="True" List.ItemID="546341560" />
-						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_champion_3_lan" overrideParent="True" List.ItemID="-856822211" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_earlsguard_3_lan" overrideParent="True" List.ItemID="197534532" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_earlsguard_3_lan" overrideParent="True" List.ItemID="546341560" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_earlsguard_3_lan" overrideParent="True" List.ItemID="-856822211" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
