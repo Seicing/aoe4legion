@@ -178,6 +178,7 @@
 				<enum name="unit_class" value="bombard" List.ItemID="-217842674" />
 				<enum name="unit_class" value="grenadier" List.ItemID="385817787" />
 				<enum name="unit_class" value="nest_of_bees" List.ItemID="2140819673" />
+				<enum name="unit_class" value="cavalry_handcannon" List.ItemID="-1753649339" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />

@@ -176,6 +176,7 @@
 					<string name="state_tree" value="" />
 				</group>
 			</list>
+			<bool name="should_keep_above_one" value="True" />
 		</group>
 		<group name="deflection">
 			<float name="deflection_damage_multiplier" value="0" />
@@ -248,7 +249,7 @@
 				<float name="mid" value="-1" />
 			</group>
 			<float name="max_height" value="-1" />
-			<float name="max_animation_angle_distance" value="18" />
+			<float name="max_animation_angle_distance" value="0" />
 		</group>
 		<group name="reload">
 			<group name="duration">

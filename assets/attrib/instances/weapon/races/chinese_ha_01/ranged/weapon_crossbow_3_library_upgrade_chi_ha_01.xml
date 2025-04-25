@@ -167,8 +167,8 @@
 			<bool name="persistent_cooldownticks" value="False" />
 		</group>
 		<group name="damage">
-			<float name="max" value="12" />
-			<float name="min" value="12" />
+			<float name="max" value="11" />
+			<float name="min" value="11" />
 			<enum name="damage_type" value="Ranged" />
 			<bool name="allow_overkill" value="False" />
 			<list name="on_penetrated_state_trees">
@@ -176,6 +176,7 @@
 					<string name="state_tree" value="" />
 				</group>
 			</list>
+			<bool name="should_keep_above_one" value="True" />
 		</group>
 		<group name="deflection">
 			<float name="deflection_damage_multiplier" value="0" />
@@ -248,12 +249,12 @@
 				<float name="mid" value="-1" />
 			</group>
 			<float name="max_height" value="-1" />
-			<float name="max_animation_angle_distance" value="18" />
+			<float name="max_animation_angle_distance" value="0" />
 		</group>
 		<group name="reload">
 			<group name="duration">
-				<float name="max" value="1.25" />
-				<float name="min" value="1.25" />
+				<float name="max" value="1.75" />
+				<float name="min" value="1.75" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="far" value="1" />
