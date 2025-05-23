@@ -50,9 +50,9 @@
 161,,,help_text,,,Produces Wyngarde Yeoman of 4 longbowmen and 3 Wynguard Rangers.
 162,,,help_text,,,"Produces Gendarmerie of 3 Royal Knights, 2 Horsemen and 1 Mounted Crossbowman."
 163,,,help_text,,,Produces Genoese Mercenary of 3 Man-at-arms and 3 Arbalétriers.
-164,,,help_text,,,Produces Swiss Mercenary of 4 Halberdiers and 2 Pikemen.
+164,,,help_text,,,Produces Swiss Mercenary of 4 Halberdiers and 2 Heavy Spearmen.
 165,,,help_text,,,Produces Dopplesoldner of 2 Culverins and 4 Handcannoneers.
-167,,,help_text,,,"Produces Landsknecht Legion of 2 Landsknechts, 2 Man-at-arms, 2 Pikemen, 2 Halberdiers and 2 Handcannoneers."
+167,,,help_text,,,"Produces Landsknecht Legion of 2 Landsknechts, 2 Man-at-arms, 2 Heavy Spearmen, 2 Halberdiers and 2 Handcannoneers."
 168,,,help_text,,,Produces Akinji Raider of 3 Sipahi and 3 Akinji.
 169,,,help_text,,,Produces Serbi Regiment of 3 Boyar Knights and 3 Boyar Warriors.
 170,,,help_text,,,Produces Turkic Fief of 3 Sipahi and 3 Lancer.
@@ -60,7 +60,7 @@
 172,,,help_text,,,Produces Black Klobuks of 3 Horsemen and 3 Horse Archers.
 173,,,help_text,,,Produces Tsar's Guard of 3 Oprichnik and 4 Streltsy.
 174,,,help_text,,,Produces Tatars Mercenary of 3 Keshiks and 3 Mangudai.
-175,,,help_text,,,"Produces Forlorn Hope of 1 Landsknechts, 2 Pikemen and 2 Halberdiers."
+175,,,help_text,,,"Produces Forlorn Hope of 1 Landsknechts, 2 Heavy Spearmen and 2 Halberdiers."
 176,,,help_text,,,Produces Mansabdar of 1 War Elephant and 1 Sultan's Elite Tower Elephant.
 177,,,screen_name,,,Mansabdar
 180,,,screen_name,,,Boyar Warrior

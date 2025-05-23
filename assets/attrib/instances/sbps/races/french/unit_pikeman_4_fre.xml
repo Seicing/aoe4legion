@@ -7,9 +7,12 @@
 			<list name="race_list">
 				<group name="race_data" List.ItemID="1121583235" List.ParentItemID="1121583235">
 					<group name="info">
-						<locstring name="screen_name" value="769" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<file name="icon_name" value="pikeman" overrideParent="True" />
+						<locstring name="screen_name" value="11265398" overrideParent="True" />
+						<file name="icon_name" value="races\templar\units\heavy_spearman_age_4" overrideParent="True" />
 						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<locstring name="extra_text" value="114" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="help_text" value="11266189" overrideParent="True" />
+						<string name="selection_group" value="normanspear" overrideParent="True" />
 					</group>
 				</group>
 			</list>
@@ -19,6 +22,10 @@
 				<group name="loadout_data" List.ItemID="-486906424" List.ParentItemID="-486906424">
 					<instance_reference name="type" value="ebps\races\french\units\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1414322165" List.ParentItemID="1414322165">
+			<list name="requirement_table" removedIds="-1920725808">
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="423419874" List.ParentItemID="423419874">
@@ -35,6 +42,14 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-2108225852" List.ParentItemID="-2108225852">
 			<list name="squad_race_type_list" overrideParent="True">
 				<instance_reference name="squad_race_type" value="racebps\french" overrideParent="True" List.ItemID="1070890698" />
+			</list>
+			<list name="squad_type_list">
+				<enum name="squad_type" value="heavy_spearman" List.ItemID="314408011" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-1399083326" List.ParentItemID="-1399083326">
+			<list name="age_mapping">
+				<int name="age_number" value="2" overrideParent="True" List.ItemID="381529232" List.ParentItemID="381529232" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" List.ItemID="-537241826" List.ParentItemID="-537241826">

@@ -2,6 +2,7 @@
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="803033353" List.ParentItemID="803033353">
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_heavy_spearman" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-623852692" List.ParentItemID="-623852692">
 			<list name="action_state_trees">
@@ -13,65 +14,137 @@
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="610055753" List.ParentItemID="610055753">
 			<group name="time_cost">
 				<enum_table name="cost">
-					<float name="wood" value="30" overrideParent="True" />
+					<float name="wood" value="0" overrideParent="True" />
+					<float name="food" value="70" overrideParent="True" />
+					<float name="gold" value="30" overrideParent="True" />
 				</enum_table>
+				<float name="time_seconds" value="19" overrideParent="True" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-2112301127" List.ParentItemID="-2112301127">
-			<float name="hitpoints" value="150" overrideParent="True" />
+			<float name="hitpoints" value="170" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
-				<float name="Melee" value="2" overrideParent="True" />
-				<float name="Ranged" value="2" overrideParent="True" />
+				<float name="Melee" value="5" overrideParent="True" />
+				<float name="Ranged" value="5" overrideParent="True" />
 			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1344262557" List.ParentItemID="1344262557">
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\french" overrideParent="True" List.ItemID="1666803954" />
 			</list>
+			<list name="unit_type_list" removedIds="-1546531, 1790206548">
+				<enum name="unit_type" value="heavy" List.ItemID="-1625266577" List.ListAction="Append" />
+				<enum name="unit_type" value="heavy_spearman" List.ItemID="163719362" List.ListAction="Append" />
+			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="113064770" List.ParentItemID="113064770">
-			<list name="hardpoints">
+			<list name="hardpoints" overrideParent="True">
 				<group name="hardpoint" List.ItemID="1772179079" List.ParentItemID="1772179079">
-					<list name="weapon_table">
-						<group name="weapon" List.ItemID="1188114953" List.ParentItemID="1188114953">
+					<list name="weapon_table" overrideParent="True">
+						<group name="weapon" List.ItemID="-2052959341" List.ParentItemID="1188114953">
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\byzantine\weapons\wpn_melee_spearman_2_byz" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\melee\weapon_heavy_spearman_4_tem" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\templar\weapons\wpn_melee_heavy_spearman_4_tem" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
+							<group name="origin">
+								<float name="y" value="-1" overrideParent="True" />
+								<float name="x" value="0" />
+								<float name="z" value="0" />
+							</group>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<enum name="type" value="default" />
 						</group>
-						<group name="weapon" List.ItemID="1383023241" List.ParentItemID="1383023241">
+						<group name="weapon" List.ItemID="-1684501951" List.ParentItemID="1383023241">
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_torch" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\french\weapons\wpn_siege_torch_fre" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\english\weapons\wpn_siege_torch_eng" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="-0.5" />
+							</group>
+							<enum name="type" value="default" />
 						</group>
-						<group name="weapon" List.ItemID="-1078216168" List.ParentItemID="-1078216168">
+						<group name="weapon" List.ItemID="-16519407" List.ParentItemID="-1078216168">
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_spearwall_4" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\byzantine\weapons\wpn_melee_spearwall_2_byz" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\melee\weapon_heavy_spearman_4_brace_tem" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\templar\weapons\wpn_melee_heavy_spearman_4_tem" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
 						</group>
-						<group name="weapon" List.ItemID="-1768759685" List.ParentItemID="-1768759685">
+						<group name="weapon" List.ItemID="979942109" List.ParentItemID="-1768759685">
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_spearman_4_charge_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\byzantine\weapons\wpn_melee_spearman_2_charge_byz" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\melee\weapon_heavy_spearman_4_charge_tem" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\templar\weapons\wpn_melee_heavy_spearman_4_tem" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
 						</group>
 					</list>
+					<float name="parent_hardpoint" value="-1" />
+					<bool name="receives_attack_commands" value="True" />
+					<string name="base_marker" value="" />
+					<list name="preferred_inventory_item_categories">
+					</list>
+					<list name="firing_offset_markers">
+					</list>
+					<string name="offhand_marker" value="" />
+					<bool name="initialize_weapons_on_creation" value="True" />
 				</group>
 			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-1520618848" List.ParentItemID="-1520618848">
+			<enum_table name="speed_scaling_table">
+				<float name="default_speed" value="4.5" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="113025971" List.ParentItemID="113025971">
+			<string name="default_animation" value="navigation\idle_calm_basic_02" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-910122931" List.ParentItemID="-910122931">
 			<instance_reference name="schema" value="statemodel_schema\units\spearman" overrideParent="True" />
@@ -82,7 +155,7 @@
 					<group name="tier" List.ItemID="-541013613">
 						<list name="tier_requirements" overrideParent="True">
 						</list>
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\hre\units\tier3_landsknecht_hre" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\units\commanderie\heavy_spearman_4_tem" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />
