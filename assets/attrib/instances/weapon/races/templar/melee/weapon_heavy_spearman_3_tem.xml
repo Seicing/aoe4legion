@@ -1,0 +1,31 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="11" overrideParent="True" />
+			<float name="min" value="11" overrideParent="True" />
+			<list name="on_penetrated_state_trees" overrideParent="True">
+				<group name="container" List.ItemID="-124708478">
+					<string name="state_tree" value="baldwin_relentess_attack_armor_debuff_cmp_tem" overrideParent="True" />
+				</group>
+			</list>
+		</group>
+		<group name="fire" overrideParent="True">
+			<float name="wind_up" value="0.25" />
+			<float name="wind_down" value="0.75" />
+			<float name="animation_impact_frame_time" value="0.25" />
+		</group>
+		<list name="target_type_table">
+			<group name="target_unit_type_multipliers" List.ItemID="-552589717" List.ParentItemID="-552589717">
+				<float name="base_damage_modifier" value="25" overrideParent="True" />
+			</group>
+			<group name="target_unit_type_multipliers" List.ItemID="138836123" List.ParentItemID="138836123">
+				<float name="base_damage_modifier" value="8" overrideParent="True" />
+			</group>
+		</list>
+		<group name="range">
+			<float name="max" value="2.7" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="9000015" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_spearman_3" />
+</instance>

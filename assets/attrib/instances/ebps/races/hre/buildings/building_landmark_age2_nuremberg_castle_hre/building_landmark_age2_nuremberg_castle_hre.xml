@@ -958,11 +958,9 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_landsknecht_3_hre" overrideParent="True" List.ItemID="-630168800" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_landsknecht_3_hre" overrideParent="True" List.ItemID="-660298459" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_landsknecht_3_hre" overrideParent="True" List.ItemID="607594909" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1933895213" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-400002743" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1933895213" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-400002743" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1490296078" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1746390123" />
 					</list>
@@ -1035,8 +1033,8 @@
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_landsknecht_3_hre" overrideParent="True" List.ItemID="-776807473" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_manatarms_2_hre" overrideParent="True" List.ItemID="44851928" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_handcannon_4_hre" overrideParent="True" List.ItemID="242397986" />
-						<instance_reference name="additional_squad" value="sbps\races\french\unit_spearman_4_fre" overrideParent="True" List.ItemID="361655379" />
-						<instance_reference name="additional_squad" value="sbps\races\french\unit_spearman_4_fre" overrideParent="True" List.ItemID="614954068" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="361655379" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="614954068" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_handcannon_4_hre" overrideParent="True" List.ItemID="439285822" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_landsknecht_3_hre" overrideParent="True" List.ItemID="-492704091" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_manatarms_2_hre" overrideParent="True" List.ItemID="964314861" />

@@ -25,7 +25,7 @@
 					<float name="popcap" value="0" />
 					<float name="command" value="0" />
 					<float name="food" value="300" />
-					<float name="wood" value="150" />
+					<float name="wood" value="250" />
 					<float name="stone" value="0" />
 					<float name="gold" value="0" />
 					<float name="militia_hre" value="0" />

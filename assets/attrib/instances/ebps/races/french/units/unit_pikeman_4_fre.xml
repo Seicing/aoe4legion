@@ -45,7 +45,7 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\melee\weapon_heavy_spearman_4_tem" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\melee\weapon_heavy_spearman_4_tem" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\templar\weapons\wpn_melee_heavy_spearman_4_tem" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
@@ -108,7 +108,7 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\melee\weapon_heavy_spearman_4_charge_tem" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\melee\weapon_heavy_spearman_4_charge_tem" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\templar\weapons\wpn_melee_heavy_spearman_4_tem" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
