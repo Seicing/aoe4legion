@@ -22,8 +22,8 @@
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_production_group" value="command_panel" />
 		<group name="ui_position">
-			<int name="ui_position_row" value="3" />
-			<int name="ui_position_column" value="3" />
+			<int name="ui_position_row" value="2" />
+			<int name="ui_position_column" value="2" />
 		</group>
 		<group name="ui_info">
 			<locstring name="extra_text" value="11265496" />

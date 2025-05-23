@@ -13,6 +13,7 @@
 			<bool name="allow_overkill" value="False" />
 			<list name="on_penetrated_state_trees">
 			</list>
+			<bool name="should_keep_above_one" value="True" />
 		</group>
 		<group name="penetration" overrideParent="True">
 			<float name="near" value="0" overrideParent="True" />

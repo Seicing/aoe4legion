@@ -798,7 +798,7 @@
 				</group>
 				<group name="spawn_item" comment="landsknecht - imperial age&#xD;&#xA;" List.ItemID="1103813383">
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\hre\unit_landsknecht_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\hre\unit_landsknecht_4_hre" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" />

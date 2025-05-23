@@ -253,8 +253,8 @@
 		</group>
 		<group name="reload">
 			<group name="duration">
-				<float name="max" value="1.75" />
-				<float name="min" value="1.75" />
+				<float name="max" value="1.375" />
+				<float name="min" value="1.375" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="far" value="1" />

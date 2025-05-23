@@ -41,6 +41,12 @@
 		<group name="fire">
 			<float name="wind_down" value="0" overrideParent="True" />
 		</group>
+		<group name="reload">
+			<group name="duration">
+				<float name="max" value="1.375" overrideParent="True" />
+				<float name="min" value="1.375" overrideParent="True" />
+			</group>
+		</group>
 	</group>
 	<uniqueid name="pbgid" value="2135962" />
 	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_crossbow_3" />
