@@ -28,6 +28,16 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1598045404" List.ParentItemID="1598045404">
 			<list name="requirement_table" overrideParent="True">
+				<template_reference name="required" value="requirements\required_squad" overrideParent="True" List.ItemID="-404329586">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="11265848" overrideParent="True" />
+					<float name="max_squad_cap" value="10" overrideParent="True" />
+					<instance_reference name="squad_name" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-2098523511" List.ParentItemID="-2098523511">
@@ -104,6 +114,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 						</group>
 						<group name="construction_item" List.ItemID="223408977" List.ParentItemID="223408977">
@@ -141,6 +155,10 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
 							</template_reference>
 							<group name="ui_position" overrideParent="True">
 								<int name="ui_position_row" value="2" />

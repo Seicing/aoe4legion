@@ -331,7 +331,7 @@
 645,,"Feuert eine Handfeuerwaffe mit großer Reichweite ab und fügt Handfeuerwaffen-Pfeilschlitze hinzu, während er in Garnison steht. \r\n\r\n- 3 Konstruktionsgrenzen."
 647,,Schwere Fernkampfinfanterie
 648,,Farariya
-649,,"Elite-Handkanone des malischen Imperiums mit immer mehr Mengen, entsprechend der Expansion des Imperiums. \r\n\r\n- Es ist keine Bevölkerung erforderlich, aber das Maximum hängt von der Anzahl der Gruben ab"
+649,,"Elite-Handkanonenschütze des malischen Imperiums. r\n\r\n- Es ist keine Bevölkerung erforderlich, Maximal 10"
 650,,"Imperium Expandiert auf Lv1 (1 offene Grube), kann jetzt 2 Farariya unterstützen. \r\n- Kann nicht wieder spawnen, wenn Wachen vorhanden sind."
 651,,Goldenes Imperium Wächter Lv1
 652,,"Kann nicht wieder spawnen, wenn Wachen vorhanden sind."
@@ -527,3 +527,4 @@
 849,,Ein ausgeklügeltes Feudalsystem ermöglicht den schnellen Einsatz der Lancaster-Lords durch Festungen an der Front.
 850,,Wächter des Heiligen Landes
 851,,"Produziert Wächter des Heiligen Landes aus 4 Man-at-Arms, 2 Veteran Hospitalitern und 1 Deutschritter"
+852,,"Sultan Elephant kann die Ruinen des Imperiums nicht ausgraben, dies muss von Phalangit erledigt werden."

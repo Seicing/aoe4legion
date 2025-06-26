@@ -331,7 +331,7 @@
 645,,,help_text,,,Fires a long range handcannon and adds handcannon arrowslits while garrisoned. \r\n\r\n- 3 construction limits.
 647,,,extra_text,,,Heavy Ranged Infantry
 648,,,screen_name,,,Farariya
-649,,,help_text,,,Elite Malian Empire Handcannoneer with more and more quantities According to the Empire Expansion. \r\n\r\n- No population is required but maximum depends on the number of pits
+649,,,help_text,,,Elite Malian Empire Handcannoneer. \r\n\r\n- No population is required but Maximum 10
 650,,,help_text,,,"Empire Expands to Lv1(1 Open Pit), Now can support 2 Farariya. \r\n- Cannot spawn again when any Guards exist."
 651,,,screen_name,,,Gold Empire Sentine Lv1
 652,,,ui_name,,,Cannot spawn again when any Guards exist.
@@ -527,3 +527,4 @@
 849,,,formatter,,,A sophisticated feudal system allows Lancaster lords to be quickly deployed by Keeps on the front lines.
 850,,,screen_name,,,Guardian of the Holy Land
 851,,,help_text,,,"Produces Guardian of the Holy Land of 4 Man-at-Arms, 2 Veteran Hospitaller and 1 Teutonic Knight"
+852,,,help_text,,,"Sultan Elephant cannot excavates the Empire Ruin,need to excavated by Phalangite."

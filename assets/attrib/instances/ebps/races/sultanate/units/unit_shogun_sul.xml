@@ -31,6 +31,7 @@
 				<instance_reference name="ability" value="abilities\always_on_abilities\sultanate\elephant_anti_cavalry_aura_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1616401336" List.ListAction="Append" />
 				<instance_reference name="ability" value="abilities\always_on_abilities\sultanate\mosque_heal_radius_sul" overrideParent="True" List.ItemID="-1547930081" List.ListAction="Append" />
 				<instance_reference name="ability" value="abilities\timed_abilities\campaign\leader_move_speed_activated" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1251507179" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\sultanate\billmen_armor_debuff_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1411612908" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-12445432" List.ParentItemID="-12445432">

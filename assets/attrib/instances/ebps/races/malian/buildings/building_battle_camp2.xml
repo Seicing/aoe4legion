@@ -1076,6 +1076,72 @@
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
 				</group>
+				<group name="spawn_item" List.ItemID="760057297">
+					<group name="ui_position">
+						<int name="ui_position_row" value="3" />
+						<int name="ui_position_column" value="1" />
+					</group>
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\malian\unit_sentinel_mal" mod="67987bbc33214c57b0617d9356614825" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<instance_reference name="ui_menu" value="" />
+					<int name="number_to_spawn" value="1" />
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" />
+						<float name="wood" value="0" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" />
+					<list name="additional_squads">
+					</list>
+					<instance_reference name="hotkey_binding" value="" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
+						<template_reference name="command_card_info" value="ui_command_card_info">
+							<group name="ui_position">
+								<int name="ui_position_row" value="1" />
+								<int name="ui_position_column" value="3" />
+							</group>
+							<int name="command_card_priority" value="1" />
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="">
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
+							<enum name="quick_commands_hotkey" value="" />
+							<int name="quick_commands_priority" value="-1" />
+							<int name="quick_commands_slot_index" value="-1" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\mon_improved" />
+							<int name="nominal_index" value="2" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
 			</list>
 			<bool name="must_be_in_supply" value="False" />
 			<float name="reinforce_radius" value="0" />
