@@ -1,0 +1,74 @@
+<instance version="4" description="French Imperial Age Trebuchet" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="237556951" List.ParentItemID="237556951">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="-320941912" List.ParentItemID="-320941912">
+					<group name="info">
+						<locstring name="help_text" value="858" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<file name="icon_name" value="warwolf" overrideParent="True" />
+						<locstring name="screen_name" value="860" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<string name="selection_group" value="trebuchetwarwolf" overrideParent="True" />
+						<bool name="is_unique" value="True" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-469993225" List.ParentItemID="-469993225">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1602718380">
+					<float name="num" value="1" />
+					<instance_reference name="type" value="ebps\races\templar\units\siege\unit_trebuchet_bad_cw_tem" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<list name="unit_attachments" overrideParent="True">
+						<group name="unit" List.ItemID="-1454498868">
+							<instance_reference name="type" value="ebps\dev\units\unit_siege_cart" overrideParent="True" />
+							<string name="marker" value="mkr_attach" overrideParent="True" />
+						</group>
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1389393677" List.ParentItemID="1389393677">
+			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1763626862" List.ParentItemID="-1763626862">
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+				</template_reference>
+				<template_reference name="required" value="requirements\required_squad" List.ItemID="-1546118409" List.ListAction="Append">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="0" />
+					<float name="max_squad_cap" value="1" />
+					<instance_reference name="squad_name" value="sbps\races\templar\siege\unit_trebuchet_bad_cw_tem" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-559157649" List.ParentItemID="-559157649">
+			<list name="squad_type_list" overrideParent="True">
+				<enum name="squad_type" value="military" List.ItemID="-774306500" />
+				<enum name="squad_type" value="scar_age4" List.ItemID="-1162068934" />
+				<enum name="squad_type" value="scar_trebuchet_cw" List.ItemID="-900526872" />
+				<enum name="squad_type" value="scar_military" List.ItemID="256147964" />
+				<enum name="squad_type" value="siege" List.ItemID="-831393593" />
+				<enum name="squad_type" value="siege_range" List.ItemID="1509198315" />
+				<enum name="squad_type" value="trebuchet_counterweight" List.ItemID="656846557" />
+				<enum name="squad_type" value="scar_trebuchet" List.ItemID="-1637550629" />
+			</list>
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\templar" overrideParent="True" List.ItemID="-1106211208" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="820980818" List.ParentItemID="820980818">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742588" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_trebuchet_4_counterweight" />
+</instance>

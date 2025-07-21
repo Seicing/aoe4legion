@@ -1,0 +1,53 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-422500858" List.ParentItemID="-422500858">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\french\units\unit_trebuchet_4_cw_fre" overrideParent="True" />
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-336521150" List.ParentItemID="-336521150">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="wood" value="325" overrideParent="True" />
+					<float name="gold" value="225" overrideParent="True" />
+				</enum_table>
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="1488818392" List.ParentItemID="1488818392">
+			<float name="personnel_pop" value="0" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="987752469" List.ParentItemID="987752469">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\templar" overrideParent="True" List.ItemID="-1226391730" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="670545336" List.ParentItemID="670545336">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="1221726239" List.ParentItemID="1221726239">
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="-1906305902" List.ParentItemID="-1906305902">
+							<template_reference name="weapon_entity_attachment" value="options\attachment_types\entity_create_attachment">
+								<template_reference name="entity_attach_data" value="attachments\attach_data_entity">
+									<instance_reference name="ebp" value="ebps\races\templar\units\siege\wpn_cw_trebuchet_god_tem" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								</template_reference>
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="1698103246" List.ParentItemID="1698103246">
+			<string name="default_animation" value="setup\idle_teardown" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1252735317" List.ParentItemID="1252735317">
+			<list name="tier_group_list">
+				<list name="tier_group" List.ItemID="-1419212904" List.ParentItemID="-1419212904">
+					<group name="tier" List.ItemID="1368001591" List.ParentItemID="1368001591">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\lancaster\units\warwolf_trebuchet_lan" overrideParent="True" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742584" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_trebuchet_4_counterweight" />
+</instance>

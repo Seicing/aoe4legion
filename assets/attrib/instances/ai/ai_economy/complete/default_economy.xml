@@ -5115,6 +5115,7 @@
 					<instance_reference name="member" value="sbps\races\legion\legion_hol_wyngardehuskarl" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1623663358" />
 					<instance_reference name="member" value="sbps\races\legion\legion_hol_wyngardeknights" mod="67987bbc33214c57b0617d9356614825" List.ItemID="568210416" />
 					<instance_reference name="member" value="sbps\races\legion\legion_hol_wyngardeyeoman" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1915741335" />
+					<instance_reference name="member" value="sbps\races\legion\legion_eng_wyngardeknights" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1470332451" />
 				</list>
 				<float name="base_scale" value="500" />
 				<float name="minimum_score_to_produce" value="1" />
@@ -5157,6 +5158,9 @@
 					<instance_reference name="member" value="sbps\races\english\unit_shogun_eng" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1558724767" />
 					<instance_reference name="member" value="sbps\races\templar\unit_shogun_tem" mod="67987bbc33214c57b0617d9356614825" List.ItemID="929089860" />
 					<instance_reference name="member" value="sbps\races\lancaster\unit_shogun_hol" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1945254569" />
+					<instance_reference name="member" value="sbps\races\english\unit_trebuchet_warwolf" mod="67987bbc33214c57b0617d9356614825" List.ItemID="2056371313" />
+					<instance_reference name="member" value="sbps\races\templar\siege\unit_trebuchet_bad_cw_tem" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1143469444" />
+					<instance_reference name="member" value="sbps\races\templar\siege\unit_trebuchet_god_cw_tem" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1184346160" />
 				</list>
 				<float name="base_scale" value="500" />
 				<float name="minimum_score_to_produce" value="1" />

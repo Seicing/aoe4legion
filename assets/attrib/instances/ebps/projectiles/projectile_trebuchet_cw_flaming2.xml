@@ -1,0 +1,17 @@
+<instance version="4" description="Large, high trajectory boulder hurled by siege engines." template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="454083097" List.ParentItemID="454083097">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\projectiles\projectile_boulder_incendiary" overrideParent="True" />
+			<float name="animator_scale" value="150" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\projectile_ext" List.ItemID="-1025573128" List.ParentItemID="-1025573128">
+			<template_reference name="trajectory_option" value="options\ebpextensions\projectileext\projectile_trajectory_option">
+				<float name="speed_max" value="100" overrideParent="True" />
+				<float name="speed_min" value="60" overrideParent="True" />
+			</template_reference>
+			<bool name="use_target_entity_position" value="True" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742582" />
+	<instance_reference name="parent_pbg" value="ebps\projectiles\projectile_trebuchet_counterweight" />
+</instance>
