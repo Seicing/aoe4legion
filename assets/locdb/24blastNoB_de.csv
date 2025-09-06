@@ -1,6 +1,6 @@
 ﻿ID,SourceText,TranslatedText
 1,,Legion und Legion Kommandant
-2,,"Ihr Feedback ist auf Github sehr willkommen https://github.com/Seicing/aoe4legion \r\nDerzeit unterstützte Sprachen: vereinfachtes Chinesisch, traditionelles Chinesisch, Englisch, Deutsch \r\n\r\n[Allgemein] \r\nDas Stadtzentrum kann Dorfbewohner automatisch mit Umschaltfunktion produzieren. \r\nStellen Sie eine Legion oder einen Legionskommandanten ein und erforschen Sie die Kronentechnologie in der Festung. (Posthaus für Mongolen) \r\nDie Kosten fü rdie Festung und dem Steinmauerturm werden von 900/300 auf 650/175 reduziert. \r\nAlle Zivilisationen können berittene Bogenschützen auf dem Schießstand oder in der Legion ausbilden. \r\nHandkanonenschützen kämpfen mit Arkebusen, wenn Serpentinenpulver erforscht wurde. \r\n Grabt mit dem Legionskommandanten im Kaiserzeitalter die Ruinen des Imperiums aus, um ein stabiles Steineinkommen zu erzielen (außer Mongolen).\r\n\r\n[Chinesisch] \r\n- Kronentechnologie: Kriegerkodex \r\n- Zusätzliche Einheit: Raketenwerfer (Festung) \r\n- Bienennest und die Waffe der Feuerlanze-Serie passt die Schadenszusammensetzung an. \r\n- Für den Kaiserlichnr Beamten, ist keine Bevölkerung erforderlich. \r\n- Pyrotechnik wird auf alle Schießpulvereinheiten angewendet. \r\n- Wahrzeichen (außer dem astronomischen Uhrturm) können den Einflussbereich der Kaiserlichen Akademie erweitern. \r\n- Der Kaiserpalast kann die Legion der Verbotenen Armee produzieren. \r\n[Frankreich] \r\n- Kronen-Technologie: Verheerender Angriff \r\n- Effizienz der königlichen Blutlinien auf 55 % erhöht. \r\n- Abklingzeit der Kanonenfähigkeit auf 40 s reduziert. \r\n- Effizienz der Technologie der Handelsgilden +100 %. \r\n- Ritterlichkeit gilt für die gesamte Kavallerie. \r\n[Englisch] \r\n- Kronen-Technologie: Bögen aus gealterter Eibe. \r\n- Effizienz der Technologie der Gehege +100 %. \r\n- Panzerungstechnologie wird auch auf Speerkämpfer angewendet \r\n- Wynguard-Palast produziert 4 zusätzliche Legionen und alle 8 Legionen wurden reduziert. \r\n[Heiliges Römisches Reich] \r\n- Kronentechnologie: Doppeltes Gehalt. \r\n- Zusätzliche Einheit: Hellebarde (ersetzt Speerkämpfer) \r\n- Mönche können im Feudalzeitalter Reliquien aufsammeln. \r\n- Erforsche Maximilian-Plattentechnologie in der Kaserne, um 2 Rüstungen für Landsknechte und Soldaten zu erhöhen. \r\n- Kann Legionen im Burggrafenpalast produzieren. \r\n- Einkommensrate der Regnitz-Kathedrale steigt auf 200 %, nachdem Reliquientechnologie erforscht wurde. \r\n[Osmanen] \r\n- Kronen-Technologie: Highgate-Wächter. \r\n- Produziert Dorfbewohner und Dorfbewohner können Ressourcen im Kaiserpalast von Istanbul abladen. Die Bauzeit wird auf 160 Sek. reduziert. \r\n- Festung kann Einflussbereich erweitern. \r\n[Abbasiden-Dynastie] \r\n- Kronen-Technologie: Bohren. \r\n- Zusätzliche Einheit: Mamluk (Festung) \r\n- Zusätzliche Einheit: Rekrut (Außenposten) \r\n- Zusätzliche Einheit: Zamburakchi (Festung) \r\n- Kamelreiter-Rosette auf Kamelbogenschützen. \r\n- Erhöht die Reichweite der Einflusserweiterung von Festung und Außenposten auf 5. \r\n[Rus] \r\n- Kronen-Technologie: Für die Union! \r\n- Von Dorfbewohnern gesammelte Nahrung muss nicht im Lager abgeladen werden. \r\n- Strelizen können die Fähigkeit „Schnelles Marschieren“ auslösen. \r\n- Der Standard-Pfeilplatz im Spasskaja-Turm wird durch den Kanonenplatz ersetzt und bietet eine einzigartige Heldeneinheit. \r\n- Erforsche Technologie im Stadtzentrum, um die befestigte Palisadenmauer zu verstärken. \r\n[Sultanat Delhi] \r\n- Kronen-Technologie: Schießpulver-Imperium \r\n- Zusätzliche Einheit: Phalangit (Festung) \r\n- Zusätzliche Einheit: Devastator (Festung) \r\n- Die Hisar-Akademie arbeiten schneller. \r\n- Palast des Sultans bietet Devastator-Training für Keep. \r\n- Gelehrter, keine Bevölkerung erforderlich, aber maximal 25 Ausbildungsplätze.\r\n- Ruinen des Imperiums mit Phalangiten statt mit Legionskommandanten ausgegraben..\r\n[Mongolen] \r\n- Kronen-Technologie: Logistik \r\n- Zusätzliche Einheit: Tarkan (Stall) \r\n- Palisadenmauer und Tor können nach dem Feudalzeitalter gebaut werden. \r\n- Keshik erhält +10 Bonusschaden gegen Kavallerie. \r\n- Posthaus kann für Produkte aller Einheiten und Legionen gebaut werden. \r\n[Malier] \r\n- Kronentechnologie: Ton-Tigui-System \r\n- Zusätzliche Einheit: Versorgungskarren \r\n- Dorfbewohner können Ressourcen am Grand Fulani Corral abliefern. In diesem Gebäude können Rinder und Versorgungskarren trainiert werden.\r\n[Byzantiner] \r\n- Kronentechnologie: Hochofen \r\n- Zusätzliche Einheit: Flammenwerfer (Bogenschießstand) \r\n- Schadensreduzierungsrate der Schildmauer von Limitanei auf 50 % erhöht. \r\n- Warägergarde erhält Regeneration und kann Kasernen und Söldnerhäuser bauen. \r\n- Kataphrakt erhält normale Angriffsfähigkeit. \r\n- Palatine School kann Legion sofort mit Olivenöl anheuern. \r\n- Golden Horn Tower bietet neue Einheiten für Bogenschießanlagen im Kaiserzeitalter \r\n[Japanisch] \r\n- Kronentechnologie: Shogunat \r\n- Zusätzliche Einheit: Sohei (Tempel der Gleichheit und Buddhistischer Tempel) \r\n- Technologiekosten für Stadtzentrumsaufrüstung werden auf 175/400/625 reduziert. \r\n- Raketenwaffe passt Schadenszusammensetzung an. Castle of the Crow erhielt zusätzliche Garnisonsraketenwaffe. \r\n[Zhu Xis Vermächtnis] \r\n- Kronentechnologie: Kriegerkodex \r\n- Zusätzliche Einheit: Schrotflintenschütze (Festung) \r\n- Kaiserlicher Beamter, keine Bevölkerungszahl erforderlich. \r\n- Bienennest und Feuerlanzen-Waffe passen Schadenszusammensetzung an. \r\n- Technologielimit kann für Zhu Xis Bibliothek auf 4 erforscht werden. \r\n- Der Sekundärpfeil des Armbrustschützen mit 10.000 Bolzen hat vollen Schadensfaktor. \r\n[Orden des Drachen] \r\n- Kronentechnologie : Disziplin/Aufstand \r\n- Die vergoldeten Einheiten des Imperiums machen nur 1.5 der Bevölkerung aus. \r\n- Die vergoldeten Dorfbewohner müssen für alle Ressourcen kein fallenlassen mehr durchführen. \r\n- Im Burggrafenpalast können nun Legionäre ausgebildet werden. \r\n- Die Einkommensrate der Regnitz-Kathedrale steigt nach der Erforschung der Reliquientechnologie auf 200%. \r\n[Ayyubids] \r\n- Kronen-Technologie: Bohren \r\n- Zusätzliche Einheit: Mamluk (Festung) \r\n- Zusätzliche Einheit: Rekrut (Außenposten) \r\n- Schaden durch Mangonel-Flammengeschosse von 2 auf 3 erhöht. \r\n- Reichweite der Einflusserweiterung von Festung und Außenposten auf 5 erhöht. \r\n[Jeanne d'Arc] \r\n- Kronen-Technologie: Verheerender Angriff \r\n- Effizienz der königlichen Blutlinien auf 55 % erhöht \r\n- Effizienz der Technologie der Handelsgilden +100 %. \r\n- Abklingzeit der Kanonenfähigkeit auf 40 s reduziert. \r\n- Ritterlichkeit gilt für die gesamte Kavallerie. \r\n- Stärke des Himmels gilt für Belagerungseinheiten. \r\n[Haus Lancaster] \r\n- Kronen-Technologie: Bögen aus gealterter Eibe. \r\n- Erforschen Sie Technologien in der Abtei der Könige, um die Ausbildung zum Lancaster Lord in der Festung freizuschalten\r\n[Templerorden] \r\n- Kronen-Technologie: Verheerender Angriff.\r\n- Die Bewegungsgeschwindigkeit des Deutschordensritter wurde von 0,9 auf 1 erhöht.\r\n- Angriffsreichweite schwerer Speerkämpfer auf 0,67 erhöht"
+2,,"Ihr Feedback ist auf Github sehr willkommen https://github.com/Seicing/aoe4legion \r\nDerzeit unterstützte Sprachen: vereinfachtes Chinesisch, traditionelles Chinesisch, Englisch, Deutsch \r\n\r\nDetails zum Tuning Pack finden Sie unter https://seicing.com/html/aoe2/index-aoe4legioneng.html"
 3,,Erhöht die Reichweite von Schießpulvereinheiten um +%1%.
 14,,Kamelharnisch
 15,,Erhöht die Panzerung von Kameleinheiten um +%1%.
@@ -41,7 +41,7 @@
 152,,Garde des Zaren
 153,,Tataren-Söldner
 154,,Produziert Khassaki-Wachen von 3 Mamluken und 3 Ghazi.
-155,,Produziert Misr-Armee von 3 Kamelreitern und 3 Kamelbogenschützen.
+155,,Produziert Misr-Armee von 4 Kamelreitern und 2 Kamelbogenschützen.
 156,,Produziert eine Expeditionsstreitmacht von 6 Ghulam.
 157,,Produziert Uriankhai von 6 Mangudai.
 158,,"Produziert eine Göttliche Belagerungseinheit, die aus 4 Handkanonieren und 1 Uhrwerk-Bienennest besteht."
@@ -53,11 +53,11 @@
 164,,Produziert Schweizer Söldner mit 4 Hellebarden und 2 Schwere Speerkämpfer.
 165,,Produziert Doppelsoldner von 2 Culverins und 4 Handkanonieren.
 167,,"Produziert eine Landsknecht-Legion bestehend aus 2 Landsknechten, 2 Waffenknechten, 2 Schwere Speerkämpfer, 2 Hellebarden und 2 Handkanonieren."
-168,,Produziert Akinji Räuber mit 3 Sipahi und 3 Akinji.
+168,,Produziert Akinji Räuber mit 4 Sipahi und 2 Akinji.
 169,,Produziert ein serbisches Regiment bestehend aus 3 Bojarenrittern und 3 Bojarenkriegern.
 170,,Produziert ein türkisches Lehen von 3 Sipahi und 3 Lancer.
 171,,Produziert eine stehende Armee von 5 Janitscharen und 1 Großen Bombardement.
-172,,Produziert schwarze Klobuks aus 3 Reitern und 3 berittenen Bogenschützen.
+172,,Produziert schwarze Klobuks aus 4 Reitern und 2 berittenen Bogenschützen.
 173,,"Stellt die Zarengarde her, die aus 3 Oprichnik und 4 Streltsy besteht."
 174,,"Produziert Tataren, Söldner von 3 Keshiks und 3 Mangudai."
 175,,"Produziert Verlorener Haufen von 1 Landsknecht, 2 Schwere Speerkämpfer und 2 Hellebarden."
@@ -116,7 +116,7 @@
 257,,"Produziert das Fulani-Regiment mit 2 Speerwerfern, 2 Elite-Bogenschützen und 2 Donso, produziert den Mansa-Speerwerfer mit der Farimba-Garnison"
 258,,Fulani-Regiment
 259,,Tuareg-Regiment
-260,,Produziert ein Tuareg-Regiment bestehend aus 3 Kamelreitern und 3 Kamelbogenschützen.
+260,,Produziert ein Tuareg-Regiment bestehend aus 4 Kamelreitern und 2 Kamelbogenschützen.
 261,,Kamel-Bogenschütze
 262,,Kamelreiter
 263,,Produziert Iqtadar von 3 Kamelreitern und 3 Ghulam.
@@ -246,7 +246,7 @@
 518,,Brauche die weiße Stupa.
 519,,Huihui Pao
 521,,"Produziert Dorfbewohner und Dorfbewohner können Ressourcen an diesem Gebäude abgeben, verdoppeln die Erfahrung des Kaiserlichen Rates rund um das Wahrzeichen und erhöhen das Punktelimit für Wesire um +2."
-523,,Produziert Vardariotai mit 3 gepanzerten Bogenschützen und 3 Reitern.
+523,,Produziert Vardariotai mit 2 gepanzerten Bogenschützen und 4 Reitern.
 524,,Vardariotai
 525,,Mobilisiere 3 Yuan-Plünderer auf dem Schlachtfeld.
 526,,Yuan Räuber
@@ -262,7 +262,7 @@
 548,,"Angemessenes Gehalt lässt die Soldaten des Heiligen Römischen Reiches verzweifelter kämpfen. \r\n- Hellebardiers Reichweite auf 0,,88 erhöht \r\n- Der Landsknecht verursacht bei einem erfolgreichen Angriff doppelten Schaden."
 552,,"Der geschickte Krieger aus Osteuropa \r\n+ kann einem Ziel das nicht der Hauptangriff ist, Trampelschaden zufügen"
 553,,"Der geschickte Ritter aus Osteuropa \r\n+ kann einem Ziel das nicht der Hauptangriff ist, Trampelschaden zufügen"
-554,,Produziere 4 zusätzliche Legionen und alle 8 Legionen wurden reduziert.
+554,,Produziere 4 zusätzliche Legionen und alle Legionen wurden reduziert.
 556,,Sohei
 558,,Japanischer Kampfmönch. \r\n\r\n+ Heilige Stätte und Relikt erobern \r\n+ Flächenschaden \r\n- Kann andere nicht heilen 
 559,,"Schaltet den buddhistischen Mönch frei, der -%1%% billiger ist, den gegnerischen Schaden um -%2% schwächen kann und verbündeten Einheiten in der Nähe +%3%%% Schaden zufügt, während er Konversion wirkt. Can produziert hier Sohei."
@@ -463,7 +463,7 @@
 785,,Im ganzen Reich ist ein Aufstand ausgebrochen! Schalte die Legion des Hussitenaufstand frei. Die Technologie der Disziplin kann nicht mehr erforscht werden.
 786,,"Stelle ein stehendes Heer des Reichs auf, Schalte die Legion der Ungarischen Schwarzen Armee frei. Die Technologie der Aufstand kann nicht mehr erforscht werden."
 787,,Hussitenwagen
-788,,"Hussitische Verteidigungswaffe, ausgestattet mit 2 feuerbaren Handkanonen. \r\n+ Kann gleichzeitig rammen und mit mobilen Handkanonen feuern. \r\n- Zerbrechlicher als ein normaler Rammbock. \r\n- Erfordert 1,5 Einwohner"
+788,,"Hussitische Verteidigungswaffe, ausgestattet mit 2 feuerbaren Handkanonen. \r\n+ Kann gleichzeitig rammen und mit mobilen Handkanonen feuern. \r\n- Zerbrechlicher als ein normaler Rammbock."
 789,,Zamburakchi
 790,,"Kamelreiter mit Zamburak-Kanone, die Granaten mit Flächenwirkung aus mittlerer Entfernung abfeuert \r\n+ Zusätzlicher Schaden an Gebäuden und Belagerungswaffen \r\n+ Hohe Mobilität \r\n- Langsame Feuerrate und relativ zerbrechlich"
 791,,"Bildet automatisch Turm-Kriegselefanten aus. Quartieren Sie bis zu %1% Gelehrte im Wahrzeichen ein, um die Produktionsrate zu erhöhen. Schalte Devastator frei."

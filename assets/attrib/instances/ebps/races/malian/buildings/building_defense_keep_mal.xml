@@ -209,7 +209,7 @@
 					<list name="additional_squads" overrideParent="True">
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_archer_4_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-799528898" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_archer_4_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1878763300" />
-						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_archer_4_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="5464560" />
+						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_rider_4_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="5464560" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_rider_4_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="776883243" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_rider_4_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1507608767" />
 						<instance_reference name="additional_squad" value="sbps\races\malian\unit_camel_rider_4_mal" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="835252922" />

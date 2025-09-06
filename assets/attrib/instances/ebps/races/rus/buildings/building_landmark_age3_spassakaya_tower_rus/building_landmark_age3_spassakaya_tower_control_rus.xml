@@ -2074,7 +2074,7 @@
 						<instance_reference name="additional_squad" value="sbps\races\rus\unit_horseman_2_rus" overrideParent="True" List.ItemID="676082423" />
 						<instance_reference name="additional_squad" value="sbps\races\rus\unit_horsearcher_3_rus" overrideParent="True" List.ItemID="-1300347088" />
 						<instance_reference name="additional_squad" value="sbps\races\rus\unit_horsearcher_3_rus" overrideParent="True" List.ItemID="-419212424" />
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_horsearcher_3_rus" overrideParent="True" List.ItemID="-2007808579" />
+						<instance_reference name="additional_squad" value="sbps\races\rus\unit_horseman_2_rus" overrideParent="True" List.ItemID="-2007808579" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">

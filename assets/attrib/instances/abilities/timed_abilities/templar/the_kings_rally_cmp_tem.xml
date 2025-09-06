@@ -127,7 +127,7 @@
 		<enum name="ability_super" value="tp_none" />
 		<group name="ui_position">
 			<int name="ui_position_row" value="1" />
-			<int name="ui_position_column" value="3" />
+			<int name="ui_position_column" value="4" />
 		</group>
 		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />

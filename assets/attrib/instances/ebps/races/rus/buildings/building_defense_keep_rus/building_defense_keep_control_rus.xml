@@ -60,7 +60,7 @@
 						<instance_reference name="additional_squad" value="sbps\races\rus\unit_horseman_2_rus" overrideParent="True" List.ItemID="-344346742" />
 						<instance_reference name="additional_squad" value="sbps\races\rus\unit_horsearcher_3_rus" overrideParent="True" List.ItemID="849018467" />
 						<instance_reference name="additional_squad" value="sbps\races\rus\unit_horsearcher_3_rus" overrideParent="True" List.ItemID="-651259774" />
-						<instance_reference name="additional_squad" value="sbps\races\rus\unit_horsearcher_3_rus" overrideParent="True" List.ItemID="-2018088604" />
+						<instance_reference name="additional_squad" value="sbps\races\rus\unit_horseman_2_rus" overrideParent="True" List.ItemID="-2018088604" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">

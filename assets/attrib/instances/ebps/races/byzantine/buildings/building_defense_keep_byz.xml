@@ -538,7 +538,7 @@
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\byzantine\unit_horseman_2_byz" overrideParent="True" List.ItemID="-2088804361" />
-						<instance_reference name="additional_squad" value="sbps\races\byzantine\unit_horsearcher_byz" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="975333691" />
+						<instance_reference name="additional_squad" value="sbps\races\byzantine\unit_horseman_2_byz" overrideParent="True" List.ItemID="975333691" />
 						<instance_reference name="additional_squad" value="sbps\races\byzantine\unit_horsearcher_byz" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1354203125" />
 						<instance_reference name="additional_squad" value="sbps\races\byzantine\unit_horseman_2_byz" overrideParent="True" List.ItemID="675913978" />
 						<instance_reference name="additional_squad" value="sbps\races\byzantine\unit_horsearcher_byz" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="228818983" />

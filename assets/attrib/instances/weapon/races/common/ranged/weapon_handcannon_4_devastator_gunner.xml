@@ -40,12 +40,12 @@
 		<group name="moving">
 			<bool name="can_fire_while_moving" value="False" overrideParent="True" />
 		</group>
-		<string name="fx_action_target_name" value="target" overrideParent="True" />
-		<string name="fx_munition_name" value="common\culverin" overrideParent="True" />
+		<string name="fx_action_target_name" value="" overrideParent="True" />
+		<string name="fx_munition_name" value="common\ship_cannon" overrideParent="True" />
 		<string name="fx_tracer_name" value="" overrideParent="True" />
 		<float name="fx_tracer_speed" value="0" overrideParent="True" />
 		<group name="projectile">
-			<instance_reference name="projectile" value="ebps\projectiles\projectile_shot_cannon_tower" overrideParent="True" />
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_naval_cannon" overrideParent="True" />
 		</group>
 		<group name="tracking">
 			<group name="normal">

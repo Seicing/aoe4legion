@@ -153,7 +153,7 @@
 						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_camel_archer_2_abb" overrideParent="True" List.ItemID="1899169722" />
 						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_camel_rider_3_abb" overrideParent="True" List.ItemID="2139710944" />
 						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_camel_archer_2_abb" overrideParent="True" List.ItemID="498335172" />
-						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_camel_archer_2_abb" overrideParent="True" List.ItemID="-1990628629" />
+						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_camel_rider_3_abb" overrideParent="True" List.ItemID="-1990628629" />
 						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_camel_rider_3_abb" overrideParent="True" List.ItemID="1006113957" />
 						<instance_reference name="additional_squad" value="sbps\races\abbasid\unit_camel_rider_3_abb" overrideParent="True" List.ItemID="-1206294985" />
 					</list>
