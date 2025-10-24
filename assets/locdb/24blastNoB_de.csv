@@ -28,7 +28,7 @@
 139,,Wyngarde Huskarl
 140,,Wyngarde Yeoman
 141,,Gendarmerie
-142,,Genuesischer Söldner
+142,,Picardie-Armee
 143,,Schweizer Söldner
 144,,Doppelsöldner
 145,,Verlorener Haufen
@@ -38,7 +38,7 @@
 149,,Türkisches Lehen
 150,,Stehendes Heer
 151,,Schwarze Klobuks
-152,,Garde des Zaren
+152,,Opritschnik
 153,,Tataren-Söldner
 154,,Produziert Khassaki-Wachen von 3 Mamluken und 3 Ghazi.
 155,,Produziert Misr-Armee von 4 Kamelreitern und 2 Kamelbogenschützen.
@@ -49,7 +49,7 @@
 160,,"Produziert Wyngarde Huskarl aus 2 Waffenknechten, 2 Wynguard-Lakaien, und 3 Schwere Speerkämpfer."
 161,,Produziert Wyngarde Yeoman bestehend aus 4 Langbogenschützen und 3 Wynguard Rangern.
 162,,"Produziert eine Gendarmerie bestehend aus 3 königlichen Rittern, 2 Reitern und 1 berittenem Armbrustschützen."
-163,,Produziert einen genuesischen Söldner mit 3 Waffenknechten und 3 Arbalétriers.
+163,,Produziert einen Picardie-Armee mit 3 Waffenknechten und 3 Arbalétriers.
 164,,Produziert Schweizer Söldner mit 4 Hellebarden und 2 Schwere Speerkämpfer.
 165,,Produziert Doppelsoldner von 2 Culverins und 4 Handkanonieren.
 167,,"Produziert eine Landsknecht-Legion bestehend aus 2 Landsknechten, 2 Waffenknechten, 2 Schwere Speerkämpfer, 2 Hellebarden und 2 Handkanonieren."
@@ -58,7 +58,7 @@
 170,,Produziert ein türkisches Lehen von 3 Sipahi und 3 Lancer.
 171,,Produziert eine stehende Armee von 5 Janitscharen und 1 Großen Bombardement.
 172,,Produziert schwarze Klobuks aus 4 Reitern und 2 berittenen Bogenschützen.
-173,,"Stellt die Zarengarde her, die aus 3 Oprichnik und 4 Streltsy besteht."
+173,,Produziert opritschnik aus 5 Streltsy.
 174,,"Produziert Tataren, Söldner von 3 Keshiks und 3 Mangudai."
 175,,"Produziert Verlorener Haufen von 1 Landsknecht, 2 Schwere Speerkämpfer und 2 Hellebarden."
 176,,Produziert Mansabdar von 1 Kriegselefanten und 1 Elite-Turmelefanten des Sultans.
@@ -387,9 +387,9 @@
 709,,Seiden-Schnüre
 710,,Teppou Bannerman
 711,,Yabusame Bannermann
-712,,Oprichnik
+712,,Kosaken
 713,,Schwere Nahkampfinfanterie
-714,,"Zarenschergen mit riesigen sichelförmigen Äxten, um alles wegzufegen, geringerer Angriff, kann aber vollen Flächenschaden verursachen. \r\n- Hoher Bonusschaden an leichten Einheiten und Arbeitereinheiten \r\n- Verstärkte Berührung"
+714,,"Grenzsiedler mit riesigen Halbmondäxten, um alles wegzufegen, geringerer Angriff, kann aber vollen Flächenschaden verursachen.\r\n- Hoher Bonusschaden an leichten Einheiten und Arbeitereinheiten \r\n- Verstärkte Berührung"
 715,,Erhöht die Angriffsreichweite von Palastwachen und schwerer Kavallerie um +%1%.
 716,,Krieger-Code
 717,,Rekrut
@@ -425,7 +425,7 @@
 747,,Feuerhemmende Handhabung
 748,,Ekaterina
 749,,"Feuert mehrere Projektile ab, die in einem Bereich Schaden verursachen. \r\n+ Effektiv gegen massierte Einheiten \r\n+ Kann auf Steinmauern eingesetzt werden \r\n+ Schaden wird nicht abgebaut \r\n+ Langsame Regeneration"
-750,,"Fungiert als Burg mit 4 Kanonenstellungen und erhöhter Gesundheit. \r\n\r\nSchaltet das Gebäude von Steinmauern, Steintoren und Steinmauertürmen frei. und einzigartiger Raketenwerfer-Held"
+750,,"Fungiert als Burg mit 4 Kanonenstellungen und erhöhter Gesundheit. \r\n\r\nSchaltet das Gebäude von Steinmauern, Steintoren und Steinmauertürmen frei. Schalten Sie Ribauldequin für immer frei"
 751,,Kann nur 1 Ekaterina trainiert werden.
 752,,Kapikulu Sipahi
 753,,Beförderung
@@ -534,5 +534,16 @@
 856,,Ludgar
 857,,Gottes eigenes Katapult
 858,,"Ein furchterregendes Riesen-Trebuchet, im Namen Gottes, es wird den Feind mit Sicherheit treffen."
-859,,"Mächtiger Ritter. Erhalte Bonusschaden durch die Festungen."
+859,,Mächtiger Ritter. Erhalte Bonusschaden durch die Festungen.
 860,,Schlechter Nachbar
+861,,Ribauldequin Technologie
+862,,Nartov Rollende Kanone
+863,,Schalten Sie Ribauldequin für immer frei
+864,,Produziert Grenzkosaken aus 5 Kosaken und 1 Dorfbewohner.
+865,,Grenzkosaken
+866,,Produziert Baschi-Bosuks aus 3 Bogenschützen und 3 Speerkämpfern.
+867,,Baschi-Bosuks
+868,,Wyngarde-Artillerie
+869,,"Produziert Wyngarde-Artillerie mit 4 Handkanonen und 1 Feldschlange. Durch die Erforschung von Burgundischen Importen kann die Produktion um ein Zeitalter vorgezogen werden."
+870,,Produziert einen genuesischen Söldner aus 3 Condottiero und 3 genuesischen Armbrustschützen.
+871,,Genuesischen Söldner

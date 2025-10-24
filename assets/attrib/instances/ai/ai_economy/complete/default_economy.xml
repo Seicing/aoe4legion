@@ -3781,7 +3781,7 @@
 					<instance_reference name="member" value="sbps\races\mongol\unit_culverin_4_double_mon" List.ItemID="-191336373" />
 					<instance_reference name="member" value="sbps\races\mongol\unit_culverin_4_mon" List.ItemID="1372559967" />
 					<instance_reference name="member" value="sbps\races\french\unit_culverin_4_fre" List.ItemID="-427745595" />
-					<instance_reference name="member" value="sbps\races\rus\unit_ribauldequin_4_rus" List.ItemID="-663106809" />
+					<instance_reference name="member" value="sbps\races\rus\unit_ribauldequin_4_rus" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-663106809" />
 					<instance_reference name="member" value="sbps\races\mongol\unit_ribauldequin_4_double_mon" List.ItemID="1706920081" />
 					<instance_reference name="member" value="sbps\races\sultanate\unit_ribauldequin_4_sul" List.ItemID="2053096361" />
 					<instance_reference name="member" value="sbps\races\mongol\unit_ribauldequin_4_mon" List.ItemID="-124346870" />
@@ -8148,7 +8148,7 @@
 						<instance_reference name="member" value="sbps\races\mongol\unit_culverin_4_mon" List.ItemID="-1156265503" />
 						<instance_reference name="member" value="sbps\races\french\unit_culverin_4_fre" List.ItemID="1230986393" />
 						<instance_reference name="member" value="sbps\races\abbasid\unit_ribauldequin_4_abb" List.ItemID="1780654581" />
-						<instance_reference name="member" value="sbps\races\rus\unit_ribauldequin_4_rus" List.ItemID="822086834" />
+						<instance_reference name="member" value="sbps\races\rus\unit_ribauldequin_4_rus" mod="67987bbc33214c57b0617d9356614825" List.ItemID="822086834" />
 						<instance_reference name="member" value="sbps\races\mongol\unit_ribauldequin_4_double_mon" List.ItemID="1231846348" />
 						<instance_reference name="member" value="sbps\races\sultanate\unit_ribauldequin_4_sul" List.ItemID="2111858488" />
 						<instance_reference name="member" value="sbps\races\mongol\unit_ribauldequin_4_mon" List.ItemID="-1334154345" />
@@ -11928,7 +11928,7 @@
 						<instance_reference name="member" value="sbps\races\mongol\unit_culverin_4_double_mon" List.ItemID="-719126895" />
 						<instance_reference name="member" value="sbps\races\mongol\unit_culverin_4_mon" List.ItemID="-1495529065" />
 						<instance_reference name="member" value="sbps\races\french\unit_culverin_4_fre" List.ItemID="1539225868" />
-						<instance_reference name="member" value="sbps\races\rus\unit_ribauldequin_4_rus" List.ItemID="-1674987155" />
+						<instance_reference name="member" value="sbps\races\rus\unit_ribauldequin_4_rus" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1674987155" />
 						<instance_reference name="member" value="sbps\races\mongol\unit_ribauldequin_4_double_mon" List.ItemID="-1304009869" />
 						<instance_reference name="member" value="sbps\races\sultanate\unit_ribauldequin_4_sul" List.ItemID="-1515254217" />
 						<instance_reference name="member" value="sbps\races\mongol\unit_ribauldequin_4_mon" List.ItemID="-1010205739" />

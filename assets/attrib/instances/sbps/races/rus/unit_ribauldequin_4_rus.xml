@@ -1,0 +1,31 @@
+<instance version="4" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-1218214089" List.ParentItemID="-1218214089">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-633928310" List.ParentItemID="-633928310">
+					<instance_reference name="type" value="ebps\races\rus\units\unit_ribauldequin_4_rus" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-1322311642" List.ParentItemID="-1322311642">
+			<list name="requirement_table" comment="Requires Imperial age, Tech army, chemistry upgrade&#xD;&#xA;">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-950901499" List.ParentItemID="-950901499">
+					<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_nartov" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-316649756" List.ParentItemID="-316649756">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\rus" List.ItemID="1425079188" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-645029135" List.ParentItemID="-645029135">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="133472" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_ribauldequin_4" />
+</instance>

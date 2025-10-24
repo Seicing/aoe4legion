@@ -28,7 +28,7 @@
 139,,,screen_name,,,Wyngarde Huskarl
 140,,,screen_name,,,Wyngarde Yeoman
 141,,,screen_name,,,Gendarmerie
-142,,,screen_name,,,Genoese Mercenary
+142,,,screen_name,,,Picardie Army
 143,,,screen_name,,,Swiss Mercenary
 144,,,screen_name,,,Dopplesoldner
 145,,,screen_name,,,Forlorn Hope
@@ -38,7 +38,7 @@
 149,,,screen_name,,,Turkic Fief
 150,,,screen_name,,,Standing Army
 151,,,screen_name,,,Black Klobuks
-152,,,screen_name,,,Tsar's Guard
+152,,,screen_name,,,Oprichnik
 153,,,screen_name,,,Tatars Mercenary
 154,,,help_text,,,Produces Khassaki Guards of 3 Mamluk and 3 Ghazi.
 155,,,help_text,,,Produces Misr Army of 4 Camel Riders and 2 Camel Archers.
@@ -49,7 +49,7 @@
 160,,,help_text,,,"Produces Wyngarde Huskarl of 2 Man-at-arms, 2 Wynguard Footmen, and 3 Heavy Spearmen."
 161,,,help_text,,,Produces Wyngarde Yeoman of 4 longbowmen and 3 Wynguard Rangers.
 162,,,help_text,,,"Produces Gendarmerie of 3 Royal Knights, 2 Horsemen and 1 Mounted Crossbowman."
-163,,,help_text,,,Produces Genoese Mercenary of 3 Man-at-arms and 3 Arbalétriers.
+163,,,help_text,,,Produces Picardie Army of 3 Man-at-arms and 3 Arbalétriers.
 164,,,help_text,,,Produces Swiss Mercenary of 4 Halberdiers and 2 Heavy Spearmen.
 165,,,help_text,,,Produces Dopplesoldner of 2 Culverins and 4 Handcannoneers.
 167,,,help_text,,,"Produces Landsknecht Legion of 2 Landsknechts, 2 Man-at-arms, 2 Heavy Spearmen, 2 Halberdiers and 2 Handcannoneers."
@@ -58,7 +58,7 @@
 170,,,help_text,,,Produces Turkic Fief of 3 Sipahi and 3 Lancer.
 171,,,help_text,,,Produces Standing Army of 5 Janissaries and 1 Great Bombard.
 172,,,help_text,,,Produces Black Klobuks of 4 Horsemen and 2 Horse Archers.
-173,,,help_text,,,Produces Tsar's Guard of 3 Oprichnik and 4 Streltsy.
+173,,,help_text,,,Produces Oprichnik of 5 Streltsy.
 174,,,help_text,,,Produces Tatars Mercenary of 3 Keshiks and 3 Mangudai.
 175,,,help_text,,,"Produces Forlorn Hope of 1 Landsknechts, 2 Heavy Spearmen and 2 Halberdiers."
 176,,,help_text,,,Produces Mansabdar of 1 War Elephant and 1 Sultan's Elite Tower Elephant.
@@ -387,9 +387,9 @@
 709,,,screen_name,,,Silk Strings
 710,,,screen_name,,,Teppou Bannerman
 711,,,screen_name,,,Yabusame Bannerman
-712,,,screen_name,,,Oprichnik
+712,,,screen_name,,,Cossacks
 713,,,extra_text,,,Heavy Melee Infantry
-714,,,help_text,,,"Tsar's minions with giant crescent axes to sweep away everything, Lower Attack but can deals full AOE damage. \r\n- High bonus damage to light units and worker units \r\n- Strengthen Touch"
+714,,,help_text,,,"Frontier settler with giant crescent axes to sweep away everything, Lower Attack but can deals full AOE damage. \r\n- High bonus damage to light units and worker units \r\n- Strengthen Touch"
 715,,,formatter,,,Increase the attack range of Palace Guards and Heavy Cavalry by +%1%.
 716,,,screen_name,,,Warrior Code
 717,,,screen_name,,,Recruit
@@ -425,7 +425,7 @@
 747,,,screen_name,,,Fire-retardant Handling
 748,,,screen_name,,,Ekaterina
 749,,,help_text,,,Fires multiple projectiles dealing damage in an area. \r\n+ Effective against massed units \r\n+ Can be deployed on stone walls \r\n+ Damage will not decay \r\n+ Regeneration Slowly
-750,,,help_text,,,"Acts as a Keep with 4 cannon emplacements and increased health. \r\n\r\nUnlocks the building of Stone Walls, Stone Gates, and Stone Wall Towers. and Unique Rocket Launcher Hero"
+750,,,help_text,,,"Acts as a Keep with 4 cannon emplacements and increased health. \r\n\r\nUnlocks the building of Stone Walls, Stone Gates, and Stone Wall Towers. Unlock Ribauldequin for keeps"
 751,,,ui_name,,,Only can be trained 1 Ekaterina.
 752,,,screen_name,,,Kapikulu Sipahi
 753,,,extra_text,,,Promotion
@@ -536,3 +536,14 @@
 858,,,help_text,,,"A terrifying giant trebuchet , in the name of God, it will surely hit the enemy."
 859,,,help_text,,,"Powerful Knight, Gain bonus damage from the keeps."
 860,,,screen_name,,,Bad Neighbor
+861,,,extra_text,,,Ribauldequin Technology
+862,,,screen_name,,,Nartov Rotary Cannon
+863,,,formatter,,,Unlock Ribauldequin for keeps
+864,,,help_text,,,Produces Frontier Cossacks of 5 Cossacks and 1 Villager.
+865,,,screen_name,,,Frontier Cossacks
+866,,,help_text,,,Produces Bashibazouk of 3 Archers and 3 Spearmen.
+867,,,screen_name,,,Bashibazouk
+868,,,screen_name,,,Wyngarde Artillery
+869,,,help_text,,,"Produces Wyngarde Artillery of 4 Handcannoneers and 1 Culverin, Researching Burgundian Imports will allow production to be advanced by one age."
+870,,,help_text,,,Produces Genoese Mercenary of 3 Condottiero and 3 Genoese Crossbowmen.
+871,,,screen_name,,,Genoese Mercenary
