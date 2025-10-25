@@ -5108,10 +5108,10 @@
 					<instance_reference name="member" value="sbps\races\legion\legion_eng_wyngardeartillery" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1169864909" />
 					<instance_reference name="member" value="sbps\races\legion\legion_jda_jeannessupporter" mod="67987bbc33214c57b0617d9356614825" List.ItemID="2091228058" />
 					<instance_reference name="member" value="sbps\races\legion\legion_chi_imperialguard" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-64202073" />
-					<instance_reference name="member" value="sbps\races\legion\legion_kcr_burgundian" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2052938950" />
-					<instance_reference name="member" value="sbps\races\legion\legion_kcr_templar" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-570422553" />
-					<instance_reference name="member" value="sbps\races\legion\legion_kcr_turcopole" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-461068121" />
-					<instance_reference name="member" value="sbps\races\legion\legion_kcr_byzantine" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1069018838" />
+					<instance_reference name="member" value="sbps\races\legion\legion_kcr_normandy" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2052938950" />
+					<instance_reference name="member" value="sbps\races\legion\legion_kcr_jerusalem" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-570422553" />
+					<instance_reference name="member" value="sbps\races\legion\legion_kcr_iberian" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-461068121" />
+					<instance_reference name="member" value="sbps\races\legion\legion_kcr_genoa" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1069018838" />
 					<instance_reference name="member" value="sbps\races\legion\legion_hol_wyngardehuskarl" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1623663358" />
 					<instance_reference name="member" value="sbps\races\legion\legion_hol_wyngardeknights" mod="67987bbc33214c57b0617d9356614825" List.ItemID="568210416" />
 					<instance_reference name="member" value="sbps\races\legion\legion_hol_wyngardeyeoman" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1915741335" />

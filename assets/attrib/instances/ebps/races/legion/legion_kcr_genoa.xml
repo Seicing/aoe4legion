@@ -24,14 +24,14 @@
 					<float name="action" value="0" />
 					<float name="popcap" value="0" />
 					<float name="command" value="0" />
-					<float name="food" value="0" />
-					<float name="wood" value="1200" />
+					<float name="food" value="550" />
+					<float name="wood" value="0" />
 					<float name="stone" value="0" />
-					<float name="gold" value="0" />
+					<float name="gold" value="400" />
 					<float name="militia_hre" value="0" />
 					<float name="merc_byz" value="0" />
 				</enum_table>
-				<float name="time_seconds" value="25" />
+				<float name="time_seconds" value="30" />
 				<int name="time_turns" value="0" />
 			</group>
 		</template_reference>

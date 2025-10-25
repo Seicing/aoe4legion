@@ -227,7 +227,7 @@
 						<int name="ui_position_column" value="1" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_templar" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_jerusalem" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -247,12 +247,11 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_3_tem" List.ItemID="-981402941" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_3_tem" List.ItemID="611728882" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_3_tem" List.ItemID="-532971283" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_3_tem" List.ItemID="-1107420581" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_3_tem" List.ItemID="965158982" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_3_tem" List.ItemID="1780575891" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iifeudal\unit_chevalier_confrere_4_tem" overrideParent="True" List.ItemID="-981402941" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iifeudal\unit_chevalier_confrere_4_tem" overrideParent="True" List.ItemID="611728882" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iifeudal\unit_chevalier_confrere_4_tem" overrideParent="True" List.ItemID="-532971283" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_4_tem" overrideParent="True" List.ItemID="-1107420581" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_knight_templar_4_tem" overrideParent="True" List.ItemID="1780575891" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -299,7 +298,7 @@
 						<int name="ui_position_column" value="2" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_byzantine" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_genoa" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -319,12 +318,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_grenadier_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1186668272" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_grenadier_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1510516348" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_grenadier_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-152763277" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_grenadier_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="930547780" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_grenadier_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1277563630" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_grenadier_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1973135211" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iiicastle\unit_genoese_crossbow_4_tem" overrideParent="True" List.ItemID="1186668272" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iiicastle\unit_genoese_crossbow_4_tem" overrideParent="True" List.ItemID="1510516348" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iiicastle\unit_genoese_crossbow_4_tem" overrideParent="True" List.ItemID="-152763277" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\ivimperial\unit_condottiero_4_tem" overrideParent="True" List.ItemID="930547780" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\ivimperial\unit_condottiero_4_tem" overrideParent="True" List.ItemID="-1277563630" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\ivimperial\unit_condottiero_4_tem" overrideParent="True" List.ItemID="-1973135211" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -371,7 +370,7 @@
 						<int name="ui_position_column" value="3" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_burgundian" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_normandy" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -391,12 +390,12 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_horsearcher_crossbow_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="441725105" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_horsearcher_crossbow_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-434920241" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_horsearcher_crossbow_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-605461679" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_horsearcher_crossbow_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-2044233396" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_horsearcher_crossbow_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-490458408" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_horsearcher_crossbow_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1177323360" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iiicastle\unit_heavy_spearman_4_tem" overrideParent="True" List.ItemID="441725105" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iiicastle\unit_heavy_spearman_4_tem" overrideParent="True" List.ItemID="-434920241" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iiicastle\unit_heavy_spearman_4_tem" overrideParent="True" List.ItemID="-605461679" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iifeudal\unit_serjeant_4_tem" overrideParent="True" List.ItemID="-2044233396" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iifeudal\unit_serjeant_4_tem" overrideParent="True" List.ItemID="-490458408" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iifeudal\unit_serjeant_4_tem" overrideParent="True" List.ItemID="-1177323360" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -443,7 +442,7 @@
 						<int name="ui_position_column" value="4" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_turcopole" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_iberian" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -463,12 +462,11 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_sipahi_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-237314445" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_akinci_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1871452005" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_akinci_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1240427459" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_sipahi_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="2045404827" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_sipahi_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1642915096" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_sipahi_4_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-757510433" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_blackrider_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-237314445" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\unit_blackrider_kcr" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1871452005" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iiicastle\unit_genitour_4_tem" overrideParent="True" List.ItemID="-1240427459" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iiicastle\unit_genitour_4_tem" overrideParent="True" List.ItemID="2045404827" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iiicastle\unit_genitour_4_tem" overrideParent="True" List.ItemID="-1642915096" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -515,7 +513,7 @@
 						<int name="ui_position_column" value="1" overrideParent="True" />
 					</group>
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_holyorder" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\legion\legion_kcr_hospitallar" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
@@ -535,13 +533,11 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_manatarms_3_tem" overrideParent="True" List.ItemID="-981402941" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\ivimperial\unit_teutonic_knight_4_tem" overrideParent="True" List.ItemID="-981402941" />
 						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\ivimperial\unit_teutonic_knight_4_tem" overrideParent="True" List.ItemID="611728882" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iifeudal\unit_knight_hospitaller_3_tem" overrideParent="True" List.ItemID="-532971283" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_manatarms_3_tem" overrideParent="True" List.ItemID="-1107420581" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_manatarms_3_tem" overrideParent="True" List.ItemID="965158982" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\unit_manatarms_3_tem" overrideParent="True" List.ItemID="1780575891" />
-						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iifeudal\unit_knight_hospitaller_3_tem" overrideParent="True" List.ItemID="61089938" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iifeudal\unit_knight_hospitaller_4_tem" overrideParent="True" List.ItemID="-532971283" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\ivimperial\unit_teutonic_knight_4_tem" overrideParent="True" List.ItemID="-1107420581" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iifeudal\unit_knight_hospitaller_4_tem" overrideParent="True" List.ItemID="61089938" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">

@@ -504,15 +504,15 @@
 826,,,screen_name,,,Cuman Mercenary
 827,,,screen_name,,,Szlachta
 828,,,screen_name,,,Leitis
-829,,,help_text,,,Produces Knights Templar of 6 Templar Brothers
-830,,,help_text,,,Produces Knights Templar of 6 Templar Brothers
-831,,,help_text,,,Produces Byzantine Allies of 6 Flame Thrower
-832,,,help_text,,,Produces Burgundian Allies of 6 Mounted Crossbowman
-833,,,help_text,,,Produces Turcopole of 4 Sipahi and 2 Akinji
-834,,,screen_name,,,Turcopole
-835,,,screen_name,,,Burgundian Allies
-836,,,screen_name,,,Knights Templar
-837,,,screen_name,,,Byzantine Allies
+829,,,help_text,,,Produces Knights Jerusalem of 2 Elite Templar Brothers and 3 Elite Chevalier Confrere.
+830,,,help_text,,,Produces Knights Jerusalem of 2 Elite Templar Brothers and 3 Elite Chevalier Confrere.
+831,,,help_text,,,Produces Genoese Mercenary of 3 Condottiero and 3 Elite Genoese Crossbowmen.
+832,,,help_text,,,Produces Norman Mercenary of 3 Elite Heavy Spearmen and 3 Elite Serjeants.
+833,,,help_text,,,Produces Iberian Mercenary of 3 Elite Genitour and 2 Black Rider.
+834,,,screen_name,,,Iberian Mercenary
+835,,,screen_name,,,Norman Mercenary
+836,,,screen_name,,,Knights Jerusalem
+837,,,screen_name,,,Genoese Mercenary
 838,,,help_text,,,"Lithuanian Elite Cavalry, Fragile but Fatal\r\n- Siege Damage"
 839,,,screen_name,,,Leitis Cavalry
 840,,,help_text,,,Produces Black Riders. The maximum of Black Riders is 20.
@@ -526,7 +526,7 @@
 848,,,screen_name,,,Feudum
 849,,,formatter,,,A sophisticated feudal system allows Lancaster lords to be quickly deployed by Keeps on the front lines.
 850,,,screen_name,,,Guardian of the Holy Land
-851,,,help_text,,,"Produces Guardian of the Holy Land of 4 Man-at-Arms, 2 Veteran Hospitaller and 1 Teutonic Knight"
+851,,,help_text,,,"Produces Guardian of the Holy Land of 3 Elite Hospitallers and 2 Teutonic Knights"
 852,,,help_text,,,"Sultan Elephant cannot excavates the Empire Ruin,need to excavated by Phalangite."
 853,,,help_text,,,"Produces Wyngarde Knights of 1 Wyngarde Knight, 1 Chevaucher, 2 Demilancer and 3 Hobelars."
 854,,,screen_name,,,Wyngarde Knight

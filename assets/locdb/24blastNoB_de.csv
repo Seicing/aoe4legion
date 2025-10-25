@@ -504,15 +504,15 @@
 826,,Kumanischer Söldner
 827,,Szlachta
 828,,Leitis
-829,,Produziert Templerorden aus 6 Templerbrüder
-830,,Produziert Templerorden aus 6 Templerbrüder
-831,,Produziert Byzantinisch Alliierte aus 6 Flammenwerfer
-832,,Produziert Burgundische Alliierte aus 6 Berittener Armbrustschützen
-833,,Produziert Turkopolen aus 4 Sipahis und 2 Akinjis
-834,,Turkopolen
-835,,Burgundische Alliierte
-836,,Templerorden
-837,,Byzantinisch Alliierte
+829,,Produziert Grabesritter aus 2 Elite-Templerbrüdern und 3 Elite Chevalier Confrere.
+830,,Produziert Grabesritter aus 2 Elite-Templerbrüdern und 3 Elite Chevalier Confrere.
+831,,Produziert Genuesischen Söldner aus 3 Condottiero und 3 Elite genuesischen Armbrustschützen.
+832,,Produziert Normannischen Söldner aus 3 Elite schweren Speerkämpfern und 3 Elite Sergeanten.
+833,,Produziert Iberische Söldner aus 3 Elite Genitour und 2 Reiter.
+834,,Iberische Söldner
+835,,Normannischen Söldner
+836,,Grabesritter
+837,,Genuesischen Söldner
 838,,"Litauische Elite-Kavallerie, zerbrechlich, aber tödlich\r\n- Siege Damage"
 839,,Leitis-Kavallerie
 840,,Produziert Reiter. Das Maximum an Reiter beträgt 20.
@@ -526,7 +526,7 @@
 848,,Feudum
 849,,Ein ausgeklügeltes Feudalsystem ermöglicht den schnellen Einsatz der Lancaster-Lords durch Festungen an der Front.
 850,,Wächter des Heiligen Landes
-851,,"Produziert Wächter des Heiligen Landes aus 4 Man-at-Arms, 2 Veteran Hospitalitern und 1 Deutschritter"
+851,,"Produziert Wächter des Heiligen Landes aus 3 Elite Hospitalitern und 2 Deutschritter"
 852,,"Sultan Elephant kann die Ruinen des Imperiums nicht ausgraben, dies muss von Phalangit erledigt werden."
 853,,"Produziert Wyngarde-Ritter aus 1 Wyngarde-Ritter, 1 Chevaucher, 2 Demilancer und 3 Hobelars"
 854,,Wyngarde-Ritter
@@ -544,6 +544,6 @@
 866,,Produziert Baschi-Bosuks aus 3 Bogenschützen und 3 Speerkämpfern.
 867,,Baschi-Bosuks
 868,,Wyngarde-Artillerie
-869,,"Produziert Wyngarde-Artillerie mit 4 Handkanonen und 1 Feldschlange. Durch die Erforschung von Burgundischen Importen kann die Produktion um ein Zeitalter vorgezogen werden."
-870,,Produziert einen genuesischen Söldner aus 3 Condottiero und 3 genuesischen Armbrustschützen.
+869,,Produziert Wyngarde-Artillerie mit 4 Handkanonen und 1 Feldschlange. Durch die Erforschung von Burgundischen Importen kann die Produktion um ein Zeitalter vorgezogen werden.
+870,,Produziert Genuesischen Söldner aus 3 Condottiero und 3 genuesischen Armbrustschützen.
 871,,Genuesischen Söldner
