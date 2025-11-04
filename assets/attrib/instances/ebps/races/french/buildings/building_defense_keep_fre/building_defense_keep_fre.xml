@@ -277,10 +277,10 @@
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1010848324" />
 						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1806238931" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1518502591" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="116595549" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1937559917" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1261145116" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1518502591" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="116595549" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1937559917" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1261145116" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -649,8 +649,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="-1251779187">
 					<group name="tier" List.ItemID="699188181">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\buildings\defense_keep_fre\tier3_keep_fre" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -667,12 +665,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" overrideParent="True" List.ItemID="1014764882">
 					<group name="tier" List.ItemID="263812536">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\outskirts\military\keep" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -689,6 +686,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

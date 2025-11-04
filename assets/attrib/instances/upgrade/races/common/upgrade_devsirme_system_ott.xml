@@ -43,6 +43,7 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
+					<int name="int_value" value="50" List.ItemID="-1477711570" />
 				</list>
 				<locstring name="formatter" value="698" mod="67987bbc33214c57b0617d9356614825" />
 			</template_reference>
@@ -90,6 +91,7 @@
 			</template_reference>
 			<int name="custom_data_index" value="0" />
 			<bool name="is_unique_to_race" value="True" />
+			<file name="icon_alternate_name" value="" />
 		</group>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1413735578">
@@ -158,7 +160,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_production_speed_mon_ha_gol" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
@@ -187,8 +189,7 @@
 			<state_tree_node name="apply_to_filter_condition_statetree_ref" value="" />
 			<enum name="apply_to_target_type" value="entity" />
 			<list name="apply_to_unit_classes">
-				<enum name="unit_class" value="military_school_ott" List.ItemID="2004106244" />
-				<enum name="unit_class" value="age2_landmark2" List.ItemID="-1124197977" />
+				<enum name="unit_class" value="scar_keep" List.ItemID="-1124197977" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
@@ -211,9 +212,9 @@
 			<float name="merc_byz" value="0" />
 		</enum_table>
 		<list name="float_properties">
-			<template_reference name="float" value="upgradebag_float_property" comment="Multiplies production speed by the given value" List.ItemID="-924130673">
-				<float name="value" value="2" />
-				<enum name="id" value="production_speed" />
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="2145981835">
+				<float name="value" value="1.5" />
+				<enum name="id" value="normal_modifier" />
 			</template_reference>
 		</list>
 		<list name="int_properties">
@@ -221,6 +222,7 @@
 		<enum name="ui_group_cast_type" value="single" />
 		<instance_reference name="hotkey_binding" value="" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
+		<bool name="apply_player_upgrades_when_entity_or_squad_ownership_changes" value="False" />
 	</group>
 	<uniqueid name="pbgid" value="1073742011" />
 	<instance_reference name="parent_pbg" value="" />

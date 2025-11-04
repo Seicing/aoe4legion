@@ -1,0 +1,232 @@
+<instance version="4" description="Imperial Age Man-at-arms" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-765163162" List.ParentItemID="-765163162">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_knight_4" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-487488271" List.ParentItemID="-487488271">
+			<list name="abilities" overrideParent="True">
+				<instance_reference name="ability" value="abilities\always_on_abilities\ottoman\mehter_formation_ott" List.ItemID="-726718510" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1466211397" List.ParentItemID="-1466211397">
+			<list name="action_state_trees">
+				<group name="container" List.ItemID="433640417" List.ParentItemID="433640417">
+					<string name="state_tree" value="unit_action_apply\units\knight" overrideParent="True" />
+				</group>
+				<group name="container" List.ItemID="230139408" List.ParentItemID="230139408">
+					<string name="state_tree" value="unit_action_apply\units\knight\audio\sul\4" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="1978222223" List.ParentItemID="1978222223">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="gold" value="120" overrideParent="True" />
+					<float name="food" value="120" overrideParent="True" />
+				</enum_table>
+				<float name="time_seconds" value="35" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="118682988" List.ParentItemID="118682988">
+			<float name="hitpoints" value="270" overrideParent="True" />
+			<enum_table name="armor_scaler_by_damage_type">
+				<float name="Ranged" value="5" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="-208356511" List.ParentItemID="-208356511">
+			<group name="sight_package" overrideParent="True">
+				<float name="inner_height" value="10" />
+				<float name="inner_radius" value="4" />
+				<float name="outer_height" value="-15" />
+				<float name="outer_radius" value="28" />
+				<float name="cone_angle" value="360" />
+				<float name="cone_start_radius" value="0" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-782585427" List.ParentItemID="-782585427">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\mongol_ha_gol" overrideParent="True" List.ItemID="-1771899447" />
+			</list>
+			<list name="unit_type_list" removedIds="1443036264, 1158050916">
+				<enum name="unit_type" value="knight" overrideParent="True" List.ItemID="489067745" List.ParentItemID="489067745" />
+				<enum name="unit_type" value="cavalry" List.ItemID="2008339453" List.ListAction="Append" />
+				<enum name="unit_type" value="cavalry_armored" List.ItemID="635659887" List.ListAction="Append" />
+				<enum name="unit_type" value="horse" List.ItemID="-1628851289" List.ListAction="Append" />
+				<enum name="unit_type" value="military_cavalry" List.ItemID="1150581525" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="835520554" List.ParentItemID="835520554">
+			<float name="decorator_height" value="3.75" overrideParent="True" />
+			<float name="selection_scale" value="4" overrideParent="True" />
+			<float name="minimap_icon_scale" value="1" overrideParent="True" />
+			<group name="selection_obb_size" overrideParent="True">
+				<float name="x" value="2" />
+				<float name="y" value="2" />
+				<float name="z" value="5" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1697644820" List.ParentItemID="1697644820">
+			<list name="hardpoints" overrideParent="True">
+				<group name="hardpoint" List.ItemID="1534383478" List.ParentItemID="1534383478">
+					<list name="weapon_table" overrideParent="True">
+						<group name="weapon" comment="Sword" List.ItemID="92692488">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\ottoman\melee\weapon_knight_4_improved_ott_serb" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre_ha_01\weapons\wpn_melee_knight_4_hre_ha_01" overrideParent="True" />
+								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
+							</template_reference>
+						</group>
+						<group name="weapon" comment="Torch" List.ItemID="1226080104">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_torch" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\sultanate\weapons\wpn_siege_torch_sul" overrideParent="True" />
+								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
+							</template_reference>
+						</group>
+						<group name="weapon" comment="Charge" List.ItemID="-2000794868">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default_override_when_idle" overrideParent="True" />
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_knight_4_charge" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre_ha_01\weapons\wpn_melee_knight_4_charge_hre_ha_01" overrideParent="True" />
+								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
+							</template_reference>
+						</group>
+					</list>
+					<float name="parent_hardpoint" value="-1" />
+					<bool name="receives_attack_commands" value="True" />
+					<string name="base_marker" value="" />
+					<list name="preferred_inventory_item_categories">
+					</list>
+					<list name="firing_offset_markers">
+					</list>
+					<string name="offhand_marker" value="" />
+					<bool name="initialize_weapons_on_creation" value="True" />
+				</group>
+			</list>
+			<float name="scan_interval_cached_target_invalid" value="2" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-559269079" List.ParentItemID="-559269079">
+			<instance_reference name="pass_type" value="pass_types\vehicle" overrideParent="True" />
+			<float name="rotation_rate" value="600" overrideParent="True" />
+			<instance_reference name="turn_plan" value="turn_plan\cavalry" overrideParent="True" />
+			<enum_table name="speed_levels" overrideParent="True">
+				<float name="speed_level_0" value="1.3" />
+				<float name="speed_level_1" value="3" />
+				<float name="speed_level_2" value="4" />
+				<float name="speed_level_3" value="6" />
+				<float name="speed_level_4" value="8" />
+			</enum_table>
+			<float name="melee_move_tolerance" value="1.5" overrideParent="True" />
+			<instance_reference name="navigation_agent_info" value="navigation\agent_info\default_cavalry" overrideParent="True" />
+			<enum_table name="speed_scaling_table" overrideParent="True">
+				<float name="min_speed" value="0" />
+				<float name="default_speed" value="6.5" />
+				<float name="max_speed" value="8" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\holdable_ext" List.ItemID="1797301778" List.ParentItemID="1797301778">
+			<enum name="holdable" value="hold_cavalry" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\speech_ext" overrideParent="True" List.ItemID="1277345199" List.ParentItemID="1277345199">
+			<string name="speaker_code" value="knight" />
+			<group name="speech_parameters">
+				<string name="class_code" value="" />
+				<string name="name_code" value="" />
+				<string name="unit_code" value="" />
+			</group>
+			<int name="importance" value="1" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="-799841580" List.ParentItemID="-799841580">
+			<state_tree_node name="ActionTree_OpeningBranch" value="cavalry" overrideParent="True" />
+			<string name="default_animation" value="calm_idle\idle_calm_01_checkers" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="873184525" List.ParentItemID="873184525">
+			<list name="events" removedIds="-96616922">
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\hit_react_tree_ext" List.ItemID="259589076" List.ParentItemID="259589076">
+			<state_tree_node name="ActionTree_OpeningBranch" value="hit_tree_cavalry" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="1590686263" List.ParentItemID="1590686263">
+			<list name="tier_group_list" overrideParent="True">
+				<list name="tier_group" overrideParent="True" List.ItemID="-1237080393">
+					<group name="tier" List.ItemID="-967115064">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\rus\units\campaign\cavalry_prince_dmitri_campaign_rus" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="improved_swords_convert_sul" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\stimulus_emission_ext" List.ItemID="-2074926691" List.ParentItemID="-2074926691">
+			<list name="emittable_stimulus_types">
+				<enum name="stimulus_type" value="charge" List.ItemID="488784289" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="1874334521" List.ParentItemID="1874334521">
+			<instance_reference name="schema" value="statemodel_schema\units\civilizations\ottoman\knight_ott" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\modifier_apply_ext" List.ItemID="-264003731" List.ListAction="Append">
+			<list name="modifiers">
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742673" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_manatarms_4" />
+</instance>

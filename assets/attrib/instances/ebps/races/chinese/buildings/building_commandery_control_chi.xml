@@ -602,8 +602,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" List.ItemID="1539792343">
 					<group name="tier" List.ItemID="1676768232">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\chinese_ha_01\buildings\tier1_landmark_1a_chi_ha" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -620,12 +618,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" overrideParent="True" List.ItemID="-763700767">
 					<group name="tier" List.ItemID="444275511">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\chinese_ha_01\outskirts\landmarks\chi_ha_lan_01a" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -642,6 +639,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

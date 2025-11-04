@@ -4,8 +4,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="-1116272827">
 					<group name="tier" List.ItemID="1290020051">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\sultanate\units\tier4_war_elephant_tower_upgraded_sul" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" />
@@ -22,6 +20,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

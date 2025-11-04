@@ -124,6 +124,7 @@
 			</list>
 			<list name="unit_type_list">
 				<enum name="unit_type" value="imperial_palace" List.ItemID="551042256" List.ListAction="Append" />
+				<enum name="unit_type" value="military_production_building" List.ItemID="-285156589" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="-1110061189" List.ParentItemID="-1110061189">
@@ -262,6 +263,7 @@
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />
 			<bool name="static_selection_bounds" value="False" />
+			<enum name="targeting_and_bandbox_selection_priority_controller" value="" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="1777818888" List.ParentItemID="1777818888">
 			<list name="type_list" overrideParent="True">
@@ -309,8 +311,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" List.ItemID="-1243610596">
 					<group name="tier" List.ItemID="249105456">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\chinese\buildings\building_wonder_age2_pagoda_control_chi" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -327,12 +327,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" overrideParent="True" List.ItemID="-782483520">
 					<group name="tier" List.ItemID="1290124299">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\chinese\outskirts\wonders\won_dpalace" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -349,6 +348,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

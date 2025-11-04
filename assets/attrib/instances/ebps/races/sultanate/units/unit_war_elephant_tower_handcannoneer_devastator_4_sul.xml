@@ -27,8 +27,6 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="1527873042">
 					<group name="tier" List.ItemID="-903906339">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\races\ottoman\units\unit_king_1_ott" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -45,6 +43,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>
@@ -110,6 +109,7 @@
 			</enum_table>
 			<enum name="snap_to_surface_type" value="GroundOrWalkable" />
 			<float name="turn_in_place_distance" value="0" />
+			<bool name="snap_to_terrain" value="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1117587618">
 			<list name="unit_type_list">

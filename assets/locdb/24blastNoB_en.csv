@@ -50,9 +50,9 @@
 161,,,help_text,,,Produces Wyngarde Yeoman of 4 longbowmen and 3 Wynguard Rangers.
 162,,,help_text,,,"Produces Gendarmerie of 3 Royal Knights, 2 Horsemen and 1 Mounted Crossbowman."
 163,,,help_text,,,Produces Picardie Army of 3 Man-at-arms and 3 Arbalétriers.
-164,,,help_text,,,Produces Swiss Mercenary of 4 Halberdiers and 2 Heavy Spearmen.
+164,,,help_text,,,Produces Swiss Mercenary of 6 Halberdiers.
 165,,,help_text,,,Produces Dopplesoldner of 2 Culverins and 4 Handcannoneers.
-167,,,help_text,,,"Produces Landsknecht Legion of 2 Landsknechts, 2 Man-at-arms, 2 Heavy Spearmen, 2 Halberdiers and 2 Handcannoneers."
+167,,,help_text,,,"Produces Landsknecht Legion of 2 Landsknechts, 2 Man-at-arms, 2 Spearmen, 2 Halberdiers and 2 Handcannoneers."
 168,,,help_text,,,Produces Akinji Raider of 4 Sipahi and 2 Akinji.
 169,,,help_text,,,Produces Serbi Regiment of 3 Boyar Knights and 3 Boyar Warriors.
 170,,,help_text,,,Produces Turkic Fief of 3 Sipahi and 3 Lancer.
@@ -60,7 +60,7 @@
 172,,,help_text,,,Produces Black Klobuks of 4 Horsemen and 2 Horse Archers.
 173,,,help_text,,,Produces Oprichnik of 5 Streltsy.
 174,,,help_text,,,Produces Tatars Mercenary of 3 Keshiks and 3 Mangudai.
-175,,,help_text,,,"Produces Forlorn Hope of 1 Landsknechts, 2 Heavy Spearmen and 2 Halberdiers."
+175,,,help_text,,,Produces Forlorn Hope of 1 Landsknechts and 4 Halberdiers.
 176,,,help_text,,,Produces Mansabdar of 1 War Elephant and 1 Sultan's Elite Tower Elephant.
 177,,,screen_name,,,Mansabdar
 180,,,screen_name,,,Boyar Warrior
@@ -144,7 +144,7 @@
 315,,,screen_name,,,Deutsches Cavalry
 317,,,screen_name,,,Elite Keshik
 318,,,screen_name,,,Elite Keshik
-319,,,screen_name,,,Highgate Guardian
+319,,,screen_name,,,Devsirme System
 320,,,extra_text,,,Military Schools Technology
 322,,,help_text,,,Produces Mandekalu of 6 Mansa Freeborn Horsemen.
 323,,,screen_name,,,Mandekalu 
@@ -182,10 +182,10 @@
 406,,,screen_name,,,Knights Teutonic
 407,,,screen_name,,,Tagmata
 408,,,screen_name,,,Norse Guard
-409,,,screen_name,,,Legionaries
+409,,,screen_name,,,Themata
 410,,,help_text,,,Produces Tagmata of 6 Cataphracts.
 411,,,help_text,,,Produces Norse Guard of 4 Varangian Guards and 2 Norse Warriors.
-412,,,help_text,,,Produces Legionaries of 10 Limitanei.
+412,,,help_text,,,Produces Themata of 10 Limitanei.
 413,,,help_text,,,"Produces Teppou Regiment of 5 Handcannon Ashigaru and 1 Teppou Bannerman If Bannerman Population reached Limit, Produces 6 Handcannon Ashigaru."
 414,,,screen_name,,,Teppou Regiment
 415,,,help_text,,,"Produces Akazonae Regiment of 3 Mounted Samurai, 2 Horsemen and 1 Uma Bannerman, If Bannerman Population reached Limit, Produces 4 Mounted Samurai and 2 Horsemen."
@@ -252,7 +252,7 @@
 526,,,screen_name,,,Yuan Raider
 531,,,screen_name,,,Empire Rising
 537,,,extra_text,,,Handcannoneer Technology
-538,,,formatter,,,Bannerman units health +%1%%% and damage +%2% and unlock a powerful Shogun.
+538,,,formatter,,,"Increases Bannerman and Daimyo's health by +%1%%% and damage by +%2%, Unlock a powerful Shogun."
 539,,,screen_name,,,Shogunate
 541,,,ui_name,,,Shotgun
 544,,,screen_name,,,Shotgunner
@@ -264,7 +264,7 @@
 553,,,help_text,,,Skillful Knight from Eastern Europe. \r\n+ Causes trample damage to non-main attack target
 554,,,help_text,,,Produce 4 additional Legions and all Legions have been discounted.
 556,,,screen_name,,,Sohei
-558,,,help_text,,,Japanese Battle Monk. \r\n\r\n+ Capture Holy Site and Relic \r\n+ AOE Damage \r\n- Cannot heal others 
+558,,,help_text,,,Japanese Battle Monk. \r\n\r\n+ Capture Holy Site and Relic \r\n- Cannot heal others 
 559,,,formatter,,,"Unlock the Buddhist Monk which are -%1%%% cheaper, can weaken enemy damage by -%2%%%, and provide +%3%%% damage to nearby friendly units while casting Conversion. Can produces Sohei here."
 560,,,help_text,,,"Support unit with no combat capability. Can be garrisoned in a Mosque or Madrasa to research technology more quickly. Can pick up Relics, convert enemy units, and capture Sacred Sites starting in the Castle Age (III). \r\n+ Heals friendly units \r\n+ No population is required, but 25 maximum training \r\n- Low health"
 561,,,formatter,,,Nearby cattle provide %1% Food per minute. Villagers can drop off Resource at this building. Can training cattle at this building.
@@ -295,8 +295,8 @@
 591,,,formatter,,,Cavalrys regenerate +%1% health every %2% seconds when out of combat.
 592,,,formatter,,,Cavalrys regenerate +%1% health every %2% seconds when out of combat.
 594,,,formatter,,,Hosts a range of highly unique upgrades. \r\n\r\nCan unlock Yuan Raiders and Imperial Guards. Only %1% technologies can be researched.
-595,,,formatter,,,"Acts as a Barracks that produces %1%%% faster, Infantry gains +%2%%% charge damage. Can Products Legion and Legion Commander here."
-596,,,formatter,,,"Acts as a Barracks that produces units %1%%% faster and %2%%% cheaper, Research Technology %3%%% faster, Can Products Legion and Legion Commander here."
+595,,,formatter,,,"Acts as a Barracks that produces %1%%% faster, Infantry gains +%2%%% charge damage. Can Produces Halberdier, Legion and Legion Commander here."
+596,,,formatter,,,"Acts as a Barracks that produces units %1%%% faster and %2%%% cheaper, Research Technology %3%%% faster, Can Produces Legion and Legion Commander here."
 599,,,extra_text,,,Golden Horn Tower Technology
 600,,,formatter,,,Infantry and Cataphract regenerate +%1% health every %2% seconds when out of combat.
 601,,,formatter,,,Increase the range of Ranged Units by +%1%.
@@ -307,14 +307,14 @@
 606,,,screen_name,,,Tarkan
 607,,,help_text,,,Cavalry Fight with Burning Torch \r\n+ Cause AOE Fire Damage \r\n+ High Ranged Armor \r\n- Weak in Melee
 608,,,ui_name,,,Torch
-609,,,formatter,,,"Cavalrys health +%2%, Increase the range of Mangudai and Khan by +%1%."
+609,,,formatter,,,"Cavalrys health +%2%, Increase the range of Horse Archer by +%1%."
 610,,,extra_text,,,Mangudai Technology
 611,,,help_text,,,"Produces Gokenin Regiment of 5 Samurai and 1 Katana Bannerman, If Bannerman Population reached Limit, Produces 6 Samurai."
 612,,,screen_name,,,Gokenin Regiment
 613,,,formatter,,,Produces Barracks and Archery Range units %1% at a time. Unit cost is converted to Gold and reduced by -%2%%%. \r\n- Can Produces Farimba %1% at a time with 20%% Cost reduce \r\n- Unlocks Farimba training at War assembly area
 614,,,formatter,,,Relics income rate Increases to +%1%%%
 615,,,screen_name,,,Reliquary
-617,,,help_text,,,Product all Units and Legion.
+617,,,help_text,,,Produces all Units and Legion.
 618,,,screen_name,,,Posthouse
 620,,,ui_name,,,Maximum upgrades (4) reached.
 621,,,formatter,,,Produces Buddhist Monks and Sohei and contains unique Buddhist technologies. Buddhist Monks provide support in combat by decreasing enemy damage with Sohei's Sutra and by enhancing damage of allies with Buddhist Conversion. \r\n\r\nAlso allows construction of %1% additional Buddhist Temples.
@@ -373,7 +373,7 @@
 695,,,formatter,,,A spy Landmark with %1% tile sight radius and the Imperial Spies ability. Activate to view location of enemy workers for %2% seconds. \r\n- Can Produces Unique Legion. \r\n- Imperial Officials can drop off taxes at this building.
 696,,,formatter,,,Increase the charge damage of Cavalry by +12.
 697,,,screen_name,,,Devastating Charge
-698,,,formatter,,,Promotes Lancers into a Kapikulu Sipahi.
+698,,,formatter,,,Promotes Lancers into a Kapikulu Sipahi. Increases production speed of legions by +%1%%%.
 699,,,screen_name,,,Drilling
 700,,,screen_name,,,Gbara
 701,,,screen_name,,,Mansabdar Tower Elephant
@@ -441,8 +441,8 @@
 763,,,ui_name,,,Only can be trained 2 Logothetes.
 764,,,screen_name,,,Blast Furnace
 765,,,formatter,,,Unlock Logothetes with %1% Training Limit.
-766,,,formatter,,,Handcannoneer cost -25%%.
-767,,,screen_name,,,Gunpowder Empire
+766,,,formatter,,,"Wealth flows through the empire like the Ganges, providing %1% gold income every minute."
+767,,,screen_name,,,Mandala
 768,,,screen_name,,,Pikeman
 769,,,screen_name,,,Pikeman
 770,,,extra_text,,,Infantry Technology
@@ -453,7 +453,7 @@
 775,,,screen_name,,,Forbidden Army
 776,,,help_text,,,"Mobilize 10 Forbidden Army into war, they use handcannon, spears and swords to fight."
 777,,,ui_name,,,Maximum of 1 can be built.
-778,,,help_text,,,Allow to Products Clocktower Units and Imperial Palace Forbidden Army Legion.
+778,,,help_text,,,Allow to Produces Clocktower Units and Imperial Palace Forbidden Army Legion.
 779,,,screen_name,,,Shogun
 780,,,help_text,,,"Powerful Japanese Military Leaders, Cause area damage."
 781,,,help_text,,,Produces Hussite Uprising of 3 Crossbowmen and 3 Halberdiers. These Hussite warriors can build Hussite wagon on the battlefield.
@@ -522,11 +522,11 @@
 844,,,help_text,,,"Forgotten Empire Ruin, can obtain stone resources continuously.\r\n- Can only excavate 1 ruin\r\n- Expensive and fragile"
 845,,,screen_name,,,Empire Ruin
 846,,,extra_text,,,Empire Ruin
-847,,,help_text,,,"Spend 500 olive oil to let nearby Units regeneration quickly within 10 seconds, Cooldown 30 seconds."
+847,,,help_text,,,"Spend 500 olive oil or silvers to let nearby Units regeneration quickly within 10 seconds, Cooldown 30 seconds."
 848,,,screen_name,,,Feudum
 849,,,formatter,,,A sophisticated feudal system allows Lancaster lords to be quickly deployed by Keeps on the front lines.
 850,,,screen_name,,,Guardian of the Holy Land
-851,,,help_text,,,"Produces Guardian of the Holy Land of 3 Elite Hospitallers and 2 Teutonic Knights"
+851,,,help_text,,,Produces Guardian of the Holy Land of 3 Elite Hospitallers and 2 Teutonic Knights
 852,,,help_text,,,"Sultan Elephant cannot excavates the Empire Ruin,need to excavated by Phalangite."
 853,,,help_text,,,"Produces Wyngarde Knights of 1 Wyngarde Knight, 1 Chevaucher, 2 Demilancer and 3 Hobelars."
 854,,,screen_name,,,Wyngarde Knight
@@ -547,3 +547,31 @@
 869,,,help_text,,,"Produces Wyngarde Artillery of 4 Handcannoneers and 1 Culverin, Researching Burgundian Imports will allow production to be advanced by one age."
 870,,,help_text,,,Produces Genoese Mercenary of 3 Condottiero and 3 Genoese Crossbowmen.
 871,,,screen_name,,,Genoese Mercenary
+872,,,screen_name,,,Armenioi
+873,,,help_text,,,Produces Armenioi of 2 Armored Horse Archers and 4 Horsemen
+874,,,help_text,,,Produces Athanatoi of 5 Cataphracts
+875,,,screen_name,,,Athanatoi
+876,,,screen_name,,,Norman Mercenary
+877,,,help_text,,,Produces Norman Mercenary of 3 Norman Knight and 3 Sergeants
+878,,,help_text,,,Produces Tagmata of 5 Riddari
+879,,,screen_name,,,Tagmata
+880,,,screen_name,,,Paik
+881,,,help_text,,,Produces Paik of 6 Spearmen and 4 Archers
+882,,,help_text,,,"Produces Hathisena of 1 War Elephant, 1 Healer Elephant, 1 Raider Elephant and 1 Ballista Elephant"
+883,,,screen_name,,,Hathisena
+884,,,screen_name,,,Akazonae Regiment
+885,,,help_text,,,Produces Akazonae Regiment of 3 Yari Cavalry and 3 Mounted Samurai
+886,,,help_text,,,Produces Kitetsu Regiment of 5 Mounted Gunners
+887,,,screen_name,,,Kitetsu Regiment
+888,,,screen_name,,,Teppou Regiment
+889,,,help_text,,,Produces Teppou Regiment of 6 Tanegashima Ashigaru
+890,,,screen_name,,,Yamabushi
+891,,,help_text,,,Produces Yamabushi of 3 Ikko-Ikki and 3 Kanabo Samurai
+892,,,extra_text,,,Heavy Ranged Cavalry
+893,,,help_text,,,Gunner who fire from a standstill using special Arquebus.\r\n+ High mobility
+894,,,screen_name,,,Akolouthos
+895,,,help_text,,,Varangian military leaders can spend silver to make their troops fight more vigorously.
+896,,,screen_name,,,Norman Knight
+897,,,screen_name,,,Beg
+898,,,formatter,,,The military leaders of the Golden Horde could protect Batu Khan from ranged attacks.
+899,,,screen_name,,,Mounted Gunner

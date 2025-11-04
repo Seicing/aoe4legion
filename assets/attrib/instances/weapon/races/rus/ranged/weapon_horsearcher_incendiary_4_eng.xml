@@ -98,7 +98,6 @@
 			<float name="ground_hit_rate" value="0" />
 			<bool name="ignore_shot_blocking" value="False" />
 			<bool name="non_moving_setup" value="False" />
-			<bool name="point_blank" value="False" />
 			<bool name="prevents_prone" value="False" />
 			<bool name="reset_rotation_on_teardown" value="False" />
 			<bool name="share_parent_anim" value="False" />
@@ -174,6 +173,10 @@
 			<list name="on_penetrated_state_trees">
 			</list>
 			<bool name="should_keep_above_one" value="True" />
+			<float name="critical_damage_chance" value="0.02" />
+			<float name="critical_damage_factor" value="5" />
+			<list name="on_critical_hit_state_trees">
+			</list>
 		</group>
 		<group name="deflection">
 			<float name="deflection_damage_multiplier" value="0" />

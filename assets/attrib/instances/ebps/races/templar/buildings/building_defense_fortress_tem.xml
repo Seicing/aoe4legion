@@ -533,7 +533,7 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\ivimperial\unit_teutonic_knight_4_tem" overrideParent="True" List.ItemID="-981402941" />
+						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iifeudal\unit_knight_hospitaller_4_tem" overrideParent="True" List.ItemID="-981402941" />
 						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\ivimperial\unit_teutonic_knight_4_tem" overrideParent="True" List.ItemID="611728882" />
 						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\iifeudal\unit_knight_hospitaller_4_tem" overrideParent="True" List.ItemID="-532971283" />
 						<instance_reference name="additional_squad" value="sbps\races\templar\commanderie\ivimperial\unit_teutonic_knight_4_tem" overrideParent="True" List.ItemID="-1107420581" />
@@ -780,8 +780,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="401243353">
 					<group name="tier" List.ItemID="-870724164">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\buildings\fortress\tier2_fortress_tem" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -798,24 +796,9 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 					<group name="tier" List.ItemID="-508401658">
-						<list name="tier_requirements" overrideParent="True">
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="640570939">
-								<enum name="reason" value="usage" />
-								<locstring name="ui_name" value="0" />
-								<bool name="is_present" value="True" />
-								<int name="max_completed" value="100" />
-								<int name="min_completed" value="1" />
-								<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
-								<bool name="include_queued" value="False" />
-								<group name="include_pbg_parenting">
-									<bool name="include_child_pbgs" value="False" />
-									<bool name="include_parent_pbgs" value="False" />
-								</group>
-								<bool name="include_completed" value="True" />
-							</template_reference>
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\buildings\fortress\tier3_fortress_tem" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_treasure_towers_viz\build_complete" overrideParent="True" />
@@ -832,24 +815,9 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 					<group name="tier" List.ItemID="1727606615">
-						<list name="tier_requirements" overrideParent="True">
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-332517255">
-								<enum name="reason" value="usage" />
-								<locstring name="ui_name" value="0" />
-								<bool name="is_present" value="True" />
-								<int name="max_completed" value="100" />
-								<int name="min_completed" value="1" />
-								<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
-								<bool name="include_queued" value="False" />
-								<group name="include_pbg_parenting">
-									<bool name="include_child_pbgs" value="False" />
-									<bool name="include_parent_pbgs" value="False" />
-								</group>
-								<bool name="include_completed" value="True" />
-							</template_reference>
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\buildings\fortress\tier4_fortress_tem" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_treasure_towers_viz\build_complete" overrideParent="True" />
@@ -866,12 +834,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" overrideParent="True" List.ItemID="1254915837">
 					<group name="tier" List.ItemID="1997148092">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\outskirts\tem_fortress_outskirts" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -888,6 +855,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

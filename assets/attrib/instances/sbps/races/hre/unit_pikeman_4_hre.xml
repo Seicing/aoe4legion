@@ -7,12 +7,12 @@
 			<list name="race_list">
 				<group name="race_data" List.ItemID="1121583235" List.ParentItemID="1121583235">
 					<group name="info">
-						<locstring name="screen_name" value="11265398" overrideParent="True" />
-						<file name="icon_name" value="races\templar\units\heavy_spearman_age_4" overrideParent="True" />
+						<locstring name="screen_name" value="115" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<file name="icon_name" value="races\crucible_mode\boons\mercenary_spearman" overrideParent="True" />
 						<bool name="is_unique_to_race" value="True" overrideParent="True" />
 						<string name="selection_group" value="normanspear" overrideParent="True" />
 						<locstring name="extra_text" value="114" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<locstring name="help_text" value="11266189" overrideParent="True" />
+						<locstring name="help_text" value="106" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					</group>
 				</group>
 			</list>
@@ -110,6 +110,8 @@
 								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" List.ItemID="1305107637">
 							<instance_reference name="ebp" value="ebps\races\hre\units\unit_siege_tower_3_hre" overrideParent="True" />
@@ -164,6 +166,8 @@
 								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />

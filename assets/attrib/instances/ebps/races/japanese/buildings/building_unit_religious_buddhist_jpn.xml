@@ -129,6 +129,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed_chi" overrideParent="True" />
@@ -225,8 +226,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="-2014948935">
 					<group name="tier" List.ItemID="1380750534">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\japanese\buildings\unit_religious_buddhist_jpn\tier3_unit_religious_buddhist_jpn" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -243,24 +242,9 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 					<group name="tier" List.ItemID="-700219823">
-						<list name="tier_requirements">
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-706695806">
-								<enum name="reason" value="usage" />
-								<locstring name="ui_name" value="0" />
-								<bool name="is_present" value="True" />
-								<int name="max_completed" value="100" />
-								<int name="min_completed" value="1" />
-								<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
-								<bool name="include_queued" value="False" />
-								<group name="include_pbg_parenting">
-									<bool name="include_child_pbgs" value="False" />
-									<bool name="include_parent_pbgs" value="False" />
-								</group>
-								<bool name="include_completed" value="True" />
-							</template_reference>
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\japanese\buildings\unit_religious_buddhist_jpn\tier4_unit_religious_buddhist_jpn" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -277,12 +261,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" overrideParent="True" List.ItemID="420778260">
 					<group name="tier" List.ItemID="1638360434">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\japanese\outskirts\general\jpn_monastery_03" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -299,6 +282,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

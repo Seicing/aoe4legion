@@ -44,7 +44,7 @@
 						<file name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="837" mod="67987bbc33214c57b0617d9356614825" />
+						<locstring name="screen_name" value="871" mod="67987bbc33214c57b0617d9356614825" />
 						<string name="selection_group" value="archer" />
 						<int name="ui_priority" value="0" />
 						<bool name="use_random_entity_speaker" value="False" />

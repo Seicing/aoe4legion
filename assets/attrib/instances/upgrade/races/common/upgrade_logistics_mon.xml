@@ -92,6 +92,7 @@
 			<locstring name="extra_text_controller" value="0" />
 			<int name="custom_data_index" value="0" />
 			<bool name="is_unique_to_race" value="True" />
+			<file name="icon_alternate_name" value="" />
 		</group>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1719782336">
@@ -191,6 +192,7 @@
 			<list name="apply_to_unit_classes">
 				<enum name="unit_class" value="mangudai" List.ItemID="-956296936" />
 				<enum name="unit_class" value="khan" List.ItemID="1784368435" />
+				<enum name="unit_class" value="kipchak_archer" List.ItemID="978840904" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
@@ -227,6 +229,7 @@
 		<enum name="ui_group_cast_type" value="single" />
 		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_blacksmith\tech_upgrade_boyars_fortitude_rus" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
+		<bool name="apply_player_upgrades_when_entity_or_squad_ownership_changes" value="False" />
 	</group>
 	<uniqueid name="pbgid" value="1073742245" />
 	<instance_reference name="parent_pbg" value="" />

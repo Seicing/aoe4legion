@@ -169,8 +169,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" List.ItemID="-930670864">
 					<group name="tier" List.ItemID="646357206">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\hre\buildings\wonder_age2_nuremberg_castle_control_hre" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -187,12 +185,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" overrideParent="True" List.ItemID="1592084744">
 					<group name="tier" List.ItemID="-231159295">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\hre\outskirts\wonders\won_ncastle" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -209,6 +206,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>
@@ -295,7 +293,7 @@
 			<list name="spawn_items" overrideParent="True">
 				<group name="spawn_item" comment="spearman - dark age" List.ItemID="120534881">
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\hre\unit_spearman_1_hre" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" />
@@ -359,7 +357,7 @@
 				</group>
 				<group name="spawn_item" comment="spearman - feudal age" List.ItemID="-844204959">
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\hre\unit_spearman_2_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\hre\unit_spearman_2_hre" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" />
@@ -423,7 +421,7 @@
 				</group>
 				<group name="spawn_item" comment="spearman - castle age" List.ItemID="-1399783578">
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\hre\unit_spearman_3_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\hre\unit_spearman_3_hre" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" />
@@ -487,7 +485,7 @@
 				</group>
 				<group name="spawn_item" comment="spearman - imperial age" List.ItemID="-698371457">
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<instance_reference name="squad" value="sbps\races\hre\unit_spearman_4_hre" overrideParent="True" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<group name="ui_position">
 						<int name="ui_position_row" value="1" />
@@ -961,8 +959,8 @@
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_landsknecht_3_hre" overrideParent="True" List.ItemID="607594909" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1933895213" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-400002743" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1490296078" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1746390123" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1490296078" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1746390123" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -1029,7 +1027,7 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1726043931" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" overrideParent="True" List.ItemID="1726043931" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_landsknecht_3_hre" overrideParent="True" List.ItemID="-776807473" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_manatarms_2_hre" overrideParent="True" List.ItemID="44851928" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_handcannon_4_hre" overrideParent="True" List.ItemID="242397986" />
@@ -1038,7 +1036,7 @@
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_handcannon_4_hre" overrideParent="True" List.ItemID="439285822" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_landsknecht_3_hre" overrideParent="True" List.ItemID="-492704091" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_manatarms_2_hre" overrideParent="True" List.ItemID="964314861" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1856472668" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" overrideParent="True" List.ItemID="1856472668" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -1277,6 +1275,70 @@
 							<int name="nominal_index" value="1" />
 							<int name="priority" value="0" />
 							<instance_reference name="linked" value="" />
+						</template_reference>
+						<enum name="observer_type" value="Disabled" />
+						<group name="issuable_info">
+							<bool name="is_secondary" value="False" />
+							<instance_reference name="secondary_issuable" value="" />
+						</group>
+					</template_reference>
+					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
+				</group>
+				<group name="spawn_item" comment="spearman - dark age" List.ItemID="240086246">
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="spawn_at_map_entry_point" value="False" />
+					<group name="ui_position">
+						<int name="ui_position_row" value="1" />
+						<int name="ui_position_column" value="4" overrideParent="True" />
+					</group>
+					<instance_reference name="ui_menu" value="" overrideParent="True" />
+					<int name="number_to_spawn" value="1" overrideParent="True" />
+					<enum_table name="item_cost_adjustment">
+						<float name="action" value="0" />
+						<float name="command" value="0" />
+						<float name="popcap" value="0" />
+						<float name="food" value="0" overrideParent="True" />
+						<float name="wood" value="0" overrideParent="True" />
+						<float name="stone" value="0" />
+						<float name="gold" value="0" />
+						<float name="militia_hre" value="0" />
+						<float name="merc_byz" value="0" />
+					</enum_table>
+					<locstring name="ui_screen_name" value="0" />
+					<locstring name="ui_help_text" value="0" />
+					<bool name="can_be_cancelled" value="True" />
+					<int name="number_to_queue_up_to_when_modified" value="5" overrideParent="True" />
+					<list name="additional_squads">
+					</list>
+					<instance_reference name="hotkey_binding" value="" overrideParent="True" />
+					<template_reference name="ui_info_extended" value="tables\ui_info_ext">
+						<template_reference name="command_card_info" value="">
+						</template_reference>
+						<template_reference name="quick_abilities_info" value="">
+						</template_reference>
+						<template_reference name="quick_commands_info" value="ui_quick_commands_info" overrideParent="True">
+							<int name="quick_commands_slot_index" value="0" overrideParent="True" />
+							<enum name="quick_commands_hotkey" value="x_quick_command_y" overrideParent="True" />
+							<int name="quick_commands_priority" value="5" overrideParent="True" />
+						</template_reference>
+						<template_reference name="quick_formation_info" value="">
+						</template_reference>
+						<template_reference name="ping_menu_info" value="">
+						</template_reference>
+						<enum name="category" value="Economic" />
+						<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info" overrideParent="True">
+							<enum name="quick_commands_hotkey" value="x_quick_command_y" />
+							<int name="quick_commands_priority" value="5" />
+							<int name="quick_commands_slot_index" value="2" />
+							<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+						</template_reference>
+						<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info" overrideParent="True">
+							<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\default" />
+							<int name="nominal_index" value="0" />
+							<int name="priority" value="0" />
+							<instance_reference name="linked" value="upgrade\races\common\units\upgrade_unit_spearman_2" />
 						</template_reference>
 						<enum name="observer_type" value="Disabled" />
 						<group name="issuable_info">

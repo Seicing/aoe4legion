@@ -546,8 +546,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="-1171217673">
 					<group name="tier" List.ItemID="-1198013027">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\buildings\unit_ranged_fre\tier2_unit_ranged_control_fre" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -564,24 +562,9 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 					<group name="tier" List.ItemID="-600761882">
-						<list name="tier_requirements" overrideParent="True">
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-1516256975">
-								<enum name="reason" value="usage" />
-								<locstring name="ui_name" value="0" />
-								<bool name="is_present" value="True" />
-								<int name="max_completed" value="100" />
-								<int name="min_completed" value="1" />
-								<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
-								<bool name="include_queued" value="False" />
-								<group name="include_pbg_parenting">
-									<bool name="include_child_pbgs" value="False" />
-									<bool name="include_parent_pbgs" value="False" />
-								</group>
-								<bool name="include_completed" value="True" />
-							</template_reference>
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\buildings\unit_ranged_fre\tier3_unit_ranged_control_fre" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -598,24 +581,9 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 					<group name="tier" List.ItemID="2117262544">
-						<list name="tier_requirements" overrideParent="True">
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-2105135760">
-								<enum name="reason" value="usage" />
-								<locstring name="ui_name" value="0" />
-								<bool name="is_present" value="True" />
-								<int name="max_completed" value="100" />
-								<int name="min_completed" value="1" />
-								<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
-								<bool name="include_queued" value="False" />
-								<group name="include_pbg_parenting">
-									<bool name="include_child_pbgs" value="False" />
-									<bool name="include_parent_pbgs" value="False" />
-								</group>
-								<bool name="include_completed" value="True" />
-							</template_reference>
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\buildings\unit_ranged_fre\tier4_unit_ranged_control_fre" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -632,12 +600,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" overrideParent="True" List.ItemID="477255466">
 					<group name="tier" List.ItemID="1109001741">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\outskirts\military\military_01" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -654,10 +621,9 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 					<group name="tier" overrideParent="True" List.ItemID="1922640708">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\outskirts\military\military_02" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -674,10 +640,9 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 					<group name="tier" List.ItemID="1042196493">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\outskirts\military\military_03" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -694,10 +659,9 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 					<group name="tier" List.ItemID="-1250583646">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\outskirts\military\military_04" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -714,6 +678,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

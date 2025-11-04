@@ -380,6 +380,7 @@
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />
 			<bool name="static_selection_bounds" value="False" />
+			<enum name="targeting_and_bandbox_selection_priority_controller" value="" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-1845256633">
 			<enum_table name="speed_scaling_table">
@@ -429,6 +430,7 @@
 			<instance_reference name="pass_type_destination" value="" />
 			<enum name="snap_to_surface_type" value="GroundOrWalkable" />
 			<float name="turn_in_place_distance" value="0" />
+			<bool name="snap_to_terrain" value="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\posture_ext" List.ItemID="-1467026620">
 			<instance_reference name="posture_group" value="posture\default_posture_group" />
@@ -471,8 +473,6 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="534104863">
 					<group name="tier" List.ItemID="1092185868">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\mongol\units\campaign\cavalry_subutai_cmp_3_mon" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" />
@@ -489,6 +489,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

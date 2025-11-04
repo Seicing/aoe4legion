@@ -42,8 +42,6 @@
 						</template_reference>
 					</group>
 					<group name="tier" List.ItemID="-1047887819" List.ParentItemID="-1047887819">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\byzantine\units\tier4_cavalry_knight_byz" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />

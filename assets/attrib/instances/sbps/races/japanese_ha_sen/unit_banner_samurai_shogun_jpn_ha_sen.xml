@@ -1,0 +1,96 @@
+<instance version="4" description="Bannerman Samurai" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="905650936" List.ParentItemID="905650936">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="1979727231" List.ParentItemID="1979727231">
+					<group name="info">
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<file name="icon_name" value="shogun_sen" overrideParent="True" />
+						<bool name="is_unique" value="True" overrideParent="True" />
+						<locstring name="help_text" value="780" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="screen_name" value="779" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<string name="selection_group" value="abbey_kingshogun" overrideParent="True" />
+						<float name="minimap_texture_scale" value="1" overrideParent="True" />
+						<locstring name="extra_text" value="802" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="1336235242" List.ParentItemID="1336235242">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1233639378" List.ParentItemID="1233639378">
+					<instance_reference name="type" value="ebps\races\japanese_ha_sen\units\unit_banner_samurai_shogun_jpn_ha_sen" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1397640044" List.ParentItemID="1397640044">
+			<list name="requirement_table" overrideParent="True">
+				<template_reference name="required" value="requirements\required_squad" List.ItemID="-435715054">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="0" />
+					<float name="max_squad_cap" value="1" />
+					<instance_reference name="squad_name" value="sbps\races\japanese_ha_sen\unit_banner_samurai_shogun_jpn_ha_sen" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="751898307">
+					<enum name="reason" value="usage_and_display" overrideParent="True" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_shogunate_jpn" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+					<bool name="include_completed" value="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-2009835917" List.ParentItemID="-2009835917">
+			<list name="abilities">
+				<instance_reference name="ability" value="abilities\always_on_abilities\japanese_ha_sen\daimyo_aura_jpn_ha_sen" overrideParent="True" List.ItemID="1417761547" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\japanese_ha_sen\samurai_shield_jpn_ha_sen" overrideParent="True" List.ItemID="2069739065" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-75534381" List.ParentItemID="-75534381">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\japanese" overrideParent="True" List.ItemID="497224314" />
+			</list>
+			<list name="squad_type_list" removedIds="-1151215270, -1059972905">
+				<enum name="squad_type" value="leader" List.ItemID="-1772996951" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-1975515992" List.ParentItemID="-1975515992">
+			<string name="squad_speaker_code" value="monk" overrideParent="True" />
+			<group name="squad_speech_parameters">
+				<string name="squad_name_code" value="monk" overrideParent="True" />
+				<string name="squad_class_code" value="non_military" overrideParent="True" />
+			</group>
+			<list name="age_mapping">
+				<int name="age_number" value="1" overrideParent="True" List.ItemID="-1025700751" List.ParentItemID="-1025700751" />
+				<int name="age_number" value="2" overrideParent="True" List.ItemID="2063109689" List.ParentItemID="2063109689" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" List.ItemID="346980834" List.ParentItemID="346980834">
+			<list name="construction_groups">
+				<group name="construction_group" List.ItemID="-107179356" List.ParentItemID="-107179356">
+					<list name="construction_items" removedIds="-1294486301">
+						<group name="construction_item" List.ItemID="-143686339" List.ParentItemID="-143686339">
+							<instance_reference name="ebp" value="ebps\races\japanese_ha_sen\buildings\building_econ_stone_ruin_jpn_ha_sen" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						</group>
+					</list>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="53910461" List.ParentItemID="53910461">
+			<enum name="unit_type" value="maa_guandao" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742629" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_manatarms_4" />
+</instance>

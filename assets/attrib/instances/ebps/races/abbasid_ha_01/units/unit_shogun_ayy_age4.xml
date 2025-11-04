@@ -384,6 +384,7 @@
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />
 			<bool name="static_selection_bounds" value="False" />
+			<enum name="targeting_and_bandbox_selection_priority_controller" value="" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-662784220">
 			<instance_reference name="pass_type" value="pass_types\infantry" />
@@ -433,6 +434,7 @@
 			</enum_table>
 			<enum name="snap_to_surface_type" value="GroundOrWalkable" />
 			<float name="turn_in_place_distance" value="0" />
+			<bool name="snap_to_terrain" value="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\posture_ext" List.ItemID="-911446490">
 			<instance_reference name="posture_group" value="posture\default_posture_group" />
@@ -475,8 +477,6 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="-1537121208">
 					<group name="tier" List.ItemID="-226178021">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\ayyubid_cmp\units\tier1_leader_baibars_ayy" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" />
@@ -493,6 +493,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

@@ -105,6 +105,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="horseman - feudal age" overrideParent="True" List.ItemID="-405936342">
 					<instance_reference name="entity" value="" />
@@ -168,6 +169,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="horseman - castle age" List.ItemID="-1263424305">
 					<instance_reference name="entity" value="" overrideParent="True" />
@@ -231,6 +233,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="horseman - imperial age" List.ItemID="1236510051">
 					<instance_reference name="entity" value="" />
@@ -294,6 +297,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="knight - feudal age" List.ItemID="1475697539">
 					<instance_reference name="entity" value="" />
@@ -357,6 +361,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="knight - castle age" List.ItemID="-1609050522">
 					<instance_reference name="entity" value="" />
@@ -420,6 +425,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="knight - imperial age" List.ItemID="85175020">
 					<instance_reference name="entity" value="" />
@@ -483,6 +489,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="horseman - dark age (double)" List.ItemID="943931230">
 					<instance_reference name="entity" value="" />
@@ -548,6 +555,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="horseman - feudal age (double)" overrideParent="True" List.ItemID="-1013096095">
 					<instance_reference name="entity" value="" />
@@ -613,6 +621,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="horseman - castle age (double)" List.ItemID="-422855890">
 					<instance_reference name="entity" value="" />
@@ -678,6 +687,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="horseman - imperial age (double)" List.ItemID="-731341620">
 					<instance_reference name="entity" value="" />
@@ -743,6 +753,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="knight - feudal age (double)" List.ItemID="1390090022">
 					<instance_reference name="entity" value="" />
@@ -808,6 +819,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="knight - castle age (double)" List.ItemID="-490109574">
 					<instance_reference name="entity" value="" />
@@ -873,6 +885,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="knight - imperial age (double)" List.ItemID="637561679">
 					<instance_reference name="entity" value="" />
@@ -938,6 +951,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="Scout" List.ItemID="1217189567">
 					<instance_reference name="entity" value="" />
@@ -998,6 +1012,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="Scout (double)" List.ItemID="2139422337">
 					<instance_reference name="entity" value="" />
@@ -1063,6 +1078,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 				<group name="spawn_item" comment="horseman - dark age" List.ItemID="986490851">
 					<instance_reference name="entity" value="" />
@@ -1128,6 +1144,7 @@
 						</group>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
+					<file name="ui_icon_name" value="" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
@@ -1153,6 +1170,7 @@
 			<bool name="default_rally_points_allowed" value="True" />
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
+			<bool name="use_alternative_rally_point_system" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" overrideParent="True" List.ItemID="-1082436431" List.ParentItemID="-1082436431">
 			<bool name="must_be_in_supply" value="False" />
@@ -1193,8 +1211,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="-762013648">
 					<group name="tier" List.ItemID="-20223099">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\mongol\buildings\unit_cavalry_mon\tier1_unit_cavalry_mon" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -1211,24 +1227,9 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 					<group name="tier" List.ItemID="-1476865094">
-						<list name="tier_requirements" overrideParent="True">
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-546339219">
-								<enum name="reason" value="usage" />
-								<locstring name="ui_name" value="0" />
-								<bool name="is_present" value="True" />
-								<int name="max_completed" value="100" />
-								<int name="min_completed" value="1" />
-								<instance_reference name="upgrade_name" value="upgrade\dev\ages\feudal_age" />
-								<bool name="include_queued" value="False" />
-								<group name="include_pbg_parenting">
-									<bool name="include_child_pbgs" value="False" />
-									<bool name="include_parent_pbgs" value="False" />
-								</group>
-								<bool name="include_completed" value="True" />
-							</template_reference>
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\mongol\buildings\unit_cavalry_mon\tier2_unit_cavalry_mon" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -1245,10 +1246,9 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 					<group name="tier" List.ItemID="-934371564">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\mongol\buildings\unit_cavalry_mon\tier3_unit_cavalry_mon" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -1265,12 +1265,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" overrideParent="True" List.ItemID="-1206047647">
 					<group name="tier" List.ItemID="-1448368516">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\mongol\outskirts\military\mon_military_01" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -1287,6 +1286,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

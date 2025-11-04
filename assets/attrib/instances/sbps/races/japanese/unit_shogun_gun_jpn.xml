@@ -8,7 +8,7 @@
 				<group name="race_data" List.ItemID="1896534723" List.ParentItemID="1896534723">
 					<group name="info">
 						<locstring name="screen_name" value="424" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<file name="icon_name" value="shogun_nobunaga" overrideParent="True" />
+						<file name="icon_name" value="races\sengoku\clans\oda" overrideParent="True" />
 						<locstring name="help_text" value="423" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<bool name="is_unique_to_race" value="True" overrideParent="True" />
 						<string name="selection_group" value="abbey_kinggun" overrideParent="True" />
@@ -159,6 +159,8 @@
 								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />

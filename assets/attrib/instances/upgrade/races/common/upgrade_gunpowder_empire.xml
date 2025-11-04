@@ -39,7 +39,7 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<int name="int_value" value="2" List.ItemID="-922469766" />
+					<int name="int_value" value="250" List.ItemID="-922469766" />
 				</list>
 				<locstring name="formatter" value="766" mod="67987bbc33214c57b0617d9356614825" />
 			</template_reference>
@@ -87,6 +87,7 @@
 			<locstring name="extra_text_controller" value="0" />
 			<int name="custom_data_index" value="0" />
 			<bool name="is_unique_to_race" value="True" />
+			<file name="icon_alternate_name" value="" />
 		</group>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1258603752">
@@ -137,7 +138,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="golden_parachute_rogue" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_cancel_action_tree" value="state_tree_reference_info">
@@ -203,6 +204,7 @@
 		<enum name="ui_group_cast_type" value="single" />
 		<instance_reference name="hotkey_binding" value="" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
+		<bool name="apply_player_upgrades_when_entity_or_squad_ownership_changes" value="False" />
 	</group>
 	<uniqueid name="pbgid" value="1073742415" />
 	<instance_reference name="parent_pbg" value="" />

@@ -1,0 +1,60 @@
+<instance version="4" description="Imperial Age Knight" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-458796721" List.ParentItemID="-458796721">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="1896534723" List.ParentItemID="1896534723">
+					<group name="info">
+						<locstring name="screen_name" value="181" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="help_text" value="553" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<string name="selection_group" value="cavalryboyar" overrideParent="True" />
+						<file name="icon_name" value="unit_serbknight" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="116620937" List.ParentItemID="116620937">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1858632065" List.ParentItemID="1858632065">
+					<instance_reference name="type" value="ebps\races\mongol_ha_gol\units\unit_boyar_mon_ha_gol" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-1190222385" List.ParentItemID="-1190222385">
+			<list name="requirement_table" overrideParent="True">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1687288142">
+					<enum name="reason" value="usage" overrideParent="True" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+					<bool name="include_completed" value="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-528484734" List.ParentItemID="-528484734">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\mongol_ha_gol" List.ItemID="-1538649016" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="1990237064" List.ParentItemID="1990237064">
+			<group name="squad_speech_parameters">
+				<enum name="squad_race_code" value="rus" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-993571294" List.ParentItemID="-993571294">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742670" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_knight_4" />
+</instance>

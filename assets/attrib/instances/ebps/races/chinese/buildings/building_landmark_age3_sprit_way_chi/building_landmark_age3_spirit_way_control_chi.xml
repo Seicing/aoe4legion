@@ -261,6 +261,7 @@
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />
 			<bool name="static_selection_bounds" value="False" />
+			<enum name="targeting_and_bandbox_selection_priority_controller" value="" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="-809819713" List.ParentItemID="-809819713">
 			<list name="type_list" overrideParent="True">
@@ -310,8 +311,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" List.ItemID="87132660">
 					<group name="tier" List.ItemID="1187024673">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\chinese\buildings\building_wonder_age1_mausoleum_control_chi" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -328,12 +327,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" overrideParent="True" List.ItemID="-2089814986">
 					<group name="tier" List.ItemID="2144133942">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\chinese\outskirts\wonders\won_qmausoleum" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -350,6 +348,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>
@@ -360,6 +359,8 @@
 			<bool name="disable_generation_on_spawn" value="False" />
 			<bool name="is_root_generator" value="False" overrideParent="True" />
 			<int name="district_palette_id" value="1" />
+			<list name="requirements">
+			</list>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="145538" />

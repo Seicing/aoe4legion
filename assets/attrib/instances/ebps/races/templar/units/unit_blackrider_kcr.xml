@@ -77,8 +77,6 @@
 			<list name="tier_group_list">
 				<list name="tier_group" overrideParent="True" List.ItemID="2053251075">
 					<group name="tier" List.ItemID="442504441">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\hre\units\tier4_cavalry_black_rider_hre" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info" overrideParent="True">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" overrideParent="True" />
@@ -95,6 +93,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

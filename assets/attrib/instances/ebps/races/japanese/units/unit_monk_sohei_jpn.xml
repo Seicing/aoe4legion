@@ -6,6 +6,9 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-226814690" List.ParentItemID="-226814690">
 			<list name="action_state_trees">
+				<group name="container" List.ItemID="296849243" List.ParentItemID="296849243">
+					<string name="state_tree" value="unit_action_apply\units\manatarms" overrideParent="True" />
+				</group>
 				<group name="container" List.ItemID="322626763" List.ParentItemID="322626763">
 					<string name="state_tree" value="unit_action_apply\units\monk\audio\chi" overrideParent="True" />
 				</group>
@@ -14,59 +17,73 @@
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-287598437" List.ParentItemID="-287598437">
 			<group name="time_cost">
 				<enum_table name="cost">
-					<float name="food" value="50" overrideParent="True" />
-					<float name="gold" value="80" overrideParent="True" />
+					<float name="food" value="60" overrideParent="True" />
+					<float name="gold" value="60" overrideParent="True" />
 				</enum_table>
-				<float name="time_seconds" value="20" overrideParent="True" />
+				<float name="time_seconds" value="35" overrideParent="True" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-293080404" List.ParentItemID="-293080404">
 			<bool name="regeneration_disabled" value="False" overrideParent="True" />
-			<float name="hitpoints" value="125" overrideParent="True" />
+			<float name="hitpoints" value="160" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
 				<float name="Melee" value="0" overrideParent="True" />
-				<float name="Ranged" value="2" overrideParent="True" />
+				<float name="Ranged" value="0" overrideParent="True" />
 			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="-1346521447" List.ParentItemID="-1346521447">
+			<group name="sight_package">
+				<float name="inner_radius" value="12" overrideParent="True" />
+				<float name="outer_radius" value="36" overrideParent="True" />
+			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1376601539" List.ParentItemID="1376601539">
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\japanese" overrideParent="True" List.ItemID="-1424762253" />
 			</list>
 			<list name="unit_type_list" removedIds="689952704">
-				<enum name="unit_type" value="shaolin_monk" List.ItemID="975095306" List.ListAction="Append" />
 				<enum name="unit_type" value="torch_thrower" List.ItemID="-1928062099" List.ListAction="Append" />
 				<enum name="unit_type" value="infantry" List.ItemID="654859146" List.ListAction="Append" />
-				<enum name="unit_type" value="included_by_military_hotkeys" List.ItemID="-1574636211" List.ListAction="Append" />
 				<enum name="unit_type" value="monk" List.ItemID="1115183834" List.ListAction="Append" />
-				<enum name="unit_type" value="unique" List.ItemID="-1642627405" List.ListAction="Append" />
+				<enum name="unit_type" value="buddhist_monk_jpn" List.ItemID="-874974557" List.ListAction="Append" />
+				<enum name="unit_type" value="ikko_ikki_jpn" List.ItemID="1775567465" List.ListAction="Append" />
+				<enum name="unit_type" value="melee" List.ItemID="1607195157" List.ListAction="Append" />
+				<enum name="unit_type" value="melee_infantry" List.ItemID="-831832884" List.ListAction="Append" />
 			</list>
 			<list name="attack_target_restriction_on_victim" removedIds="245821899, 1044566974">
 				<enum name="unit_type" value="stone_wall" overrideParent="True" List.ItemID="1463939583" List.ParentItemID="1463939583" />
 			</list>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1376017635" List.ParentItemID="1376017635">
+			<float name="decorator_height" value="2.75" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="56597229" List.ParentItemID="56597229">
-			<enum_table name="speed_levels">
-				<float name="speed_level_0" value="3.25" overrideParent="True" />
-				<float name="speed_level_1" value="3.75" overrideParent="True" />
+			<enum_table name="speed_levels" overrideParent="True">
+				<float name="speed_level_0" value="1" overrideParent="True" />
+				<float name="speed_level_1" value="2.5" overrideParent="True" />
 				<float name="speed_level_2" value="4" overrideParent="True" />
-				<float name="speed_level_3" value="4.25" overrideParent="True" />
-				<float name="speed_level_4" value="4.75" overrideParent="True" />
+				<float name="speed_level_3" value="5" overrideParent="True" />
+				<float name="speed_level_4" value="5" overrideParent="True" />
 			</enum_table>
 			<instance_reference name="navigation_agent_info" value="navigation\agent_info\default_infantry" overrideParent="True" />
-			<enum_table name="speed_scaling_table">
-				<float name="default_speed" value="4.75" overrideParent="True" />
+			<enum_table name="speed_scaling_table" overrideParent="True">
+				<float name="default_speed" value="4.5" overrideParent="True" />
+				<float name="min_speed" value="0" />
+				<float name="max_speed" value="8" />
 			</enum_table>
+			<float name="deceleration" value="-1" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="723780272" List.ParentItemID="723780272">
+			<string name="default_animation" value="navigation\idle_calm_basic_02" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-160747469" List.ParentItemID="-160747469">
-			<instance_reference name="schema" value="statemodel_schema\units\shaolin_monk_chi_ha_01" overrideParent="True" />
+			<instance_reference name="schema" value="statemodel_schema\units\ikko_ikki_monk_jpn_ha_sen" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-311728134" List.ListAction="Append">
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="1799214438">
 					<group name="tier" List.ItemID="-744086683">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\japanese\units\tier3_monk_jpn" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\japanese_ha_sen\units\tier3_ikko_monk_jpn_ha_sen" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />
@@ -82,6 +99,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>
@@ -92,28 +110,7 @@
 				<group name="hardpoint" List.ItemID="816411483">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table" overrideParent="True">
-						<group name="weapon" List.ItemID="1671515975">
-							<group name="heading">
-								<float name="x" value="0" />
-								<float name="y" value="0" />
-								<float name="z" value="1" />
-							</group>
-							<float name="length" value="0" />
-							<group name="origin">
-								<float name="x" value="0" />
-								<float name="y" value="0" />
-								<float name="z" value="0" />
-							</group>
-							<enum name="type" value="default" />
-							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
-							</template_reference>
-							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\japanese\melee\weapon_sohei_4_jpn" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\japanese\weapons\wpn_melee_onna_bugeisha_jpn" overrideParent="True" />
-								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
-							</template_reference>
-						</group>
-						<group name="weapon" List.ItemID="47204048">
+						<group name="weapon" List.ItemID="878356340">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -129,9 +126,51 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\rus\ranged\weapon_torch_rus" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_siege_torch_rus" overrideParent="True" />
-								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\japanese_ha_sen\melee\weapon_ikko_monk_3_jpn_ha_sen" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\japanese_ha_sen\weapons\wpn_melee_ikko_monk_3_jpn_ha_sen" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
+							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="-587620388">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\japanese_ha_sen\ranged\weapon_torch_ikko_ikki_jpn_ha_sen" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\chinese\weapons\wpn_siege_torch_chi" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
+							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="-120382259">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\japanese_ha_sen\melee\weapon_ikko_monk_3_charge_jpn_ha_sen" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\japanese_ha_sen\weapons\wpn_melee_ikko_monk_3_charge_jpn_ha_sen" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
 					</list>
@@ -168,7 +207,7 @@
 			<int name="block_ranged_incoming_attack_sequence_length" value="1" />
 			<int name="block_projectile_incoming_attack_sequence_length" value="1" />
 			<int name="block_projectile_blocks_per_sequence" value="0" />
-			<float name="scan_interval_cached_target_invalid" value="2" overrideParent="True" />
+			<float name="scan_interval_cached_target_invalid" value="1" overrideParent="True" />
 			<float name="scan_interval_cached_target_valid" value="2" overrideParent="True" />
 			<group name="combat_scan_intervals">
 				<group name="attack_move_scan_intervals">
@@ -194,6 +233,63 @@
 			</list>
 			<list name="block_ignore_damage_types">
 			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\stimulus_emission_ext" List.ItemID="-1982819848" List.ListAction="Append">
+			<list name="emittable_stimulus_types">
+				<enum name="stimulus_type" value="group_retaliation" List.ItemID="-1524079359" List.ParentItemID="-1524079359" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\stimulus_perception_ext" List.ItemID="-112034726" List.ListAction="Append">
+			<enum_table name="stimulus_perception_info">
+				<group name="charge">
+					<bool name="enable_perception" value="False" />
+					<template_reference name="perception_requirement" value="">
+					</template_reference>
+				</group>
+				<group name="herding_interest">
+					<bool name="enable_perception" value="False" />
+					<template_reference name="perception_requirement" value="">
+					</template_reference>
+				</group>
+				<group name="tense">
+					<bool name="enable_perception" value="False" />
+					<template_reference name="perception_requirement" value="">
+					</template_reference>
+				</group>
+				<group name="shock">
+					<bool name="enable_perception" value="False" />
+					<template_reference name="perception_requirement" value="">
+					</template_reference>
+				</group>
+				<group name="evacuate_area">
+					<bool name="enable_perception" value="False" />
+					<template_reference name="perception_requirement" value="">
+					</template_reference>
+				</group>
+				<group name="dropoff_resource">
+					<bool name="enable_perception" value="False" />
+					<template_reference name="perception_requirement" value="">
+					</template_reference>
+				</group>
+				<group name="group_retaliation">
+					<bool name="enable_perception" value="True" />
+					<template_reference name="perception_requirement" value="stimulus_perception_requirement">
+						<group name="facing_requirement">
+							<float name="facing_angle_range" value="360" />
+						</group>
+						<group name="alliance_requirement">
+							<bool name="ally" value="True" />
+							<bool name="enemy" value="False" />
+							<bool name="neutral" value="False" />
+						</group>
+					</template_reference>
+				</group>
+				<group name="hunting_cabin_destroyed">
+					<bool name="enable_perception" value="False" />
+					<template_reference name="perception_requirement" value="">
+					</template_reference>
+				</group>
+			</enum_table>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073742205" />

@@ -41,8 +41,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="1895663220">
 					<group name="tier" List.ItemID="-2120606386">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\sultanate\units\tier4_handcannon_sul" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
@@ -59,26 +57,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
-					</group>
-					<group name="tier" List.ItemID="-1568006308">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\sultanate\units\tier4_handcannon_sul" overrideParent="True" />
-						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
-							<state_tree_node name="ActionTree_OpeningBranch" value="" overrideParent="True" />
-							<bool name="start_suspended" value="False" />
-						</template_reference>
-						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\races\common\upgrade_gunpowder_empire" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="ebps\races\sultanate\units\unit_handcannon_5_sul" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="sbps\races\sultanate\unit_handcannon_5_sul" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<string name="tier_attachment_action" value="" />
-						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
-							<bool name="reissue_commands" value="False" />
-							<bool name="continue_state_trees" value="True" />
-							<bool name="remove_from_pending_deaths" value="False" />
-							<bool name="enable_all_extensions" value="True" />
-						</template_reference>
-						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

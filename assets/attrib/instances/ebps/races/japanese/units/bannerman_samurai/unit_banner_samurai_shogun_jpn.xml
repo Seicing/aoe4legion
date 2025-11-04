@@ -36,6 +36,10 @@
 		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="292027156" List.ParentItemID="292027156">
 			<instance_reference name="hit_material" value="hit_material\armour" overrideParent="True" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="1370643066" List.ParentItemID="1370643066">
+			<float name="medic_pop" value="0" overrideParent="True" />
+			<float name="personnel_pop" value="0" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-782585427" List.ParentItemID="-782585427">
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\japanese" overrideParent="True" List.ItemID="1017995517" />
@@ -136,8 +140,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="-1463347264">
 					<group name="tier" List.ItemID="1141477188">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\japanese\units\tier4_manatarms_jpn" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
@@ -154,6 +156,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

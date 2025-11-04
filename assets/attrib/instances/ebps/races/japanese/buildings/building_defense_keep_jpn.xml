@@ -1002,7 +1002,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-57558359" List.ParentItemID="-57558359">
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_teppou_denrai_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="64948234" List.ListAction="Append" />
+				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_shogunate_jpn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="64948234" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="-630964933" List.ParentItemID="-630964933">
@@ -1060,8 +1060,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="-678469873">
 					<group name="tier" List.ItemID="-2045682226">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\japanese\buildings\defense_keep_jpn\tier3_keep_jpn" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -1078,12 +1076,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" overrideParent="True" List.ItemID="446858478">
 					<group name="tier" List.ItemID="273786202">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\outskirts\military\keep" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -1100,6 +1097,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

@@ -50,9 +50,9 @@
 161,,Produziert Wyngarde Yeoman bestehend aus 4 Langbogenschützen und 3 Wynguard Rangern.
 162,,"Produziert eine Gendarmerie bestehend aus 3 königlichen Rittern, 2 Reitern und 1 berittenem Armbrustschützen."
 163,,Produziert einen Picardie-Armee mit 3 Waffenknechten und 3 Arbalétriers.
-164,,Produziert Schweizer Söldner mit 4 Hellebarden und 2 Schwere Speerkämpfer.
+164,,Produziert Schweizer Söldner mit 6 Hellebardiers.
 165,,Produziert Doppelsoldner von 2 Culverins und 4 Handkanonieren.
-167,,"Produziert eine Landsknecht-Legion bestehend aus 2 Landsknechten, 2 Waffenknechten, 2 Schwere Speerkämpfer, 2 Hellebarden und 2 Handkanonieren."
+167,,"Produziert eine Landsknecht-Legion bestehend aus 2 Landsknechten, 2 Waffenknechten, 2 Speerkämpfer, 2 Hellebardiers und 2 Handkanonieren."
 168,,Produziert Akinji Räuber mit 4 Sipahi und 2 Akinji.
 169,,Produziert ein serbisches Regiment bestehend aus 3 Bojarenrittern und 3 Bojarenkriegern.
 170,,Produziert ein türkisches Lehen von 3 Sipahi und 3 Lancer.
@@ -60,7 +60,7 @@
 172,,Produziert schwarze Klobuks aus 4 Reitern und 2 berittenen Bogenschützen.
 173,,Produziert opritschnik aus 5 Streltsy.
 174,,"Produziert Tataren, Söldner von 3 Keshiks und 3 Mangudai."
-175,,"Produziert Verlorener Haufen von 1 Landsknecht, 2 Schwere Speerkämpfer und 2 Hellebarden."
+175,,Produziert Verlorener Haufen von 1 Landsknecht und 4 Hellebardiers.
 176,,Produziert Mansabdar von 1 Kriegselefanten und 1 Elite-Turmelefanten des Sultans.
 177,,Mansabdar
 180,,Bojarischer Krieger
@@ -144,7 +144,7 @@
 315,,Deutsches Kavallerie
 317,,Elite Keshik
 318,,Elite Keshik
-319,,Highgate-Wächter
+319,,Devsirme-System
 320,,Militärschulen Technologie
 322,,Produziert Mandekalu von 6 Mansa-Freigeborenen-Reitern.
 323,,Mandekalu 
@@ -182,10 +182,10 @@
 406,,Ritter des Deutschen Ordens
 407,,Tagmata
 408,,Nordische Wache
-409,,Legionäre
+409,,Themata
 410,,Produziert Tagmata von 6 Kataphrakten.
 411,,Produziert die nordische Garde von 4 Waräger-Wachen und 2 nordischen Kriegern.
-412,,Produziert Legionäre mit 10 Limitanei.
+412,,Produziert Themata mit 10 Limitanei.
 413,,"Produziert ein Teppou-Regiment mit 5 Handfeuerwaffen Ashigaru und 1 Teppou Bannerman Wenn die Bannerman-Bevölkerung das Limit erreicht, werden 6 Handfeuerwaffen Ashigaru produziert."
 414,,Teppou Regiment
 415,,"Produziert ein Akazonae-Regiment bestehend aus 3 berittenen Samurai, 2 Reitern und 1 Uma-Bannerträger, wenn die Bannerman-Bevölkerung das Limit erreicht, produziert 4 berittene Samurai und 2 Reiter."
@@ -252,7 +252,7 @@
 526,,Yuan Räuber
 531,,Der Aufstieg des Imperiums
 537,,Technologie der Handfeuerwaffen
-538,,Gesundheit und Schaden von Bannerman-Einheiten +%1%%% und Schaden +%2%.
+538,,Erhöht die Gesundheit von Bannerherren und Daimyos um +%1%%% und ihren Schaden um +%2%. Schaltet einen mächtigen Shogun frei.
 539,,Shogunat
 541,,Schrotflinte
 544,,Schrotflinte
@@ -264,7 +264,7 @@
 553,,"Der geschickte Ritter aus Osteuropa \r\n+ kann einem Ziel das nicht der Hauptangriff ist, Trampelschaden zufügen"
 554,,Produziere 4 zusätzliche Legionen und alle Legionen wurden reduziert.
 556,,Sohei
-558,,Japanischer Kampfmönch. \r\n\r\n+ Heilige Stätte und Relikt erobern \r\n+ Flächenschaden \r\n- Kann andere nicht heilen 
+558,,Japanischer Kampfmönch. \r\n\r\n+ Heilige Stätte und Relikt erobern \r\n- Kann andere nicht heilen 
 559,,"Schaltet den buddhistischen Mönch frei, der -%1%% billiger ist, den gegnerischen Schaden um -%2% schwächen kann und verbündeten Einheiten in der Nähe +%3%%% Schaden zufügt, während er Konversion wirkt. Can produziert hier Sohei."
 560,,"Unterstützungseinheit ohne Kampffähigkeit. Kann in einer Moschee oder Madrasa stationiert werden, um die Technologie schneller zu erforschen. Kann Relikte aufheben, feindliche Einheiten umwandeln und heilige Stätten erobern, beginnend im Burgzeitalter (III). \r\n+ Heilt verbündete Einheiten \r\n+ Es ist keine Bevölkerung erforderlich, aber maximal 25 Training \r\n- Niedrige Gesundheit"
 561,,Rinder in der Nähe liefern 1 % Futter pro Minute. Dorfbewohner können Ressourcen an diesem Gebäude abgeben. Kann in diesem Gebäude Rinder trainieren.
@@ -295,7 +295,7 @@
 591,,"Kavallerie regeneriert alle %2% Sekunden +%1% Gesundheit, wenn sie sich außerhalb des Kampfes befinden."
 592,,"Kavallerie regeneriert alle %2% Sekunden +%1% Gesundheit, wenn sie sich außerhalb des Kampfes befinden."
 594,,Beherbergt eine Reihe einzigartiger Upgrades. \r\n\r\nKann Yuan-Plünderer und Imperiale Wachen freischalten. Nur %1% Technologien können erforscht werden.
-595,,"Fungiert als Kaserne, die %1%%% schneller produziert, Infanterie erhält +%2%%% Angriffsschaden. kann hier Legion und Legion Commander produzieren."
+595,,"Fungiert als Kaserne, die %1%%% schneller produziert, Infanterie erhält +%2%%% Angriffsschaden. kann hier Hellebardier, Legion und Legion Commander produzieren."
 596,,"Fungiert als Kaserne, die Einheiten %1%%% schneller und %2%%% billiger produziert, Forschungstechnologie %3%%% schneller, kann hier Legion und Legion Commander produzieren."
 599,,Technologie des Golden Horn Tower
 600,,"Infanterie und Kataphrakt regenerieren alle %2% Sekunden +%1% Gesundheit, wenn sie sich außerhalb des Kampfes befinden."
@@ -307,7 +307,7 @@
 606,,Tarkan
 607,,Kavalleriekampf mit Brennende Fackel \r\n+ Verursacht Flächenschaden \r\n+ Hohe Fernkampfrüstung \r\n- Schwach im Nahkampf
 608,,Fackel
-609,,"Kavallerie Gesundheit +%2%, Erhöht die Reichweite von Mangudai und Khan um +%1%."
+609,,"Kavallerie Gesundheit +%2%, Erhöht die Reichweite von Berittener Bogenschütze um +%1%."
 610,,Mangudai-Technologie
 611,,"Produziert das Gokenin-Regiment mit 5 Samurai und 1 Katana-Bannerträger, wenn die Bannerman-Bevölkerung das Limit erreicht, produziert 6 Samurai."
 612,,Gokenin-Regiment
@@ -373,7 +373,7 @@
 695,,"Ein Spionage-Landmark mit einem Sichtradius von %1% und der Fähigkeit Imperiale Spione. Aktivieren, um den Standort der gegnerischen Arbeiter für %2% Sekunden anzuzeigen. \r\n- Kann einzigartige Legion produzieren. \r\n- Imperiale Beamte können in diesem Gebäude Steuern abgeben."
 696,,Erhöht den Sturmschaden von Kavallerie um +12.
 697,,Verheerende Ladung
-698,,Befördert Lanzenreiter zu einem Kapikulu Sipahi.
+698,,Befördert Lanzenreiter zu einem Kapikulu Sipahi. Erhöht die Produktionsgeschwindigkeit von Legionen um +%1%%%.
 699,,Bohrung
 700,,Gbara
 701,,Elefant des Mansabdar-Turms
@@ -441,8 +441,8 @@
 763,,Es können nur 2 Logotheten ausgebildet werden.
 764,,Hochofen
 765,,Schalte Logotheten mit %1% Trainingslimit frei.
-766,,Die Kosten für den Handkanonieren -25%.
-767,,Schießpulver-Imperium
+766,,Der Reichtum fließt durch das Reich wie der Ganges und bringt jede Minute %1% Goldeinnahmen.
+767,,Mandala
 768,,Pikenier
 769,,Pikenier
 770,,Infanterietechnik
@@ -456,7 +456,7 @@
 778,,Erlauben Sie zu Produkten Uhrturm Einheiten und Kaiserpalast Verbotene Armee Legion.
 779,,Shogun
 780,,"Mächtige japanische Militärführer, Flächenschaden verursachen."
-781,,Produziert Hussitenaufstand bestehend aus 3 Armbrustschützen und 3 Hellebarden. Diese hussitischen Krieger können auf dem Schlachtfeld hussitische Wagen bauen.
+781,,Produziert Hussitenaufstand bestehend aus 3 Armbrustschützen und 3 Hellebardiers. Diese hussitischen Krieger können auf dem Schlachtfeld hussitische Wagen bauen.
 782,,Hussitenaufstand
 783,,Disziplin
 784,,Aufstand
@@ -522,11 +522,11 @@
 844,,Ruine des Vergessenen Imperiums: Kann kontinuierlich Steinressourcen erhalten.\r\n- Kann nur 1 Ruine ausgraben\r\n- Teuer und zerbrechlich
 845,,Ruine des Imperiums
 846,,Ruine des Imperiums
-847,,"Gebt 500 Olivenöl aus, damit sich Einheiten in der Nähe innerhalb von 10 Sekunden schnell regenerieren können, Abklingzeit 30 Sekunden."
+847,,"Gebt 500 Olivenöl oder Silber aus, damit sich Einheiten in der Nähe innerhalb von 10 Sekunden schnell regenerieren können, Abklingzeit 30 Sekunden."
 848,,Feudum
 849,,Ein ausgeklügeltes Feudalsystem ermöglicht den schnellen Einsatz der Lancaster-Lords durch Festungen an der Front.
 850,,Wächter des Heiligen Landes
-851,,"Produziert Wächter des Heiligen Landes aus 3 Elite Hospitalitern und 2 Deutschritter"
+851,,Produziert Wächter des Heiligen Landes aus 3 Elite Hospitalitern und 2 Deutschritter
 852,,"Sultan Elephant kann die Ruinen des Imperiums nicht ausgraben, dies muss von Phalangit erledigt werden."
 853,,"Produziert Wyngarde-Ritter aus 1 Wyngarde-Ritter, 1 Chevaucher, 2 Demilancer und 3 Hobelars"
 854,,Wyngarde-Ritter
@@ -547,3 +547,31 @@
 869,,Produziert Wyngarde-Artillerie mit 4 Handkanonen und 1 Feldschlange. Durch die Erforschung von Burgundischen Importen kann die Produktion um ein Zeitalter vorgezogen werden.
 870,,Produziert Genuesischen Söldner aus 3 Condottiero und 3 genuesischen Armbrustschützen.
 871,,Genuesischen Söldner
+872,,Armenioi
+873,,Produziert Armenioi aus 2 gepanzerten Bogenschützen und 4 Reitern
+874,,Produziert Athanatoi aus 5 Kataphrakten
+875,,Athanatoi
+876,,Normannischen Söldner
+877,,Produziert Normannischen Söldner aus 3 normannischen Rittern und 3 Sergeanten
+878,,Produziert Tagmata aus 5 Riddari
+879,,Tagmata
+880,,Paik
+881,,Produziert Paik aus 6 Speerkämpfern und 4 Bogenschützen
+882,,"Produziert Hathisena aus 1 Kriegselefanten, 1 Heilerelefanten, 1 Raiderelefanten und 1 Ballista-Elefanten"
+883,,Hathisena
+884,,Akazonae-Regiment
+885,,Produziert Akazonae-Regiment aus 3 Yari-Kavallerie und 3 berittenen Samurai
+886,,Produziert Kitetsu-Regiment aus 5 Berittene Kanoniere
+887,,Kitetsu-Regiment
+888,,Teppou-Regiment
+889,,Produziert Teppou-Regiment aus 6 Tanegashima Ashigaru
+890,,Yamabushi
+891,,Produziert Yamabushi aus 3 Ikko-ikki und 3 Kanabo Samurai
+892,,Schwere Fernkampfkavallerie
+893,,Schütze der aus dem Stand mit einer speziellen Arkebuse feuert.\r\n+ Hohe Mobilität
+894,,Akolouthos
+895,,"Warägerische Militärführer können Silber ausgeben, um die Kampfkraft ihrer Truppen zu erhöhen."
+896,,Normannischer Ritter
+897,,Beg
+898,,Die Militärführer der Goldenen Horde konnten Batu Khan vor Fernangriffen schützen.
+899,,Berittener Schütze

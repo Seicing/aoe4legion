@@ -167,8 +167,6 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="-1419212904" List.ParentItemID="-1419212904">
 					<group name="tier" List.ItemID="1368001591" List.ParentItemID="1368001591">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\lancaster\units\warwolf_trebuchet_lan" overrideParent="True" />
 					</group>
 				</list>

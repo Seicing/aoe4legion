@@ -184,8 +184,6 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="1353601230">
 					<group name="tier" List.ItemID="-1617973473">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\buildings\landmark_la_chateau_rouge_fre\landmark_la_chateau_rouge_fre" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -202,12 +200,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" List.ItemID="486032895">
 					<group name="tier" List.ItemID="-584115825">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\hre\outskirts\wonders\won_hcastle" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -224,6 +221,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>
@@ -2212,10 +2210,10 @@
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1010848324" />
 						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1806238931" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1518502591" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="116595549" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1937559917" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1261145116" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1518502591" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="116595549" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1937559917" />
+						<instance_reference name="additional_squad" value="sbps\races\french\unit_pikeman_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1261145116" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">

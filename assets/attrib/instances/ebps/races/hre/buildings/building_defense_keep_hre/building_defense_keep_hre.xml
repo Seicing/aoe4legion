@@ -172,8 +172,8 @@
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_landsknecht_3_hre" overrideParent="True" List.ItemID="-630168800" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1490296078" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1746390123" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1490296078" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1746390123" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="204843170" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_pikeman_4_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="839532576" />
 					</list>
@@ -242,7 +242,7 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1726043931" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" overrideParent="True" List.ItemID="1726043931" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_landsknecht_3_hre" overrideParent="True" List.ItemID="-776807473" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_manatarms_2_hre" overrideParent="True" List.ItemID="44851928" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_handcannon_4_hre" overrideParent="True" List.ItemID="242397986" />
@@ -251,7 +251,7 @@
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_handcannon_4_hre" overrideParent="True" List.ItemID="439285822" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_landsknecht_3_hre" overrideParent="True" List.ItemID="-492704091" />
 						<instance_reference name="additional_squad" value="sbps\races\hre\unit_manatarms_2_hre" overrideParent="True" List.ItemID="964314861" />
-						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1856472668" />
+						<instance_reference name="additional_squad" value="sbps\races\hre\unit_spearman_1_hre" overrideParent="True" List.ItemID="1856472668" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -568,8 +568,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="1875880046">
 					<group name="tier" List.ItemID="-575603621">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\hre\buildings\defense_keep_hre\tier3_keep_hre" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -586,12 +584,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" overrideParent="True" List.ItemID="-1832669364">
 					<group name="tier" List.ItemID="60033035">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\outskirts\military\keep" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -608,6 +605,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

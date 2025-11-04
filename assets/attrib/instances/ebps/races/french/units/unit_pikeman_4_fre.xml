@@ -46,7 +46,7 @@
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\melee\weapon_heavy_spearman_4_tem" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\templar\weapons\wpn_melee_heavy_spearman_4_tem" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rogue\wpn_melee_merc_spearman_rogue" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 							<group name="origin">
@@ -88,7 +88,7 @@
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\melee\weapon_heavy_spearman_4_brace_tem" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\templar\weapons\wpn_melee_heavy_spearman_4_tem" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rogue\wpn_melee_merc_spearman_rogue" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 							<group name="heading">
@@ -109,7 +109,7 @@
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\melee\weapon_heavy_spearman_4_charge_tem" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\templar\weapons\wpn_melee_heavy_spearman_4_tem" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rogue\wpn_melee_merc_spearman_rogue" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 							<group name="heading">
@@ -153,9 +153,7 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="-1585512301">
 					<group name="tier" List.ItemID="-541013613">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\units\commanderie\heavy_spearman_4_tem" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\rogue\units\tier1_mercenary_spearman_rogue" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />
@@ -171,6 +169,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

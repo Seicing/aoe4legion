@@ -59,10 +59,10 @@
 					<instance_reference name="squad" value="sbps\races\sultanate\unit_villager_1_sul" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<group name="ui_position">
-						<int name="ui_position_row" value="1" />
-						<int name="ui_position_column" value="1" />
+						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_column" value="4" overrideParent="True" />
 					</group>
-					<instance_reference name="ui_menu" value="menu\sultanate\keep_town_center_menu_sul" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<enum_table name="item_cost_adjustment">
 						<float name="action" value="0" />
@@ -123,10 +123,10 @@
 					<instance_reference name="squad" value="sbps\races\sultanate\unit_scout_1_sul" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 					<group name="ui_position">
-						<int name="ui_position_row" value="1" />
-						<int name="ui_position_column" value="2" />
+						<int name="ui_position_row" value="2" overrideParent="True" />
+						<int name="ui_position_column" value="3" overrideParent="True" />
 					</group>
-					<instance_reference name="ui_menu" value="menu\sultanate\keep_town_center_menu_sul" overrideParent="True" />
+					<instance_reference name="ui_menu" value="menu\building_keep_upgrade" overrideParent="True" />
 					<int name="number_to_spawn" value="1" />
 					<enum_table name="item_cost_adjustment">
 						<float name="action" value="0" />
@@ -821,8 +821,6 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="241158350">
 					<group name="tier" List.ItemID="1161450121">
-						<list name="tier_requirements" overrideParent="True">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\sultanate\buildings\defense_keep_sul\tier3_keep_control_sul" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -839,12 +837,11 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 				<list name="tier_group" overrideParent="True" List.ItemID="-975731735">
 					<group name="tier" List.ItemID="1748928749">
-						<list name="tier_requirements">
-						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\outskirts\military\keep" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
@@ -861,6 +858,7 @@
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
 				</list>
 			</list>

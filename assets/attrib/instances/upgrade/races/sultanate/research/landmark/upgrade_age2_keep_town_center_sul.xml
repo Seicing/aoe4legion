@@ -87,6 +87,7 @@
 			<locstring name="extra_text_controller" value="0" />
 			<int name="custom_data_index" value="0" />
 			<bool name="is_unique_to_race" value="True" />
+			<file name="icon_alternate_name" value="" />
 		</group>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="2006720011">
@@ -141,7 +142,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_keep_sul\update_allowed_rally_types" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
@@ -167,6 +168,7 @@
 			<state_tree_node name="apply_to_filter_condition_statetree_ref" value="" />
 			<enum name="apply_to_target_type" value="entity" />
 			<list name="apply_to_unit_classes">
+				<enum name="unit_class" value="scar_keep" List.ItemID="1512520399" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
@@ -195,6 +197,7 @@
 		<enum name="ui_group_cast_type" value="single" />
 		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_keep\tech_upgrade_village_fortresses_sul" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
+		<bool name="apply_player_upgrades_when_entity_or_squad_ownership_changes" value="False" />
 	</group>
 	<uniqueid name="pbgid" value="200170" />
 	<instance_reference name="parent_pbg" value="" />
