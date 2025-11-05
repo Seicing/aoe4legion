@@ -85,7 +85,7 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="-258728879" List.ParentItemID="-258728879">
 					<group name="tier" List.ItemID="-188186770" List.ParentItemID="-188186770">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\campaign\unit_foot_knight_2_eng" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\byzantine_ha_mac\units\tier3_spearman_byz_ha_mac" overrideParent="True" />
 					</group>
 				</list>
 			</list>

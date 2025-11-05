@@ -561,7 +561,7 @@
 883,,,screen_name,,,Hathisena
 884,,,screen_name,,,Akazonae Regiment
 885,,,help_text,,,Produces Akazonae Regiment of 3 Yari Cavalry and 3 Mounted Samurai
-886,,,help_text,,,Produces Kitetsu Regiment of 5 Mounted Gunners
+886,,,help_text,,,Produces Kitetsu Regiment of 5 Mounted Arquebusiers
 887,,,screen_name,,,Kitetsu Regiment
 888,,,screen_name,,,Teppou Regiment
 889,,,help_text,,,Produces Teppou Regiment of 6 Tanegashima Ashigaru
@@ -574,4 +574,4 @@
 896,,,screen_name,,,Norman Knight
 897,,,screen_name,,,Beg
 898,,,formatter,,,The military leaders of the Golden Horde could protect Batu Khan from ranged attacks.
-899,,,screen_name,,,Mounted Gunner
+899,,,screen_name,,,Mounted Arquebusier
