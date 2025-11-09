@@ -27,7 +27,7 @@
 				<float name="Melee" value="6" overrideParent="True" />
 				<float name="Ranged" value="6" overrideParent="True" />
 			</enum_table>
-			<float name="hitpoints" value="170" overrideParent="True" />
+			<float name="hitpoints" value="195" overrideParent="True" />
 			<float name="regeneration" value="0.125" overrideParent="True" />
 			<bool name="regeneration_disabled" value="False" overrideParent="True" />
 		</template_reference>
