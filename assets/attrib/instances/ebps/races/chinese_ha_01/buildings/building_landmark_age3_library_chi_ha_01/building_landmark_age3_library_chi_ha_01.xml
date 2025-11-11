@@ -134,7 +134,7 @@
 				<list name="formatter_arguments">
 					<int name="int_value" value="4" overrideParent="True" List.ItemID="141483562" />
 				</list>
-				<locstring name="formatter" value="594" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+				<locstring name="formatter" value="11247555" overrideParent="True" />
 			</template_reference>
 			<locstring name="screen_name" value="11247554" overrideParent="True" />
 			<locstring name="extra_text" value="11232070" overrideParent="True" />

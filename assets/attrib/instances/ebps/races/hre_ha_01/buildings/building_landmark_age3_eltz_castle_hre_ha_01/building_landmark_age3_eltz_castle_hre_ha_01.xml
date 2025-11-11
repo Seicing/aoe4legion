@@ -458,7 +458,6 @@
 				<enum name="unit_type" value="has_default_building_weapons" List.ItemID="2071168798" />
 				<enum name="unit_type" value="relic_dropoff" List.ItemID="-1347535626" />
 				<enum name="unit_type" value="monastery" List.ItemID="1334012129" />
-				<enum name="unit_type" value="scar_keep" List.ItemID="-821526402" />
 				<enum name="unit_type" value="audio_production_landmark" List.ItemID="-1115299963" />
 				<enum name="unit_type" value="town_center_or_landmark" List.ItemID="-174645725" />
 			</list>

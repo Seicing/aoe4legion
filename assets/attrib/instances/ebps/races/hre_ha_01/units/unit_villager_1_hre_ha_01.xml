@@ -49,7 +49,7 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\hre_ha_01\ranged\weapon_torch_weak_hre_ha_01" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_torch_weak" overrideParent="True" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_siege_torch_weak_hre" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
@@ -112,7 +112,7 @@
 					<float name="gather_rate" value="1.28" overrideParent="True" />
 				</group>
 				<group name="gather_target" List.ItemID="529123602" List.ParentItemID="529123602">
-					<float name="gather_rate" value="0.8448" overrideParent="True" />
+					<float name="gather_rate" value="0.8832" overrideParent="True" />
 				</group>
 				<group name="gather_target" List.ItemID="-150619075" List.ParentItemID="-150619075">
 					<float name="gather_rate" value="0.8448" overrideParent="True" />

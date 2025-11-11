@@ -435,7 +435,6 @@
 				<enum name="unit_type" value="castle" List.ItemID="818371948" />
 				<enum name="unit_type" value="town_bell_target" List.ItemID="-1527427492" />
 				<enum name="unit_type" value="military_only_production" List.ItemID="-1831977180" />
-				<enum name="unit_type" value="scar_keep" List.ItemID="1946764611" />
 				<enum name="unit_type" value="audio_production_landmark" List.ItemID="-529909767" />
 				<enum name="unit_type" value="town_center_or_landmark" List.ItemID="2120829492" />
 				<enum name="unit_type" value="cavalry_production_landmark" List.ItemID="-502423974" />

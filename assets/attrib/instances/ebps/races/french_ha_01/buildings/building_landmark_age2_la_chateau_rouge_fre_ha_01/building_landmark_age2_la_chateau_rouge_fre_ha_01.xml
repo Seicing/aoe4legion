@@ -94,7 +94,6 @@
 				<enum name="unit_type" value="defensive_structure" List.ItemID="833098953" List.ListAction="Append" />
 				<enum name="unit_type" value="castle" List.ItemID="-1530853004" List.ListAction="Append" />
 				<enum name="unit_type" value="has_default_building_weapons" List.ItemID="2219121" List.ListAction="Append" />
-				<enum name="unit_type" value="scar_keep" List.ItemID="499797478" List.ListAction="Append" />
 			</list>
 			<list name="race_type_list">
 				<instance_reference name="race_type" value="racebps\french_ha_01" overrideParent="True" List.ItemID="166731922" List.ListAction="Append" />

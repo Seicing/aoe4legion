@@ -68,6 +68,13 @@
 				</template_reference>
 			</list>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="1912001137" List.ParentItemID="1912001137">
+			<list name="action_state_trees">
+				<group name="container" List.ItemID="-134558259" List.ListAction="Append">
+					<string name="state_tree" value="upgrade_winds_of_change_reapply\reapplybuffs" />
+				</group>
+			</list>
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="442418202" List.ParentItemID="442418202">
 			<state_tree_node name="death_action_tree" value="building_death_actions\landmarks\landmarks_age1\mongol_kurultai" overrideParent="True" />
 		</template_reference>

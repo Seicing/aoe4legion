@@ -93,7 +93,6 @@
 			<list name="unit_type_list">
 				<enum name="unit_type" value="castle" List.ItemID="835521239" List.ListAction="Append" />
 				<enum name="unit_type" value="has_default_building_weapons" List.ItemID="185729032" List.ListAction="Append" />
-				<enum name="unit_type" value="scar_keep" List.ItemID="1350206471" List.ListAction="Append" />
 				<enum name="unit_type" value="town_bell_target" List.ItemID="-1870801330" List.ListAction="Append" />
 				<enum name="unit_type" value="defensive_structure" List.ItemID="-2121404399" List.ListAction="Append" />
 			</list>

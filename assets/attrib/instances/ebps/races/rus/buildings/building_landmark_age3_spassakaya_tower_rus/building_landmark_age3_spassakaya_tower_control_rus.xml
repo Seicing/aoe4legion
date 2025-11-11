@@ -102,7 +102,6 @@
 				<enum name="unit_type" value="defensive_structure" List.ItemID="-2147295939" />
 				<enum name="unit_type" value="has_default_building_weapons" List.ItemID="-783917958" />
 				<enum name="unit_type" value="military" List.ItemID="1952440858" />
-				<enum name="unit_type" value="scar_keep" List.ItemID="-1688633097" />
 				<enum name="unit_type" value="town_bell_target" List.ItemID="-468483193" />
 				<enum name="unit_type" value="audio_production_landmark" List.ItemID="-975699321" />
 				<enum name="unit_type" value="town_center_or_landmark" List.ItemID="926444712" />

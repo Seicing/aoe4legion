@@ -34,6 +34,7 @@
 			</list>
 			<list name="unit_type_list" removedIds="886646609">
 				<enum name="unit_type" value="crossbow_incendiary_4" List.ItemID="-2107019473" List.ListAction="Append" />
+				<enum name="unit_type" value="arbalest_animate" List.ItemID="-1509756185" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="-1381607687" List.ParentItemID="-1381607687">

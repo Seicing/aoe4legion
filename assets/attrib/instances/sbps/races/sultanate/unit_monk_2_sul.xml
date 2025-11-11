@@ -88,6 +88,8 @@
 						<float name="minimap_texture_zoom_scale" value="0" />
 						<locstring name="help_text_controller" value="0" />
 						<locstring name="extra_text_controller" value="0" />
+						<file name="is_unique_to_race_icon_override" value="" />
+						<bool name="show_production_queue" value="False" />
 					</group>
 					<instance_reference name="ext_key" value="" />
 				</group>
@@ -337,6 +339,11 @@
 			<float name="capture_distance" value="10" />
 			<float name="capture_rate_multiplier" value="1" overrideParent="True" />
 			<float name="revert_rate_multiplier" value="1" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_game_mode_ext" List.ItemID="-1206227928">
+			<group name="capture_point">
+				<float name="capture_rate_multiplier" value="1" />
+			</group>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="136056" />

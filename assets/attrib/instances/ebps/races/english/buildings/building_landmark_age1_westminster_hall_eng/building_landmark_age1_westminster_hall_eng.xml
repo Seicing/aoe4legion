@@ -34,7 +34,8 @@
 			<locstring name="extra_text" value="11185344" />
 			<template_reference name="help_text_formatter" value="ui_text_formatter" overrideParent="True">
 				<list name="formatter_arguments" overrideParent="True">
-					<int name="int_value" value="100" List.ItemID="1923299499" />
+					<int name="int_value" value="100" List.ItemID="348207839" />
+					<int name="int_value" value="5" overrideParent="True" List.ItemID="-719468667" />
 				</list>
 				<locstring name="formatter" value="11246318" />
 			</template_reference>

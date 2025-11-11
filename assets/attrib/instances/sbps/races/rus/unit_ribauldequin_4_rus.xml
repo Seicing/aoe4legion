@@ -21,6 +21,8 @@
 			<list name="squad_race_type_list" overrideParent="True">
 				<instance_reference name="squad_race_type" value="racebps\rus" List.ItemID="1425079188" />
 			</list>
+			<list name="squad_type_list" removedIds="1922767004">
+			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-645029135" List.ParentItemID="-645029135">
 			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />

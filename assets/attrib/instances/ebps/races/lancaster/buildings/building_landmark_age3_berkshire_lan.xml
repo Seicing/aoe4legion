@@ -16,8 +16,9 @@
 			</group>
 			<template_reference name="help_text_formatter" value="ui_text_formatter" overrideParent="True">
 				<list name="formatter_arguments" overrideParent="True">
-					<float name="float_value" value="14.5" overrideParent="True" List.ItemID="-539658379" />
-					<float name="float_value" value="6" overrideParent="True" List.ItemID="1793414746" />
+					<float name="float_value" value="14.5" overrideParent="True" List.ItemID="-1453964160" />
+					<float name="float_value" value="6" overrideParent="True" List.ItemID="1798392903" />
+					<int name="int_value" value="3" overrideParent="True" List.ItemID="-983865433" />
 				</list>
 				<locstring name="formatter" value="11269139" />
 			</template_reference>
