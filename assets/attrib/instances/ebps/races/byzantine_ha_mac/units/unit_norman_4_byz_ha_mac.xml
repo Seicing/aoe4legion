@@ -20,9 +20,13 @@
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-788422057" List.ParentItemID="-788422057">
-			<float name="hitpoints" value="300" overrideParent="True" />
-			<float name="regeneration" value="0.125" overrideParent="True" />
+			<float name="hitpoints" value="160" overrideParent="True" />
+			<float name="regeneration" value="0.25" overrideParent="True" />
 			<bool name="regeneration_disabled" value="True" overrideParent="True" />
+			<enum_table name="armor_scaler_by_damage_type">
+				<float name="Melee" value="3" overrideParent="True" />
+				<float name="Ranged" value="3" overrideParent="True" />
+			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1786016482" List.ParentItemID="-1786016482">
 			<list name="race_type_list" overrideParent="True">

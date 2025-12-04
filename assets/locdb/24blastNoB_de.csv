@@ -522,7 +522,7 @@
 844,,Ruine des Vergessenen Imperiums: Kann kontinuierlich Steinressourcen erhalten.\r\n- Kann nur 1 Ruine ausgraben\r\n- Teuer und zerbrechlich
 845,,Ruine des Imperiums
 846,,Ruine des Imperiums
-847,,"Gebt 500 Olivenöl oder Silber aus, damit sich Einheiten in der Nähe innerhalb von 10 Sekunden schnell regenerieren können, Abklingzeit 30 Sekunden."
+847,,"Gebt 500 Olivenöl aus, damit sich Einheiten in der Nähe innerhalb von 10 Sekunden schnell regenerieren können, Abklingzeit 30 Sekunden."
 848,,Feudum
 849,,Ein ausgeklügeltes Feudalsystem ermöglicht den schnellen Einsatz der Lancaster-Lords durch Festungen an der Front.
 850,,Wächter des Heiligen Landes
@@ -573,5 +573,13 @@
 895,,"Warägerische Militärführer können Silber ausgeben, um die Kampfkraft ihrer Truppen zu erhöhen."
 896,,Normannischer Ritter
 897,,Beg
-898,,Die Militärführer der Goldenen Horde konnten Batu Khan vor Fernangriffen schützen.
+898,,"Die Militärführer der Goldenen Horde konnten Batu Khan vor feindlichen Angriffen schützen.\r\n\r\n- Kann als Mönch Reliquien sammeln\r\n\r\n- Trainiert maximal 2"
 899,,Berittener Schütze
+900,,"Gebt 500 Silber aus, damit sich Einheiten in der Nähe innerhalb von 10 Sekunden schnell regenerieren können, Abklingzeit 30 Sekunden."
+901,,"Lädt eine Fähigkeit zur Steigerung der Arbeitsrate von Militär- und Entwicklungsgebäuden auf. Bei Einsatz in einem Bergarbeiterlager, Holzfällerlager oder auf einem Feld verdienen Sie über %3% Sekunden hinweg %2% Gold, Holz oder Nahrung.\r\n\r\nBeinhaltet %4% Ladungen.\r\n\r\nBietet die Möglichkeit, Ressourcen gegen Silber einzutauschen."
+902,,"Durch den Schwarzmeerhandel erhalten Sie sofort %1% Silber."
+903,,Schwarzmeerhandel
+904,,Schwarzmeerhandel
+905,,Schwarzmeerhandel
+906,,Schwarzmeerhandel
+907,,Ressourcen austauschen

@@ -24,10 +24,10 @@
 					<float name="action" value="0" />
 					<float name="popcap" value="0" />
 					<float name="command" value="0" />
-					<float name="food" value="500" />
+					<float name="food" value="450" />
 					<float name="wood" value="0" />
 					<float name="stone" value="0" />
-					<float name="gold" value="400" />
+					<float name="gold" value="300" />
 					<float name="militia_hre" value="0" />
 					<float name="merc_byz" value="0" />
 				</enum_table>

@@ -552,8 +552,8 @@
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\sultanate_ha_tug\unit_war_elephant_raider_2_sul_ha_tug" overrideParent="True" List.ItemID="-1890339880" />
-						<instance_reference name="additional_squad" value="sbps\races\sultanate_ha_tug\unit_war_elephant_3_sul_ha_tug" overrideParent="True" List.ItemID="-1461348490" />
-						<instance_reference name="additional_squad" value="sbps\races\sultanate_ha_tug\unit_war_elephant_ballista_3_sul_ha_tug" overrideParent="True" List.ItemID="62820775" />
+						<instance_reference name="additional_squad" value="sbps\races\sultanate_ha_tug\unit_war_elephant_ballista_3_sul_ha_tug" overrideParent="True" List.ItemID="-1461348490" />
+						<instance_reference name="additional_squad" value="sbps\races\sultanate_ha_tug\unit_war_elephant_3_sul_ha_tug" overrideParent="True" List.ItemID="62820775" />
 						<instance_reference name="additional_squad" value="sbps\races\sultanate_ha_tug\unit_war_elephant_tower_healer_3_sul_ha_tug" overrideParent="True" List.ItemID="-1156941665" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />

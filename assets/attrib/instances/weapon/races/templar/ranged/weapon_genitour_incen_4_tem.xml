@@ -1,0 +1,30 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<string name="fx_munition_name" value="common\arrow_incendiary" overrideParent="True" />
+		<string name="name" value="Javelin Weapon" overrideParent="True" />
+		<group name="projectile">
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_javelin_fire_mounted" overrideParent="True" />
+		</group>
+		<group name="cooldown">
+			<group name="duration">
+				<float name="max" value="0" overrideParent="True" />
+				<float name="min" value="0" overrideParent="True" />
+			</group>
+		</group>
+		<group name="damage">
+			<float name="max" value="15" overrideParent="True" />
+		</group>
+		<group name="fire">
+			<float name="animation_impact_frame_time" value="0.25" overrideParent="True" />
+			<float name="wind_up" value="0.25" overrideParent="True" />
+		</group>
+		<locstring name="ui_name" value="11215221" overrideParent="True" />
+		<list name="target_type_table">
+			<group name="target_unit_type_multipliers" List.ItemID="-941105379" List.ParentItemID="-941105379">
+				<float name="base_damage_modifier" value="9" overrideParent="True" />
+			</group>
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="9000025" />
+	<instance_reference name="parent_pbg" value="weapon\races\templar\ranged\weapon_genitour_4_tem" mod="67987bbc33214c57b0617d9356614825" />
+</instance>

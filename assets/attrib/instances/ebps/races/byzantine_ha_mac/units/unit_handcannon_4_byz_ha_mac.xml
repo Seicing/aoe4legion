@@ -42,7 +42,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="988909736" List.ParentItemID="988909736">
 			<list name="events">
-				<instance_reference name="statetree_event" value="statetree_event\statetree_event\statetree_event_on_wall_infantry_byz_ha_mac" overrideParent="True" List.ItemID="-722784247" List.ParentItemID="-722784247" />
+				<instance_reference name="statetree_event" value="statetree_event\statetree_event\statetree_event_on_wall_infantry" overrideParent="True" List.ItemID="-722784247" List.ParentItemID="-722784247" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-1761061643" List.ParentItemID="-1761061643">

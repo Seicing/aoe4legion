@@ -522,7 +522,7 @@
 844,,,help_text,,,"Forgotten Empire Ruin, can obtain stone resources continuously.\r\n- Can only excavate 1 ruin\r\n- Expensive and fragile"
 845,,,screen_name,,,Empire Ruin
 846,,,extra_text,,,Empire Ruin
-847,,,help_text,,,"Spend 500 olive oil or silvers to let nearby Units regeneration quickly within 10 seconds, Cooldown 30 seconds."
+847,,,help_text,,,"Spend 500 olive oil to let nearby Units regeneration quickly within 10 seconds, Cooldown 30 seconds."
 848,,,screen_name,,,Feudum
 849,,,formatter,,,A sophisticated feudal system allows Lancaster lords to be quickly deployed by Keeps on the front lines.
 850,,,screen_name,,,Guardian of the Holy Land
@@ -573,5 +573,13 @@
 895,,,help_text,,,Varangian military leaders can spend silver to make their troops fight more vigorously.
 896,,,screen_name,,,Norman Knight
 897,,,screen_name,,,Beg
-898,,,formatter,,,The military leaders of the Golden Horde could protect Batu Khan from ranged attacks.
+898,,,formatter,,,"The military leaders of the Golden Horde could protect Batu Khan from enemy attacks.\r\n\r\n- Can collects relic as monk\r\n\r\n- Train maximum of 2"
 899,,,screen_name,,,Mounted Arquebusier
+900,,,help_text,,,"Spend 500 silver to let nearby Units regeneration quickly within 10 seconds, Cooldown 30 seconds."
+901,,,formatter,,,"Charges an ability used for boosting the work rate of military and research buildings. If used on a Mining Camp, Lumber Camp, or Farm, begin earning %2% Gold, Wood, or Food over %3% seconds.\r\n\r\nHolds %4% charges.\r\n\r\nProvides the opportunity to exchange resources for silver"
+902,,,formatter,,,"Through Black Sea Trade, Immediately gain %1% silver."
+903,,,screen_name,,,Black Sea Trade
+904,,,screen_name,,,Black Sea Trade
+905,,,screen_name,,,Black Sea Trade
+906,,,screen_name,,,Black Sea Trade
+907,,,extra_text,,,Exchange Resources

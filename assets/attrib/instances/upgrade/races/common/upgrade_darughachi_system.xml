@@ -87,9 +87,10 @@
 			<locstring name="extra_text_controller" value="0" />
 			<int name="custom_data_index" value="0" />
 			<bool name="is_unique_to_race" value="True" />
+			<file name="icon_alternate_name" value="" />
 		</group>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="824483144">
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1134111794">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="False" />
@@ -103,7 +104,7 @@
 				</group>
 				<bool name="include_completed" value="True" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1762188315">
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-507771338">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="True" />
@@ -203,6 +204,7 @@
 		<enum name="ui_group_cast_type" value="single" />
 		<instance_reference name="hotkey_binding" value="" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
+		<bool name="apply_player_upgrades_when_entity_or_squad_ownership_changes" value="False" />
 	</group>
 	<uniqueid name="pbgid" value="1073742478" />
 	<instance_reference name="parent_pbg" value="" />

@@ -10,24 +10,28 @@
 				<float name="action" value="0" />
 				<float name="command" value="0" />
 				<float name="popcap" value="0" />
-				<float name="food" value="0" />
+				<float name="food" value="5000" />
 				<float name="wood" value="0" />
 				<float name="stone" value="0" />
 				<float name="gold" value="0" />
 				<float name="militia_hre" value="0" />
 				<float name="merc_byz" value="0" />
 			</enum_table>
-			<float name="time_seconds" value="40" />
+			<float name="time_seconds" value="1" />
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_production_group" value="command_panel" />
+		<group name="ui_position">
+			<int name="ui_position_row" value="3" />
+			<int name="ui_position_column" value="1" />
+		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="704" mod="67987bbc33214c57b0617d9356614825" />
-			<locstring name="help_text" value="818" mod="67987bbc33214c57b0617d9356614825" />
-			<string name="hotkey_name" value="Q" />
-			<file name="icon_name" value="bohemia" />
+			<locstring name="extra_text" value="907" mod="67987bbc33214c57b0617d9356614825" />
+			<locstring name="help_text" value="0" />
+			<string name="hotkey_name" value="" />
+			<file name="icon_name" value="races\crucible_mode\boons\cache_of_oil" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="814" mod="67987bbc33214c57b0617d9356614825" />
+			<locstring name="screen_name" value="904" mod="67987bbc33214c57b0617d9356614825" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<string name="debug_text" value="" />
@@ -39,9 +43,9 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<int name="int_value" value="2" List.ItemID="-1665670545" />
+					<int name="int_value" value="5000" List.ItemID="236199335" />
 				</list>
-				<locstring name="formatter" value="0" />
+				<locstring name="formatter" value="902" mod="67987bbc33214c57b0617d9356614825" />
 			</template_reference>
 			<template_reference name="screen_name_formatter" value="">
 			</template_reference>
@@ -85,18 +89,18 @@
 			</template_reference>
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />
-			<int name="custom_data_index" value="0" />
-			<bool name="is_unique_to_race" value="True" />
 			<file name="icon_alternate_name" value="" />
+			<int name="custom_data_index" value="0" />
+			<bool name="is_unique_to_race" value="False" />
 		</group>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1498695850">
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-167397509">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="False" />
 				<int name="max_completed" value="100" />
 				<int name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_hussiteuprising" mod="67987bbc33214c57b0617d9356614825" />
+				<instance_reference name="upgrade_name" value="upgrade\races\byzantine_ha_mac\macedonia_cache1" mod="67987bbc33214c57b0617d9356614825" />
 				<bool name="include_queued" value="True" />
 				<group name="include_pbg_parenting">
 					<bool name="include_child_pbgs" value="False" />
@@ -104,73 +108,19 @@
 				</group>
 				<bool name="include_completed" value="True" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="2070036858">
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="297617476">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="True" />
 				<int name="max_completed" value="100" />
 				<int name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\dev\ages\imperial_age" />
+				<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
 				<bool name="include_completed" value="True" />
 				<bool name="include_queued" value="False" />
 				<group name="include_pbg_parenting">
 					<bool name="include_child_pbgs" value="False" />
 					<bool name="include_parent_pbgs" value="False" />
 				</group>
-			</template_reference>
-			<template_reference name="required" value="requirements\required_not" List.ItemID="563155115">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="0" />
-				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-648836507">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<list name="requirements">
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-310971178">
-								<enum name="reason" value="usage" />
-								<locstring name="ui_name" value="0" />
-								<bool name="is_present" value="True" />
-								<int name="max_completed" value="100" />
-								<int name="min_completed" value="1" />
-								<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_hungariansblackarmy" mod="67987bbc33214c57b0617d9356614825" />
-								<bool name="include_completed" value="True" />
-								<bool name="include_queued" value="True" />
-								<group name="include_pbg_parenting">
-									<bool name="include_child_pbgs" value="False" />
-									<bool name="include_parent_pbgs" value="False" />
-								</group>
-							</template_reference>
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-1223662021">
-								<enum name="reason" value="usage" />
-								<locstring name="ui_name" value="0" />
-								<bool name="is_present" value="True" />
-								<int name="max_completed" value="100" />
-								<int name="min_completed" value="1" />
-								<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_polish" mod="67987bbc33214c57b0617d9356614825" />
-								<bool name="include_completed" value="True" />
-								<bool name="include_queued" value="True" />
-								<group name="include_pbg_parenting">
-									<bool name="include_child_pbgs" value="False" />
-									<bool name="include_parent_pbgs" value="False" />
-								</group>
-							</template_reference>
-							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="1761355841">
-								<enum name="reason" value="usage" />
-								<locstring name="ui_name" value="0" />
-								<bool name="is_present" value="True" />
-								<int name="max_completed" value="100" />
-								<int name="min_completed" value="1" />
-								<instance_reference name="upgrade_name" value="upgrade\races\common\upgrade_motherland" mod="67987bbc33214c57b0617d9356614825" />
-								<bool name="include_completed" value="True" />
-								<bool name="include_queued" value="True" />
-								<group name="include_pbg_parenting">
-									<bool name="include_child_pbgs" value="False" />
-									<bool name="include_parent_pbgs" value="False" />
-								</group>
-							</template_reference>
-						</list>
-					</template_reference>
-				</list>
 			</template_reference>
 		</list>
 		<file name="ui_kicker_icon_name" value="" />
@@ -181,10 +131,6 @@
 		</list>
 		<string name="speech_code" value="" />
 		<file name="ui_squad_portrait_icon_override" value="" />
-		<group name="ui_position">
-			<int name="ui_position_row" value="2" />
-			<int name="ui_position_column" value="2" />
-		</group>
 		<float name="min_music_intensity" value="0" />
 		<group name="state_tree_references">
 			<template_reference name="on_begin_action_tree" value="state_tree_reference_info">
@@ -192,7 +138,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="cache_of_resources_rogue\cache_of_oil\cache_of_oil_5" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_cancel_action_tree" value="state_tree_reference_info">
@@ -200,7 +146,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_transport_breachhead_mon_ha_gol" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
@@ -209,17 +155,12 @@
 			</template_reference>
 		</group>
 		<list name="upgrade_type">
-			<enum name="upgrade_type" value="military_upgrade" List.ItemID="1919979660" List.ParentItemID="-2072600964" />
-			<enum name="upgrade_type" value="sultinate_upgrade" List.ItemID="-964325821" List.ParentItemID="1755529287" />
-			<enum name="upgrade_type" value="scar_military_upgrade" List.ItemID="-230402490" List.ParentItemID="-1452115699" />
-			<enum name="upgrade_type" value="scar_nontiered_upgrade" List.ItemID="-1424552280" List.ParentItemID="1158533" />
-			<enum name="upgrade_type" value="scar_imperial_age_upgrade" List.ItemID="1086751590" />
 		</list>
 		<string name="requirements_openingbranch" value="" />
-		<instance_reference name="ui_menu" value="menu\building_keep_upgrade" />
-		<bool name="is_progress_permanent" value="True" />
+		<instance_reference name="ui_menu" value="" />
+		<bool name="is_progress_permanent" value="False" />
 		<group name="ui_codex_info">
-			<int name="priority" value="4975" />
+			<int name="priority" value="0" />
 			<bool name="exclusive" value="False" />
 			<group name="ui_position">
 				<int name="ui_position_column" value="-1" />
@@ -260,6 +201,6 @@
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
 		<bool name="apply_player_upgrades_when_entity_or_squad_ownership_changes" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="1073742439" />
+	<uniqueid name="pbgid" value="1073742681" />
 	<instance_reference name="parent_pbg" value="" />
 </instance>

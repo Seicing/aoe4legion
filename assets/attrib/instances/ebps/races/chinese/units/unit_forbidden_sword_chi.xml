@@ -59,7 +59,7 @@
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_manatarms_3" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\mongol\weapons\wpn_melee_manatarms_4_mon" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\chinese\weapons\wpn_melee_scout_1_chi" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>

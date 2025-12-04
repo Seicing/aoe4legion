@@ -49,7 +49,7 @@
 		</group>
 		<group name="ui_info">
 			<locstring name="extra_text" value="0" />
-			<locstring name="help_text" value="847" mod="67987bbc33214c57b0617d9356614825" />
+			<locstring name="help_text" value="900" mod="67987bbc33214c57b0617d9356614825" />
 			<string name="hotkey_name" value="E" />
 			<file name="icon_name" value="races\common\abilities\leader_healing_effect" />
 			<string name="overlay_name" value="" />
@@ -115,7 +115,7 @@
 		<enum name="ability_super" value="tp_none" />
 		<group name="ui_position">
 			<int name="ui_position_row" value="1" />
-			<int name="ui_position_column" value="3" />
+			<int name="ui_position_column" value="5" />
 		</group>
 		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />
@@ -223,6 +223,6 @@
 		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\abilities\cmp_ability_healing" />
 		<int name="default_command_additional_rally_weight_modifier" value="0" />
 	</group>
-	<uniqueid name="pbgid" value="1073742549" />
+	<uniqueid name="pbgid" value="1073742680" />
 	<instance_reference name="parent_pbg" value="" />
 </instance>

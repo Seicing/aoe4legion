@@ -53,6 +53,48 @@
 							</group>
 							<enum name="type" value="default" />
 						</group>
+						<group name="weapon" List.ItemID="-395659085" List.ParentItemID="-395659085">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\hre_ha_01\ranged\weapon_archer_incendiary_4_hre_ha_01" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre_ha_01\weapons\wpn_range_archer_4_hre_ha_01" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" overrideParent="True" />
+							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="0" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="1.75" />
+								<float name="z" value="1" />
+							</group>
+							<enum name="type" value="default" />
+						</group>
+						<group name="weapon" List.ItemID="1951454616" List.ParentItemID="1951454616">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre_ha_01\weapons\wpn_range_archer_3_hre_ha_01" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\hre_ha_01\ranged\weapon_archer_incendiary_building_fire_hre_ha_01" />
+								<string name="marker_name_parent" value="MetaRig_LArmPalmSocket" />
+							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="0" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="1.75" />
+								<float name="z" value="1" />
+							</group>
+							<enum name="type" value="default" />
+							<template_reference name="weapon_entity_attachment" value="">
+							</template_reference>
+						</group>
 					</list>
 				</group>
 			</list>

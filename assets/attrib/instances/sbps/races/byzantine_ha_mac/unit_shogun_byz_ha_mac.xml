@@ -58,7 +58,7 @@
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="1070516399" />
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="2039980266" />
 				<instance_reference name="ability" value="abilities\always_on_abilities\core\military_charge" List.ItemID="-852818971" />
-				<instance_reference name="ability" value="abilities\timed_abilities\campaign\leader_healing_activated_byz" mod="67987bbc33214c57b0617d9356614825" List.ItemID="619319682" />
+				<instance_reference name="ability" value="abilities\timed_abilities\campaign\leader_healing_activated_mac" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="619319682" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-528484734" List.ParentItemID="-528484734">
