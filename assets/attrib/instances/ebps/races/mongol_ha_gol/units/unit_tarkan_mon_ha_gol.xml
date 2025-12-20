@@ -21,7 +21,7 @@
 					<float name="gold" value="30" overrideParent="True" />
 					<float name="wood" value="35" overrideParent="True" />
 				</enum_table>
-				<float name="time_seconds" value="30" overrideParent="True" />
+				<float name="time_seconds" value="12" overrideParent="True" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" comment="Horse and rider entities require identical health_ext values. Keep them in sync." List.ItemID="-788422057" List.ParentItemID="-788422057">

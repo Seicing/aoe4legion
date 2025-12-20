@@ -5761,7 +5761,6 @@
 					<instance_reference name="member" value="sbps\races\legion\legion_rus_druzhina" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-605638744" />
 					<instance_reference name="member" value="sbps\races\legion\legion_rus_tatars" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1083576216" />
 					<instance_reference name="member" value="sbps\races\legion\legion_rus_oprichnik" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1001664384" />
-					<instance_reference name="member" value="sbps\races\legion\legion_sul_mansabdar" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1180645434" />
 					<instance_reference name="member" value="sbps\races\legion\legion_sul_iqtadar" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1166437545" />
 					<instance_reference name="member" value="sbps\races\legion\legion_sul_jagir" mod="67987bbc33214c57b0617d9356614825" List.ItemID="2061550724" />
 					<instance_reference name="member" value="sbps\races\legion\legion_zxl_arhats" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1959907572" />
@@ -5794,7 +5793,6 @@
 					<instance_reference name="member" value="sbps\races\legion\legion_sen_kitetsu" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2119771826" />
 					<instance_reference name="member" value="sbps\races\legion\legion_sen_teppou" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1060845770" />
 					<instance_reference name="member" value="sbps\races\legion\legion_sen_yamabushi" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1319252864" />
-					<instance_reference name="member" value="sbps\races\legion\legion_tug_hathisena" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1164732378" />
 					<instance_reference name="member" value="sbps\races\legion\legion_tug_paik" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-787387688" />
 					<instance_reference name="member" value="sbps\races\legion\legion_rus_frontiercossacks" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-142272066" />
 					<instance_reference name="member" value="sbps\races\legion\legion_fre_genoese2" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-312666046" />
@@ -5872,12 +5870,12 @@
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Defensive Upgrades (Lower priority)" List.ItemID="388365494">
 				<list name="members">
-					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_arsenal_building_survivability_byz_ha_mac" List.ItemID="1063594475" />
-					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_arsenal_building_survivability_2_byz_ha_mac" List.ItemID="458070522" />
-					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_arsenal_building_survivability_3_byz_ha_mac" List.ItemID="-358082530" />
-					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_arsenal_building_survivability_4_byz_ha_mac" List.ItemID="-749446754" />
-					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_arsenal_building_survivability_5_byz_ha_mac" List.ItemID="217681488" />
-					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_arsenal_building_survivability_6_byz_ha_mac" List.ItemID="-1129496162" />
+					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_arsenal_building_survivability_byz_ha_mac" List.ItemID="-871157165" />
+					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_arsenal_building_survivability_2_byz_ha_mac" List.ItemID="-1857659644" />
+					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_arsenal_building_survivability_3_byz_ha_mac" List.ItemID="-1613902261" />
+					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_arsenal_building_survivability_4_byz_ha_mac" List.ItemID="-1010544209" />
+					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_arsenal_building_survivability_5_byz_ha_mac" List.ItemID="1492499103" />
+					<instance_reference name="member" value="upgrade\races\byzantine_ha_mac\research\upgrade_arsenal_building_survivability_6_byz_ha_mac" List.ItemID="-1347321365" />
 				</list>
 				<float name="base_scale" value="400" />
 				<float name="minimum_score_to_produce" value="200" />

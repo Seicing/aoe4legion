@@ -146,7 +146,7 @@
 318,,,screen_name,,,Elite Keshik
 319,,,screen_name,,,Devsirme System
 320,,,extra_text,,,Military Schools Technology
-322,,,help_text,,,Produces Mandekalu of 6 Mansa Freeborn Horsemen.
+322,,,help_text,,,Produces Mandekalu of 6 Freeborn Horsemen.
 323,,,screen_name,,,Mandekalu 
 325,,,help_text,,,Produces Jagirdar of 6 Lancers.
 326,,,screen_name,,,Jagirdar
@@ -161,7 +161,7 @@
 363,,,help_text,,,Skillful Warrior from Eastern Europe. \r\n+ Causes trample damage to non-main attack target
 365,,,help_text,,,Skillful Knight from Eastern Europe. \r\n+ Causes trample damage to non-main attack target
 369,,,help_text,,,Turkic Horse Archer causes melee damage in distance. \r\n+ Good at Anti Siege Weapon \r\n+ Damage to the building -15
-370,,,help_text,,,"Produces Kèlè-bolo of 6 Mansa Freeborn Warriors, Need to Unlock with Farimba Garrison Landmark."
+370,,,help_text,,,"Produces Kèlè-bolo of 6 Freeborn Warriors, Need to Unlock with Farimba Garrison Landmark."
 371,,,screen_name,,,Kèlè-bolo
 375,,,help_text,,,The fearless cavalry wearing heavy armor can effectively resist most of the damage.
 377,,,screen_name,,,Farimba
@@ -328,10 +328,10 @@
 636,,,help_text,,,Produces Divine Engine Division of 4 Shotgunners and 1 Bombard.
 643,,,formatter,,,Garrison inside of a military production building to grant +%1%%% health to newly trained units. Cannot garrison in Docks and Keeps.
 644,,,screen_name,,,Commandery
-645,,,help_text,,,Fires a long range handcannon and adds handcannon arrowslits while garrisoned. \r\n\r\n- 3 construction limits.
+645,,,help_text,,,Fires a long range handcannon and adds handcannon arrowslits while garrisoned. \r\n- 3 construction limits.
 647,,,extra_text,,,Heavy Ranged Infantry
 648,,,screen_name,,,Farariya
-649,,,help_text,,,Elite Malian Empire Handcannoneer. \r\n\r\n- No population is required but Maximum 10
+649,,,help_text,,,Elite Malian Empire Handcannoneer. \r\n- No population is required but Maximum 10
 650,,,help_text,,,"Empire Expands to Lv1(1 Open Pit), Now can support 2 Farariya. \r\n- Cannot spawn again when any Guards exist."
 651,,,screen_name,,,Gold Empire Sentine Lv1
 652,,,ui_name,,,Cannot spawn again when any Guards exist.
@@ -434,7 +434,7 @@
 756,,,help_text,,,Outfits Military Schools with the ability to produce Lancers and Janissaries. Promotes Elite Lancer into Kapikulu Sipahi.
 757,,,help_text,,,Produces Imperial Guard of 6 Palace Guards.
 758,,,screen_name,,,Imperial Guard
-759,,,screen_name,,,Mansa Freeborn Horseman
+759,,,screen_name,,,Freeborn Horseman
 760,,,screen_name,,,Italian Mercenary
 761,,,help_text,,,Roman official who can provide aura to Improve efficiency of farmer by 10%%
 762,,,screen_name,,,Logothetes
@@ -573,7 +573,7 @@
 895,,,help_text,,,Varangian military leaders can spend silver to make their troops fight more vigorously.
 896,,,screen_name,,,Norman Knight
 897,,,screen_name,,,Beg
-898,,,formatter,,,"The military leaders of the Golden Horde could protect Batu Khan from enemy attacks.\r\n\r\n- Can collects relic as monk\r\n\r\n- Train maximum of 2"
+898,,,formatter,,,"The military leaders of the Golden Horde could protect Batu Khan from enemy attacks.\r\n- Can collects relic as monk\r\n- Train maximum of 2"
 899,,,screen_name,,,Mounted Arquebusier
 900,,,help_text,,,"Spend 500 silver to let nearby Units regeneration quickly within 10 seconds, Cooldown 30 seconds."
 901,,,formatter,,,"Charges an ability used for boosting the work rate of military and research buildings. If used on a Mining Camp, Lumber Camp, or Farm, begin earning %2% Gold, Wood, or Food over %3% seconds.\r\n\r\nHolds %4% charges.\r\n\r\nProvides the opportunity to exchange resources for silver"

@@ -10,8 +10,8 @@
 				<float name="action" value="0" />
 				<float name="command" value="0" />
 				<float name="popcap" value="0" />
-				<float name="food" value="200" />
-				<float name="wood" value="100" />
+				<float name="food" value="100" />
+				<float name="wood" value="200" />
 				<float name="stone" value="0" />
 				<float name="gold" value="0" />
 				<float name="militia_hre" value="0" />
@@ -94,6 +94,7 @@
 			<locstring name="extra_text_controller" value="0" />
 			<int name="custom_data_index" value="0" />
 			<bool name="is_unique_to_race" value="True" />
+			<file name="icon_alternate_name" value="" />
 		</group>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1472443994">
@@ -207,6 +208,7 @@
 		<enum name="ui_group_cast_type" value="single" />
 		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_town_center\tech_safe_passage_tem" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
+		<bool name="apply_player_upgrades_when_entity_or_squad_ownership_changes" value="False" />
 	</group>
 	<uniqueid name="pbgid" value="9000048" />
 	<instance_reference name="parent_pbg" value="" />

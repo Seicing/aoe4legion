@@ -31,7 +31,7 @@
 					<float name="militia_hre" value="0" />
 					<float name="merc_byz" value="0" />
 				</enum_table>
-				<float name="time_seconds" value="30" />
+				<float name="time_seconds" value="15" />
 				<int name="time_turns" value="0" />
 			</group>
 		</template_reference>

@@ -161,7 +161,7 @@
 363,,"Der geschickte Krieger aus Osteuropa \r\n+ kann einem Ziel das nicht der Hauptangriff ist, Trampelschaden zufügen"
 365,,"Der geschickte Ritter aus Osteuropa \r\n+ kann einem Ziel das nicht der Hauptangriff ist, Trampelschaden zufügen"
 369,,Türkischer Bogenschütze verursacht Nahkampfschaden in der Ferne. \r\n+ Gut in der Anti-Belagerungswaffe \r\n+ Schaden am Gebäude -15
-370,,"Produziert Kèlè-bolo von 6 Mansa-Freigeborenen-Kriegern, die mit dem Wahrzeichenpunkt der Farimba-Garnison freigeschaltet werden müssen."
+370,,"Produziert Kèlè-bolo von 6 Freigeborenen-Kriegern, die mit dem Wahrzeichenpunkt der Farimba-Garnison freigeschaltet werden müssen."
 371,,Kèlè-bolo
 375,,Die furchtlose Kavallerie mit schwerer Rüstung kann dem größten Teil des Schadens effektiv widerstehen.
 377,,Farimba
@@ -328,7 +328,7 @@
 636,,Produziert die Divine Engine Division mit 4 Schrotschützen und 1 Bombarde.
 643,,"Garnison in einem militärischen Produktionsgebäude, um neu ausgebildeten Einheiten +%1%%% Gesundheit zu gewähren. Kann nicht in Docks und Festungen garnisoniert werden."
 644,,Kommandantur
-645,,"Feuert eine Handfeuerwaffe mit großer Reichweite ab und fügt Handfeuerwaffen-Pfeilschlitze hinzu, während er in Garnison steht. \r\n\r\n- 3 Konstruktionsgrenzen."
+645,,"Feuert eine Handfeuerwaffe mit großer Reichweite ab und fügt Handfeuerwaffen-Pfeilschlitze hinzu, während er in Garnison steht. \r\n- 3 Konstruktionsgrenzen."
 647,,Schwere Fernkampfinfanterie
 648,,Farariya
 649,,"Elite-Handkanonenschütze des malischen Imperiums. r\n\r\n- Es ist keine Bevölkerung erforderlich, Maximal 10"
@@ -434,7 +434,7 @@
 756,,"Rüstet Militärschulen mit der Fähigkeit aus, Lanzenreiter und Janitscharen hervorzubringen. Befördert den Elite-Lancer zum Kapikulu Sipahi."
 757,,Produziert die Kaiserliche Garde von 6 Palastwachen.
 758,,Imperiale Garde
-759,,Mansa Freeborn Reiter
+759,,Freeborn Reiter
 760,,Italienischer Söldner
 761,,"Römischer Beamter, der Aura verleihen kann, um die Effizienz des Bauern um 10%% zu verbessern"
 762,,Logotheten
@@ -573,7 +573,7 @@
 895,,"Warägerische Militärführer können Silber ausgeben, um die Kampfkraft ihrer Truppen zu erhöhen."
 896,,Normannischer Ritter
 897,,Beg
-898,,"Die Militärführer der Goldenen Horde konnten Batu Khan vor feindlichen Angriffen schützen.\r\n\r\n- Kann als Mönch Reliquien sammeln\r\n\r\n- Trainiert maximal 2"
+898,,"Die Militärführer der Goldenen Horde konnten Batu Khan vor feindlichen Angriffen schützen.\r\n- Kann als Mönch Reliquien sammeln\r\n- Trainiert maximal 2"
 899,,Berittener Schütze
 900,,"Gebt 500 Silber aus, damit sich Einheiten in der Nähe innerhalb von 10 Sekunden schnell regenerieren können, Abklingzeit 30 Sekunden."
 901,,"Lädt eine Fähigkeit zur Steigerung der Arbeitsrate von Militär- und Entwicklungsgebäuden auf. Bei Einsatz in einem Bergarbeiterlager, Holzfällerlager oder auf einem Feld verdienen Sie über %3% Sekunden hinweg %2% Gold, Holz oder Nahrung.\r\n\r\nBeinhaltet %4% Ladungen.\r\n\r\nBietet die Möglichkeit, Ressourcen gegen Silber einzutauschen."
