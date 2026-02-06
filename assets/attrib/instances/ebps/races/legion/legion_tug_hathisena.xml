@@ -37,7 +37,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="2035903939">
 			<float name="medic_pop" value="0" />
-			<float name="personnel_pop" value="11" />
+			<float name="personnel_pop" value="12" />
 			<float name="vehicle_pop" value="0" />
 			<enum_table name="upkeep_per_pop_per_minute_override">
 				<float name="action" value="0" />
