@@ -7,8 +7,8 @@
 		</group>
 		<group name="aim">
 			<group name="fire_aim_time">
-				<float name="max" value="0.125" />
-				<float name="min" value="0.125" />
+				<float name="max" value="0.25" />
+				<float name="min" value="0.25" />
 			</group>
 			<float name="post_firing_aim_time_seconds" value="0" />
 			<float name="post_firing_cooldown_interval_seconds" value="0" />
@@ -124,12 +124,13 @@
 			<bool name="can_damage_allies" value="False" />
 			<bool name="hit_everything_on_hit" value="False" />
 			<bool name="can_abort_winddown_on_move_command" value="False" />
+			<bool name="force_square_attack" value="False" />
 		</group>
 		<group name="burst">
 			<bool name="can_burst" value="True" />
 			<group name="duration">
-				<float name="max" value="1" />
-				<float name="min" value="1" />
+				<float name="max" value="0.25" />
+				<float name="min" value="0.25" />
 			</group>
 			<group name="incremental_target_table">
 				<float name="accuracy_multiplier" value="0" />
@@ -140,8 +141,8 @@
 				</group>
 			</group>
 			<group name="rate_of_fire">
-				<float name="max" value="4" />
-				<float name="min" value="4" />
+				<float name="max" value="16" />
+				<float name="min" value="16" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="near" value="1" />
@@ -155,19 +156,19 @@
 			</group>
 			<bool name="focus_fire" value="False" />
 			<bool name="convert_target_to_position_before_firing" value="False" />
-			<bool name="uninterruptible_burst_fire" value="True" />
+			<bool name="uninterruptible_burst_fire" value="False" />
 		</group>
 		<group name="cooldown">
 			<group name="duration">
-				<float name="max" value="0.25" />
-				<float name="min" value="0.25" />
+				<float name="max" value="0" />
+				<float name="min" value="0" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="near" value="1" />
 				<float name="far" value="1" />
 				<float name="mid" value="1" />
 			</group>
-			<bool name="persistent_cooldownticks" value="True" />
+			<bool name="persistent_cooldownticks" value="False" />
 		</group>
 		<group name="damage">
 			<float name="max" value="5" />
@@ -189,7 +190,7 @@
 		<group name="fire">
 			<float name="wind_down" value="0.5" />
 			<float name="wind_up" value="0" />
-			<float name="animation_impact_frame_time" value="0.2" />
+			<float name="animation_impact_frame_time" value="0.5" />
 		</group>
 		<float name="flinch_radius" value="0" />
 		<string name="fx_action_target_name" value="" />
@@ -257,8 +258,8 @@
 		</group>
 		<group name="reload">
 			<group name="duration">
-				<float name="max" value="1.5" />
-				<float name="min" value="1.5" />
+				<float name="max" value="1.25" />
+				<float name="min" value="1.25" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="far" value="1" />
@@ -302,7 +303,7 @@
 			<float name="movement_scatter_distance_multiplier" value="1" />
 		</group>
 		<group name="setup">
-			<float name="duration" value="0.25" />
+			<float name="duration" value="0" />
 			<bool name="has_instant_setup" value="False" />
 			<bool name="can_interrupt_setup" value="False" />
 			<float name="attach_duration" value="0" />

@@ -125,7 +125,7 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="1399997947">
 					<group name="tier" List.ItemID="-1706934629">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\chinese\units\tier4_manatarms_chi" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\jin_dynasty\campaign\jin_warlord\jin_warlord" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />

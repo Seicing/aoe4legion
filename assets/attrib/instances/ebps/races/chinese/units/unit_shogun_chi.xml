@@ -474,7 +474,7 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="-78734107">
 					<group name="tier" List.ItemID="765599720">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\mongol\units\campaign\cavalry_mongke_cmp_3_mon" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\jin_dynasty\campaign\jin_yue_fei\horse_combined_yue_fei" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" />
 							<bool name="start_suspended" value="False" />

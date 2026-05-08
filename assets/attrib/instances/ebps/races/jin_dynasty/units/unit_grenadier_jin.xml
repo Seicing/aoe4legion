@@ -1,0 +1,145 @@
+<instance version="4" description="Chinese Imperial Age Knight" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1356892678" List.ParentItemID="1356892678">
+			<bool name="browsable_in_editor" value="False" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_horsearcher_4" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-12513399" List.ParentItemID="-12513399">
+			<list name="action_state_trees">
+				<group name="container" List.ItemID="-1622883091" List.ParentItemID="-1622883091">
+					<string name="state_tree" value="unit_action_apply\units\cavalry_archer" overrideParent="True" />
+				</group>
+				<group name="container" List.ItemID="2022080988" List.ParentItemID="2022080988">
+					<string name="state_tree" value="unit_action_apply\units\horseman\audio\fre\4" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-919563761" List.ParentItemID="-919563761">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="food" value="100" overrideParent="True" />
+					<float name="gold" value="80" overrideParent="True" />
+					<float name="wood" value="60" overrideParent="True" />
+					<float name="stone" value="0" overrideParent="True" />
+				</enum_table>
+				<float name="time_seconds" value="10" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-788422057" List.ParentItemID="-788422057">
+			<bool name="regeneration_disabled" value="True" overrideParent="True" />
+			<float name="hitpoints" value="200" overrideParent="True" />
+			<enum_table name="armor_scaler_by_damage_type">
+				<float name="Melee" value="3" overrideParent="True" />
+				<float name="Ranged" value="3" overrideParent="True" />
+			</enum_table>
+			<state_tree_node name="death_action_tree" value="on_death_jin\select_unit" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="1198490334" List.ParentItemID="1198490334">
+			<instance_reference name="hit_material" value="hit_material\leather" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="209652795" List.ParentItemID="209652795">
+			<group name="sight_package">
+				<float name="inner_radius" value="20" overrideParent="True" />
+				<float name="outer_radius" value="42" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1786016482" List.ParentItemID="-1786016482">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\jin_dynasty" overrideParent="True" List.ItemID="-895531493" />
+			</list>
+			<list name="unit_type_list" removedIds="-33973428, 1350676038, -90441891, -448056678">
+				<enum name="unit_type" value="ranged" overrideParent="True" List.ItemID="-284996519" List.ParentItemID="-284996519" />
+				<enum name="unit_type" value="mounted_grenadier" overrideParent="True" List.ItemID="337995369" List.ListAction="Append" />
+				<enum name="unit_type" value="grenadier" List.ItemID="-428015080" List.ListAction="Append" />
+				<enum name="unit_type" value="gunpowder" List.ItemID="526799355" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1680160005" List.ParentItemID="1680160005">
+			<float name="decorator_height" value="3.5" overrideParent="True" />
+			<bool name="is_armoured" value="False" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-662784220" List.ParentItemID="-662784220">
+			<enum_table name="speed_levels" overrideParent="True">
+				<float name="speed_level_0" value="1" />
+				<float name="speed_level_1" value="2" />
+				<float name="speed_level_2" value="4" />
+				<float name="speed_level_3" value="5" />
+				<float name="speed_level_4" value="6.5" />
+			</enum_table>
+			<float name="melee_move_tolerance" value="0" overrideParent="True" />
+			<enum_table name="speed_scaling_table">
+				<float name="default_speed" value="7.6" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="1327234703" List.ParentItemID="1327234703">
+			<string name="speaker_code" value="horseman" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="1078428342" List.ParentItemID="1078428342">
+			<list name="tier_group_list" overrideParent="True">
+				<list name="tier_group" overrideParent="True" List.ItemID="-1481781830">
+					<group name="tier" List.ItemID="-1562677536">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\jin_dynasty\units\tier4_cavalry_mounted_grenadier_jin" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\stimulus_emission_ext" List.ItemID="-1012631002" List.ParentItemID="-1012631002">
+			<list name="emittable_stimulus_types" removedIds="1961863744">
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="1083066112" List.ParentItemID="1083066112">
+			<instance_reference name="schema" value="statemodel_schema\units\civilizations\jin_dynasty\mengan_mouke_grenadier" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1762200638" List.ParentItemID="1762200638">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="1534383478" List.ParentItemID="1534383478">
+					<list name="weapon_table" removedIds="-815746252, 1064922397">
+						<group name="weapon" List.ItemID="-1605222392" List.ParentItemID="-1605222392">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\jin_dynasty\ranged\weapon_mounted_grenade_4_jin" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\chinese\weapons\wpn_range_grenade_4" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
+							</template_reference>
+							<group name="heading">
+								<float name="z" value="0" overrideParent="True" />
+							</group>
+							<group name="origin">
+								<float name="x" value="0.73" overrideParent="True" />
+								<float name="y" value="3.48" overrideParent="True" />
+							</group>
+						</group>
+					</list>
+				</group>
+			</list>
+			<group name="idle_targeting">
+				<float name="idle_priority_per_angle_degree" value="-0.5" overrideParent="True" />
+			</group>
+			<list name="target_scanning_priority_override" overrideParent="True">
+				<group name="override" List.ItemID="-1993678061" List.ParentItemID="-1993678061">
+					<enum name="target_type" value="ram" />
+					<float name="priority_value" value="90" />
+				</group>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742700" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_knight_4" />
+</instance>

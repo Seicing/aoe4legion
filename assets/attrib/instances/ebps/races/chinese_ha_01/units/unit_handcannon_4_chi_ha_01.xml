@@ -31,6 +31,7 @@
 			</list>
 			<list name="unit_type_list">
 				<enum name="unit_type" value="unique" List.ItemID="-885835403" List.ListAction="Append" />
+				<enum name="unit_type" value="eruptor_jin" List.ItemID="-1105748062" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1968019310" List.ParentItemID="1968019310">
@@ -42,13 +43,14 @@
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_sandanju" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\chinese\weapons\wpn_range_handcannon_4_chi" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\jin_dynasty\weapons\wpn_range_eruptor_4_jin" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
 						<group name="weapon" List.ItemID="-338263014" List.ParentItemID="-338263014">
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_sandanju" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\jin_dynasty\weapons\wpn_range_eruptor_4_jin" overrideParent="True" />
 							</template_reference>
 						</group>
 					</list>

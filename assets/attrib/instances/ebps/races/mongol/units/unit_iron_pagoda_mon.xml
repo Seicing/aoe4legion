@@ -62,7 +62,8 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-1378112711" List.ParentItemID="-1378112711">
-			<float name="decorator_height" value="4.1" overrideParent="True" />
+			<float name="decorator_height" value="3.75" overrideParent="True" />
+			<bool name="is_armoured" value="True" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1065738823" List.ParentItemID="1065738823">
 			<list name="hardpoints">

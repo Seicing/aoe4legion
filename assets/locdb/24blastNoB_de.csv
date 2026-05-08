@@ -132,7 +132,7 @@
 276,,Mobilisiere 1 Bienennest und 3 Palastwachen aus China.
 277,,Mobilisierung von 3 Ghazi und 3 Ghulam aus Persien.
 278,,Mobilisiert 2 Ritter und 4 Kanoniere aus Russland.
-279,,Mobilisiert 2 Eisenpagoden vom mongolischen Plateau.
+279,,Mobilisiert 2 Nokor vom mongolischen Plateau.
 280,,Mongol Armee
 282,,Raketenwerfer
 284,,Infanterie mit einem Raketenwerfer an der Hand kann kontinuierlichen Belagerungsschaden verursachen. \r\n+ Verursacht Belagerungsschaden bei mehreren Feinden \r\n- Verwundbar auf kurze Distanz
@@ -390,7 +390,7 @@
 712,,Kosaken
 713,,Schwere Nahkampfinfanterie
 714,,"Grenzsiedler mit riesigen Halbmondäxten, um alles wegzufegen, geringerer Angriff, kann aber vollen Flächenschaden verursachen.\r\n- Hoher Bonusschaden an leichten Einheiten und Arbeitereinheiten \r\n- Verstärkte Berührung"
-715,,Erhöht die Angriffsreichweite von Palastwachen und schwerer Kavallerie um +%1%.
+715,,Erhöht die Angriffsreichweite von schwerer Nahkampfinfanterie und Kavallerie um +%1%.
 716,,Krieger-Code
 717,,Rekrut
 718,,"Rekruten von führen die Kharash-Taktik aus, billig und zuverlässig \r\n- Hohe Reichweite \r\n- Kann Belagerungswaffen reparieren und Befestigungen bauen \r\n- Kann Mauern direkt angreifen \r\n- Hohe Regeneration"
@@ -411,7 +411,7 @@
 733,,"Gebt 200 Olivenöl aus, damit sich Einheiten in der Nähe innerhalb von 10 Sekunden schnell regenerieren können, Abklingzeit 25 Sekunden."
 734,,Weihwasser
 735,,"Hyperschwere Kavallerie, Kann jeden tödlichen Angriff überleben, Verursacht Trampling-Schaden."
-736,,Eiserne Pagode
+736,,Nokor
 737,,3
 738,,3 Katarakte
 739,,3 Waräger-Wachen
@@ -573,13 +573,24 @@
 895,,"Warägerische Militärführer können Silber ausgeben, um die Kampfkraft ihrer Truppen zu erhöhen."
 896,,Normannischer Ritter
 897,,Beg
-898,,"Die Militärführer der Goldenen Horde konnten Batu Khan vor feindlichen Angriffen schützen.\r\n- Kann als Mönch Reliquien sammeln\r\n- Trainiert maximal 2"
+898,,Die Militärführer der Goldenen Horde konnten Batu Khan vor feindlichen Angriffen schützen.\r\n- Kann als Mönch Reliquien sammeln\r\n- Trainiert maximal 2
 899,,Berittener Schütze
 900,,"Gebt 500 Silber aus, damit sich Einheiten in der Nähe innerhalb von 10 Sekunden schnell regenerieren können, Abklingzeit 30 Sekunden."
 901,,"Lädt eine Fähigkeit zur Steigerung der Arbeitsrate von Militär- und Entwicklungsgebäuden auf. Bei Einsatz in einem Bergarbeiterlager, Holzfällerlager oder auf einem Feld verdienen Sie über %3% Sekunden hinweg %2% Gold, Holz oder Nahrung.\r\n\r\nBeinhaltet %4% Ladungen.\r\n\r\nBietet die Möglichkeit, Ressourcen gegen Silber einzutauschen."
-902,,"Durch den Schwarzmeerhandel erhalten Sie sofort %1% Silber."
+902,,Durch den Schwarzmeerhandel erhalten Sie sofort %1% Silber.
 903,,Schwarzmeerhandel
 904,,Schwarzmeerhandel
 905,,Schwarzmeerhandel
 906,,Schwarzmeerhandel
 907,,Ressourcen austauschen
+908,,Produziert Alixi-Armee von 5 Bogenschütze
+909,,Alixi-Armee
+910,,Produziert Han-Armee von 1 Bienennest und 4 Eruptor
+911,,Han-Armee
+912,,Hezha-Armee
+913,,Produziert Hezha-Armee von 3 Zhanma-Schwertkämpfer und 2 Waffenknechte
+914,,Produziert Meng'an Mouke Wachen von 4 Meng'an Mouke Verteidiger und 2 Berittene Grenadiere
+915,,Meng'an Mouke Wachen
+916,,Qari-qari-Armee
+917,,Produziert Qari-qari-Armee von 5 Mohe-Stammesangehörige
+918,,Militärischer Anführer der Jin-Dynastie. Kann die Armee kurzzeitig stärken

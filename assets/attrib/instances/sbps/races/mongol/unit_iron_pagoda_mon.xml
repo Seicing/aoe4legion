@@ -55,6 +55,9 @@
 				<instance_reference name="squad_race_type" value="racebps\mongol" overrideParent="True" List.ItemID="2066018549" />
 			</list>
 			<list name="squad_type_list">
+				<enum name="squad_type" value="scar_age4" overrideParent="True" List.ItemID="1270371056" List.ParentItemID="1270371056" />
+				<enum name="squad_type" value="scar_knight" overrideParent="True" List.ItemID="422047197" List.ParentItemID="422047197" />
+				<enum name="squad_type" value="knight" overrideParent="True" List.ItemID="1438666315" List.ParentItemID="1438666315" />
 				<enum name="squad_type" value="armored" List.ItemID="-740388941" List.ListAction="Append" />
 				<enum name="squad_type" value="scar_military" List.ItemID="1554054984" List.ListAction="Append" />
 			</list>

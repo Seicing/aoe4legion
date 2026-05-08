@@ -1,0 +1,34 @@
+<instance version="6" description="" template="weapon">
+	<group name="weapon_bag">
+		<string name="fx_munition_name" value="common_sabre" overrideParent="True" />
+		<group name="cooldown">
+			<group name="duration">
+				<float name="max" value="0.5" overrideParent="True" />
+				<float name="min" value="0.5" overrideParent="True" />
+			</group>
+		</group>
+		<group name="damage">
+			<float name="max" value="26" overrideParent="True" />
+			<float name="min" value="26" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="1073742704" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_3" />
+	<variant name="cordoba">
+		<group name="weapon_bag">
+			<string name="fx_munition_name" value="common_sabre" overrideParent="True" />
+			<group name="cooldown">
+				<group name="duration">
+					<float name="max" value="0.5" overrideParent="True" />
+					<float name="min" value="0.5" overrideParent="True" />
+				</group>
+			</group>
+			<group name="damage">
+				<float name="max" value="26" overrideParent="True" />
+				<float name="min" value="26" overrideParent="True" />
+			</group>
+		</group>
+		<uniqueid name="pbgid" value="1073742704" />
+		<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_3" />
+	</variant>
+</instance>

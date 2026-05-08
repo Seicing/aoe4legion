@@ -1,0 +1,21 @@
+<instance version="6" description="" template="weapon">
+	<group name="weapon_bag">
+		<locstring name="ui_name" value="11192564" overrideParent="True" />
+		<group name="damage">
+			<float name="max" value="36" overrideParent="True" />
+			<float name="min" value="36" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="1073742705" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_3_charge" />
+	<variant name="cordoba">
+		<group name="weapon_bag">
+			<group name="damage">
+				<float name="max" value="39" overrideParent="True" />
+				<float name="min" value="39" overrideParent="True" />
+			</group>
+		</group>
+		<uniqueid name="pbgid" value="1073742705" />
+		<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_3_charge" />
+	</variant>
+</instance>

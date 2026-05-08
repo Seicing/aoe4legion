@@ -132,7 +132,7 @@
 276,,,help_text,,,Mobilize 1 Nest of Bee and 3 Palace Guards from China.
 277,,,help_text,,,Mobilize 3 Ghazi and 3 Ghulam from Persia.
 278,,,help_text,,,Mobilize 2 Knights and 4 Handcannoneers from Russia.
-279,,,help_text,,,Mobilize 2 Iron Pagoda from Mongolian Plateau.
+279,,,help_text,,,Mobilize 2 Nokors from Mongolian Plateau.
 280,,,screen_name,,,Mongols Army
 282,,,screen_name,,,Rocket Launcher
 284,,,help_text,,,Infantry with Hand Holding Rocket Launcher can deals continuous Siege Damage. \r\n+ Causes siege damage to multiple enemies \r\n- Vulnerable at close range
@@ -390,7 +390,7 @@
 712,,,screen_name,,,Cossacks
 713,,,extra_text,,,Heavy Melee Infantry
 714,,,help_text,,,"Frontier settler with giant crescent axes to sweep away everything, Lower Attack but can deals full AOE damage. \r\n- High bonus damage to light units and worker units \r\n- Strengthen Touch"
-715,,,formatter,,,Increase the attack range of Palace Guards and Heavy Cavalry by +%1%.
+715,,,formatter,,,Increase the attack range of Heavy Melee Infantry and Cavalry by +%1%.
 716,,,screen_name,,,Warrior Code
 717,,,screen_name,,,Recruit
 718,,,help_text,,,"Recruits of execute the 'Kharash' tactic, cheap and reliable \r\n- High Range \r\n- Can repair Siege Weapon and builds fortification \r\n- Can attacks wall directly \r\n- High regeneration"
@@ -411,7 +411,7 @@
 733,,,help_text,,,"Spend 200 Olive Oil to let nearby Units regeneration quickly within 10 seconds, Cooldown 25 seconds."
 734,,,screen_name,,,Holy Water
 735,,,help_text,,,"Hyper Heavy Cavalry, Can survive from any fatal attack, Cause Trampling damage."
-736,,,screen_name,,,Iron Pagoda
+736,,,screen_name,,,Nokor
 737,,,ui_screen_name,,,3
 738,,,screen_name,,,3 Cataphracts
 739,,,screen_name,,,3 Varangian Guards
@@ -573,7 +573,7 @@
 895,,,help_text,,,Varangian military leaders can spend silver to make their troops fight more vigorously.
 896,,,screen_name,,,Norman Knight
 897,,,screen_name,,,Beg
-898,,,formatter,,,"The military leaders of the Golden Horde could protect Batu Khan from enemy attacks.\r\n- Can collects relic as monk\r\n- Train maximum of 2"
+898,,,formatter,,,The military leaders of the Golden Horde could protect Batu Khan from enemy attacks.\r\n- Can collects relic as monk\r\n- Train maximum of 2
 899,,,screen_name,,,Mounted Arquebusier
 900,,,help_text,,,"Spend 500 silver to let nearby Units regeneration quickly within 10 seconds, Cooldown 30 seconds."
 901,,,formatter,,,"Charges an ability used for boosting the work rate of military and research buildings. If used on a Mining Camp, Lumber Camp, or Farm, begin earning %2% Gold, Wood, or Food over %3% seconds.\r\n\r\nHolds %4% charges.\r\n\r\nProvides the opportunity to exchange resources for silver"
@@ -583,3 +583,14 @@
 905,,,screen_name,,,Black Sea Trade
 906,,,screen_name,,,Black Sea Trade
 907,,,extra_text,,,Exchange Resources
+908,,,help_text,,,Produces Alixi Army of 5 Archers.
+909,,,screen_name,,,Alixi Army
+910,,,help_text,,,Produces Han Army of 1 Nest of Bee and 4 Eruptors
+911,,,screen_name,,,Han Army
+912,,,screen_name,,,Hezha Army
+913,,,help_text,,,Produces Hezha Army of 3 Zhanma Swordsmen and 2 Men-at-arms.
+914,,,help_text,,,Produces Meng'an Mouke Guards of 4 Meng'an Mouke Defenders and 2 Mounted Grenadiers.
+915,,,screen_name,,,Meng'an Mouke Guards
+916,,,screen_name,,,Qari-qari Army
+917,,,help_text,,,Produces Qari-qari Army of 5 Mohe Tribesmen.
+918,,,help_text,,,Jin Dynasty military leader. Can inspire the army to boost damage for a short time.

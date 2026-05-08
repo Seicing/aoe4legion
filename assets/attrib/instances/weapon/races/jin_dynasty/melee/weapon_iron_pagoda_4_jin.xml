@@ -1,0 +1,83 @@
+<instance version="6" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<float name="max" value="23" overrideParent="True" />
+			<float name="min" value="23" overrideParent="True" />
+		</group>
+		<string name="fx_munition_name" value="common_sword_iron_pagoda" overrideParent="True" />
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\pie_area_option" overrideParent="True">
+				<float name="outer_radius" value="2.65" overrideParent="True" />
+				<float name="angle_left" value="-100" overrideParent="True" />
+				<float name="angle_right" value="100" overrideParent="True" />
+				<float name="inner_radius" value="0" />
+				<enum name="dynamic_radius_type" value="fixed" />
+			</template_reference>
+			<group name="damage">
+				<float name="far" value="0.15" overrideParent="True" />
+				<float name="near" value="0.5" overrideParent="True" />
+				<float name="mid" value="0.25" overrideParent="True" />
+			</group>
+			<group name="distance">
+				<float name="far" value="1.25" overrideParent="True" />
+				<float name="near" value="0.5" overrideParent="True" />
+				<float name="mid" value="1" overrideParent="True" />
+			</group>
+		</group>
+		<group name="cooldown">
+			<group name="duration" overrideParent="True">
+				<float name="max" value="0.625" />
+				<float name="min" value="0.625" />
+			</group>
+		</group>
+		<group name="fire" overrideParent="True">
+			<float name="wind_down" value="0" />
+			<float name="wind_up" value="0.75" />
+			<float name="animation_impact_frame_time" value="0.5" />
+		</group>
+		<locstring name="ui_name" value="11271964" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="9004130" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_3" />
+	<variant name="cordoba">
+		<group name="weapon_bag">
+			<group name="damage">
+				<float name="max" value="23" overrideParent="True" />
+				<float name="min" value="23" overrideParent="True" />
+			</group>
+			<string name="fx_munition_name" value="common_sword_iron_pagoda" overrideParent="True" />
+			<group name="area_effect">
+				<template_reference name="area_info" value="options\area_info_options\pie_area_option" overrideParent="True">
+					<float name="outer_radius" value="1.25" overrideParent="True" />
+					<float name="angle_left" value="-100" overrideParent="True" />
+					<float name="angle_right" value="100" overrideParent="True" />
+					<float name="inner_radius" value="0" />
+					<enum name="dynamic_radius_type" value="fixed" />
+				</template_reference>
+				<group name="damage">
+					<float name="far" value="0.15" overrideParent="True" />
+					<float name="near" value="0.5" overrideParent="True" />
+					<float name="mid" value="0.25" overrideParent="True" />
+				</group>
+				<group name="distance">
+					<float name="far" value="1.25" overrideParent="True" />
+					<float name="near" value="0.5" overrideParent="True" />
+					<float name="mid" value="1" overrideParent="True" />
+				</group>
+			</group>
+			<group name="cooldown">
+				<group name="duration" overrideParent="True">
+					<float name="max" value="0.625" />
+					<float name="min" value="0.625" />
+				</group>
+			</group>
+			<group name="fire" overrideParent="True">
+				<float name="wind_down" value="0" />
+				<float name="wind_up" value="0.75" />
+				<float name="animation_impact_frame_time" value="0.5" />
+			</group>
+		</group>
+		<uniqueid name="pbgid" value="9004130" />
+		<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_3" />
+	</variant>
+</instance>

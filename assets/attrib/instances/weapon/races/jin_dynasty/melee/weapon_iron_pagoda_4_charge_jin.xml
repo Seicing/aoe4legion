@@ -1,0 +1,68 @@
+<instance version="6" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="behaviour">
+			<float name="combat_slot_offset" value="-20" overrideParent="True" />
+			<bool name="enable_auto_target_search" value="False" overrideParent="True" />
+		</group>
+		<group name="damage">
+			<float name="max" value="35" overrideParent="True" />
+			<float name="min" value="35" overrideParent="True" />
+		</group>
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\pie_area_option" overrideParent="True">
+				<float name="outer_radius" value="2.65" overrideParent="True" />
+				<float name="angle_left" value="-100" overrideParent="True" />
+				<float name="angle_right" value="100" overrideParent="True" />
+				<float name="inner_radius" value="0" />
+				<enum name="dynamic_radius_type" value="fixed" />
+			</template_reference>
+			<group name="damage">
+				<float name="far" value="0.15" overrideParent="True" />
+				<float name="near" value="0.5" overrideParent="True" />
+				<float name="mid" value="0.25" overrideParent="True" />
+			</group>
+			<group name="distance">
+				<float name="far" value="1.25" overrideParent="True" />
+				<float name="near" value="0.5" overrideParent="True" />
+				<float name="mid" value="1" overrideParent="True" />
+			</group>
+		</group>
+		<string name="fx_munition_name" value="common_sword_iron_pagoda_charge" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="9004131" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_3_charge" />
+	<variant name="cordoba">
+		<group name="weapon_bag">
+			<group name="behaviour">
+				<float name="combat_slot_offset" value="-20" overrideParent="True" />
+				<bool name="enable_auto_target_search" value="False" overrideParent="True" />
+			</group>
+			<group name="damage">
+				<float name="max" value="35" overrideParent="True" />
+				<float name="min" value="35" overrideParent="True" />
+			</group>
+			<group name="area_effect">
+				<template_reference name="area_info" value="options\area_info_options\pie_area_option" overrideParent="True">
+					<float name="outer_radius" value="1.25" overrideParent="True" />
+					<float name="angle_left" value="-100" overrideParent="True" />
+					<float name="angle_right" value="100" overrideParent="True" />
+					<float name="inner_radius" value="0" />
+					<enum name="dynamic_radius_type" value="fixed" />
+				</template_reference>
+				<group name="damage">
+					<float name="far" value="0.15" overrideParent="True" />
+					<float name="near" value="0.5" overrideParent="True" />
+					<float name="mid" value="0.25" overrideParent="True" />
+				</group>
+				<group name="distance">
+					<float name="far" value="1.25" overrideParent="True" />
+					<float name="near" value="0.5" overrideParent="True" />
+					<float name="mid" value="1" overrideParent="True" />
+				</group>
+			</group>
+			<string name="fx_munition_name" value="common_sword_iron_pagoda_charge" overrideParent="True" />
+		</group>
+		<uniqueid name="pbgid" value="9004131" />
+		<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_knight_3_charge" />
+	</variant>
+</instance>

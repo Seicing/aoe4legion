@@ -39,6 +39,7 @@
 			<list name="unit_type_list">
 				<enum name="unit_type" value="handcannon" overrideParent="True" List.ItemID="-1948140786" List.ParentItemID="-1948140786" />
 				<enum name="unit_type" value="dynasty_unit" List.ItemID="-1640945447" List.ListAction="Append" />
+				<enum name="unit_type" value="eruptor_jin" List.ItemID="1649328846" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1968019310" List.ParentItemID="1968019310">
@@ -50,7 +51,7 @@
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\chinese\ranged\weapon_nest_of_bees_4_chi2" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\chinese\weapons\wpn_range_handcannon_4_chi" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\jin_dynasty\weapons\wpn_range_eruptor_4_jin" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
@@ -73,7 +74,7 @@
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="-1492983404">
 					<group name="tier" List.ItemID="190511427">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\chinese\units\tier4_grenadier_chi" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\chinese_ha_01\units\tier3_grenadier_chi_ha" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />
