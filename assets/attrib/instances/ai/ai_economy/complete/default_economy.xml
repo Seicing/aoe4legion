@@ -4158,41 +4158,41 @@
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Defensive Upgrade" List.ItemID="1215676558">
 				<list name="members">
-					<instance_reference name="member" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="-1805813256" />
-					<instance_reference name="member" value="upgrade\races\sultanate\research\economy\upgrade_tech_university_murder_holes_4_sul" List.ItemID="-2070911243" />
-					<instance_reference name="member" value="upgrade\races\sultanate\research\economy\upgrade_tech_university_architecture_4_sul" List.ItemID="-144976531" />
-					<instance_reference name="member" value="upgrade\races\common\research\economy\upgrade_tech_university_architecture_4" List.ItemID="-600005181" />
-					<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_architecture_chi" List.ItemID="-1421804980" />
-					<instance_reference name="member" value="upgrade\races\common\research\upgrade_outpost_stone" List.ItemID="-952430085" />
-					<instance_reference name="member" value="upgrade\races\hre\research\upgrade_building_fire_armor_hre" List.ItemID="806679183" />
-					<instance_reference name="member" value="upgrade\races\hre\research\upgrade_reinforced_defenses_hre" List.ItemID="1237813482" />
-					<instance_reference name="member" value="upgrade\races\abbasid\research\upgrade_cul_medical_centers_abb" List.ItemID="2092950087" />
-					<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_wall_repair_chi" List.ItemID="353016799" />
-					<instance_reference name="member" value="upgrade\races\english\research\upgrade_network_of_citadels_eng" List.ItemID="252621280" />
-					<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_mosque_heal_sul" List.ItemID="-1556648951" />
-					<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_keep_defense_sul" List.ItemID="1686767133" />
-					<instance_reference name="member" value="upgrade\races\common\research\upgrade_villager_health" List.ItemID="-1186757324" />
-					<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_villager_health_sul" List.ItemID="672920048" />
-					<instance_reference name="member" value="upgrade\races\mongol\research\upgrade_villager_health_improved_mon" List.ItemID="837877018" />
-					<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_manned_siege_ott" List.ItemID="-1966954429" />
-					<instance_reference name="member" value="upgrade\races\malian\research\upgrade_banco_repairs_mal" List.ItemID="-1564866571" />
-					<instance_reference name="member" value="upgrade\races\byzantine\research\upgrade_house_vision_byz" List.ItemID="534087430" />
-					<instance_reference name="member" value="upgrade\races\chinese_ha_01\research\officials\upgrade_official_supervise_defensive" List.ItemID="-1026970960" />
-					<instance_reference name="member" value="upgrade\races\chinese_ha_01\research\upgrade_library_architecture_4" List.ItemID="1482347337" />
-					<instance_reference name="member" value="upgrade\races\sultanate\research\landmark_new\upgrade_landmark_keep_defense_compond_sul" List.ItemID="2022155159" />
-					<instance_reference name="member" value="upgrade\races\sultanate\research\landmark_new\upgrade_tech_university_architecture_compound_sul" List.ItemID="1957591913" />
-					<instance_reference name="member" value="upgrade\races\mongol\research\unique\upgrade_outpost_stone_mon" List.ItemID="-1087242915" />
-					<instance_reference name="member" value="upgrade\races\japanese\research\upgrade_shrine_gion_jpn" List.ItemID="866452494" />
-					<instance_reference name="member" value="upgrade\races\japanese\research\upgrade_temple_fivemountain_jpn" List.ItemID="-1984186696" />
-					<instance_reference name="member" value="upgrade\races\templar\unique_upgrades\upgrade_desert_citadels" List.ItemID="-387112899" />
-					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\research\economy\upgrade_tech_university_architecture_4_sul_ha_tug" List.ItemID="51419441" />
-					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\research\economy\upgrade_tech_university_murder_holes_4_sul_ha_tug" List.ItemID="-167980932" />
-					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\research\upgrade_villager_health_sul_ha_tug" List.ItemID="-738920828" />
-					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\research\upgrade_keep_curse_of_the_fort" List.ItemID="-1576639631" />
-					<instance_reference name="member" value="upgrade\races\mongol_ha_gol\research\blacksmith_university\upgrade_tech_university_architecture_4_mon_ha_gol" List.ItemID="-833523831" />
-					<instance_reference name="member" value="upgrade\races\mongol_ha_gol\research\stone_upgrades\upgrade_kharash_improvement_mon_ha_gol" List.ItemID="1231818430" />
-					<instance_reference name="member" value="upgrade\races\japanese_ha_sen\research\upgrade_temple_monk_healing_jpn_ha_sen" List.ItemID="-1990314958" />
-					<instance_reference name="member" value="upgrade\races\jin_dynasty\research\upgrade_tech_rain_of_fire_jin" List.ItemID="510685594" />
+					<instance_reference name="member" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="-1639273695" />
+					<instance_reference name="member" value="upgrade\races\sultanate\research\economy\upgrade_tech_university_murder_holes_4_sul" List.ItemID="-71662923" />
+					<instance_reference name="member" value="upgrade\races\sultanate\research\economy\upgrade_tech_university_architecture_4_sul" List.ItemID="-401802819" />
+					<instance_reference name="member" value="upgrade\races\common\research\economy\upgrade_tech_university_architecture_4" List.ItemID="428554052" />
+					<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_architecture_chi" List.ItemID="956641690" />
+					<instance_reference name="member" value="upgrade\races\common\research\upgrade_outpost_stone" List.ItemID="-693030413" />
+					<instance_reference name="member" value="upgrade\races\hre\research\upgrade_building_fire_armor_hre" List.ItemID="-685812789" />
+					<instance_reference name="member" value="upgrade\races\hre\research\upgrade_reinforced_defenses_hre" List.ItemID="1760251895" />
+					<instance_reference name="member" value="upgrade\races\abbasid\research\upgrade_cul_medical_centers_abb" List.ItemID="248075337" />
+					<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_wall_repair_chi" List.ItemID="-817088208" />
+					<instance_reference name="member" value="upgrade\races\english\research\upgrade_network_of_citadels_eng" List.ItemID="1521083646" />
+					<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_mosque_heal_sul" List.ItemID="1903623024" />
+					<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_keep_defense_sul" List.ItemID="-1141479126" />
+					<instance_reference name="member" value="upgrade\races\common\research\upgrade_villager_health" List.ItemID="-1194196040" />
+					<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_villager_health_sul" List.ItemID="-881369726" />
+					<instance_reference name="member" value="upgrade\races\mongol\research\upgrade_villager_health_improved_mon" List.ItemID="-68009386" />
+					<instance_reference name="member" value="upgrade\races\ottoman\research\upgrade_imperial_manned_siege_ott" List.ItemID="233235287" />
+					<instance_reference name="member" value="upgrade\races\malian\research\upgrade_banco_repairs_mal" List.ItemID="1899235001" />
+					<instance_reference name="member" value="upgrade\races\byzantine\research\upgrade_house_vision_byz" List.ItemID="2073750193" />
+					<instance_reference name="member" value="upgrade\races\chinese_ha_01\research\officials\upgrade_official_supervise_defensive" List.ItemID="1540440538" />
+					<instance_reference name="member" value="upgrade\races\chinese_ha_01\research\upgrade_library_architecture_4" List.ItemID="-1844272048" />
+					<instance_reference name="member" value="upgrade\races\sultanate\research\landmark_new\upgrade_landmark_keep_defense_compond_sul" List.ItemID="-269192225" />
+					<instance_reference name="member" value="upgrade\races\sultanate\research\landmark_new\upgrade_tech_university_architecture_compound_sul" List.ItemID="-150521853" />
+					<instance_reference name="member" value="upgrade\races\mongol\research\unique\upgrade_outpost_stone_mon" List.ItemID="1403091193" />
+					<instance_reference name="member" value="upgrade\races\japanese\research\upgrade_shrine_gion_jpn" List.ItemID="-24693206" />
+					<instance_reference name="member" value="upgrade\races\japanese\research\upgrade_temple_fivemountain_jpn" List.ItemID="724380412" />
+					<instance_reference name="member" value="upgrade\races\templar\unique_upgrades\upgrade_desert_citadels" List.ItemID="625856219" />
+					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\research\economy\upgrade_tech_university_architecture_4_sul_ha_tug" List.ItemID="-1111841707" />
+					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\research\economy\upgrade_tech_university_murder_holes_4_sul_ha_tug" List.ItemID="-995303523" />
+					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\research\upgrade_villager_health_sul_ha_tug" List.ItemID="-639240274" />
+					<instance_reference name="member" value="upgrade\races\sultanate_ha_tug\research\upgrade_keep_curse_of_the_fort" List.ItemID="1966184332" />
+					<instance_reference name="member" value="upgrade\races\mongol_ha_gol\research\blacksmith_university\upgrade_tech_university_architecture_4_mon_ha_gol" List.ItemID="948840078" />
+					<instance_reference name="member" value="upgrade\races\mongol_ha_gol\research\stone_upgrades\upgrade_kharash_improvement_mon_ha_gol" List.ItemID="1002551718" />
+					<instance_reference name="member" value="upgrade\races\japanese_ha_sen\research\upgrade_temple_monk_healing_jpn_ha_sen" List.ItemID="-569057046" />
+					<instance_reference name="member" value="upgrade\races\jin_dynasty\research\upgrade_tech_rain_of_fire_jin" List.ItemID="-1385091025" />
 				</list>
 				<float name="base_scale" value="700" />
 				<float name="minimum_score_to_produce" value="1" />
@@ -5829,7 +5829,7 @@
 				<list name="members">
 					<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age1_flower_pagoda_jin" List.ItemID="1033425347" />
 					<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age2_dragon_pavilion_jin" List.ItemID="750496923" />
-					<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age3_greatwall_bastion_jin" List.ItemID="1890458035" />
+					<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age3_greatwall_bastion_jin" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1890458035" />
 				</list>
 				<float name="base_scale" value="980" />
 				<float name="minimum_score_to_produce" value="200" />
@@ -8985,7 +8985,7 @@
 						<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_wall_repair_chi" List.ItemID="1383748215" />
 						<instance_reference name="member" value="upgrade\races\english\research\upgrade_network_of_citadels_eng" List.ItemID="-1859471619" />
 						<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_mosque_heal_sul" List.ItemID="1301178769" />
-						<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_keep_defense_sul" List.ItemID="-679315045" />
+						<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_keep_defense_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-679315045" />
 					</list>
 					<float name="base_scale" value="500" />
 					<float name="minimum_score_to_produce" value="1" />
@@ -12754,7 +12754,7 @@
 						<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_wall_repair_chi" List.ItemID="-634204225" />
 						<instance_reference name="member" value="upgrade\races\english\research\upgrade_network_of_citadels_eng" List.ItemID="-1710626440" />
 						<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_mosque_heal_sul" List.ItemID="462707321" />
-						<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_keep_defense_sul" List.ItemID="-981682336" />
+						<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_keep_defense_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-981682336" />
 						<instance_reference name="member" value="upgrade\races\common\research\upgrade_villager_health" List.ItemID="1225519268" />
 						<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_villager_health_sul" List.ItemID="560602023" />
 						<instance_reference name="member" value="upgrade\races\mongol\research\upgrade_villager_health_improved_mon" List.ItemID="-136530025" />
@@ -18047,7 +18047,7 @@
 						<instance_reference name="member" value="upgrade\races\chinese\research\upgrade_wall_repair_chi" List.ItemID="-1696767434" />
 						<instance_reference name="member" value="upgrade\races\english\research\upgrade_network_of_citadels_eng" List.ItemID="-898153752" />
 						<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_mosque_heal_sul" List.ItemID="-1999171556" />
-						<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_keep_defense_sul" List.ItemID="-452843498" />
+						<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_landmark_keep_defense_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-452843498" />
 						<instance_reference name="member" value="upgrade\races\common\research\upgrade_villager_health" List.ItemID="157550123" />
 						<instance_reference name="member" value="upgrade\races\sultanate\research\upgrade_villager_health_sul" List.ItemID="1027420722" />
 						<instance_reference name="member" value="upgrade\races\mongol\research\upgrade_villager_health_improved_mon" List.ItemID="2100073440" />
@@ -19704,7 +19704,7 @@
 					<list name="members">
 						<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age1_flower_pagoda_jin" List.ItemID="-1562201444" />
 						<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age2_dragon_pavilion_jin" List.ItemID="324359236" />
-						<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age3_greatwall_bastion_jin" List.ItemID="790855474" />
+						<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age3_greatwall_bastion_jin" mod="67987bbc33214c57b0617d9356614825" List.ItemID="790855474" />
 					</list>
 					<float name="base_scale" value="980" />
 					<float name="minimum_score_to_produce" value="200" />

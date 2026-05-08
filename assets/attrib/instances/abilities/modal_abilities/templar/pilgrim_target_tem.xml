@@ -18,43 +18,43 @@
 		<string name="cursor_ghost_blueprint" value="" />
 		<float name="cursor_ghost_blueprint_angle" value="0" />
 		<bool name="disable_combat" value="False" />
-		<bool name="disable_when_active" value="True" />
+		<bool name="disable_when_active" value="False" />
 		<bool name="enable_in_building" value="False" />
 		<bool name="enable_in_vehicle" value="False" />
 		<bool name="engage_combat" value="False" />
 		<float name="entity_busy_time" value="0" />
 		<float name="facing_angle" value="5" />
-		<bool name="facing_ignore" value="True" />
+		<bool name="facing_ignore" value="False" />
 		<float name="final_close_in_distance" value="0" />
 		<bool name="fire_and_forget" value="False" />
 		<bool name="garrison_target" value="False" />
 		<bool name="initial_recharge" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="60" />
-		<bool name="range_ignore" value="False" />
-		<float name="recharge_time" value="40" />
+		<float name="range" value="0" />
+		<bool name="range_ignore" value="True" />
+		<float name="recharge_time" value="5" comment="caution wonky setup, this value needs to be &gt;0 for pilgrims to function." />
 		<bool name="refundable" value="False" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="" />
 		<bool name="shared_timer_player_wide" value="False" />
 		<enum name="squad_caster" value="all_entities" />
-		<enum name="target" value="tp_entity" />
+		<enum name="target" value="tp_any" />
 		<float name="toggled_recharge_time_off" value="0" />
 		<float name="toggled_recharge_time_on" value="0" />
 		<group name="ui_cursor">
-			<string name="cursor_bad" value="modal_ability_cant" />
+			<string name="cursor_bad" value="cant_move" />
 			<string name="cursor_good" value="modal_ability" />
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
 			<locstring name="extra_text" value="0" />
-			<locstring name="help_text" value="0" />
-			<string name="hotkey_name" value="Q" />
-			<file name="icon_name" value="races\french\upgrades\artillery" />
+			<locstring name="help_text" value="11269106" />
+			<string name="hotkey_name" value="Z" />
+			<file name="icon_name" value="races\common\buildings\holy_site" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11246294" />
+			<locstring name="screen_name" value="11265430" />
 			<file name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />
@@ -67,14 +67,14 @@
 			</template_reference>
 			<template_reference name="extra_text_formatter" value="">
 			</template_reference>
-			<template_reference name="help_text_formatter" value="ui_text_formatter">
-				<list name="formatter_arguments">
-					<int name="int_value" value="5" List.ItemID="218389716" />
-					<int name="int_value" value="30" List.ItemID="-221406761" />
-				</list>
-				<locstring name="formatter" value="11263023" />
+			<template_reference name="help_text_formatter" value="">
 			</template_reference>
-			<template_reference name="help_text_alternate_formatter" value="">
+			<template_reference name="help_text_alternate_formatter" value="ui_text_formatter">
+				<list name="formatter_arguments">
+					<int name="int_value" value="30" List.ItemID="705137654" />
+					<int name="int_value" value="1" List.ItemID="-1360681371" />
+				</list>
+				<locstring name="formatter" value="11265431" />
 			</template_reference>
 			<template_reference name="screen_name_formatter" value="">
 			</template_reference>
@@ -83,13 +83,16 @@
 			<template_reference name="screen_name_short_formatter" value="">
 			</template_reference>
 			<string name="sound" value="sfx_ability_cast_base" />
-			<string name="sound_alternative" value="" />
+			<string name="sound_alternative" value="sfx_ui_trade_route_set_play" />
 			<template_reference name="ui_info_extended" value="tables\ui_info_ext">
 				<template_reference name="command_card_info" value="">
 				</template_reference>
 				<template_reference name="quick_abilities_info" value="">
 				</template_reference>
-				<template_reference name="quick_commands_info" value="">
+				<template_reference name="quick_commands_info" value="ui_quick_commands_info">
+					<int name="quick_commands_slot_index" value="5" />
+					<enum name="quick_commands_hotkey" value="x_quick_command_lb_rb" />
+					<int name="quick_commands_priority" value="1" />
 				</template_reference>
 				<template_reference name="quick_formation_info" value="">
 				</template_reference>
@@ -97,14 +100,14 @@
 				</template_reference>
 				<enum name="category" value="Economic" />
 				<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
-					<enum name="quick_commands_hotkey" value="x_quick_command_y" />
+					<enum name="quick_commands_hotkey" value="x_quick_command_lb_rb" />
 					<int name="quick_commands_priority" value="1" />
-					<int name="quick_commands_slot_index" value="2" />
-					<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
+					<int name="quick_commands_slot_index" value="0" />
+					<enum name="quick_commands_hold_time" value="controller_unit_destroy_hold_time" />
 				</template_reference>
 				<template_reference name="relic_radial_menu_info" value="relic_radial_menu\relic_radial_menu_info">
-					<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\default_unit_ability" />
-					<int name="nominal_index" value="-1" />
+					<instance_reference name="menu" value="relic_radial_menu\relic_radial_menu\default" />
+					<int name="nominal_index" value="8" />
 					<int name="priority" value="0" />
 					<instance_reference name="linked" value="" />
 				</template_reference>
@@ -120,17 +123,17 @@
 		<list name="ui_contextual_info">
 		</list>
 		<locstring name="ui_usage_txt" value="0" />
-		<bool name="validate_actions" value="False" />
+		<bool name="validate_actions" value="True" />
 		<list name="requirements">
 		</list>
 		<enum name="ability_super" value="tp_none" />
 		<group name="ui_position">
-			<int name="ui_position_row" value="1" />
-			<int name="ui_position_column" value="1" />
+			<int name="ui_position_row" value="3" />
+			<int name="ui_position_column" value="3" />
 		</group>
 		<bool name="ui_mini_map_capture" value="False" />
-		<bool name="facing_ignore_during_active" value="True" />
-		<instance_reference name="ui_range" value="ui_reticule\weapon_range" />
+		<bool name="facing_ignore_during_active" value="False" />
+		<instance_reference name="ui_range" value="" />
 		<instance_reference name="ui_reticule" value="" />
 		<float name="ui_reticule_radius_min" value="1" />
 		<float name="ui_reticule_radius_max" value="1" />
@@ -146,20 +149,26 @@
 			<bool name="map_sector" value="False" />
 			<bool name="map_sector_hq_link_extender" value="False" />
 		</enum_table>
-		<enum name="ui_group_cast_type" value="multi" />
+		<enum name="ui_group_cast_type" value="single" />
 		<list name="requirements_target">
-			<template_reference name="required" value="requirements\required_unit_type" List.ItemID="1378458947">
+			<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-1707030137">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="0" />
-				<enum name="unit_type" value="building" />
+				<locstring name="ui_name" value="11265581" />
+				<enum name="unit_type" value="special_beacon" />
 				<template_reference name="qualify_option" value="options\none">
 				</template_reference>
 				<bool name="search_load_out" value="False" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_ownership" List.ItemID="316218649">
+			<template_reference name="required" value="requirements\required_not" List.ItemID="1142939427">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11257474" />
-				<enum name="ownership_type" value="enemy" />
+				<locstring name="ui_name" value="0" />
+				<list name="requirement_table">
+					<template_reference name="required" value="requirements\required_ownership" List.ItemID="990546116">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="11266807" />
+						<enum name="ownership_type" value="enemy" />
+					</template_reference>
+				</list>
 			</template_reference>
 		</list>
 		<template_reference name="targeted_ability_option" value="options\none">
@@ -183,7 +192,7 @@
 		</enum_table>
 		<bool name="ability_super_event_cue" value="False" />
 		<enum name="ui_progress_bar_type" value="auto_bar" />
-		<enum name="ui_ability_issue_type" value="Normal" />
+		<enum name="ui_ability_issue_type" value="DefaultAction" />
 		<string name="speech_code" value="" />
 		<template_reference name="channeling" value="options\none">
 		</template_reference>
@@ -195,7 +204,7 @@
 		<instance_reference name="ability_category" value="" />
 		<bool name="always_refund_cost_if_failed" value="False" />
 		<instance_reference name="ui_menu" value="" />
-		<int name="ui_combine_priority" value="100" />
+		<int name="ui_combine_priority" value="0" />
 		<instance_reference name="construction_preview_override" value="" />
 		<enum name="statetree_ability_id" value="" />
 		<bool name="construction_preview" value="False" />
@@ -207,8 +216,8 @@
 		<state_tree_node name="squad_tree" value="" />
 		<group name="ability_active_state_tree_group">
 			<state_tree_node name="ability_activate_squad_tree" value="" />
-			<state_tree_node name="ability_activate_entity_tree" value="cannon_swap_fre" />
-			<state_tree_node name="ability_activate_deferred_tree" value="" />
+			<state_tree_node name="ability_activate_entity_tree" value="" />
+			<state_tree_node name="ability_activate_deferred_tree" value="pilgrim_target_tem" />
 		</group>
 		<float name="hold_period" value="0" />
 		<bool name="clear_ability_on_blueprint_conversion" value="True" />
@@ -222,7 +231,7 @@
 		<bool name="ui_range_reticule_shows_while_active" value="False" />
 		<bool name="can_move_to_cast" value="True" />
 		<string name="toggle_ability_group" value="" />
-		<instance_reference name="projectile_for_preview" value="ebps\projectiles\projectile_shot_cannon" />
+		<instance_reference name="projectile_for_preview" value="" />
 		<bool name="ui_ability_can_display" value="True" />
 		<list name="enable_in_unit_types">
 		</list>
@@ -230,9 +239,9 @@
 		<bool name="should_trigger_immediately" value="False" />
 		<enum name="ui_target_origin_point" value="center" />
 		<locstring name="ui_user_prompt_issue_message" value="0" />
-		<bool name="ui_range_reticule_can_cast_only" value="False" />
-		<bool name="ui_range_reticule_first_caster_only" value="False" />
-		<bool name="ui_range_reticule_enable_team_color" value="False" />
+		<bool name="ui_range_reticule_can_cast_only" value="True" />
+		<bool name="ui_range_reticule_first_caster_only" value="True" />
+		<bool name="ui_range_reticule_enable_team_color" value="True" />
 		<bool name="can_passive_ability_create_formation_squad_group" value="False" />
 		<bool name="can_cast_again_whilst_pending" value="False" />
 		<list name="float_properties">
@@ -242,9 +251,9 @@
 		<bool name="can_queue_passive_ability" value="True" />
 		<string name="ui_click_point_action_key" value="" />
 		<bool name="ignore_teardown_on_convert" value="False" />
-		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\abilities\ability_cannon_swap_fre" />
+		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_town_center\ability_pilgrim_destination_target_tem" />
 		<int name="default_command_additional_rally_weight_modifier" value="0" />
 	</group>
-	<uniqueid name="pbgid" value="2150307" />
+	<uniqueid name="pbgid" value="5000303" />
 	<instance_reference name="parent_pbg" value="" />
 </instance>

@@ -117,6 +117,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="660146555">
 					<instance_reference name="entity" value="" />
@@ -181,6 +184,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1553053949">
 					<group name="ui_position">
@@ -249,6 +255,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1778822438">
 					<group name="ui_position">
@@ -315,6 +324,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-97220022">
 					<group name="ui_position">
@@ -385,6 +397,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="1619510724">
 					<group name="ui_position">
@@ -457,6 +472,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-1069945456">
 					<group name="ui_position">
@@ -529,6 +547,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="258009881">
 					<group name="ui_position">
@@ -601,6 +622,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1428950274">
 					<group name="ui_position">
@@ -667,6 +691,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="605494611">
 					<group name="ui_position">
@@ -733,6 +760,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 			</list>
 			<list name="queue_requirements" overrideParent="True">
@@ -744,8 +774,8 @@
 			<list name="standard_upgrades" overrideParent="True">
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_keep_springald" List.ItemID="-1133772993" />
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_keep_cannon" List.ItemID="607453047" />
-				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\landmark\upgrade_age2_keep_town_center_sul" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-577152718" />
-				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_landmark_keep_defense_sul" List.ItemID="1310903230" />
+				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\landmark\upgrade_age2_keep_town_center_sul" overrideParent="True" List.ItemID="-577152718" />
+				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\upgrade_landmark_keep_defense_sul" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1310903230" />
 				<instance_reference name="upgrade" value="upgrade\races\sultanate\research\economy\upgrade_tech_university_murder_holes_4_sul" List.ItemID="1197135549" />
 				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_gunpowder_empire" mod="67987bbc33214c57b0617d9356614825" List.ItemID="581284491" />
 			</list>
