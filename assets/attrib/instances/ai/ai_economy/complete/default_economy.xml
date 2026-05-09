@@ -5827,9 +5827,9 @@
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="RandomLandmark2A" List.ItemID="1538782622">
 				<list name="members">
-					<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age1_flower_pagoda_jin" List.ItemID="1033425347" />
-					<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age2_dragon_pavilion_jin" List.ItemID="750496923" />
-					<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age3_greatwall_bastion_jin" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1890458035" />
+					<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age1_flower_pagoda_jin" List.ItemID="-1952625819" />
+					<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age2_dragon_pavilion_jin" List.ItemID="-1876496852" />
+					<instance_reference name="member" value="ebps\races\jin_dynasty\buildings\building_landmark_age3_greatwall_bastion_jin" List.ItemID="2053752408" />
 				</list>
 				<float name="base_scale" value="980" />
 				<float name="minimum_score_to_produce" value="200" />
