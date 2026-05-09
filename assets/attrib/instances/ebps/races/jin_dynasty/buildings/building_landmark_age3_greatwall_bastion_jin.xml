@@ -2433,11 +2433,11 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\jin_dynasty\unit_mohe_tribesman_2_jin" overrideParent="True" List.ItemID="1155929770" />
-						<instance_reference name="additional_squad" value="sbps\races\jin_dynasty\unit_mohe_tribesman_2_jin" overrideParent="True" List.ItemID="1002002516" />
-						<instance_reference name="additional_squad" value="sbps\races\jin_dynasty\unit_mohe_tribesman_2_jin" overrideParent="True" List.ItemID="-1368773152" />
-						<instance_reference name="additional_squad" value="sbps\races\jin_dynasty\unit_mohe_tribesman_2_jin" overrideParent="True" List.ItemID="-1172851023" />
-						<instance_reference name="additional_squad" value="sbps\races\jin_dynasty\unit_mohe_tribesman_2_jin" overrideParent="True" List.ItemID="-135353103" />
+						<instance_reference name="additional_squad" value="sbps\races\jin_dynasty\unit_iron_pagoda_2_jin" overrideParent="True" List.ItemID="1155929770" />
+						<instance_reference name="additional_squad" value="sbps\races\jin_dynasty\unit_iron_pagoda_2_jin" overrideParent="True" List.ItemID="1002002516" />
+						<instance_reference name="additional_squad" value="sbps\races\jin_dynasty\unit_iron_pagoda_2_jin" overrideParent="True" List.ItemID="-1368773152" />
+						<instance_reference name="additional_squad" value="sbps\races\jin_dynasty\unit_iron_pagoda_2_jin" overrideParent="True" List.ItemID="-1172851023" />
+						<instance_reference name="additional_squad" value="sbps\races\jin_dynasty\unit_iron_pagoda_2_jin" overrideParent="True" List.ItemID="-135353103" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
