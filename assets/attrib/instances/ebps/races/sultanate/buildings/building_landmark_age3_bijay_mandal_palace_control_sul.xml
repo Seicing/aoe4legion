@@ -25,7 +25,7 @@
 								<template_reference name="requirement" value="requirements\required_structure" List.ItemID="-1462761615">
 									<enum name="reason" value="usage" />
 									<locstring name="ui_name" value="0" />
-									<instance_reference name="structure_name" value="ebps\races\sultanate\buildings\building_landmark_age3_madrasa_e_firoz_sul\building_landmark_age3_madrasa_e_firoz_sul" mod="67987bbc33214c57b0617d9356614825" />
+									<instance_reference name="structure_name" value="ebps\races\sultanate\buildings\building_landmark_age3_madrasa_e_firoz_sul\building_landmark_age3_madrasa_e_firoz_sul" overrideParent="True" />
 									<int name="required_structure_count" value="1" />
 									<bool name="check_team" value="False" />
 									<bool name="require_construction_complete" value="False" />
@@ -247,6 +247,9 @@
 					</template_reference>
 					<file name="ui_icon_name" value="" />
 					<string name="ui_tooltip_data_template" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
@@ -273,6 +276,7 @@
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
 			<bool name="use_alternative_rally_point_system" value="False" />
+			<bool name="trade_only_economical_rally" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\hold_ext" List.ItemID="-634068268" List.ListAction="Append">
 			<list name="acceptable_types" overrideParent="True">
@@ -337,6 +341,7 @@
 			<bool name="is_indoors" value="True" />
 			<bool name="right_click_garrison_always_enabled" value="False" />
 			<bool name="exclude_allied_units" value="False" />
+			<bool name="on_loaded_squad_action_tree_reapply_on_bp_conversion" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="135891" />

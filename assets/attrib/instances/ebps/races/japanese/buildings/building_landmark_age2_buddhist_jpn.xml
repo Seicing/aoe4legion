@@ -93,10 +93,11 @@
 				<list name="formatter_arguments" overrideParent="True">
 					<int name="int_value" value="4" overrideParent="True" List.ItemID="68278297" />
 				</list>
-				<locstring name="formatter" value="621" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+				<locstring name="formatter" value="11260986" overrideParent="True" />
 			</template_reference>
 			<locstring name="screen_name" value="11245040" overrideParent="True" />
 			<locstring name="extra_text" value="11247520" overrideParent="True" />
+			<string name="selection_group" value="monastery" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="1777818888" List.ParentItemID="1777818888">
 			<list name="type_list">
@@ -244,6 +245,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-2024820552">
 					<group name="ui_position">
@@ -310,6 +314,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
@@ -336,6 +343,7 @@
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
 			<bool name="use_alternative_rally_point_system" value="False" />
+			<bool name="trade_only_economical_rally" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="2122034" />

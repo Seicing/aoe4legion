@@ -24,7 +24,7 @@
 			</group>
 			<bool name="is_unique_to_race" value="True" overrideParent="True" />
 			<locstring name="screen_name" value="11245042" overrideParent="True" />
-			<locstring name="help_text" value="622" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+			<locstring name="help_text" value="11260984" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\spawner_ext" List.ItemID="-1541268486" List.ParentItemID="-1541268486">
 			<list name="spawn_items">
@@ -130,6 +130,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 			</list>
 			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed_chi" overrideParent="True" />
