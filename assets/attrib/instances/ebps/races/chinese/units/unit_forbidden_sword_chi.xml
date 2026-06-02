@@ -1,7 +1,7 @@
 <instance version="4" description="Chinese Imperial Age Man-at-arms" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-765163162" List.ParentItemID="-765163162">
-			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_manatarms_swordsman" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_manatarms_two_hand" overrideParent="True" />
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1466211397" List.ParentItemID="-1466211397">
@@ -21,13 +21,18 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="118682988" List.ParentItemID="118682988">
 			<bool name="regeneration_disabled" value="True" overrideParent="True" />
-			<enum_table name="armor_scaler_by_damage_type">
-				<float name="Melee" value="3" overrideParent="True" />
-				<float name="Ranged" value="0" overrideParent="True" />
+			<enum_table name="armor_scaler_by_damage_type" overrideParent="True">
+				<float name="Melee" value="5" overrideParent="True" />
+				<float name="Ranged" value="5" overrideParent="True" />
+				<float name="True Damage" value="0" />
+				<float name="Fire" value="0" />
 			</enum_table>
 			<float name="hitpoints" value="180" overrideParent="True" />
-			<enum_table name="percentage_reduction_armor_by_damage_type">
-				<float name="Ranged" value="80" overrideParent="True" />
+			<enum_table name="percentage_reduction_armor_by_damage_type" overrideParent="True">
+				<float name="Ranged" value="0" overrideParent="True" />
+				<float name="True Damage" value="0" />
+				<float name="Melee" value="0" />
+				<float name="Fire" value="0" />
 			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-782585427" List.ParentItemID="-782585427">
@@ -39,10 +44,10 @@
 			<bool name="is_armoured" value="True" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1697644820" List.ParentItemID="1697644820">
-			<list name="hardpoints">
+			<list name="hardpoints" overrideParent="True">
 				<group name="hardpoint" List.ItemID="1781403471" List.ParentItemID="1781403471">
 					<list name="weapon_table" overrideParent="True">
-						<group name="weapon" List.ItemID="-86260756">
+						<group name="weapon" List.ItemID="1338606433">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -58,12 +63,12 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_manatarms_3" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\chinese\weapons\wpn_melee_scout_1_chi" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\jin_dynasty\melee\weapon_zhanma_4_jin" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\jin_dynasty\weapons\wpn_melee_zhanma_4_jin" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
-						<group name="weapon" List.ItemID="466048954">
+						<group name="weapon" List.ItemID="1676749114">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -84,7 +89,7 @@
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
-						<group name="weapon" List.ItemID="1336974248">
+						<group name="weapon" overrideParent="True" List.ItemID="-2145227702">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -100,12 +105,21 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_manatarms_3_charge" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\mongol\weapons\wpn_melee_manatarms_4_charge_mon" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\jin_dynasty\melee\weapon_zhanma_4_charge_jin" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\jin_dynasty\weapons\wpn_melee_zhanma_4_jin" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
 					</list>
+					<float name="parent_hardpoint" value="-1" />
+					<bool name="receives_attack_commands" value="True" />
+					<string name="base_marker" value="" />
+					<list name="preferred_inventory_item_categories">
+					</list>
+					<list name="firing_offset_markers">
+					</list>
+					<string name="offhand_marker" value="" />
+					<bool name="initialize_weapons_on_creation" value="True" />
 				</group>
 			</list>
 		</template_reference>

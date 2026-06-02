@@ -86,36 +86,126 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\resource_gatherer_ext" List.ItemID="-138597253" List.ParentItemID="-138597253">
-			<list name="gather_types">
-				<group name="gather_target" List.ItemID="2049892217" List.ParentItemID="2049892217">
-					<float name="gather_rate" value="0.96" overrideParent="True" />
+			<list name="gather_types" overrideParent="True">
+				<group name="gather_target" comment="TREE" List.ItemID="2049892217" List.ParentItemID="2049892217">
+					<float name="gather_rate" value="0.9525" overrideParent="True" />
+					<instance_reference name="resource_sub_type" value="resource_sub_type\tree" />
+					<float name="search_radius" value="20" comment="This is not the Auto-Gather after construction completion radius (that value is in tuning -&gt; resource -&gt; gathering -&gt; local_deposit_search_range)" />
+					<float name="resource_carry_capacity" value="10" />
+					<bool name="prioritize_drop_off_pos_over_entity_pos" value="False" />
+					<bool name="allow_auto_gather" value="True" />
+					<enum name="resource_gather_job" value="gather_wood" />
+					<bool name="allow_auto_work_to_enable" value="True" />
 				</group>
-				<group name="gather_target" List.ItemID="1291539621" List.ParentItemID="1291539621">
-					<float name="gather_rate" value="0.96" overrideParent="True" />
+				<group name="gather_target" comment="FARM" List.ItemID="1291539621" List.ParentItemID="1291539621">
+					<float name="gather_rate" value="0.9525" overrideParent="True" />
+					<instance_reference name="resource_sub_type" value="resource_sub_type\farm" />
+					<float name="search_radius" value="25" />
+					<float name="resource_carry_capacity" value="10" />
+					<bool name="prioritize_drop_off_pos_over_entity_pos" value="False" />
+					<bool name="allow_auto_gather" value="True" />
+					<enum name="resource_gather_job" value="gather_farm" />
+					<bool name="allow_auto_work_to_enable" value="True" />
 				</group>
-				<group name="gather_target" List.ItemID="-1922234524" List.ParentItemID="-1922234524">
-					<float name="gather_rate" value="0.96" overrideParent="True" />
+				<group name="gather_target" comment="HERDABLE" List.ItemID="-1922234524" List.ParentItemID="-1922234524">
+					<float name="gather_rate" value="0.9525" overrideParent="True" />
+					<instance_reference name="resource_sub_type" value="resource_sub_type\herded_animal" />
+					<float name="search_radius" value="20" />
+					<float name="resource_carry_capacity" value="10" />
+					<bool name="prioritize_drop_off_pos_over_entity_pos" value="False" />
+					<bool name="allow_auto_gather" value="True" />
+					<enum name="resource_gather_job" value="gather_herdable" />
+					<bool name="allow_auto_work_to_enable" value="True" />
 				</group>
-				<group name="gather_target" List.ItemID="-1408090057" List.ParentItemID="-1408090057">
-					<float name="gather_rate" value="1.152" overrideParent="True" />
+				<group name="gather_target" comment="HUNTABLE - Dangerous (boar and croc)" List.ItemID="-1408090057" List.ParentItemID="-1408090057">
+					<float name="gather_rate" value="1.143" overrideParent="True" />
+					<instance_reference name="resource_sub_type" value="resource_sub_type\hunted_animal_danger" />
+					<float name="search_radius" value="20" />
+					<float name="resource_carry_capacity" value="25" />
+					<bool name="prioritize_drop_off_pos_over_entity_pos" value="False" />
+					<bool name="allow_auto_gather" value="True" />
+					<enum name="resource_gather_job" value="gather_huntable_danger" />
+					<bool name="allow_auto_work_to_enable" value="False" comment="This affects whether or not they will attack alive Boars when completing a drop off / searching for more of the same deposit" />
 				</group>
-				<group name="gather_target" List.ItemID="-1518368386" List.ParentItemID="-1518368386">
-					<float name="gather_rate" value="1.056" overrideParent="True" />
+				<group name="gather_target" comment="HUNTABLE - Deer-like" List.ItemID="-1518368386" List.ParentItemID="-1518368386">
+					<float name="gather_rate" value="1.04775" overrideParent="True" />
+					<instance_reference name="resource_sub_type" value="resource_sub_type\hunted_animal_flee" />
+					<float name="search_radius" value="30" />
+					<float name="resource_carry_capacity" value="25" />
+					<bool name="prioritize_drop_off_pos_over_entity_pos" value="False" />
+					<bool name="allow_auto_gather" value="True" />
+					<enum name="resource_gather_job" value="gather_huntable" />
+					<bool name="allow_auto_work_to_enable" value="True" />
+				</group>
+				<group name="gather_target" comment="METEORITE" List.ItemID="23923265" List.ParentItemID="23923265">
+					<float name="gather_rate" value="0.9525" overrideParent="True" />
+					<instance_reference name="resource_sub_type" value="resource_sub_type\civs\rogue\meteorite" />
+					<float name="search_radius" value="10" />
+					<float name="resource_carry_capacity" value="10" />
+					<bool name="prioritize_drop_off_pos_over_entity_pos" value="False" />
+					<bool name="allow_auto_gather" value="True" />
+					<enum name="resource_gather_job" value="gather_meteorite" />
+					<bool name="allow_auto_work_to_enable" value="True" />
 				</group>
 				<group name="gather_target" comment="STONE" List.ItemID="-859779424" List.ParentItemID="-859779424">
-					<float name="gather_rate" value="0.96" overrideParent="True" />
+					<float name="gather_rate" value="0.9525" overrideParent="True" />
+					<instance_reference name="resource_sub_type" value="resource_sub_type\stone" />
+					<float name="search_radius" value="15" />
+					<float name="resource_carry_capacity" value="10" />
+					<bool name="prioritize_drop_off_pos_over_entity_pos" value="False" />
+					<bool name="allow_auto_gather" value="True" />
+					<enum name="resource_gather_job" value="gather_stone" />
+					<bool name="allow_auto_work_to_enable" value="True" />
 				</group>
-				<group name="gather_target" List.ItemID="-746852428" List.ParentItemID="-746852428">
-					<float name="gather_rate" value="0.96" overrideParent="True" />
+				<group name="gather_target" comment="GOLD" List.ItemID="-746852428" List.ParentItemID="-746852428">
+					<float name="gather_rate" value="0.9525" overrideParent="True" />
+					<instance_reference name="resource_sub_type" value="resource_sub_type\gold" />
+					<float name="search_radius" value="15" />
+					<float name="resource_carry_capacity" value="10" />
+					<bool name="prioritize_drop_off_pos_over_entity_pos" value="False" />
+					<bool name="allow_auto_gather" value="True" />
+					<enum name="resource_gather_job" value="gather_gold" />
+					<bool name="allow_auto_work_to_enable" value="True" />
 				</group>
-				<group name="gather_target" List.ItemID="285750548" List.ParentItemID="285750548">
-					<float name="gather_rate" value="1.28" overrideParent="True" />
+				<group name="gather_target" comment="SHORE FISH" List.ItemID="285750548" List.ParentItemID="285750548">
+					<float name="gather_rate" value="1.27" overrideParent="True" />
+					<instance_reference name="resource_sub_type" value="resource_sub_type\fish" />
+					<float name="search_radius" value="30" />
+					<float name="resource_carry_capacity" value="10" />
+					<bool name="prioritize_drop_off_pos_over_entity_pos" value="False" />
+					<bool name="allow_auto_gather" value="True" />
+					<enum name="resource_gather_job" value="gather_shore_fish" />
+					<bool name="allow_auto_work_to_enable" value="True" />
 				</group>
-				<group name="gather_target" List.ItemID="529123602" List.ParentItemID="529123602">
-					<float name="gather_rate" value="0.8832" overrideParent="True" />
+				<group name="gather_target" comment="BERRY BUSH" List.ItemID="529123602" List.ParentItemID="529123602">
+					<float name="gather_rate" value="0.8763" overrideParent="True" />
+					<instance_reference name="resource_sub_type" value="resource_sub_type\forage_bush" />
+					<float name="search_radius" value="15" />
+					<float name="resource_carry_capacity" value="10" />
+					<bool name="prioritize_drop_off_pos_over_entity_pos" value="False" />
+					<bool name="allow_auto_gather" value="True" />
+					<enum name="resource_gather_job" value="gather_berries" />
+					<bool name="allow_auto_work_to_enable" value="True" />
 				</group>
-				<group name="gather_target" List.ItemID="-150619075" List.ParentItemID="-150619075">
-					<float name="gather_rate" value="0.8448" overrideParent="True" />
+				<group name="gather_target" comment="COW" List.ItemID="-150619075" List.ParentItemID="-150619075">
+					<float name="gather_rate" value="0.8382" overrideParent="True" />
+					<instance_reference name="resource_sub_type" value="resource_sub_type\cattle" />
+					<float name="search_radius" value="30" />
+					<float name="resource_carry_capacity" value="10" />
+					<bool name="prioritize_drop_off_pos_over_entity_pos" value="False" />
+					<bool name="allow_auto_gather" value="True" />
+					<enum name="resource_gather_job" value="gather_luxury" />
+					<bool name="allow_auto_work_to_enable" value="True" />
+				</group>
+				<group name="gather_target" comment="PASTURE" List.ItemID="-191773532" List.ParentItemID="-191773532">
+					<float name="gather_rate" value="0.75" />
+					<instance_reference name="resource_sub_type" value="resource_sub_type\civs\mongol_ha_gol\pasture" />
+					<float name="search_radius" value="20" />
+					<float name="resource_carry_capacity" value="10" />
+					<bool name="prioritize_drop_off_pos_over_entity_pos" value="False" />
+					<bool name="allow_auto_gather" value="True" />
+					<enum name="resource_gather_job" value="gather_pasture" />
+					<bool name="allow_auto_work_to_enable" value="True" />
 				</group>
 			</list>
 		</template_reference>

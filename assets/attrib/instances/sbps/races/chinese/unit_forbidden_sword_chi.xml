@@ -33,7 +33,6 @@
 				<enum name="squad_type" value="armored" List.ItemID="873135562" />
 				<enum name="squad_type" value="infantry" List.ItemID="1477183618" />
 				<enum name="squad_type" value="scar_age4" List.ItemID="-1149958981" />
-				<enum name="squad_type" value="scar_manatarms" List.ItemID="-1140206368" />
 				<enum name="squad_type" value="" List.ItemID="-850638195" />
 				<enum name="squad_type" value="can_be_converted" List.ItemID="-1056591229" />
 			</list>
@@ -98,6 +97,8 @@
 							</list>
 							<state_tree_node name="additional_requirement_statetree" value="" />
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" List.ItemID="-580414580" List.ParentItemID="223408977">
 							<instance_reference name="ebp" value="ebps\races\chinese\units\unit_siege_tower_3_chi" overrideParent="True" />
@@ -152,6 +153,8 @@
 							</list>
 							<state_tree_node name="additional_requirement_statetree" value="" />
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 					</list>
 					<instance_reference name="construction_menu" value="menu\siege_engineer" />
