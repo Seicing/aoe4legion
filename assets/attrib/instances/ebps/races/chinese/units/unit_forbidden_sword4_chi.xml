@@ -1,7 +1,7 @@
 <instance version="4" description="Chinese Imperial Age Man-at-arms" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-765163162" List.ParentItemID="-765163162">
-			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_manatarms_swordsman" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_manatarms_two_hand" overrideParent="True" />
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1466211397" List.ParentItemID="-1466211397">
@@ -22,12 +22,12 @@
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="118682988" List.ParentItemID="118682988">
 			<bool name="regeneration_disabled" value="True" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type" overrideParent="True">
-				<float name="Melee" value="3" overrideParent="True" />
-				<float name="Ranged" value="3" overrideParent="True" />
+				<float name="Melee" value="5" overrideParent="True" />
+				<float name="Ranged" value="5" overrideParent="True" />
 				<float name="True Damage" value="0" />
 				<float name="Fire" value="0" />
 			</enum_table>
-			<float name="hitpoints" value="120" overrideParent="True" />
+			<float name="hitpoints" value="180" overrideParent="True" />
 			<enum_table name="percentage_reduction_armor_by_damage_type" overrideParent="True">
 				<float name="Ranged" value="0" overrideParent="True" />
 				<float name="True Damage" value="0" />
@@ -37,7 +37,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-782585427" List.ParentItemID="-782585427">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\chinese" overrideParent="True" List.ItemID="1364711544" />
+				<instance_reference name="race_type" value="racebps\chinese" overrideParent="True" List.ItemID="956113346" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="835520554" List.ParentItemID="835520554">
@@ -45,9 +45,9 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1697644820" List.ParentItemID="1697644820">
 			<list name="hardpoints" overrideParent="True">
-				<group name="hardpoint" List.ItemID="1781403471" List.ParentItemID="1781403471">
+				<group name="hardpoint" List.ItemID="-514076736" List.ParentItemID="1781403471">
 					<list name="weapon_table" overrideParent="True">
-						<group name="weapon" List.ItemID="1338606433">
+						<group name="weapon" List.ItemID="-753732661">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -63,12 +63,12 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_manatarms_4" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\chinese\weapons\wpn_melee_scout_1_chi" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\jin_dynasty\melee\weapon_zhanma_4_jin" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\jin_dynasty\weapons\wpn_melee_zhanma_4_jin" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
-						<group name="weapon" List.ItemID="1676749114">
+						<group name="weapon" List.ItemID="2024532481">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -89,7 +89,7 @@
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
-						<group name="weapon" overrideParent="True" List.ItemID="-2145227702">
+						<group name="weapon" overrideParent="True" List.ItemID="-445166770">
 							<group name="heading">
 								<float name="x" value="0" />
 								<float name="y" value="0" />
@@ -105,8 +105,8 @@
 							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\melee\weapon_manatarms_4_charge" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\chinese\weapons\wpn_melee_scout_1_chi" overrideParent="True" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\jin_dynasty\melee\weapon_zhanma_4_charge_jin" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\jin_dynasty\weapons\wpn_melee_zhanma_4_jin" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
 							</template_reference>
 						</group>
@@ -137,9 +137,9 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="1590686263" List.ParentItemID="1590686263">
 			<list name="tier_group_list" overrideParent="True">
-				<list name="tier_group" overrideParent="True" List.ItemID="1399997947">
-					<group name="tier" List.ItemID="-1706934629">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\jin_dynasty\units\tier4_zhanma_jin" overrideParent="True" />
+				<list name="tier_group" overrideParent="True" List.ItemID="1816212443">
+					<group name="tier" List.ItemID="-1270526620">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\jin_dynasty\campaign\jin_warlord\jin_warlord" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />
@@ -157,29 +157,10 @@
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
 						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
 					</group>
-					<group name="tier" List.ItemID="25339522">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\jin_dynasty\campaign\jin_warlord\jin_warlord" overrideParent="True" />
-						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
-							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
-							<bool name="start_suspended" value="False" />
-						</template_reference>
-						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\races\common\upgrade_warrior_code_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="ebps\races\chinese\units\unit_forbidden_sword4_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="sbps\races\chinese\unit_forbidden_sword4_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
-						<string name="tier_attachment_action" value="" />
-						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
-							<bool name="reissue_commands" value="False" />
-							<bool name="continue_state_trees" value="True" />
-							<bool name="remove_from_pending_deaths" value="False" />
-							<bool name="enable_all_extensions" value="True" overrideParent="True" />
-						</template_reference>
-						<string name="inventory_category_to_refresh_on_tier_up" value="" />
-						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
-					</group>
 				</list>
 			</list>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073742426" />
+	<uniqueid name="pbgid" value="1073742712" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_manatarms_4" />
 </instance>

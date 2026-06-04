@@ -449,9 +449,9 @@
 771,,,formatter,,,Increase the health of Melee Infantry by +%1%.
 772,,,screen_name,,,Conscription
 773,,,screen_name,,,Forbidden Army
-774,,,help_text,,,Elite Army directly under the Emperor who use a variety of weapons to fight. \r\n+ Spearman Forbidden Army with a long attack range \r\n+ Handcannonner Forbidden Army more durable than Handcannonner \r\n+ Swordsman Forbidden Army can reduce ranged damage by a percentage
+774,,,help_text,,,"Elite Army directly under the Emperor who use a variety of weapons to fight, Further strengthen when Warrior Code Technology Researched in Imperial Age.\r\n+ Spearman Forbidden Army with a long attack range \r\n+ Handcannonner Forbidden Army more durable than Handcannonner \r\n+ Swordsman Forbidden Army can reduce ranged damage by a percentage"
 775,,,screen_name,,,Forbidden Army
-776,,,help_text,,,"Mobilize 10 Forbidden Army into war, they use handcannon, spears and swords to fight."
+776,,,help_text,,,"Mobilize 10 Forbidden Army into war, they use handcannon, spears and swords to fight.\r\n+ Further strengthen when Warrior Code Technology Researched in Imperial Age"
 777,,,ui_name,,,Maximum of 1 can be built.
 778,,,help_text,,,Allow to Produces Clocktower Units and Imperial Palace Forbidden Army Legion.
 779,,,screen_name,,,Shogun
