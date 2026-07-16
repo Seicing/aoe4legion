@@ -9,7 +9,7 @@
 			<instance_reference name="unit_badge" value="" />
 			<bool name="is_spawned_when_not_in_interactive_area" value="True" />
 			<bool name="is_wreck" value="False" />
-			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\buildings\building_house" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\mongol\buildings\building_tech_unit_ranged_mongol" />
 			<float name="animator_scale" value="100" />
 			<bool name="browsable_in_editor" value="True" />
 			<float name="entity_scale" value="100" />
@@ -20,13 +20,13 @@
 			<float name="hit_chance" value="1" />
 			<template_reference name="projectile_reflect_option" value="options\none">
 			</template_reference>
-			<enum name="projectile_collision_check_type" value="main_simbox_only" />
+			<enum name="projectile_collision_check_type" value="internal_simboxes_only" />
 			<group name="shot_collision">
 				<enum_table name="pass_through_relation">
 					<bool name="undefined" value="False" />
 					<bool name="enemy" value="True" />
 					<bool name="ally" value="True" />
-					<bool name="neutral" value="False" />
+					<bool name="neutral" value="True" />
 				</enum_table>
 				<enum_table name="pass_through_projectile">
 					<bool name="tp_artillery" value="True" />
@@ -199,7 +199,7 @@
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="1968358069">
 			<list name="action_state_trees">
 				<group name="container" List.ItemID="2054567933" List.ParentItemID="2054567933">
-					<string name="state_tree" value="building_action_apply\buildings\stable_action_apply" />
+					<string name="state_tree" value="building_action_apply\buildings\arsenal_action_apply" />
 				</group>
 			</list>
 			<bool name="reset_on_load" value="True" />
@@ -236,7 +236,7 @@
 		<template_reference name="exts" value="ebpextensions\modifier_ext" List.ItemID="2048772813">
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="-1477844377">
-			<bool name="snap_to_terrain" value="True" />
+			<bool name="snap_to_terrain" value="False" />
 			<float name="extra_build_test_footprint_x" value="0" />
 			<float name="extra_build_test_footprint_z" value="0" />
 			<float name="extra_build_test_footprint_offset_x" value="0" />
@@ -245,8 +245,8 @@
 			<float name="minimum_build_test_footprint_z" value="0" />
 			<enum name="impass_cell_check" value="AllCellsFree" />
 			<group name="footprint_scale">
-				<float name="x" value="6" />
-				<float name="y" value="6" />
+				<float name="x" value="8" />
+				<float name="y" value="8" />
 			</group>
 			<bool name="forced_axis_aligned_footprint" value="True" />
 			<bool name="remove_if_constructed_over" value="False" />
@@ -292,10 +292,10 @@
 			<float name="extended_sight_radius" value="0" />
 			<float name="reveal_area_on_death_time" value="1.5" />
 			<group name="sight_package">
-				<float name="inner_height" value="4" />
-				<float name="inner_radius" value="10" />
-				<float name="outer_height" value="-15" />
-				<float name="outer_radius" value="28" />
+				<float name="inner_height" value="8" />
+				<float name="inner_radius" value="20" />
+				<float name="outer_height" value="0" />
+				<float name="outer_radius" value="25" />
 				<float name="cone_angle" value="360" />
 				<float name="cone_start_radius" value="0" />
 			</group>
@@ -345,8 +345,8 @@
 			</list>
 			<list name="sound_banks">
 			</list>
-			<string name="single_select_event" value="sfx_ui_tent_building_selection_play" />
-			<int name="music_importance" value="-30" />
+			<string name="single_select_event" value="sfx_ui_tech_unit_ranged_building_selection_play" />
+			<int name="music_importance" value="30" />
 			<int name="combat_importance" value="-30" />
 			<list name="select_audible_to_relation_list">
 			</list>
@@ -358,7 +358,7 @@
 				<string name="name_code" value="" />
 				<string name="unit_code" value="" />
 			</group>
-			<int name="importance" value="5" />
+			<int name="importance" value="15" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\boundary_cells_ext" List.ItemID="4160856">
 			<list name="additional_boundary_simboxes">
@@ -386,7 +386,7 @@
 			<bool name="query_abilities_for_range_ui" value="False" />
 			<bool name="show_ability_range_in_construction_item_preview" value="False" />
 			<bool name="random_rotation" value="False" />
-			<float name="replace_ghost_distance" value="15" />
+			<float name="replace_ghost_distance" value="5" />
 			<bool name="self_construct" value="False" />
 			<group name="field_placement_info">
 				<instance_reference name="border_entity" value="" />
@@ -431,10 +431,10 @@
 			<bool name="can_be_cancelled" value="True" />
 			<state_tree_node name="can_be_cancelled_state_tree_conditions" value="entity_construction_queries_mon\Can_Cancel_Construction" />
 			<template_reference name="construction_health_option" value="options\ebpextensions\constructionext\construction_health_option">
-				<float name="initial_health" value="150" />
+				<float name="initial_health" value="210" />
 			</template_reference>
 			<float name="min_music_intensity" value="0" />
-			<string name="tooltip_data_template" value="ConstructionItemTooltipDataTemplate" />
+			<string name="tooltip_data_template" value="BuildingMilitaryDataTemplate" />
 			<enum name="placement_set_facing_style" value="disabled" />
 			<group name="facing_quadrants">
 				<int name="search_radius_metres" value="0" />
@@ -448,7 +448,7 @@
 			</group>
 			<bool name="facing_surface_normal" value="False" />
 			<group name="fixed_rotation_impass_avoidance">
-				<int name="minimum_search_radius_cells" value="5" />
+				<int name="minimum_search_radius_cells" value="7" />
 				<bool name="use_impass_avoidance" value="True" />
 			</group>
 			<group name="on_construction_complete_state_tree_refs">
@@ -474,6 +474,7 @@
 			<list name="ignorable_entity_types">
 			</list>
 			<float name="aqueduct_cistern_proximity_test_square_scale" value="0" />
+			<bool name="destroy_stamps" value="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="399366647">
 			<list name="requirement_table">
@@ -519,13 +520,34 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-741281675">
-			<instance_reference name="schema" value="statemodel_schema\buildings\civilizations\ayyubid_cmp\leader_tent_ayy" />
+			<instance_reference name="schema" value="statemodel_schema\buildings\civilizations\mongols\tech_ranged_mon" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-1656479719">
 			<list name="tier_group_list">
-				<list name="tier_group" List.ItemID="-1510798423">
-					<group name="tier" List.ItemID="190398878">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\ayyubid_cmp\buildings\leader_tent_ayy" />
+				<list name="tier_group" List.ItemID="-60062527">
+					<group name="tier" List.ItemID="948352897">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\mongol\buildings\tech_unit_ranged_mon\tier3_tech_unit_ranged_mon" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="False" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
+					</group>
+				</list>
+				<list name="tier_group" List.ItemID="263466883">
+					<group name="tier" List.ItemID="-1047475448">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\mongol\outskirts\military\mon_military_01" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
 							<bool name="start_suspended" value="False" />
@@ -611,6 +633,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="horseman - feudal age" List.ItemID="-280678684">
 					<instance_reference name="entity" value="" />
@@ -675,6 +700,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="horseman - castle age" List.ItemID="1769672972">
 					<instance_reference name="entity" value="" />
@@ -739,6 +767,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="horseman - imperial age" List.ItemID="1590828012">
 					<instance_reference name="entity" value="" />
@@ -803,6 +834,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="knight - feudal age" List.ItemID="1176235969">
 					<instance_reference name="entity" value="" />
@@ -867,6 +901,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="knight - castle age" List.ItemID="-1380965075">
 					<instance_reference name="entity" value="" />
@@ -931,6 +968,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="knight - imperial age" List.ItemID="-1490181520">
 					<instance_reference name="entity" value="" />
@@ -995,6 +1035,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="Scout" List.ItemID="-645105813">
 					<instance_reference name="entity" value="" />
@@ -1056,6 +1099,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="horseman - dark age" List.ItemID="2123916097">
 					<instance_reference name="entity" value="" />
@@ -1120,6 +1166,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="spearman - dark age" List.ItemID="-1116624131">
 					<instance_reference name="entity" value="" />
@@ -1184,6 +1233,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="spearman - feudal age" List.ItemID="-457362683">
 					<instance_reference name="entity" value="" />
@@ -1248,6 +1300,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="spearman - castle age" List.ItemID="-611368959">
 					<instance_reference name="entity" value="" />
@@ -1312,6 +1367,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="spearman - imperial age" List.ItemID="-596740315">
 					<instance_reference name="entity" value="" />
@@ -1376,6 +1434,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="man-at-arms - castle age&#xD;&#xA;" List.ItemID="312233328">
 					<instance_reference name="entity" value="" />
@@ -1440,6 +1501,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="man-at-arms - imperial age&#xD;&#xA;" List.ItemID="-496013121">
 					<instance_reference name="entity" value="" />
@@ -1504,6 +1568,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="archer - feudal age " List.ItemID="-130283377">
 					<instance_reference name="entity" value="" />
@@ -1568,6 +1635,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="archer - castle age " List.ItemID="-1016828493">
 					<instance_reference name="entity" value="" />
@@ -1632,6 +1702,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="archer - imperial age " List.ItemID="1254160620">
 					<instance_reference name="entity" value="" />
@@ -1696,6 +1769,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="crossbowman - castle age" List.ItemID="378351299">
 					<instance_reference name="entity" value="" />
@@ -1757,6 +1833,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="crossbowman - imperial age" List.ItemID="-1777852074">
 					<instance_reference name="entity" value="" />
@@ -1818,6 +1897,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="handcannon - castle age " List.ItemID="1137166280">
 					<instance_reference name="entity" value="" />
@@ -1879,6 +1961,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="horse archer - feudal age" List.ItemID="13443716">
 					<instance_reference name="entity" value="" />
@@ -1943,6 +2028,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="horse archer - castle age" List.ItemID="1452239707">
 					<instance_reference name="entity" value="" />
@@ -2007,6 +2095,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="horse archer - imperial age" List.ItemID="90622506">
 					<instance_reference name="entity" value="" />
@@ -2071,6 +2162,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1835451566">
 					<group name="ui_position">
@@ -2144,6 +2238,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1650294896">
 					<group name="ui_position">
@@ -2214,6 +2311,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-637285874">
 					<group name="ui_position">
@@ -2286,6 +2386,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-548753548">
 					<group name="ui_position">
@@ -2358,6 +2461,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="245341311">
 					<group name="ui_position">
@@ -2426,6 +2532,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="217477598">
 					<group name="ui_position">
@@ -2492,6 +2601,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1609473298">
 					<group name="ui_position">
@@ -2558,6 +2670,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="khan hunter - II" List.ItemID="331472037">
 					<instance_reference name="entity" value="" />
@@ -2622,6 +2737,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="khan hunter - III" List.ItemID="-2141956316">
 					<instance_reference name="entity" value="" />
@@ -2686,6 +2804,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="khan hunter - IV" List.ItemID="-1886316062">
 					<instance_reference name="entity" value="" />
@@ -2750,6 +2871,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 			</list>
 			<bool name="must_be_in_supply" value="False" />
@@ -2778,6 +2902,7 @@
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
 			<bool name="use_alternative_rally_point_system" value="False" />
+			<bool name="trade_only_economical_rally" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="1720698349" List.ParentItemID="1720698349">
 			<group name="time_cost">
@@ -2800,10 +2925,10 @@
 			<bool name="can_repair" value="True" />
 			<bool name="cuttable" value="False" />
 			<string name="death_event_name" value="death" />
-			<float name="death_seconds" value="0.1" />
-			<bool name="delete_when_dead" value="True" />
+			<float name="death_seconds" value="-1" />
+			<bool name="delete_when_dead" value="False" />
 			<bool name="force_attacker_memory" value="False" />
-			<float name="hitpoints" value="1500" />
+			<float name="hitpoints" value="2100" />
 			<bool name="is_invincible" value="False" />
 			<bool name="is_salvagable_wreck" value="False" />
 			<instance_reference name="rebuilt_entity" value="" />
@@ -2812,7 +2937,7 @@
 			<bool name="receive_weapon_cover_modifiers" value="False" />
 			<float name="regeneration" value="0" />
 			<bool name="regeneration_disabled" value="True" />
-			<bool name="remove_from_pathfinding_on_death" value="True" />
+			<bool name="remove_from_pathfinding_on_death" value="False" />
 			<bool name="reveal_to_all_on_death" value="False" />
 			<bool name="ui_can_scuttle" value="True" />
 			<float name="target_size" value="5" />
@@ -2843,7 +2968,7 @@
 				<state_tree_node name="ActionTree_OpeningBranch" value="" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
-			<state_tree_node name="death_action_tree" value="building_death_actions\buildings\stable_death_actions" />
+			<state_tree_node name="death_action_tree" value="building_death_actions\buildings\arsenal_death_actions" />
 			<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 			<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
 			<bool name="can_be_damaged_by_ally" value="False" />
@@ -2855,10 +2980,10 @@
 			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-92292861" List.ParentItemID="-92292861">
-			<file name="construction_stamp" value="art\stamps\scaffolding\west\west_stable" />
+			<file name="construction_stamp" value="art\stamps\scaffolding\west\west_arsenal" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="-1239193631" List.ParentItemID="-1239193631">
-			<float name="on_fire_damage_per_sec" value="6" />
+			<float name="on_fire_damage_per_sec" value="9" />
 			<float name="on_fire_decay_amount_per_sec" value="0" />
 			<float name="on_fire_threshold" value="59" />
 			<float name="max_fire_damage_per_second" value="10000" />
@@ -2884,6 +3009,66 @@
 					</template_reference>
 					<bool name="block_pathing_when_interacted" value="False" />
 				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\road_ext" List.ItemID="-2113741944" List.ParentItemID="-2113741944">
+			<list name="roads">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="-700566305" List.ParentItemID="-700566305">
+					<instance_reference name="required_upgrade" value="upgrade\dev\ages\dark_age" />
+					<list name="curb_splines">
+					</list>
+					<list name="road_splines">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-415910507" List.ParentItemID="-415910507">
+							<int name="draw_sort_order" value="0" />
+							<float name="end_fade" value="0.4" />
+							<float name="width" value="3.5" />
+							<int name="texture_tiling" value="1" />
+							<file name="texture_filename" value="civilizations\dirt\road_4m_dirt_trail_a" />
+						</template_reference>
+					</list>
+				</template_reference>
+				<template_reference name="road" value="roads\road_properties" List.ItemID="-1994312930" List.ParentItemID="-1994312930">
+					<instance_reference name="required_upgrade" value="upgrade\dev\ages\feudal_age" />
+					<list name="curb_splines">
+					</list>
+					<list name="road_splines">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="2121624408" List.ParentItemID="2121624408">
+							<int name="draw_sort_order" value="0" />
+							<float name="end_fade" value="0.2" />
+							<float name="width" value="3" />
+							<int name="texture_tiling" value="1" />
+							<file name="texture_filename" value="civilizations\roads\roads_eng_common_a_age_02_3m" />
+						</template_reference>
+					</list>
+				</template_reference>
+				<template_reference name="road" value="roads\road_properties" List.ItemID="-677408659" List.ParentItemID="-677408659">
+					<instance_reference name="required_upgrade" value="upgrade\dev\ages\castle_age" />
+					<list name="curb_splines">
+					</list>
+					<list name="road_splines">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-2103946968" List.ParentItemID="-2103946968">
+							<int name="draw_sort_order" value="0" />
+							<float name="end_fade" value="0.3" />
+							<float name="width" value="3" />
+							<int name="texture_tiling" value="1" />
+							<file name="texture_filename" value="civilizations\roads\roads_eng_common_a_age_03_3m" />
+						</template_reference>
+					</list>
+				</template_reference>
+				<template_reference name="road" value="roads\road_properties" List.ItemID="2086191663" List.ParentItemID="2086191663">
+					<instance_reference name="required_upgrade" value="upgrade\dev\ages\imperial_age" />
+					<list name="curb_splines">
+					</list>
+					<list name="road_splines">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-1409969542" List.ParentItemID="-1409969542">
+							<int name="draw_sort_order" value="0" />
+							<float name="end_fade" value="0.3" />
+							<float name="width" value="3" />
+							<int name="texture_tiling" value="1" />
+							<file name="texture_filename" value="civilizations\roads\roads_eng_fishscale_a_age_04_3m" />
+						</template_reference>
+					</list>
+				</template_reference>
 			</list>
 		</template_reference>
 	</list>

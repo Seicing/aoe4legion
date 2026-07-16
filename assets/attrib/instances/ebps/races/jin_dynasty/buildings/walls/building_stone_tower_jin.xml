@@ -1,4 +1,4 @@
-<instance version="6" description="" template="ebps">
+<instance version="4" description="" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1212808348" List.ParentItemID="-1212808348">
 			<instance_reference name="animator_attachments" value="attachments\attachment_lists\civilizations\jin_dynasty\buildings\building_defense_wall_stone_tower_jin" overrideParent="True" />
@@ -62,62 +62,4 @@
 	</list>
 	<uniqueid name="pbgid" value="9004046" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\buildings\building_defense_tower" />
-	<variant name="cordoba">
-		<list name="extensions">
-			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1212808348" List.ParentItemID="-1212808348">
-				<instance_reference name="animator_attachments" value="attachments\attachment_lists\civilizations\jin_dynasty\buildings\building_defense_wall_stone_tower_jin" overrideParent="True" />
-				<bool name="browsable_in_editor" value="True" overrideParent="True" />
-			</template_reference>
-			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="2028962899" List.ParentItemID="2028962899">
-				<bool name="can_repair" value="True" overrideParent="True" />
-				<enum_table name="armor_scaler_by_damage_type">
-					<float name="Fire" value="0" overrideParent="True" />
-				</enum_table>
-			</template_reference>
-			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-923485527" List.ParentItemID="-923485527">
-				<list name="race_type_list" overrideParent="True">
-					<instance_reference name="race_type" value="racebps\jin_dynasty" overrideParent="True" List.ItemID="-516633087" />
-				</list>
-			</template_reference>
-			<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="-2115950863" List.ParentItemID="-2115950863">
-				<list name="hardpoints">
-					<group name="hardpoint" List.ItemID="1443531073" List.ParentItemID="1443531073">
-						<list name="weapon_table">
-							<group name="weapon" List.ItemID="530902418" List.ParentItemID="530902418">
-								<template_reference name="weapon_entity_attachment" value="options\attachment_types\entity_create_attachment">
-									<template_reference name="entity_attach_data" value="attachments\attach_data_entity">
-										<instance_reference name="ebp" value="ebps\races\jin_dynasty\weapons\wpn_range_stone_tower_bedcrossbow_jin" overrideParent="True" />
-									</template_reference>
-								</template_reference>
-							</group>
-						</list>
-					</group>
-					<group name="hardpoint" List.ItemID="-1918331746" List.ParentItemID="-1918331746">
-						<list name="weapon_table">
-							<group name="weapon" List.ItemID="-1808222344" List.ParentItemID="-1808222344">
-								<template_reference name="weapon_entity_attachment" value="options\attachment_types\entity_create_attachment">
-									<template_reference name="entity_attach_data" value="attachments\attach_data_entity">
-										<instance_reference name="ebp" value="ebps\races\jin_dynasty\weapons\wpn_siege_keep_rain_of_fire_stonewall_jin" overrideParent="True" />
-									</template_reference>
-								</template_reference>
-							</group>
-						</list>
-					</group>
-				</list>
-			</template_reference>
-			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-730002550" List.ParentItemID="-730002550">
-				<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary_fence_dependent">
-					<instance_reference name="depends_on_blueprint" value="ebps\races\jin_dynasty\buildings\walls\building_stone_wall_jin" overrideParent="True" />
-				</template_reference>
-			</template_reference>
-			<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-349461896" List.ParentItemID="-349461896">
-				<list name="abilities" overrideParent="True">
-					<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_building_scuttle_no_enemies" overrideParent="True" List.ItemID="-1658561323" />
-					<instance_reference name="ability" value="abilities\always_on_abilities\chinese\tower_repair_nearby_walls_chi" List.ItemID="1801228416" />
-				</list>
-			</template_reference>
-		</list>
-		<uniqueid name="pbgid" value="9004046" />
-		<instance_reference name="parent_pbg" value="ebps\races\core\buildings\building_defense_tower" />
-	</variant>
 </instance>

@@ -13,7 +13,7 @@
 				<float name="food" value="500" />
 				<float name="wood" value="0" />
 				<float name="stone" value="0" />
-				<float name="gold" value="300" />
+				<float name="gold" value="700" />
 				<float name="militia_hre" value="0" />
 				<float name="merc_byz" value="0" />
 			</enum_table>
@@ -22,12 +22,12 @@
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_production_group" value="command_panel" />
 		<group name="ui_info">
-			<locstring name="extra_text" value="11269185" />
+			<locstring name="extra_text" value="11182016" />
 			<locstring name="help_text" value="0" />
 			<string name="hotkey_name" value="e" />
-			<file name="icon_name" value="races\golden_horde\upgrades\increased_supplies" />
+			<file name="icon_name" value="races\hre\upgrades\reinforce_defences" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11266943" />
+			<locstring name="screen_name" value="11157752" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<string name="debug_text" value="" />
@@ -39,9 +39,9 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<int name="int_value" value="400" List.ItemID="-1012836512" />
+					<int name="int_value" value="25" List.ItemID="974177227" />
 				</list>
-				<locstring name="formatter" value="11266942" />
+				<locstring name="formatter" value="11157753" />
 			</template_reference>
 			<template_reference name="screen_name_formatter" value="">
 			</template_reference>
@@ -142,7 +142,7 @@
 		<string name="speech_code" value="" />
 		<file name="ui_squad_portrait_icon_override" value="" />
 		<group name="ui_position">
-			<int name="ui_position_row" value="2" />
+			<int name="ui_position_row" value="3" />
 			<int name="ui_position_column" value="4" />
 		</group>
 		<float name="min_music_intensity" value="0" />
@@ -160,17 +160,21 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_production_speed_mon_ha_gol" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_entity_master_ott\upgrade_ranged_janissary_guns_ott" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
 				<state_tree_node name="ActionTree_OpeningBranch" value="" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
+			<template_reference name="on_action_producer_entity_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
 		</group>
 		<list name="upgrade_type">
 			<enum name="upgrade_type" value="military_upgrade" List.ItemID="895899880" List.ParentItemID="-2072600964" />
-			<enum name="upgrade_type" value="japanese_upgrade" List.ItemID="-1919538421" List.ParentItemID="1755529287" />
+			<enum name="upgrade_type" value="chinese_upgrade" List.ItemID="-1919538421" List.ParentItemID="1755529287" />
 			<enum name="upgrade_type" value="scar_military_upgrade" List.ItemID="-903304694" List.ParentItemID="-1452115699" />
 			<enum name="upgrade_type" value="scar_nontiered_upgrade" List.ItemID="-791333310" List.ParentItemID="1158533" />
 			<enum name="upgrade_type" value="scar_imperial_age_upgrade" List.ItemID="-1514404457" />
@@ -190,13 +194,14 @@
 			<state_tree_node name="apply_to_filter_condition_statetree_ref" value="" />
 			<enum name="apply_to_target_type" value="entity" />
 			<list name="apply_to_unit_classes">
-				<enum name="unit_class" value="scar_keep" List.ItemID="1861705473" />
-				<enum name="unit_class" value="tughluqabad_fort" List.ItemID="146550773" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
 			<group name="ai_unit_types">
 				<list name="any">
+					<enum name="unit_class" value="wall" List.ItemID="1893171482" />
+					<enum name="unit_class" value="gate" List.ItemID="-1495804469" />
+					<enum name="unit_class" value="scar_keep" List.ItemID="-884408157" />
 				</list>
 				<list name="none">
 				</list>
@@ -214,9 +219,9 @@
 			<float name="merc_byz" value="0" />
 		</enum_table>
 		<list name="float_properties">
-			<template_reference name="float" value="upgradebag_float_property" List.ItemID="486171639">
-				<float name="value" value="1.5" />
-				<enum name="id" value="normal_modifier" />
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="257209541">
+				<float name="value" value="1.25" />
+				<enum name="id" value="health_max" />
 			</template_reference>
 		</list>
 		<list name="int_properties">

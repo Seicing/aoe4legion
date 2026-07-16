@@ -3536,30 +3536,30 @@
 			</template_reference>
 			<template_reference name="production_group" value="ai\economy\production_group" comment="Villagers" List.ItemID="-348047836">
 				<list name="members">
-					<instance_reference name="member" value="sbps\races\abbasid\unit_villager_1_abb" List.ItemID="-216431067" />
-					<instance_reference name="member" value="sbps\races\sultanate\unit_villager_1_sul" List.ItemID="78755333" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_villager_1_mon" List.ItemID="-1892912591" />
-					<instance_reference name="member" value="sbps\races\rus\unit_villager_1_rus" List.ItemID="774070507" />
-					<instance_reference name="member" value="sbps\races\mongol\unit_villager_1_double_mon" List.ItemID="487667981" />
-					<instance_reference name="member" value="sbps\races\hre\unit_villager_1_hre" List.ItemID="330500499" />
-					<instance_reference name="member" value="sbps\races\french\unit_villager_1_fre" List.ItemID="1320427858" />
-					<instance_reference name="member" value="sbps\races\english\unit_villager_1_eng" List.ItemID="-1468129370" />
-					<instance_reference name="member" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="-919708613" />
-					<instance_reference name="member" value="sbps\races\malian\unit_villager_1_mal" List.ItemID="2056212589" />
-					<instance_reference name="member" value="sbps\races\ottoman\unit_villager_1_ott" List.ItemID="-2139898097" />
-					<instance_reference name="member" value="sbps\races\byzantine\unit_villager_1_byz" List.ItemID="-1139841198" />
-					<instance_reference name="member" value="sbps\races\japanese\unit_villager_1_jpn" List.ItemID="1176863035" />
-					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_villager_1_abb_ha_01" List.ItemID="-1917000057" />
-					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_villager_1_chi_ha_01" List.ItemID="-1898024996" />
-					<instance_reference name="member" value="sbps\races\french_ha_01\unit_villager_1_fre_ha_01" List.ItemID="281383055" />
-					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_villager_1_hre_ha_01" List.ItemID="-1805571827" />
-					<instance_reference name="member" value="sbps\races\templar\unit_villager_1_tem" List.ItemID="-1366175741" />
-					<instance_reference name="member" value="sbps\races\lancaster\unit_villager_1_lan" List.ItemID="-1248941797" />
-					<instance_reference name="member" value="sbps\races\byzantine_ha_mac\unit_villager_1_byz_ha_mac" List.ItemID="-664609748" />
-					<instance_reference name="member" value="sbps\races\sultanate_ha_tug\unit_villager_1_sul_ha_tug" List.ItemID="-1146164347" />
-					<instance_reference name="member" value="sbps\races\mongol_ha_gol\unit_villager_1_mon_ha_gol" List.ItemID="-994602314" />
-					<instance_reference name="member" value="sbps\races\japanese_ha_sen\unit_villager_1_jpn_ha_sen" List.ItemID="1039571268" />
-					<instance_reference name="member" value="sbps\races\jin_dynasty\unit_villager_1_jin" List.ItemID="5263159" />
+					<instance_reference name="member" value="sbps\races\abbasid\unit_villager_1_abb" List.ItemID="1674390702" />
+					<instance_reference name="member" value="sbps\races\sultanate\unit_villager_1_sul" List.ItemID="1107648658" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_villager_1_mon" List.ItemID="1687422981" />
+					<instance_reference name="member" value="sbps\races\rus\unit_villager_1_rus" List.ItemID="-1993254360" />
+					<instance_reference name="member" value="sbps\races\mongol\unit_villager_1_double_mon" List.ItemID="1875076074" />
+					<instance_reference name="member" value="sbps\races\hre\unit_villager_1_hre" List.ItemID="1824381732" />
+					<instance_reference name="member" value="sbps\races\french\unit_villager_1_fre" List.ItemID="-1111253930" />
+					<instance_reference name="member" value="sbps\races\english\unit_villager_1_eng" List.ItemID="-1957743242" />
+					<instance_reference name="member" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="1719280785" />
+					<instance_reference name="member" value="sbps\races\malian\unit_villager_1_mal" List.ItemID="-833825940" />
+					<instance_reference name="member" value="sbps\races\ottoman\unit_villager_1_ott" List.ItemID="1803162006" />
+					<instance_reference name="member" value="sbps\races\byzantine\unit_villager_1_byz" List.ItemID="623452214" />
+					<instance_reference name="member" value="sbps\races\japanese\unit_villager_1_jpn" List.ItemID="-1075065943" />
+					<instance_reference name="member" value="sbps\races\abbasid_ha_01\unit_villager_1_abb_ha_01" List.ItemID="1421951813" />
+					<instance_reference name="member" value="sbps\races\chinese_ha_01\unit_villager_1_chi_ha_01" List.ItemID="-722497543" />
+					<instance_reference name="member" value="sbps\races\french_ha_01\unit_villager_1_fre_ha_01" List.ItemID="-79466105" />
+					<instance_reference name="member" value="sbps\races\hre_ha_01\unit_villager_1_hre_ha_01" List.ItemID="-1285993147" />
+					<instance_reference name="member" value="sbps\races\templar\unit_villager_1_tem" List.ItemID="180817369" />
+					<instance_reference name="member" value="sbps\races\lancaster\unit_villager_1_lan" List.ItemID="1416331123" />
+					<instance_reference name="member" value="sbps\races\byzantine_ha_mac\unit_villager_1_byz_ha_mac" List.ItemID="-1067417744" />
+					<instance_reference name="member" value="sbps\races\sultanate_ha_tug\unit_villager_1_sul_ha_tug" List.ItemID="1761175119" />
+					<instance_reference name="member" value="sbps\races\mongol_ha_gol\unit_villager_1_mon_ha_gol" List.ItemID="-197811577" />
+					<instance_reference name="member" value="sbps\races\japanese_ha_sen\unit_villager_1_jpn_ha_sen" List.ItemID="-1673764809" />
+					<instance_reference name="member" value="sbps\races\jin_dynasty\unit_villager_1_jin" List.ItemID="-81631444" />
 				</list>
 				<float name="base_scale" value="1000" />
 				<float name="minimum_score_to_produce" value="1" />
@@ -6039,6 +6039,7 @@
 					<instance_reference name="member" value="sbps\races\templar\siege\unit_trebuchet_bad_cw_tem" mod="67987bbc33214c57b0617d9356614825" List.ItemID="269074345" />
 					<instance_reference name="member" value="sbps\races\templar\siege\unit_trebuchet_god_cw_tem" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1448745466" />
 					<instance_reference name="member" value="sbps\races\jin_dynasty\unit_shogun_jin" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1844989071" />
+					<instance_reference name="member" value="ebps\races\mongol_ha_gol\buildings\building_leader_tent_goh" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-509502242" />
 				</list>
 				<float name="base_scale" value="500" />
 				<float name="minimum_score_to_produce" value="1" />
@@ -6059,6 +6060,8 @@
 					<instance_reference name="member" value="upgrade\races\common\upgrade_tontgui_mal" mod="67987bbc33214c57b0617d9356614825" List.ItemID="437942295" />
 					<instance_reference name="member" value="upgrade\races\common\upgrade_warrior_code_chi" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1942478912" />
 					<instance_reference name="member" value="upgrade\races\common\upgrade_logothetes_system" mod="67987bbc33214c57b0617d9356614825" List.ItemID="939139861" />
+					<instance_reference name="member" value="upgrade\races\common\upgrade_infantry_marching_drills_kcr" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1882456017" />
+					<instance_reference name="member" value="upgrade\races\common\upgrade_the_last_stand_jin" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-158090159" />
 				</list>
 				<float name="base_scale" value="500" />
 				<float name="minimum_score_to_produce" value="1" />
@@ -17430,7 +17433,7 @@
 						<instance_reference name="member" value="sbps\races\lancaster\unit_villager_1_lan" List.ItemID="327083052" />
 						<instance_reference name="member" value="sbps\races\byzantine_ha_mac\unit_villager_1_byz_ha_mac" List.ItemID="1723702321" />
 						<instance_reference name="member" value="sbps\races\sultanate_ha_tug\unit_villager_1_sul_ha_tug" List.ItemID="-681304766" />
-						<instance_reference name="member" value="sbps\races\mongol_ha_gol\unit_villager_1_mon_ha_gol" List.ItemID="-1604424148" />
+						<instance_reference name="member" value="sbps\races\mongol_ha_gol\unit_villager_1_mon_ha_gol" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1604424148" />
 						<instance_reference name="member" value="sbps\races\japanese_ha_sen\unit_villager_1_jpn_ha_sen" List.ItemID="1977901415" />
 						<instance_reference name="member" value="sbps\races\jin_dynasty\unit_villager_1_jin" List.ItemID="-25282029" />
 					</list>

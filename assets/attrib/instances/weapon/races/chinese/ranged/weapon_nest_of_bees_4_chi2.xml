@@ -379,7 +379,7 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="6" />
+				<float name="base_damage_modifier" value="3" />
 			</group>
 			<group name="target_unit_type_multipliers" List.ItemID="-1907393104">
 				<enum name="unit_type" value="building" />
@@ -389,7 +389,7 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="6" />
+				<float name="base_damage_modifier" value="3" />
 			</group>
 		</list>
 		<enum_table name="cover_table">

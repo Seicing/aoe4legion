@@ -449,7 +449,7 @@
 771,,,formatter,,,Increase the health of Melee Infantry by +%1%.
 772,,,screen_name,,,Conscription
 773,,,screen_name,,,Forbidden Army
-774,,,help_text,,,"Elite Army directly under the Emperor who use a variety of weapons to fight, Further strengthen when Warrior Code Technology Researched in Imperial Age.\r\n+ Spearman Forbidden Army with a long attack range \r\n+ Handcannonner Forbidden Army more durable than Handcannonner \r\n+ Swordsman Forbidden Army can reduce ranged damage by a percentage"
+774,,,help_text,,,"Elite Army directly under the Emperor who use a variety of weapons to fight, Further strengthen when Warrior Code Technology Researched in Imperial Age.\r\n+ Spearman Forbidden Army with a long attack range \r\n+ Handcannonner Forbidden Army more durable than Handcannonner \r\n+ Swordsman Forbidden Army equipped anti-cavalry Zhanmadao"
 775,,,screen_name,,,Forbidden Army
 776,,,help_text,,,"Mobilize 10 Forbidden Army into war, they use handcannon, spears and swords to fight.\r\n+ Further strengthen when Warrior Code Technology Researched in Imperial Age"
 777,,,ui_name,,,Maximum of 1 can be built.
@@ -465,7 +465,7 @@
 787,,,screen_name,,,Hussite Wagon
 788,,,help_text,,,"Hussite defensive weapon, equipped with 2 handcannonneers to fire. \r\n+ Can ramming and mobile handcannon fire at the same time \r\n- More fragile than a regular battering ram."
 789,,,screen_name,,,Zamburakchi
-790,,,help_text,,,Camel rider with Zamburak Cannon that fires shells with splash effect from medium range \r\n+ Extra damage to Building and Siege \r\n+ High mobility \r\n- Slow firing rate and relatively fragile
+790,,,help_text,,,Camel rider with Zamburak Cannon that fires shells with splash effect from medium range \r\n+ Extra damage to Building \r\n+ High mobility \r\n- Slow firing rate and relatively fragile
 791,,,formatter,,,Automatically produces Sultan's Elite Tower Elephants. Garrison up to %1% Scholars in the Landmark to increase production speed. Unlock Devastator.
 792,,,help_text,,,Siege Monster adapted to the roar of artillery. fires shells with splash effect from medium range \r\n+ Extra damage to Building and Siege \r\n+ High mobility \r\n- Slow firing rate and relatively fragile
 793,,,screen_name,,,Devastator
@@ -594,3 +594,8 @@
 916,,,screen_name,,,Qari-qari Army
 917,,,help_text,,,Produces Qari-qari Army of 5 Iron Pagoda.
 918,,,help_text,,,Jin Dynasty military leader. Can inspire the army to boost damage for a short time.
+919,,,formatter,,,Increase the Damage of Iron Pagoda and Eruptor by +4.
+920,,,screen_name,,,The Last Stand
+921,,,screen_name,,,Military Monasticism
+922,,,formatter,,,Increase the movement speed of infantry units by +%1%%%.
+923,,,help_text,,,Produces all Units with lower cost and faster training time.\r\n- Cannot benefit from Reinforcement technology.

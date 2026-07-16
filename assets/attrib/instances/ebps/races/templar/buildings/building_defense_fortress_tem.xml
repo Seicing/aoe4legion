@@ -220,6 +220,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1459549548" List.ListAction="Append">
 					<group name="ui_position">
@@ -291,6 +294,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-84559082" List.ListAction="Append">
 					<group name="ui_position">
@@ -363,6 +369,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="1463003588" List.ListAction="Append">
 					<group name="ui_position">
@@ -435,6 +444,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-1214762412" List.ListAction="Append">
 					<group name="ui_position">
@@ -506,6 +518,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-719963576" List.ListAction="Append">
 					<group name="ui_position">
@@ -577,6 +592,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-553273146" List.ListAction="Append">
 					<group name="ui_position">
@@ -643,6 +661,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-405243322" List.ListAction="Append">
 					<group name="ui_position">
@@ -709,6 +730,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 			</list>
 			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed\Master\building_production_item_complete\building_production_item_complete_keep" overrideParent="True" />
@@ -721,7 +745,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\templar\unique_upgrades\upgrade_iron_clamps_tem" List.ItemID="670186247" />
 				<instance_reference name="upgrade" value="upgrade\races\templar\unique_upgrades\upgrade_treasure_tower_tem" List.ItemID="1213634519" />
 				<instance_reference name="upgrade" value="upgrade\races\templar\unique_upgrades\upgrade_desert_citadels" List.ItemID="-393623773" />
-				<instance_reference name="upgrade" value="upgrade\races\french\research\upgrade_cavalry_grapered_lance_fre" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-2010593784" />
+				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_infantry_marching_drills_kcr" mod="67987bbc33214c57b0617d9356614825" List.ItemID="1345867357" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="-630964933" List.ParentItemID="-630964933">

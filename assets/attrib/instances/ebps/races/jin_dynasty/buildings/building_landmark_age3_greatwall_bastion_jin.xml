@@ -205,7 +205,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\jin_dynasty\research\upgrade_tech_rain_of_fire_jin" overrideParent="True" List.ItemID="2037708871" />
 				<instance_reference name="upgrade" value="upgrade\races\jin_dynasty\research\upgrade_keep_menganmouke_jin" List.ItemID="-358119567" />
 				<instance_reference name="upgrade" value="upgrade\races\jin_dynasty\research\upgrade_improved_menganmouke_jin" List.ItemID="1387756553" />
-				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_warrior_code_chi" mod="67987bbc33214c57b0617d9356614825" List.ItemID="356031551" />
+				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_the_last_stand_jin" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="356031551" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-823671089" List.ParentItemID="-823671089">

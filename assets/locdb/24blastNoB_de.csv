@@ -449,7 +449,7 @@
 771,,Erhöht die Gesundheit von Nahkampfinfanterie um +%1%.
 772,,Wehrpflicht
 773,,Verbotene Armee
-774,,"Elitearmee direkt unter dem Imperator, die eine Vielzahl von Waffen zum Kämpfen einsetzt. Eine weitere Verstärkung erfolgte durch die Erforschung der Krieger-Code Technologie im Imperialen Zeitalter.\r\n+ Speerkämpfer Verbotenen Armee mit großer Angriffsreichweite \r\n+ Handkanonenwerfer Verbotenen Armee langlebiger als Handkanonenwerfer \r\n+ Schwertkämpfer Verbotenen Armee kann Fernkampfschaden um einen Prozentsatz reduzieren"
+774,,"Elitearmee direkt unter dem Imperator, die eine Vielzahl von Waffen zum Kämpfen einsetzt. Eine weitere Verstärkung erfolgte durch die Erforschung der Krieger-Code Technologie im Imperialen Zeitalter.\r\n+ Speerkämpfer Verbotenen Armee mit großer Angriffsreichweite \r\n+ Handkanonenwerfer Verbotenen Armee langlebiger als Handkanonenwerfer \r\n+ Schwertkämpfer Verbotenen Armee ausgerüstet mit Anti-Kavallerie-Zhanmadao"
 775,,Verbotene Armee
 776,,"Mobilisiere 10 Verbotene Armeen in den Krieg, sie benutzen Handfeuerwaffen, Speere und Schwerter zum Kämpfen.\r\n+ Eine weitere Verstärkung erfolgte durch die Erforschung der Krieger-Code Technologie im Imperialen Zeitalter"
 777,,Es kann maximal 1 Stück gebaut werden.
@@ -465,7 +465,7 @@
 787,,Hussitenwagen
 788,,"Hussitische Verteidigungswaffe, ausgestattet mit 2 feuerbaren Handkanonen. \r\n+ Kann gleichzeitig rammen und mit mobilen Handkanonen feuern. \r\n- Zerbrechlicher als ein normaler Rammbock."
 789,,Zamburakchi
-790,,"Kamelreiter mit Zamburak-Kanone, die Granaten mit Flächenwirkung aus mittlerer Entfernung abfeuert \r\n+ Zusätzlicher Schaden an Gebäuden und Belagerungswaffen \r\n+ Hohe Mobilität \r\n- Langsame Feuerrate und relativ zerbrechlich"
+790,,"Kamelreiter mit Zamburak-Kanone, die Granaten mit Flächenwirkung aus mittlerer Entfernung abfeuert \r\n+ Zusätzlicher Schaden an Gebäuden \r\n+ Hohe Mobilität \r\n- Langsame Feuerrate und relativ zerbrechlich"
 791,,"Bildet automatisch Turm-Kriegselefanten aus. Quartieren Sie bis zu %1% Gelehrte im Wahrzeichen ein, um die Produktionsrate zu erhöhen. Schalte Devastator frei."
 792,,"Belagerungsmonster, an das Dröhnen der Artillerie angepasst. Feuert Granaten mit Flächenwirkung aus mittlerer Entfernung ab. \r\n+ Zusätzlicher Schaden an Gebäuden und Belagerungswaffen \r\n+ Hohe Mobilität \r\n- Langsame Feuerrate und relativ zerbrechlich"
 793,,Devastator
@@ -594,3 +594,9 @@
 916,,Qari-qari-Armee
 917,,Produziert Qari-qari-Armee von 5 Eiserne Pagode
 918,,Militärischer Anführer der Jin-Dynastie. Kann die Armee kurzzeitig stärken
+919,,Erhöht den Schaden von Eiserner Pagode und Eruptor um +4.
+920,,Der letzte Kampf
+921,,Militärisches Mönchtum
+922,,Erhöhe die Bewegungsgeschwindigkeit von Infanterieeinheiten um +%1%%%.
+923,,Produziert alle Einheiten zu geringeren Kosten und mit kürzerer Ausbildungszeit. \r\n- Kann nicht von der Verstärkungstechnologie profitieren.
+
