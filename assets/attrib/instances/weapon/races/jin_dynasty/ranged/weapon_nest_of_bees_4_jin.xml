@@ -1,0 +1,27 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="damage">
+			<list name="on_penetrated_state_trees">
+				<group name="container" List.ItemID="1890372832" List.ListAction="Append">
+					<string name="state_tree" value="fire_spawn_jin\grenade_debuff" />
+				</group>
+			</list>
+			<float name="max" value="3" overrideParent="True" />
+			<float name="min" value="3" overrideParent="True" />
+		</group>
+		<group name="area_effect">
+			<group name="damage">
+				<float name="far" value="1" overrideParent="True" />
+				<float name="mid" value="1" overrideParent="True" />
+			</group>
+		</group>
+		<group name="burst">
+			<group name="rate_of_fire">
+				<float name="max" value="18" overrideParent="True" />
+				<float name="min" value="18" overrideParent="True" />
+			</group>
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="9005205" />
+	<instance_reference name="parent_pbg" value="weapon\races\chinese\ranged\weapon_nest_of_bees_4_chi" />
+</instance>

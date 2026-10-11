@@ -8,6 +8,8 @@ This git is used to collect crash information(and try to solve it) and study com
 
 350pop version: https://www.ageofempires.com/mods/details/516664/
 
+
+
 维护两个mod(将现有mod做成新的mod)的方式：
 
 新建调整包，然后将工程里的mod.jpg、attrib、ui复制过去

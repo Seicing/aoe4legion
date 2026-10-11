@@ -82,7 +82,7 @@
 		</group>
 		<locstring name="ui_name" value="541" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 		<string name="fx_action_target_name" value="fx_handcannon_target" overrideParent="True" />
-		<string name="fx_munition_name" value="common\grenade_explode" overrideParent="True" />
+		<string name="fx_munition_name" value="common\hand_cannon" overrideParent="True" />
 		<string name="fx_tracer_name" value="fx_act_handcannon_tracer" overrideParent="True" />
 		<group name="tracking">
 			<group name="normal">
@@ -94,7 +94,7 @@
 			<float name="fire_cone_angle_vert" value="2" overrideParent="True" />
 		</group>
 		<string name="fx_aoe_munition_name" value="" overrideParent="True" />
-		<string name="fx_piercing_munition_name" value="common\grenade_explode" overrideParent="True" />
+		<string name="fx_piercing_munition_name" value="common\hand_cannon" overrideParent="True" />
 		<group name="teardown">
 			<float name="duration" value="1" overrideParent="True" />
 		</group>
