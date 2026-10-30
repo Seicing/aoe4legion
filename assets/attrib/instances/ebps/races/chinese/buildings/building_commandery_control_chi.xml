@@ -169,6 +169,9 @@
 					</template_reference>
 					<file name="ui_icon_name" value="" />
 					<string name="ui_tooltip_data_template" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="trebuchet - imperial" List.ItemID="1408764786">
 					<instance_reference name="entity" value="" />
@@ -230,6 +233,9 @@
 					</template_reference>
 					<file name="ui_icon_name" value="" />
 					<string name="ui_tooltip_data_template" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="bombard - imperial + chemistry" List.ItemID="-20466165">
 					<instance_reference name="entity" value="" />
@@ -291,6 +297,9 @@
 					</template_reference>
 					<file name="ui_icon_name" value="" />
 					<string name="ui_tooltip_data_template" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="Nest of Bees - Imperial + Chemistry&#xD;&#xA;" List.ItemID="323049503">
 					<instance_reference name="entity" value="" />
@@ -355,6 +364,9 @@
 					</template_reference>
 					<file name="ui_icon_name" value="" />
 					<string name="ui_tooltip_data_template" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="Ram - castle" List.ItemID="180405557">
 					<instance_reference name="entity" value="" />
@@ -416,6 +428,9 @@
 					</template_reference>
 					<file name="ui_icon_name" value="" />
 					<string name="ui_tooltip_data_template" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1057100916">
 					<group name="ui_position">
@@ -445,8 +460,6 @@
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_spear_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="616123555" />
 						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_spear_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-705654655" />
-						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_handcannon_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-835414154" />
-						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_handcannon_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1815802512" />
 						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_handcannon_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-313213762" />
 						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_handcannon_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1833406422" />
 						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_spear_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-2091964339" />
@@ -492,6 +505,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 			</list>
 			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed_chi" overrideParent="True" />

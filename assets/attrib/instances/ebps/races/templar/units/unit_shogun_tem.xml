@@ -9,7 +9,7 @@
 					<string name="state_tree" value="unit_action_apply\units\knight\audio\fre\4" overrideParent="True" />
 				</group>
 				<group name="container" List.ItemID="-388064221" List.ListAction="Append">
-					<string name="state_tree" value="king_action_apply" />
+					<string name="state_tree" value="khan_action_apply_mon_ha_gol" overrideParent="True" />
 				</group>
 			</list>
 		</template_reference>
@@ -24,7 +24,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-788422057" List.ParentItemID="-788422057">
 			<bool name="regeneration_disabled" value="False" overrideParent="True" />
-			<float name="hitpoints" value="650" overrideParent="True" />
+			<float name="hitpoints" value="450" overrideParent="True" />
 			<float name="regeneration" value="0.125" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-1038753850" List.ParentItemID="-1038753850">
@@ -42,7 +42,7 @@
 			<list name="tier_group_list">
 				<list name="tier_group" overrideParent="True" List.ItemID="1031573878">
 					<group name="tier" List.ItemID="-964904373">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\units\cmp\cmp_baldwin" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\units\knight_templar_4_tem" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />

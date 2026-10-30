@@ -10,6 +10,7 @@
 						<locstring name="screen_name" value="752" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<bool name="is_unique_to_race" value="True" overrideParent="True" />
 						<file name="icon_name" value="ottlancer" overrideParent="True" />
+						<locstring name="extra_text" value="945" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					</group>
 				</group>
 			</list>

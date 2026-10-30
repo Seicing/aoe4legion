@@ -1,0 +1,172 @@
+<instance version="4" description="French Imperial Age Lancer" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1356892678" List.ParentItemID="1356892678">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_horseman_3" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-12513399" List.ParentItemID="-12513399">
+			<list name="action_state_trees">
+				<group name="container" List.ItemID="-1622883091" List.ParentItemID="-1622883091">
+					<string name="state_tree" value="unit_action_apply\units\cavalry_combined" overrideParent="True" />
+				</group>
+				<group name="container" List.ItemID="2022080988" List.ParentItemID="2022080988">
+					<string name="state_tree" value="unit_action_apply\units\monk\audio\rus" overrideParent="True" />
+				</group>
+				<group name="container" List.ItemID="-300694353" List.ListAction="Append">
+					<string name="state_tree" value="unit_action_apply\units\monk\holy_site_capture" />
+				</group>
+				<group name="container" List.ItemID="646611762" List.ListAction="Append">
+					<string name="state_tree" value="king_action_apply" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-919563761" List.ParentItemID="-919563761">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="food" value="120" overrideParent="True" />
+					<float name="gold" value="140" overrideParent="True" />
+				</enum_table>
+				<float name="time_seconds" value="38" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-788422057" List.ParentItemID="-788422057">
+			<bool name="regeneration_disabled" value="False" overrideParent="True" />
+			<float name="hitpoints" value="400" overrideParent="True" />
+			<float name="regeneration" value="0.125" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="1198490334" List.ParentItemID="1198490334">
+			<instance_reference name="hit_material" value="hit_material\canvas" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-1038753850" List.ParentItemID="-1038753850">
+			<float name="personnel_pop" value="0" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1786016482" List.ParentItemID="-1786016482">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\templar" overrideParent="True" List.ItemID="-1974996988" />
+			</list>
+			<list name="unit_type_list" removedIds="-33973428, 1350676038, -1522941700, -499681488, -90441891, -448056678">
+				<enum name="unit_type" value="monk" overrideParent="True" List.ItemID="1817716707" List.ParentItemID="1817716707" />
+				<enum name="unit_type" value="bodyguard" List.ItemID="1092093276" List.ListAction="Append" />
+				<enum name="unit_type" value="carrier" List.ItemID="-659988932" List.ListAction="Append" />
+				<enum name="unit_type" value="cavalry_light" List.ItemID="-1174697676" List.ListAction="Append" />
+				<enum name="unit_type" value="combat_monk" List.ItemID="-2138536121" List.ListAction="Append" />
+				<enum name="unit_type" value="normal" List.ItemID="-1832970804" List.ListAction="Append" />
+				<enum name="unit_type" value="xbox_support_quick_find" List.ItemID="1008036488" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1680160005" List.ParentItemID="1680160005">
+			<float name="decorator_height" value="3.5" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="1327234703" List.ParentItemID="1327234703">
+			<string name="speaker_code" value="monk" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="936293020" List.ParentItemID="936293020">
+			<state_tree_node name="ActionTree_OpeningBranch" value="unit_monk" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="-401340625" List.ParentItemID="-401340625">
+			<string name="default_animation" value="navigation\monk_idle_01" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="1078428342" List.ParentItemID="1078428342">
+			<list name="tier_group_list">
+				<list name="tier_group" overrideParent="True" List.ItemID="829887248">
+					<group name="tier" List.ItemID="-999589905">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\crusader_cmp\units\tier1_hospitaller_master_cru" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" overrideParent="True" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1762200638" List.ParentItemID="1762200638">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="1534383478" List.ParentItemID="1534383478">
+					<list name="weapon_table" overrideParent="True">
+						<group name="weapon" List.ItemID="166434700">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+							<template_reference name="weapon_entity_attachment" value="">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\rus\melee\weapon_monk_3_rus" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_melee_monk_3_charge_rus" overrideParent="True" />
+								<string name="marker_name_parent" value="metarig_rarmpalmsocket" />
+							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="148504232">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+							<template_reference name="weapon_entity_attachment" value="">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\rus\ranged\weapon_torch_rus" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_siege_torch_rus" overrideParent="True" />
+								<string name="marker_name_parent" value="metarig_rarmpalmsocket" />
+							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="-1723132891">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+							<template_reference name="weapon_entity_attachment" value="">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\rus\melee\weapon_monk_3_charge_rus" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_melee_monk_3_charge_rus" overrideParent="True" />
+								<string name="marker_name_parent" value="metarig_rarmpalmsocket" />
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+			<template_reference name="kill_action_tree" value="state_tree_reference_info" overrideParent="True">
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742757" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_knight_4" />
+</instance>

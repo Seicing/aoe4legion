@@ -17,7 +17,7 @@
 				<enum name="dynamic_radius_type" value="fixed" />
 			</template_reference>
 			<group name="damage">
-				<float name="far" value="0.15" overrideParent="True" />
+				<float name="far" value="0.2" overrideParent="True" />
 				<float name="near" value="0.5" overrideParent="True" />
 				<float name="mid" value="0.25" overrideParent="True" />
 			</group>

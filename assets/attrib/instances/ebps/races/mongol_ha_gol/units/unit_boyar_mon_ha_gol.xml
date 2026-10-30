@@ -55,6 +55,7 @@
 				<enum name="unit_type" value="cavalry_armored" List.ItemID="635659887" List.ListAction="Append" />
 				<enum name="unit_type" value="horse" List.ItemID="-1628851289" List.ListAction="Append" />
 				<enum name="unit_type" value="military_cavalry" List.ItemID="1150581525" List.ListAction="Append" />
+				<enum name="unit_type" value="bodyguard" List.ItemID="-1428985666" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="835520554" List.ParentItemID="835520554">

@@ -10,7 +10,7 @@
 						<locstring name="screen_name" value="115" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<file name="icon_name" value="races\crucible_mode\boons\mercenary_spearman" overrideParent="True" />
 						<bool name="is_unique_to_race" value="True" overrideParent="True" />
-						<locstring name="extra_text" value="114" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="extra_text" value="945" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<locstring name="help_text" value="106" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<string name="selection_group" value="normanspear" overrideParent="True" />
 					</group>

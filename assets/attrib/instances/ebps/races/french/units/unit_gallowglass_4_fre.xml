@@ -1,0 +1,270 @@
+<instance version="4" description="French Imperial Age Man-at-arms" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-765163162" List.ParentItemID="-765163162">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\scots\units\unit_gallowglass_sco" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1466211397" List.ParentItemID="-1466211397">
+			<list name="action_state_trees">
+				<group name="container" List.ItemID="433640417" List.ParentItemID="433640417">
+					<string name="state_tree" value="unit_action_apply\units\melee_infantry_other" overrideParent="True" />
+				</group>
+				<group name="container" overrideParent="True" List.ItemID="230139408" List.ParentItemID="230139408">
+					<string name="state_tree" value="unit_action_apply\units\melee_infantry_other\audio\landsknecht\4" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" overrideParent="True" List.ItemID="1978222223" List.ParentItemID="1978222223">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="food" value="140" overrideParent="True" />
+					<float name="gold" value="80" overrideParent="True" />
+					<float name="action" value="0" />
+					<float name="command" value="0" />
+					<float name="popcap" value="0" />
+					<float name="wood" value="0" />
+					<float name="stone" value="0" />
+					<float name="militia_hre" value="0" />
+					<float name="merc_byz" value="0" />
+				</enum_table>
+				<float name="time_seconds" value="28" overrideParent="True" />
+				<int name="time_turns" value="0" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="118682988" List.ParentItemID="118682988">
+			<float name="hitpoints" value="210" overrideParent="True" />
+			<enum_table name="armor_scaler_by_damage_type" overrideParent="True">
+				<float name="Melee" value="4" overrideParent="True" />
+				<float name="Ranged" value="3" />
+				<float name="True Damage" value="0" />
+				<float name="Fire" value="0" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\sight_ext" overrideParent="True" List.ItemID="-208356511" List.ParentItemID="-208356511">
+			<group name="detect_camouflage">
+				<float name="tp_global" value="10" />
+				<float name="tp_mine" value="0" />
+				<float name="tp_unit" value="0" />
+			</group>
+			<bool name="extended_sight" value="False" />
+			<float name="extended_sight_radius" value="0" />
+			<float name="reveal_area_on_death_time" value="1.5" />
+			<group name="sight_package">
+				<float name="inner_height" value="100" />
+				<float name="inner_radius" value="12" />
+				<float name="outer_height" value="-15" />
+				<float name="outer_radius" value="30.4" />
+				<float name="cone_angle" value="360" />
+				<float name="cone_start_radius" value="0" />
+			</group>
+			<list name="extended_sight_target_requirements">
+			</list>
+			<list name="specific_detector_actions">
+			</list>
+			<bool name="camouflage_detection_enabled" value="False" />
+			<group name="vertical_truesight">
+				<bool name="enable" value="False" />
+				<float name="tolerance" value="1" />
+				<float name="eye_height" value="2.5" />
+			</group>
+			<bool name="blockers_check_bounding_box" value="False" />
+			<group name="stealth_detection">
+				<bool name="enabled" value="False" />
+				<float name="radius" value="0" />
+				<float name="throttle" value="0" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-782585427" List.ParentItemID="-782585427">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\french" List.ItemID="-964453236" />
+			</list>
+			<list name="unit_type_list" overrideParent="True">
+				<enum name="unit_type" value="military" List.ItemID="1198684521" />
+				<enum name="unit_type" value="infantry" List.ItemID="-1754210810" />
+				<enum name="unit_type" value="armored" List.ItemID="899872630" />
+				<enum name="unit_type" value="human" List.ItemID="-1383675719" />
+				<enum name="unit_type" value="melee" List.ItemID="-215746986" />
+				<enum name="unit_type" value="formational" List.ItemID="747683758" />
+				<enum name="unit_type" value="torch_thrower" List.ItemID="205928153" />
+				<enum name="unit_type" value="annihilation_condition" List.ItemID="-1609597733" />
+				<enum name="unit_type" value="included_by_military_hotkeys" List.ItemID="170697297" />
+				<enum name="unit_type" value="melee_infantry" List.ItemID="-456615178" List.ParentItemID="-456615178" />
+				<enum name="unit_type" value="gallowglass" List.ItemID="1916207019" />
+				<enum name="unit_type" value="heavy" List.ItemID="1009542080" />
+				<enum name="unit_type" value="land_military" List.ItemID="1650940746" List.ParentItemID="1650940746" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1697644820" List.ParentItemID="1697644820">
+			<list name="hardpoints" overrideParent="True">
+				<group name="hardpoint" List.ItemID="-372803288">
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="-955194656">
+							<template_reference name="weapon_entity_attachment" value="">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\scots\melee\weapon_gallowglass_4_sco" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\scots\weapons\wpn_melee_gallowglass_sco" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
+							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+						</group>
+						<group name="weapon" List.ItemID="-471332549">
+							<template_reference name="weapon_entity_attachment" value="">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_torch" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\hre\weapons\wpn_siege_torch_hre" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
+							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="-0.5" />
+							</group>
+							<enum name="type" value="default" />
+						</group>
+						<group name="weapon" List.ItemID="667584923">
+							<template_reference name="weapon_entity_attachment" value="">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\scots\melee\weapon_gallowglass_4_spearwall_sco" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\scots\weapons\wpn_melee_gallowglass_spearwall_sco" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
+							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+						</group>
+						<group name="weapon" List.ItemID="-318279358">
+							<template_reference name="weapon_entity_attachment" value="">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\scots\melee\weapon_gallowglass_4_charge_sco" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\scots\weapons\wpn_melee_gallowglass_sco" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
+							</template_reference>
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+						</group>
+					</list>
+					<float name="parent_hardpoint" value="-1" />
+					<bool name="receives_attack_commands" value="True" />
+					<string name="base_marker" value="" />
+					<list name="preferred_inventory_item_categories">
+					</list>
+					<list name="firing_offset_markers">
+					</list>
+					<string name="offhand_marker" value="" />
+					<bool name="initialize_weapons_on_creation" value="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-559269079" List.ParentItemID="-559269079">
+			<enum_table name="speed_scaling_table" overrideParent="True">
+				<float name="default_speed" value="4.5" overrideParent="True" />
+				<float name="min_speed" value="0" />
+				<float name="max_speed" value="8" />
+			</enum_table>
+			<enum_table name="speed_levels" overrideParent="True">
+				<float name="speed_level_0" value="1.5" />
+				<float name="speed_level_1" value="3" />
+				<float name="speed_level_2" value="4.5" />
+				<float name="speed_level_3" value="5" />
+				<float name="speed_level_4" value="5.4" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="1277345199" List.ParentItemID="1277345199">
+			<string name="speaker_code" value="gallowglass" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="-799841580" List.ParentItemID="-799841580">
+			<string name="default_animation" value="navigation\idle_tense_02" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="1590686263" List.ParentItemID="1590686263">
+			<list name="tier_group_list" overrideParent="True">
+				<list name="tier_group" List.ItemID="-647487229">
+					<group name="tier" List.ItemID="-1907335928">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\scots\units\tier4_gallowglass_sco" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\stimulus_perception_ext" List.ItemID="-311307811" List.ParentItemID="-311307811">
+			<enum_table name="stimulus_perception_info">
+				<group name="charge" overrideParent="True">
+					<bool name="enable_perception" value="True" />
+					<template_reference name="perception_requirement" value="stimulus_perception_requirement">
+						<group name="facing_requirement">
+							<float name="facing_angle_range" value="180" />
+						</group>
+						<group name="alliance_requirement">
+							<bool name="ally" value="False" />
+							<bool name="enemy" value="True" />
+							<bool name="neutral" value="False" />
+						</group>
+					</template_reference>
+				</group>
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="1874334521" List.ParentItemID="1874334521">
+			<instance_reference name="schema" value="statemodel_schema\units\civilizations\scots\gallowglass_sco" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\modifier_apply_ext" List.ItemID="1548187855" List.ListAction="Append">
+			<list name="modifiers">
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742762" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_manatarms_4" />
+</instance>

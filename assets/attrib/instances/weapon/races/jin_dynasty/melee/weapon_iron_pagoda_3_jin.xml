@@ -1,8 +1,8 @@
 <instance version="4" description="" template="weapon">
 	<group name="weapon_bag">
 		<group name="damage">
-			<float name="max" value="20" overrideParent="True" />
-			<float name="min" value="20" overrideParent="True" />
+			<float name="max" value="21" overrideParent="True" />
+			<float name="min" value="21" overrideParent="True" />
 		</group>
 		<string name="fx_munition_name" value="common_sword_iron_pagoda" overrideParent="True" />
 		<group name="penetration">
@@ -19,7 +19,7 @@
 				<enum name="dynamic_radius_type" value="fixed" />
 			</template_reference>
 			<group name="damage">
-				<float name="far" value="0.15" overrideParent="True" />
+				<float name="far" value="0.2" overrideParent="True" />
 				<float name="near" value="0.5" overrideParent="True" />
 				<float name="mid" value="0.25" overrideParent="True" />
 			</group>

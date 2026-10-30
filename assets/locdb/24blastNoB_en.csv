@@ -13,7 +13,7 @@
 96,,,ui_name,,,Trample
 97,,,ui_name,,,Trample
 98,,,ui_name,,,Trample
-106,,,help_text,,,"Infantry best used against mounted units, stronger than spearman. \r\n+ Anti-cavalry specialist \r\n- Weak against armored infantry"
+106,,,help_text,,,"Infantry best used against mounted units, stronger than spearman. \r\n+ Anti-cavalry specialist \r\n- Weak against armored infantry \r\n- Absorb damage for the Legion Commander as Guards"
 114,,,extra_text,,,Heavy Melee Infantry
 115,,,screen_name,,,Halberdier
 116,,,screen_name,,,Hardened Halberdier
@@ -25,7 +25,7 @@
 136,,,screen_name,,,Uriankhai
 137,,,screen_name,,,Divine Engine Division
 138,,,screen_name,,,Wyngarde Trooper
-139,,,screen_name,,,Wyngarde Huskarl
+139,,,screen_name,,,Wyngarde Housecarl
 140,,,screen_name,,,Wyngarde Yeoman
 141,,,screen_name,,,Gendarmerie
 142,,,screen_name,,,Picardie Army
@@ -46,7 +46,7 @@
 157,,,help_text,,,Produces Uriankhai of 6 Mangudai.
 158,,,help_text,,,Produces Divine Engine Division of 4 Handcannoneers and 1 Clockworks Nest of Bee.
 159,,,help_text,,,Produces Wyngarde Trooper of 6 Sergeants.
-160,,,help_text,,,"Produces Wyngarde Huskarl of 2 Man-at-arms, 2 Wynguard Footmen, and 3 Heavy Spearmen."
+160,,,help_text,,,"Produces Wyngarde Housecarl of 2 Man-at-arms, 2 Wynguard Footmen, and 3 Heavy Spearmen."
 161,,,help_text,,,Produces Wyngarde Yeoman of 4 longbowmen and 3 Wynguard Rangers.
 162,,,help_text,,,"Produces Gendarmerie of 3 Royal Knights, 2 Horsemen and 1 Mounted Crossbowman."
 163,,,help_text,,,Produces Picardie Army of 3 Man-at-arms and 3 Arbalétriers.
@@ -54,7 +54,7 @@
 165,,,help_text,,,Produces Dopplesoldner of 2 Culverins and 4 Handcannoneers.
 167,,,help_text,,,"Produces Landsknecht Legion of 2 Landsknechts, 2 Man-at-arms, 2 Spearmen, 2 Halberdiers and 2 Handcannoneers."
 168,,,help_text,,,Produces Akinji Raider of 4 Sipahi and 2 Akinji.
-169,,,help_text,,,Produces Serbi Regiment of 3 Boyar Knights and 3 Boyar Warriors.
+169,,,help_text,,,Produces Serbi Regiment of 3 Gvardiya Knights and 3 Gvardiya Warriors.
 170,,,help_text,,,Produces Turkic Fief of 3 Sipahi and 3 Lancer.
 171,,,help_text,,,Produces Standing Army of 5 Janissaries and 1 Great Bombard.
 172,,,help_text,,,Produces Black Klobuks of 4 Horsemen and 2 Horse Archers.
@@ -63,8 +63,8 @@
 175,,,help_text,,,Produces Forlorn Hope of 1 Landsknechts and 4 Halberdiers.
 176,,,help_text,,,Produces Mansabdar of 1 War Elephant and 1 Sultan's Elite Tower Elephant.
 177,,,screen_name,,,Mansabdar
-180,,,screen_name,,,Boyar Warrior
-181,,,screen_name,,,Boyar Knight
+180,,,screen_name,,,Gvardiya Warrior
+181,,,screen_name,,,Gvardiya Knight
 183,,,screen_name,,,Wyngarde Knight
 185,,,screen_name,,,Wyngarde Horseman
 188,,,formatter,,,Increase the armor of Landsknecht and Man-at-arms by +%1%.
@@ -101,7 +101,7 @@
 232,,,help_text,,,"Nearby Units improve Armor within 15 seconds, Cooldown 22 seconds."
 233,,,help_text,,,"Spend 300 gold to let nearby Units regeneration quickly within 10 seconds, Cooldown 30 seconds."
 239,,,screen_name,,,Elephant Unease
-241,,,help_text,,,Produces Druzhina of 3 Boyar Knights and 3 Boyar Warriors.
+241,,,help_text,,,Produces Druzhina of 3 Gvardiya Knights and 3 Gvardiya Warriors.
 242,,,extra_text,,,Legion
 243,,,screen_name,,,Druzhina
 244,,,extra_text,,,Heavy Ranged Infantry
@@ -158,8 +158,8 @@
 349,,,screen_name,,,Mansa
 351,,,help_text,,,"The rich Emperor of the Mali Empire, fight with a musket. \r\n- Provide a Aura when Farima Leadership technology researched \r\n- Build War assembly area to temporarily deploy the Legion"
 361,,,help_text,,,Fast raiding Cavalry can slowly restore to continue fighting with the skill form Continental Europe. \r\n+ Good at Anti Ranged Units \r\n- Countered by Spearmen
-363,,,help_text,,,Skillful Warrior from Eastern Europe. \r\n+ Causes trample damage to non-main attack target
-365,,,help_text,,,Skillful Knight from Eastern Europe. \r\n+ Causes trample damage to non-main attack target
+363,,,help_text,,,Skillful Warrior from Eastern Europe. \r\n+ Causes trample damage to non-main attack target \r\n- Absorb damage for the Legion Commander as Guards
+365,,,help_text,,,Skillful Knight from Eastern Europe. \r\n+ Causes trample damage to non-main attack target \r\n- Absorb damage for the Legion Commander as Guards
 369,,,help_text,,,Turkic Horse Archer causes melee damage in distance. \r\n+ Good at Anti Siege Weapon \r\n+ Damage to the building -15
 370,,,help_text,,,"Produces Kèlè-bolo of 6 Freeborn Warriors, Need to Unlock with Farimba Garrison Landmark."
 371,,,screen_name,,,Kèlè-bolo
@@ -196,7 +196,7 @@
 420,,,screen_name,,,Turkmen Mercenary
 421,,,screen_name,,,Norse Warrior
 422,,,screen_name,,,Knights Templar
-423,,,help_text,,,Japanese Military Leader
+423,,,help_text,,,Japanese Military Leader. \r\n- Absorb damage for the Legion Commander as Guards
 424,,,screen_name,,,Daimyo
 425,,,screen_name,,,Strategos
 426,,,help_text,,,"Byzantine Themata General, Use the Byzantine Empire's cavalry tactics to suppress the opponent. \r\n- Provide Torch Strengthen Aura when researched Technology"
@@ -238,7 +238,7 @@
 496,,,extra_text,,,Heavy Ranged Cavalry
 498,,,extra_text,,,Heavy Ranged Cavalry
 500,,,extra_text,,,Heavy Ranged Cavalry
-502,,,help_text,,,Cavalry Archer with a good armor. \r\n+ High Armor \r\n- Countered by Knights and Crossbowmen.
+502,,,help_text,,,Cavalry Archer with a good armor. \r\n+ High Armor \r\n- Countered by Knights and Crossbowmen \r\n- Absorb damage for the Legion Commander as Guards
 504,,,help_text,,,"Cavalry Archer with a slightly better armor, Fires Destructive Incendiary Arrows with Bonus damage to Building. \r\n+ Siege damage \r\n- Low Attack"
 510,,,help_text,,,Armored Cavalry Archer with Arquebus.
 516,,,help_text,,,Giant Cannon cast by Hungary Engineers \r\n+ Can be deployed on stone walls \r\n+ Regeneration Slowly
@@ -256,7 +256,7 @@
 539,,,screen_name,,,Shogunate
 541,,,ui_name,,,Shotgun
 544,,,screen_name,,,Shotgunner
-545,,,help_text,,,Handcannoneer that Fires iron scatter bullet causes 3 burst Damage widely. \r\n+ Causes Ranged damage to multiple enemies \r\n- Short attack range
+545,,,help_text,,,Handcannoneer that Fires iron scatter bullet causes 3 burst Damage widely. \r\n+ Causes Ranged damage to multiple enemies \r\n- Short attack range \r\n- Absorb damage for the Legion Commander as Guards
 546,,,screen_name,,,Double Salary
 547,,,extra_text,,,Infantry Technology
 548,,,formatter,,,Reasonable Salary makes the Holy Roman Empire Soldiers fight more desperately. \r\n- Halberdier's range increase to 0.88 \r\n- The Landsknecht causes Doubling Damage on a successful charge.
@@ -289,7 +289,7 @@
 585,,,screen_name,,,Mounted Crossbowman
 586,,,screen_name,,,Harquebusier
 587,,,screen_name,,,Mamluk
-588,,,help_text,,,Elite Dynasty Cavalry Unit \r\n+ Short cooldown Charge and can damage multiple enemies \r\n+ Charge can tear enemies apart and cause bleeding damage
+588,,,help_text,,,Elite Dynasty Cavalry Unit. \r\n+ Short cooldown Charge and can damage multiple enemies \r\n- Absorb damage for the Legion Commander as Guards
 589,,,extra_text,,,Cavalry Technology
 590,,,extra_text,,,Cavalry Technology
 591,,,formatter,,,Cavalrys regenerate +%1% health every %2% seconds when out of combat.
@@ -331,7 +331,7 @@
 645,,,help_text,,,Fires a long range handcannon and adds handcannon arrowslits while garrisoned. \r\n- 3 construction limits.
 647,,,extra_text,,,Heavy Ranged Infantry
 648,,,screen_name,,,Farariya
-649,,,help_text,,,Elite Malian Empire Handcannoneer. \r\n- No population is required but Maximum 10
+649,,,help_text,,,Elite Malian Empire Handcannoneer. \r\n- No population is required but Maximum 10 \r\n- Absorb damage for the Legion Commander as Guards
 650,,,help_text,,,"Empire Expands to Lv1(1 Open Pit), Now can support 2 Farariya. \r\n- Cannot spawn again when any Guards exist."
 651,,,screen_name,,,Gold Empire Sentine Lv1
 652,,,ui_name,,,Cannot spawn again when any Guards exist.
@@ -355,7 +355,7 @@
 672,,,help_text,,,Spend 200 gold to let nearby Units Ouslaught within 15 seconds.
 678,,,formatter,,,Increase armor of Sofa and Camel Riders by +%1%.
 679,,,screen_name,,,Phalangite
-680,,,help_text,,,Elite Man-at-arms with a larger attack range. \r\n+ Long Range \r\n+ Bonus Damage to Elephant \r\n+  Lower Attack than Man-at-arms\r\n- Can excavate Empire ruins
+680,,,help_text,,,Elite Man-at-arms with a larger attack range. \r\n+ Long Range \r\n+ Bonus Damage to Elephant \r\n+  Lower Attack than Man-at-arms\r\n- Can excavate Empire ruins \r\n- Absorb damage for the Legion Commander as Guards
 681,,,formatter,,,Mongol Military Commander.\r\n+ The mobile kurultai aura can be unlocked by the darughachi system technology at kurultai
 682,,,screen_name,,,Noyan
 683,,,ui_name,,,Need Kurultai Landmark.
@@ -449,9 +449,9 @@
 771,,,formatter,,,Increase the health of Melee Infantry by +%1%.
 772,,,screen_name,,,Conscription
 773,,,screen_name,,,Forbidden Army
-774,,,help_text,,,"Elite Army directly under the Emperor who use a variety of weapons to fight, Further strengthen when Warrior Code Technology Researched in Imperial Age.\r\n+ Spearman Forbidden Army with a long attack range \r\n+ Handcannonner Forbidden Army more durable than Handcannonner \r\n+ Swordsman Forbidden Army equipped anti-cavalry Zhanmadao"
+774,,,help_text,,,"Elite Army directly under the Emperor who use a variety of weapons to fight, Further strengthen when Warrior Code Technology Researched in Imperial Age.\r\n+ Spearman Forbidden Army with a long attack range \r\n+ Handcannonner Forbidden Army more durable than Handcannonner \r\n+ Swordsman Forbidden Army equipped anti-cavalry Zhanmadao\r\n- Absorb damage for the Legion Commander as Guards"
 775,,,screen_name,,,Forbidden Army
-776,,,help_text,,,"Mobilize 10 Forbidden Army into war, they use handcannon, spears and swords to fight.\r\n+ Further strengthen when Warrior Code Technology Researched in Imperial Age"
+776,,,help_text,,,"Mobilize 8 Forbidden Army into war, they use handcannon, spears and swords to fight. Absorb damage for the Legion Commander as Guards.\r\n+ Further strengthen when Warrior Code Technology Researched in Imperial Age"
 777,,,ui_name,,,Maximum of 1 can be built.
 778,,,help_text,,,Allow to Produces Clocktower Units and Imperial Palace Forbidden Army Legion.
 779,,,screen_name,,,Shogun
@@ -481,8 +481,8 @@
 803,,,screen_name,,,Darughachi System
 804,,,formatter,,,Unlocks Kurultai Aura for Noyan.
 805,,,help_text,,,Produces Wyngarde Yeoman of 6 Yeomen
-806,,,help_text,,,Produces Wyngarde Huskarl of 3 Heavy Spearmen and 3 Earl's Guards
-807,,,help_text,,,Produces Wyngarde Knights of 2 Knights and 4 Demilancer
+806,,,help_text,,,Produces Wyngarde Housecarl of 3 Heavy Spearmen and 3 Earl's Guards
+807,,,help_text,,,Produces Wyngarde Knights of 2 Wyngarde Knights and 3 Demilancer
 808,,,screen_name,,,Wyngarde Knights
 809,,,help_text,,,"Templar Grand Master,What does not kill him will makes him stronger."
 810,,,screen_name,,,Grand Master
@@ -528,13 +528,13 @@
 850,,,screen_name,,,Guardian of the Holy Land
 851,,,help_text,,,Produces Guardian of the Holy Land of 3 Elite Hospitallers and 2 Teutonic Knights
 852,,,help_text,,,"Sultan Elephant cannot excavates the Empire Ruin,need to excavated by Phalangite."
-853,,,help_text,,,"Produces Wyngarde Knights of 1 Wyngarde Knight, 1 Chevaucher, 2 Demilancer and 3 Hobelars."
+853,,,help_text,,,Produces Wyngarde Knights of 2 Wyngarde Knights and 3 Demilancer
 854,,,screen_name,,,Wyngarde Knight
 855,,,help_text,,,"A terrifying giant trebuchet , in the name of God, it will surely hit the enemy, bringing deadly sulfur rain to the enemy."
 856,,,screen_name,,,Warwolf
 857,,,screen_name,,,God's Own Sling
 858,,,help_text,,,"A terrifying giant trebuchet , in the name of God, it will surely hit the enemy."
-859,,,help_text,,,"Powerful Knight, Gain bonus damage from the keeps."
+859,,,help_text,,,"Powerful Knight, Gain bonus damage from the keeps. \r\n- Absorb damage for the Legion Commander as Guards"
 860,,,screen_name,,,Bad Neighbor
 861,,,extra_text,,,Ribauldequin Technology
 862,,,screen_name,,,Nartov Rotary Cannon
@@ -597,5 +597,47 @@
 919,,,formatter,,,Increase the Damage of Iron Pagoda and Eruptor by +4.
 920,,,screen_name,,,The Last Stand
 921,,,screen_name,,,Military Monasticism
-922,,,formatter,,,Increase the movement speed of infantry units by +%1%%%.
+922,,,formatter,,,"Increase the movement speed of infantry units by +%1%%%. Unlocks Master of Knights Hospitalier, Absorb damage for the Legion Commander as Guards."
 923,,,help_text,,,Produces all Units with lower cost and faster training time.\r\n- Cannot benefit from Reinforcement technology.
+924,,,help_text,,,Schiltron
+925,,,help_text,,,Borderlanders
+926,,,help_text,,,Fèinne
+927,,,help_text,,,The Invincibles
+928,,,help_text,,,Auld Alliance
+929,,,help_text,,,Nortmanni
+930,,,help_text,,,Vaeringjar
+931,,,help_text,,,Great Heathen Army
+932,,,help_text,,,Jomsgang
+933,,,help_text,,,Huskarls
+934,,,help_text,,,"Produces Schiltron of 5 Pikemen, 2 Gallowglasses and 3 Men-at-arms"
+935,,,help_text,,,Produces Borderlanders of 5 Border Reivers
+936,,,help_text,,,Produces Fèinne of 4 Caterans and 2 Gallowglasses
+937,,,help_text,,,Produces The Invincibles of 4 Tacksmen and 3 Gallowglasses
+938,,,help_text,,,Produces Auld Alliance of 5 Coustilliers
+939,,,help_text,,,Produces Nortmanni of 3 Jylland Knights and 2 Horsemen
+940,,,help_text,,,Produces Vaeringjar of 3 Varangian Guards and 2 Throwing Axemen
+941,,,help_text,,,"Produces Great Heathen Army of 3 Berserkers, 3 Bondi, 2 Shieldmaidens and 2 Hirdmen"
+942,,,help_text,,,Produces Jomsgang of 5 Jomsvikings
+943,,,help_text,,,Produces Huskarls of 5 Hirdmen
+944,,,help_text,,,Produces Auld Alliance of 3 Border Reivers and 2 Gallowglasses
+945,,,help_text,,,Guards
+946,,,screen_name,,,Meng'an Mouke Guards
+947,,,screen_name,,,Rapid-Raid Cavalry. \r\n- Absorb damage for the Legion Commander as Guards
+948,,,screen_name,,,Coustillier
+949,,,screen_name,,,Professional Cavalry with a long-handled Glaive. \r\n- Absorb damage for the Legion Commander as Guards
+950,,,screen_name,,,Master of Knights Hospitalier
+951,,,screen_name,,,"Chief Knight of the Hospitallers, heals nearby units. \r\n- Absorb damage for the Legion Commander as Guards"
+952,,,screen_name,,,Lancer Guards. \r\n- Absorb damage for the Legion Commander as Guards
+953,,,screen_name,,,Jomsviking
+954,,,screen_name,,,Elite Viking warriors bound by a sacred blood oath.\r\n- Absorb damage for the Legion Commander as Guards
+955,,,screen_name,,,"Lancaster Commander, Gain bonus damage from the keeps"
+956,,,screen_name,,,Jarl
+957,,,screen_name,,,Ceann-cinnidh
+958,,,screen_name,,,Skilled Warlord\r\n- Gains increased attack speed from nearby Guards\r\n- Deals melee damage from a distance
+959,,,screen_name,,,Scottish Clan Chiefs\r\n- Gains increased attack speed from nearby Guards\r\n- Provides Fear-Taic
+960,,,screen_name,,,Folkvápn
+961,,,screen_name,,,Viking freemen equipped with standard-issue gear can be rapidly mobilized for battle. Military building production speed +20%.
+962,,,screen_name,,,Crann Tara
+963,,,screen_name,,,Clan chiefs issue the call to arms. Melee infantry cost −10%.
+964,,,screen_name,,,Throwing Axemen
+965,,,extra_text,,,"Heavy Melee Infantry, Highland Warrior, Guards"

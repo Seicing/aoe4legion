@@ -36,7 +36,7 @@
 					<string name="state_tree" value="unit_action_apply\units\knight\audio" />
 				</group>
 				<group name="container" List.ItemID="-987219273">
-					<string name="state_tree" value="king_action_apply" />
+					<string name="state_tree" value="khan_action_apply_mon_ha_gol" />
 				</group>
 			</list>
 			<bool name="reset_on_load" value="True" />

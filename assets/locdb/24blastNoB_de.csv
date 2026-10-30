@@ -13,7 +13,7 @@
 96,,Trampeln
 97,,Trampeln
 98,,Trampeln
-106,,"Infanterie wird am besten gegen berittene Einheiten eingesetzt, stärker als Speerkämpfer. \r\n+ Spezialist für Kavalleriebekämpfung \r\n- Schwach gegen gepanzerte Infanterie"
+106,,"Infanterie wird am besten gegen berittene Einheiten eingesetzt, stärker als Speerkämpfer. \r\n+ Spezialist für Kavalleriebekämpfung \r\n- Schwach gegen gepanzerte Infanterie \r\n- Absorbiert Schaden für den Legion Kommandant als Garde"
 114,,Schwere Nahkampfinfanterie
 115,,Hellebardier
 116,,hartgesottener Hellebardier
@@ -24,8 +24,8 @@
 135,,Expeditionskorps
 136,,Uriankhai
 137,,Göttliche Belagerungseinheiten Division
-138,,Wyngarde Soldat
-139,,Wyngarde Huskarl
+138,,Wyngarde-Soldaten
+139,,Wyngarde Huscarl
 140,,Wyngarde Yeoman
 141,,Gendarmerie
 142,,Picardie-Armee
@@ -40,31 +40,31 @@
 151,,Schwarze Klobuks
 152,,Opritschnik
 153,,Tataren-Söldner
-154,,Produziert Khassaki-Wachen von 3 Mamluken und 3 Ghazi.
-155,,Produziert Misr-Armee von 4 Kamelreitern und 2 Kamelbogenschützen.
-156,,Produziert eine Expeditionsstreitmacht von 6 Ghulam.
-157,,Produziert Uriankhai von 6 Mangudai.
-158,,"Produziert eine Göttliche Belagerungseinheit, die aus 4 Handkanonieren und 1 Uhrwerk-Bienennest besteht."
-159,,Produziert Wyngarde Soldat aus 6 Sergeants.
-160,,"Produziert Wyngarde Huskarl aus 2 Waffenknechten, 2 Wynguard-Lakaien, und 3 Schwere Speerkämpfer."
-161,,Produziert Wyngarde Yeoman bestehend aus 4 Langbogenschützen und 3 Wynguard Rangern.
-162,,"Produziert eine Gendarmerie bestehend aus 3 königlichen Rittern, 2 Reitern und 1 berittenem Armbrustschützen."
-163,,Produziert einen Picardie-Armee mit 3 Waffenknechten und 3 Arbalétriers.
-164,,Produziert Schweizer Söldner mit 6 Hellebardiers.
-165,,Produziert Doppelsoldner von 2 Culverins und 4 Handkanonieren.
-167,,"Produziert eine Landsknecht-Legion bestehend aus 2 Landsknechten, 2 Waffenknechten, 2 Speerkämpfer, 2 Hellebardiers und 2 Handkanonieren."
-168,,Produziert Akinji Räuber mit 4 Sipahi und 2 Akinji.
-169,,Produziert ein serbisches Regiment bestehend aus 3 Bojarenrittern und 3 Bojarenkriegern.
-170,,Produziert ein türkisches Lehen von 3 Sipahi und 3 Lancer.
-171,,Produziert eine stehende Armee von 5 Janitscharen und 1 Großen Bombardement.
+154,,Produziert Khassaki-Wachen aus 3 Mamluken und 3 Ghazi.
+155,,Produziert Misr-Armee aus 4 Kamelreitern und 2 Kamelbogenschützen.
+156,,Produziert Expeditionsstreitmacht aus 6 Ghulam.
+157,,Produziert Uriankhai aus 6 Mangudai.
+158,,Produziert Göttliche Belagerungseinheit aus 4 Handkanonieren und 1 Uhrwerk-Bienennest.
+159,,Produziert Wyngarde-Soldaten aus 6 Sergeants.
+160,,"Produziert Wyngarde Huscarl aus 2 Waffenknechte, 2 Wyngarde-Lakaien und 3 schwere Speerkämpfer."
+161,,Produziert Wyngarde Yeoman aus 4 Langbogenschützen und 3 Wyngarde Rangern.
+162,,"Produziert Gendarmerie aus 3 königlichen Rittern, 2 Reitern und 1 berittenen Armbrustschützen."
+163,,Produziert Picardie-Armee aus 3 Waffenknechten und 3 Arbalétriers.
+164,,Produziert Schweizer Söldner aus 6 Hellebardiers.
+165,,Produziert Doppelsoldner aus 2 Culverins und 4 Handkanonieren.
+167,,"Produziert Landsknecht-Legion aus 2 Landsknechten, 2 Waffenknechten, 2 Speerkämpfern, 2 Hellebardiers und 2 Handkanonieren."
+168,,Produziert Akinji Räuber aus 4 Sipahi und 2 Akinji.
+169,,Produziert Serbisches Regiment aus 3 Gvardiya Ritter und 3 Gvardiya Krieger.
+170,,Produziert Türkisches Lehen aus 3 Sipahi und 3 Lancer.
+171,,Produziert Stehende Armee aus 5 Janitscharen und 1 Großen Bombardement.
 172,,Produziert schwarze Klobuks aus 4 Reitern und 2 berittenen Bogenschützen.
 173,,Produziert opritschnik aus 5 Streltsy.
-174,,"Produziert Tataren, Söldner von 3 Keshiks und 3 Mangudai."
-175,,Produziert Verlorener Haufen von 1 Landsknecht und 4 Hellebardiers.
-176,,Produziert Mansabdar von 1 Kriegselefanten und 1 Elite-Turmelefanten des Sultans.
+174,,Produziert Tataren Söldner aus 3 Keshiks und 3 Mangudai.
+175,,Produziert Verlorener Haufen aus 1 Landsknecht und 4 Hellebardiers.
+176,,Produziert Mansabdar aus 1 Kriegselefanten und 1 Elite-Turmelefanten des Sultans.
 177,,Mansabdar
-180,,Bojarischer Krieger
-181,,Bojarischer Ritter
+180,,Gvardiya Krieger
+181,,Gvardiya Ritter
 183,,Wyngarde-Ritter
 185,,Wyngarde Reiter
 188,,Erhöht die Rüstung von Landsknecht und Waffenknecht um +%1%.
@@ -72,7 +72,7 @@
 190,,Infanterietechnik
 192,,"Der tapfere normannische Ritter kann sich langsam erholen, um weiter zu kämpfen. \r\n+ Stark im Nahkampf \r\n- Gekontert von Speerkämpfern und Armbrustschützen"
 195,,Allgemein
-196,,"Der mächtige chinesische General, der gut darin ist, Taktiken anzuwenden, um den Fluss des Schlachtfeldes zu verändern. \r\n- Erlauben Sie zu überwachen \r\n- Erlauben Sie den Bau einer Komturei, wenn Sie in die Yuan-Dynastie eintreten"
+196,,"Der mächtige chinesische General, der gut darin ist, Taktiken anzuwenden, um den Fluss des Schlachtfeldes zu verändern. \r\n- Kann überwachen \r\n- Erlauben Sie den Bau einer Komturei, wenn Sie in die Yuan-Dynastie eintreten"
 199,,Türkischer Reiter Bogenschütze
 201,,Schießpulver-Kommandant
 203,,Ultimative Mobilisierung
@@ -101,7 +101,7 @@
 232,,"Einheiten in der Nähe verbessern ihre Panzerung innerhalb von 15 Sekunden, die Abklingzeit 22 Sekunden."
 233,,"Gebt 300 Gold aus, damit sich Einheiten in der Nähe innerhalb von 10 Sekunden schnell regenerieren können, Abklingzeit 30 Sekunden."
 239,,Unbehagen der Elefanten
-241,,Produziert Druzhina aus 3 Bojarenrittern und 3 Bojarenkriegern.
+241,,Produziert Druzhina aus 3 Gvardiya Ritter und 3 Gvardiya Krieger.
 242,,Legion
 243,,Druzhina
 244,,Schwere Fernkampfinfanterie
@@ -111,44 +111,44 @@
 250,,Sultan-Elefant
 251,,Kriegselefant verursachte Schaden bei gegnerischer Kavallerie in der Nähe -20%.
 252,,Unbehagen der Elefanten
-255,,"Produziert das Dahomey-Regiment bestehend aus 3 Musofadi-Kriegern und 3 Musofadi-Handkanonieren, produziert Mansa Musofadi-Krieger mit der Farimba-Garnison"
+255,,"Produziert Dahomey-Regiment aus 3 Musofadi-Kriegern und 3 Musofadi-Handkanonieren, produziert Mansa Musofadi-Krieger mit der Farimba-Garnison"
 256,,Dahomey Regiment
-257,,"Produziert das Fulani-Regiment mit 2 Speerwerfern, 2 Elite-Bogenschützen und 2 Donso, produziert den Mansa-Speerwerfer mit der Farimba-Garnison"
+257,,"Produziert Fulani-Regiment aus 2 Speerwerfern, 2 Elite-Bogenschützen und 2 Donso, produziert den Mansa-Speerwerfer mit der Farimba-Garnison"
 258,,Fulani-Regiment
 259,,Tuareg-Regiment
-260,,Produziert ein Tuareg-Regiment bestehend aus 4 Kamelreitern und 2 Kamelbogenschützen.
+260,,Produziert Tuareg-Regiment aus 4 Kamelreitern und 2 Kamelbogenschützen.
 261,,Kamel-Bogenschütze
 262,,Kamelreiter
-263,,Produziert Iqtadar von 3 Kamelreitern und 3 Ghulam.
-264,,Produziert eine Rajput-Armee bestehend aus 1 Turmelefanten und 3 Phalangiten.
+263,,Produziert Iqtadar aus 3 Kamelreitern und 3 Ghulam.
+264,,Produziert Rajput-Armee aus 1 Turmelefanten und 3 Phalangiten.
 265,,Iqtadar
 266,,Rajput Armee
 267,,Leichte Fernkampfkavallerie
-271,,"Mobilisiert 3 Keshik, 2 Mangudai und 2 Tarkan aus Moghulistan."
+271,,"Mobilisiert 3 Keshik, 2 Mangudai und 2 Tarkan vom Moghulistan."
 272,,Tschagatai-Armee
 273,,Armee der Goldenen Horde
 274,,Die Armee
 275,,Yuan Armee
-276,,Mobilisiere 1 Bienennest und 3 Palastwachen aus China.
-277,,Mobilisierung von 3 Ghazi und 3 Ghulam aus Persien.
-278,,Mobilisiert 2 Ritter und 4 Kanoniere aus Russland.
+276,,Mobilisiere 1 Bienennest und 3 Palastwachen vom China.
+277,,Mobilisierung aus 3 Ghazi und 3 Ghulam vom Persien.
+278,,Mobilisiert 2 Ritter und 4 Kanoniere vom Russland.
 279,,Mobilisiert 2 Nokor vom mongolischen Plateau.
 280,,Mongol Armee
 282,,Raketenwerfer
-284,,Infanterie mit einem Raketenwerfer an der Hand kann kontinuierlichen Belagerungsschaden verursachen. \r\n+ Verursacht Belagerungsschaden bei mehreren Feinden \r\n- Verwundbar auf kurze Distanz
+284,,Infanterie mit einem Raketenwerfer an der Hand kann kontinuierlichen Belagerungsschaden verursachen. \r\n+ Verursacht Belagerungsschaden bei mehreren Feinden \r\n- Schwach auf kurze Distanz
 285,,"Der militärische Anführer des Osmanischen Reiches, verbessert die Marschgeschwindigkeit mit War Roar und kämpft mit einer speziellen Muskete für einen weiten Angriff."
-309,,"Mobile Ressourcen Punkt, die Dorfbewohner können hier die kollektiven Ressourcen lagern. \r\n- Es wird nicht die Bevölkerung beschäftigen, aber es können nur maximal 10 produziert werden."
+309,,"Mobile Ressourcen Punkt, die Dorfbewohner können hier die kollektiven Ressourcen lagern. \r\n- EBelegt keine Bevölkerung, aber es können nur maximal 10 produziert werden."
 311,,Vorratswagen
 313,,Punkt Ressourcen
-314,,Produziert Deutsches Kavallerie aus 5 Reiter.
+314,,Produziert Deutsches Kavallerie aus 5 Reitern.
 315,,Deutsches Kavallerie
 317,,Elite Keshik
 318,,Elite Keshik
 319,,Devsirme-System
 320,,Militärschulen Technologie
-322,,Produziert Mandekalu von 6 Mansa-Freigeborenen-Reitern.
+322,,Produziert Mandekalu aus 6 Mansa-Freigeborenen-Reitern.
 323,,Mandekalu 
-325,,Produziert Jagirdar mit 6 Lanzenträgern.
+325,,Produziert Jagirdar aus 6 Lanzenträgern.
 326,,Jagirdar
 328,,"Ein Spionage-Landmark mit einem Sichtradius von %1% und der Fähigkeit Imperiale Spione. Aktivieren, um den Standort der gegnerischen Arbeiter für %2% Sekunden anzuzeigen. \r\n- Kann einzigartige Legion produzieren. \r\n- Imperiale Beamte können in diesem Gebäude Steuern abgeben."
 340,,Steppen-Lanze
@@ -158,10 +158,10 @@
 349,,Sanftmütig
 351,,"Der reiche Kaiser des Mali-Reiches, kämpft mit einer Muskete. \r\n- Sorge für eine Aura, wenn die Technologie von Farima Leadership erforscht wird \r\n- Baue einen Kriegssammelplatz, um die Legion vorübergehend einzusetzen"
 361,,"Schnelle Raubzüge der Kavallerie können sich langsam erholen, um mit der Fertigkeit aus Kontinentaleuropa weiter zu kämpfen. \r\n+ Gut in Anti-Fernkampf-Einheiten \r\n- Von Speerkämpfern gekontert"
-363,,"Der geschickte Krieger aus Osteuropa \r\n+ kann einem Ziel das nicht der Hauptangriff ist, Trampelschaden zufügen"
-365,,"Der geschickte Ritter aus Osteuropa \r\n+ kann einem Ziel das nicht der Hauptangriff ist, Trampelschaden zufügen"
+363,,"Der geschickte Krieger aus Osteuropa \r\n+ kann einem Ziel das nicht der Hauptangriff ist, Trampelschaden zufügen \r\n- Absorbiert Schaden für den Legion Kommandant als Garde"
+365,,"Der geschickte Ritter aus Osteuropa \r\n+ kann einem Ziel das nicht der Hauptangriff ist, Trampelschaden zufügen \r\n- Absorbiert Schaden für den Legion Kommandant als Garde"
 369,,Türkischer Bogenschütze verursacht Nahkampfschaden in der Ferne. \r\n+ Gut in der Anti-Belagerungswaffe \r\n+ Schaden am Gebäude -15
-370,,"Produziert Kèlè-bolo von 6 Freigeborenen-Kriegern, die mit dem Wahrzeichenpunkt der Farimba-Garnison freigeschaltet werden müssen."
+370,,"Produziert Kèlè-bolo aus 6 Freigeborenen-Kriegern, die mit dem Wahrzeichenpunkt der Farimba-Garnison freigeschaltet werden müssen."
 371,,Kèlè-bolo
 375,,Die furchtlose Kavallerie mit schwerer Rüstung kann dem größten Teil des Schadens effektiv widerstehen.
 377,,Farimba
@@ -175,34 +175,34 @@
 397,,Stein-Technologie
 399,,Tempelritter
 400,,Mitglied der Mighty Orders.
-401,,Produziert Tempelritter von 5 Tempelrittern.
+401,,Produziert Tempelritter aus 5 Tempelrittern.
 402,,Ritter Teutonisch
 404,,Ritter des Hospitaliers
-405,,Erzeugt Deutsche Ritter von 5 Ritter Teutonisch.
+405,,Produziert Deutsche Ritter aus 5 Ritter Teutonisch.
 406,,Ritter des Deutschen Ordens
 407,,Tagmata
 408,,Nordische Wache
 409,,Themata
-410,,Produziert Tagmata von 6 Kataphrakten.
-411,,Produziert die nordische Garde von 4 Waräger-Wachen und 2 nordischen Kriegern.
-412,,Produziert Themata mit 10 Limitanei.
-413,,"Produziert ein Teppou-Regiment mit 5 Handfeuerwaffen Ashigaru und 1 Teppou Bannerman Wenn die Bannerman-Bevölkerung das Limit erreicht, werden 6 Handfeuerwaffen Ashigaru produziert."
+410,,Produziert Tagmata aus 6 Kataphrakten.
+411,,Produziert die nordische Garde aus 4 Waräger-Wachen und 2 nordischen Kriegern.
+412,,Produziert Themata aus 10 Limitanei.
+413,,"Produziert Teppou-Regiment aus 5 Handfeuerwaffen Ashigaru und 1 Teppou Bannerman Wenn die Bannerman-Bevölkerung das Limit erreicht, werden 6 Handfeuerwaffen Ashigaru produziert."
 414,,Teppou Regiment
-415,,"Produziert ein Akazonae-Regiment bestehend aus 3 berittenen Samurai, 2 Reitern und 1 Uma-Bannerträger, wenn die Bannerman-Bevölkerung das Limit erreicht, produziert 4 berittene Samurai und 2 Reiter."
+415,,"Produziert Akazonae-Regiment aus 3 berittenen Samurai, 2 Reitern und 1 Uma-Bannerträger, wenn die Bannerman-Bevölkerung das Limit erreicht, produziert 4 berittene Samurai und 2 Reiter."
 416,,Akazonae Regiment
-417,,Produziert das Ashigaro-Regiment der 6 Speerarmen.
+417,,Produziert das Ashigaro-Regiment aus 6 Speerträgern.
 418,,Ashigaru Regiment
-419,,Produziert turkmenischen Söldner mit 6 Akinji.
+419,,Produziert turkmenischen Söldner aus 6 Akinji.
 420,,Turkmenischer Söldner
 421,,Nordischer Krieger
 422,,Tempelritter
-423,,Mächtige japanische Militärführer
+423,,Mächtige japanische Militärführer. \r\n- Absorbiert Schaden für den Legion Kommandant als Garde
 424,,Daimyo
 425,,Strategos
 426,,"Byzantinischer Themata General, nutzt die Kavallerietaktik des Byzantinischen Reiches, um den Gegner zu unterdrücken. \r\n- Bietet Fackel zur Stärkung der Aura, wenn Technologie erforscht wird"
-427,,"Produziert Venezianer, Söldner aus 3 Handkanonieren und 3 Arbalétriers."
+427,,Produziert Venezianer Söldner aus 3 Handkanonieren und 3 Arbalétriers.
 428,,Venezianischer Söldner
-429,,"Produziert ein Yabusame-Regiment von 5 Onna-Musha und 1 Yabusame Bannerman, wenn die Bannerman-Bevölkerung das Limit erreicht, produziert 6 Onna-Musha."
+429,,"Produziert Yabusame-Regiment aus 5 Onna-Musha und 1 Yabusame Bannerman, wenn die Bannerman-Bevölkerung das Limit erreicht, produziert 6 Onna-Musha."
 430,,Yabusame Regiment
 431,,Imperiale Garde
 432,,Mobilisiere 3 imperiale Wachen auf dem Schlachtfeld.
@@ -216,15 +216,15 @@
 458,,Arhats
 459,,Dreitausend Teilung
 460,,Fünf-Kasernen-Division
-461,,Produziert fünf Kasernendivisionen mit 5 Armbrustschützen und 3 Zhuge Nu.
-462,,"Produziert dreitausend Divisionen von 3 imperialen Wachen und 3 Yuan-Räubern, muss die Technologie der dynastischen Beschützer erforschen"
-463,,Produziert Arhats von 6 Shaolin-Mönchen.
+461,,Produziert fünf Kasernendivisionen aus 5 Armbrustschützen und 3 Zhuge Nu.
+462,,"Produziert dreitausend Divisionen aus 3 imperialen Wachen und 3 Yuan-Räubern, muss die Technologie der dynastischen Beschützer erforschen"
+463,,Produziert Arhats aus 6 Shaolin-Mönchen.
 464,,"Produziert den Orden des Drachen der 2 Vergoldeten Landsknechte, 2 Vergoldete Waffenknechte, 4 Vergoldete Speerkämpfer und 2 Drachen-Handkanoniere."
-465,,Produziert die ungarische Schwarze Armee von 6 Drachen-Handkanonieren.
-466,,Produziert den Orden der Jungfrau von 3 königlichen Rittern und 3 Jeannes Reitern.
-467,,Produziert Wächter der Jungfrau von 3 Waffenknechten und 3 Jeannes Champions.
-468,,Produziert Königliche Artillerie mit 4 Handkanonen und 1 Royal Cannon.
-469,,Produziert Nubischer Söldner mit 6 Bogenschützen der Augen.
+465,,Produziert Ungarische Schwarze Armee aus 6 Drachen-Handkanonieren.
+466,,Produziert Orden der Jungfrau aus 3 königlichen Rittern und 3 Jeannes Reitern.
+467,,Produziert Wächter der Jungfrau aus 3 Waffenknechten und 3 Jeannes Champions.
+468,,Produziert Königliche Artillerie aus 4 Handkanonen und 1 Royal Cannon.
+469,,Produziert Nubischer Söldner aus 6 Bogenschützen der Augen.
 470,,"Produziert Khassaki-Wachen aus 3 Mamluken, 2 Kamel-Lanzenreitern und 1 Wüstenräuber."
 471,,Meister der Hospitalritter
 472,,Tempelritter
@@ -238,7 +238,7 @@
 496,,Schwere Fernkampfkavallerie
 498,,Schwere Fernkampfkavallerie
 500,,Schwere Fernkampfkavallerie
-502,,Kavallerie-Bogenschütze mit guter Rüstung. \r\n+ Hohe Rüstung \r\n- Wird von Rittern und Armbrustschützen gekontert.
+502,,Kavallerie-Bogenschütze mit guter Rüstung. \r\n+ Hohe Rüstung \r\n- Wird von Rittern und Armbrustschützen gekontert \r\n- Absorbiert Schaden für den Legion Kommandant als Garde
 504,,"Kavallerie-Bogenschütze mit einer etwas besseren Rüstung, feuert zerstörerische Brandpfeile mit Bonusschaden an Gebäuden ab. \r\n+ Belagerungsschaden \r\n- Niedriger Angriff"
 510,,Gepanzerter Kavallerie-Bogenschütze mit Arkebuse.
 516,,"Riesige Kanone, gegossen von ungarischen Ingenieuren \r\n+ Kann auf Steinmauern eingesetzt werden \r\n+ Langsame Regeneration"
@@ -246,7 +246,7 @@
 518,,Brauche die weiße Stupa.
 519,,Huihui Pao
 521,,"Produziert Dorfbewohner und Dorfbewohner können Ressourcen an diesem Gebäude abgeben, verdoppeln die Erfahrung des Kaiserlichen Rates rund um das Wahrzeichen und erhöhen das Punktelimit für Wesire um +2."
-523,,Produziert Vardariotai mit 2 gepanzerten Bogenschützen und 4 Reitern.
+523,,Produziert Vardariotai aus 2 gepanzerten Bogenschützen und 4 Reitern.
 524,,Vardariotai
 525,,Mobilisiere 3 Yuan-Plünderer auf dem Schlachtfeld.
 526,,Yuan Räuber
@@ -256,7 +256,7 @@
 539,,Shogunat
 541,,Schrotflinte
 544,,Schrotflinte
-545,,"Handkanonier, der Eisenstreukugel abfeuert und 3 Burst-Schaden verursacht. \r\n+ Verursacht Fernkampfschaden bei mehreren Gegnern \r\n- Kurze Angriffsreichweite"
+545,,"Handkanonier, der Eisenstreukugel abfeuert und 3 Burst-Schaden verursacht. \r\n+ Verursacht Fernkampfschaden bei mehreren Gegnern \r\n- Kurze Angriffsreichweite \r\n- Absorbiert Schaden für den Legion Kommandant als Garde"
 546,,Doppeltes Gehalt
 547,,Infanterietechnik
 548,,"Angemessenes Gehalt lässt die Soldaten des Heiligen Römischen Reiches verzweifelter kämpfen. \r\n- Hellebardiers Reichweite auf 0,,88 erhöht \r\n- Der Landsknecht verursacht bei einem erfolgreichen Angriff doppelten Schaden."
@@ -281,7 +281,7 @@
 572,,Kavallerie-Bogenschütze mit guter Rüstung. \r\n+ Zusätzlicher Schaden an gepanzerten Einheiten \r\n- Wird von leichte Reiterei gekontert
 573,,Kavallerie-Bogenschütze mit guter Rüstung. \r\n+ Zusätzlicher Schaden an gepanzerten Einheiten \r\n- Wird von leichte Reiterei gekontert
 575,,Beduinen-Söldner
-576,,Produziert Beduinen-Söldner bestehend aus 3 Beduinen-Schwertkämpfern und 3 Beduinen-Plänklern.
+576,,Produziert Beduinen-Söldner aus 3 Beduinen-Schwertkämpfern und 3 Beduinen-Plänklern.
 577,,Erhöht die Reichweite von Grenadieren um +%1% und feuerverstärkende Granaten mit +50 % Wirkungsbereich.
 582,,"Beim Training von Limitanei, Warägerwachen, Kataphrakten oder Cheirosiphons besteht eine Chance von %1%%%, auch an diesem Wahrzeichen einen zu spawnen. Kann Legion sofort mit Olivenöl anheuern."
 583,,Gepanzerter Kavallerie-Bogenschütze
@@ -289,7 +289,7 @@
 585,,Berittener Armbrustschütze
 586,,Harquebusier
 587,,Mamluke
-588,,Elite Dynastie Kavallerieeinheit \r\n+ Kurze Abklingzeit Ladung und kann mehrere Feinde verletzen \r\n+ Der Ladung kann Feinde in Stücke reißen und Blutungsschäden verursachen
+588,,Elite Dynastie Kavallerieeinheit. \r\n+ Kurze Abklingzeit Ladung und kann mehrere Feinde verletzen \r\n- Absorbiert Schaden für den Legion Kommandant als Garde
 589,,Kavallerietechnik
 590,,Kavallerietechnik
 591,,"Kavallerie regeneriert alle %2% Sekunden +%1% Gesundheit, wenn sie sich außerhalb des Kampfes befinden."
@@ -309,9 +309,9 @@
 608,,Fackel
 609,,"Kavallerie Gesundheit +%2%, Erhöht die Reichweite von Berittener Bogenschütze um +%1%."
 610,,Mangudai-Technologie
-611,,"Produziert das Gokenin-Regiment mit 5 Samurai und 1 Katana-Bannerträger, wenn die Bannerman-Bevölkerung das Limit erreicht, produziert 6 Samurai."
+611,,"Produziert Gokenin-Regiment aus 5 Samurai und 1 Katana-Bannerträger, wenn die Bannerman-Bevölkerung das Limit erreicht, produziert 6 Samurai."
 612,,Gokenin-Regiment
-613,,"Produziert Kasernen- und Bogenschießstandeinheiten %1% auf einmal. Die Stückkosten werden in Gold umgewandelt und um -%2%%% reduziert. \r\n- Kann Farimba %1% auf einmal produzieren, mit einer Kostenreduzierung von 20%% \r\n- Schaltet die Farimba-Ausbildung im Kriegssammelbereich frei"
+613,,"Produziert Kasernen und Bogenschießstandeinheiten %1% auf einmal. Die Stückkosten werden in Gold umgewandelt und um -%2%%% reduziert. \r\n- Kann Farimba %1% auf einmal produzieren, mit einer Kostenreduzierung von 20%% \r\n- Schaltet die Farimba-Ausbildung im Kriegssammelbereich frei"
 614,,Die Einkommensrate für Relikte steigt auf +%1%%%
 615,,Reliquiar
 617,,Produkt alle Einheiten und Legion.
@@ -324,14 +324,14 @@
 629,,Infanterietechnik
 630,,"Kann Shinobi-Spionageeinheiten hervorbringen, die sich auf Aufklärung, Sabotage und Attentate spezialisiert haben. Stellt die Produktion eines kostenlosen Shinobi in die Warteschlange, wenn er fertig ist. \r\n\r\nIm Kaiserzeitalter teilten die Shinobi ihre Praxis, dass Infanterie +15 % LP und +10 % Schaden verursacht."
 631,,Der Landsknecht verursacht bei einer erfolgreichen Aufladung doppelten Schaden.
-635,,Produziert dreitausend Divisionen aus 2 imperialen Wachen und 4 Lanzenträgern.
-636,,Produziert die Divine Engine Division mit 4 Schrotschützen und 1 Bombarde.
+635,,Produziert Dreitausend Division aus 2 Imperialen Wachen und 4 Lanzenträgern.
+636,,Produziert Divine Engine Division aus 4 Schrotschützen und 1 Bombarde.
 643,,"Garnison in einem militärischen Produktionsgebäude, um neu ausgebildeten Einheiten +%1%%% Gesundheit zu gewähren. Kann nicht in Docks und Festungen garnisoniert werden."
 644,,Kommandantur
 645,,"Feuert eine Handfeuerwaffe mit großer Reichweite ab und fügt Handfeuerwaffen-Pfeilschlitze hinzu, während er in Garnison steht. \r\n- 3 Konstruktionsgrenzen."
 647,,Schwere Fernkampfinfanterie
 648,,Farariya
-649,,"Elite-Handkanonenschütze des malischen Imperiums. r\n\r\n- Es ist keine Bevölkerung erforderlich, Maximal 10"
+649,,"Elite-Handkanonenschütze des malischen Imperiums. r\n\r\n- Es ist keine Bevölkerung erforderlich, Maximal 10 \r\n- Absorbiert Schaden für den Legion Kommandant als Garde"
 650,,"Imperium Expandiert auf Lv1 (1 offene Grube), kann jetzt 2 Farariya unterstützen. \r\n- Kann nicht wieder spawnen, wenn Wachen vorhanden sind."
 651,,Goldenes Imperium Wächter Lv1
 652,,"Kann nicht wieder spawnen, wenn Wachen vorhanden sind."
@@ -347,7 +347,7 @@
 662,,Ozutsu
 663,,Brauche ein Wahrzeichen.
 664,,Ich brauche die Abtei der Könige.
-665,,"Produziert Wyngarde-Artillerie bestehend aus 3 Mann-Waffen, 3 Handfeuerschützen und 1 Ribauldequin."
+665,,"Produziert Wyngarde-Artillerie aus 3 Mann-Waffen, 3 Handfeuerschützen und 1 Ribauldequin."
 666,,Wyngarde-Artillerie
 669,,Flammenwerfer
 670,,"Die griechischen Krieger, die die brennende Keramikflasche werfen. \r\n+ Verursacht Feuerschaden bei mehreren Feinden \r\n+ Verursachen einen brennenden Feind in der Dauer \r\n- Verwundbar auf kurze Distanz"
@@ -355,7 +355,7 @@
 672,,"Gebt 200 Gold aus, um Einheiten in der Nähe innerhalb von 15 Sekunden angreifen zu lassen."
 678,,Erhöht die Rüstung von Sofa- und Kamelreitern um +%1%.
 679,,Phalangit
-680,,Elite-Waffenkämpfer mit größerer Angriffsreichweite. \r\n+ Große Reichweite \r\n+ Bonusschaden für Elefanten \r\n+ Geringerer Angriff als Waffenkämpfer\r\n- Kann Ruinen des Imperiums ausgraben
+680,,Elite-Waffenknechte mit größerer Angriffsreichweite. \r\n+ Große Reichweite \r\n+ Bonusschaden für Elefanten \r\n+ Geringerer Angriff als Waffenknechte\r\n- Kann Ruinen des Imperiums ausgraben \r\n- Absorbiert Schaden für den Legion Kommandant als Garde
 681,,Mongolischer Militärkommandant.\r\n+ Die mobile Kurultai-Aura kann durch die Darughachi-Systemtechnologie bei Kurultai freigeschaltet werden
 682,,Noyan
 683,,Brauche Kurultai Landmark.
@@ -416,7 +416,7 @@
 738,,3 Katarakte
 739,,3 Waräger-Wachen
 740,,3 Limitanei
-741,,"Produziert Jeannes Unterstützer von 2 Waffenknechten, 2 Arbalétrier und 2 Königlichen Rittern."
+741,,"Produziert Jeannes Unterstützer aus 2 Waffenknechten, 2 Arbalétrier und 2 Königlichen Rittern."
 742,,Jeannes Unterstützer
 743,,Schwere Fernkampf-Schießpulver-Infanterie
 744,,Schießpulvermeister von Frankreich \r\n- Kann kaputte Belagerungswaffen reparieren \r\n- Schießpulvereinheiten eine stärkende Aura verleihen
@@ -432,7 +432,7 @@
 754,,Befördert diesen Lancer zu einem Kapikulu Sipahi
 755,,Kapikulu Sipahi
 756,,"Rüstet Militärschulen mit der Fähigkeit aus, Lanzenreiter und Janitscharen hervorzubringen. Befördert den Elite-Lancer zum Kapikulu Sipahi."
-757,,Produziert die Kaiserliche Garde von 6 Palastwachen.
+757,,Produziert Kaiserliche Garde aus 6 Palastwachen.
 758,,Imperiale Garde
 759,,Freeborn Reiter
 760,,Italienischer Söldner
@@ -449,14 +449,14 @@
 771,,Erhöht die Gesundheit von Nahkampfinfanterie um +%1%.
 772,,Wehrpflicht
 773,,Verbotene Armee
-774,,"Elitearmee direkt unter dem Imperator, die eine Vielzahl von Waffen zum Kämpfen einsetzt. Eine weitere Verstärkung erfolgte durch die Erforschung der Krieger-Code Technologie im Imperialen Zeitalter.\r\n+ Speerkämpfer Verbotenen Armee mit großer Angriffsreichweite \r\n+ Handkanonenwerfer Verbotenen Armee langlebiger als Handkanonenwerfer \r\n+ Schwertkämpfer Verbotenen Armee ausgerüstet mit Anti-Kavallerie-Zhanmadao"
+774,,"Elitearmee direkt unter dem Imperator, die eine Vielzahl von Waffen zum Kämpfen einsetzt. Eine weitere Verstärkung erfolgte durch die Erforschung der Krieger-Code Technologie im Imperialen Zeitalter.\r\n+ Speerkämpfer Verbotenen Armee mit großer Angriffsreichweite \r\n+ Handkanonenwerfer Verbotenen Armee langlebiger als Handkanonenwerfer \r\n+ Schwertkämpfer Verbotenen Armee ausgerüstet mit Anti-Kavallerie-Zhanmadao \r\n- Absorbiert Schaden für den Legion Kommandant als Garde"
 775,,Verbotene Armee
-776,,"Mobilisiere 10 Verbotene Armeen in den Krieg, sie benutzen Handfeuerwaffen, Speere und Schwerter zum Kämpfen.\r\n+ Eine weitere Verstärkung erfolgte durch die Erforschung der Krieger-Code Technologie im Imperialen Zeitalter"
+776,,"Mobilisiere 8 Verbotene Armeen in den Krieg, sie benutzen Handfeuerwaffen, Speere und Schwerter zum Kämpfen. Absorbiert Schaden für den Legion Kommandant als Garde. \r\n+ Eine weitere Verstärkung erfolgte durch die Erforschung der Krieger-Code Technologie im Imperialen Zeitalter"
 777,,Es kann maximal 1 Stück gebaut werden.
 778,,Erlauben Sie zu Produkten Uhrturm Einheiten und Kaiserpalast Verbotene Armee Legion.
 779,,Shogun
 780,,"Mächtige japanische Militärführer, Flächenschaden verursachen."
-781,,Produziert Hussitenaufstand bestehend aus 3 Armbrustschützen und 3 Hellebardiers. Diese hussitischen Krieger können auf dem Schlachtfeld hussitische Wagen bauen.
+781,,Produziert Hussitenaufstand aus 3 Armbrustschützen und 3 Hellebardiers. Diese hussitischen Krieger können auf dem Schlachtfeld hussitische Wagen bauen.
 782,,Hussitenaufstand
 783,,Disziplin
 784,,Aufstand
@@ -481,8 +481,8 @@
 803,,Darughachi-System
 804,,Schaltet die Kurultai-Aura für Noyan frei.
 805,,Produziert Wyngarde Yeoman aus 6 Yeomen
-806,,Produziert Wyngarde Huskarl aus 3 Schwere Speerkämpfer und 3 Earls Garde
-807,,Produziert Wyngarde-Ritter aus 2 Ritter und 4 Demilanzer
+806,,Produziert Wyngarde Huscarl aus 3 Schwere Speerkämpfer und 3 Earls Garde
+807,,Produziert Wyngarde-Ritter aus 2 Wyngarde-Ritter und 3 Demilanzer
 808,,Wyngarde-Ritter
 809,,"Großmeister der Templer. Was ihn nicht tötet, macht ihn stärker."
 810,,Großmeister
@@ -526,15 +526,15 @@
 848,,Feudum
 849,,Ein ausgeklügeltes Feudalsystem ermöglicht den schnellen Einsatz der Lancaster-Lords durch Festungen an der Front.
 850,,Wächter des Heiligen Landes
-851,,Produziert Wächter des Heiligen Landes aus 3 Elite Hospitalitern und 2 Deutschritter
+851,,Produziert Wächter des Heiligen Landes aus 3 Elite-Hospitalitern und 2 Deutschrittern.
 852,,"Sultan Elephant kann die Ruinen des Imperiums nicht ausgraben, dies muss von Phalangit erledigt werden."
-853,,"Produziert Wyngarde-Ritter aus 1 Wyngarde-Ritter, 1 Chevaucher, 2 Demilancer und 3 Hobelars"
+853,,Produziert Wyngarde-Ritter aus 2 Wyngarde-Ritter und 3 Demilanzer
 854,,Wyngarde-Ritter
 855,,"Ein furchterregendes Riesen-Trebuchet, im Namen Gottes, es wird den Feind mit Sicherheit treffen, bringt tödlichen Schwefelregen zum Feind."
 856,,Ludgar
 857,,Gottes eigenes Katapult
 858,,"Ein furchterregendes Riesen-Trebuchet, im Namen Gottes, es wird den Feind mit Sicherheit treffen."
-859,,Mächtiger Ritter. Erhalte Bonusschaden durch die Festungen.
+859,,Mächtiger Ritter. Erhalte Bonusschaden durch die Festungen. \r\n- Absorbiert Schaden für den Legion Kommandant als Garde
 860,,Schlechter Nachbar
 861,,Ribauldequin Technologie
 862,,Nartov Rollende Kanone
@@ -544,7 +544,7 @@
 866,,Produziert Baschi-Bosuks aus 3 Bogenschützen und 3 Speerkämpfern.
 867,,Baschi-Bosuks
 868,,Wyngarde-Artillerie
-869,,Produziert Wyngarde-Artillerie mit 4 Handkanonen und 1 Feldschlange. Durch die Erforschung von Burgundischen Importen kann die Produktion um ein Zeitalter vorgezogen werden.
+869,,Produziert Wyngarde-Artillerie aus 4 Handkanonen und 1 Feldschlange. Durch die Erforschung von Burgundischen Importen kann die Produktion um ein Zeitalter vorgezogen werden.
 870,,Produziert Genuesischen Söldner aus 3 Condottiero und 3 genuesischen Armbrustschützen.
 871,,Genuesischen Söldner
 872,,Armenioi
@@ -583,20 +583,61 @@
 905,,Schwarzmeerhandel
 906,,Schwarzmeerhandel
 907,,Ressourcen austauschen
-908,,Produziert Alixi-Armee von 5 Bogenschütze
+908,,Produziert Alixi-Armee aus 5 Bogenschütze
 909,,Alixi-Armee
-910,,Produziert Han-Armee von 5 Eruptor
+910,,Produziert Han-Armee aus 5 Eruptor
 911,,Han-Armee
 912,,Hezha-Armee
-913,,Produziert Hezha-Armee von 3 Zhanma-Schwertkämpfer und 2 Waffenknechte
-914,,Produziert Meng'an Mouke Wachen von 4 Meng'an-Mouke-Verteidiger und 2 Berittener Grenadier
+913,,Produziert Hezha-Armee aus 3 Zhanma-Schwertkämpfer und 2 Waffenknechte
+914,,Produziert Meng'an Mouke Wachen aus 4 Meng'an-Mouke-Verteidiger und 2 Berittener Grenadier
 915,,Meng'an Mouke Wachen
 916,,Qari-qari-Armee
-917,,Produziert Qari-qari-Armee von 5 Eiserne Pagode
+917,,Produziert Qari-qari-Armee aus 5 Eiserne Pagode
 918,,Militärischer Anführer der Jin-Dynastie. Kann die Armee kurzzeitig stärken
 919,,Erhöht den Schaden von Eiserner Pagode und Eruptor um +4.
 920,,Der letzte Kampf
 921,,Militärisches Mönchtum
-922,,Erhöhe die Bewegungsgeschwindigkeit von Infanterieeinheiten um +%1%%%.
+922,,"Erhöhe die Bewegungsgeschwindigkeit von Infanterieeinheiten um +%1%%%. Schaltet frei Großmeister der Hospitalorden, Absorbiert Schaden für den Legion Kommandant als Garde."
 923,,Produziert alle Einheiten zu geringeren Kosten und mit kürzerer Ausbildungszeit. \r\n- Kann nicht von der Verstärkungstechnologie profitieren.
-
+924,,Schiltron
+925,,Grenzländer
+926,,Fèinne
+927,,Die Unbesiegbaren
+928,,Auld Alliance
+929,,Nortmanni
+930,,Vaeringjar
+931,,Große Heidnische Heer
+932,,Jomsgang
+933,,Huskarls
+934,,"Produziert Schiltron aus 5 Pikenier, 2 Galloglass und 2 Waffenknechte"
+935,,Produziert Grenzländer aus 5 Grenzräubern
+936,,Produziert Fèinne aus 4 Cateran und 2 Galloglass
+937,,Produziert Die Unbesiegbaren aus 4 Tacksmen und 3 Galloglass
+938,,Produziert Auld Alliance aus 5 Coustilliern
+939,,Produziert Nortmanni aus 3 Jütland-Rittern und 2 Reitern
+940,,Produziert Vaeringjar aus 3 Waräger-Wachen und 2 Wurfaxtkämpfern
+941,,"Produziert Große Heidnische Heer aus 3 Berserkern, 3 Bondi, 2 Schildmaid und 2 Hirdmen"
+942,,Produziert Jomsgang aus 5 Jomswikinger
+943,,Produziert Huskarls aus 5 Hirdmen
+944,,Produziert Auld Alliance aus 3 Grenzräubern und 2 Galloglass
+945,,Garde
+946,,Meng'an Mouke Garde
+947,,Schnelle Angriffskavallerie. \r\n- Absorbiert Schaden für den Legion Kommandant als Garde
+948,,Coustillier
+949,,Berufskavallerie mit einer langstieligen Gleve. \r\n- Absorbiert Schaden für den Legion Kommandant als Garde
+950,,Großmeister der Hospitalorden
+951,,"Oberster Ritter der Hospitalorden, heilt Einheiten in der Nähe. \r\n- Absorbiert Schaden für den Legion Kommandant als Garde"
+952,,Lanzengarde. \r\n- Absorbiert Schaden für den Legion Kommandant als Garde
+953,,Jomswikinger
+954,,"Elitäre Wikingerkrieger, die durch einen heiligen Blutschwur gebunden sind. \r\n- Absorbiert Schaden für den Legion Kommandant als Garde"
+955,,"Lancaster-Kommandant, Erhalte Bonusschaden durch die Festungen."
+956,,Jarl
+957,,Ceann-cinnidh
+958,,Erfahrener Kriegsherr\r\n- Erhalten erhöhte Angriffsgeschwindigkeit durch nahe Garde\r\n- Verursacht Nahkampfschaden aus der Distanz
+959,,Schottische Clan-Chefs\r\n- Erhalten erhöhte Angriffsgeschwindigkeit durch nahe Garde\r\n- Gewährt Fear-Taic
+960,,Folkvápn
+961,,Mit standardisierter Ausrüstung ausgestattete freie Wikinger können schnell für den Kampf mobilisiert werden. Produktionsgeschwindigkeit militärischer Gebäude +20 %.
+962,,Crann Tara
+963,,Die Clanführer rufen ihre Krieger zu den Waffen. Kosten für Nahkampfinfanterie −10 %.
+964,,Wurfaxtkämpfern
+965,,"Schwere Nahkampf-Infanterieeinheit, Highland-Krieger, Garde"

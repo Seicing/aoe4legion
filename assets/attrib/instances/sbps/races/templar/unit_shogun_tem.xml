@@ -129,6 +129,8 @@
 								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />

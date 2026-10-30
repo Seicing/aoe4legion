@@ -50,6 +50,7 @@
 				<enum name="unit_type" value="druzhina" List.ItemID="-1720531986" List.ListAction="Append" />
 				<enum name="unit_type" value="gunpowder" List.ItemID="1679662985" List.ListAction="Append" />
 				<enum name="unit_type" value="handcannon" List.ItemID="-1470700168" List.ListAction="Append" />
+				<enum name="unit_type" value="bodyguard" List.ItemID="-173381731" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-702932878" List.ParentItemID="-702932878">

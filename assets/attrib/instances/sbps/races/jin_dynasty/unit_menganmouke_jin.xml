@@ -7,13 +7,14 @@
 			<list name="race_list">
 				<group name="race_data" List.ItemID="1896534723" List.ParentItemID="1896534723">
 					<group name="info">
-						<locstring name="screen_name" value="11270960" overrideParent="True" />
+						<locstring name="screen_name" value="946" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<bool name="is_unique_to_race" value="True" overrideParent="True" />
-						<locstring name="help_text" value="11271303" overrideParent="True" />
+						<locstring name="help_text" value="947" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<file name="icon_name" value="races\jin\units\mengan_mouke_defender" overrideParent="True" />
 						<string name="hotkey_name" value="A" overrideParent="True" />
 						<string name="selection_group" value="mengan" overrideParent="True" />
 						<string name="selection_datatemplate" value="UniqueDatatemplate" overrideParent="True" />
+						<locstring name="extra_text" value="945" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					</group>
 				</group>
 			</list>

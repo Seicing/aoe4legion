@@ -131,6 +131,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="spearman - castle age" List.ItemID="-313011855">
 					<instance_reference name="entity" value="" />
@@ -200,6 +203,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="spearman - imperial age" List.ItemID="169334490">
 					<instance_reference name="entity" value="" />
@@ -269,6 +275,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="man-at-arms - dark age&#xD;&#xA;" List.ItemID="-2100248478">
 					<instance_reference name="entity" value="" />
@@ -335,6 +344,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="man-at-arms - feudal age&#xD;&#xA;" List.ItemID="-2065900054">
 					<instance_reference name="entity" value="" />
@@ -401,6 +413,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="man-at-arms - castle age&#xD;&#xA;" List.ItemID="-864627273">
 					<instance_reference name="entity" value="" />
@@ -467,6 +482,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="man-at-arms - imperial age&#xD;&#xA;" List.ItemID="1859397831">
 					<instance_reference name="entity" value="" />
@@ -533,6 +551,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="handcannon - imperial age + chemistry" List.ItemID="1673267327">
 					<instance_reference name="entity" value="" />
@@ -599,6 +620,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="archer - feudal age " List.ItemID="-300624941">
 					<instance_reference name="entity" value="" />
@@ -668,6 +692,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="archer - castle age " List.ItemID="-1953880161">
 					<instance_reference name="entity" value="" />
@@ -737,6 +764,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="archer - imperial age " List.ItemID="-1214309874">
 					<instance_reference name="entity" value="" />
@@ -806,6 +836,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="crossbowman - castle age" List.ItemID="1922292657">
 					<instance_reference name="entity" value="" />
@@ -872,6 +905,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="crossbowman - imperial age" List.ItemID="2042390820">
 					<instance_reference name="entity" value="" />
@@ -938,6 +974,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="hussar - feudal age" List.ItemID="880438161">
 					<instance_reference name="entity" value="" />
@@ -1004,6 +1043,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="hussar - castle age" List.ItemID="924901737">
 					<instance_reference name="entity" value="" />
@@ -1070,6 +1112,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="hussar - imperial age" List.ItemID="-1643361185">
 					<instance_reference name="entity" value="" />
@@ -1136,6 +1181,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="knight - castle age" List.ItemID="943942869">
 					<instance_reference name="entity" value="" />
@@ -1202,6 +1250,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="knight - imperial age" List.ItemID="1185273739">
 					<instance_reference name="entity" value="" />
@@ -1268,6 +1319,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="scorpion - castle" List.ItemID="-141474972">
 					<instance_reference name="entity" value="" />
@@ -1334,6 +1388,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="mangonel - castle" List.ItemID="768872145">
 					<instance_reference name="entity" value="" />
@@ -1400,6 +1457,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="ribauld - imperial + chemistry" List.ItemID="988276740">
 					<instance_reference name="entity" value="" />
@@ -1466,6 +1526,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="trebuchet - imperial + counterweight" List.ItemID="2061715647">
 					<instance_reference name="entity" value="" />
@@ -1532,6 +1595,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="bombard - imperial + chemistry + unlock" List.ItemID="1111242283">
 					<group name="ui_position">
@@ -1598,6 +1664,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" comment="Ram" List.ItemID="1409942394">
 					<group name="ui_position">
@@ -1664,6 +1733,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="1581033743">
 					<group name="ui_position">
@@ -1737,6 +1809,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1341721634">
 					<group name="ui_position">
@@ -1809,6 +1884,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1649796283">
 					<group name="ui_position">
@@ -1882,6 +1960,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1445782196">
 					<group name="ui_position">
@@ -1955,6 +2036,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1619872998">
 					<group name="ui_position">
@@ -2021,6 +2105,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1660119139">
 					<group name="ui_position">
@@ -2048,13 +2135,11 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_hobelar_4_lan" overrideParent="True" List.ItemID="1249871528" />
-						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_hobelar_4_lan" overrideParent="True" List.ItemID="911281336" />
-						<instance_reference name="additional_squad" value="sbps\races\english\unit_horsearcher_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1549307600" />
-						<instance_reference name="additional_squad" value="sbps\races\lancaster\unit_hobelar_4_lan" overrideParent="True" List.ItemID="-1715583943" />
+						<instance_reference name="additional_squad" value="sbps\races\lancaster\wynguard\unit_mounted_man_at_arm_4_lan" overrideParent="True" List.ItemID="-1549307600" />
 						<instance_reference name="additional_squad" value="sbps\races\lancaster\wynguard\unit_mounted_man_at_arm_4_lan" overrideParent="True" List.ItemID="1049837994" />
 						<instance_reference name="additional_squad" value="sbps\races\lancaster\wynguard\unit_mounted_man_at_arm_4_lan" overrideParent="True" List.ItemID="-1861744515" />
 						<instance_reference name="additional_squad" value="sbps\races\english\unit_wyngarde_knight_4_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="338195036" />
+						<instance_reference name="additional_squad" value="sbps\races\english\unit_wyngarde_knight_4_eng" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-11733806" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -2094,6 +2179,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1332311978">
 					<group name="ui_position">
@@ -2160,6 +2248,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 			</list>
 			<state_tree_node name="production_item_completed_openingbranch" value="building_production_item_completed\Master\building_production_item_complete\building_production_item_complete_keep" overrideParent="True" />

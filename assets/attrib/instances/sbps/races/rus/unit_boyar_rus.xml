@@ -12,6 +12,7 @@
 						<bool name="is_unique_to_race" value="True" overrideParent="True" />
 						<string name="selection_group" value="manatarmsboyar" overrideParent="True" />
 						<file name="icon_name" value="unit_serbmaa" overrideParent="True" />
+						<locstring name="extra_text" value="945" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					</group>
 				</group>
 			</list>
@@ -79,8 +80,16 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" List.ItemID="151534941">
 							<instance_reference name="ebp" value="ebps\races\rus\units\unit_siege_tower_3_rus" overrideParent="True" />
@@ -129,8 +138,16 @@
 									<instance_reference name="linked" value="" />
 								</template_reference>
 								<enum name="observer_type" value="Disabled" />
+								<group name="issuable_info">
+									<bool name="is_secondary" value="False" />
+									<instance_reference name="secondary_issuable" value="" />
+								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 					</list>
 					<instance_reference name="construction_menu" value="menu\siege_engineer" overrideParent="True" />

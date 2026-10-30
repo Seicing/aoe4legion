@@ -24,20 +24,20 @@
 					<float name="action" value="0" />
 					<float name="popcap" value="0" />
 					<float name="command" value="0" />
-					<float name="food" value="0" />
+					<float name="food" value="600" />
 					<float name="wood" value="0" />
 					<float name="stone" value="0" />
-					<float name="gold" value="400" />
+					<float name="gold" value="300" />
 					<float name="militia_hre" value="0" />
 					<float name="merc_byz" value="0" />
 				</enum_table>
-				<float name="time_seconds" value="10" />
+				<float name="time_seconds" value="20" />
 				<int name="time_turns" value="0" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-352360480">
 			<float name="medic_pop" value="0" />
-			<float name="personnel_pop" value="6" />
+			<float name="personnel_pop" value="5" />
 			<float name="vehicle_pop" value="0" />
 			<enum_table name="upkeep_per_pop_per_minute_override">
 				<float name="action" value="0" />

@@ -32,6 +32,7 @@
 			<list name="unit_type_list">
 				<enum name="unit_type" value="unique" List.ItemID="-885835403" List.ListAction="Append" />
 				<enum name="unit_type" value="eruptor_jin" List.ItemID="-1105748062" List.ListAction="Append" />
+				<enum name="unit_type" value="bodyguard" List.ItemID="988823126" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1968019310" List.ParentItemID="1968019310">
@@ -87,6 +88,9 @@
 					</group>
 				</list>
 			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-124460882" List.ParentItemID="-124460882">
+			<instance_reference name="schema" value="statemodel_schema\units\handcannon" overrideParent="True" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="4299839" />

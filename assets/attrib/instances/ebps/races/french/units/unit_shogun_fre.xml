@@ -29,7 +29,7 @@
 			<instance_reference name="rebuilt_squad" value="" />
 			<bool name="rebuilt_use_wreck_owner" value="False" />
 			<bool name="receive_weapon_cover_modifiers" value="True" />
-			<float name="regeneration" value="0.25" />
+			<float name="regeneration" value="0.125" />
 			<bool name="regeneration_disabled" value="False" />
 			<bool name="remove_from_pathfinding_on_death" value="True" />
 			<bool name="reveal_to_all_on_death" value="False" />
@@ -77,7 +77,7 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="637519867">
 					<group name="tier" List.ItemID="883663825">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\campaign\king_louis_cavalry_cmp_fre" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier3_cavalry_knight_fre" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" />
 							<bool name="start_suspended" value="False" />
@@ -151,7 +151,7 @@
 					<string name="state_tree" value="unit_action_apply\units\knight\audio\fre\4" />
 				</group>
 				<group name="container" List.ItemID="186828892">
-					<string name="state_tree" value="king_action_apply" />
+					<string name="state_tree" value="khan_action_apply_mon_ha_gol" />
 				</group>
 			</list>
 			<bool name="reset_on_load" value="True" />

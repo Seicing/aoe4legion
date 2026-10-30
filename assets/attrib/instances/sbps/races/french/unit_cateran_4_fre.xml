@@ -1,0 +1,112 @@
+<instance version="4" description="French Imperial Age Man-at-arms" template="sbps">
+	<list name="extensions" removedIds="346980834">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="False" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="905650936" List.ParentItemID="905650936">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="1979727231" List.ParentItemID="1979727231">
+					<group name="info">
+						<file name="icon_name" value="races\scots\units\border_reiver" overrideParent="True" />
+						<string name="selection_group" value="black_rider" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<locstring name="extra_text" value="11274835" overrideParent="True" />
+						<locstring name="help_text" value="11273254" overrideParent="True" />
+						<string name="hotkey_name" value="W" overrideParent="True" />
+						<locstring name="screen_name" value="11273268" overrideParent="True" />
+						<string name="selection_datatemplate" value="UniqueDatatemplate" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="1336235242" List.ParentItemID="1336235242">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1233639378" List.ParentItemID="1233639378">
+					<instance_reference name="type" value="ebps\races\french\units\unit_cateran_4_fre" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="-2066117523" List.ParentItemID="-2066117523">
+			<template_reference name="charge_option" value="options\charge\charge_options" overrideParent="True">
+				<float name="min_trigger_distance" value="8" />
+				<float name="max_trigger_distance" value="40" />
+				<float name="cooldown_seconds" value="15" />
+				<float name="max_duration_seconds" value="7" />
+				<list name="self_requirements">
+				</list>
+				<list name="target_requirements">
+					<template_reference name="requirement" value="requirements\required_ownership" List.ItemID="-1766046633">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="0" />
+						<enum name="ownership_type" value="enemy" />
+					</template_reference>
+					<template_reference name="requirement" value="requirements\required_not" List.ItemID="-2040762661">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="0" />
+						<list name="requirement_table">
+							<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-1157221353">
+								<enum name="reason" value="usage" />
+								<locstring name="ui_name" value="0" />
+								<enum name="unit_type" value="building" />
+								<template_reference name="qualify_option" value="options\none">
+								</template_reference>
+								<bool name="search_load_out" value="False" />
+							</template_reference>
+						</list>
+					</template_reference>
+				</list>
+				<float name="charge_path_side_clearance" value="2.2" />
+				<float name="charge_destination_offset" value="3" />
+				<template_reference name="on_charge_self_action_tree" value="state_tree_reference_info">
+					<state_tree_node name="ActionTree_OpeningBranch" value="" />
+					<bool name="start_suspended" value="False" />
+				</template_reference>
+				<template_reference name="on_charge_target_action_tree" value="state_tree_reference_info">
+					<state_tree_node name="ActionTree_OpeningBranch" value="" />
+					<bool name="start_suspended" value="False" />
+				</template_reference>
+				<template_reference name="on_hit_target_action_tree" value="state_tree_reference_info">
+					<state_tree_node name="ActionTree_OpeningBranch" value="" />
+					<bool name="start_suspended" value="False" />
+				</template_reference>
+			</template_reference>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-2009835917" List.ParentItemID="-2009835917">
+			<list name="abilities" removedIds="-1110505885">
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-75534381" List.ParentItemID="-75534381">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\french" List.ItemID="-2048851414" />
+			</list>
+			<list name="squad_type_list" overrideParent="True">
+				<enum name="squad_type" value="military" List.ItemID="-1786742910" />
+				<enum name="squad_type" value="cavalry" List.ItemID="-226897963" />
+				<enum name="squad_type" value="scar_age4" List.ItemID="-248136092" />
+				<enum name="squad_type" value="scar_military" List.ItemID="1452312102" />
+				<enum name="squad_type" value="can_be_converted" List.ItemID="829364201" />
+				<enum name="squad_type" value="gunpowder" List.ItemID="-2110995993" />
+				<enum name="squad_type" value="handcannon" List.ItemID="-1029277544" />
+				<enum name="squad_type" value="ranged" List.ItemID="1665146747" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-1975515992" List.ParentItemID="-1975515992">
+			<string name="squad_speaker_code" value="border_reiver" overrideParent="True" />
+			<group name="squad_speech_parameters">
+				<string name="squad_name_code" value="border_reiver" overrideParent="True" />
+				<string name="squad_unit_code" value="mounted" overrideParent="True" />
+				<enum name="squad_race_code" value="scots" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="53910461" List.ParentItemID="53910461">
+			<int name="music_importance" value="15" overrideParent="True" />
+			<enum name="unit_type" value="cavalry_heavy" overrideParent="True" />
+			<int name="importance" value="15" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="-331556797" List.ParentItemID="-331556797">
+			<instance_reference name="schema" value="statemodel_schema\units\calvary" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742764" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_manatarms_4" />
+</instance>

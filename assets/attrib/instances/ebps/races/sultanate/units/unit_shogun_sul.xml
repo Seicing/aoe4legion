@@ -38,6 +38,9 @@
 				<group name="container" List.ItemID="-2057347887" List.ParentItemID="-2057347887">
 					<string name="state_tree" value="unit_action_apply\units\elephant\audio\war_elephant_tower" overrideParent="True" />
 				</group>
+				<group name="container" List.ItemID="2040609604" List.ListAction="Append">
+					<string name="state_tree" value="khan_action_apply_mon_ha_gol" />
+				</group>
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-638902394" List.ParentItemID="-638902394">
@@ -50,13 +53,13 @@
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-1860277336" List.ParentItemID="-1860277336">
-			<float name="hitpoints" value="900" overrideParent="True" />
+			<float name="hitpoints" value="600" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
 				<float name="Melee" value="0" overrideParent="True" />
 				<float name="Ranged" value="7" overrideParent="True" />
 				<float name="Fire" value="0" overrideParent="True" />
 			</enum_table>
-			<float name="regeneration" value="0.25" overrideParent="True" />
+			<float name="regeneration" value="0.125" overrideParent="True" />
 			<bool name="regeneration_disabled" value="False" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-2140039910" List.ParentItemID="-2140039910">

@@ -59,7 +59,7 @@
 					<string name="state_tree" value="unit_action_apply\units\handcannon\audio\chi" />
 				</group>
 				<group name="container" List.ItemID="-1368961900">
-					<string name="state_tree" value="king_action_apply" />
+					<string name="state_tree" value="khan_action_apply_mon_ha_gol" />
 				</group>
 			</list>
 			<bool name="reset_on_load" value="True" />
@@ -99,7 +99,7 @@
 				<float name="Fire" value="0" />
 			</enum_table>
 			<float name="hitpoints" value="450" />
-			<float name="regeneration" value="0.25" />
+			<float name="regeneration" value="0.125" />
 			<bool name="regeneration_disabled" value="False" />
 			<bool name="can_repair" value="False" />
 			<bool name="cuttable" value="False" />
@@ -256,6 +256,7 @@
 				<enum name="unit_type" value="infantry" List.ItemID="-23616153" List.ParentItemID="-23616153" />
 				<enum name="unit_type" value="ranged_infantry" List.ItemID="1273077933" List.ParentItemID="1273077933" />
 				<enum name="unit_type" value="xbox_support_quick_find" List.ItemID="2806999" />
+				<enum name="unit_type" value="khan" List.ItemID="1625218645" List.ParentItemID="1625218645" />
 			</list>
 			<list name="race_type_list">
 				<instance_reference name="race_type" value="racebps\malian" List.ItemID="-1419439631" />

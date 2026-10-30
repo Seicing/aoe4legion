@@ -91,6 +91,8 @@
 						<float name="minimap_texture_zoom_scale" value="0" />
 						<locstring name="help_text_controller" value="0" />
 						<locstring name="extra_text_controller" value="0" />
+						<file name="is_unique_to_race_icon_override" value="" />
+						<bool name="show_production_queue" value="False" />
 					</group>
 					<instance_reference name="ext_key" value="" />
 				</group>
@@ -413,6 +415,8 @@
 								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" List.ItemID="-329177603">
 							<instance_reference name="ebp" value="ebps\races\chinese_ha_01\buildings\building_econ_stone_ruin_zxl" mod="67987bbc33214c57b0617d9356614825" />
@@ -467,6 +471,8 @@
 								</group>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />

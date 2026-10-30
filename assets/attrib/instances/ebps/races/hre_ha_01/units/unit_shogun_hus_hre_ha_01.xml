@@ -14,7 +14,7 @@
 					<string name="state_tree" value="unit_action_apply\units\knight\audio\hre\4" overrideParent="True" />
 				</group>
 				<group name="container" List.ItemID="174169745" List.ListAction="Append">
-					<string name="state_tree" value="king_action_apply" overrideParent="True" />
+					<string name="state_tree" value="khan_action_apply_mon_ha_gol" overrideParent="True" />
 				</group>
 			</list>
 		</template_reference>
@@ -67,7 +67,7 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="-1446117106" List.ParentItemID="-1446117106">
 					<group name="tier" List.ItemID="1378609698" List.ParentItemID="1378609698">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\templar\units\commanderie\szlachta_knight_4_tem" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\vikings\units\tier3_cavalry_knight_vik" overrideParent="True" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 						</template_reference>

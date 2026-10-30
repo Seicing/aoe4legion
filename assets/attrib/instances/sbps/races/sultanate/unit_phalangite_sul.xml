@@ -12,7 +12,7 @@
 						<bool name="is_unique_to_race" value="True" overrideParent="True" />
 						<file name="icon_name" value="unit_rajput" overrideParent="True" />
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11143437" overrideParent="True" />
+						<locstring name="extra_text" value="945" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<string name="hotkey_name" value="Q" />
 						<bool name="minimap_team_only" value="False" />
 						<file name="minimap_texture" value="" />
@@ -79,6 +79,8 @@
 						<float name="minimap_texture_zoom_scale" value="0" />
 						<locstring name="help_text_controller" value="0" />
 						<locstring name="extra_text_controller" value="0" />
+						<file name="is_unique_to_race_icon_override" value="" />
+						<bool name="show_production_queue" value="False" />
 					</group>
 					<instance_reference name="ext_key" value="" />
 				</group>
@@ -184,8 +186,12 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" List.ItemID="-729708314">
 							<instance_reference name="ebp" value="ebps\races\sultanate\units\unit_siege_tower_3_sul" overrideParent="True" />
@@ -238,8 +244,12 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" comment="Palisade" List.ItemID="-1772766725">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_sul" />
@@ -292,8 +302,12 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" comment="Palisade Gate" List.ItemID="-615458805">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_gate_sul" />
@@ -346,8 +360,12 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" comment="Palisade Bastion" List.ItemID="-602465324">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_bastion_sul" overrideParent="True" />
@@ -366,6 +384,8 @@
 							<template_reference name="ui_info_extended" value="">
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" comment="Stone Wall Tower - Infantry Version" List.ItemID="510994923">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_tower_sul" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
@@ -415,6 +435,8 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<list name="additional_requirements" overrideParent="True">
 								<template_reference name="requirement" value="requirements\required_statemodelbool" overrideParent="True" List.ItemID="416488943">
@@ -428,6 +450,8 @@
 							</list>
 							<state_tree_node name="additional_requirement_statetree" value="" />
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" comment="Stone Wall" List.ItemID="-511841096">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_sul" overrideParent="True" />
@@ -477,6 +501,8 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<list name="additional_requirements" overrideParent="True">
 								<template_reference name="requirement" value="requirements\required_statemodelbool" List.ItemID="-1926760802">
@@ -490,6 +516,8 @@
 							</list>
 							<state_tree_node name="additional_requirement_statetree" value="" />
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" comment="Stone Gate" List.ItemID="-236585787">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_gate_sul" overrideParent="True" />
@@ -539,6 +567,8 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<list name="additional_requirements" overrideParent="True">
 								<template_reference name="requirement" value="requirements\required_statemodelbool" List.ItemID="-1696283204">
@@ -552,6 +582,8 @@
 							</list>
 							<state_tree_node name="additional_requirement_statetree" value="" />
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" comment="Stone Bastion" List.ItemID="-158313787">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_bastion_sul" overrideParent="True" />
@@ -578,6 +610,8 @@
 							</list>
 							<state_tree_node name="additional_requirement_statetree" value="" />
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" List.ItemID="-143686339" List.ParentItemID="-143686339">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_econ_stone_ruin_sul" mod="67987bbc33214c57b0617d9356614825" />
@@ -630,8 +664,12 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />

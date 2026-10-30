@@ -17,7 +17,7 @@
 					<string name="state_tree" value="unit_action_apply\units\knight\audio\eng\3" />
 				</group>
 				<group name="container" List.ItemID="-1785425399">
-					<string name="state_tree" value="king_action_apply" />
+					<string name="state_tree" value="khan_action_apply_mon_ha_gol" overrideParent="True" />
 				</group>
 			</list>
 		</template_reference>
@@ -36,7 +36,7 @@
 				<float name="Melee" value="5" overrideParent="True" />
 				<float name="Ranged" value="5" overrideParent="True" />
 			</enum_table>
-			<float name="regeneration" value="0.25" overrideParent="True" />
+			<float name="regeneration" value="0.125" overrideParent="True" />
 			<bool name="regeneration_disabled" value="False" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-1038753850" List.ParentItemID="-1038753850">
@@ -48,7 +48,7 @@
 				<enum name="unit_type" value="cavalry" List.ItemID="-501299061" List.ParentItemID="-18476062" />
 				<enum name="unit_type" value="armored" List.ItemID="-1998374207" List.ParentItemID="-33973428" />
 				<enum name="unit_type" value="knight" List.ItemID="1186400955" List.ParentItemID="-90441891" />
-				<enum name="unit_type" value="cavalry_armored" List.ItemID="250703903" List.ParentItemID="1350676038" />
+				<enum name="unit_type" value="cavalry_armored" overrideParent="True" List.ItemID="250703903" List.ParentItemID="1350676038" />
 				<enum name="unit_type" value="human" List.ItemID="724665442" List.ParentItemID="913122645" />
 				<enum name="unit_type" value="horse" List.ItemID="-155047379" List.ParentItemID="862828411" />
 				<enum name="unit_type" value="melee" List.ItemID="-137077666" List.ParentItemID="-448056678" />
@@ -70,7 +70,7 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="1862173383" List.ParentItemID="1862173383">
 					<group name="tier" List.ItemID="-403270453" List.ParentItemID="-403270453">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\campaign\cavalry_william_marshal_campaign_eng" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\campaign\cavalry_king_henry_campaign_eng" overrideParent="True" />
 					</group>
 				</list>
 			</list>

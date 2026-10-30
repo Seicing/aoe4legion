@@ -37,6 +37,7 @@
 				<enum name="unit_type" value="find_non_siege_land_military" overrideParent="True" List.ItemID="1927221305" List.ParentItemID="1927221305" />
 				<enum name="unit_type" value="armored" List.ItemID="519386609" List.ListAction="Append" />
 				<enum name="unit_type" value="heavy" List.ItemID="-1389732108" List.ListAction="Append" />
+				<enum name="unit_type" value="bodyguard" List.ItemID="-1318871966" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-13182395" List.ParentItemID="-13182395">

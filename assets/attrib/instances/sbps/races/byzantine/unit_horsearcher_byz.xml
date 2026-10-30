@@ -13,7 +13,7 @@
 						<string name="sound_alternative" value="" overrideParent="True" />
 						<locstring name="screen_name" value="583" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<float name="minimap_texture_scale" value="0.65" overrideParent="True" />
-						<locstring name="extra_text" value="490" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="extra_text" value="945" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<locstring name="help_text" value="502" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<file name="icon_name" value="armorca" overrideParent="True" />
 					</group>

@@ -1,7 +1,7 @@
 <instance version="4" description="HRE Imperial Age Man-at-arms" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-765163162">
-			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\lancaster\unit_earlsguard_lan" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_manatarms_swordsman" />
 			<file name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
 			<bool name="is_visible_in_game" value="True" />
@@ -230,6 +230,7 @@
 				<enum name="unit_type" value="manatarms" List.ItemID="1355508674" />
 				<enum name="unit_type" value="spearman_donso" List.ItemID="-2011557716" List.ParentItemID="-2011557716" />
 				<enum name="unit_type" value="torch_thrower" List.ItemID="-1456752987" List.ParentItemID="-1456752987" />
+				<enum name="unit_type" value="axe_thrower" List.ItemID="1413368848" />
 			</list>
 			<enum name="weapon_targeting" value="automatic" />
 			<enum_table name="weapon_category_targeting_filter">
@@ -399,8 +400,8 @@
 							<template_reference name="weapon_entity_attachment" value="">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_serjeant_2_tem" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_melee_knight_axe_rus" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_serjeant_2_com" mod="67987bbc33214c57b0617d9356614825" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\vikings\weapons\wpn_melee_berserker_2_vik" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
 						</group>
@@ -483,8 +484,8 @@
 							<template_reference name="weapon_entity_attachment" value="">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_serjeant_2_tem" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_melee_knight_axe_rus" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_serjeant_2_com" mod="67987bbc33214c57b0617d9356614825" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\vikings\weapons\wpn_melee_berserker_2_vik" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
 						</group>
@@ -514,6 +515,7 @@
 			<group name="attack_move">
 				<float name="attack_move_targeting_range" value="25" />
 				<float name="attack_move_priority_per_distance_meter" value="-0.2" />
+				<bool name="attack_move_can_use_restricted_targets" value="True" />
 			</group>
 			<float name="scan_interval_cached_target_invalid" value="1" />
 			<float name="scan_interval_cached_target_valid" value="2" />

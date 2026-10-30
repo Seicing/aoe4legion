@@ -12,7 +12,7 @@
 				<group name="container" List.ItemID="2022080988" List.ParentItemID="2022080988">
 					<string name="state_tree" value="unit_action_apply\units\knight\audio\chi\4" overrideParent="True" />
 				</group>
-				<group name="container" List.ItemID="1375086764" List.ListAction="Append">
+				<group name="container" List.ItemID="-525909887" List.ListAction="Append">
 					<string name="state_tree" value="king_action_apply" />
 				</group>
 			</list>
@@ -32,8 +32,11 @@
 			<float name="regeneration" value="0.125" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
 				<float name="True Damage" value="0" overrideParent="True" />
-				<float name="Ranged" value="7" overrideParent="True" />
-				<float name="Melee" value="7" overrideParent="True" />
+				<float name="Ranged" value="0" overrideParent="True" />
+				<float name="Melee" value="0" overrideParent="True" />
+			</enum_table>
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="Melee" value="80" overrideParent="True" />
 			</enum_table>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-1038753850" List.ParentItemID="-1038753850">
@@ -54,6 +57,7 @@
 				<enum name="unit_type" value="bannerman_samurai_jpn" List.ItemID="452665911" List.ListAction="Append" />
 				<enum name="unit_type" value="bannerman_samurai_jpn_cavalry" List.ItemID="-1957481490" List.ListAction="Append" />
 				<enum name="unit_type" value="armored" List.ItemID="1761606926" List.ListAction="Append" />
+				<enum name="unit_type" value="bodyguard" List.ItemID="1329526312" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-662784220" List.ParentItemID="-662784220">

@@ -36,6 +36,7 @@
 			</list>
 			<list name="unit_type_list" removedIds="1443036264">
 				<enum name="unit_type" value="spear_shield" overrideParent="True" List.ItemID="1583122223" List.ListAction="Append" />
+				<enum name="unit_type" value="bodyguard" List.ItemID="-2048010546" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1697644820" List.ParentItemID="1697644820">

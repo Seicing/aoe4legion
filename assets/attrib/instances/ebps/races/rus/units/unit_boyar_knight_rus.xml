@@ -26,6 +26,9 @@
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\rus" overrideParent="True" List.ItemID="-2083086143" />
 			</list>
+			<list name="unit_type_list">
+				<enum name="unit_type" value="bodyguard" List.ItemID="-757083424" List.ListAction="Append" />
+			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="1078428342" List.ParentItemID="1078428342">
 			<list name="tier_group_list" overrideParent="True">

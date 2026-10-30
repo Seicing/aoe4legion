@@ -10,7 +10,7 @@
 					<string name="state_tree" value="unit_action_apply\units\bannerman_melee_jpn" overrideParent="True" />
 				</group>
 				<group name="container" List.ItemID="-2070085363" List.ListAction="Append">
-					<string name="state_tree" value="king_action_apply" />
+					<string name="state_tree" value="khan_action_apply_mon_ha_gol" overrideParent="True" />
 				</group>
 			</list>
 		</template_reference>

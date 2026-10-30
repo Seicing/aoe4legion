@@ -12,6 +12,7 @@
 						<file name="icon_name" value="unit_mamluk" overrideParent="True" />
 						<string name="selection_group" value="Mamlukcavalry" overrideParent="True" />
 						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<locstring name="extra_text" value="945" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 					</group>
 				</group>
 			</list>
@@ -167,8 +168,12 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="True" overrideParent="True" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" List.ItemID="1579123257">
 							<instance_reference name="ebp" value="ebps\races\abbasid_ha_01\units\unit_siege_tower_3_abb_ha_01" overrideParent="True" />
@@ -280,8 +285,12 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="True" overrideParent="True" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" List.ItemID="578513006">
 							<instance_reference name="ebp" value="ebps\races\abbasid_ha_01\units\unit_springald_3_buildable_abb_ha_01" overrideParent="True" />
@@ -393,8 +402,12 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="True" overrideParent="True" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" List.ItemID="1880874018">
 							<instance_reference name="ebp" value="ebps\races\abbasid_ha_01\units\unit_mangonel_3_buildable_abb_ha_01" overrideParent="True" />
@@ -506,8 +519,12 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="True" overrideParent="True" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" overrideParent="True" List.ItemID="-717906677">
 							<instance_reference name="ebp" value="ebps\races\abbasid_ha_01\units\unit_ram_tower_3_abb_ha_01" overrideParent="True" />
@@ -619,8 +636,12 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="True" overrideParent="True" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />

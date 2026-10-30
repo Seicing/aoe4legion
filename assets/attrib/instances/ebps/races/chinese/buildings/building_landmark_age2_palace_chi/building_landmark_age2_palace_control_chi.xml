@@ -392,8 +392,6 @@
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_spear_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="616123555" />
 						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_spear_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-705654655" />
-						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_handcannon_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-835414154" />
-						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_handcannon_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1815802512" />
 						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_handcannon_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-313213762" />
 						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_handcannon_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1833406422" />
 						<instance_reference name="additional_squad" value="sbps\races\chinese\unit_forbidden_spear_chi" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-2091964339" />
@@ -439,6 +437,9 @@
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 			</list>
 			<bool name="must_be_in_supply" value="False" />
@@ -467,6 +468,7 @@
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
 			<bool name="use_alternative_rally_point_system" value="False" />
+			<bool name="trade_only_economical_rally" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="145547" />

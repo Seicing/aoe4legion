@@ -8,9 +8,6 @@
 			<float name="max" value="35" overrideParent="True" />
 			<float name="min" value="35" overrideParent="True" />
 			<list name="on_penetrated_state_trees" overrideParent="True">
-				<group name="container" overrideParent="True" List.ItemID="1425516857">
-					<string name="state_tree" value="zornhau_landsknecht_bleed_damage" overrideParent="True" />
-				</group>
 			</list>
 		</group>
 		<locstring name="ui_name" value="11164725" overrideParent="True" />

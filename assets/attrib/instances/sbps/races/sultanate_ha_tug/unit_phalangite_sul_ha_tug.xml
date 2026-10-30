@@ -12,7 +12,7 @@
 						<bool name="is_unique_to_race" value="True" overrideParent="True" />
 						<file name="icon_name" value="unit_rajput" overrideParent="True" />
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11143437" overrideParent="True" />
+						<locstring name="extra_text" value="945" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
 						<string name="hotkey_name" value="Q" />
 						<bool name="minimap_team_only" value="False" />
 						<file name="minimap_texture" value="" />
@@ -186,6 +186,8 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							<float name="construction_range" value="0" />
@@ -242,6 +244,8 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							<float name="construction_range" value="0" />
@@ -298,6 +302,8 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							<float name="construction_range" value="0" />
@@ -354,6 +360,8 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							<float name="construction_range" value="0" />
@@ -430,6 +438,8 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							<float name="construction_range" value="0" />

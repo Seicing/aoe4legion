@@ -39,6 +39,7 @@
 				<instance_reference name="race_type" value="racebps\jin_dynasty" overrideParent="True" List.ItemID="82273413" />
 			</list>
 			<list name="unit_type_list" removedIds="-33973428">
+				<enum name="unit_type" value="bodyguard" List.ItemID="555905248" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1680160005" List.ParentItemID="1680160005">

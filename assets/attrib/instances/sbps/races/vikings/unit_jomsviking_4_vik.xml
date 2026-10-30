@@ -1,0 +1,60 @@
+<instance version="4" description="Chinese Imperial Age Spearman" template="sbps">
+	<list name="extensions" removedIds="-537241826">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-1992151334" List.ParentItemID="-1992151334">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="1121583235" List.ParentItemID="1121583235">
+					<group name="info">
+						<file name="icon_name" value="unit_jomsviking" overrideParent="True" />
+						<locstring name="screen_name" value="953" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<locstring name="help_text" value="954" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<locstring name="extra_text" value="945" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+						<string name="selection_group" value="jomsviking" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="243390272" List.ParentItemID="243390272">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-486906424" List.ParentItemID="-486906424">
+					<instance_reference name="type" value="ebps\races\vikings\units\unit_jomsviking_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1414322165" List.ParentItemID="1414322165">
+			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1920725808" List.ParentItemID="-1920725808">
+					<instance_reference name="upgrade_name" value="upgrade\races\vikings\units\upgrade_unit_spearman_4_vik" overrideParent="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="423419874" List.ParentItemID="423419874">
+			<list name="abilities">
+				<instance_reference name="ability" value="abilities\modal_abilities\vikings\living_off_land_vik" List.ItemID="-816030459" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\vikings\bondi_shield_wall_vik" List.ItemID="284332952" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-2108225852" List.ParentItemID="-2108225852">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\vikings" overrideParent="True" List.ItemID="1214936072" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-1399083326" List.ParentItemID="-1399083326">
+			<list name="age_mapping">
+				<int name="age_number" value="1" overrideParent="True" List.ItemID="381529232" List.ParentItemID="381529232" />
+			</list>
+			<group name="squad_speech_parameters">
+				<enum name="squad_race_code" value="viking" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="-212294059" List.ParentItemID="-212294059">
+			<list name="rtpc_events">
+				<template_reference name="rtpc_event" value="rtpc_event" List.ItemID="-693664931" List.ParentItemID="-693664931">
+					<uniqueid name="pbgid" value="1073742767" />
+				</template_reference>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073742768" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_spearman_4" />
+</instance>

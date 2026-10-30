@@ -42,7 +42,7 @@
 				<float name="mid" value="1" />
 			</group>
 			<template_reference name="area_info" value="options\area_info_options\circle_area_option">
-				<float name="outer_radius" value="2" />
+				<float name="outer_radius" value="1.75" />
 				<float name="inner_radius" value="0" />
 				<bool name="is_two_dimensional" value="True" />
 				<enum name="dynamic_radius_type" value="fixed" />
@@ -124,6 +124,7 @@
 			<bool name="can_damage_allies" value="False" />
 			<bool name="hit_everything_on_hit" value="False" />
 			<bool name="can_abort_winddown_on_move_command" value="False" />
+			<bool name="force_square_attack" value="False" />
 		</group>
 		<group name="burst">
 			<bool name="can_burst" value="True" />

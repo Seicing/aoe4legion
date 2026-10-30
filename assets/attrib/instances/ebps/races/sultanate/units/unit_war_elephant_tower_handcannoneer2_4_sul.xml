@@ -337,9 +337,6 @@
 				<group name="container" List.ItemID="175024830">
 					<string name="state_tree" value="unit_action_apply\units\rider" />
 				</group>
-				<group name="container" List.ItemID="1757018256">
-					<string name="state_tree" value="king_action_apply" />
-				</group>
 			</list>
 			<bool name="reset_on_load" value="True" />
 			<list name="physical_state_trees">

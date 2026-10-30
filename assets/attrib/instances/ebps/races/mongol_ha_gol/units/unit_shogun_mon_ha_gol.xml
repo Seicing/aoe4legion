@@ -32,11 +32,11 @@
 				<group name="container" List.ItemID="-2023495507">
 					<string name="state_tree" value="unit_action_apply\units\monk\audio\rus" />
 				</group>
-				<group name="container" List.ItemID="-1820914160">
-					<string name="state_tree" value="king_action_apply" />
-				</group>
 				<group name="container" List.ItemID="1209282405">
 					<string name="state_tree" value="unit_action_apply\units\monk\holy_site_capture" />
+				</group>
+				<group name="container" List.ItemID="1768487733">
+					<string name="state_tree" value="king_action_apply" />
 				</group>
 			</list>
 			<bool name="reset_on_load" value="True" />
@@ -82,8 +82,8 @@
 			<instance_reference name="rebuilt_squad" value="" />
 			<bool name="rebuilt_use_wreck_owner" value="False" />
 			<bool name="receive_weapon_cover_modifiers" value="True" />
-			<float name="regeneration" value="0" />
-			<bool name="regeneration_disabled" value="True" />
+			<float name="regeneration" value="0.125" />
+			<bool name="regeneration_disabled" value="False" />
 			<bool name="remove_from_pathfinding_on_death" value="True" />
 			<bool name="reveal_to_all_on_death" value="False" />
 			<bool name="ui_can_scuttle" value="True" />

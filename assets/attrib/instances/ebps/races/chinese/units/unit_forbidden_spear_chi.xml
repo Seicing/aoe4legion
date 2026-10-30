@@ -23,6 +23,9 @@
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\chinese" List.ItemID="-1909587216" />
 			</list>
+			<list name="unit_type_list">
+				<enum name="unit_type" value="bodyguard" List.ItemID="-559625698" List.ListAction="Append" />
+			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="113064770" List.ParentItemID="113064770">
 			<list name="hardpoints">

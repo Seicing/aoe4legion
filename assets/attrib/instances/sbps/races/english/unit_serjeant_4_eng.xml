@@ -153,8 +153,12 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 						<group name="construction_item" List.ItemID="-997817112">
 							<instance_reference name="ebp" value="ebps\races\english\units\unit_siege_tower_3_eng" overrideParent="True" />
@@ -207,8 +211,12 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
+							<float name="construction_range" value="0" />
+							<instance_reference name="construction_range_reticule" value="" />
 						</group>
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
