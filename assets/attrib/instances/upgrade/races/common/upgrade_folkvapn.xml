@@ -1,19 +1,19 @@
 <instance version="4" description="" template="upgrade">
 	<group name="upgrade_bag">
 		<bool name="enable_in_hold" value="False" />
-		<float name="global_max_limit" value="1" />
+		<float name="global_max_limit" value="0" />
 		<bool name="has_speech_code" value="False" />
 		<float name="local_max_limit" value="1" />
-		<enum name="owner_type" value="player" />
+		<enum name="owner_type" value="self" />
 		<group name="time_cost">
 			<enum_table name="cost">
 				<float name="action" value="0" />
 				<float name="command" value="0" />
 				<float name="popcap" value="0" />
-				<float name="food" value="400" />
+				<float name="food" value="300" />
 				<float name="wood" value="0" />
 				<float name="stone" value="0" />
-				<float name="gold" value="200" />
+				<float name="gold" value="150" />
 				<float name="militia_hre" value="0" />
 				<float name="merc_byz" value="0" />
 			</enum_table>
@@ -130,8 +130,8 @@
 		<string name="speech_code" value="" />
 		<file name="ui_squad_portrait_icon_override" value="" />
 		<group name="ui_position">
-			<int name="ui_position_row" value="-1" />
-			<int name="ui_position_column" value="-1" />
+			<int name="ui_position_row" value="3" />
+			<int name="ui_position_column" value="1" />
 		</group>
 		<float name="min_music_intensity" value="0" />
 		<group name="state_tree_references">
@@ -148,7 +148,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="muster_hall_region_upgrades_sco\highland_tier3" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
@@ -156,7 +156,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_producer_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="&lt;null&gt;" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 		</group>
@@ -182,6 +182,8 @@
 			<state_tree_node name="apply_to_filter_condition_statetree_ref" value="" />
 			<enum name="apply_to_target_type" value="entity" />
 			<list name="apply_to_unit_classes">
+				<enum name="unit_class" value="javelin" List.ItemID="-1339195316" />
+				<enum name="unit_class" value="axe_thrower" List.ItemID="1910852658" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
@@ -204,11 +206,15 @@
 			<float name="merc_byz" value="0" />
 		</enum_table>
 		<list name="float_properties">
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="-1841259877">
+				<float name="value" value="0.8333" />
+				<enum name="id" value="attack_speed" />
+			</template_reference>
 		</list>
 		<list name="int_properties">
 		</list>
 		<enum name="ui_group_cast_type" value="single" />
-		<instance_reference name="hotkey_binding" value="" />
+		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_mustering_hall_sco\highland_upgrade_3_sco" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
 		<bool name="apply_player_upgrades_when_entity_or_squad_ownership_changes" value="False" />
 	</group>

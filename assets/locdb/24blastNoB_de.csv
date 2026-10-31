@@ -441,7 +441,7 @@
 763,,Es können nur 2 Logotheten ausgebildet werden.
 764,,Hochofen
 765,,Schalte Logotheten mit %1% Trainingslimit frei.
-766,,Der Reichtum fließt durch das Reich wie der Ganges und bringt jede Minute %1% Goldeinnahmen.
+766,,"Delhis Einfluss strahlt in alle Teile Indiens aus, Bevölkerungslimit +10."
 767,,Mandala
 768,,Pikenier
 769,,Pikenier
@@ -599,7 +599,7 @@
 921,,Militärisches Mönchtum
 922,,"Erhöhe die Bewegungsgeschwindigkeit von Infanterieeinheiten um +%1%%%. Schaltet frei Großmeister der Hospitalorden, Absorbiert Schaden für den Legion Kommandant als Garde."
 923,,Produziert alle Einheiten zu geringeren Kosten und mit kürzerer Ausbildungszeit. \r\n- Kann nicht von der Verstärkungstechnologie profitieren.
-924,,Schiltron
+924,,Shiltron
 925,,Grenzländer
 926,,Fèinne
 927,,Die Unbesiegbaren
@@ -608,20 +608,20 @@
 930,,Vaeringjar
 931,,Große Heidnische Heer
 932,,Jomsgang
-933,,Huskarls
-934,,"Produziert Schiltron aus 5 Pikenier, 2 Galloglass und 2 Waffenknechte"
+933,,Walküre Herlid
+934,,"Produziert Shiltron aus 5 Pikenier, 2 Galloglass und 2 Waffenknechte"
 935,,Produziert Grenzländer aus 5 Grenzräubern
 936,,Produziert Fèinne aus 4 Cateran und 2 Galloglass
 937,,Produziert Die Unbesiegbaren aus 4 Tacksmen und 3 Galloglass
 938,,Produziert Auld Alliance aus 5 Coustilliern
 939,,Produziert Nortmanni aus 3 Jütland-Rittern und 2 Reitern
-940,,Produziert Vaeringjar aus 3 Waräger-Wachen und 2 Wurfaxtkämpfern
+940,,Produziert Vaeringjar aus 5 Waräger-Wachen
 941,,"Produziert Große Heidnische Heer aus 3 Berserkern, 3 Bondi, 2 Schildmaid und 2 Hirdmen"
 942,,Produziert Jomsgang aus 5 Jomswikinger
-943,,Produziert Huskarls aus 5 Hirdmen
+943,,Produziert Walküre Herlid aus 5 Schildmaid
 944,,Produziert Auld Alliance aus 3 Grenzräubern und 2 Galloglass
 945,,Garde
-946,,Meng'an Mouke Garde
+946,,Meng'anmouke Garde
 947,,Schnelle Angriffskavallerie. \r\n- Absorbiert Schaden für den Legion Kommandant als Garde
 948,,Coustillier
 949,,Berufskavallerie mit einer langstieligen Gleve. \r\n- Absorbiert Schaden für den Legion Kommandant als Garde
@@ -633,11 +633,13 @@
 955,,"Lancaster-Kommandant, Erhalte Bonusschaden durch die Festungen."
 956,,Jarl
 957,,Ceann-cinnidh
-958,,Erfahrener Kriegsherr\r\n- Erhalten erhöhte Angriffsgeschwindigkeit durch nahe Garde\r\n- Verursacht Nahkampfschaden aus der Distanz
+958,,"Erfahrener Kriegsherr, errichtet Räuberlager, um Legionen zusammenzustellen.\r\n- Erhalten erhöhte Angriffsgeschwindigkeit durch nahe Garde\r\n- Verursacht Nahkampfschaden aus der Distanz"
 959,,Schottische Clan-Chefs\r\n- Erhalten erhöhte Angriffsgeschwindigkeit durch nahe Garde\r\n- Gewährt Fear-Taic
-960,,Folkvápn
-961,,Mit standardisierter Ausrüstung ausgestattete freie Wikinger können schnell für den Kampf mobilisiert werden. Produktionsgeschwindigkeit militärischer Gebäude +20 %.
+960,,Gothikon
+961,,Die Wikinger waren geschickt im Umgang mit Wurfwaffen. Axtwerfer und Speerwerfer greifen 20%% schneller an.
 962,,Crann Tara
-963,,Die Clanführer rufen ihre Krieger zu den Waffen. Kosten für Nahkampfinfanterie −10 %.
-964,,Wurfaxtkämpfern
+963,,"Die Clan Anführer rufen ihre Krieger zu den Waffen, Erhöht die Fernkampf- und Nahkampfrüstung von Cateran und Galloglass um +%1% und der Gesundheit um +%2%"
+964,,Räuberlager
 965,,"Schwere Nahkampf-Infanterieeinheit, Highland-Krieger, Garde"
+966,,"Schwere Fernkampfinfanterie, Garde"
+967,,"Die Plünderungen beginnen! Raider-Lager können als Gebäude für schnelles Training in einer Region genutzt werden."

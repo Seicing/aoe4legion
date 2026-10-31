@@ -132,8 +132,8 @@
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_varangian_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-523320984" />
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_throwaxe_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-706887269" />
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_throwaxe_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1733773099" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_varangian_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-706887269" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_varangian_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1733773099" />
 						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_varangian_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1960344106" />
 						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_varangian_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="181504876" />
 					</list>
@@ -364,11 +364,11 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_manatarms_2_vik" List.ItemID="1803688968" />
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_manatarms_2_vik" List.ItemID="438183129" />
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_manatarms_2_vik" List.ItemID="1765735753" />
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_manatarms_2_vik" List.ItemID="883094058" />
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_manatarms_2_vik" List.ItemID="-1747256570" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_shield_maiden_2_vik" overrideParent="True" List.ItemID="1803688968" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_shield_maiden_2_vik" overrideParent="True" List.ItemID="438183129" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_shield_maiden_2_vik" overrideParent="True" List.ItemID="1765735753" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_shield_maiden_2_vik" overrideParent="True" List.ItemID="883094058" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_shield_maiden_2_vik" overrideParent="True" List.ItemID="-1747256570" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
@@ -489,7 +489,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-57558359" List.ParentItemID="-57558359">
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_folkvapn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1432240863" List.ListAction="Append" />
+				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_folkvapn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="-1593482439" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-353647434" List.ListAction="Append">

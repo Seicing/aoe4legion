@@ -167,8 +167,8 @@
 			<bool name="persistent_cooldownticks" value="False" />
 		</group>
 		<group name="damage">
-			<float name="max" value="12" />
-			<float name="min" value="12" />
+			<float name="max" value="30" />
+			<float name="min" value="30" />
 			<enum name="damage_type" value="Melee" />
 			<bool name="allow_overkill" value="False" />
 			<list name="on_penetrated_state_trees">
@@ -341,7 +341,7 @@
 			<float name="pivot_start_time" value="0" />
 			<float name="fire_cone_angle_vert" value="2" />
 		</group>
-		<locstring name="ui_name" value="0" />
+		<locstring name="ui_name" value="11265852" />
 		<instance_reference name="ui_range" value="" />
 		<instance_reference name="ui_setfacing" value="" />
 		<group name="penetration">

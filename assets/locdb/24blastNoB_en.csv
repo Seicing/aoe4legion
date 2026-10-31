@@ -441,7 +441,7 @@
 763,,,ui_name,,,Only can be trained 2 Logothetes.
 764,,,screen_name,,,Blast Furnace
 765,,,formatter,,,Unlock Logothetes with %1% Training Limit.
-766,,,formatter,,,"Wealth flows through the empire like the Ganges, providing %1% gold income every minute."
+766,,,formatter,,,"Delhi's influence radiates across India, Population Limit +10."
 767,,,screen_name,,,Mandala
 768,,,screen_name,,,Pikeman
 769,,,screen_name,,,Pikeman
@@ -599,7 +599,7 @@
 921,,,screen_name,,,Military Monasticism
 922,,,formatter,,,"Increase the movement speed of infantry units by +%1%%%. Unlocks Master of Knights Hospitalier, Absorb damage for the Legion Commander as Guards."
 923,,,help_text,,,Produces all Units with lower cost and faster training time.\r\n- Cannot benefit from Reinforcement technology.
-924,,,help_text,,,Schiltron
+924,,,help_text,,,Shiltron
 925,,,help_text,,,Borderlanders
 926,,,help_text,,,Fèinne
 927,,,help_text,,,The Invincibles
@@ -608,17 +608,17 @@
 930,,,help_text,,,Vaeringjar
 931,,,help_text,,,Great Heathen Army
 932,,,help_text,,,Jomsgang
-933,,,help_text,,,Huskarls
-934,,,help_text,,,"Produces Schiltron of 5 Pikemen, 2 Gallowglasses and 3 Men-at-arms"
+933,,,help_text,,,Valkyrie Herlid
+934,,,help_text,,,"Produces Shiltron of 5 Pikemen, 2 Gallowglasses and 3 Men-at-arms"
 935,,,help_text,,,Produces Borderlanders of 5 Border Reivers
 936,,,help_text,,,Produces Fèinne of 4 Caterans and 2 Gallowglasses
 937,,,help_text,,,Produces The Invincibles of 4 Tacksmen and 3 Gallowglasses
 938,,,help_text,,,Produces Auld Alliance of 5 Coustilliers
 939,,,help_text,,,Produces Nortmanni of 3 Jylland Knights and 2 Horsemen
-940,,,help_text,,,Produces Vaeringjar of 3 Varangian Guards and 2 Throwing Axemen
+940,,,help_text,,,Produces Vaeringjar of 5 Varangian Guards
 941,,,help_text,,,"Produces Great Heathen Army of 3 Berserkers, 3 Bondi, 2 Shieldmaidens and 2 Hirdmen"
 942,,,help_text,,,Produces Jomsgang of 5 Jomsvikings
-943,,,help_text,,,Produces Huskarls of 5 Hirdmen
+943,,,help_text,,,Produces Valkyrie Herlid of 5 Shieldmaidens
 944,,,help_text,,,Produces Auld Alliance of 3 Border Reivers and 2 Gallowglasses
 945,,,help_text,,,Guards
 946,,,screen_name,,,Meng'an Mouke Guards
@@ -633,11 +633,13 @@
 955,,,screen_name,,,"Lancaster Commander, Gain bonus damage from the keeps"
 956,,,screen_name,,,Jarl
 957,,,screen_name,,,Ceann-cinnidh
-958,,,screen_name,,,Skilled Warlord\r\n- Gains increased attack speed from nearby Guards\r\n- Deals melee damage from a distance
+958,,,screen_name,,,"Skilled Warlord, can constructs Raider Camps to assemble legions\r\n- Gains increased attack speed from nearby Guards\r\n- Deals melee damage from a distance"
 959,,,screen_name,,,Scottish Clan Chiefs\r\n- Gains increased attack speed from nearby Guards\r\n- Provides Fear-Taic
-960,,,screen_name,,,Folkvápn
-961,,,screen_name,,,Viking freemen equipped with standard-issue gear can be rapidly mobilized for battle. Military building production speed +20%.
+960,,,screen_name,,,Gothikon
+961,,,screen_name,,,The Vikings were skilled in throwing weapons. Axe Thrower and Javelineer attacks 20%% Faster.
 962,,,screen_name,,,Crann Tara
-963,,,screen_name,,,Clan chiefs issue the call to arms. Melee infantry cost −10%.
-964,,,screen_name,,,Throwing Axemen
+963,,,screen_name,,,Clan chiefs issue the call to arms. Increase Gallowglass and Cateran ranged and melee armor by +%1% and health by +%2%.
+964,,,screen_name,,,Raider Camp
 965,,,extra_text,,,"Heavy Melee Infantry, Highland Warrior, Guards"
+966,,,extra_text,,,"Heavy Ranged Infantry, Guards"
+967,,,help_text,,,"The Raiding begins! Raider Camp can be used as fast region training buildings."

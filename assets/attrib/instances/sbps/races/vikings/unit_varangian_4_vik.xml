@@ -1,5 +1,8 @@
 <instance version="4" description="Chinese Imperial Age Man-at-arms" template="sbps">
 	<list name="extensions" removedIds="346980834">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="905650936" List.ParentItemID="905650936">
 			<list name="race_list">
 				<group name="race_data" List.ItemID="1979727231" List.ParentItemID="1979727231">
@@ -28,31 +31,19 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1397640044" List.ParentItemID="1397640044">
 			<list name="requirement_table" overrideParent="True">
-				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-389955230">
-					<enum name="reason" value="usage_and_display" />
-					<locstring name="ui_name" value="0" />
-					<bool name="is_present" value="True" />
-					<int name="max_completed" value="100" />
-					<int name="min_completed" value="1" />
-					<instance_reference name="upgrade_name" value="upgrade\races\vikings\units\upgrade_unit_manatarms_4_vik" overrideParent="True" />
-					<bool name="include_queued" value="False" />
-					<group name="include_pbg_parenting">
-						<bool name="include_child_pbgs" value="False" />
-						<bool name="include_parent_pbgs" value="False" />
-					</group>
-					<bool name="include_completed" value="True" />
-				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-2009835917" List.ParentItemID="-2009835917">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\modal_abilities\vikings\living_off_land_vik" List.ItemID="1640902890" List.ListAction="Append" />
-				<instance_reference name="ability" value="abilities\timed_abilities\byzantine\varangian_berserk_byz" List.ItemID="1616760218" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-75534381" List.ParentItemID="-75534381">
 			<list name="squad_race_type_list" overrideParent="True">
 				<instance_reference name="squad_race_type" value="racebps\vikings" overrideParent="True" List.ItemID="-208412472" />
+			</list>
+			<list name="squad_type_list" removedIds="-1207237229">
+				<enum name="squad_type" value="scar_military" overrideParent="True" List.ItemID="-717633324" List.ParentItemID="-717633324" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-1975515992" List.ParentItemID="-1975515992">
@@ -63,6 +54,9 @@
 			<group name="squad_speech_parameters">
 				<enum name="squad_race_code" value="viking" overrideParent="True" />
 			</group>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="53910461" List.ParentItemID="53910461">
+			<enum name="unit_type" value="maa_sword" overrideParent="True" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073742774" />

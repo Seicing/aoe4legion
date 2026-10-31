@@ -87,11 +87,14 @@
 					<bool name="is_secondary" value="False" />
 					<instance_reference name="secondary_issuable" value="" />
 				</group>
+				<template_reference name="ui_caster_info" value="">
+				</template_reference>
 			</template_reference>
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />
 			<int name="custom_data_index" value="0" />
 			<bool name="is_unique_to_race" value="True" />
+			<file name="icon_alternate_name" value="" />
 		</group>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1695939106">
@@ -155,6 +158,10 @@
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
 				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+			<template_reference name="on_action_producer_entity_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="&lt;null&gt;" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 		</group>
@@ -229,6 +236,7 @@
 		<enum name="ui_group_cast_type" value="single" />
 		<instance_reference name="hotkey_binding" value="" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
+		<bool name="apply_player_upgrades_when_entity_or_squad_ownership_changes" value="False" />
 	</group>
 	<uniqueid name="pbgid" value="1073742048" />
 	<instance_reference name="parent_pbg" value="" />

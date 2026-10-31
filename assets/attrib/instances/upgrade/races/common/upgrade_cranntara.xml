@@ -1,9 +1,9 @@
 <instance version="4" description="" template="upgrade">
 	<group name="upgrade_bag">
 		<bool name="enable_in_hold" value="False" />
-		<float name="global_max_limit" value="1" />
+		<float name="global_max_limit" value="0" />
 		<bool name="has_speech_code" value="False" />
-		<float name="local_max_limit" value="1" />
+		<float name="local_max_limit" value="0" />
 		<enum name="owner_type" value="player" />
 		<group name="time_cost">
 			<enum_table name="cost">
@@ -39,7 +39,8 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<int name="int_value" value="10" List.ItemID="-976898229" />
+					<int name="int_value" value="1" List.ItemID="2091851598" />
+					<int name="int_value" value="20" List.ItemID="1804381674" />
 				</list>
 				<locstring name="formatter" value="963" mod="67987bbc33214c57b0617d9356614825" />
 			</template_reference>
@@ -130,8 +131,8 @@
 		<string name="speech_code" value="" />
 		<file name="ui_squad_portrait_icon_override" value="" />
 		<group name="ui_position">
-			<int name="ui_position_row" value="-1" />
-			<int name="ui_position_column" value="-1" />
+			<int name="ui_position_row" value="3" />
+			<int name="ui_position_column" value="1" />
 		</group>
 		<float name="min_music_intensity" value="0" />
 		<group name="state_tree_references">
@@ -148,7 +149,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_bodyguard_durability_mon_ha_gol" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
@@ -156,7 +157,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_producer_entity_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="&lt;null&gt;" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 		</group>
@@ -182,6 +183,8 @@
 			<state_tree_node name="apply_to_filter_condition_statetree_ref" value="" />
 			<enum name="apply_to_target_type" value="entity" />
 			<list name="apply_to_unit_classes">
+				<enum name="unit_class" value="cateran" List.ItemID="1223570660" />
+				<enum name="unit_class" value="gallowglass" List.ItemID="-788587050" />
 			</list>
 			<enum name="apply_to_application_type" value="current_and_future_units" />
 			<enum name="apply_to_future_units" value="current_and_future_units" />
@@ -204,11 +207,19 @@
 			<float name="merc_byz" value="0" />
 		</enum_table>
 		<list name="float_properties">
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="-1724019829">
+				<float name="value" value="20" />
+				<enum name="id" value="health_max" />
+			</template_reference>
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="-1511481622">
+				<float name="value" value="1" />
+				<enum name="id" value="armor" />
+			</template_reference>
 		</list>
 		<list name="int_properties">
 		</list>
 		<enum name="ui_group_cast_type" value="single" />
-		<instance_reference name="hotkey_binding" value="" />
+		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_golden_tent\tech_upgrade_bodyguard_durability_mon_ha_gol" />
 		<bool name="ignore_completion_state_tree_openingbranch" value="False" />
 		<bool name="apply_player_upgrades_when_entity_or_squad_ownership_changes" value="False" />
 	</group>

@@ -276,6 +276,8 @@
 				</list>
 			</group>
 			<bool name="attach_gap_fillers" value="False" />
+			<list name="removable_impass_simboxes">
+			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-869466644">
 			<list name="abilities">
@@ -368,6 +370,8 @@
 			<bool name="allow_cells_across_impasse" value="True" />
 			<bool name="allow_cells_on_wall" value="True" />
 			<list name="center_cells">
+			</list>
+			<list name="alternative_simboxes_from_overlapping_entities">
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\marker_ext" List.ItemID="2036753955">
@@ -474,6 +478,7 @@
 			<list name="ignorable_entity_types">
 			</list>
 			<float name="aqueduct_cistern_proximity_test_square_scale" value="0" />
+			<bool name="destroy_stamps" value="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="-1102916522">
 			<list name="requirement_table">
@@ -519,6 +524,7 @@
 			</list>
 			<int name="max_queue_size_override" value="-1" />
 			<state_tree_node name="production_item_completed_openingbranch" value="" />
+			<bool name="clear_all_upgrades_on_owner_death" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-560279948">
 			<instance_reference name="schema" value="statemodel_schema\buildings\civilizations\ayyubid_cmp\leader_tent_ayy" />
@@ -527,28 +533,7 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="-854258390">
 					<group name="tier" List.ItemID="1846660014">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\malian\buildings\econ_cattle_ranch_mal\tier1_econ_cattle_ranch_mal" />
-						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
-							<state_tree_node name="ActionTree_OpeningBranch" value="" />
-							<bool name="start_suspended" value="False" />
-						</template_reference>
-						<instance_reference name="statetree_tier_requirements_pbg" value="" />
-						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
-						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
-						<string name="tier_attachment_action" value="" />
-						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
-							<bool name="reissue_commands" value="False" />
-							<bool name="continue_state_trees" value="False" />
-							<bool name="remove_from_pending_deaths" value="False" />
-							<bool name="enable_all_extensions" value="True" />
-						</template_reference>
-						<string name="inventory_category_to_refresh_on_tier_up" value="" />
-						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
-					</group>
-				</list>
-				<list name="tier_group" List.ItemID="1140013315">
-					<group name="tier" List.ItemID="607069954">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\campaign\neutral\allied_banner" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\rogue\buildings\building_rogue_privateer_camp" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="" />
 							<bool name="start_suspended" value="False" />
@@ -639,9 +624,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1294220838">
 					<group name="ui_position">
@@ -711,9 +701,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-109705074">
 					<group name="ui_position">
@@ -783,9 +778,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1201046306">
 					<group name="ui_position">
@@ -855,9 +855,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1278346826">
 					<group name="ui_position">
@@ -927,9 +932,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1240408594">
 					<group name="ui_position">
@@ -999,9 +1009,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1523064950">
 					<group name="ui_position">
@@ -1071,9 +1086,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-532382449">
 					<group name="ui_position">
@@ -1137,9 +1157,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 			</list>
 			<bool name="must_be_in_supply" value="False" />
@@ -1168,6 +1193,7 @@
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
 			<bool name="use_alternative_rally_point_system" value="False" />
+			<bool name="trade_only_economical_rally" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-945184272" List.ParentItemID="1720698349">
 			<group name="time_cost">

@@ -1,0 +1,30 @@
+<instance version="4" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-61693637" List.ParentItemID="-61693637">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="1784287985" List.ParentItemID="1784287985">
+					<group name="info">
+						<locstring name="extra_text" value="966" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-1449384740" List.ParentItemID="-1449384740">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="2023494214" List.ParentItemID="2023494214">
+					<instance_reference name="type" value="ebps\races\vikings\units\unit_shield_maiden_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-1590232519" List.ParentItemID="-1590232519">
+			<list name="squad_type_list" removedIds="-2014827296">
+				<enum name="squad_type" value="scar_age4" List.ItemID="631413667" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-122596206" List.ParentItemID="-122596206">
+			<float name="desired_protection_level_in_formation" value="4" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="9006918" />
+	<instance_reference name="parent_pbg" value="sbps\races\vikings\unit_shield_maiden_3_vik" />
+</instance>

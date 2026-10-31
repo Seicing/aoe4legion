@@ -1,0 +1,39 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="behaviour">
+			<bool name="enable_auto_target_search" value="False" overrideParent="True" />
+		</group>
+		<group name="cooldown">
+			<group name="duration">
+				<float name="max" value="0.5" overrideParent="True" />
+				<float name="min" value="0.5" overrideParent="True" />
+			</group>
+		</group>
+		<group name="fire">
+			<float name="wind_down" value="0.5" overrideParent="True" />
+			<float name="wind_up" value="0.25" overrideParent="True" />
+		</group>
+		<string name="fx_munition_name" value="common_sword_broad_charge" overrideParent="True" />
+		<group name="range">
+			<float name="max" value="2.18" overrideParent="True" />
+		</group>
+		<template_reference name="charge_option" value="options\weapon\charge_option" overrideParent="True">
+			<float name="weapon_hit_disabled_duration" value="1" />
+			<float name="charge_attack_target_position_offset" value="2" />
+		</template_reference>
+		<bool name="ui_show_on_tooltip" value="False" overrideParent="True" />
+		<group name="damage">
+			<float name="max" value="18" overrideParent="True" />
+			<float name="min" value="18" overrideParent="True" />
+			<list name="on_penetrated_state_trees" overrideParent="True">
+				<group name="container" List.ItemID="-206398368">
+					<string name="state_tree" value="baldwin_relentess_attack_armor_debuff_cmp_tem" overrideParent="True" />
+				</group>
+			</list>
+		</group>
+		<locstring name="ui_name" value="11259214" overrideParent="True" />
+		<enum name="weapon_class" value="cdn_2h_poleaxe" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="1073742785" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_manatarms_4" />
+</instance>

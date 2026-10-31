@@ -1,0 +1,41 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-1968249569" List.ParentItemID="-1968249569">
+			<float name="hitpoints" value="120" overrideParent="True" />
+			<enum_table name="armor_scaler_by_damage_type">
+				<float name="Melee" value="2" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="-690770711" List.ParentItemID="-690770711">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="69747504" List.ParentItemID="69747504">
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="1852165116" List.ParentItemID="1852165116">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\vikings\ranged\weapon_shield_maiden_3_vik" overrideParent="True" />
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="1921186394" List.ParentItemID="1921186394">
+			<enum_table name="speed_scaling_table">
+				<float name="default_speed" value="4.6" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="126082233" List.ParentItemID="126082233">
+			<list name="tier_group_list">
+				<list name="tier_group" removedIds="1124848387" List.ItemID="-1242188954" List.ParentItemID="-1242188954">
+					<group name="tier" List.ItemID="-682309249" List.ParentItemID="-682309249">
+						<instance_reference name="statetree_tier_requirements_pbg" value="" overrideParent="True" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" overrideParent="True" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" overrideParent="True" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="9006915" />
+	<instance_reference name="parent_pbg" value="ebps\races\vikings\units\unit_shield_maiden_2_vik" />
+</instance>

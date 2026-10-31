@@ -140,7 +140,7 @@
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_keep_springald" List.ItemID="594898477" List.ParentItemID="-2017451718" />
 				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_keep_cannon" List.ItemID="2112614205" List.ParentItemID="-1925362588" />
 				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_murder_holes_4" List.ItemID="1722274266" List.ParentItemID="-1836032579" />
-				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_folkvapn" mod="67987bbc33214c57b0617d9356614825" List.ItemID="139109500" />
+				<instance_reference name="upgrade" value="upgrade\races\common\upgrade_folkvapn" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="417583477" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\building_presentation_ext" overrideParent="True" List.ItemID="-1064007581" List.ParentItemID="-1064007581">
@@ -299,8 +299,8 @@
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
 						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_varangian_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-523320984" />
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_throwaxe_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-706887269" />
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_throwaxe_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1733773099" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_varangian_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-706887269" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_varangian_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="-1733773099" />
 						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_varangian_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="1960344106" />
 						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_varangian_4_vik" mod="67987bbc33214c57b0617d9356614825" overrideParent="True" List.ItemID="181504876" />
 					</list>
@@ -531,11 +531,11 @@
 					<bool name="can_be_cancelled" value="True" />
 					<int name="number_to_queue_up_to_when_modified" value="5" />
 					<list name="additional_squads">
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_manatarms_2_vik" List.ItemID="1803688968" />
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_manatarms_2_vik" List.ItemID="438183129" />
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_manatarms_2_vik" List.ItemID="1765735753" />
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_manatarms_2_vik" List.ItemID="883094058" />
-						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_manatarms_2_vik" List.ItemID="-1747256570" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_shield_maiden_2_vik" overrideParent="True" List.ItemID="1803688968" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_shield_maiden_2_vik" overrideParent="True" List.ItemID="438183129" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_shield_maiden_2_vik" overrideParent="True" List.ItemID="1765735753" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_shield_maiden_2_vik" overrideParent="True" List.ItemID="883094058" />
+						<instance_reference name="additional_squad" value="sbps\races\vikings\unit_shield_maiden_2_vik" overrideParent="True" List.ItemID="-1747256570" />
 					</list>
 					<instance_reference name="hotkey_binding" value="" />
 					<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">

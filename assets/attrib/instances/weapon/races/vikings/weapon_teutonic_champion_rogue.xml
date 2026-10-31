@@ -1,0 +1,31 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="cooldown">
+			<group name="duration">
+				<float name="max" value="0" overrideParent="True" />
+				<float name="min" value="0" overrideParent="True" />
+			</group>
+		</group>
+		<group name="damage">
+			<float name="max" value="18" overrideParent="True" />
+			<float name="min" value="18" overrideParent="True" />
+			<list name="on_penetrated_state_trees" overrideParent="True">
+				<group name="container" List.ItemID="-1602463328">
+					<string name="state_tree" value="baldwin_relentess_attack_armor_debuff_cmp_tem" overrideParent="True" />
+				</group>
+			</list>
+		</group>
+		<group name="fire">
+			<float name="wind_down" value="0.75" overrideParent="True" />
+		</group>
+		<group name="penetration">
+			<float name="near" value="0" overrideParent="True" />
+			<float name="far" value="0" overrideParent="True" />
+			<float name="mid" value="0" overrideParent="True" />
+		</group>
+		<locstring name="ui_name" value="11259214" overrideParent="True" />
+		<enum name="weapon_class" value="cdn_2h_poleaxe" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="1073742786" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_manatarms_3" />
+</instance>

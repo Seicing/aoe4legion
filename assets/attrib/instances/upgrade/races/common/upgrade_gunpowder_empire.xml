@@ -17,7 +17,7 @@
 				<float name="militia_hre" value="0" />
 				<float name="merc_byz" value="0" />
 			</enum_table>
-			<float name="time_seconds" value="20" />
+			<float name="time_seconds" value="200" />
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_production_group" value="command_panel" />
@@ -39,7 +39,7 @@
 			</template_reference>
 			<template_reference name="help_text_formatter" value="ui_text_formatter">
 				<list name="formatter_arguments">
-					<int name="int_value" value="250" List.ItemID="-922469766" />
+					<int name="int_value" value="10" List.ItemID="-922469766" />
 				</list>
 				<locstring name="formatter" value="766" mod="67987bbc33214c57b0617d9356614825" />
 			</template_reference>
@@ -82,6 +82,8 @@
 					<bool name="is_secondary" value="False" />
 					<instance_reference name="secondary_issuable" value="" />
 				</group>
+				<template_reference name="ui_caster_info" value="">
+				</template_reference>
 			</template_reference>
 			<locstring name="help_text_controller" value="0" />
 			<locstring name="extra_text_controller" value="0" />
@@ -138,7 +140,7 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_tree" value="state_tree_reference_info">
-				<state_tree_node name="ActionTree_OpeningBranch" value="golden_parachute_rogue" />
+				<state_tree_node name="ActionTree_OpeningBranch" value="upgrade_economy_folkekirken_vik" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_cancel_action_tree" value="state_tree_reference_info">
@@ -150,6 +152,10 @@
 				<bool name="start_suspended" value="False" />
 			</template_reference>
 			<template_reference name="on_action_squad_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="" />
+				<bool name="start_suspended" value="False" />
+			</template_reference>
+			<template_reference name="on_action_producer_entity_tree" value="state_tree_reference_info">
 				<state_tree_node name="ActionTree_OpeningBranch" value="" />
 				<bool name="start_suspended" value="False" />
 			</template_reference>
@@ -198,6 +204,10 @@
 			<float name="merc_byz" value="0" />
 		</enum_table>
 		<list name="float_properties">
+			<template_reference name="float" value="upgradebag_float_property" List.ItemID="1812112563">
+				<float name="value" value="10" />
+				<enum name="id" value="normal_modifier" />
+			</template_reference>
 		</list>
 		<list name="int_properties">
 		</list>
