@@ -96,6 +96,9 @@
 				<int name="age_number" value="2" overrideParent="True" List.ItemID="-1025700751" List.ParentItemID="-1025700751" />
 				<int name="age_number" value="2" overrideParent="True" List.ItemID="2063109689" List.ParentItemID="2063109689" />
 			</list>
+			<group name="squad_speech_parameters">
+				<enum name="squad_race_code" value="french" overrideParent="True" />
+			</group>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" overrideParent="True" List.ItemID="346980834" List.ParentItemID="346980834">
 			<list name="construction_groups" overrideParent="True">
@@ -153,6 +156,8 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							<float name="construction_range" value="0" />
@@ -209,6 +214,8 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							<float name="construction_range" value="0" />
@@ -265,6 +272,8 @@
 									<bool name="is_secondary" value="False" />
 									<instance_reference name="secondary_issuable" value="" />
 								</group>
+								<template_reference name="ui_caster_info" value="">
+								</template_reference>
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							<float name="construction_range" value="0" />

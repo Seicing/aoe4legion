@@ -48,12 +48,12 @@
 			<list name="unit_type_list" removedIds="716130881, -701596995">
 				<enum name="unit_type" value="land_military" overrideParent="True" List.ItemID="-133254389" List.ParentItemID="-133254389" />
 				<enum name="unit_type" value="find_non_siege_land_military" overrideParent="True" List.ItemID="1927221305" List.ParentItemID="1927221305" />
-				<enum name="unit_type" value="heavy" List.ItemID="-150328828" List.ListAction="Append" />
-				<enum name="unit_type" value="armored" List.ItemID="-1165239652" List.ListAction="Append" />
 				<enum name="unit_type" value="cavalry_armored" List.ItemID="-1790349059" List.ListAction="Append" />
-				<enum name="unit_type" value="knight" List.ItemID="1482488690" List.ListAction="Append" />
-				<enum name="unit_type" value="cavalry_handcannon" List.ItemID="1041666405" List.ListAction="Append" />
 				<enum name="unit_type" value="gunpowder" List.ItemID="723168416" List.ListAction="Append" />
+				<enum name="unit_type" value="cavalry_pistol_anim" List.ItemID="705503623" List.ListAction="Append" />
+				<enum name="unit_type" value="armored" List.ItemID="-1650098150" List.ListAction="Append" />
+				<enum name="unit_type" value="heavy" List.ItemID="-866074905" List.ListAction="Append" />
+				<enum name="unit_type" value="knight" List.ItemID="-1937738430" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-13182395" List.ParentItemID="-13182395">
@@ -127,7 +127,7 @@
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\hre\ranged\weapon_black_rider_4" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_range_handcannon_4_rus" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\scots\weapons\wpn_range_border_reiver_4_sco" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
 						</group>
@@ -136,7 +136,7 @@
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
 								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\hre\ranged\weapon_black_rider_4_caracole" overrideParent="True" />
-								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\rus\weapons\wpn_range_handcannon_4_rus" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\scots\weapons\wpn_range_border_reiver_4_sco" overrideParent="True" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
 							<group name="heading">

@@ -86,6 +86,11 @@
 				<enum name="squad_type" value="knight" overrideParent="True" List.ItemID="-633616373" List.ParentItemID="-633616373" />
 			</list>
 		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-1975515992" List.ParentItemID="-1975515992">
+			<group name="squad_speech_parameters">
+				<enum name="squad_race_code" value="french" overrideParent="True" />
+			</group>
+		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="53910461" List.ParentItemID="53910461">
 			<enum name="unit_type" value="cavalry_heavy" overrideParent="True" />
 		</template_reference>

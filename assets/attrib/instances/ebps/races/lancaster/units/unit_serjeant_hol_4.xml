@@ -229,7 +229,6 @@
 				<enum name="unit_type" value="lancaster_champion" List.ItemID="-747471414" List.ParentItemID="-747471414" />
 				<enum name="unit_type" value="manatarms" List.ItemID="1355508674" />
 				<enum name="unit_type" value="spearman_donso" List.ItemID="-2011557716" List.ParentItemID="-2011557716" />
-				<enum name="unit_type" value="torch_thrower" List.ItemID="-1456752987" List.ParentItemID="-1456752987" />
 				<enum name="unit_type" value="axe_thrower" List.ItemID="1413368848" />
 			</list>
 			<enum name="weapon_targeting" value="automatic" />
@@ -400,7 +399,7 @@
 							<template_reference name="weapon_entity_attachment" value="">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_serjeant_2_com" mod="67987bbc33214c57b0617d9356614825" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_serjeant_4_tem" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\vikings\weapons\wpn_melee_berserker_2_vik" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
@@ -484,7 +483,7 @@
 							<template_reference name="weapon_entity_attachment" value="">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_serjeant_2_com" mod="67987bbc33214c57b0617d9356614825" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_serjeant_4_tem" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\vikings\weapons\wpn_melee_berserker_2_vik" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>

@@ -110,11 +110,11 @@
 			<list name="squad_race_type_list" overrideParent="True">
 				<instance_reference name="squad_race_type" value="racebps\templar" overrideParent="True" List.ItemID="8207826" />
 			</list>
-			<list name="squad_type_list">
-				<enum name="squad_type" value="scar_handcannon" overrideParent="True" List.ItemID="-36339757" List.ParentItemID="-36339757" />
+			<list name="squad_type_list" removedIds="-36339757">
 				<enum name="squad_type" value="gunpowder" overrideParent="True" List.ItemID="-1140852630" List.ParentItemID="-1140852630" />
-				<enum name="squad_type" value="armored" List.ItemID="-907467537" List.ListAction="Append" />
 				<enum name="squad_type" value="handcannon" List.ItemID="-505161220" List.ListAction="Append" />
+				<enum name="squad_type" value="scar_black_rider" List.ItemID="901619611" List.ListAction="Append" />
+				<enum name="squad_type" value="armored" List.ItemID="-704156803" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-170646478" List.ParentItemID="-170646478">

@@ -222,7 +222,6 @@
 				<enum name="unit_type" value="human" List.ItemID="1950067952" />
 				<enum name="unit_type" value="melee" List.ItemID="-1029486702" />
 				<enum name="unit_type" value="formational" List.ItemID="1459120824" />
-				<enum name="unit_type" value="torch_thrower" List.ItemID="989509757" />
 				<enum name="unit_type" value="manatarms" List.ItemID="2066051770" />
 				<enum name="unit_type" value="annihilation_condition" List.ItemID="-583840242" />
 				<enum name="unit_type" value="included_by_military_hotkeys" List.ItemID="-841497244" />

@@ -220,7 +220,6 @@
 				<enum name="unit_type" value="human" List.ItemID="1841267839" />
 				<enum name="unit_type" value="melee" List.ItemID="-1881209566" />
 				<enum name="unit_type" value="formational" List.ItemID="-1149058876" />
-				<enum name="unit_type" value="torch_thrower" List.ItemID="-18554773" />
 				<enum name="unit_type" value="lancaster_champion" List.ItemID="1790206548" />
 				<enum name="unit_type" value="annihilation_condition" List.ItemID="-198063737" />
 				<enum name="unit_type" value="included_by_military_hotkeys" List.ItemID="-304344654" />
@@ -402,7 +401,7 @@
 							<template_reference name="weapon_entity_attachment" value="">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_serjeant_2_com" mod="67987bbc33214c57b0617d9356614825" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_serjeant_4_tem" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\vikings\weapons\wpn_melee_berserker_2_vik" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
@@ -486,7 +485,7 @@
 							<template_reference name="weapon_entity_attachment" value="">
 							</template_reference>
 							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
-								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_serjeant_2_com" mod="67987bbc33214c57b0617d9356614825" />
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\templar\ranged\weapon_serjeant_4_tem" />
 								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\vikings\weapons\wpn_melee_berserker_2_vik" />
 								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" />
 							</template_reference>
