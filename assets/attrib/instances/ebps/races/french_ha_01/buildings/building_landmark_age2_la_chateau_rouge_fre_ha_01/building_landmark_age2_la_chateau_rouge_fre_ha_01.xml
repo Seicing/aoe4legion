@@ -1894,6 +1894,7 @@
 			<group name="attack_move">
 				<float name="attack_move_targeting_range" value="30" />
 				<float name="attack_move_priority_per_distance_meter" value="-1" />
+				<bool name="attack_move_can_use_restricted_targets" value="True" />
 			</group>
 			<group name="idle_targeting">
 				<float name="idle_priority_per_angle_degree" value="-1.5" />
@@ -2010,6 +2011,9 @@
 			<bool name="is_indoors" value="True" />
 			<bool name="right_click_garrison_always_enabled" value="False" />
 			<bool name="exclude_allied_units" value="False" />
+			<bool name="on_loaded_squad_action_tree_reapply_on_bp_conversion" value="False" />
+			<list name="additional_holds">
+			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\trigger_volume_ext" List.ItemID="1972908960" List.ListAction="Append">
 		</template_reference>
@@ -2083,9 +2087,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-384234128">
 					<group name="ui_position">
@@ -2155,9 +2164,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="710051371">
 					<group name="ui_position">
@@ -2175,10 +2189,10 @@
 						<float name="action" value="0" />
 						<float name="command" value="0" />
 						<float name="popcap" value="0" />
-						<float name="food" value="0" />
-						<float name="wood" value="0" />
+						<float name="food" value="-50" overrideParent="True" />
+						<float name="wood" value="-50" overrideParent="True" />
 						<float name="stone" value="0" />
-						<float name="gold" value="0" />
+						<float name="gold" value="-150" overrideParent="True" />
 						<float name="militia_hre" value="0" />
 						<float name="merc_byz" value="0" />
 					</enum_table>
@@ -2226,9 +2240,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" overrideParent="True" List.ItemID="-1457563699">
 					<group name="ui_position">
@@ -2298,9 +2317,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="10758103">
 					<group name="ui_position">
@@ -2364,9 +2388,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1285988152">
 					<group name="ui_position">
@@ -2436,9 +2465,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 			</list>
 			<bool name="must_be_in_supply" value="False" />
@@ -2467,6 +2501,7 @@
 			<bool name="economic_rally_points_allowed" value="False" />
 			<bool name="always_use_economic_rally_points" value="False" />
 			<bool name="use_alternative_rally_point_system" value="False" />
+			<bool name="trade_only_economical_rally" value="False" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="5998963" />

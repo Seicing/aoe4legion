@@ -4,6 +4,11 @@
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_horseman_3" overrideParent="True" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="979295898" List.ParentItemID="979295898">
+			<list name="abilities">
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\abbey_of_kings_king_heal_aura_smaller_eng" List.ItemID="-2146280795" List.ListAction="Append" />
+			</list>
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-12513399" List.ParentItemID="-12513399">
 			<list name="action_state_trees">
 				<group name="container" List.ItemID="-1622883091" List.ParentItemID="-1622883091">

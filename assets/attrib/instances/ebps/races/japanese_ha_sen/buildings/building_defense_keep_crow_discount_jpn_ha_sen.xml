@@ -153,9 +153,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" overrideParent="True" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="899009815">
 					<group name="ui_position">
@@ -225,9 +230,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" overrideParent="True" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1330972276">
 					<group name="ui_position">
@@ -297,9 +307,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" overrideParent="True" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="888065392">
 					<group name="ui_position">
@@ -363,9 +378,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" overrideParent="True" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-933481232">
 					<group name="ui_position">
@@ -434,9 +454,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" overrideParent="True" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="1096935968">
 					<group name="ui_position">
@@ -506,9 +531,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" overrideParent="True" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="935251487">
 					<group name="ui_position">
@@ -572,9 +602,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" overrideParent="True" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-1979773988">
 					<group name="ui_position">
@@ -638,9 +673,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" overrideParent="True" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 				<group name="spawn_item" List.ItemID="-764558444">
 					<group name="ui_position">
@@ -704,9 +744,14 @@
 							<bool name="is_secondary" value="False" />
 							<instance_reference name="secondary_issuable" value="" />
 						</group>
+						<template_reference name="ui_caster_info" value="">
+						</template_reference>
 					</template_reference>
 					<string name="ui_tooltip_data_template" value="" />
 					<file name="ui_icon_name" value="" />
+					<state_tree_node name="cost_openingbranch" value="" overrideParent="True" />
+					<enum name="available_production_count_statemodel" value="" />
+					<bool name="available_production_count_is_shared" value="False" />
 				</group>
 			</list>
 		</template_reference>

@@ -712,7 +712,7 @@
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="-1047004718">
 					<group name="tier" List.ItemID="-1956519612">
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\byzantine_ha_mac\units\tier2_spearman_byz_ha_mac" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\byzantine\units\tier3_manatarms_byz" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" />
 							<bool name="start_suspended" value="False" />

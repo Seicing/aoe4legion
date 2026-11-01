@@ -124,6 +124,7 @@
 			<bool name="can_damage_allies" value="False" />
 			<bool name="hit_everything_on_hit" value="False" />
 			<bool name="can_abort_winddown_on_move_command" value="False" />
+			<bool name="force_square_attack" value="False" />
 		</group>
 		<group name="burst">
 			<bool name="can_burst" value="True" />
@@ -391,7 +392,7 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="10" />
+				<float name="base_damage_modifier" value="30" />
 			</group>
 		</list>
 		<enum_table name="cover_table">
